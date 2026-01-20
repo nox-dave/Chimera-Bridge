@@ -1,0 +1,23 @@
+{
+  "protocol_name": "Pendle",
+  "protocol_slug": "pendle",
+  "address": "0x0000000000ff80149fFFcC8538D4eefBf7b0b9F3",
+  "chain": "Ethereum",
+  "category": "Yield",
+  "tvl": 3494651375.3242416,
+  "is_audited": true,
+  "priority_score": 25,
+  "verdicts": [
+    {
+      "title": "VERY HIGH TVL TARGET",
+      "severity": "INFO",
+      "category": "INTEL",
+      "description": "Protocol holds over $10M in TVL",
+      "evidence": [
+        "TVL: $3,494,651,375"
+      ],
+      "action": "High-value target if vulnerable"
+    }
+  ],
+  "vulnerabilities": []
+}

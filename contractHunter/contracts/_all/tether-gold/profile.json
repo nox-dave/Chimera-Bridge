@@ -1,0 +1,90 @@
+{
+  "protocol_name": "Tether Gold",
+  "protocol_slug": "tether-gold",
+  "address": "0x68749665FF8D2d112Fa859AA293F07A622782F38",
+  "chain": "Ethereum",
+  "category": "RWA",
+  "tvl": 2475195573.9885273,
+  "tvl_formatted": "$2,475,195,574",
+  "is_audited": false,
+  "priority_score": 80,
+  "scanned_at": "2026-01-20T15:05:04.754793",
+  "verdicts": [
+    {
+      "title": "UNAUDITED HIGH-TVL PROTOCOL",
+      "severity": "CRITICAL",
+      "category": "TRUST",
+      "description": "Protocol has $2,475,195,574 TVL without documented audit",
+      "evidence": [
+        "No audit links found",
+        "TVL: $2,475,195,574"
+      ],
+      "action": "Priority target for vulnerability analysis"
+    },
+    {
+      "title": "VERY HIGH TVL TARGET",
+      "severity": "INFO",
+      "category": "INTEL",
+      "description": "Protocol holds over $10M in TVL",
+      "evidence": [
+        "TVL: $2,475,195,574"
+      ],
+      "action": "High-value target if vulnerable"
+    }
+  ],
+  "vulnerabilities": [
+    {
+      "detector": "unchecked-arithmetic-pattern",
+      "type": "integer_overflow",
+      "severity": "Medium",
+      "confidence": 0.6,
+      "title": "Unchecked Arithmetic Block",
+      "description": "Contract uses unchecked blocks. Verify overflow is intentional.",
+      "locations": [],
+      "recommendation": "Ensure unchecked arithmetic cannot cause security issues",
+      "source": "pattern"
+    },
+    {
+      "detector": "unchecked-transfer-pattern",
+      "type": "unchecked_return",
+      "severity": "Medium",
+      "confidence": 0.6,
+      "title": "Potentially Unchecked ERC20 Transfer",
+      "description": "ERC20 transfer may not check return value. Non-standard tokens may return false instead of reverting.",
+      "locations": [],
+      "recommendation": "Use SafeERC20 library or check return value",
+      "source": "pattern"
+    },
+    {
+      "detector": "reentrancy-transfer-pattern",
+      "type": "reentrancy",
+      "severity": "Medium",
+      "confidence": 0.5,
+      "title": "Potential Reentrancy via transfer/send",
+      "description": "State change after transfer/send. Lower risk due to gas limits but still a pattern violation.",
+      "locations": [],
+      "recommendation": "Apply checks-effects-interactions pattern",
+      "source": "pattern"
+    },
+    {
+      "detector": "timestamp-dependence-pattern",
+      "type": "timestamp_dependence",
+      "severity": "Low",
+      "confidence": 0.6,
+      "title": "Timestamp Dependence",
+      "description": "Contract logic depends on block.timestamp. Miners can manipulate slightly.",
+      "locations": [],
+      "recommendation": "Avoid using timestamps for critical logic or use block.number",
+      "source": "pattern"
+    }
+  ],
+  "vulnerability_summary": {
+    "total": 4,
+    "critical": 0,
+    "high": 0,
+    "medium": 3,
+    "low": 1,
+    "info": 0
+  },
+  "has_source_code": true
+}

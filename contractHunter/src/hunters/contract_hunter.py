@@ -36,6 +36,8 @@ import json
 _current_file = Path(__file__).resolve()
 _src_dir = _current_file.parent.parent
 _root_dir = _src_dir.parent
+_chimera_root = _root_dir.parent if _root_dir.name == "contractHunter" else _root_dir
+_default_contracts_dir = _chimera_root / "Contracts"
 
 for path in [str(_src_dir), str(_root_dir)]:
     if path not in sys.path:
@@ -113,6 +115,23 @@ except ImportError:
         try:
             from ..reports.report_generator import ReportGenerator, ProtocolReport
             REPORTS_AVAILABLE = True
+        except ImportError:
+            pass
+
+CATEGORIZER_AVAILABLE = False
+ContractCategorizer = None
+
+try:
+    from utils.contract_categorizer import ContractCategorizer
+    CATEGORIZER_AVAILABLE = True
+except ImportError:
+    try:
+        from src.utils.contract_categorizer import ContractCategorizer
+        CATEGORIZER_AVAILABLE = True
+    except ImportError:
+        try:
+            from ..utils.contract_categorizer import ContractCategorizer
+            CATEGORIZER_AVAILABLE = True
         except ImportError:
             pass
 
@@ -234,10 +253,13 @@ class ContractHunter:
         }
     }
     
-    def __init__(self, output_dir: str = "contracts", etherscan_api_key: Optional[str] = None):
+    def __init__(self, output_dir: Optional[str] = None, etherscan_api_key: Optional[str] = None):
         self.defillama = DeFiLlamaClient()
-        self.output_dir = Path(output_dir)
-        self.output_dir.mkdir(exist_ok=True)
+        if output_dir is None:
+            self.output_dir = _default_contracts_dir
+        else:
+            self.output_dir = Path(output_dir)
+        self.output_dir.mkdir(parents=True, exist_ok=True)
         
         self.etherscan = None
         if EtherscanClient:
@@ -566,6 +588,26 @@ class ContractHunter:
         
         return paths
     
+    def categorize_hunt_results(self, hunt_results_path: str) -> Dict[str, List[str]]:
+        """
+        Categorize contracts from hunt results into archetypes.
+        
+        Args:
+            hunt_results_path: Path to hunt_*.json file
+            
+        Returns:
+            Dict mapping contract slugs to their categories
+        """
+        if not CATEGORIZER_AVAILABLE:
+            return {}
+        
+        try:
+            categorizer = ContractCategorizer(str(self.output_dir))
+            return categorizer.categorize_from_hunt_results(hunt_results_path)
+        except Exception as e:
+            print(f"    [!] Categorization failed: {e}")
+            return {}
+    
     async def hunt_preset(self, preset_name: str, verbose: bool = True) -> HuntResult:
         """
         Run a preset hunt
@@ -713,6 +755,7 @@ class ContractHunter:
             json.dump(result.to_dict(), f, indent=2)
         
         print(f"\n💾 Results saved to: {output_path}")
+        return output_path
     
     def format_target_summary(self, target: ContractTarget) -> str:
         """Format a target for display"""

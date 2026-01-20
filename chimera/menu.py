@@ -35,8 +35,10 @@ sys.path.insert(0, str(WALLET_HUNTER_DIR))
 
 CHIMERA_REPORTS = CHIMERA_ROOT / "reports"
 CHIMERA_RESULTS = CHIMERA_ROOT / "results"
+CHIMERA_CONTRACTS = PROJECT_ROOT / "Contracts"
 CHIMERA_REPORTS.mkdir(exist_ok=True)
 CHIMERA_RESULTS.mkdir(exist_ok=True)
+CHIMERA_CONTRACTS.mkdir(exist_ok=True)
 
 
 class Colors:
@@ -100,7 +102,7 @@ def run_command(cmd: List[str], cwd: Path = None, silent: bool = False):
 
 
 def get_contract_hunt_results() -> List[Path]:
-    results_dir = CONTRACT_HUNTER_DIR / "contracts"
+    results_dir = CHIMERA_CONTRACTS
     if not results_dir.exists():
         return []
     return sorted(results_dir.glob("hunt_*.json"), reverse=True)
@@ -175,7 +177,7 @@ def menu_contract_full_scan():
         "Fetch contract source from Etherscan",
         "Scan with PatternScanner + Slither",
         "Generate vulnerability reports",
-        "Save to chimera/results/"
+        "Save to Contracts/"
     ])
     print()
     
@@ -321,7 +323,7 @@ def menu_browse_contract_reports():
     clear_screen()
     print_header("📁 Contract Hunter → Reports")
     
-    reports_dir = CONTRACT_HUNTER_DIR / "contracts" / "_all"
+    reports_dir = CHIMERA_CONTRACTS / "_all"
     
     if not reports_dir.exists():
         print("No reports found. Run a scan first.")

@@ -1,16 +1,16 @@
 {
   "protocol_slug": "ether.fi-stake",
-  "scanned_at": "2026-01-20T14:29:30.910425",
+  "scanned_at": "2026-01-20T15:05:04.751628",
   "priority_score": 80,
   "verdicts": [
     {
       "title": "UNAUDITED HIGH-TVL PROTOCOL",
       "severity": "CRITICAL",
       "category": "TRUST",
-      "description": "Protocol has $8,863,411,945 TVL without documented audit",
+      "description": "Protocol has $8,855,116,953 TVL without documented audit",
       "evidence": [
         "No audit links found",
-        "TVL: $8,863,411,945"
+        "TVL: $8,855,116,953"
       ],
       "action": "Priority target for vulnerability analysis"
     },
@@ -20,7 +20,7 @@
       "category": "INTEL",
       "description": "Protocol holds over $10M in TVL",
       "evidence": [
-        "TVL: $8,863,411,945"
+        "TVL: $8,855,116,953"
       ],
       "action": "High-value target if vulnerable"
     }

@@ -1,0 +1,105 @@
+{
+  "protocol_name": "BlackRock BUIDL",
+  "protocol_slug": "blackrock-buidl",
+  "address": "0x7712c34205737192402172409a8F7ccef8aA2AEc",
+  "chain": "Ethereum",
+  "category": "RWA",
+  "tvl": 1980597355.6104486,
+  "tvl_formatted": "$1,980,597,356",
+  "is_audited": false,
+  "priority_score": 80,
+  "scanned_at": "2026-01-20T15:05:04.756516",
+  "verdicts": [
+    {
+      "title": "UNAUDITED HIGH-TVL PROTOCOL",
+      "severity": "CRITICAL",
+      "category": "TRUST",
+      "description": "Protocol has $1,980,597,356 TVL without documented audit",
+      "evidence": [
+        "No audit links found",
+        "TVL: $1,980,597,356"
+      ],
+      "action": "Priority target for vulnerability analysis"
+    },
+    {
+      "title": "VERY HIGH TVL TARGET",
+      "severity": "INFO",
+      "category": "INTEL",
+      "description": "Protocol holds over $10M in TVL",
+      "evidence": [
+        "TVL: $1,980,597,356"
+      ],
+      "action": "High-value target if vulnerable"
+    }
+  ],
+  "vulnerabilities": [
+    {
+      "detector": "access-control-pattern",
+      "type": "access_control",
+      "severity": "High",
+      "confidence": 0.8,
+      "title": "Missing Access Control: burn",
+      "description": "Function 'burn' appears sensitive but has no obvious access control modifier.",
+      "locations": [
+        "burn"
+      ],
+      "recommendation": "Add appropriate access control (onlyOwner, onlyAdmin, etc.)",
+      "source": "pattern"
+    },
+    {
+      "detector": "access-control-pattern",
+      "type": "access_control",
+      "severity": "High",
+      "confidence": 0.8,
+      "title": "Missing Access Control: unpause",
+      "description": "Function 'unpause' appears sensitive but has no obvious access control modifier.",
+      "locations": [
+        "unpause"
+      ],
+      "recommendation": "Add appropriate access control (onlyOwner, onlyAdmin, etc.)",
+      "source": "pattern"
+    },
+    {
+      "detector": "unchecked-arithmetic-pattern",
+      "type": "integer_overflow",
+      "severity": "Medium",
+      "confidence": 0.6,
+      "title": "Unchecked Arithmetic Block",
+      "description": "Contract uses unchecked blocks. Verify overflow is intentional.",
+      "locations": [],
+      "recommendation": "Ensure unchecked arithmetic cannot cause security issues",
+      "source": "pattern"
+    },
+    {
+      "detector": "reentrancy-transfer-pattern",
+      "type": "reentrancy",
+      "severity": "Medium",
+      "confidence": 0.5,
+      "title": "Potential Reentrancy via transfer/send",
+      "description": "State change after transfer/send. Lower risk due to gas limits but still a pattern violation.",
+      "locations": [],
+      "recommendation": "Apply checks-effects-interactions pattern",
+      "source": "pattern"
+    },
+    {
+      "detector": "timestamp-dependence-pattern",
+      "type": "timestamp_dependence",
+      "severity": "Low",
+      "confidence": 0.6,
+      "title": "Timestamp Dependence",
+      "description": "Contract logic depends on block.timestamp. Miners can manipulate slightly.",
+      "locations": [],
+      "recommendation": "Avoid using timestamps for critical logic or use block.number",
+      "source": "pattern"
+    }
+  ],
+  "vulnerability_summary": {
+    "total": 5,
+    "critical": 0,
+    "high": 2,
+    "medium": 2,
+    "low": 1,
+    "info": 0
+  },
+  "has_source_code": true
+}

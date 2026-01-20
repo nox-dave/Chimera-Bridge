@@ -1,0 +1,79 @@
+{
+  "protocol_name": "Steakhouse Financial",
+  "protocol_slug": "steakhouse-financial",
+  "address": "0x777777c9898D384F785Ee44Acfe945efDFf5f3E0",
+  "chain": "Ethereum",
+  "category": "Risk Curators",
+  "tvl": 2035185829.3925343,
+  "tvl_formatted": "$2,035,185,829",
+  "is_audited": false,
+  "priority_score": 80,
+  "scanned_at": "2026-01-20T15:05:04.755748",
+  "verdicts": [
+    {
+      "title": "UNAUDITED HIGH-TVL PROTOCOL",
+      "severity": "CRITICAL",
+      "category": "TRUST",
+      "description": "Protocol has $2,035,185,829 TVL without documented audit",
+      "evidence": [
+        "No audit links found",
+        "TVL: $2,035,185,829"
+      ],
+      "action": "Priority target for vulnerability analysis"
+    },
+    {
+      "title": "VERY HIGH TVL TARGET",
+      "severity": "INFO",
+      "category": "INTEL",
+      "description": "Protocol holds over $10M in TVL",
+      "evidence": [
+        "TVL: $2,035,185,829"
+      ],
+      "action": "High-value target if vulnerable"
+    }
+  ],
+  "vulnerabilities": [
+    {
+      "detector": "unchecked-arithmetic-pattern",
+      "type": "integer_overflow",
+      "severity": "Medium",
+      "confidence": 0.6,
+      "title": "Unchecked Arithmetic Block",
+      "description": "Contract uses unchecked blocks. Verify overflow is intentional.",
+      "locations": [],
+      "recommendation": "Ensure unchecked arithmetic cannot cause security issues",
+      "source": "pattern"
+    },
+    {
+      "detector": "timestamp-dependence-pattern",
+      "type": "timestamp_dependence",
+      "severity": "Low",
+      "confidence": 0.6,
+      "title": "Timestamp Dependence",
+      "description": "Contract logic depends on block.timestamp. Miners can manipulate slightly.",
+      "locations": [],
+      "recommendation": "Avoid using timestamps for critical logic or use block.number",
+      "source": "pattern"
+    },
+    {
+      "detector": "reentrancy-eth-pattern",
+      "type": "reentrancy",
+      "severity": "Low",
+      "confidence": 0.3,
+      "title": "Potential Reentrancy (ETH) - Likely Protected",
+      "description": "External call with ETH followed by state change detected. ReentrancyGuard is present - likely protected but verify manually.",
+      "locations": [],
+      "recommendation": "Verify nonReentrant modifier is applied to this function",
+      "source": "pattern"
+    }
+  ],
+  "vulnerability_summary": {
+    "total": 3,
+    "critical": 0,
+    "high": 0,
+    "medium": 1,
+    "low": 2,
+    "info": 0
+  },
+  "has_source_code": true
+}

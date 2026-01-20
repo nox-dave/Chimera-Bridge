@@ -1,0 +1,23 @@
+{
+  "protocol_name": "Lido",
+  "protocol_slug": "lido",
+  "address": "0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84",
+  "chain": "Ethereum",
+  "category": "Liquid Staking",
+  "tvl": 28238129278.85768,
+  "is_audited": true,
+  "priority_score": 25,
+  "verdicts": [
+    {
+      "title": "VERY HIGH TVL TARGET",
+      "severity": "INFO",
+      "category": "INTEL",
+      "description": "Protocol holds over $10M in TVL",
+      "evidence": [
+        "TVL: $28,238,129,279"
+      ],
+      "action": "High-value target if vulnerable"
+    }
+  ],
+  "vulnerabilities": []
+}

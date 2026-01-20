@@ -1,0 +1,103 @@
+{
+  "protocol_name": "ether.fi Stake",
+  "protocol_slug": "ether.fi-stake",
+  "address": "0x35fA164735182de50811E8e2E824cFb9B6118ac2",
+  "chain": "Ethereum",
+  "category": "Liquid Restaking",
+  "tvl": 8855116953.130785,
+  "tvl_formatted": "$8,855,116,953",
+  "is_audited": false,
+  "priority_score": 80,
+  "scanned_at": "2026-01-20T15:20:22.462105",
+  "verdicts": [
+    {
+      "title": "UNAUDITED HIGH-TVL PROTOCOL",
+      "severity": "CRITICAL",
+      "category": "TRUST",
+      "description": "Protocol has $8,855,116,953 TVL without documented audit",
+      "evidence": [
+        "No audit links found",
+        "TVL: $8,855,116,953"
+      ],
+      "action": "Priority target for vulnerability analysis"
+    },
+    {
+      "title": "VERY HIGH TVL TARGET",
+      "severity": "INFO",
+      "category": "INTEL",
+      "description": "Protocol holds over $10M in TVL",
+      "evidence": [
+        "TVL: $8,855,116,953"
+      ],
+      "action": "High-value target if vulnerable"
+    }
+  ],
+  "vulnerabilities": [
+    {
+      "detector": "access-control-pattern",
+      "type": "access_control",
+      "severity": "High",
+      "confidence": 0.8,
+      "title": "Missing Access Control: pauseContract",
+      "description": "Function 'pauseContract' appears sensitive but has no obvious access control modifier.",
+      "locations": [
+        "pauseContract"
+      ],
+      "recommendation": "Add appropriate access control (onlyOwner, onlyAdmin, etc.)",
+      "source": "pattern"
+    },
+    {
+      "detector": "unchecked-arithmetic-pattern",
+      "type": "integer_overflow",
+      "severity": "Medium",
+      "confidence": 0.6,
+      "title": "Unchecked Arithmetic Block",
+      "description": "Contract uses unchecked blocks. Verify overflow is intentional.",
+      "locations": [],
+      "recommendation": "Ensure unchecked arithmetic cannot cause security issues",
+      "source": "pattern"
+    },
+    {
+      "detector": "timestamp-dependence-pattern",
+      "type": "timestamp_dependence",
+      "severity": "Low",
+      "confidence": 0.6,
+      "title": "Timestamp Dependence",
+      "description": "Contract logic depends on block.timestamp. Miners can manipulate slightly.",
+      "locations": [],
+      "recommendation": "Avoid using timestamps for critical logic or use block.number",
+      "source": "pattern"
+    },
+    {
+      "detector": "reentrancy-eth-pattern",
+      "type": "reentrancy",
+      "severity": "Low",
+      "confidence": 0.3,
+      "title": "Potential Reentrancy (ETH) - Likely Protected",
+      "description": "External call with ETH followed by state change detected. ReentrancyGuard is present - likely protected but verify manually.",
+      "locations": [],
+      "recommendation": "Verify nonReentrant modifier is applied to this function",
+      "source": "pattern"
+    },
+    {
+      "detector": "delegatecall-proxy-pattern",
+      "type": "delegatecall",
+      "severity": "Informational",
+      "confidence": 0.9,
+      "title": "Delegatecall in Proxy Contract",
+      "description": "Contract uses delegatecall as part of proxy pattern. Verify implementation address is properly controlled.",
+      "locations": [],
+      "recommendation": "Ensure only authorized addresses can update implementation",
+      "source": "pattern"
+    }
+  ],
+  "vulnerability_summary": {
+    "total": 5,
+    "critical": 0,
+    "high": 1,
+    "medium": 1,
+    "low": 2,
+    "info": 1
+  },
+  "has_source_code": true
+}

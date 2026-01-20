@@ -1,0 +1,23 @@
+{
+  "protocol_name": "Uniswap V3",
+  "protocol_slug": "uniswap-v3",
+  "address": "0x1F98431c8aD98523631AE4a59f267346ea31F984",
+  "chain": "Ethereum",
+  "category": "Dexs",
+  "tvl": 2114816703.8247278,
+  "is_audited": true,
+  "priority_score": 25,
+  "verdicts": [
+    {
+      "title": "VERY HIGH TVL TARGET",
+      "severity": "INFO",
+      "category": "INTEL",
+      "description": "Protocol holds over $10M in TVL",
+      "evidence": [
+        "TVL: $2,114,816,704"
+      ],
+      "action": "High-value target if vulnerable"
+    }
+  ],
+  "vulnerabilities": []
+}

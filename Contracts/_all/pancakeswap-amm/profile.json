@@ -1,0 +1,23 @@
+{
+  "protocol_name": "PancakeSwap AMM",
+  "protocol_slug": "pancakeswap-amm",
+  "address": "0x0BFbCF9fa4f9C56B0F40a671Ad40E0805A091865",
+  "chain": "Ethereum",
+  "category": "Dexs",
+  "tvl": 1888511438.0014234,
+  "is_audited": true,
+  "priority_score": 25,
+  "verdicts": [
+    {
+      "title": "VERY HIGH TVL TARGET",
+      "severity": "INFO",
+      "category": "INTEL",
+      "description": "Protocol holds over $10M in TVL",
+      "evidence": [
+        "TVL: $1,888,511,438"
+      ],
+      "action": "High-value target if vulnerable"
+    }
+  ],
+  "vulnerabilities": []
+}

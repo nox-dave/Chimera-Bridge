@@ -1,0 +1,23 @@
+{
+  "protocol_name": "Curve DEX",
+  "protocol_slug": "curve-dex",
+  "address": "0x90E00ACe148ca3b23Ac1bC8C240C2a7Dd9c2d7f5",
+  "chain": "Ethereum",
+  "category": "Dexs",
+  "tvl": 2115948761.2874708,
+  "is_audited": true,
+  "priority_score": 25,
+  "verdicts": [
+    {
+      "title": "VERY HIGH TVL TARGET",
+      "severity": "INFO",
+      "category": "INTEL",
+      "description": "Protocol holds over $10M in TVL",
+      "evidence": [
+        "TVL: $2,115,948,761"
+      ],
+      "action": "High-value target if vulnerable"
+    }
+  ],
+  "vulnerabilities": []
+}

@@ -56,9 +56,18 @@ CONTRACT HUNTER PIPELINE
 │   ├── Priority score calculation (0-100)
 │   └── Verdict generation
 │
-└── [5/5] Report Generation
-    ├── Save to contracts/_all/
-    ├── Create severity-based symlinks
+└── [5/5] Report Generation & Categorization
+    ├── Save to Contracts/_all/{protocol}/
+    │   ├── profile.json (with vulnerabilities + verdicts)
+    │   ├── summary.txt (human-readable)
+    │   ├── scan_results.json
+    │   ├── report.md
+    │   └── source.sol
+    ├── Auto-categorize into archetypes
+    │   └── ContractCategorizer (mirrors walletHunter OSINT categorization)
+    │       ├── Analyzes vulnerabilities, TVL, audit status, protocol type
+    │       ├── Assigns to category folders (🎯_prime_targets, ⚠️_high_vulns, etc.)
+    │       └── Creates symlinks from categories to _all/
     └── Generate hunt_YYYYMMDD_HHMMSS.json
 ```
 
@@ -158,7 +167,7 @@ COMPLETE CHIMERA WORKFLOW
 │   │       ├── Contract address fetching
 │   │       ├── Source code retrieval
 │   │       ├── PatternScanner + Slither scanning
-│   │       └── Save to contracts/hunt_*.json
+│   │       └── Save to Contracts/hunt_*.json
 │   │
 │   ├── [2] Custom Hunt
 │   │   └── Configure filters (TVL, category, chain, audit)
@@ -271,26 +280,85 @@ CONTRACT HUNTER DETAILED FLOW
 │   │           ├── Vulnerability severity
 │   │           └── Audit status
 │   │
-│   └── Step 5: Save Results
-│       ├── Save to contracts/_all/{protocol}/
-│       ├── Create severity symlinks (🎯_critical, 🎯_high)
+│   └── Step 5: Save Results & Categorization
+│       ├── Save to Contracts/_all/{protocol}/
+│       │   ├── profile.json (with vulnerabilities + verdicts)
+│       │   ├── summary.txt (human-readable)
+│       │   ├── scan_results.json
+│       │   ├── report.md
+│       │   └── source.sol
+│       ├── Auto-categorize into archetypes
+│       │   └── ContractCategorizer.categorize_from_hunt_results()
+│       │       ├── Analyze vulnerabilities, TVL, audit status
+│       │       ├── Assign to category folders (🎯_prime_targets, ⚠️_high_vulns, etc.)
+│       │       └── Create symlinks from categories to _all/
 │       └── Generate hunt_YYYYMMDD_HHMMSS.json
 │
 └── Output Structure
     │
-    └── contracts/
-        ├── _all/
+    └── Contracts/ (Chimera root)
+        ├── _all/ (single source of truth)
         │   └── {protocol_slug}/
-        │       ├── profile.json
+        │       ├── profile.json (complete data + vulnerabilities + verdicts)
+        │       ├── summary.txt (human-readable summary)
         │       ├── source.sol
         │       ├── scan_results.json
         │       └── report.md
         │
-        ├── 🎯_critical/ (symlinks)
-        ├── 🎯_high/ (symlinks)
-        ├── 📦_archive/
+        ├── 🎯_prime_targets/ (symlinks - high TVL + vulns + unaudited)
+        ├── 🎯_critical_vulns/ (symlinks - CRITICAL findings)
+        ├── ⚠️_high_vulns/ (symlinks - HIGH findings)
+        ├── 🌉_bridges/ (symlinks - bridge protocols)
+        ├── 🏦_lending/ (symlinks - lending protocols)
+        ├── 🔀_dex/ (symlinks - DEX protocols)
+        ├── 🥩_staking/ (symlinks - staking protocols)
+        ├── 💰_high_tvl_unaudited/ (symlinks - >$100M unaudited)
+        ├── 🔓_access_control_issues/ (symlinks - access control vulns)
+        ├── 🔄_reentrancy_risk/ (symlinks - reentrancy vulns)
+        └── ... (other category folders)
         │
         └── hunt_YYYYMMDD_HHMMSS.json
+```
+
+```
+CONTRACT CATEGORIZER
+│
+├── Automatic Categorization (runs after each hunt)
+│   └── ContractCategorizer.categorize_from_hunt_results()
+│       │
+│       ├── Analyzes each contract:
+│       │   ├── Vulnerability severity (CRITICAL/HIGH/MEDIUM)
+│       │   ├── Vulnerability type (reentrancy, access control, etc.)
+│       │   ├── Protocol category (bridge, lending, DEX, staking)
+│       │   ├── TVL and audit status
+│       │   └── Priority score
+│       │
+│       ├── Assigns to category folders:
+│       │   ├── 🎯_prime_targets (>$500M TVL + vulns + unaudited)
+│       │   ├── ⚠️_high_vulns (HIGH severity findings)
+│       │   ├── 🎯_critical_vulns (CRITICAL findings)
+│       │   ├── 🌉_bridges (bridge protocols)
+│       │   ├── 🏦_lending (lending protocols)
+│       │   ├── 🔀_dex (DEX protocols)
+│       │   ├── 🥩_staking (staking protocols)
+│       │   ├── 💰_high_tvl_unaudited (>$100M unaudited)
+│       │   ├── 🔓_access_control_issues (access control vulns)
+│       │   ├── 🔄_reentrancy_risk (reentrancy vulns)
+│       │   └── ... (15+ categories)
+│       │
+│       └── Creates symlinks from categories to _all/
+│           └── Single source of truth pattern (mirrors walletHunter)
+│
+├── Address Database Enhancement
+│   ├── Auto-discovers missing addresses from DeFiLlama
+│   ├── Tries multiple chains if primary chain fails
+│   └── Caches discovered addresses during hunt
+│
+└── Manual Categorization
+    └── scripts/categorize.py
+        ├── --hunt-results (categorize from JSON)
+        ├── --recategorize (re-categorize all in _all/)
+        └── --report (print category summary)
 ```
 
 ```
@@ -504,7 +572,7 @@ DATA FLOW DIAGRAM
     ├── PatternScanner
     │   └── Vulnerability detection
     │
-    └── Output: contracts/hunt_*.json
+    └── Output: Contracts/hunt_*.json
         │
         └── chimera/bridge.py
             │
@@ -576,13 +644,21 @@ INTELLIGENCE OUTPUTS
 │
 ├── contractHunter Outputs
 │   │
-│   ├── contracts/_all/{protocol}/
-│   │   ├── profile.json (protocol metadata)
+│   ├── Contracts/_all/{protocol}/ (Chimera root)
+│   │   ├── profile.json (complete data: metadata + vulnerabilities + verdicts)
+│   │   ├── summary.txt (human-readable summary)
 │   │   ├── source.sol (contract source)
 │   │   ├── scan_results.json (vulnerability findings)
-│   │   └── report.md (human-readable report)
+│   │   └── report.md (detailed markdown report)
 │   │
-│   └── contracts/hunt_YYYYMMDD_HHMMSS.json
+│   ├── Contracts/{category_folders}/ (symlinks to _all/)
+│   │   ├── 🎯_prime_targets/ (high TVL + vulns + unaudited)
+│   │   ├── ⚠️_high_vulns/ (HIGH severity findings)
+│   │   ├── 🌉_bridges/ (bridge protocols)
+│   │   ├── 🏦_lending/ (lending protocols)
+│   │   └── ... (15+ category folders)
+│   │
+│   └── Contracts/hunt_YYYYMMDD_HHMMSS.json
 │       ├── timestamp
 │       ├── targets[] (protocols analyzed)
 │       │   ├── protocol_name
@@ -771,7 +847,7 @@ COMPLETE EXAMPLE WORKFLOW
 ├── Step 1: Hunt Vulnerable Contracts
 │   └── chimera/menu.py [1] → [1] Hunt Contracts
 │       │
-│       └── Output: contracts/hunt_20250120_120000.json
+│       └── Output: Contracts/hunt_20250120_120000.json
 │           ├── 15 protocols discovered
 │           ├── 8 with vulnerabilities
 │           └── 3 critical findings
@@ -831,12 +907,25 @@ KEY INTEGRATIONS
 ```
 OUTPUT ORGANIZATION SUMMARY
 │
-├── contractHunter/
-│   └── contracts/
-│       ├── _all/ (all protocols)
-│       ├── 🎯_critical/ (symlinks)
-│       ├── 🎯_high/ (symlinks)
-│       └── hunt_*.json (hunt results)
+├── Contracts/ (Chimera root)
+│   ├── _all/ (all protocols, single source of truth)
+│   ├── 🎯_prime_targets/ (symlinks)
+│   ├── ⚠️_high_vulns/ (symlinks)
+│   ├── 🌉_bridges/ (symlinks)
+│   ├── 🏦_lending/ (symlinks)
+│   └── ... (15+ category folders with symlinks)
+│
+├── Contracts/ (Chimera root)
+│   ├── _all/ (all protocols, single source of truth)
+│   ├── 🎯_prime_targets/ (symlinks - high TVL + vulns + unaudited)
+│   ├── ⚠️_high_vulns/ (symlinks - HIGH severity findings)
+│   ├── 🎯_critical_vulns/ (symlinks - CRITICAL findings)
+│   ├── 🌉_bridges/ (symlinks - bridge protocols)
+│   ├── 🏦_lending/ (symlinks - lending protocols)
+│   ├── 🔀_dex/ (symlinks - DEX protocols)
+│   ├── 🥩_staking/ (symlinks - staking protocols)
+│   ├── 💰_high_tvl_unaudited/ (symlinks - >$100M unaudited)
+│   └── ... (15+ category folders with symlinks)
 │
 ├── walletHunter/
 │   └── profiles/

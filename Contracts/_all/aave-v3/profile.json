@@ -1,0 +1,33 @@
+{
+  "protocol_name": "Aave V3",
+  "protocol_slug": "aave-v3",
+  "address": "0x87870Bca3F3fD6335C3F4ce8392D69350B4fA4E2",
+  "chain": "Ethereum",
+  "category": "Lending",
+  "tvl": 34388435309.30591,
+  "is_audited": true,
+  "priority_score": 60,
+  "verdicts": [
+    {
+      "title": "LENDING PROTOCOL",
+      "severity": "HIGH",
+      "category": "EXPOSURE",
+      "description": "Flash loan and liquidation attack vectors",
+      "evidence": [
+        "Category: Lending"
+      ],
+      "action": "Analyze for category-specific vulnerabilities"
+    },
+    {
+      "title": "VERY HIGH TVL TARGET",
+      "severity": "INFO",
+      "category": "INTEL",
+      "description": "Protocol holds over $10M in TVL",
+      "evidence": [
+        "TVL: $34,388,435,309"
+      ],
+      "action": "High-value target if vulnerable"
+    }
+  ],
+  "vulnerabilities": []
+}

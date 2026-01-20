@@ -1,0 +1,70 @@
+{
+  "protocol_name": "Arbitrum Bridge",
+  "protocol_slug": "arbitrum-bridge",
+  "address": "0x8315177aB297bA92A06054cE80a67Ed4DBd7ed3a",
+  "chain": "Ethereum",
+  "category": "Canonical Bridge",
+  "tvl": 4402823045.787454,
+  "tvl_formatted": "$4,402,823,046",
+  "is_audited": false,
+  "priority_score": 80,
+  "scanned_at": "2026-01-20T15:05:04.752794",
+  "verdicts": [
+    {
+      "title": "UNAUDITED HIGH-TVL PROTOCOL",
+      "severity": "CRITICAL",
+      "category": "TRUST",
+      "description": "Protocol has $4,402,823,046 TVL without documented audit",
+      "evidence": [
+        "No audit links found",
+        "TVL: $4,402,823,046"
+      ],
+      "action": "Priority target for vulnerability analysis"
+    },
+    {
+      "title": "VERY HIGH TVL TARGET",
+      "severity": "INFO",
+      "category": "INTEL",
+      "description": "Protocol holds over $10M in TVL",
+      "evidence": [
+        "TVL: $4,402,823,046"
+      ],
+      "action": "High-value target if vulnerable"
+    }
+  ],
+  "vulnerabilities": [
+    {
+      "detector": "unchecked-call-pattern",
+      "type": "unchecked_return",
+      "severity": "High",
+      "confidence": 0.8,
+      "title": "Unchecked Call Return",
+      "description": "Low-level call without checking return value. Call may fail silently.",
+      "locations": [
+        "Line 691"
+      ],
+      "recommendation": "Check return value: (bool success, ) = addr.call(...); require(success);",
+      "source": "pattern"
+    },
+    {
+      "detector": "reentrancy-eth-pattern",
+      "type": "reentrancy",
+      "severity": "Low",
+      "confidence": 0.3,
+      "title": "Potential Reentrancy (ETH) - Likely Protected",
+      "description": "External call with ETH followed by state change detected. ReentrancyGuard is present - likely protected but verify manually.",
+      "locations": [],
+      "recommendation": "Verify nonReentrant modifier is applied to this function",
+      "source": "pattern"
+    }
+  ],
+  "vulnerability_summary": {
+    "total": 2,
+    "critical": 0,
+    "high": 1,
+    "medium": 0,
+    "low": 1,
+    "info": 0
+  },
+  "has_source_code": true
+}

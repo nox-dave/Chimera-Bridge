@@ -1,0 +1,23 @@
+{
+  "protocol_name": "Ethena USDe",
+  "protocol_slug": "ethena-usde",
+  "address": "0x9D39A5DE30e57443BfF2A8307A4256c8797A3497",
+  "chain": "Ethereum",
+  "category": "Basis Trading",
+  "tvl": 6469470905.400522,
+  "is_audited": true,
+  "priority_score": 25,
+  "verdicts": [
+    {
+      "title": "VERY HIGH TVL TARGET",
+      "severity": "INFO",
+      "category": "INTEL",
+      "description": "Protocol holds over $10M in TVL",
+      "evidence": [
+        "TVL: $6,469,470,905"
+      ],
+      "action": "High-value target if vulnerable"
+    }
+  ],
+  "vulnerabilities": []
+}

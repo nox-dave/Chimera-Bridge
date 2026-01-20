@@ -1,0 +1,33 @@
+{
+  "protocol_name": "SparkLend",
+  "protocol_slug": "sparklend",
+  "address": "0xC13e21B648A5Ee794902342038FF3aDAB66BE987",
+  "chain": "Ethereum",
+  "category": "Lending",
+  "tvl": 3443840926.004102,
+  "is_audited": true,
+  "priority_score": 60,
+  "verdicts": [
+    {
+      "title": "LENDING PROTOCOL",
+      "severity": "HIGH",
+      "category": "EXPOSURE",
+      "description": "Flash loan and liquidation attack vectors",
+      "evidence": [
+        "Category: Lending"
+      ],
+      "action": "Analyze for category-specific vulnerabilities"
+    },
+    {
+      "title": "VERY HIGH TVL TARGET",
+      "severity": "INFO",
+      "category": "INTEL",
+      "description": "Protocol holds over $10M in TVL",
+      "evidence": [
+        "TVL: $3,443,840,926"
+      ],
+      "action": "High-value target if vulnerable"
+    }
+  ],
+  "vulnerabilities": []
+}

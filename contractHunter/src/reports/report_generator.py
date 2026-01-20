@@ -8,14 +8,21 @@ Directory Structure:
     contracts/
     ├── _all/                       # Single source of truth
     │   └── {protocol_slug}/
-    │       ├── profile.json        # Protocol metadata
+    │       ├── profile.json        # Complete protocol data (metadata + vulnerabilities + verdicts)
+    │       ├── summary.txt         # Human-readable summary (like walletHunter)
     │       ├── source.sol          # Contract source code
-    │       ├── scan_results.json   # Vulnerability findings
-    │       └── report.md           # Human-readable report
+    │       ├── scan_results.json  # Vulnerability findings (structured)
+    │       └── report.md          # Detailed markdown report
     │
-    ├── 🎯_critical/                # Symlinks to CRITICAL findings
-    ├── 🎯_high/                    # Symlinks to HIGH findings  
-    ├── 📦_archive/                 # Low priority / reviewed
+    ├── 🎯_prime_targets/           # Symlinks (high TVL + vulns + unaudited)
+    ├── 🎯_critical_vulns/         # Symlinks (CRITICAL findings)
+    ├── ⚠️_high_vulns/             # Symlinks (HIGH findings)
+    ├── 🌉_bridges/                # Symlinks (bridge protocols)
+    ├── 🏦_lending/                # Symlinks (lending protocols)
+    ├── 🔀_dex/                     # Symlinks (DEX protocols)
+    ├── 🥩_staking/                 # Symlinks (staking protocols)
+    ├── 💰_high_tvl_unaudited/     # Symlinks (>$100M unaudited)
+    └── ... (other category folders)
     │
     └── reports/
         └── hunt_{timestamp}.md     # Summary report per hunt
@@ -68,8 +75,15 @@ class ReportGenerator:
     Generates reports and organizes results into directories.
     """
     
-    def __init__(self, output_dir: str = "contracts"):
-        self.output_dir = Path(output_dir)
+    def __init__(self, output_dir: Optional[str] = None):
+        if output_dir is None:
+            current_file = Path(__file__).resolve()
+            src_dir = current_file.parent.parent
+            root_dir = src_dir.parent
+            chimera_root = root_dir.parent if root_dir.name == "contractHunter" else root_dir
+            self.output_dir = chimera_root / "Contracts"
+        else:
+            self.output_dir = Path(output_dir)
         self._setup_directories()
     
     def _setup_directories(self):
@@ -114,6 +128,17 @@ class ReportGenerator:
             "is_audited": report.is_audited,
             "priority_score": report.priority_score,
             "scanned_at": report.scanned_at,
+            "verdicts": report.verdicts,
+            "vulnerabilities": report.vulnerabilities,
+            "vulnerability_summary": {
+                "total": len(report.vulnerabilities),
+                "critical": sum(1 for v in report.vulnerabilities if v.get("severity", "").upper() == "CRITICAL"),
+                "high": sum(1 for v in report.vulnerabilities if v.get("severity", "").upper() == "HIGH"),
+                "medium": sum(1 for v in report.vulnerabilities if v.get("severity", "").upper() == "MEDIUM"),
+                "low": sum(1 for v in report.vulnerabilities if v.get("severity", "").upper() == "LOW"),
+                "info": sum(1 for v in report.vulnerabilities if v.get("severity", "").upper() == "INFORMATIONAL"),
+            },
+            "has_source_code": report.source_code is not None,
         }
         with open(protocol_dir / "profile.json", "w") as f:
             json.dump(profile, f, indent=2)
@@ -130,11 +155,11 @@ class ReportGenerator:
             "vulnerabilities": report.vulnerabilities,
             "summary": {
                 "total": len(report.vulnerabilities),
-                "critical": sum(1 for v in report.vulnerabilities if v.get("severity") == "Critical"),
-                "high": sum(1 for v in report.vulnerabilities if v.get("severity") == "High"),
-                "medium": sum(1 for v in report.vulnerabilities if v.get("severity") == "Medium"),
-                "low": sum(1 for v in report.vulnerabilities if v.get("severity") == "Low"),
-                "info": sum(1 for v in report.vulnerabilities if v.get("severity") == "Informational"),
+                "critical": sum(1 for v in report.vulnerabilities if v.get("severity", "").upper() == "CRITICAL"),
+                "high": sum(1 for v in report.vulnerabilities if v.get("severity", "").upper() == "HIGH"),
+                "medium": sum(1 for v in report.vulnerabilities if v.get("severity", "").upper() == "MEDIUM"),
+                "low": sum(1 for v in report.vulnerabilities if v.get("severity", "").upper() == "LOW"),
+                "info": sum(1 for v in report.vulnerabilities if v.get("severity", "").upper() == "INFORMATIONAL"),
             }
         }
         with open(protocol_dir / "scan_results.json", "w") as f:
@@ -143,6 +168,10 @@ class ReportGenerator:
         md_report = self._generate_markdown_report(report)
         with open(protocol_dir / "report.md", "w") as f:
             f.write(md_report)
+        
+        summary_txt = self._generate_summary_text(report)
+        with open(protocol_dir / "summary.txt", "w", encoding="utf-8") as f:
+            f.write(summary_txt)
         
         if create_symlinks:
             self._create_priority_symlinks(report, protocol_dir)
@@ -293,6 +322,83 @@ class ReportGenerator:
         
         lines.append("---")
         lines.append("*Generated by Basilisk Contract Hunter*")
+        
+        return "\n".join(lines)
+    
+    def _generate_summary_text(self, report: ProtocolReport) -> str:
+        """Generate human-readable summary text file"""
+        lines = []
+        
+        lines.append("=" * 70)
+        lines.append(f"🔱 BASILISK SECURITY REPORT: {report.protocol_name}")
+        lines.append("=" * 70)
+        lines.append("")
+        
+        lines.append("PROTOCOL OVERVIEW")
+        lines.append("-" * 70)
+        lines.append(f"Name:           {report.protocol_name}")
+        lines.append(f"Address:        {report.address}")
+        lines.append(f"Chain:          {report.chain}")
+        lines.append(f"Category:       {report.category}")
+        lines.append(f"TVL:            ${report.tvl:,.0f}")
+        lines.append(f"Audit Status:   {'✅ Audited' if report.is_audited else '❌ Unaudited'}")
+        lines.append(f"Priority Score:  {report.priority_score}/100")
+        lines.append(f"Scanned At:     {report.scanned_at}")
+        lines.append("")
+        
+        if report.verdicts:
+            lines.append("VERDICTS")
+            lines.append("-" * 70)
+            for v in report.verdicts:
+                severity = v.get("severity", "INFO")
+                icon = {"CRITICAL": "🚨", "HIGH": "⚠️", "MEDIUM": "⚡", "LOW": "📌", "INFO": "ℹ️"}.get(severity, "•")
+                lines.append(f"{icon} [{severity}] {v.get('title', 'Unknown')}")
+                if v.get("description"):
+                    lines.append(f"   {v.get('description')}")
+            lines.append("")
+        
+        vulns = report.vulnerabilities
+        if vulns:
+            critical = [v for v in vulns if v.get("severity", "").upper() == "CRITICAL"]
+            high = [v for v in vulns if v.get("severity", "").upper() == "HIGH"]
+            medium = [v for v in vulns if v.get("severity", "").upper() == "MEDIUM"]
+            low = [v for v in vulns if v.get("severity", "").upper() == "LOW"]
+            
+            lines.append("VULNERABILITY SUMMARY")
+            lines.append("-" * 70)
+            lines.append(f"Total Findings:     {len(vulns)}")
+            lines.append(f"🚨 Critical:        {len(critical)}")
+            lines.append(f"⚠️  High:            {len(high)}")
+            lines.append(f"⚡ Medium:          {len(medium)}")
+            lines.append(f"📌 Low:             {len(low)}")
+            lines.append("")
+            
+            if critical:
+                lines.append("CRITICAL FINDINGS")
+                lines.append("-" * 70)
+                for i, v in enumerate(critical, 1):
+                    lines.append(f"\n{i}. {v.get('title', 'Unknown')}")
+                    lines.append(f"   Detector: {v.get('detector', 'N/A')}")
+                    lines.append(f"   Confidence: {v.get('confidence', 0):.0%}")
+                    if v.get("description"):
+                        lines.append(f"   Description: {v.get('description')}")
+                    if v.get("locations"):
+                        lines.append(f"   Locations: {', '.join(v.get('locations', []))}")
+                lines.append("")
+            
+            if high:
+                lines.append("HIGH SEVERITY FINDINGS")
+                lines.append("-" * 70)
+                for i, v in enumerate(high, 1):
+                    lines.append(f"\n{i}. {v.get('title', 'Unknown')}")
+                    lines.append(f"   Detector: {v.get('detector', 'N/A')}")
+                    if v.get("description"):
+                        lines.append(f"   Description: {v.get('description')}")
+                lines.append("")
+        
+        lines.append("=" * 70)
+        lines.append("Generated by Basilisk Contract Hunter")
+        lines.append("=" * 70)
         
         return "\n".join(lines)
     
@@ -448,7 +554,7 @@ class ReportGenerator:
 def save_hunt_results(
     hunt_result: Any,
     scanned_targets: List[Any],
-    output_dir: str = "contracts"
+    output_dir: Optional[str] = None
 ) -> Dict[str, Path]:
     """
     Save all hunt results to organized directories.
@@ -456,7 +562,7 @@ def save_hunt_results(
     Args:
         hunt_result: HuntResult object from ContractHunter
         scanned_targets: List of ContractTarget objects that were scanned
-        output_dir: Base output directory
+        output_dir: Base output directory (defaults to Chimera root/Contracts)
         
     Returns:
         Dict with paths to generated files

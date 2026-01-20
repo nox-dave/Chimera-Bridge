@@ -215,8 +215,9 @@ Examples:
         else:
             hunter.print_results(result, show_all=args.all)
         
+        hunt_json_path = None
         if args.save:
-            hunter.save_results(result)
+            hunt_json_path = hunter.save_results(result)
         
         if result.contracts_analyzed > 0:
             if not args.quiet and not args.json:
@@ -226,6 +227,9 @@ Examples:
                 print(f"   Saved {len(paths['protocols'])} protocol reports")
                 if paths['summary']:
                     print(f"   Summary: {paths['summary']}")
+            
+            if hunt_json_path:
+                hunter.categorize_hunt_results(str(hunt_json_path))
             
     except ValueError as e:
         cprint(f"\n❌ Error: {e}", "red")

@@ -1,0 +1,33 @@
+{
+  "protocol_name": "Hyperliquid Bridge",
+  "protocol_slug": "hyperliquid-bridge",
+  "address": "0x2DF1c51E09aECF9cacB7bc98cB1742757f163dF7",
+  "chain": "Ethereum",
+  "category": "Bridge",
+  "tvl": 4411457204.400788,
+  "is_audited": true,
+  "priority_score": 70,
+  "verdicts": [
+    {
+      "title": "BRIDGE PROTOCOL",
+      "severity": "CRITICAL",
+      "category": "EXPOSURE",
+      "description": "Bridge exploits historically cause massive losses",
+      "evidence": [
+        "Category: Bridge"
+      ],
+      "action": "Analyze for category-specific vulnerabilities"
+    },
+    {
+      "title": "VERY HIGH TVL TARGET",
+      "severity": "INFO",
+      "category": "INTEL",
+      "description": "Protocol holds over $10M in TVL",
+      "evidence": [
+        "TVL: $4,411,457,204"
+      ],
+      "action": "High-value target if vulnerable"
+    }
+  ],
+  "vulnerabilities": []
+}

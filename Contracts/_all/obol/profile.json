@@ -1,0 +1,34 @@
+{
+  "protocol_name": "Obol",
+  "protocol_slug": "obol",
+  "address": "0xAA78D336E65c18aD7a9B7B0D7e33C3bF8a65ad5F",
+  "chain": "Ethereum",
+  "category": "Staking Pool",
+  "tvl": 1826839649.451082,
+  "is_audited": false,
+  "priority_score": 80,
+  "verdicts": [
+    {
+      "title": "UNAUDITED HIGH-TVL PROTOCOL",
+      "severity": "CRITICAL",
+      "category": "TRUST",
+      "description": "Protocol has $1,826,839,649 TVL without documented audit",
+      "evidence": [
+        "No audit links found",
+        "TVL: $1,826,839,649"
+      ],
+      "action": "Priority target for vulnerability analysis"
+    },
+    {
+      "title": "VERY HIGH TVL TARGET",
+      "severity": "INFO",
+      "category": "INTEL",
+      "description": "Protocol holds over $10M in TVL",
+      "evidence": [
+        "TVL: $1,826,839,649"
+      ],
+      "action": "High-value target if vulnerable"
+    }
+  ],
+  "vulnerabilities": []
+}

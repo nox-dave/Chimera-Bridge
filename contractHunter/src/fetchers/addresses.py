@@ -3,9 +3,99 @@ Contract Address Database
 
 Hardcoded addresses for popular DeFi protocols.
 DeFiLlama doesn't expose addresses via API, so we maintain this list.
+
+To add more protocols:
+1. Find the protocol on DeFiLlama
+2. Get the contract address from their docs or Etherscan
+3. Add to PROTOCOL_ADDRESSES with the DeFiLlama slug as key
 """
 
 PROTOCOL_ADDRESSES = {
+    # =========================================================================
+    # LIQUID STAKING / RESTAKING (High Priority)
+    # =========================================================================
+    "ether.fi-stake": {
+        "Ethereum": "0x35fA164735182de50811E8e2E824cFb9B6118ac2",
+    },
+    "lido": {
+        "Ethereum": "0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84",
+    },
+    "rocket-pool": {
+        "Ethereum": "0xDD3f50F8A6CafbE9b31a427582963f465E745AF8",
+    },
+    "eigenlayer": {
+        "Ethereum": "0x858646372CC42E1A627fcE94aa7A7033e7CF075A",
+    },
+    "frax-ether": {
+        "Ethereum": "0xac3E018457B222d93114458476f3E3416Abbe38F",
+    },
+    "coinbase-wrapped-staked-eth": {
+        "Ethereum": "0xBe9895146f7AF43049ca1c1AE358B0541Ea49704",
+    },
+    "stakewise-v3": {
+        "Ethereum": "0xf1C9acDc66974dFB6dEcB12aA385b9cD01190E38",
+    },
+    "mantle-staked-eth": {
+        "Ethereum": "0xe3cBd06D7dadB3F4e6557bAb7EdD924CD1489E8f",
+    },
+    "obol": {
+        "Ethereum": "0xAA78D336E65c18aD7a9B7B0D7e33C3bF8a65ad5F",
+    },
+    "swell": {
+        "Ethereum": "0xf951E335afb289353dc249e82926178EaC7DEd78",
+    },
+    "kelp-dao": {
+        "Ethereum": "0x036676389e48133B63a802f8635AD39E752D375D",
+    },
+    "renzo": {
+        "Ethereum": "0x74a09653A083691711cF8215a6ab074BB4e99ef5",
+    },
+    "puffer-finance": {
+        "Ethereum": "0xD9A442856C234a39a81a089C06451EBAa4306a72",
+    },
+    
+    # =========================================================================
+    # BRIDGES (High Priority - often targeted)
+    # =========================================================================
+    "arbitrum-bridge": {
+        "Ethereum": "0x8315177aB297bA92A06054cE80a67Ed4DBd7ed3a",
+    },
+    "base-bridge": {
+        "Ethereum": "0x49048044D57e1C92A77f79988d21Fa8fAF74E97e",
+    },
+    "optimism-bridge": {
+        "Ethereum": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
+    },
+    "polygon-bridge": {
+        "Ethereum": "0xA0c68C638235ee32657e8f720a23ceC1bFc77C77",
+    },
+    "stargate": {
+        "Ethereum": "0x8731d54E9D02c286767d56ac03e8037C07e01e98",
+        "Arbitrum": "0x53Bf833A5d6c4ddA888F69c22C88C9f356a41614",
+        "Optimism": "0xB0D502E938ed5f4df2E681fE6E419ff29631d62b",
+    },
+    "across": {
+        "Ethereum": "0x5c7BCd6E7De5423a257D81B442095A1a6ced35C5",
+    },
+    "hop-protocol": {
+        "Ethereum": "0xb8901acB165ed027E32754E0FFe830802919727f",
+    },
+    "celer-cbridge": {
+        "Ethereum": "0x5427FEFA711Eff984124bFBB1AB6fbf5E3DA1820",
+    },
+    "synapse": {
+        "Ethereum": "0x2796317b0fF8538F253012862c06787Adfb8cEb6",
+    },
+    "wormhole": {
+        "Ethereum": "0x98f3c9e6E3fAce36bAAd05FE09d375Ef1464288B",
+    },
+    "layerzero": {
+        "Ethereum": "0x66A71Dcef29A0fFBDBE3c6a460a3B5BC225Cd675",
+    },
+    
+    # =========================================================================
+    # LENDING (High TVL)
+    # =========================================================================
     "aave-v3": {
         "Ethereum": "0x87870Bca3F3fD6335C3F4ce8392D69350B4fA4E2",
         "Arbitrum": "0x794a61358D6845594F94dc1DB02A252b5b4814aD",
@@ -37,6 +127,23 @@ PROTOCOL_ADDRESSES = {
     "benqi-lending": {
         "Avalanche": "0x486Af39519B4Dc9a7fCcd318217352830E8AD9b4",
     },
+    "radiant-v2": {
+        "Arbitrum": "0x2032b9A8e9F7e76768CA9271003d3e43E1616B1F",
+    },
+    "fluid": {
+        "Ethereum": "0x52Aa899454998Be5b000Ad077a46Bbe360F4e497",
+    },
+    "euler": {
+        "Ethereum": "0x27182842E098f60e3D576794A5bFFb0777E025d3",
+    },
+    "silo-finance": {
+        "Ethereum": "0xd998C35B7900b344bbBe6555cc11576942Cf309d",
+        "Arbitrum": "0x8658047e48CC09161f4152c79155Dac1d710Ff0a",
+    },
+    
+    # =========================================================================
+    # DEXes
+    # =========================================================================
     "uniswap-v3": {
         "Ethereum": "0x1F98431c8aD98523631AE4a59f267346ea31F984",
         "Arbitrum": "0x1F98431c8aD98523631AE4a59f267346ea31F984",
@@ -76,47 +183,13 @@ PROTOCOL_ADDRESSES = {
         "Avalanche": "0xb4315e873dBcf96Ffd0acd8EA43f689D8c20fB30",
         "Arbitrum": "0xb4315e873dBcf96Ffd0acd8EA43f689D8c20fB30",
     },
-    "stargate": {
-        "Ethereum": "0x8731d54E9D02c286767d56ac03e8037C07e01e98",
-        "Arbitrum": "0x53Bf833A5d6c4ddA888F69c22C88C9f356a41614",
-        "Optimism": "0xB0D502E938ed5f4df2E681fE6E419ff29631d62b",
+    "maverick": {
+        "Ethereum": "0xEb6625D65a0553c9dBc64449e56abFe519bd9c9B",
     },
-    "across": {
-        "Ethereum": "0x5c7BCd6E7De5423a257D81B442095A1a6ced35C5",
-    },
-    "hop-protocol": {
-        "Ethereum": "0xb8901acB165ed027E32754E0FFe830802919727f",
-    },
-    "celer-cbridge": {
-        "Ethereum": "0x5427FEFA711Eff984124bFBB1AB6fbf5E3DA1820",
-    },
-    "synapse": {
-        "Ethereum": "0x2796317b0fF8538F253012862c06787Adfb8cEb6",
-    },
-    "wormhole": {
-        "Ethereum": "0x98f3c9e6E3fAce36bAAd05FE09d375Ef1464288B",
-    },
-    "layerzero": {
-        "Ethereum": "0x66A71Dcef29A0fFBDBE3c6a460a3B5BC225Cd675",
-    },
-    "lido": {
-        "Ethereum": "0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84",
-    },
-    "rocket-pool": {
-        "Ethereum": "0xDD3f50F8A6CafbE9b31a427582963f465E745AF8",
-    },
-    "frax-ether": {
-        "Ethereum": "0xac3E018457B222d93114458476f3E3416Abbe38F",
-    },
-    "coinbase-wrapped-staked-eth": {
-        "Ethereum": "0xBe9895146f7AF43049ca1c1AE358B0541Ea49704",
-    },
-    "stakewise-v3": {
-        "Ethereum": "0xf1C9acDc66974dFB6dEcB12aA385b9cD01190E38",
-    },
-    "mantle-staked-eth": {
-        "Ethereum": "0xe3cBd06D7dadB3F4e6557bAb7EdD924CD1489E8f",
-    },
+    
+    # =========================================================================
+    # YIELD / CDP
+    # =========================================================================
     "yearn-finance": {
         "Ethereum": "0x50c1a2eA0a861A967D9d0FFE2AE4012c2E053804",
     },
@@ -133,12 +206,20 @@ PROTOCOL_ADDRESSES = {
     "liquity": {
         "Ethereum": "0xA39739EF8b0231DbFA0DcdA07d7e29faAbCf4bb2",
     },
-    "liquity-v2": {
-        "Ethereum": "0x0000000000000000000000000000000000000000",
-    },
     "prisma-finance": {
         "Ethereum": "0xed8B26D99834540C5013701bB3715faFD39993Ba",
     },
+    "pendle": {
+        "Ethereum": "0x0000000000ff80149fFFcC8538D4eefBf7b0b9F3",
+        "Arbitrum": "0x0000000000FF80149fFFcC8538d4eEfBf7B0B9f3",
+    },
+    "ethena": {
+        "Ethereum": "0x9D39A5DE30e57443BfF2A8307A4256c8797A3497",
+    },
+    
+    # =========================================================================
+    # PERPETUALS / DERIVATIVES
+    # =========================================================================
     "gmx-v2": {
         "Arbitrum": "0xC8ee91A54287DB53897056e12D9819156D3822Fb",
         "Avalanche": "0xC8ee91A54287DB53897056e12D9819156D3822Fb",
@@ -159,210 +240,79 @@ PROTOCOL_ADDRESSES = {
         "Ethereum": "0x1E0447b19BB6EcFdAe1e4AE1694b0C3659614e4e",
     },
     "hyperliquid": {
-        "Arbitrum": "0x0000000000000000000000000000000000000000",
+        "Arbitrum": "0x2DF1c51E09aECF9cacB7bc98cB1742757f163dF7",
     },
-    "lyra-v2": {
-        "Ethereum": "0x0000000000000000000000000000000000000000",
+    
+    # =========================================================================
+    # RWA (Real World Assets)
+    # =========================================================================
+    "tether-gold": {
+        "Ethereum": "0x68749665FF8D2d112Fa859AA293F07A622782F38",
     },
-    "dopex": {
-        "Arbitrum": "0x6C2C06790b3E3E3c38e12Ee22F8183b37a13EE55",
+    "blackrock-buidl": {
+        "Ethereum": "0x7712c34205737192402172409a8F7ccef8aA2AEc",
     },
-    "eigenlayer": {
-        "Ethereum": "0x858646372CC42E1A627fcE94aa7A7033e7CF075A",
+    "ondo-finance": {
+        "Ethereum": "0x96F6eF951840721AdBF46Ac996b59E0235CB985C",
     },
-    "symbiotic": {
-        "Ethereum": "0x0000000000000000000000000000000000000000",
+    "centrifuge": {
+        "Ethereum": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
     },
-    "karak": {
-        "Ethereum": "0x0000000000000000000000000000000000000000",
-    },
-    "ether.fi-stake": {
-        "Ethereum": "0x35fA164735182de50811E8e2E824cFb9B6118ac2",
-    },
-    "pendle": {
-        "Ethereum": "0x0000000000ff80149fFFcC8538D4eefBf7b0b9F3",
-        "Arbitrum": "0x0000000000FF80149fFFcC8538d4eEfBf7B0B9f3",
-    },
-    "ethena": {
-        "Ethereum": "0x9D39A5DE30e57443BfF2A8307A4256c8797A3497",
-    },
-    "morpho": {
-        "Ethereum": "0xBBBBBbbBBb9cC5e90e3b3Af64bdAF62C37EEFFCb",
-    },
-    "radiant-v2": {
-        "Ethereum": "0x4a76E5e6D5859c0B8be32B885b3433284bC94DF7",
-        "Arbitrum": "0x4a76E5e6D5859c0B8be32B885b3433284bC94DF7",
-    },
-    "sonne-finance": {
-        "Optimism": "0x60CF091cD3f50420d50fD7f707414d0DF4751C58",
-        "Base": "0x60CF091cD3f50420d50fD7f707414d0DF4751C58",
-    },
-    "moonwell": {
-        "Base": "0x628ff693426583D9a7FB391E54366292F509A457",
-    },
-    "seamless-protocol": {
-        "Base": "0x6f76C6F0e5b0b0F0C5B3b3F3F3F3F3F3F3F3F3F",
-    },
-    "frax-lend": {
-        "Ethereum": "0x4e4A47cAc6A28A62dcc20990ed2cDa9a6590F551",
-    },
-    "flux-finance": {
-        "Ethereum": "0x465a5a630482f3abD6d3b84B39B29b07214d19e5",
-    },
-    "euler": {
-        "Ethereum": "0x27182842E098f60e3D576794A5bFFb0777E025d3",
-    },
-    "gearbox": {
-        "Ethereum": "0x86130bDD69143D8a4E5fc50bf4323D48049E98E4",
-    },
-    "exactly": {
-        "Ethereum": "0x4e4A47cAc6A28A62dcc20990ed2cDa9a6590F551",
-        "Optimism": "0x4e4A47cAc6A28A62dcc20990ed2cDa9a6590F551",
-        "Arbitrum": "0x4e4A47cAc6A28A62dcc20990ed2cDa9a6590F551",
-    },
-    "0vix": {
-        "Polygon": "0x4e4A47cAc6A28A62dcc20990ed2cDa9a6590F551",
-    },
-    "radiant-capital": {
-        "Arbitrum": "0x4a76E5e6D5859c0B8be32B885b3433284bC94DF7",
-        "BSC": "0x4a76E5e6D5859c0B8be32B885b3433284bC94DF7",
-    },
-    "dforce": {
-        "Ethereum": "0x3677E4bF7C0C3B5B3B5B3B5B3B5B3B5B3B5B3B5",
-    },
-    "marginfi": {
-        "Solana": "0x0000000000000000000000000000000000000000",
-    },
-    "jupiter-aggregator": {
-        "Solana": "0x0000000000000000000000000000000000000000",
-    },
-    "1inch": {
-        "Ethereum": "0x1111111254EEB25477B68fb85Ed929f73A960582",
-        "Arbitrum": "0x1111111254EEB25477B68fb85Ed929f73A960582",
-        "Polygon": "0x1111111254EEB25477B68fb85Ed929f73A960582",
-        "Optimism": "0x1111111254EEB25477B68fb85Ed929f73A960582",
-        "Base": "0x1111111254EEB25477B68fb85Ed929f73A960582",
-        "BSC": "0x1111111254EEB25477B68fb85Ed929f73A960582",
-    },
-    "paraswap": {
-        "Ethereum": "0xDEF171Fe48CF0115B1d80b88dc8eAB59176FEe57",
-        "Arbitrum": "0xDEF171Fe48CF0115B1d80b88dc8eAB59176FEe57",
-        "Polygon": "0xDEF171Fe48CF0115B1d80b88dc8eAB59176FEe57",
-        "Optimism": "0xDEF171Fe48CF0115B1d80b88dc8eAB59176FEe57",
-        "Base": "0xDEF171Fe48CF0115B1d80b88dc8eAB59176FEe57",
-        "BSC": "0xDEF171Fe48CF0115B1d80b88dc8eAB59176FEe57",
-    },
-    "matcha": {
-        "Ethereum": "0x617Dee16B86534a5d792A4d7A62FBcB1e6b8B9E1",
-    },
-    "kyberswap-elastic": {
-        "Ethereum": "0xC1e7dFE73E1598E3910EF4C7845B68A9Ab6F4c83",
-        "Arbitrum": "0xC1e7dFE73E1598E3910EF4C7845B68A9Ab6F4c83",
-        "Polygon": "0xC1e7dFE73E1598E3910EF4C7845B68A9Ab6F4c83",
-        "Optimism": "0xC1e7dFE73E1598E3910EF4C7845B68A9Ab6F4c83",
-        "Base": "0xC1e7dFE73E1598E3910EF4C7845B68A9Ab6F4c83",
-        "BSC": "0xC1e7dFE73E1598E3910EF4C7845B68A9Ab6F4c83",
-    },
-    "kyberswap-classic": {
-        "Ethereum": "0x6131B5fae19EA4f9D964eAc0408E4408b66337b5",
-        "Arbitrum": "0x6131B5fae19EA4f9D964eAc0408E4408b66337b5",
-        "Polygon": "0x6131B5fae19EA4f9D964eAc0408E4408b66337b5",
-        "Optimism": "0x6131B5fae19EA4f9D964eAc0408E4408b66337b5",
-        "Base": "0x6131B5fae19EA4f9D964eAc0408E4408b66337b5",
-        "BSC": "0x6131B5fae19EA4f9D964eAc0408E4408b66337b5",
-    },
-    "dodo": {
-        "Ethereum": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
-        "Arbitrum": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
-        "BSC": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
-    },
-    "bancor-v3": {
-        "Ethereum": "0xeEF417e1D5CC832e628ae7E458A7576E954E7E90C",
-    },
-    "maverick": {
-        "Ethereum": "0x402A401B194cF2B3f1c1F5f1158Fc13D25d4e16c",
-        "Base": "0x402A401B194cF2B3f1c1F5f1158Fc13D25d4e16c",
-    },
-    "fraxswap": {
-        "Ethereum": "0x43b2F13d2c13b3E4D8F2B3730e0A1C2C898Dd15",
-    },
-    "frax-amm": {
-        "Ethereum": "0x43b2F13d2c13b3E4D8F2B3730e0A1C2C898Dd15",
-    },
-    "frax-ether": {
-        "Ethereum": "0xac3E018457B222d93114458476f3E3416Abbe38F",
-    },
-    "frax": {
-        "Ethereum": "0x853d955aCEf822Db058eb8505911ED77F175b99e",
-    },
-    "frax-price-index": {
-        "Ethereum": "0x852c405353Df91FD53d9129A6Ea61b67720b3c3d",
-    },
-    "frax-ferry": {
-        "Ethereum": "0x853d955aCEf822Db058eb8505911ED77F175b99e",
-    },
-    "fraxswap-v2": {
-        "Ethereum": "0x43b2F13d2c13b3E4D8F2B3730e0A1C2C898Dd15",
-    },
-    "fraxswap-v3": {
-        "Ethereum": "0x43b2F13d2c13b3E4D8F2B3730e0A1C2C898Dd15",
-    },
-    "frax-lend": {
-        "Ethereum": "0x4e4A47cAc6A28A62dcc20990ed2cDa9a6590F551",
-    },
-    "frax-liquid-staking": {
-        "Ethereum": "0xac3E018457B222d93114458476f3E3416Abbe38F",
-    },
-    "frax-ether-v2": {
-        "Ethereum": "0xac3E018457B222d93114458476f3E3416Abbe38F",
-    },
-    "frax-ether-v3": {
-        "Ethereum": "0xac3E018457B222d93114458476f3E3416Abbe38F",
-    },
-    "frax-ether-v4": {
-        "Ethereum": "0xac3E018457B222d93114458476f3E3416Abbe38F",
-    },
-    "frax-ether-v5": {
-        "Ethereum": "0xac3E018457B222d93114458476f3E3416Abbe38F",
-    },
-    "frax-ether-v6": {
-        "Ethereum": "0xac3E018457B222d93114458476f3E3416Abbe38F",
-    },
-    "frax-ether-v7": {
-        "Ethereum": "0xac3E018457B222d93114458476f3E3416Abbe38F",
-    },
-    "frax-ether-v8": {
-        "Ethereum": "0xac3E018457B222d93114458476f3E3416Abbe38F",
-    },
-    "frax-ether-v9": {
-        "Ethereum": "0xac3E018457B222d93114458476f3E3416Abbe38F",
-    },
-    "frax-ether-v10": {
-        "Ethereum": "0xac3E018457B222d93114458476f3E3416Abbe38F",
+    
+    # =========================================================================
+    # STEAKHOUSE / CURATORS
+    # =========================================================================
+    "steakhouse-financial": {
+        "Ethereum": "0x777777c9898D384F785Ee44Acfe945efDFf5f3E0",
     },
 }
 
 
 def get_address(protocol_slug: str, chain: str = "Ethereum") -> str:
     """Get contract address for a protocol on a chain"""
-    if protocol_slug not in PROTOCOL_ADDRESSES:
-        return ""
+    slug = protocol_slug.lower().strip().replace(" ", "-")
     
-    addresses = PROTOCOL_ADDRESSES[protocol_slug]
+    if slug in PROTOCOL_ADDRESSES:
+        addresses = PROTOCOL_ADDRESSES[slug]
+        if chain in addresses:
+            return addresses[chain]
+        for c, addr in addresses.items():
+            if c.lower() == chain.lower():
+                return addr
+        if addresses:
+            return list(addresses.values())[0]
     
-    if chain in addresses:
-        return addresses[chain]
+    slug_no_dots = slug.replace(".", "-")
+    if slug_no_dots in PROTOCOL_ADDRESSES:
+        addresses = PROTOCOL_ADDRESSES[slug_no_dots]
+        if chain in addresses:
+            return addresses[chain]
+        if addresses:
+            return list(addresses.values())[0]
     
-    for c, addr in addresses.items():
-        if c.lower() == chain.lower():
-            return addr
-    
-    if addresses:
-        return list(addresses.values())[0]
+    for key in PROTOCOL_ADDRESSES:
+        if slug in key or key in slug:
+            addresses = PROTOCOL_ADDRESSES[key]
+            if chain in addresses:
+                return addresses[chain]
+            if addresses:
+                return list(addresses.values())[0]
+        if slug_no_dots in key or key in slug_no_dots:
+            addresses = PROTOCOL_ADDRESSES[key]
+            if chain in addresses:
+                return addresses[chain]
+            if addresses:
+                return list(addresses.values())[0]
     
     return ""
 
 
 def get_all_addresses(protocol_slug: str) -> dict:
     """Get all addresses for a protocol"""
-    return PROTOCOL_ADDRESSES.get(protocol_slug, {})
+    slug = protocol_slug.lower().strip().replace(" ", "-")
+    return PROTOCOL_ADDRESSES.get(slug, {})
+
+
+def list_protocols() -> list:
+    """List all protocols in database"""
+    return list(PROTOCOL_ADDRESSES.keys())
