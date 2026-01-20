@@ -1,0 +1,27 @@
+{
+  "address": "0xc80afd311c9626528de66d86814770361fe92416",
+  "ipfs_hashes_found": [],
+  "metadata_analyzed": [],
+  "debug_info": {
+    "nft_transfers_count": 0,
+    "contracts_found": 0,
+    "tokens_checked": 0,
+    "uris_found": 0,
+    "ipfs_hashes_extracted": 0,
+    "metadata_fetched": 0
+  },
+  "findings": {
+    "total_hashes": 0,
+    "unique_hashes": [],
+    "linked_urls": [],
+    "usernames": [],
+    "emails": [],
+    "social_links": [],
+    "timestamps": [],
+    "creators": [],
+    "collections": [],
+    "domains": [],
+    "domain_analysis": {},
+    "metadata_urls": []
+  }
+}

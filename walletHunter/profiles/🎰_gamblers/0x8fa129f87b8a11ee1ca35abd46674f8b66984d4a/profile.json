@@ -1,0 +1,262 @@
+{
+  "address": "0x8fa129f87b8a11ee1ca35abd46674f8b66984d4a",
+  "discovered_at": "2026-01-15T16:04:50.726989+00:00",
+  "total_value_usd": 152119.43038360353,
+  "eth_balance": 45.908871083042456,
+  "eth_value_usd": 152119.43038360353,
+  "token_holdings": {},
+  "risk_score": 60,
+  "tx_count": 1000,
+  "defi_activity": false,
+  "nft_activity": {},
+  "bridge_activity": false,
+  "age_days": 7,
+  "osint_categories": [
+    "\ud83c\udfb0_gamblers",
+    "\ud83c\udd95_newcomers"
+  ],
+  "primary_osint_category": "\ud83c\udfb0_gamblers",
+  "behavior": {
+    "confidence_score": 60,
+    "sophistication": "Intermediate",
+    "risk_tolerance": "Conservative",
+    "trading_style": "Active Trader",
+    "likely_region": "Europe",
+    "likely_timezone": "Europe/Africa (UTC+0 to +3)",
+    "meme_exposure": false,
+    "defi_protocols": [],
+    "nft_platforms": [],
+    "bridges_used": [],
+    "exchange_interactions": [],
+    "frequent_counterparties": []
+  },
+  "transaction_analysis": {
+    "total_transactions": 1000,
+    "total_value_eth": 0.0,
+    "most_active_hour": 15,
+    "most_active_day": "Thursday",
+    "top_recipients": [
+      [
+        "0x1f9840a85d5af5bf1d1762f925bdaddc4201f984",
+        474
+      ],
+      [
+        "0x5a98fcbea516cf06857215779fd812ca3bef1b32",
+        269
+      ],
+      [
+        "0xd533a949740bb3306d119cc777fa900ba034cd52",
+        192
+      ],
+      [
+        "0x086f405146ce90135750bbec9a063a8b20a8bffb",
+        59
+      ],
+      [
+        "0xe6829d9a7ee3040e1276fa75293bde931859e8fa",
+        4
+      ],
+      [
+        "0xe1be424f442d0687129128c6c38aace44f8c8dbc",
+        2
+      ]
+    ],
+    "top_senders": [
+      [
+        "0x8fa129f87b8a11ee1ca35abd46674f8b66984d4a",
+        1000
+      ]
+    ],
+    "first_transaction": "2026-01-04T13:20:11",
+    "last_transaction": "2026-01-15T17:03:23",
+    "avg_gas_used": 71151.934,
+    "avg_gas_price": 2043437529.809702
+  },
+  "token_activity": {
+    "unique_tokens": 17,
+    "top_tokens": [
+      [
+        "UNI",
+        434
+      ],
+      [
+        "CRV",
+        252
+      ],
+      [
+        "LDO",
+        244
+      ],
+      [
+        "BREV",
+        48
+      ],
+      [
+        "UXLINK",
+        4
+      ],
+      [
+        "ZKP",
+        3
+      ],
+      [
+        "ALMANAK",
+        3
+      ],
+      [
+        "TREE",
+        2
+      ],
+      [
+        "FF",
+        2
+      ],
+      [
+        "UniLife",
+        1
+      ],
+      [
+        "kitties",
+        1
+      ],
+      [
+        "cmETH",
+        1
+      ],
+      [
+        "RLUSD",
+        1
+      ],
+      [
+        "NEWT",
+        1
+      ],
+      [
+        "H",
+        1
+      ],
+      [
+        "ERA",
+        1
+      ],
+      [
+        "ESE",
+        1
+      ]
+    ],
+    "token_values": {
+      "LDO": 1395257.0532143447,
+      "UNI": 602707.447974041,
+      "CRV": 3690499.1374883982,
+      "ZKP": 158088.63624281,
+      "UniLife": 5.0,
+      "kitties": 27311094.483057164,
+      "BREV": 341866.7388085,
+      "cmETH": 2.499,
+      "TREE": 38433.0771023,
+      "RLUSD": 449998.4046484,
+      "NEWT": 87024.93622480001,
+      "H": 91382.1627,
+      "FF": 149660.440553,
+      "ERA": 4028.894121,
+      "ESE": 56662.61436328711,
+      "UXLINK": 108946.82146999001,
+      "ALMANAK": 279772.817214761
+    },
+    "token_details": {
+      "LDO": [
+        "Lido DAO Token"
+      ],
+      "UNI": [
+        "Uniswap"
+      ],
+      "CRV": [
+        "Curve DAO Token"
+      ],
+      "ZKP": [
+        "zkPass"
+      ],
+      "UniLife": [
+        "UniLife"
+      ],
+      "kitties": [
+        "I love kitties"
+      ],
+      "BREV": [
+        "Brevis Token"
+      ],
+      "cmETH": [
+        "cmETH"
+      ],
+      "TREE": [
+        "Treehouse"
+      ],
+      "RLUSD": [
+        "RLUSD"
+      ],
+      "NEWT": [
+        "Newton"
+      ],
+      "H": [
+        "Humanity"
+      ],
+      "FF": [
+        "Falcon Finance"
+      ],
+      "ERA": [
+        "Caldera"
+      ],
+      "ESE": [
+        "eesee"
+      ],
+      "UXLINK": [
+        "UXLINK Token"
+      ],
+      "ALMANAK": [
+        "Almanak"
+      ]
+    }
+  },
+  "ipfs_osint": {
+    "skipped": true,
+    "reason": "no_nft_activity"
+  },
+  "ens": {
+    "address": "0x8fa129f87b8a11ee1ca35abd46674f8b66984d4a",
+    "ens_name": null,
+    "text_records": {},
+    "social_links": {},
+    "has_ens": false,
+    "has_social_links": false
+  },
+  "approval_risk": {
+    "scan_timestamp": "2026-01-15T16:04:58.882438+00:00",
+    "total_approvals": 0,
+    "unlimited_approvals": 0,
+    "high_risk_approvals": 0,
+    "total_exposure_usd": 0,
+    "verdicts": [],
+    "has_dangerous_approvals": false
+  },
+  "funding_trace": {
+    "target": "0x8fa129f87b8a11ee1ca35abd46674f8b66984d4a",
+    "trace_timestamp": "2026-01-15T16:04:58.023379+00:00",
+    "total_hops": 0,
+    "origin_found": false,
+    "origin_type": null,
+    "origin_label": null,
+    "trace_complete": false,
+    "trace_stopped_reason": "No funding transaction found",
+    "funding_chain": []
+  },
+  "token_risks": {
+    "scan_timestamp": "2026-01-15T16:04:59.621031+00:00",
+    "tokens_analyzed": 0,
+    "risky_tokens": 0,
+    "total_value_at_risk_usd": 0,
+    "has_risky_tokens": false,
+    "verdicts": [],
+    "honeypots_detected": 0,
+    "impersonators_detected": 0
+  }
+}

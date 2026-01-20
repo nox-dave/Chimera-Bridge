@@ -1,0 +1,12 @@
+{
+  "protocol_name": "ether.fi Stake",
+  "protocol_slug": "ether.fi-stake",
+  "address": "0x35fA164735182de50811E8e2E824cFb9B6118ac2",
+  "chain": "Ethereum",
+  "category": "Liquid Restaking",
+  "tvl": 8863411944.737709,
+  "tvl_formatted": "$8,863,411,945",
+  "is_audited": false,
+  "priority_score": 80,
+  "scanned_at": "2026-01-20T14:29:30.910425"
+}

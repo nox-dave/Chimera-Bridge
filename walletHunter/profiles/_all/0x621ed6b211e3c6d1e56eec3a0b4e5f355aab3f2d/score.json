@@ -1,0 +1,18 @@
+{
+  "address": "0x621ed6b211e3c6d1e56eec3a0b4e5f355aab3f2d",
+  "total_score": 60,
+  "value_score": 20,
+  "vulnerability_score": 30,
+  "confidence_score": 10,
+  "freshness_score": 0,
+  "balance_usd": 843157.7041381425,
+  "categories": [
+    "\ud83c\udfb0_gamblers",
+    "\ud83c\udd95_newcomers",
+    "\ud83c\udfaf_prime_targets"
+  ],
+  "confidence_pct": 55,
+  "last_updated": "",
+  "disqualified": false,
+  "disqualify_reason": ""
+}

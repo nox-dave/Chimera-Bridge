@@ -1,0 +1,29 @@
+{
+  "address": "0xa03400e098f4421b34a3a44a1b4e571419517687",
+  "discovered_at": "2026-01-09T15:36:39.535925",
+  "total_value_usd": 6848547.252311099,
+  "eth_balance": 438.43690105203314,
+  "eth_value_usd": 1315310.7031560994,
+  "token_holdings": {
+    "USDT": {
+      "balance": 5170285.086796,
+      "value_usd": 5170285.086796
+    },
+    "USDC": {
+      "balance": 362951.462359,
+      "value_usd": 362951.462359
+    }
+  },
+  "category": "likely_individual",
+  "risk_score": 65,
+  "osint_categories": [
+    "\ud83c\udd95_newcomers",
+    "\ud83d\udca4_dormant_whales",
+    "\ud83d\udc1f_easy_targets",
+    "\ud83e\udd8a_cautious_holders",
+    "\ud83d\udc8e_high_value",
+    "\ud83c\udfaf_prime_targets"
+  ],
+  "priority_score": 85,
+  "last_triage": "2026-01-14T15:44:52.545991Z"
+}

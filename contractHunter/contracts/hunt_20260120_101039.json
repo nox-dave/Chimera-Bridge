@@ -1,0 +1,1062 @@
+{
+  "timestamp": "2026-01-20T10:10:39.712351",
+  "parameters": {
+    "min_tvl": 100000,
+    "max_tvl": null,
+    "categories": null,
+    "chains": null,
+    "exclude_audited": false,
+    "high_risk_only": false,
+    "growing": false,
+    "limit": 30,
+    "scan_vulnerabilities": false
+  },
+  "protocols_discovered": 30,
+  "contracts_found": 30,
+  "contracts_analyzed": 1,
+  "vulnerabilities_found": 12,
+  "targets": [
+    {
+      "address": "0x35fA164735182de50811E8e2E824cFb9B6118ac2",
+      "chain": "Ethereum",
+      "protocol": "ether.fi Stake",
+      "tvl": 8900179612.97309,
+      "category": "Liquid Restaking",
+      "audited": false,
+      "vulnerabilities": [
+        {
+          "detector": "controlled-delegatecall-pattern",
+          "type": "delegatecall",
+          "severity": "Critical",
+          "confidence": 0.85,
+          "title": "Controlled Delegatecall",
+          "description": "delegatecall target may be user-controlled. This can lead to complete contract takeover.",
+          "locations": [],
+          "recommendation": "Ensure delegatecall target cannot be user-controlled",
+          "source": "pattern"
+        },
+        {
+          "detector": "reentrancy-eth-pattern",
+          "type": "reentrancy",
+          "severity": "Critical",
+          "confidence": 0.425,
+          "title": "Potential Reentrancy (ETH)",
+          "description": "External call with ETH followed by state change. Classic reentrancy pattern detected. (ReentrancyGuard detected - may be protected)",
+          "locations": [],
+          "recommendation": "Apply checks-effects-interactions pattern or use ReentrancyGuard",
+          "source": "pattern"
+        },
+        {
+          "detector": "access-control-pattern",
+          "type": "access_control",
+          "severity": "High",
+          "confidence": 0.8,
+          "title": "Missing Access Control: initialize",
+          "description": "Function 'initialize' appears sensitive but has no access control modifier.",
+          "locations": [
+            "initialize"
+          ],
+          "recommendation": "Add appropriate access control (onlyOwner, onlyAdmin, etc.)",
+          "source": "pattern"
+        },
+        {
+          "detector": "access-control-pattern",
+          "type": "access_control",
+          "severity": "High",
+          "confidence": 0.8,
+          "title": "Missing Access Control: transfer",
+          "description": "Function 'transfer' appears sensitive but has no access control modifier.",
+          "locations": [
+            "transfer"
+          ],
+          "recommendation": "Add appropriate access control (onlyOwner, onlyAdmin, etc.)",
+          "source": "pattern"
+        },
+        {
+          "detector": "access-control-pattern",
+          "type": "access_control",
+          "severity": "High",
+          "confidence": 0.8,
+          "title": "Missing Access Control: transferFrom",
+          "description": "Function 'transferFrom' appears sensitive but has no access control modifier.",
+          "locations": [
+            "transferFrom"
+          ],
+          "recommendation": "Add appropriate access control (onlyOwner, onlyAdmin, etc.)",
+          "source": "pattern"
+        },
+        {
+          "detector": "access-control-pattern",
+          "type": "access_control",
+          "severity": "High",
+          "confidence": 0.8,
+          "title": "Missing Access Control: upgradeTo",
+          "description": "Function 'upgradeTo' appears sensitive but has no access control modifier.",
+          "locations": [
+            "upgradeTo"
+          ],
+          "recommendation": "Add appropriate access control (onlyOwner, onlyAdmin, etc.)",
+          "source": "pattern"
+        },
+        {
+          "detector": "access-control-pattern",
+          "type": "access_control",
+          "severity": "High",
+          "confidence": 0.8,
+          "title": "Missing Access Control: upgradeToAndCall",
+          "description": "Function 'upgradeToAndCall' appears sensitive but has no access control modifier.",
+          "locations": [
+            "upgradeToAndCall"
+          ],
+          "recommendation": "Add appropriate access control (onlyOwner, onlyAdmin, etc.)",
+          "source": "pattern"
+        },
+        {
+          "detector": "access-control-pattern",
+          "type": "access_control",
+          "severity": "High",
+          "confidence": 0.8,
+          "title": "Missing Access Control: pauseContract",
+          "description": "Function 'pauseContract' appears sensitive but has no access control modifier.",
+          "locations": [
+            "pauseContract"
+          ],
+          "recommendation": "Add appropriate access control (onlyOwner, onlyAdmin, etc.)",
+          "source": "pattern"
+        },
+        {
+          "detector": "access-control-pattern",
+          "type": "access_control",
+          "severity": "High",
+          "confidence": 0.8,
+          "title": "Missing Access Control: safeTransferFrom",
+          "description": "Function 'safeTransferFrom' appears sensitive but has no access control modifier.",
+          "locations": [
+            "safeTransferFrom"
+          ],
+          "recommendation": "Add appropriate access control (onlyOwner, onlyAdmin, etc.)",
+          "source": "pattern"
+        },
+        {
+          "detector": "unchecked-call-pattern",
+          "type": "unchecked_return",
+          "severity": "High",
+          "confidence": 0.8,
+          "title": "Unchecked Call Return",
+          "description": "Low-level call without checking return value. Call may fail silently.",
+          "locations": [
+            "Line 1198"
+          ],
+          "recommendation": "Check return value: (bool success, ) = addr.call(...); require(success);",
+          "source": "pattern"
+        },
+        {
+          "detector": "unchecked-arithmetic-pattern",
+          "type": "integer_overflow",
+          "severity": "Medium",
+          "confidence": 0.6,
+          "title": "Unchecked Arithmetic Block",
+          "description": "Contract uses unchecked blocks. Verify overflow is intentional.",
+          "locations": [],
+          "recommendation": "Ensure unchecked arithmetic cannot cause security issues",
+          "source": "pattern"
+        },
+        {
+          "detector": "timestamp-dependence-pattern",
+          "type": "timestamp_dependence",
+          "severity": "Low",
+          "confidence": 0.6,
+          "title": "Timestamp Dependence",
+          "description": "Contract logic depends on block.timestamp. Miners can manipulate slightly.",
+          "locations": [],
+          "recommendation": "Avoid using timestamps for critical logic or use block.number",
+          "source": "pattern"
+        }
+      ],
+      "verdicts": [
+        {
+          "title": "CRITICAL VULNERABILITIES FOUND",
+          "severity": "CRITICAL",
+          "category": "VULNERABILITY",
+          "description": "Scanner found 2 critical issues",
+          "evidence": [
+            "Controlled Delegatecall",
+            "Potential Reentrancy (ETH)",
+            "Missing Access Control: initialize"
+          ],
+          "action": "Immediate review required"
+        },
+        {
+          "title": "UNAUDITED HIGH-TVL PROTOCOL",
+          "severity": "CRITICAL",
+          "category": "TRUST",
+          "description": "Protocol has $8,900,179,613 TVL without documented audit",
+          "evidence": [
+            "No audit links found",
+            "TVL: $8,900,179,613"
+          ],
+          "action": "Priority target for vulnerability analysis"
+        },
+        {
+          "title": "VERY HIGH TVL TARGET",
+          "severity": "INFO",
+          "category": "INTEL",
+          "description": "Protocol holds over $10M in TVL",
+          "evidence": [
+            "TVL: $8,900,179,613"
+          ],
+          "action": "High-value target if vulnerable"
+        }
+      ],
+      "priority_score": 100
+    },
+    {
+      "address": "",
+      "chain": "Bitcoin",
+      "protocol": "Binance Bitcoin",
+      "tvl": 6199751144.844929,
+      "category": "Bridge",
+      "audited": false,
+      "vulnerabilities": [],
+      "verdicts": [
+        {
+          "title": "UNAUDITED HIGH-TVL PROTOCOL",
+          "severity": "CRITICAL",
+          "category": "TRUST",
+          "description": "Protocol has $6,199,751,145 TVL without documented audit",
+          "evidence": [
+            "No audit links found",
+            "TVL: $6,199,751,145"
+          ],
+          "action": "Priority target for vulnerability analysis"
+        },
+        {
+          "title": "BRIDGE PROTOCOL",
+          "severity": "CRITICAL",
+          "category": "EXPOSURE",
+          "description": "Bridge exploits historically cause massive losses",
+          "evidence": [
+            "Category: Bridge"
+          ],
+          "action": "Analyze for category-specific vulnerabilities"
+        },
+        {
+          "title": "VERY HIGH TVL TARGET",
+          "severity": "INFO",
+          "category": "INTEL",
+          "description": "Protocol holds over $10M in TVL",
+          "evidence": [
+            "TVL: $6,199,751,145"
+          ],
+          "action": "High-value target if vulnerable"
+        }
+      ],
+      "priority_score": 90
+    },
+    {
+      "address": "",
+      "chain": "Tron",
+      "protocol": "JustCryptos",
+      "tvl": 3131430924.0,
+      "category": "Bridge",
+      "audited": false,
+      "vulnerabilities": [],
+      "verdicts": [
+        {
+          "title": "UNAUDITED HIGH-TVL PROTOCOL",
+          "severity": "CRITICAL",
+          "category": "TRUST",
+          "description": "Protocol has $3,131,430,924 TVL without documented audit",
+          "evidence": [
+            "No audit links found",
+            "TVL: $3,131,430,924"
+          ],
+          "action": "Priority target for vulnerability analysis"
+        },
+        {
+          "title": "BRIDGE PROTOCOL",
+          "severity": "CRITICAL",
+          "category": "EXPOSURE",
+          "description": "Bridge exploits historically cause massive losses",
+          "evidence": [
+            "Category: Bridge"
+          ],
+          "action": "Analyze for category-specific vulnerabilities"
+        },
+        {
+          "title": "VERY HIGH TVL TARGET",
+          "severity": "INFO",
+          "category": "INTEL",
+          "description": "Protocol holds over $10M in TVL",
+          "evidence": [
+            "TVL: $3,131,430,924"
+          ],
+          "action": "High-value target if vulnerable"
+        }
+      ],
+      "priority_score": 90
+    },
+    {
+      "address": "",
+      "chain": "Bitcoin",
+      "protocol": "Babylon Protocol",
+      "tvl": 5565876400.197658,
+      "category": "Restaking",
+      "audited": false,
+      "vulnerabilities": [],
+      "verdicts": [
+        {
+          "title": "UNAUDITED HIGH-TVL PROTOCOL",
+          "severity": "CRITICAL",
+          "category": "TRUST",
+          "description": "Protocol has $5,565,876,400 TVL without documented audit",
+          "evidence": [
+            "No audit links found",
+            "TVL: $5,565,876,400"
+          ],
+          "action": "Priority target for vulnerability analysis"
+        },
+        {
+          "title": "VERY HIGH TVL TARGET",
+          "severity": "INFO",
+          "category": "INTEL",
+          "description": "Protocol holds over $10M in TVL",
+          "evidence": [
+            "TVL: $5,565,876,400"
+          ],
+          "action": "High-value target if vulnerable"
+        }
+      ],
+      "priority_score": 80
+    },
+    {
+      "address": "",
+      "chain": "Ethereum",
+      "protocol": "Arbitrum Bridge",
+      "tvl": 4424324636.348555,
+      "category": "Canonical Bridge",
+      "audited": false,
+      "vulnerabilities": [],
+      "verdicts": [
+        {
+          "title": "UNAUDITED HIGH-TVL PROTOCOL",
+          "severity": "CRITICAL",
+          "category": "TRUST",
+          "description": "Protocol has $4,424,324,636 TVL without documented audit",
+          "evidence": [
+            "No audit links found",
+            "TVL: $4,424,324,636"
+          ],
+          "action": "Priority target for vulnerability analysis"
+        },
+        {
+          "title": "VERY HIGH TVL TARGET",
+          "severity": "INFO",
+          "category": "INTEL",
+          "description": "Protocol holds over $10M in TVL",
+          "evidence": [
+            "TVL: $4,424,324,636"
+          ],
+          "action": "High-value target if vulnerable"
+        }
+      ],
+      "priority_score": 80
+    },
+    {
+      "address": "",
+      "chain": "Ethereum",
+      "protocol": "Base Bridge",
+      "tvl": 3501614281.0366087,
+      "category": "Canonical Bridge",
+      "audited": false,
+      "vulnerabilities": [],
+      "verdicts": [
+        {
+          "title": "UNAUDITED HIGH-TVL PROTOCOL",
+          "severity": "CRITICAL",
+          "category": "TRUST",
+          "description": "Protocol has $3,501,614,281 TVL without documented audit",
+          "evidence": [
+            "No audit links found",
+            "TVL: $3,501,614,281"
+          ],
+          "action": "Priority target for vulnerability analysis"
+        },
+        {
+          "title": "VERY HIGH TVL TARGET",
+          "severity": "INFO",
+          "category": "INTEL",
+          "description": "Protocol holds over $10M in TVL",
+          "evidence": [
+            "TVL: $3,501,614,281"
+          ],
+          "action": "High-value target if vulnerable"
+        }
+      ],
+      "priority_score": 80
+    },
+    {
+      "address": "",
+      "chain": "Ethereum",
+      "protocol": "Tether Gold",
+      "tvl": 2471076832.8719587,
+      "category": "RWA",
+      "audited": false,
+      "vulnerabilities": [],
+      "verdicts": [
+        {
+          "title": "UNAUDITED HIGH-TVL PROTOCOL",
+          "severity": "CRITICAL",
+          "category": "TRUST",
+          "description": "Protocol has $2,471,076,833 TVL without documented audit",
+          "evidence": [
+            "No audit links found",
+            "TVL: $2,471,076,833"
+          ],
+          "action": "Priority target for vulnerability analysis"
+        },
+        {
+          "title": "VERY HIGH TVL TARGET",
+          "severity": "INFO",
+          "category": "INTEL",
+          "description": "Protocol holds over $10M in TVL",
+          "evidence": [
+            "TVL: $2,471,076,833"
+          ],
+          "action": "High-value target if vulnerable"
+        }
+      ],
+      "priority_score": 80
+    },
+    {
+      "address": "",
+      "chain": "Ethereum",
+      "protocol": "Steakhouse Financial",
+      "tvl": 2051486407.645332,
+      "category": "Risk Curators",
+      "audited": false,
+      "vulnerabilities": [],
+      "verdicts": [
+        {
+          "title": "UNAUDITED HIGH-TVL PROTOCOL",
+          "severity": "CRITICAL",
+          "category": "TRUST",
+          "description": "Protocol has $2,051,486,408 TVL without documented audit",
+          "evidence": [
+            "No audit links found",
+            "TVL: $2,051,486,408"
+          ],
+          "action": "Priority target for vulnerability analysis"
+        },
+        {
+          "title": "VERY HIGH TVL TARGET",
+          "severity": "INFO",
+          "category": "INTEL",
+          "description": "Protocol holds over $10M in TVL",
+          "evidence": [
+            "TVL: $2,051,486,408"
+          ],
+          "action": "High-value target if vulnerable"
+        }
+      ],
+      "priority_score": 80
+    },
+    {
+      "address": "",
+      "chain": "Ethereum",
+      "protocol": "BlackRock BUIDL",
+      "tvl": 1980597355.6104488,
+      "category": "RWA",
+      "audited": false,
+      "vulnerabilities": [],
+      "verdicts": [
+        {
+          "title": "UNAUDITED HIGH-TVL PROTOCOL",
+          "severity": "CRITICAL",
+          "category": "TRUST",
+          "description": "Protocol has $1,980,597,356 TVL without documented audit",
+          "evidence": [
+            "No audit links found",
+            "TVL: $1,980,597,356"
+          ],
+          "action": "Priority target for vulnerability analysis"
+        },
+        {
+          "title": "VERY HIGH TVL TARGET",
+          "severity": "INFO",
+          "category": "INTEL",
+          "description": "Protocol holds over $10M in TVL",
+          "evidence": [
+            "TVL: $1,980,597,356"
+          ],
+          "action": "High-value target if vulnerable"
+        }
+      ],
+      "priority_score": 80
+    },
+    {
+      "address": "",
+      "chain": "Ethereum",
+      "protocol": "Obol",
+      "tvl": 1838814779.6428814,
+      "category": "Staking Pool",
+      "audited": false,
+      "vulnerabilities": [],
+      "verdicts": [
+        {
+          "title": "UNAUDITED HIGH-TVL PROTOCOL",
+          "severity": "CRITICAL",
+          "category": "TRUST",
+          "description": "Protocol has $1,838,814,780 TVL without documented audit",
+          "evidence": [
+            "No audit links found",
+            "TVL: $1,838,814,780"
+          ],
+          "action": "Priority target for vulnerability analysis"
+        },
+        {
+          "title": "VERY HIGH TVL TARGET",
+          "severity": "INFO",
+          "category": "INTEL",
+          "description": "Protocol holds over $10M in TVL",
+          "evidence": [
+            "TVL: $1,838,814,780"
+          ],
+          "action": "High-value target if vulnerable"
+        }
+      ],
+      "priority_score": 80
+    },
+    {
+      "address": "",
+      "chain": "Bitcoin",
+      "protocol": "WBTC",
+      "tvl": 11275913473.709894,
+      "category": "Bridge",
+      "audited": true,
+      "vulnerabilities": [],
+      "verdicts": [
+        {
+          "title": "BRIDGE PROTOCOL",
+          "severity": "CRITICAL",
+          "category": "EXPOSURE",
+          "description": "Bridge exploits historically cause massive losses",
+          "evidence": [
+            "Category: Bridge"
+          ],
+          "action": "Analyze for category-specific vulnerabilities"
+        },
+        {
+          "title": "VERY HIGH TVL TARGET",
+          "severity": "INFO",
+          "category": "INTEL",
+          "description": "Protocol holds over $10M in TVL",
+          "evidence": [
+            "TVL: $11,275,913,474"
+          ],
+          "action": "High-value target if vulnerable"
+        }
+      ],
+      "priority_score": 70
+    },
+    {
+      "address": "",
+      "chain": "Ethereum",
+      "protocol": "USDT0",
+      "tvl": 4640491589.6836605,
+      "category": "Bridge",
+      "audited": true,
+      "vulnerabilities": [],
+      "verdicts": [
+        {
+          "title": "BRIDGE PROTOCOL",
+          "severity": "CRITICAL",
+          "category": "EXPOSURE",
+          "description": "Bridge exploits historically cause massive losses",
+          "evidence": [
+            "Category: Bridge"
+          ],
+          "action": "Analyze for category-specific vulnerabilities"
+        },
+        {
+          "title": "VERY HIGH TVL TARGET",
+          "severity": "INFO",
+          "category": "INTEL",
+          "description": "Protocol holds over $10M in TVL",
+          "evidence": [
+            "TVL: $4,640,491,590"
+          ],
+          "action": "High-value target if vulnerable"
+        }
+      ],
+      "priority_score": 70
+    },
+    {
+      "address": "",
+      "chain": "Ethereum",
+      "protocol": "Hyperliquid Bridge",
+      "tvl": 4431237989.92704,
+      "category": "Bridge",
+      "audited": true,
+      "vulnerabilities": [],
+      "verdicts": [
+        {
+          "title": "BRIDGE PROTOCOL",
+          "severity": "CRITICAL",
+          "category": "EXPOSURE",
+          "description": "Bridge exploits historically cause massive losses",
+          "evidence": [
+            "Category: Bridge"
+          ],
+          "action": "Analyze for category-specific vulnerabilities"
+        },
+        {
+          "title": "VERY HIGH TVL TARGET",
+          "severity": "INFO",
+          "category": "INTEL",
+          "description": "Protocol holds over $10M in TVL",
+          "evidence": [
+            "TVL: $4,431,237,990"
+          ],
+          "action": "High-value target if vulnerable"
+        }
+      ],
+      "priority_score": 70
+    },
+    {
+      "address": "0x87870Bca3F3fD6335C3F4ce8392D69350B4fA4E2",
+      "chain": "Ethereum",
+      "protocol": "Aave V3",
+      "tvl": 34528886269.746956,
+      "category": "Lending",
+      "audited": true,
+      "vulnerabilities": [],
+      "verdicts": [
+        {
+          "title": "LENDING PROTOCOL",
+          "severity": "HIGH",
+          "category": "EXPOSURE",
+          "description": "Flash loan and liquidation attack vectors",
+          "evidence": [
+            "Category: Lending"
+          ],
+          "action": "Analyze for category-specific vulnerabilities"
+        },
+        {
+          "title": "VERY HIGH TVL TARGET",
+          "severity": "INFO",
+          "category": "INTEL",
+          "description": "Protocol holds over $10M in TVL",
+          "evidence": [
+            "TVL: $34,528,886,270"
+          ],
+          "action": "High-value target if vulnerable"
+        }
+      ],
+      "priority_score": 60
+    },
+    {
+      "address": "",
+      "chain": "Ethereum",
+      "protocol": "Morpho V1",
+      "tvl": 6753968969.1152725,
+      "category": "Lending",
+      "audited": true,
+      "vulnerabilities": [],
+      "verdicts": [
+        {
+          "title": "LENDING PROTOCOL",
+          "severity": "HIGH",
+          "category": "EXPOSURE",
+          "description": "Flash loan and liquidation attack vectors",
+          "evidence": [
+            "Category: Lending"
+          ],
+          "action": "Analyze for category-specific vulnerabilities"
+        },
+        {
+          "title": "VERY HIGH TVL TARGET",
+          "severity": "INFO",
+          "category": "INTEL",
+          "description": "Protocol holds over $10M in TVL",
+          "evidence": [
+            "TVL: $6,753,968,969"
+          ],
+          "action": "High-value target if vulnerable"
+        }
+      ],
+      "priority_score": 60
+    },
+    {
+      "address": "",
+      "chain": "Tron",
+      "protocol": "JustLend",
+      "tvl": 3904266563.715547,
+      "category": "Lending",
+      "audited": true,
+      "vulnerabilities": [],
+      "verdicts": [
+        {
+          "title": "LENDING PROTOCOL",
+          "severity": "HIGH",
+          "category": "EXPOSURE",
+          "description": "Flash loan and liquidation attack vectors",
+          "evidence": [
+            "Category: Lending"
+          ],
+          "action": "Analyze for category-specific vulnerabilities"
+        },
+        {
+          "title": "VERY HIGH TVL TARGET",
+          "severity": "INFO",
+          "category": "INTEL",
+          "description": "Protocol holds over $10M in TVL",
+          "evidence": [
+            "TVL: $3,904,266,564"
+          ],
+          "action": "High-value target if vulnerable"
+        }
+      ],
+      "priority_score": 60
+    },
+    {
+      "address": "",
+      "chain": "Ethereum",
+      "protocol": "SparkLend",
+      "tvl": 3451810598.8812594,
+      "category": "Lending",
+      "audited": true,
+      "vulnerabilities": [],
+      "verdicts": [
+        {
+          "title": "LENDING PROTOCOL",
+          "severity": "HIGH",
+          "category": "EXPOSURE",
+          "description": "Flash loan and liquidation attack vectors",
+          "evidence": [
+            "Category: Lending"
+          ],
+          "action": "Analyze for category-specific vulnerabilities"
+        },
+        {
+          "title": "VERY HIGH TVL TARGET",
+          "severity": "INFO",
+          "category": "INTEL",
+          "description": "Protocol holds over $10M in TVL",
+          "evidence": [
+            "TVL: $3,451,810,599"
+          ],
+          "action": "High-value target if vulnerable"
+        }
+      ],
+      "priority_score": 60
+    },
+    {
+      "address": "",
+      "chain": "Ethereum",
+      "protocol": "Maple",
+      "tvl": 2852602638.5138063,
+      "category": "Lending",
+      "audited": true,
+      "vulnerabilities": [],
+      "verdicts": [
+        {
+          "title": "LENDING PROTOCOL",
+          "severity": "HIGH",
+          "category": "EXPOSURE",
+          "description": "Flash loan and liquidation attack vectors",
+          "evidence": [
+            "Category: Lending"
+          ],
+          "action": "Analyze for category-specific vulnerabilities"
+        },
+        {
+          "title": "VERY HIGH TVL TARGET",
+          "severity": "INFO",
+          "category": "INTEL",
+          "description": "Protocol holds over $10M in TVL",
+          "evidence": [
+            "TVL: $2,852,602,639"
+          ],
+          "action": "High-value target if vulnerable"
+        }
+      ],
+      "priority_score": 60
+    },
+    {
+      "address": "",
+      "chain": "Solana",
+      "protocol": "Kamino Lend",
+      "tvl": 2307819112.5690284,
+      "category": "Lending",
+      "audited": true,
+      "vulnerabilities": [],
+      "verdicts": [
+        {
+          "title": "LENDING PROTOCOL",
+          "severity": "HIGH",
+          "category": "EXPOSURE",
+          "description": "Flash loan and liquidation attack vectors",
+          "evidence": [
+            "Category: Lending"
+          ],
+          "action": "Analyze for category-specific vulnerabilities"
+        },
+        {
+          "title": "VERY HIGH TVL TARGET",
+          "severity": "INFO",
+          "category": "INTEL",
+          "description": "Protocol holds over $10M in TVL",
+          "evidence": [
+            "TVL: $2,307,819,113"
+          ],
+          "action": "High-value target if vulnerable"
+        }
+      ],
+      "priority_score": 60
+    },
+    {
+      "address": "",
+      "chain": "Ethereum",
+      "protocol": "Sky Lending",
+      "tvl": 6513794364.233651,
+      "category": "CDP",
+      "audited": true,
+      "vulnerabilities": [],
+      "verdicts": [
+        {
+          "title": "VERY HIGH TVL TARGET",
+          "severity": "INFO",
+          "category": "INTEL",
+          "description": "Protocol holds over $10M in TVL",
+          "evidence": [
+            "TVL: $6,513,794,364"
+          ],
+          "action": "High-value target if vulnerable"
+        }
+      ],
+      "priority_score": 30
+    },
+    {
+      "address": "0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84",
+      "chain": "Ethereum",
+      "protocol": "Lido",
+      "tvl": 28373491821.40003,
+      "category": "Liquid Staking",
+      "audited": true,
+      "vulnerabilities": [],
+      "verdicts": [
+        {
+          "title": "VERY HIGH TVL TARGET",
+          "severity": "INFO",
+          "category": "INTEL",
+          "description": "Protocol holds over $10M in TVL",
+          "evidence": [
+            "TVL: $28,373,491,821"
+          ],
+          "action": "High-value target if vulnerable"
+        }
+      ],
+      "priority_score": 25
+    },
+    {
+      "address": "",
+      "chain": "Ethereum",
+      "protocol": "EigenCloud",
+      "tvl": 13399089372.513199,
+      "category": "Restaking",
+      "audited": true,
+      "vulnerabilities": [],
+      "verdicts": [
+        {
+          "title": "VERY HIGH TVL TARGET",
+          "severity": "INFO",
+          "category": "INTEL",
+          "description": "Protocol holds over $10M in TVL",
+          "evidence": [
+            "TVL: $13,399,089,373"
+          ],
+          "action": "High-value target if vulnerable"
+        }
+      ],
+      "priority_score": 25
+    },
+    {
+      "address": "",
+      "chain": "Ethereum",
+      "protocol": "Binance staked ETH",
+      "tvl": 11408706126.807976,
+      "category": "Liquid Staking",
+      "audited": true,
+      "vulnerabilities": [],
+      "verdicts": [
+        {
+          "title": "VERY HIGH TVL TARGET",
+          "severity": "INFO",
+          "category": "INTEL",
+          "description": "Protocol holds over $10M in TVL",
+          "evidence": [
+            "TVL: $11,408,706,127"
+          ],
+          "action": "High-value target if vulnerable"
+        }
+      ],
+      "priority_score": 25
+    },
+    {
+      "address": "",
+      "chain": "Ethereum",
+      "protocol": "Ethena USDe",
+      "tvl": 6471689536.424737,
+      "category": "Basis Trading",
+      "audited": true,
+      "vulnerabilities": [],
+      "verdicts": [
+        {
+          "title": "VERY HIGH TVL TARGET",
+          "severity": "INFO",
+          "category": "INTEL",
+          "description": "Protocol holds over $10M in TVL",
+          "evidence": [
+            "TVL: $6,471,689,536"
+          ],
+          "action": "High-value target if vulnerable"
+        }
+      ],
+      "priority_score": 25
+    },
+    {
+      "address": "0x0000000000ff80149fFFcC8538D4eefBf7b0b9F3",
+      "chain": "Ethereum",
+      "protocol": "Pendle",
+      "tvl": 3500610713.7095823,
+      "category": "Yield",
+      "audited": true,
+      "vulnerabilities": [],
+      "verdicts": [
+        {
+          "title": "VERY HIGH TVL TARGET",
+          "severity": "INFO",
+          "category": "INTEL",
+          "description": "Protocol holds over $10M in TVL",
+          "evidence": [
+            "TVL: $3,500,610,714"
+          ],
+          "action": "High-value target if vulnerable"
+        }
+      ],
+      "priority_score": 25
+    },
+    {
+      "address": "0x90E00ACe148ca3b23Ac1bC8C240C2a7Dd9c2d7f5",
+      "chain": "Ethereum",
+      "protocol": "Curve DEX",
+      "tvl": 2128448852.339108,
+      "category": "Dexs",
+      "audited": true,
+      "vulnerabilities": [],
+      "verdicts": [
+        {
+          "title": "VERY HIGH TVL TARGET",
+          "severity": "INFO",
+          "category": "INTEL",
+          "description": "Protocol holds over $10M in TVL",
+          "evidence": [
+            "TVL: $2,128,448,852"
+          ],
+          "action": "High-value target if vulnerable"
+        }
+      ],
+      "priority_score": 25
+    },
+    {
+      "address": "0x1F98431c8aD98523631AE4a59f267346ea31F984",
+      "chain": "Ethereum",
+      "protocol": "Uniswap V3",
+      "tvl": 2121274600.6387668,
+      "category": "Dexs",
+      "audited": true,
+      "vulnerabilities": [],
+      "verdicts": [
+        {
+          "title": "VERY HIGH TVL TARGET",
+          "severity": "INFO",
+          "category": "INTEL",
+          "description": "Protocol holds over $10M in TVL",
+          "evidence": [
+            "TVL: $2,121,274,601"
+          ],
+          "action": "High-value target if vulnerable"
+        }
+      ],
+      "priority_score": 25
+    },
+    {
+      "address": "",
+      "chain": "Ethereum",
+      "protocol": "Falcon Finance",
+      "tvl": 2055845488.8800879,
+      "category": "Basis Trading",
+      "audited": true,
+      "vulnerabilities": [],
+      "verdicts": [
+        {
+          "title": "VERY HIGH TVL TARGET",
+          "severity": "INFO",
+          "category": "INTEL",
+          "description": "Protocol holds over $10M in TVL",
+          "evidence": [
+            "TVL: $2,055,845,489"
+          ],
+          "action": "High-value target if vulnerable"
+        }
+      ],
+      "priority_score": 25
+    },
+    {
+      "address": "",
+      "chain": "Solana",
+      "protocol": "Jito Liquid Staking",
+      "tvl": 1903838995.4903224,
+      "category": "Liquid Staking",
+      "audited": true,
+      "vulnerabilities": [],
+      "verdicts": [
+        {
+          "title": "VERY HIGH TVL TARGET",
+          "severity": "INFO",
+          "category": "INTEL",
+          "description": "Protocol holds over $10M in TVL",
+          "evidence": [
+            "TVL: $1,903,838,995"
+          ],
+          "action": "High-value target if vulnerable"
+        }
+      ],
+      "priority_score": 25
+    },
+    {
+      "address": "",
+      "chain": "Ethereum",
+      "protocol": "PancakeSwap AMM",
+      "tvl": 1888280156.4031122,
+      "category": "Dexs",
+      "audited": true,
+      "vulnerabilities": [],
+      "verdicts": [
+        {
+          "title": "VERY HIGH TVL TARGET",
+          "severity": "INFO",
+          "category": "INTEL",
+          "description": "Protocol holds over $10M in TVL",
+          "evidence": [
+            "TVL: $1,888,280,156"
+          ],
+          "action": "High-value target if vulnerable"
+        }
+      ],
+      "priority_score": 25
+    }
+  ],
+  "high_priority_count": 19
+}

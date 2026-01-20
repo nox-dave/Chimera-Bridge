@@ -1,0 +1,382 @@
+{
+  "address": "0xb23360ccdd9ed1b15d45e5d3824bb409c8d7c460",
+  "discovered_at": "2026-01-15T14:29:23.748612+00:00",
+  "total_value_usd": 19768758.954873,
+  "eth_balance": 5868.943541135379,
+  "eth_value_usd": 19768758.954873,
+  "token_holdings": {},
+  "risk_score": 60,
+  "tx_count": 1000,
+  "defi_activity": false,
+  "nft_activity": {
+    "unique_collections": 3,
+    "top_collections": [
+      [
+        "ClaimPass",
+        1
+      ],
+      [
+        "Visit airdrop-eth.com to claim $100 ETH rewards.",
+        1
+      ],
+      [
+        "Reward Club [KiEHsFRA]",
+        1
+      ]
+    ],
+    "collection_addresses": {
+      "0x732bc69d3ed34a18058dee2a9ef046d440a357e5": 1,
+      "0xf83119c353ce05f297ed0d1772944c12baf56118": 1,
+      "0xe5c9064540f398282e04ef1cadf195eb8dc310c4": 1
+    }
+  },
+  "bridge_activity": false,
+  "age_days": 0,
+  "osint_categories": [
+    "\ud83c\udfb0_gamblers",
+    "\ud83c\udd95_newcomers",
+    "\ud83c\udfc6_status_seekers",
+    "\ud83d\udc1f_easy_targets",
+    "\ud83d\udc8e_high_value",
+    "\ud83c\udfaf_prime_targets"
+  ],
+  "primary_osint_category": "\ud83c\udfb0_gamblers",
+  "behavior": {
+    "confidence_score": 60,
+    "sophistication": "Novice",
+    "risk_tolerance": "Aggressive",
+    "trading_style": "Stablecoin Holder",
+    "likely_region": "Europe",
+    "likely_timezone": "Europe/Africa (UTC+0 to +3)",
+    "meme_exposure": true,
+    "defi_protocols": [],
+    "nft_platforms": [],
+    "bridges_used": [],
+    "exchange_interactions": [],
+    "frequent_counterparties": []
+  },
+  "transaction_analysis": {
+    "total_transactions": 1000,
+    "total_value_eth": 658.6461554399999,
+    "most_active_hour": 12,
+    "most_active_day": "Thursday",
+    "top_recipients": [
+      [
+        "0x09c30cdcdd971423cb3ba757a47d56c35d06d818",
+        124
+      ],
+      [
+        "0x7fc40b879b1a1bbda7c2ba62d26d1018ca2acc3a",
+        5
+      ],
+      [
+        "0x34ccf6e2a139a4528bdbb599e6f766d1a6150d13",
+        5
+      ],
+      [
+        "0xda67ff04c0f0583ffff477161596e48a6ace2e50",
+        5
+      ],
+      [
+        "0x0997a5b9db01effaf86071f827e13c7bf6cd96a8",
+        5
+      ],
+      [
+        "0xce884345ae43d903877cf1d118aacbda84ccc36a",
+        5
+      ],
+      [
+        "0x6982508145454ce325ddbe47a25d4ec3d2311933",
+        4
+      ],
+      [
+        "0x3a2389c5d3f660c73f7bd44f4f9611ea7ed662c6",
+        4
+      ],
+      [
+        "0x4db85ebf7a76dff7a0879e97b16397114ce6d7b9",
+        4
+      ],
+      [
+        "0x5f6245d53961aeec596f551d1b21ab19f719b047",
+        4
+      ]
+    ],
+    "top_senders": [
+      [
+        "0xb23360ccdd9ed1b15d45e5d3824bb409c8d7c460",
+        997
+      ],
+      [
+        "0xdf167211d977a5f2c730efda445b9df79fc0e8eb",
+        1
+      ],
+      [
+        "0xb5c4b6bde27bd514a83064b1deadef315bd719b1",
+        1
+      ],
+      [
+        "0x34ccf562f32a10618c21a1e728d0da0bb6210d13",
+        1
+      ]
+    ],
+    "first_transaction": "2026-01-15T10:10:11",
+    "last_transaction": "2026-01-15T15:28:23",
+    "avg_gas_used": 69528.81,
+    "avg_gas_price": 175921539.82784322
+  },
+  "token_activity": {
+    "unique_tokens": 11,
+    "top_tokens": [
+      [
+        "USDT",
+        625
+      ],
+      [
+        "USDC",
+        357
+      ],
+      [
+        "SHIB",
+        5
+      ],
+      [
+        "ENA",
+        3
+      ],
+      [
+        "PEPE",
+        2
+      ],
+      [
+        "ONDO",
+        2
+      ],
+      [
+        "UNI",
+        2
+      ],
+      [
+        "LINK",
+        1
+      ],
+      [
+        "AAVE",
+        1
+      ],
+      [
+        "PERP",
+        1
+      ],
+      [
+        "CRO",
+        1
+      ]
+    ],
+    "token_values": {
+      "PEPE": 101184560.9852,
+      "ONDO": 798.01931718,
+      "USDC": 540621.046879,
+      "USDT": 836257.3704210003,
+      "LINK": 17.08536329,
+      "ENA": 1875.03716102,
+      "SHIB": 253438550.734,
+      "AAVE": 0.12438492,
+      "UNI": 13.35306386,
+      "PERP": 553.2528017,
+      "CRO": 100.0
+    },
+    "token_details": {
+      "PEPE": [
+        "Pepe"
+      ],
+      "ONDO": [
+        "Ondo"
+      ],
+      "USDC": [
+        "USDC"
+      ],
+      "USDT": [
+        "Tether USD"
+      ],
+      "LINK": [
+        "ChainLink Token"
+      ],
+      "ENA": [
+        "Ethena"
+      ],
+      "SHIB": [
+        "SHIBA INU"
+      ],
+      "AAVE": [
+        "Aave Token"
+      ],
+      "UNI": [
+        "Uniswap"
+      ],
+      "PERP": [
+        "Perpetual"
+      ],
+      "CRO": [
+        "Cronos Coin"
+      ]
+    }
+  },
+  "ipfs_osint": {
+    "address": "0xb23360ccdd9ed1b15d45e5d3824bb409c8d7c460",
+    "ipfs_hashes_found": [
+      {
+        "contract": "0xf83119c353ce05f297ed0d1772944c12baf56118",
+        "token_id": "130",
+        "uri": "ipfs://QmQpgc5VKqA8evqfoQ2hXJY2dWwn8wqGjhU17Gjju3qPi4/metadata.json",
+        "ipfs_hash": "QmQpgc5VKqA8evqfoQ2hXJY2dWwn8wqGjhU17Gjju3qPi4"
+      }
+    ],
+    "metadata_analyzed": [],
+    "debug_info": {
+      "nft_transfers_count": 3,
+      "contracts_found": 3,
+      "tokens_checked": 3,
+      "uris_found": 3,
+      "ipfs_hashes_extracted": 1,
+      "metadata_fetched": 0
+    },
+    "findings": {
+      "total_hashes": 1,
+      "unique_hashes": [
+        "QmQpgc5VKqA8evqfoQ2hXJY2dWwn8wqGjhU17Gjju3qPi4"
+      ],
+      "linked_urls": [],
+      "usernames": [],
+      "emails": [],
+      "social_links": [],
+      "timestamps": [],
+      "creators": [],
+      "collections": [],
+      "domains": [
+        "luckyusdc.xyz",
+        "file-3af.pages.dev"
+      ],
+      "domain_analysis": {
+        "luckyusdc.xyz": {
+          "domain": "luckyusdc.xyz",
+          "is_ipfs": false,
+          "is_centralized": true,
+          "scam_indicators": [
+            "Contains suspicious keyword: 'lucky'",
+            "Suspicious TLD: .xyz"
+          ],
+          "reputation": "suspicious",
+          "whois_info": null
+        },
+        "file-3af.pages.dev": {
+          "domain": "file-3af.pages.dev",
+          "is_ipfs": false,
+          "is_centralized": true,
+          "scam_indicators": [],
+          "reputation": "unknown",
+          "whois_info": null
+        }
+      },
+      "metadata_urls": [
+        {
+          "contract": "0x732bc69d3ed34a18058dee2a9ef046d440a357e5",
+          "token_id": "3055",
+          "uri": "https://luckyusdc.xyz/metadata/3055.json"
+        },
+        {
+          "contract": "0xf83119c353ce05f297ed0d1772944c12baf56118",
+          "token_id": "130",
+          "uri": "ipfs://QmQpgc5VKqA8evqfoQ2hXJY2dWwn8wqGjhU17Gjju3qPi4/metadata.json"
+        },
+        {
+          "contract": "0xe5c9064540f398282e04ef1cadf195eb8dc310c4",
+          "token_id": "121",
+          "uri": "https://file-3af.pages.dev/reward3/json.json?nft=all"
+        }
+      ]
+    }
+  },
+  "ens": {
+    "address": "0xb23360ccdd9ed1b15d45e5d3824bb409c8d7c460",
+    "ens_name": null,
+    "text_records": {},
+    "social_links": {},
+    "has_ens": false,
+    "has_social_links": false
+  },
+  "verdicts": [
+    {
+      "title": "SCAM NFT AIRDROP DETECTED",
+      "severity": "CRITICAL",
+      "category": "THREAT",
+      "description": "This wallet received an NFT from a scam domain impersonating USDC stablecoin. The domain 'luckyusdc.xyz' is designed to phish users.",
+      "evidence": [
+        "Contains 'lucky' - Lottery/giveaway scam bait",
+        "Impersonating USDC stablecoin",
+        "Suspicious TLD: .xyz"
+      ],
+      "action": "Do not interact with this NFT or visit the domain"
+    },
+    {
+      "title": "NFT COLLECTOR PROFILE",
+      "severity": "MEDIUM",
+      "category": "PROFILE",
+      "description": "Wallet shows strong NFT activity with significant holdings. Potential social identity vector through NFT metadata.",
+      "evidence": [
+        "Matched 3/4 signals",
+        "Pattern: nft_collector",
+        "Confidence: 75%",
+        "Signal: balance_usd",
+        "Signal: tx_frequency",
+        "Signal: defi_protocols_count"
+      ],
+      "action": "Investigate NFT metadata for OSINT"
+    },
+    {
+      "title": "LOW SOPHISTICATION TARGET",
+      "severity": "MEDIUM",
+      "category": "VULNERABILITY",
+      "description": "Wallet shows limited DeFi knowledge but holds significant value. Basic phishing likely to succeed.",
+      "evidence": [
+        "Matched 3/4 signals",
+        "Pattern: low_sophistication_target",
+        "Confidence: 75%",
+        "Signal: sophistication",
+        "Signal: balance_usd",
+        "Signal: defi_protocols_count"
+      ],
+      "action": "Standard phishing attacks likely effective"
+    },
+    {
+      "title": "HIGH-RISK TRADER PROFILE",
+      "severity": "MEDIUM",
+      "category": "PROFILE",
+      "description": "Wallet shows impulsive trading behavior with meme coin exposure. Likely susceptible to FOMO-based attacks.",
+      "evidence": [
+        "Matched 3/3 signals",
+        "Pattern: high_risk_trader",
+        "Confidence: 100%",
+        "Signal: meme_exposure",
+        "Signal: tx_count",
+        "Signal: balance_usd"
+      ],
+      "action": "Target with urgency-based scams, fake alpha"
+    },
+    {
+      "title": "NO EXCHANGE TRAIL",
+      "severity": "MEDIUM",
+      "category": "INTEL",
+      "description": "Large holder with no detected CEX interactions. Funds origin harder to trace. May be privacy-conscious or using DEX only.",
+      "evidence": [
+        "Matched 3/3 signals",
+        "Pattern: no_exchange_trail",
+        "Confidence: 100%",
+        "Signal: exchange_interactions",
+        "Signal: balance_usd",
+        "Signal: tx_count"
+      ],
+      "action": "Trace funding source through on-chain analysis"
+    }
+  ]
+}

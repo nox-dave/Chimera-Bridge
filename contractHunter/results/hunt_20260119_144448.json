@@ -1,0 +1,13 @@
+{
+  "targets": [],
+  "total_found": 0,
+  "timestamp": "2026-01-19T13:44:48.809256Z",
+  "filters": {
+    "min_tvl": 50000,
+    "max_tvl": null,
+    "categories": null,
+    "chains": null,
+    "exclude_audited": false
+  },
+  "scan_results": null
+}

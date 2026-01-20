@@ -1,0 +1,20 @@
+{
+  "address": "0x000000000000000000000000000000000000dead",
+  "total_score": 0,
+  "value_score": 0,
+  "vulnerability_score": 0,
+  "confidence_score": 0,
+  "freshness_score": 0,
+  "balance_usd": 38519433.2912082,
+  "categories": [
+    "\ud83c\udfb0_gamblers",
+    "\ud83c\udd95_newcomers",
+    "\ud83d\udca4_dormant_whales",
+    "\ud83d\udc8e_high_value",
+    "\ud83c\udfaf_prime_targets"
+  ],
+  "confidence_pct": 65,
+  "last_updated": "",
+  "disqualified": true,
+  "disqualify_reason": "Burn address"
+}

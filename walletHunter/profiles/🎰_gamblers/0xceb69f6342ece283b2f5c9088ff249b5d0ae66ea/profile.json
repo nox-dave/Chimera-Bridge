@@ -1,0 +1,1093 @@
+{
+  "address": "0xceb69f6342ece283b2f5c9088ff249b5d0ae66ea",
+  "discovered_at": "2026-01-15T15:31:13.028381+00:00",
+  "total_value_usd": 105795917.54719901,
+  "eth_balance": 31767.80699722313,
+  "eth_value_usd": 105795917.54719901,
+  "token_holdings": {},
+  "risk_score": 65,
+  "tx_count": 1000,
+  "defi_activity": false,
+  "nft_activity": {
+    "unique_collections": 63,
+    "top_collections": [
+      [
+        "Louis Vuitton",
+        16
+      ],
+      [
+        "Gucci",
+        13
+      ],
+      [
+        "Murakami flowers",
+        6
+      ],
+      [
+        "NBA TOP SHOT",
+        6
+      ],
+      [
+        "LEGO",
+        5
+      ],
+      [
+        "Rolex",
+        4
+      ],
+      [
+        "PATEK PHILIPPE",
+        4
+      ],
+      [
+        "Hermes",
+        4
+      ],
+      [
+        "Benz",
+        4
+      ],
+      [
+        "Coca Cola",
+        4
+      ]
+    ],
+    "collection_addresses": {
+      "0x2da8ae38d64965a90cebcb14124bd1476fc05e00": 1,
+      "0xc36442b4a4522e871399cd717abdd847ab11fe88": 1,
+      "0x70d43932df9a29eda20730dcc6d4024a9ca15fc4": 1,
+      "0xcbdca1d8b0df1c7f668b53fa3672201316466dcf": 1,
+      "0x49b9584b2d01ab3b28567ccbfaa9ae0f7c3fe987": 1,
+      "0x7efe3d92d57da322fdf8133147b06aefc3b855b4": 1,
+      "0x9cdb22529956d15a41d99312825723034096ac0c": 1,
+      "0xfff54e6fe44fd47c8814c4b1d62c924c54364ad3": 1,
+      "0xf9e458f01daf255e4279eae3ae527529130f0c85": 2,
+      "0x985b12a568fa248bf68044050bf3849d1bb55765": 1,
+      "0x6684ba855355420002753e5d3e3b6d06b52ac9dd": 1,
+      "0x5932a16c53890e47425b2c676f36724aab72a7f2": 1,
+      "0x5d76397c691feaad749316ae3c183f51f23fe6bc": 1,
+      "0x034a0e87ccb2943e60ddc1fd6a3ab3aaa442e554": 1,
+      "0x0d5e50c1e7cfde5219c21e0e103fe4b916805652": 1,
+      "0x3477811908f961e6bd767e917c37a2d41cd33420": 1,
+      "0x856eeb57101bd6aa76c6d97b74c399997ca07aaa": 1,
+      "0x176ff191b9d4de11c9d5f979ea5a56f2ac027aaf": 1,
+      "0x57cf387209c4c7b61f73c962e8251e5bcdd64448": 1,
+      "0x4e8c0cd92d062bf703055a3670a91ec948844058": 1,
+      "0x0be3f908f6fbf3321f089e6df88402b6c8d72480": 1,
+      "0xe0bc9f7e17ec1c491d30354c5a37d55c30221d99": 1,
+      "0x96a0253db6b0a04c8639408baf25b7f497339be9": 1,
+      "0xf8fd0b82d8f125d97793b91cdf41a8e0c8497fc5": 1,
+      "0x8eca37aece07acb930e211e152ef355814d7d2a6": 1,
+      "0xc42a1341c25cec43f0a79de8b9d783ff9980e5ef": 1,
+      "0x4d2167923f119566a5d8e36cd216b0d11deebf47": 1,
+      "0xccb3984229af23a91fce57767ae2d086957808c1": 1,
+      "0xb795cc2d42c7921e8d6c38b4a4c05d401ad4900d": 1,
+      "0x8643c0c6205ae25539cc16bf324cf50898136fea": 1,
+      "0x0bffc67227c0a3432a906a1c59c83459e5bfbdc4": 1,
+      "0x4d5be2853a042595550d704c461a24caa8db94e6": 1,
+      "0x7b9aa3a8a4661f126b61a632a25e352bdbd19cdd": 1,
+      "0x499bb1c94393ee05f7c8f2bf6f11e8a9c1e9ee2b": 3,
+      "0x6be9b63cb4258db9ea692c057452cb23c2523836": 1,
+      "0x22c915866bad87615fef6953838149f6f90f450a": 1,
+      "0x68aabcecccaefba1dfb76949f1140767b9aaa803": 1,
+      "0x35c5a191593271333147ed238894f6dc88d97da5": 1,
+      "0x68f13d09ddf2a2c2bd403a1edecd5e8ae52d1712": 2,
+      "0xe1e20c0b87b008374826f99e165d4fb6f925290e": 2,
+      "0xfdcd7f876d43c1bb9376d577b354f16dc92675c8": 1,
+      "0x84e64ce037a3e9010d337532f9e3f8342776a2f0": 2,
+      "0xfdfb369d9910d16f7357bb6b18a6fc4cba6dc871": 1,
+      "0xb368d728a401f79126fadcd00207ec668952b56e": 1,
+      "0x72871f4c0e7c6b43f0b22790dae3275aff918ff5": 1,
+      "0xd5dd47f6d4adf315faf1612151665475fa815a32": 1,
+      "0x1e83329ed0c56970a8554a796b44ddf766f60e66": 1,
+      "0x04a4825a6dc9c4283b289ef40ae215436989deea": 1,
+      "0xc73304a5d3c9539dd5e36cf4150e08949edac667": 1,
+      "0xeb40f456f35e869d3db85af7d804acd5909b5dad": 1,
+      "0x4c3334e831fb348dff73919338066eb82614ced8": 1,
+      "0xb4e7ef7a99a056ea37f770a18bfd3f1cc859fb30": 1,
+      "0xc594e8cc45630e9d45af5696a19687d94dee48e2": 1,
+      "0xda97f98832dfd9ca0f3c35a629e1e59e8b2c3845": 2,
+      "0xa6d76618cdc40dc99b3c909b839bafa3af44cb41": 1,
+      "0x4ef1166bf801c61439953a22b0aaf8fd2de48b7d": 1,
+      "0xca8098ab4503aee15b3291d22c0852518d04da63": 2,
+      "0x1509bbe6281278052b437aa4df40396805f8052a": 1,
+      "0x8cdd2f148d854e62fb3a28d7a7b648e221c9a6ca": 1,
+      "0x000386e3f7559d9b6a2f5c46b4ad1a9587d59dc3": 2,
+      "0xceacb5cc03591b7cd522b3b40d26ef3a21c282f9": 1,
+      "0x367aa3704cb821e9ee639e9c38dc9986931ead59": 2,
+      "0xcdd02e7849cbbfeaf6401cfdc434999ff5fc0f04": 1,
+      "0xf812ea26dbf535b21036e69a9700a3424907b92a": 1,
+      "0x2d677dbe16752a066ef83e382dcc04d7003a61ed": 1,
+      "0x0270d6ba8497af8116ea1af1f4697ac9dcdbf116": 1,
+      "0x52376b7ae2feb62c0c0593aa9b9172a0271e0620": 1,
+      "0x22f709f3851c9adabe6c600cae8abee5f1f1918a": 5,
+      "0x032d96756697af7ec02ce03d39001b39f7a5d849": 1,
+      "0x00703f9b11f2ac02d391a11e7b97c6ee80cd8563": 1,
+      "0x095c1e0a6fe0075d78ad275c657df5b07630c021": 2,
+      "0x9f9400cbd0975204b7610015fac4e10de473fc4d": 2,
+      "0x07e3f9478b18061b30d3fc1d0c18fc5c36b0be40": 1,
+      "0x71d8aea2ee932a8de445f087edca039a32e361e6": 1,
+      "0x7f4d09419d231eda3a2ebe36fa84a2cf44ad5afb": 4,
+      "0x563851297fe12bbb313c6565d12c2943e4a2a8a6": 1,
+      "0x6d51cc615526bd2adfdc050649c65df70112baec": 8,
+      "0xff8852a5f77c20094f0fabc7b225b417e0797907": 2,
+      "0xbcdedd6a26ec0bf627eb64eb1d1f7927e7159cd6": 1,
+      "0x8794ffb49bc980b63b92347456bb55d01c45e309": 3,
+      "0x0dd08a67d494d79b556712fb2a6e8b48467a64c2": 4,
+      "0x09a0bf75dc381c41e6d4db74f30e82c9b0db81f5": 1,
+      "0x71864a02c35f860979790f50767a7169ca39d8af": 1,
+      "0xebc782039c8661250b6554e22925e0f24ae5003c": 1,
+      "0x0e7dfcc6c9dcb9ea928b4328cd6ff16f8bcab1c4": 1,
+      "0xb1530d137d908c6bf8d3ab936b7412602d6f8d01": 1,
+      "0x1a89b29ca35f4eaa3f22bd71c2f723cddf6df6af": 2,
+      "0x98cd41ec370430e6a478adbf8b2c74dd670385de": 1,
+      "0x601222160798ecdf3fc98b7a15d2b047400f0ec0": 1,
+      "0x9b893bafd81ccc6f68544efe85a9ecc2bb6be64f": 6,
+      "0xc14a8b1396ba89dc14c2ac01fb9ef51389ca2dcf": 1,
+      "0x1a4a94011794a48a9327f99e240361a7c582324f": 1,
+      "0x6dbc1f3961fd606feaf5fb73245aa4b2674d1e66": 1,
+      "0xec9b9d220651e7bcf9c812ccc966d12d922f237b": 1,
+      "0xc4b87b74dd61edd9fc00fc31db251324ff13dce9": 5,
+      "0x77b25667e5258305dcaab7e0a21d068c5a3c7eb1": 1,
+      "0x0c5932213a9b70b91625caeea7d22b5a16b108ae": 2,
+      "0xa114e99111cd67eeb65c2994090b0843ccd4a612": 1,
+      "0x3bfcdb0261e7f71bd81896816d8515c7352099f0": 1,
+      "0xf0ebd6cca49718563d9fdaa2b4690fec9fc9361c": 2,
+      "0x1192ea1c8831acb03fb8fc804be8020a2c694aae": 1,
+      "0xabe7b97730887de0aa949a6751fa411f103e9977": 1,
+      "0x638c33bd4835afa220e109bc5551038aa99929e1": 1,
+      "0xbfc1fbfdb3c440459d0ece2de312086ffbba1bea": 2
+    }
+  },
+  "bridge_activity": false,
+  "age_days": 3,
+  "osint_categories": [
+    "\ud83c\udfb0_gamblers",
+    "\ud83c\udd95_newcomers",
+    "\ud83c\udfc6_status_seekers",
+    "\ud83d\udc1f_easy_targets",
+    "\ud83d\udc8e_high_value",
+    "\ud83c\udfaf_prime_targets"
+  ],
+  "primary_osint_category": "\ud83c\udfb0_gamblers",
+  "behavior": {
+    "confidence_score": 65,
+    "sophistication": "Novice",
+    "risk_tolerance": "Aggressive",
+    "trading_style": "Active Trader",
+    "likely_region": "Americas",
+    "likely_timezone": "Americas (UTC-5 to -8)",
+    "meme_exposure": true,
+    "defi_protocols": [],
+    "nft_platforms": [],
+    "bridges_used": [],
+    "exchange_interactions": [],
+    "frequent_counterparties": []
+  },
+  "transaction_analysis": {
+    "total_transactions": 1000,
+    "total_value_eth": 1212696.0367844435,
+    "most_active_hour": 18,
+    "most_active_day": "Wednesday",
+    "top_recipients": [
+      [
+        "0xceb69f6342ece283b2f5c9088ff249b5d0ae66ea",
+        589
+      ],
+      [
+        "0x8c1bed5b9a0928467c9b1341da1d7bd5e10b6549",
+        36
+      ],
+      [
+        "0x3606f0f14828cbf4962a284a4bff93bc94b63665",
+        26
+      ],
+      [
+        "0x95ad61b0a150d79219dcf64e1e6cc01f0b64c4ce",
+        23
+      ],
+      [
+        "0x1f9840a85d5af5bf1d1762f925bdaddc4201f984",
+        23
+      ],
+      [
+        "0x57e114b691db790c35207b2e685d4a43181e6061",
+        15
+      ],
+      [
+        "0x643c4e15d7d62ad0abec4a9bd4b001aa3ef52d66",
+        11
+      ],
+      [
+        "0xca14007eff0db1f8135f4c25b34de49ab0d42766",
+        8
+      ],
+      [
+        "0x8d0d000ee44948fc98c9b98a4fa4921476f08b0d",
+        8
+      ],
+      [
+        "0x3b6dcfde35e53fb7dca8571f23286631b5123c5b",
+        7
+      ]
+    ],
+    "top_senders": [
+      [
+        "0xceb69f6342ece283b2f5c9088ff249b5d0ae66ea",
+        411
+      ],
+      [
+        "0x3606f0f14828cbf4962a284a4bff93bc94b63665",
+        24
+      ],
+      [
+        "0x96bc6bb2eb48d7c34fdda619a153bd6ea9a1603a",
+        15
+      ],
+      [
+        "0x36065d8135169123fc15e50f746f6cac94b63665",
+        12
+      ],
+      [
+        "0x36065f1db4024e15b1d3da6506bc2833e8153665",
+        11
+      ],
+      [
+        "0x157d64d6bb83c03e16f425418a7dafc4872c2372",
+        10
+      ],
+      [
+        "0x360657c9442daf7cf70b17957c68840c94b63665",
+        10
+      ],
+      [
+        "0xc8c557506a5240dcec094e614c665ff9ca815b95",
+        8
+      ],
+      [
+        "0x360683344f8fbc58a5e8a5c2b1ba6cbc94b63665",
+        8
+      ],
+      [
+        "0xab33b1d11352db5fb13edcf350c72939658972c3",
+        7
+      ]
+    ],
+    "first_transaction": "2026-01-05T18:49:47",
+    "last_transaction": "2026-01-15T16:03:23",
+    "avg_gas_used": 26315.838,
+    "avg_gas_price": 144828592.43383643
+  },
+  "token_activity": {
+    "unique_tokens": 56,
+    "top_tokens": [
+      [
+        "UNI",
+        546
+      ],
+      [
+        "SHIB",
+        92
+      ],
+      [
+        "ENA",
+        58
+      ],
+      [
+        "LsETH",
+        54
+      ],
+      [
+        "SYRUP",
+        35
+      ],
+      [
+        "STRK",
+        20
+      ],
+      [
+        "SKY",
+        19
+      ],
+      [
+        "USD1",
+        12
+      ],
+      [
+        "AXS",
+        12
+      ],
+      [
+        "MANA",
+        11
+      ],
+      [
+        "GRT",
+        10
+      ],
+      [
+        "LPT",
+        9
+      ],
+      [
+        "IMX",
+        9
+      ],
+      [
+        "AMP",
+        8
+      ],
+      [
+        "BOBA",
+        8
+      ],
+      [
+        "WLD",
+        7
+      ],
+      [
+        "SXT",
+        6
+      ],
+      [
+        "EUL",
+        6
+      ],
+      [
+        "COW",
+        5
+      ],
+      [
+        "BAL",
+        5
+      ]
+    ],
+    "token_values": {
+      "STRK": 13800049.6520317,
+      "SHIB": 5107883461279.324,
+      "USD1": 8454916.201670988,
+      "SPK": 76088429.30113332,
+      "SXT": 215821312.6593096,
+      "LPT": 155114.4384300144,
+      "WLD": 3984773.7798718438,
+      "AXS": 146556.05287578193,
+      "ENA": 72353103.12875499,
+      "SYRUP": 70978509.76889418,
+      "COW": 435000.0,
+      "UNI": 14145306.845425108,
+      "SNX": 488.87,
+      "MANA": 533016.4680186016,
+      "UniLife": 5.0,
+      "ZETA": 2531446.8264715155,
+      "EUL": 12.073536725373199,
+      "ANKR": 2298282.5512481984,
+      "GRT": 27556102.469099917,
+      "kitties": 27311094.483057164,
+      "API3": 10521.089999999998,
+      "SKY": 233899038.32845733,
+      "GLM": 48.3,
+      "LsETH": 35163.04776032154,
+      "AMP": 545525706.3524307,
+      "ZKC": 20.0,
+      "IMX": 969190.2397973436,
+      "XAN": 190.0,
+      "SHPING": 3855167.97234356,
+      "LRC": 1302902.812820152,
+      "BOBA": 2021157.751300913,
+      "ZTC": 5.0,
+      "ZRX": 50.0,
+      "ENJ": 47409.04281375958,
+      "GODS": 206200.83000000002,
+      "AIOZ": 1815335.526269136,
+      "PIRATE": 868998.2531328299,
+      "1": 29884021.19502659,
+      "GTC": 5208.333333333333,
+      "SUPERDOG": 5.0,
+      "EHORSE": 5.0,
+      "EURC": 1285777.356348,
+      "GHST": 1330.47956976,
+      "ACH": 3310587.8580045598,
+      "BREV": 5.0,
+      "DIA": 384911.33414546837,
+      "ONDO": 1.0,
+      "RAD": 1175.0,
+      "REZ": 17773214.0,
+      "INDEX": 70498.24540593248,
+      "PYR": 10037.780245502667,
+      "BAL": 66652.45263159342,
+      "YES": 3.0,
+      "SPX": 25.32378708,
+      "BADGER": 459.313,
+      "ENS": 66.0
+    },
+    "token_details": {
+      "STRK": [
+        "Starknet Token"
+      ],
+      "SHIB": [
+        "SHIBA INU"
+      ],
+      "USD1": [
+        "World Liberty Financial USD"
+      ],
+      "SPK": [
+        "Spark"
+      ],
+      "SXT": [
+        "Space and Time"
+      ],
+      "LPT": [
+        "Livepeer Token"
+      ],
+      "WLD": [
+        "Worldcoin"
+      ],
+      "AXS": [
+        "Axie Infinity Shard"
+      ],
+      "ENA": [
+        "Ethena"
+      ],
+      "SYRUP": [
+        "Syrup Token"
+      ],
+      "COW": [
+        "CoW Protocol Token"
+      ],
+      "UNI": [
+        "Uniswap"
+      ],
+      "SNX": [
+        "Synthetix Network Token"
+      ],
+      "MANA": [
+        "Decentraland"
+      ],
+      "UniLife": [
+        "UniLife"
+      ],
+      "ZETA": [
+        "Zeta"
+      ],
+      "EUL": [
+        "Euler"
+      ],
+      "ANKR": [
+        "Ankr Network"
+      ],
+      "GRT": [
+        "Graph Token"
+      ],
+      "kitties": [
+        "I love kitties"
+      ],
+      "API3": [
+        "API3"
+      ],
+      "SKY": [
+        "SKY Governance Token"
+      ],
+      "GLM": [
+        "Golem Network Token"
+      ],
+      "LsETH": [
+        "Liquid Staked ETH"
+      ],
+      "AMP": [
+        "Amp"
+      ],
+      "ZKC": [
+        "ZK Coin"
+      ],
+      "IMX": [
+        "Immutable X"
+      ],
+      "XAN": [
+        "Anoma"
+      ],
+      "SHPING": [
+        "Shping Coin"
+      ],
+      "LRC": [
+        "LoopringCoin V2"
+      ],
+      "BOBA": [
+        "Boba Token"
+      ],
+      "ZTC": [
+        "ZenChain"
+      ],
+      "ZRX": [
+        "ZRX"
+      ],
+      "ENJ": [
+        "EnjinCoin"
+      ],
+      "GODS": [
+        "Gods Unchained"
+      ],
+      "AIOZ": [
+        "AIOZ Network"
+      ],
+      "PIRATE": [
+        "Pirate Nation Token"
+      ],
+      "1": [
+        "1 coin can change your life"
+      ],
+      "GTC": [
+        "Gitcoin"
+      ],
+      "SUPERDOG": [
+        "SUPERDOG"
+      ],
+      "EHORSE": [
+        "EHORSE"
+      ],
+      "EURC": [
+        "EURC"
+      ],
+      "GHST": [
+        "Aavegotchi GHST Token"
+      ],
+      "ACH": [
+        "Alchemy"
+      ],
+      "BREV": [
+        "Brevis"
+      ],
+      "DIA": [
+        "DIAToken"
+      ],
+      "ONDO": [
+        "Ondo"
+      ],
+      "RAD": [
+        "Radicle"
+      ],
+      "REZ": [
+        "Renzo"
+      ],
+      "INDEX": [
+        "Index"
+      ],
+      "PYR": [
+        "PYR Token"
+      ],
+      "BAL": [
+        "Balancer"
+      ],
+      "YES": [
+        "YES"
+      ],
+      "SPX": [
+        "SPX6900"
+      ],
+      "BADGER": [
+        "Badger"
+      ],
+      "ENS": [
+        "Ethereum Name Service"
+      ]
+    }
+  },
+  "ipfs_osint": {
+    "address": "0xceb69f6342ece283b2f5c9088ff249b5d0ae66ea",
+    "ipfs_hashes_found": [
+      {
+        "contract": "0xc36442b4a4522e871399cd717abdd847ab11fe88",
+        "token_id": "653145",
+        "uri": "data:application/json;base64,eyJuYW1lIjoiVW5pc3dhcCAtIDAuMDUlIC0gRVRIKy9XRVRIIC0gMC44MzM2MTw+MS4wMjUzIiwgImRlc2NyaXB0aW9uIjoiVGhpcyBORlQgcmVwcmVzZW50cyBhIGxpcXVpZGl0eSBwb3NpdGlvbiBpbiBhIFVuaXN3YXAgVjMgRVRIKy1XRVRIIHBvb2wuIFRoZSBvd25lciBvZiB0aGlzIE5GVCBjYW4gbW9kaWZ5IG9yIHJlZGVlbSB0aGUgcG9zaXRpb24uXG5cblBvb2wgQWRkcmVzczogMHhmNjQ5ZGY0MzcyZDhiYjNlNjE3OGU1MmZjZDUxNTUxOWM3OGRhMzQ4XG5FVEgrIEFkZHJlc3M6IDB4ZTcyYjE0MWRmMTczYjk5OWFlN2MxYWRjYmY2MGNjOTgzM2NlNTZhOFxuV0VUSCBBZGRyZXNzOiAweGMwMmFhYTM5YjIyM2ZlOGQwYTBlNWM0ZjI3ZWFkOTA4M2M3NTZjYzJcbkZlZSBUaWVyOiAwLjA1JVxuVG9rZW4gSUQ6IDY1MzE0NVxuXG7imqDvuI8gRElTQ0xBSU1FUjogRHVlIGRpbGlnZW5jZSBpcyBpbXBlcmF0aXZlIHdoZW4gYXNzZXNzaW5nIHRoaXMgTkZULiBNYWtlIHN1cmUgdG9rZW4gYWRkcmVzc2VzIG1hdGNoIHRoZSBleHBlY3RlZCB0b2tlbnMsIGFzIHRva2VuIHN5bWJvbHMgbWF5IGJlIGltaXRhdGVkLiIsICJpbWFnZSI6ICJkYXRhOmltYWdlL3N2Zyt4bWw7YmFzZTY0LFBITjJaeUIzYVdSMGFEMGlNamt3SWlCb1pXbG5hSFE5SWpVd01DSWdkbWxsZDBKdmVEMGlNQ0F3SURJNU1DQTFNREFpSUhodGJHNXpQU0pvZEhSd09pOHZkM2QzTG5jekxtOXlaeTh5TURBd0wzTjJaeUlnZUcxc2JuTTZlR3hwYm1zOUoyaDBkSEE2THk5M2QzY3Vkek11YjNKbkx6RTVPVGt2ZUd4cGJtc25QanhrWldaelBqeG1hV3gwWlhJZ2FXUTlJbVl4SWo0OFptVkpiV0ZuWlNCeVpYTjFiSFE5SW5Bd0lpQjRiR2x1YXpwb2NtVm1QU0prWVhSaE9tbHRZV2RsTDNOMlp5dDRiV3c3WW1GelpUWTBMRkJJVGpKYWVVSXpZVmRTTUdGRU1HNU5hbXQzU25sQ2IxcFhiRzVoU0ZFNVNucFZkMDFEWTJka2JXeHNaREJLZG1WRU1HNU5RMEYzU1VSSk5VMURRVEZOUkVGdVNVaG9kR0pITlhwUVUyUnZaRWhTZDA5cE9IWmtNMlF6VEc1amVreHRPWGxhZVRoNVRVUkJkMHd6VGpKYWVXTXJVRWhLYkZrelVXZGtNbXhyWkVkbk9VcDZTVFZOU0VJMFNubENiMXBYYkc1aFNGRTVTbnBWZDAxSVFqUktlVUp0WVZkNGMxQlRZMnBhVkdONVdXcEZNRXA1T0N0UVF6bDZaRzFqS3lJdlBqeG1aVWx0WVdkbElISmxjM1ZzZEQwaWNERWlJSGhzYVc1ck9taHlaV1k5SW1SaGRHRTZhVzFoWjJVdmMzWm5LM2h0YkR0aVlYTmxOalFzVUVoT01scDVRak5oVjFJd1lVUXdiazFxYTNkS2VVSnZXbGRzYm1GSVVUbEtlbFYzVFVOaloyUnRiR3hrTUVwMlpVUXdiazFEUVhkSlJFazFUVU5CTVUxRVFXNUpTR2gwWWtjMWVsQlRaRzlrU0ZKM1QyazRkbVF6WkROTWJtTjZURzA1ZVZwNU9IbE5SRUYzVEROT01scDVZeXRRUjA1d1kyMU9jMXBUUW1wbFJEQnVUVlJyTkVwNVFtcGxWREJ1VFdwRmVVcDVRbmxRVTJONFRXcENkMlZEWTJkYWJXeHpZa1F3YmtreVRYZE5iVVpvV1ZOamRsQnFkM1pqTTFwdVVHYzlQU0l2UGp4bVpVbHRZV2RsSUhKbGMzVnNkRDBpY0RJaUlIaHNhVzVyT21oeVpXWTlJbVJoZEdFNmFXMWhaMlV2YzNabkszaHRiRHRpWVhObE5qUXNVRWhPTWxwNVFqTmhWMUl3WVVRd2JrMXFhM2RLZVVKdldsZHNibUZJVVRsS2VsVjNUVU5qWjJSdGJHeGtNRXAyWlVRd2JrMURRWGRKUkVrMVRVTkJNVTFFUVc1SlNHaDBZa2MxZWxCVFpHOWtTRkozVDJrNGRtUXpaRE5NYm1ONlRHMDVlVnA1T0hsTlJFRjNURE5PTWxwNVl5dFFSMDV3WTIxT2MxcFRRbXBsUkRCdVRWUm5lVXA1UW1wbFZEQnVUa1JGTWtwNVFubFFVMk40VFdwQ2QyVkRZMmRhYld4ellrUXdia2t5VG14T1ZGcG9UME5qZGxCcWQzWmpNMXB1VUdjOVBTSWdMejQ4Wm1WSmJXRm5aU0J5WlhOMWJIUTlJbkF6SWlCNGJHbHVhenBvY21WbVBTSmtZWFJoT21sdFlXZGxMM04yWnl0NGJXdzdZbUZ6WlRZMExGQklUakphZVVJellWZFNNR0ZFTUc1TmFtdDNTbmxDYjFwWGJHNWhTRkU1U25wVmQwMURZMmRrYld4c1pEQktkbVZFTUc1TlEwRjNTVVJKTlUxRFFURk5SRUZ1U1Vob2RHSkhOWHBRVTJSdlpFaFNkMDlwT0haa00yUXpURzVqZWt4dE9YbGFlVGg1VFVSQmQwd3pUakphZVdNclVFZE9jR050VG5OYVUwSnFaVVF3YmsxcVVYcEtlVUpxWlZRd2JrMTZTVEZLZVVKNVVGTmplRTFFUW5kbFEyTm5XbTFzYzJKRU1HNUplbU14VG0xT2FrMXBZM1pRYW5kMll6TmFibEJuUFQwaUlDOCtQR1psUW14bGJtUWdiVzlrWlQwaWIzWmxjbXhoZVNJZ2FXNDlJbkF3SWlCcGJqSTlJbkF4SWlBdlBqeG1aVUpzWlc1a0lHMXZaR1U5SW1WNFkyeDFjMmx2YmlJZ2FXNHlQU0p3TWlJZ0x6NDhabVZDYkdWdVpDQnRiMlJsUFNKdmRtVnliR0Y1SWlCcGJqSTlJbkF6SWlCeVpYTjFiSFE5SW1Kc1pXNWtUM1YwSWlBdlBqeG1aVWRoZFhOemFXRnVRbXgxY2lCcGJqMGlZbXhsYm1SUGRYUWlJSE4wWkVSbGRtbGhkR2x2YmowaU5ESWlJQzgrUEM5bWFXeDBaWEkrSUR4amJHbHdVR0YwYUNCcFpEMGlZMjl5Ym1WeWN5SStQSEpsWTNRZ2QybGtkR2c5SWpJNU1DSWdhR1ZwWjJoMFBTSTFNREFpSUhKNFBTSTBNaUlnY25rOUlqUXlJaUF2UGp3dlkyeHBjRkJoZEdnK1BIQmhkR2dnYVdROUluUmxlSFF0Y0dGMGFDMWhJaUJrUFNKTk5EQWdNVElnU0RJMU1DQkJNamdnTWpnZ01DQXdJREVnTWpjNElEUXdJRlkwTmpBZ1FUSTRJREk0SURBZ01DQXhJREkxTUNBME9EZ2dTRFF3SUVFeU9DQXlPQ0F3SURBZ01TQXhNaUEwTmpBZ1ZqUXdJRUV5T0NBeU9DQXdJREFnTVNBME1DQXhNaUI2SWlBdlBqeHdZWFJvSUdsa1BTSnRhVzVwYldGd0lpQmtQU0pOTWpNMElEUTBORU15TXpRZ05EVTNMamswT1NBeU5ESXVNakVnTkRZeklESTFNeUEwTmpNaUlDOCtQR1pwYkhSbGNpQnBaRDBpZEc5d0xYSmxaMmx2YmkxaWJIVnlJajQ4Wm1WSFlYVnpjMmxoYmtKc2RYSWdhVzQ5SWxOdmRYSmpaVWR5WVhCb2FXTWlJSE4wWkVSbGRtbGhkR2x2YmowaU1qUWlJQzgrUEM5bWFXeDBaWEkrUEd4cGJtVmhja2R5WVdScFpXNTBJR2xrUFNKbmNtRmtMWFZ3SWlCNE1UMGlNU0lnZURJOUlqQWlJSGt4UFNJeElpQjVNajBpTUNJK1BITjBiM0FnYjJabWMyVjBQU0l3TGpBaUlITjBiM0F0WTI5c2IzSTlJbmRvYVhSbElpQnpkRzl3TFc5d1lXTnBkSGs5SWpFaUlDOCtQSE4wYjNBZ2IyWm1jMlYwUFNJdU9TSWdjM1J2Y0MxamIyeHZjajBpZDJocGRHVWlJSE4wYjNBdGIzQmhZMmwwZVQwaU1DSWdMejQ4TDJ4cGJtVmhja2R5WVdScFpXNTBQanhzYVc1bFlYSkhjbUZrYVdWdWRDQnBaRDBpWjNKaFpDMWtiM2R1SWlCNE1UMGlNQ0lnZURJOUlqRWlJSGt4UFNJd0lpQjVNajBpTVNJK1BITjBiM0FnYjJabWMyVjBQU0l3TGpBaUlITjBiM0F0WTI5c2IzSTlJbmRvYVhSbElpQnpkRzl3TFc5d1lXTnBkSGs5SWpFaUlDOCtQSE4wYjNBZ2IyWm1jMlYwUFNJd0xqa2lJSE4wYjNBdFkyOXNiM0k5SW5kb2FYUmxJaUJ6ZEc5d0xXOXdZV05wZEhrOUlqQWlJQzgrUEM5c2FXNWxZWEpIY21Ga2FXVnVkRDQ4YldGemF5QnBaRDBpWm1Ga1pTMTFjQ0lnYldGemEwTnZiblJsYm5SVmJtbDBjejBpYjJKcVpXTjBRbTkxYm1ScGJtZENiM2dpUGp4eVpXTjBJSGRwWkhSb1BTSXhJaUJvWldsbmFIUTlJakVpSUdacGJHdzlJblZ5YkNnalozSmhaQzExY0NraUlDOCtQQzl0WVhOclBqeHRZWE5ySUdsa1BTSm1ZV1JsTFdSdmQyNGlJRzFoYzJ0RGIyNTBaVzUwVlc1cGRITTlJbTlpYW1WamRFSnZkVzVrYVc1blFtOTRJajQ4Y21WamRDQjNhV1IwYUQwaU1TSWdhR1ZwWjJoMFBTSXhJaUJtYVd4c1BTSjFjbXdvSTJkeVlXUXRaRzkzYmlraUlDOCtQQzl0WVhOclBqeHRZWE5ySUdsa1BTSnViMjVsSWlCdFlYTnJRMjl1ZEdWdWRGVnVhWFJ6UFNKdlltcGxZM1JDYjNWdVpHbHVaMEp2ZUNJK1BISmxZM1FnZDJsa2RHZzlJakVpSUdobGFXZG9kRDBpTVNJZ1ptbHNiRDBpZDJocGRHVWlJQzgrUEM5dFlYTnJQanhzYVc1bFlYSkhjbUZrYVdWdWRDQnBaRDBpWjNKaFpDMXplVzFpYjJ3aVBqeHpkRzl3SUc5bVpuTmxkRDBpTUM0M0lpQnpkRzl3TFdOdmJHOXlQU0ozYUdsMFpTSWdjM1J2Y0MxdmNHRmphWFI1UFNJeElpQXZQanh6ZEc5d0lHOW1abk5sZEQwaUxqazFJaUJ6ZEc5d0xXTnZiRzl5UFNKM2FHbDBaU0lnYzNSdmNDMXZjR0ZqYVhSNVBTSXdJaUF2UGp3dmJHbHVaV0Z5UjNKaFpHbGxiblErUEcxaGMyc2dhV1E5SW1aaFpHVXRjM2x0WW05c0lpQnRZWE5yUTI5dWRHVnVkRlZ1YVhSelBTSjFjMlZ5VTNCaFkyVlBibFZ6WlNJK1BISmxZM1FnZDJsa2RHZzlJakk1TUhCNElpQm9aV2xuYUhROUlqSXdNSEI0SWlCbWFXeHNQU0oxY213b0kyZHlZV1F0YzNsdFltOXNLU0lnTHo0OEwyMWhjMnMrUEM5a1pXWnpQanhuSUdOc2FYQXRjR0YwYUQwaWRYSnNLQ05qYjNKdVpYSnpLU0krUEhKbFkzUWdabWxzYkQwaVpUY3lZakUwSWlCNFBTSXdjSGdpSUhrOUlqQndlQ0lnZDJsa2RHZzlJakk1TUhCNElpQm9aV2xuYUhROUlqVXdNSEI0SWlBdlBqeHlaV04wSUhOMGVXeGxQU0ptYVd4MFpYSTZJSFZ5YkNnalpqRXBJaUI0UFNJd2NIZ2lJSGs5SWpCd2VDSWdkMmxrZEdnOUlqSTVNSEI0SWlCb1pXbG5hSFE5SWpVd01IQjRJaUF2UGlBOFp5QnpkSGxzWlQwaVptbHNkR1Z5T25WeWJDZ2pkRzl3TFhKbFoybHZiaTFpYkhWeUtUc2dkSEpoYm5ObWIzSnRPbk5qWVd4bEtERXVOU2s3SUhSeVlXNXpabTl5YlMxdmNtbG5hVzQ2WTJWdWRHVnlJSFJ2Y0RzaVBqeHlaV04wSUdacGJHdzlJbTV2Ym1VaUlIZzlJakJ3ZUNJZ2VUMGlNSEI0SWlCM2FXUjBhRDBpTWprd2NIZ2lJR2hsYVdkb2REMGlOVEF3Y0hnaUlDOCtQR1ZzYkdsd2MyVWdZM2c5SWpVd0pTSWdZM2s5SWpCd2VDSWdjbmc5SWpFNE1IQjRJaUJ5ZVQwaU1USXdjSGdpSUdacGJHdzlJaU13TURBaUlHOXdZV05wZEhrOUlqQXVPRFVpSUM4K1BDOW5Qanh5WldOMElIZzlJakFpSUhrOUlqQWlJSGRwWkhSb1BTSXlPVEFpSUdobGFXZG9kRDBpTlRBd0lpQnllRDBpTkRJaUlISjVQU0kwTWlJZ1ptbHNiRDBpY21kaVlTZ3dMREFzTUN3d0tTSWdjM1J5YjJ0bFBTSnlaMkpoS0RJMU5Td3lOVFVzTWpVMUxEQXVNaWtpSUM4K1BDOW5QangwWlhoMElIUmxlSFF0Y21WdVpHVnlhVzVuUFNKdmNIUnBiV2w2WlZOd1pXVmtJajQ4ZEdWNGRGQmhkR2dnYzNSaGNuUlBabVp6WlhROUlpMHhNREFsSWlCbWFXeHNQU0ozYUdsMFpTSWdabTl1ZEMxbVlXMXBiSGs5SWlkRGIzVnlhV1Z5SUU1bGR5Y3NJRzF2Ym05emNHRmpaU0lnWm05dWRDMXphWHBsUFNJeE1IQjRJaUI0YkdsdWF6cG9jbVZtUFNJamRHVjRkQzF3WVhSb0xXRWlQakI0WXpBeVlXRmhNemxpTWpJelptVTRaREJoTUdVMVl6Um1NamRsWVdRNU1EZ3pZemMxTm1Oak1pRGlnS0lnVjBWVVNDQThZVzVwYldGMFpTQmhaR1JwZEdsMlpUMGljM1Z0SWlCaGRIUnlhV0oxZEdWT1lXMWxQU0p6ZEdGeWRFOW1abk5sZENJZ1puSnZiVDBpTUNVaUlIUnZQU0l4TURBbElpQmlaV2RwYmowaU1ITWlJR1IxY2owaU16QnpJaUJ5WlhCbFlYUkRiM1Z1ZEQwaWFXNWtaV1pwYm1sMFpTSWdMejQ4TDNSbGVIUlFZWFJvUGlBOGRHVjRkRkJoZEdnZ2MzUmhjblJQWm1aelpYUTlJakFsSWlCbWFXeHNQU0ozYUdsMFpTSWdabTl1ZEMxbVlXMXBiSGs5SWlkRGIzVnlhV1Z5SUU1bGR5Y3NJRzF2Ym05emNHRmpaU0lnWm05dWRDMXphWHBsUFNJeE1IQjRJaUI0YkdsdWF6cG9jbVZtUFNJamRHVjRkQzF3WVhSb0xXRWlQakI0WXpBeVlXRmhNemxpTWpJelptVTRaREJoTUdVMVl6Um1NamRsWVdRNU1EZ3pZemMxTm1Oak1pRGlnS0lnVjBWVVNDQThZVzVwYldGMFpTQmhaR1JwZEdsMlpUMGljM1Z0SWlCaGRIUnlhV0oxZEdWT1lXMWxQU0p6ZEdGeWRFOW1abk5sZENJZ1puSnZiVDBpTUNVaUlIUnZQU0l4TURBbElpQmlaV2RwYmowaU1ITWlJR1IxY2owaU16QnpJaUJ5WlhCbFlYUkRiM1Z1ZEQwaWFXNWtaV1pwYm1sMFpTSWdMejRnUEM5MFpYaDBVR0YwYUQ0OGRHVjRkRkJoZEdnZ2MzUmhjblJQWm1aelpYUTlJalV3SlNJZ1ptbHNiRDBpZDJocGRHVWlJR1p2Ym5RdFptRnRhV3g1UFNJblEyOTFjbWxsY2lCT1pYY25MQ0J0YjI1dmMzQmhZMlVpSUdadmJuUXRjMmw2WlQwaU1UQndlQ0lnZUd4cGJtczZhSEpsWmowaUkzUmxlSFF0Y0dGMGFDMWhJajR3ZUdVM01tSXhOREZrWmpFM00ySTVPVGxoWlRkak1XRmtZMkptTmpCall6azRNek5qWlRVMllUZ2c0b0NpSUVWVVNDc2dQR0Z1YVcxaGRHVWdZV1JrYVhScGRtVTlJbk4xYlNJZ1lYUjBjbWxpZFhSbFRtRnRaVDBpYzNSaGNuUlBabVp6WlhRaUlHWnliMjA5SWpBbElpQjBiejBpTVRBd0pTSWdZbVZuYVc0OUlqQnpJaUJrZFhJOUlqTXdjeUlnY21Wd1pXRjBRMjkxYm5ROUltbHVaR1ZtYVc1cGRHVWlJQzgrUEM5MFpYaDBVR0YwYUQ0OGRHVjRkRkJoZEdnZ2MzUmhjblJQWm1aelpYUTlJaTAxTUNVaUlHWnBiR3c5SW5kb2FYUmxJaUJtYjI1MExXWmhiV2xzZVQwaUowTnZkWEpwWlhJZ1RtVjNKeXdnYlc5dWIzTndZV05sSWlCbWIyNTBMWE5wZW1VOUlqRXdjSGdpSUhoc2FXNXJPbWh5WldZOUlpTjBaWGgwTFhCaGRHZ3RZU0krTUhobE56SmlNVFF4WkdZeE56TmlPVGs1WVdVM1l6RmhaR05pWmpZd1kyTTVPRE16WTJVMU5tRTRJT0tBb2lCRlZFZ3JJRHhoYm1sdFlYUmxJR0ZrWkdsMGFYWmxQU0p6ZFcwaUlHRjBkSEpwWW5WMFpVNWhiV1U5SW5OMFlYSjBUMlptYzJWMElpQm1jbTl0UFNJd0pTSWdkRzg5SWpFd01DVWlJR0psWjJsdVBTSXdjeUlnWkhWeVBTSXpNSE1pSUhKbGNHVmhkRU52ZFc1MFBTSnBibVJsWm1sdWFYUmxJaUF2UGp3dmRHVjRkRkJoZEdnK1BDOTBaWGgwUGp4bklHMWhjMnM5SW5WeWJDZ2pabUZrWlMxemVXMWliMndwSWo0OGNtVmpkQ0JtYVd4c1BTSnViMjVsSWlCNFBTSXdjSGdpSUhrOUlqQndlQ0lnZDJsa2RHZzlJakk1TUhCNElpQm9aV2xuYUhROUlqSXdNSEI0SWlBdlBpQThkR1Y0ZENCNVBTSTNNSEI0SWlCNFBTSXpNbkI0SWlCbWFXeHNQU0ozYUdsMFpTSWdabTl1ZEMxbVlXMXBiSGs5SWlkRGIzVnlhV1Z5SUU1bGR5Y3NJRzF2Ym05emNHRmpaU0lnWm05dWRDMTNaV2xuYUhROUlqSXdNQ0lnWm05dWRDMXphWHBsUFNJek5uQjRJajVGVkVnckwxZEZWRWc4TDNSbGVIUStQSFJsZUhRZ2VUMGlNVEUxY0hnaUlIZzlJak15Y0hnaUlHWnBiR3c5SW5kb2FYUmxJaUJtYjI1MExXWmhiV2xzZVQwaUowTnZkWEpwWlhJZ1RtVjNKeXdnYlc5dWIzTndZV05sSWlCbWIyNTBMWGRsYVdkb2REMGlNakF3SWlCbWIyNTBMWE5wZW1VOUlqTTJjSGdpUGpBdU1EVWxQQzkwWlhoMFBqd3ZaejQ4Y21WamRDQjRQU0l4TmlJZ2VUMGlNVFlpSUhkcFpIUm9QU0l5TlRnaUlHaGxhV2RvZEQwaU5EWTRJaUJ5ZUQwaU1qWWlJSEo1UFNJeU5pSWdabWxzYkQwaWNtZGlZU2d3TERBc01Dd3dLU0lnYzNSeWIydGxQU0p5WjJKaEtESTFOU3d5TlRVc01qVTFMREF1TWlraUlDOCtQR2NnYldGemF6MGlkWEpzS0NOdWIyNWxLU0lnYzNSNWJHVTlJblJ5WVc1elptOXliVHAwY21GdWMyeGhkR1VvTnpKd2VDd3hPRGx3ZUNraVBqeHlaV04wSUhnOUlpMHhObkI0SWlCNVBTSXRNVFp3ZUNJZ2QybGtkR2c5SWpFNE1IQjRJaUJvWldsbmFIUTlJakU0TUhCNElpQm1hV3hzUFNKdWIyNWxJaUF2UGp4d1lYUm9JR1E5SWsweElERkRNU0E0T1NBMU55NDFJREUwTlNBeE5EVWdNVFExSWlCemRISnZhMlU5SW5KblltRW9NQ3d3TERBc01DNHpLU0lnYzNSeWIydGxMWGRwWkhSb1BTSXpNbkI0SWlCbWFXeHNQU0p1YjI1bElpQnpkSEp2YTJVdGJHbHVaV05oY0QwaWNtOTFibVFpSUM4K1BDOW5QanhuSUcxaGMyczlJblZ5YkNnamJtOXVaU2tpSUhOMGVXeGxQU0owY21GdWMyWnZjbTA2ZEhKaGJuTnNZWFJsS0RjeWNIZ3NNVGc1Y0hncElqNDhjbVZqZENCNFBTSXRNVFp3ZUNJZ2VUMGlMVEUyY0hnaUlIZHBaSFJvUFNJeE9EQndlQ0lnYUdWcFoyaDBQU0l4T0RCd2VDSWdabWxzYkQwaWJtOXVaU0lnTHo0OGNHRjBhQ0JrUFNKTk1TQXhRekVnT0RrZ05UY3VOU0F4TkRVZ01UUTFJREUwTlNJZ2MzUnliMnRsUFNKeVoySmhLREkxTlN3eU5UVXNNalUxTERFcElpQm1hV3hzUFNKdWIyNWxJaUJ6ZEhKdmEyVXRiR2x1WldOaGNEMGljbTkxYm1RaUlDOCtQQzluUGp4amFYSmpiR1VnWTNnOUlqY3pjSGdpSUdONVBTSXhPVEJ3ZUNJZ2NqMGlOSEI0SWlCbWFXeHNQU0ozYUdsMFpTSWdMejQ4WTJseVkyeGxJR040UFNJeU1UZHdlQ0lnWTNrOUlqTXpOSEI0SWlCeVBTSTBjSGdpSUdacGJHdzlJbmRvYVhSbElpQXZQaUE4WnlCemRIbHNaVDBpZEhKaGJuTm1iM0p0T25SeVlXNXpiR0YwWlNneU9YQjRMQ0F6T0RSd2VDa2lQanh5WldOMElIZHBaSFJvUFNJNU9IQjRJaUJvWldsbmFIUTlJakkyY0hnaUlISjRQU0k0Y0hnaUlISjVQU0k0Y0hnaUlHWnBiR3c5SW5KblltRW9NQ3d3TERBc01DNDJLU0lnTHo0OGRHVjRkQ0I0UFNJeE1uQjRJaUI1UFNJeE4zQjRJaUJtYjI1MExXWmhiV2xzZVQwaUowTnZkWEpwWlhJZ1RtVjNKeXdnYlc5dWIzTndZV05sSWlCbWIyNTBMWE5wZW1VOUlqRXljSGdpSUdacGJHdzlJbmRvYVhSbElqNDhkSE53WVc0Z1ptbHNiRDBpY21kaVlTZ3lOVFVzTWpVMUxESTFOU3d3TGpZcElqNUpSRG9nUEM5MGMzQmhiajQyTlRNeE5EVThMM1JsZUhRK1BDOW5QaUE4WnlCemRIbHNaVDBpZEhKaGJuTm1iM0p0T25SeVlXNXpiR0YwWlNneU9YQjRMQ0EwTVRSd2VDa2lQanh5WldOMElIZHBaSFJvUFNJeE16TndlQ0lnYUdWcFoyaDBQU0l5Tm5CNElpQnllRDBpT0hCNElpQnllVDBpT0hCNElpQm1hV3hzUFNKeVoySmhLREFzTUN3d0xEQXVOaWtpSUM4K1BIUmxlSFFnZUQwaU1USndlQ0lnZVQwaU1UZHdlQ0lnWm05dWRDMW1ZVzFwYkhrOUlpZERiM1Z5YVdWeUlFNWxkeWNzSUcxdmJtOXpjR0ZqWlNJZ1ptOXVkQzF6YVhwbFBTSXhNbkI0SWlCbWFXeHNQU0ozYUdsMFpTSStQSFJ6Y0dGdUlHWnBiR3c5SW5KblltRW9NalUxTERJMU5Td3lOVFVzTUM0MktTSStUV2x1SUZScFkyczZJRHd2ZEhOd1lXNCtMVEU0TWpBOEwzUmxlSFErUEM5blBpQThaeUJ6ZEhsc1pUMGlkSEpoYm5ObWIzSnRPblJ5WVc1emJHRjBaU2d5T1hCNExDQTBORFJ3ZUNraVBqeHlaV04wSUhkcFpIUm9QU0l4TVRsd2VDSWdhR1ZwWjJoMFBTSXlObkI0SWlCeWVEMGlPSEI0SWlCeWVUMGlPSEI0SWlCbWFXeHNQU0p5WjJKaEtEQXNNQ3d3TERBdU5pa2lJQzgrUEhSbGVIUWdlRDBpTVRKd2VDSWdlVDBpTVRkd2VDSWdabTl1ZEMxbVlXMXBiSGs5SWlkRGIzVnlhV1Z5SUU1bGR5Y3NJRzF2Ym05emNHRmpaU0lnWm05dWRDMXphWHBsUFNJeE1uQjRJaUJtYVd4c1BTSjNhR2wwWlNJK1BIUnpjR0Z1SUdacGJHdzlJbkpuWW1Fb01qVTFMREkxTlN3eU5UVXNNQzQyS1NJK1RXRjRJRlJwWTJzNklEd3ZkSE53WVc0K01qVXdQQzkwWlhoMFBqd3ZaejQ4WnlCemRIbHNaVDBpZEhKaGJuTm1iM0p0T25SeVlXNXpiR0YwWlNneU1qWndlQ3dnTkRNemNIZ3BJajQ4Y21WamRDQjNhV1IwYUQwaU16WndlQ0lnYUdWcFoyaDBQU0l6Tm5CNElpQnllRDBpT0hCNElpQnllVDBpT0hCNElpQm1hV3hzUFNKdWIyNWxJaUJ6ZEhKdmEyVTlJbkpuWW1Fb01qVTFMREkxTlN3eU5UVXNNQzR5S1NJZ0x6NDhjR0YwYUNCemRISnZhMlV0YkdsdVpXTmhjRDBpY205MWJtUWlJR1E5SWswNElEbERPQzR3TURBd05DQXlNaTQ1TkRrMElERTJMakl3T1RrZ01qZ2dNamNnTWpnaUlHWnBiR3c5SW01dmJtVWlJSE4wY205clpUMGlkMmhwZEdVaUlDOCtQR05wY21Oc1pTQnpkSGxzWlQwaWRISmhibk5tYjNKdE9uUnlZVzV6YkdGMFpUTmtLREV3Y0hnc0lERTRjSGdzSURCd2VDa2lJR040UFNJd2NIZ2lJR041UFNJd2NIZ2lJSEk5SWpSd2VDSWdabWxzYkQwaWQyaHBkR1VpTHo0OEwyYytQQzl6ZG1jKyJ9",
+        "ipfs_hash": "QmhZMmwwZVQwaU1DSWdMejQ4TDJ4cGJtVmhja2R5WVdScF"
+      }
+    ],
+    "metadata_analyzed": [
+      {
+        "contract": "0x2da8ae38d64965a90cebcb14124bd1476fc05e00",
+        "token_id": "21",
+        "analysis": {
+          "name": "RENGA #21",
+          "description": "A handcrafted collection of 10,000 characters developed by artist DirtyRobot. Each with their own identity to be discovered within the wider stories of RENGA. In its purest form, RENGA is the art of storytelling. Visit our [website](https://renga.app/) for more details.",
+          "image": "https://nfts.renga.app/nfts/public/images/21.jpeg",
+          "external_url": "",
+          "attributes": [
+            {
+              "trait_type": "Archetype",
+              "value": "Ninja"
+            },
+            {
+              "trait_type": "Background",
+              "value": "Golden Garden"
+            },
+            {
+              "trait_type": "Head",
+              "value": "Marble"
+            },
+            {
+              "trait_type": "Clothing",
+              "value": "Demon Armour"
+            },
+            {
+              "trait_type": "Nose",
+              "value": "Ordinary"
+            },
+            {
+              "trait_type": "Mouth",
+              "value": "Unimpressed"
+            },
+            {
+              "trait_type": "Eyes",
+              "value": "Dark"
+            },
+            {
+              "trait_type": "Hands",
+              "value": "Creation"
+            },
+            {
+              "trait_type": "Hood",
+              "value": "Demon Ninja"
+            },
+            {
+              "trait_type": "Mask",
+              "value": "Demon Ninja"
+            },
+            {
+              "trait_type": "Special",
+              "value": "Golden Garden"
+            },
+            {
+              "trait_type": "Character",
+              "value": "NPC"
+            }
+          ],
+          "properties": {},
+          "creator": {},
+          "artist": "",
+          "collection": {},
+          "ipfs_hashes": [],
+          "linked_urls": [
+            "https://nfts.renga.app/nfts/public/images/21.jpeg",
+            "https://renga.app/)"
+          ],
+          "timestamps": [],
+          "usernames": [],
+          "emails": [],
+          "social_links": []
+        },
+        "source": "https",
+        "domain": "nfts.renga.app"
+      }
+    ],
+    "debug_info": {
+      "nft_transfers_count": 149,
+      "contracts_found": 37,
+      "tokens_checked": 11,
+      "uris_found": 11,
+      "ipfs_hashes_extracted": 1,
+      "metadata_fetched": 1
+    },
+    "findings": {
+      "total_hashes": 1,
+      "unique_hashes": [
+        "QmhZMmwwZVQwaU1DSWdMejQ4TDJ4cGJtVmhja2R5WVdScF"
+      ],
+      "linked_urls": [
+        "https://nfts.renga.app/nfts/public/images/21.jpeg",
+        "https://renga.app/)"
+      ],
+      "usernames": [],
+      "emails": [],
+      "social_links": [],
+      "timestamps": [],
+      "creators": [],
+      "collections": [],
+      "domains": [
+        "api.phantomnetworks.xyz",
+        "api.azukibaycofficial.xyz",
+        "api.bbyc-nft.xyz",
+        "api.imaginaryones-nfts.xyz",
+        "api.youtopia-official.xyz",
+        "api.louis-vuitton-official.top",
+        "nfts.renga.app",
+        "api.rich-baby-nfts.xyz",
+        "api.apiensofficial.xyz"
+      ],
+      "domain_analysis": {
+        "nfts.renga.app": {
+          "domain": "nfts.renga.app",
+          "is_ipfs": false,
+          "is_centralized": true,
+          "scam_indicators": [],
+          "reputation": "unknown",
+          "whois_info": null
+        },
+        "api.bbyc-nft.xyz": {
+          "domain": "api.bbyc-nft.xyz",
+          "is_ipfs": false,
+          "is_centralized": true,
+          "scam_indicators": [
+            "Suspicious TLD: .xyz"
+          ],
+          "reputation": "suspicious",
+          "whois_info": null
+        },
+        "api.azukibaycofficial.xyz": {
+          "domain": "api.azukibaycofficial.xyz",
+          "is_ipfs": false,
+          "is_centralized": true,
+          "scam_indicators": [
+            "Suspicious TLD: .xyz"
+          ],
+          "reputation": "suspicious",
+          "whois_info": null
+        },
+        "api.rich-baby-nfts.xyz": {
+          "domain": "api.rich-baby-nfts.xyz",
+          "is_ipfs": false,
+          "is_centralized": true,
+          "scam_indicators": [
+            "Suspicious TLD: .xyz"
+          ],
+          "reputation": "suspicious",
+          "whois_info": null
+        },
+        "api.imaginaryones-nfts.xyz": {
+          "domain": "api.imaginaryones-nfts.xyz",
+          "is_ipfs": false,
+          "is_centralized": true,
+          "scam_indicators": [
+            "Suspicious TLD: .xyz"
+          ],
+          "reputation": "suspicious",
+          "whois_info": null
+        },
+        "api.phantomnetworks.xyz": {
+          "domain": "api.phantomnetworks.xyz",
+          "is_ipfs": false,
+          "is_centralized": true,
+          "scam_indicators": [
+            "Suspicious TLD: .xyz"
+          ],
+          "reputation": "suspicious",
+          "whois_info": null
+        },
+        "api.youtopia-official.xyz": {
+          "domain": "api.youtopia-official.xyz",
+          "is_ipfs": false,
+          "is_centralized": true,
+          "scam_indicators": [
+            "Suspicious TLD: .xyz"
+          ],
+          "reputation": "suspicious",
+          "whois_info": null
+        },
+        "api.louis-vuitton-official.top": {
+          "domain": "api.louis-vuitton-official.top",
+          "is_ipfs": false,
+          "is_centralized": true,
+          "scam_indicators": [
+            "Suspicious TLD: .top"
+          ],
+          "reputation": "suspicious",
+          "whois_info": null
+        },
+        "api.apiensofficial.xyz": {
+          "domain": "api.apiensofficial.xyz",
+          "is_ipfs": false,
+          "is_centralized": true,
+          "scam_indicators": [
+            "Suspicious TLD: .xyz"
+          ],
+          "reputation": "suspicious",
+          "whois_info": null
+        }
+      },
+      "metadata_urls": [
+        {
+          "contract": "0x2da8ae38d64965a90cebcb14124bd1476fc05e00",
+          "token_id": "21",
+          "uri": "https://nfts.renga.app/nfts/public/erc-721/21"
+        },
+        {
+          "contract": "0xc36442b4a4522e871399cd717abdd847ab11fe88",
+          "token_id": "653145",
+          "uri": "data:application/json;base64,eyJuYW1lIjoiVW5pc3dhcCAtIDAuMDUlIC0gRVRIKy9XRVRIIC0gMC44MzM2MTw+MS4wMjUzIiwgImRlc2NyaXB0aW9uIjoiVGhpcyBORlQgcmVwcmVzZW50cyBhIGxpcXVpZGl0eSBwb3NpdGlvbiBpbiBhIFVuaXN3YXAgVjMgRVRIKy1XRVRIIHBvb2wuIFRoZSBvd25lciBvZiB0aGlzIE5GVCBjYW4gbW9kaWZ5IG9yIHJlZGVlbSB0aGUgcG9zaXRpb24uXG5cblBvb2wgQWRkcmVzczogMHhmNjQ5ZGY0MzcyZDhiYjNlNjE3OGU1MmZjZDUxNTUxOWM3OGRhMzQ4XG5FVEgrIEFkZHJlc3M6IDB4ZTcyYjE0MWRmMTczYjk5OWFlN2MxYWRjYmY2MGNjOTgzM2NlNTZhOFxuV0VUSCBBZGRyZXNzOiAweGMwMmFhYTM5YjIyM2ZlOGQwYTBlNWM0ZjI3ZWFkOTA4M2M3NTZjYzJcbkZlZSBUaWVyOiAwLjA1JVxuVG9rZW4gSUQ6IDY1MzE0NVxuXG7imqDvuI8gRElTQ0xBSU1FUjogRHVlIGRpbGlnZW5jZSBpcyBpbXBlcmF0aXZlIHdoZW4gYXNzZXNzaW5nIHRoaXMgTkZULiBNYWtlIHN1cmUgdG9rZW4gYWRkcmVzc2VzIG1hdGNoIHRoZSBleHBlY3RlZCB0b2tlbnMsIGFzIHRva2VuIHN5bWJvbHMgbWF5IGJlIGltaXRhdGVkLiIsICJpbWFnZSI6ICJkYXRhOmltYWdlL3N2Zyt4bWw7YmFzZTY0LFBITjJaeUIzYVdSMGFEMGlNamt3SWlCb1pXbG5hSFE5SWpVd01DSWdkbWxsZDBKdmVEMGlNQ0F3SURJNU1DQTFNREFpSUhodGJHNXpQU0pvZEhSd09pOHZkM2QzTG5jekxtOXlaeTh5TURBd0wzTjJaeUlnZUcxc2JuTTZlR3hwYm1zOUoyaDBkSEE2THk5M2QzY3Vkek11YjNKbkx6RTVPVGt2ZUd4cGJtc25QanhrWldaelBqeG1hV3gwWlhJZ2FXUTlJbVl4SWo0OFptVkpiV0ZuWlNCeVpYTjFiSFE5SW5Bd0lpQjRiR2x1YXpwb2NtVm1QU0prWVhSaE9tbHRZV2RsTDNOMlp5dDRiV3c3WW1GelpUWTBMRkJJVGpKYWVVSXpZVmRTTUdGRU1HNU5hbXQzU25sQ2IxcFhiRzVoU0ZFNVNucFZkMDFEWTJka2JXeHNaREJLZG1WRU1HNU5RMEYzU1VSSk5VMURRVEZOUkVGdVNVaG9kR0pITlhwUVUyUnZaRWhTZDA5cE9IWmtNMlF6VEc1amVreHRPWGxhZVRoNVRVUkJkMHd6VGpKYWVXTXJVRWhLYkZrelVXZGtNbXhyWkVkbk9VcDZTVFZOU0VJMFNubENiMXBYYkc1aFNGRTVTbnBWZDAxSVFqUktlVUp0WVZkNGMxQlRZMnBhVkdONVdXcEZNRXA1T0N0UVF6bDZaRzFqS3lJdlBqeG1aVWx0WVdkbElISmxjM1ZzZEQwaWNERWlJSGhzYVc1ck9taHlaV1k5SW1SaGRHRTZhVzFoWjJVdmMzWm5LM2h0YkR0aVlYTmxOalFzVUVoT01scDVRak5oVjFJd1lVUXdiazFxYTNkS2VVSnZXbGRzYm1GSVVUbEtlbFYzVFVOaloyUnRiR3hrTUVwMlpVUXdiazFEUVhkSlJFazFUVU5CTVUxRVFXNUpTR2gwWWtjMWVsQlRaRzlrU0ZKM1QyazRkbVF6WkROTWJtTjZURzA1ZVZwNU9IbE5SRUYzVEROT01scDVZeXRRUjA1d1kyMU9jMXBUUW1wbFJEQnVUVlJyTkVwNVFtcGxWREJ1VFdwRmVVcDVRbmxRVTJONFRXcENkMlZEWTJkYWJXeHpZa1F3YmtreVRYZE5iVVpvV1ZOamRsQnFkM1pqTTFwdVVHYzlQU0l2UGp4bVpVbHRZV2RsSUhKbGMzVnNkRDBpY0RJaUlIaHNhVzVyT21oeVpXWTlJbVJoZEdFNmFXMWhaMlV2YzNabkszaHRiRHRpWVhObE5qUXNVRWhPTWxwNVFqTmhWMUl3WVVRd2JrMXFhM2RLZVVKdldsZHNibUZJVVRsS2VsVjNUVU5qWjJSdGJHeGtNRXAyWlVRd2JrMURRWGRKUkVrMVRVTkJNVTFFUVc1SlNHaDBZa2MxZWxCVFpHOWtTRkozVDJrNGRtUXpaRE5NYm1ONlRHMDVlVnA1T0hsTlJFRjNURE5PTWxwNVl5dFFSMDV3WTIxT2MxcFRRbXBsUkRCdVRWUm5lVXA1UW1wbFZEQnVUa1JGTWtwNVFubFFVMk40VFdwQ2QyVkRZMmRhYld4ellrUXdia2t5VG14T1ZGcG9UME5qZGxCcWQzWmpNMXB1VUdjOVBTSWdMejQ4Wm1WSmJXRm5aU0J5WlhOMWJIUTlJbkF6SWlCNGJHbHVhenBvY21WbVBTSmtZWFJoT21sdFlXZGxMM04yWnl0NGJXdzdZbUZ6WlRZMExGQklUakphZVVJellWZFNNR0ZFTUc1TmFtdDNTbmxDYjFwWGJHNWhTRkU1U25wVmQwMURZMmRrYld4c1pEQktkbVZFTUc1TlEwRjNTVVJKTlUxRFFURk5SRUZ1U1Vob2RHSkhOWHBRVTJSdlpFaFNkMDlwT0haa00yUXpURzVqZWt4dE9YbGFlVGg1VFVSQmQwd3pUakphZVdNclVFZE9jR050VG5OYVUwSnFaVVF3YmsxcVVYcEtlVUpxWlZRd2JrMTZTVEZLZVVKNVVGTmplRTFFUW5kbFEyTm5XbTFzYzJKRU1HNUplbU14VG0xT2FrMXBZM1pRYW5kMll6TmFibEJuUFQwaUlDOCtQR1psUW14bGJtUWdiVzlrWlQwaWIzWmxjbXhoZVNJZ2FXNDlJbkF3SWlCcGJqSTlJbkF4SWlBdlBqeG1aVUpzWlc1a0lHMXZaR1U5SW1WNFkyeDFjMmx2YmlJZ2FXNHlQU0p3TWlJZ0x6NDhabVZDYkdWdVpDQnRiMlJsUFNKdmRtVnliR0Y1SWlCcGJqSTlJbkF6SWlCeVpYTjFiSFE5SW1Kc1pXNWtUM1YwSWlBdlBqeG1aVWRoZFhOemFXRnVRbXgxY2lCcGJqMGlZbXhsYm1SUGRYUWlJSE4wWkVSbGRtbGhkR2x2YmowaU5ESWlJQzgrUEM5bWFXeDBaWEkrSUR4amJHbHdVR0YwYUNCcFpEMGlZMjl5Ym1WeWN5SStQSEpsWTNRZ2QybGtkR2c5SWpJNU1DSWdhR1ZwWjJoMFBTSTFNREFpSUhKNFBTSTBNaUlnY25rOUlqUXlJaUF2UGp3dlkyeHBjRkJoZEdnK1BIQmhkR2dnYVdROUluUmxlSFF0Y0dGMGFDMWhJaUJrUFNKTk5EQWdNVElnU0RJMU1DQkJNamdnTWpnZ01DQXdJREVnTWpjNElEUXdJRlkwTmpBZ1FUSTRJREk0SURBZ01DQXhJREkxTUNBME9EZ2dTRFF3SUVFeU9DQXlPQ0F3SURBZ01TQXhNaUEwTmpBZ1ZqUXdJRUV5T0NBeU9DQXdJREFnTVNBME1DQXhNaUI2SWlBdlBqeHdZWFJvSUdsa1BTSnRhVzVwYldGd0lpQmtQU0pOTWpNMElEUTBORU15TXpRZ05EVTNMamswT1NBeU5ESXVNakVnTkRZeklESTFNeUEwTmpNaUlDOCtQR1pwYkhSbGNpQnBaRDBpZEc5d0xYSmxaMmx2YmkxaWJIVnlJajQ4Wm1WSFlYVnpjMmxoYmtKc2RYSWdhVzQ5SWxOdmRYSmpaVWR5WVhCb2FXTWlJSE4wWkVSbGRtbGhkR2x2YmowaU1qUWlJQzgrUEM5bWFXeDBaWEkrUEd4cGJtVmhja2R5WVdScFpXNTBJR2xrUFNKbmNtRmtMWFZ3SWlCNE1UMGlNU0lnZURJOUlqQWlJSGt4UFNJeElpQjVNajBpTUNJK1BITjBiM0FnYjJabWMyVjBQU0l3TGpBaUlITjBiM0F0WTI5c2IzSTlJbmRvYVhSbElpQnpkRzl3TFc5d1lXTnBkSGs5SWpFaUlDOCtQSE4wYjNBZ2IyWm1jMlYwUFNJdU9TSWdjM1J2Y0MxamIyeHZjajBpZDJocGRHVWlJSE4wYjNBdGIzQmhZMmwwZVQwaU1DSWdMejQ4TDJ4cGJtVmhja2R5WVdScFpXNTBQanhzYVc1bFlYSkhjbUZrYVdWdWRDQnBaRDBpWjNKaFpDMWtiM2R1SWlCNE1UMGlNQ0lnZURJOUlqRWlJSGt4UFNJd0lpQjVNajBpTVNJK1BITjBiM0FnYjJabWMyVjBQU0l3TGpBaUlITjBiM0F0WTI5c2IzSTlJbmRvYVhSbElpQnpkRzl3TFc5d1lXTnBkSGs5SWpFaUlDOCtQSE4wYjNBZ2IyWm1jMlYwUFNJd0xqa2lJSE4wYjNBdFkyOXNiM0k5SW5kb2FYUmxJaUJ6ZEc5d0xXOXdZV05wZEhrOUlqQWlJQzgrUEM5c2FXNWxZWEpIY21Ga2FXVnVkRDQ4YldGemF5QnBaRDBpWm1Ga1pTMTFjQ0lnYldGemEwTnZiblJsYm5SVmJtbDBjejBpYjJKcVpXTjBRbTkxYm1ScGJtZENiM2dpUGp4eVpXTjBJSGRwWkhSb1BTSXhJaUJvWldsbmFIUTlJakVpSUdacGJHdzlJblZ5YkNnalozSmhaQzExY0NraUlDOCtQQzl0WVhOclBqeHRZWE5ySUdsa1BTSm1ZV1JsTFdSdmQyNGlJRzFoYzJ0RGIyNTBaVzUwVlc1cGRITTlJbTlpYW1WamRFSnZkVzVrYVc1blFtOTRJajQ4Y21WamRDQjNhV1IwYUQwaU1TSWdhR1ZwWjJoMFBTSXhJaUJtYVd4c1BTSjFjbXdvSTJkeVlXUXRaRzkzYmlraUlDOCtQQzl0WVhOclBqeHRZWE5ySUdsa1BTSnViMjVsSWlCdFlYTnJRMjl1ZEdWdWRGVnVhWFJ6UFNKdlltcGxZM1JDYjNWdVpHbHVaMEp2ZUNJK1BISmxZM1FnZDJsa2RHZzlJakVpSUdobGFXZG9kRDBpTVNJZ1ptbHNiRDBpZDJocGRHVWlJQzgrUEM5dFlYTnJQanhzYVc1bFlYSkhjbUZrYVdWdWRDQnBaRDBpWjNKaFpDMXplVzFpYjJ3aVBqeHpkRzl3SUc5bVpuTmxkRDBpTUM0M0lpQnpkRzl3TFdOdmJHOXlQU0ozYUdsMFpTSWdjM1J2Y0MxdmNHRmphWFI1UFNJeElpQXZQanh6ZEc5d0lHOW1abk5sZEQwaUxqazFJaUJ6ZEc5d0xXTnZiRzl5UFNKM2FHbDBaU0lnYzNSdmNDMXZjR0ZqYVhSNVBTSXdJaUF2UGp3dmJHbHVaV0Z5UjNKaFpHbGxiblErUEcxaGMyc2dhV1E5SW1aaFpHVXRjM2x0WW05c0lpQnRZWE5yUTI5dWRHVnVkRlZ1YVhSelBTSjFjMlZ5VTNCaFkyVlBibFZ6WlNJK1BISmxZM1FnZDJsa2RHZzlJakk1TUhCNElpQm9aV2xuYUhROUlqSXdNSEI0SWlCbWFXeHNQU0oxY213b0kyZHlZV1F0YzNsdFltOXNLU0lnTHo0OEwyMWhjMnMrUEM5a1pXWnpQanhuSUdOc2FYQXRjR0YwYUQwaWRYSnNLQ05qYjNKdVpYSnpLU0krUEhKbFkzUWdabWxzYkQwaVpUY3lZakUwSWlCNFBTSXdjSGdpSUhrOUlqQndlQ0lnZDJsa2RHZzlJakk1TUhCNElpQm9aV2xuYUhROUlqVXdNSEI0SWlBdlBqeHlaV04wSUhOMGVXeGxQU0ptYVd4MFpYSTZJSFZ5YkNnalpqRXBJaUI0UFNJd2NIZ2lJSGs5SWpCd2VDSWdkMmxrZEdnOUlqSTVNSEI0SWlCb1pXbG5hSFE5SWpVd01IQjRJaUF2UGlBOFp5QnpkSGxzWlQwaVptbHNkR1Z5T25WeWJDZ2pkRzl3TFhKbFoybHZiaTFpYkhWeUtUc2dkSEpoYm5ObWIzSnRPbk5qWVd4bEtERXVOU2s3SUhSeVlXNXpabTl5YlMxdmNtbG5hVzQ2WTJWdWRHVnlJSFJ2Y0RzaVBqeHlaV04wSUdacGJHdzlJbTV2Ym1VaUlIZzlJakJ3ZUNJZ2VUMGlNSEI0SWlCM2FXUjBhRDBpTWprd2NIZ2lJR2hsYVdkb2REMGlOVEF3Y0hnaUlDOCtQR1ZzYkdsd2MyVWdZM2c5SWpVd0pTSWdZM2s5SWpCd2VDSWdjbmc5SWpFNE1IQjRJaUJ5ZVQwaU1USXdjSGdpSUdacGJHdzlJaU13TURBaUlHOXdZV05wZEhrOUlqQXVPRFVpSUM4K1BDOW5Qanh5WldOMElIZzlJakFpSUhrOUlqQWlJSGRwWkhSb1BTSXlPVEFpSUdobGFXZG9kRDBpTlRBd0lpQnllRDBpTkRJaUlISjVQU0kwTWlJZ1ptbHNiRDBpY21kaVlTZ3dMREFzTUN3d0tTSWdjM1J5YjJ0bFBTSnlaMkpoS0RJMU5Td3lOVFVzTWpVMUxEQXVNaWtpSUM4K1BDOW5QangwWlhoMElIUmxlSFF0Y21WdVpHVnlhVzVuUFNKdmNIUnBiV2w2WlZOd1pXVmtJajQ4ZEdWNGRGQmhkR2dnYzNSaGNuUlBabVp6WlhROUlpMHhNREFsSWlCbWFXeHNQU0ozYUdsMFpTSWdabTl1ZEMxbVlXMXBiSGs5SWlkRGIzVnlhV1Z5SUU1bGR5Y3NJRzF2Ym05emNHRmpaU0lnWm05dWRDMXphWHBsUFNJeE1IQjRJaUI0YkdsdWF6cG9jbVZtUFNJamRHVjRkQzF3WVhSb0xXRWlQakI0WXpBeVlXRmhNemxpTWpJelptVTRaREJoTUdVMVl6Um1NamRsWVdRNU1EZ3pZemMxTm1Oak1pRGlnS0lnVjBWVVNDQThZVzVwYldGMFpTQmhaR1JwZEdsMlpUMGljM1Z0SWlCaGRIUnlhV0oxZEdWT1lXMWxQU0p6ZEdGeWRFOW1abk5sZENJZ1puSnZiVDBpTUNVaUlIUnZQU0l4TURBbElpQmlaV2RwYmowaU1ITWlJR1IxY2owaU16QnpJaUJ5WlhCbFlYUkRiM1Z1ZEQwaWFXNWtaV1pwYm1sMFpTSWdMejQ4TDNSbGVIUlFZWFJvUGlBOGRHVjRkRkJoZEdnZ2MzUmhjblJQWm1aelpYUTlJakFsSWlCbWFXeHNQU0ozYUdsMFpTSWdabTl1ZEMxbVlXMXBiSGs5SWlkRGIzVnlhV1Z5SUU1bGR5Y3NJRzF2Ym05emNHRmpaU0lnWm05dWRDMXphWHBsUFNJeE1IQjRJaUI0YkdsdWF6cG9jbVZtUFNJamRHVjRkQzF3WVhSb0xXRWlQakI0WXpBeVlXRmhNemxpTWpJelptVTRaREJoTUdVMVl6Um1NamRsWVdRNU1EZ3pZemMxTm1Oak1pRGlnS0lnVjBWVVNDQThZVzVwYldGMFpTQmhaR1JwZEdsMlpUMGljM1Z0SWlCaGRIUnlhV0oxZEdWT1lXMWxQU0p6ZEdGeWRFOW1abk5sZENJZ1puSnZiVDBpTUNVaUlIUnZQU0l4TURBbElpQmlaV2RwYmowaU1ITWlJR1IxY2owaU16QnpJaUJ5WlhCbFlYUkRiM1Z1ZEQwaWFXNWtaV1pwYm1sMFpTSWdMejRnUEM5MFpYaDBVR0YwYUQ0OGRHVjRkRkJoZEdnZ2MzUmhjblJQWm1aelpYUTlJalV3SlNJZ1ptbHNiRDBpZDJocGRHVWlJR1p2Ym5RdFptRnRhV3g1UFNJblEyOTFjbWxsY2lCT1pYY25MQ0J0YjI1dmMzQmhZMlVpSUdadmJuUXRjMmw2WlQwaU1UQndlQ0lnZUd4cGJtczZhSEpsWmowaUkzUmxlSFF0Y0dGMGFDMWhJajR3ZUdVM01tSXhOREZrWmpFM00ySTVPVGxoWlRkak1XRmtZMkptTmpCall6azRNek5qWlRVMllUZ2c0b0NpSUVWVVNDc2dQR0Z1YVcxaGRHVWdZV1JrYVhScGRtVTlJbk4xYlNJZ1lYUjBjbWxpZFhSbFRtRnRaVDBpYzNSaGNuUlBabVp6WlhRaUlHWnliMjA5SWpBbElpQjBiejBpTVRBd0pTSWdZbVZuYVc0OUlqQnpJaUJrZFhJOUlqTXdjeUlnY21Wd1pXRjBRMjkxYm5ROUltbHVaR1ZtYVc1cGRHVWlJQzgrUEM5MFpYaDBVR0YwYUQ0OGRHVjRkRkJoZEdnZ2MzUmhjblJQWm1aelpYUTlJaTAxTUNVaUlHWnBiR3c5SW5kb2FYUmxJaUJtYjI1MExXWmhiV2xzZVQwaUowTnZkWEpwWlhJZ1RtVjNKeXdnYlc5dWIzTndZV05sSWlCbWIyNTBMWE5wZW1VOUlqRXdjSGdpSUhoc2FXNXJPbWh5WldZOUlpTjBaWGgwTFhCaGRHZ3RZU0krTUhobE56SmlNVFF4WkdZeE56TmlPVGs1WVdVM1l6RmhaR05pWmpZd1kyTTVPRE16WTJVMU5tRTRJT0tBb2lCRlZFZ3JJRHhoYm1sdFlYUmxJR0ZrWkdsMGFYWmxQU0p6ZFcwaUlHRjBkSEpwWW5WMFpVNWhiV1U5SW5OMFlYSjBUMlptYzJWMElpQm1jbTl0UFNJd0pTSWdkRzg5SWpFd01DVWlJR0psWjJsdVBTSXdjeUlnWkhWeVBTSXpNSE1pSUhKbGNHVmhkRU52ZFc1MFBTSnBibVJsWm1sdWFYUmxJaUF2UGp3dmRHVjRkRkJoZEdnK1BDOTBaWGgwUGp4bklHMWhjMnM5SW5WeWJDZ2pabUZrWlMxemVXMWliMndwSWo0OGNtVmpkQ0JtYVd4c1BTSnViMjVsSWlCNFBTSXdjSGdpSUhrOUlqQndlQ0lnZDJsa2RHZzlJakk1TUhCNElpQm9aV2xuYUhROUlqSXdNSEI0SWlBdlBpQThkR1Y0ZENCNVBTSTNNSEI0SWlCNFBTSXpNbkI0SWlCbWFXeHNQU0ozYUdsMFpTSWdabTl1ZEMxbVlXMXBiSGs5SWlkRGIzVnlhV1Z5SUU1bGR5Y3NJRzF2Ym05emNHRmpaU0lnWm05dWRDMTNaV2xuYUhROUlqSXdNQ0lnWm05dWRDMXphWHBsUFNJek5uQjRJajVGVkVnckwxZEZWRWc4TDNSbGVIUStQSFJsZUhRZ2VUMGlNVEUxY0hnaUlIZzlJak15Y0hnaUlHWnBiR3c5SW5kb2FYUmxJaUJtYjI1MExXWmhiV2xzZVQwaUowTnZkWEpwWlhJZ1RtVjNKeXdnYlc5dWIzTndZV05sSWlCbWIyNTBMWGRsYVdkb2REMGlNakF3SWlCbWIyNTBMWE5wZW1VOUlqTTJjSGdpUGpBdU1EVWxQQzkwWlhoMFBqd3ZaejQ4Y21WamRDQjRQU0l4TmlJZ2VUMGlNVFlpSUhkcFpIUm9QU0l5TlRnaUlHaGxhV2RvZEQwaU5EWTRJaUJ5ZUQwaU1qWWlJSEo1UFNJeU5pSWdabWxzYkQwaWNtZGlZU2d3TERBc01Dd3dLU0lnYzNSeWIydGxQU0p5WjJKaEtESTFOU3d5TlRVc01qVTFMREF1TWlraUlDOCtQR2NnYldGemF6MGlkWEpzS0NOdWIyNWxLU0lnYzNSNWJHVTlJblJ5WVc1elptOXliVHAwY21GdWMyeGhkR1VvTnpKd2VDd3hPRGx3ZUNraVBqeHlaV04wSUhnOUlpMHhObkI0SWlCNVBTSXRNVFp3ZUNJZ2QybGtkR2c5SWpFNE1IQjRJaUJvWldsbmFIUTlJakU0TUhCNElpQm1hV3hzUFNKdWIyNWxJaUF2UGp4d1lYUm9JR1E5SWsweElERkRNU0E0T1NBMU55NDFJREUwTlNBeE5EVWdNVFExSWlCemRISnZhMlU5SW5KblltRW9NQ3d3TERBc01DNHpLU0lnYzNSeWIydGxMWGRwWkhSb1BTSXpNbkI0SWlCbWFXeHNQU0p1YjI1bElpQnpkSEp2YTJVdGJHbHVaV05oY0QwaWNtOTFibVFpSUM4K1BDOW5QanhuSUcxaGMyczlJblZ5YkNnamJtOXVaU2tpSUhOMGVXeGxQU0owY21GdWMyWnZjbTA2ZEhKaGJuTnNZWFJsS0RjeWNIZ3NNVGc1Y0hncElqNDhjbVZqZENCNFBTSXRNVFp3ZUNJZ2VUMGlMVEUyY0hnaUlIZHBaSFJvUFNJeE9EQndlQ0lnYUdWcFoyaDBQU0l4T0RCd2VDSWdabWxzYkQwaWJtOXVaU0lnTHo0OGNHRjBhQ0JrUFNKTk1TQXhRekVnT0RrZ05UY3VOU0F4TkRVZ01UUTFJREUwTlNJZ2MzUnliMnRsUFNKeVoySmhLREkxTlN3eU5UVXNNalUxTERFcElpQm1hV3hzUFNKdWIyNWxJaUJ6ZEhKdmEyVXRiR2x1WldOaGNEMGljbTkxYm1RaUlDOCtQQzluUGp4amFYSmpiR1VnWTNnOUlqY3pjSGdpSUdONVBTSXhPVEJ3ZUNJZ2NqMGlOSEI0SWlCbWFXeHNQU0ozYUdsMFpTSWdMejQ4WTJseVkyeGxJR040UFNJeU1UZHdlQ0lnWTNrOUlqTXpOSEI0SWlCeVBTSTBjSGdpSUdacGJHdzlJbmRvYVhSbElpQXZQaUE4WnlCemRIbHNaVDBpZEhKaGJuTm1iM0p0T25SeVlXNXpiR0YwWlNneU9YQjRMQ0F6T0RSd2VDa2lQanh5WldOMElIZHBaSFJvUFNJNU9IQjRJaUJvWldsbmFIUTlJakkyY0hnaUlISjRQU0k0Y0hnaUlISjVQU0k0Y0hnaUlHWnBiR3c5SW5KblltRW9NQ3d3TERBc01DNDJLU0lnTHo0OGRHVjRkQ0I0UFNJeE1uQjRJaUI1UFNJeE4zQjRJaUJtYjI1MExXWmhiV2xzZVQwaUowTnZkWEpwWlhJZ1RtVjNKeXdnYlc5dWIzTndZV05sSWlCbWIyNTBMWE5wZW1VOUlqRXljSGdpSUdacGJHdzlJbmRvYVhSbElqNDhkSE53WVc0Z1ptbHNiRDBpY21kaVlTZ3lOVFVzTWpVMUxESTFOU3d3TGpZcElqNUpSRG9nUEM5MGMzQmhiajQyTlRNeE5EVThMM1JsZUhRK1BDOW5QaUE4WnlCemRIbHNaVDBpZEhKaGJuTm1iM0p0T25SeVlXNXpiR0YwWlNneU9YQjRMQ0EwTVRSd2VDa2lQanh5WldOMElIZHBaSFJvUFNJeE16TndlQ0lnYUdWcFoyaDBQU0l5Tm5CNElpQnllRDBpT0hCNElpQnllVDBpT0hCNElpQm1hV3hzUFNKeVoySmhLREFzTUN3d0xEQXVOaWtpSUM4K1BIUmxlSFFnZUQwaU1USndlQ0lnZVQwaU1UZHdlQ0lnWm05dWRDMW1ZVzFwYkhrOUlpZERiM1Z5YVdWeUlFNWxkeWNzSUcxdmJtOXpjR0ZqWlNJZ1ptOXVkQzF6YVhwbFBTSXhNbkI0SWlCbWFXeHNQU0ozYUdsMFpTSStQSFJ6Y0dGdUlHWnBiR3c5SW5KblltRW9NalUxTERJMU5Td3lOVFVzTUM0MktTSStUV2x1SUZScFkyczZJRHd2ZEhOd1lXNCtMVEU0TWpBOEwzUmxlSFErUEM5blBpQThaeUJ6ZEhsc1pUMGlkSEpoYm5ObWIzSnRPblJ5WVc1emJHRjBaU2d5T1hCNExDQTBORFJ3ZUNraVBqeHlaV04wSUhkcFpIUm9QU0l4TVRsd2VDSWdhR1ZwWjJoMFBTSXlObkI0SWlCeWVEMGlPSEI0SWlCeWVUMGlPSEI0SWlCbWFXeHNQU0p5WjJKaEtEQXNNQ3d3TERBdU5pa2lJQzgrUEhSbGVIUWdlRDBpTVRKd2VDSWdlVDBpTVRkd2VDSWdabTl1ZEMxbVlXMXBiSGs5SWlkRGIzVnlhV1Z5SUU1bGR5Y3NJRzF2Ym05emNHRmpaU0lnWm05dWRDMXphWHBsUFNJeE1uQjRJaUJtYVd4c1BTSjNhR2wwWlNJK1BIUnpjR0Z1SUdacGJHdzlJbkpuWW1Fb01qVTFMREkxTlN3eU5UVXNNQzQyS1NJK1RXRjRJRlJwWTJzNklEd3ZkSE53WVc0K01qVXdQQzkwWlhoMFBqd3ZaejQ4WnlCemRIbHNaVDBpZEhKaGJuTm1iM0p0T25SeVlXNXpiR0YwWlNneU1qWndlQ3dnTkRNemNIZ3BJajQ4Y21WamRDQjNhV1IwYUQwaU16WndlQ0lnYUdWcFoyaDBQU0l6Tm5CNElpQnllRDBpT0hCNElpQnllVDBpT0hCNElpQm1hV3hzUFNKdWIyNWxJaUJ6ZEhKdmEyVTlJbkpuWW1Fb01qVTFMREkxTlN3eU5UVXNNQzR5S1NJZ0x6NDhjR0YwYUNCemRISnZhMlV0YkdsdVpXTmhjRDBpY205MWJtUWlJR1E5SWswNElEbERPQzR3TURBd05DQXlNaTQ1TkRrMElERTJMakl3T1RrZ01qZ2dNamNnTWpnaUlHWnBiR3c5SW01dmJtVWlJSE4wY205clpUMGlkMmhwZEdVaUlDOCtQR05wY21Oc1pTQnpkSGxzWlQwaWRISmhibk5tYjNKdE9uUnlZVzV6YkdGMFpUTmtLREV3Y0hnc0lERTRjSGdzSURCd2VDa2lJR040UFNJd2NIZ2lJR041UFNJd2NIZ2lJSEk5SWpSd2VDSWdabWxzYkQwaWQyaHBkR1VpTHo0OEwyYytQQzl6ZG1jKyJ9"
+        },
+        {
+          "contract": "0x70d43932df9a29eda20730dcc6d4024a9ca15fc4",
+          "token_id": "301",
+          "uri": "http://api.bbyc-nft.xyz/ipfs/301"
+        },
+        {
+          "contract": "0xcbdca1d8b0df1c7f668b53fa3672201316466dcf",
+          "token_id": "22",
+          "uri": "http://api.azukibaycofficial.xyz/ipfs/22"
+        },
+        {
+          "contract": "0x49b9584b2d01ab3b28567ccbfaa9ae0f7c3fe987",
+          "token_id": "22",
+          "uri": "http://api.rich-baby-nfts.xyz/ipfs/22"
+        },
+        {
+          "contract": "0x7efe3d92d57da322fdf8133147b06aefc3b855b4",
+          "token_id": "5038",
+          "uri": "http://api.imaginaryones-nfts.xyz/ipfs/5038"
+        },
+        {
+          "contract": "0x9cdb22529956d15a41d99312825723034096ac0c",
+          "token_id": "5498",
+          "uri": "http://api.phantomnetworks.xyz/ipfs/5498"
+        },
+        {
+          "contract": "0xfff54e6fe44fd47c8814c4b1d62c924c54364ad3",
+          "token_id": "301",
+          "uri": "http://api.youtopia-official.xyz/ipfs/301"
+        },
+        {
+          "contract": "0xf9e458f01daf255e4279eae3ae527529130f0c85",
+          "token_id": "788",
+          "uri": "http://api.louis-vuitton-official.top/ipfs/788"
+        },
+        {
+          "contract": "0xf9e458f01daf255e4279eae3ae527529130f0c85",
+          "token_id": "789",
+          "uri": "http://api.louis-vuitton-official.top/ipfs/789"
+        },
+        {
+          "contract": "0x985b12a568fa248bf68044050bf3849d1bb55765",
+          "token_id": "22",
+          "uri": "http://api.apiensofficial.xyz/ipfs/22"
+        }
+      ]
+    }
+  },
+  "ens": {
+    "address": "0xceb69f6342ece283b2f5c9088ff249b5d0ae66ea",
+    "ens_name": null,
+    "text_records": {},
+    "social_links": {},
+    "has_ens": false,
+    "has_social_links": false
+  },
+  "approval_risk": {
+    "scan_timestamp": "2026-01-15T15:32:05.070451+00:00",
+    "total_approvals": 0,
+    "unlimited_approvals": 0,
+    "high_risk_approvals": 0,
+    "total_exposure_usd": 0,
+    "verdicts": [],
+    "has_dangerous_approvals": false
+  },
+  "funding_trace": {
+    "target": "0xceb69f6342ece283b2f5c9088ff249b5d0ae66ea",
+    "trace_timestamp": "2026-01-15T15:31:20.901909+00:00",
+    "total_hops": 0,
+    "origin_found": false,
+    "origin_type": null,
+    "origin_label": null,
+    "trace_complete": false,
+    "trace_stopped_reason": "No funding transaction found",
+    "funding_chain": []
+  },
+  "verdicts": [
+    {
+      "title": "ON FRESH WHALE LIST",
+      "severity": "CRITICAL",
+      "category": "THREAT",
+      "description": "Brand new wallet (3 days old) with $105,795,918 is being targeted by 8 different scam campaigns. This indicates the wallet address is on a 'fresh whale' list being sold to multiple attacker groups. Attackers know this wallet exists and have its address.",
+      "evidence": [
+        "Wallet age: 3 days",
+        "Balance: $105,795,918",
+        "8 scam campaigns detected",
+        "Multiple attacker groups targeting same wallet",
+        "Address likely leaked from exchange or tracked via mempool"
+      ],
+      "action": "This wallet is being actively monitored by scammers - high-value target"
+    },
+    {
+      "title": "SCAM NFT AIRDROP DETECTED",
+      "severity": "CRITICAL",
+      "category": "THREAT",
+      "description": "This wallet received an NFT from a scam domain impersonating Phantom wallet. The domain 'api.phantomnetworks.xyz' is designed to phish users.",
+      "evidence": [
+        "Impersonating Phantom wallet NFT collection",
+        "Suspicious TLD: .xyz"
+      ],
+      "action": "Do not interact with this NFT or visit the domain"
+    },
+    {
+      "title": "SCAM NFT AIRDROP DETECTED",
+      "severity": "CRITICAL",
+      "category": "THREAT",
+      "description": "This wallet received an NFT from a scam domain impersonating Bored Ape Yacht Club. The domain 'api.azukibaycofficial.xyz' is designed to phish users.",
+      "evidence": [
+        "Contains 'official' - Impersonation attempt",
+        "Impersonating Azuki NFT collection NFT collection",
+        "Impersonating Bored Ape Yacht Club NFT collection",
+        "Suspicious TLD: .xyz"
+      ],
+      "action": "Do not interact with this NFT or visit the domain"
+    },
+    {
+      "title": "SCAM NFT AIRDROP DETECTED",
+      "severity": "CRITICAL",
+      "category": "THREAT",
+      "description": "This wallet received an NFT from a scam domain impersonating Bored Ape Yacht Club. The domain 'api.bbyc-nft.xyz' is designed to phish users.",
+      "evidence": [
+        "Impersonating Bored Ape Yacht Club NFT collection",
+        "Suspicious TLD: .xyz"
+      ],
+      "action": "Do not interact with this NFT or visit the domain"
+    },
+    {
+      "title": "SCAM NFT AIRDROP DETECTED",
+      "severity": "CRITICAL",
+      "category": "THREAT",
+      "description": "This wallet received an NFT from a scam domain impersonating Imaginary Ones. The domain 'api.imaginaryones-nfts.xyz' is designed to phish users.",
+      "evidence": [
+        "Impersonating Imaginary Ones NFT collection",
+        "Suspicious TLD: .xyz"
+      ],
+      "action": "Do not interact with this NFT or visit the domain"
+    },
+    {
+      "title": "SCAM NFT AIRDROP DETECTED",
+      "severity": "CRITICAL",
+      "category": "THREAT",
+      "description": "This wallet received an NFT from a scam domain impersonating Youtopia NFT. The domain 'api.youtopia-official.xyz' is designed to phish users.",
+      "evidence": [
+        "Contains 'official' - Impersonation attempt",
+        "Impersonating Youtopia NFT NFT collection",
+        "Suspicious TLD: .xyz"
+      ],
+      "action": "Do not interact with this NFT or visit the domain"
+    },
+    {
+      "title": "SCAM NFT AIRDROP DETECTED",
+      "severity": "CRITICAL",
+      "category": "THREAT",
+      "description": "This wallet received an NFT from a scam domain impersonating Apiens NFT. The domain 'api.apiensofficial.xyz' is designed to phish users.",
+      "evidence": [
+        "Contains 'official' - Impersonation attempt",
+        "Impersonating Apiens NFT NFT collection",
+        "Suspicious TLD: .xyz"
+      ],
+      "action": "Do not interact with this NFT or visit the domain"
+    },
+    {
+      "title": "CARPET BOMBING SCAM CAMPAIGN",
+      "severity": "HIGH",
+      "category": "THREAT",
+      "description": "Wallet is being carpet bombed with 8 different scam NFT campaigns. Attackers have identified this wallet and are coordinating multiple phishing attempts. This pattern indicates the wallet is on a 'fresh whale' list being sold to scammers.",
+      "evidence": [
+        "8 suspicious domains detected",
+        "Multiple coordinated phishing campaigns",
+        "Wallet is on attacker radar",
+        "Likely on a 'fresh whale' list being sold",
+        "Domain: api.phantomnetworks.xyz",
+        "Domain: api.azukibaycofficial.xyz",
+        "Domain: api.bbyc-nft.xyz",
+        "Domain: api.imaginaryones-nfts.xyz",
+        "Domain: api.youtopia-official.xyz"
+      ],
+      "action": "High-priority target - multiple attacker groups know about this wallet"
+    },
+    {
+      "title": "IMPERSONATION PATTERN DETECTED",
+      "severity": "HIGH",
+      "category": "THREAT",
+      "description": "Multiple domains (4) use the 'official' keyword to build false trust. This is a coordinated impersonation campaign targeting this wallet.",
+      "evidence": [
+        "4 domains using 'official' keyword",
+        "Pattern indicates coordinated attack",
+        "Designed to build false trust",
+        "Domain: api.azukibaycofficial.xyz",
+        "Domain: api.youtopia-official.xyz",
+        "Domain: api.louis-vuitton-official.top",
+        "Domain: api.apiensofficial.xyz"
+      ],
+      "action": "All domains using 'official' are likely scams - do not trust"
+    },
+    {
+      "title": "SUSPICIOUS NFT AIRDROP",
+      "severity": "HIGH",
+      "category": "THREAT",
+      "description": "This wallet received an NFT from suspicious domain 'api.louis-vuitton-official.top'. Likely a phishing or scam attempt.",
+      "evidence": [
+        "Contains 'official' - Impersonation attempt",
+        "Suspicious TLD: .top"
+      ],
+      "action": "Investigate domain before any interaction"
+    },
+    {
+      "title": "SUSPICIOUS NFT AIRDROP",
+      "severity": "HIGH",
+      "category": "THREAT",
+      "description": "This wallet received an NFT from suspicious domain 'api.rich-baby-nfts.xyz'. Likely a phishing or scam attempt.",
+      "evidence": [
+        "Suspicious TLD: .xyz"
+      ],
+      "action": "Investigate domain before any interaction"
+    },
+    {
+      "title": "LOW SOPHISTICATION TARGET",
+      "severity": "MEDIUM",
+      "category": "VULNERABILITY",
+      "description": "Wallet shows limited DeFi knowledge but holds significant value. Basic phishing likely to succeed.",
+      "evidence": [
+        "Matched 3/4 signals",
+        "Pattern: low_sophistication_target",
+        "Confidence: 75%",
+        "Signal: sophistication",
+        "Signal: balance_usd",
+        "Signal: defi_protocols_count"
+      ],
+      "action": "Standard phishing attacks likely effective"
+    },
+    {
+      "title": "HIGH-RISK TRADER PROFILE",
+      "severity": "MEDIUM",
+      "category": "PROFILE",
+      "description": "Wallet shows impulsive trading behavior with meme coin exposure. Likely susceptible to FOMO-based attacks.",
+      "evidence": [
+        "Matched 3/3 signals",
+        "Pattern: high_risk_trader",
+        "Confidence: 100%",
+        "Signal: meme_exposure",
+        "Signal: tx_count",
+        "Signal: balance_usd"
+      ],
+      "action": "Target with urgency-based scams, fake alpha"
+    },
+    {
+      "title": "NO EXCHANGE TRAIL",
+      "severity": "MEDIUM",
+      "category": "INTEL",
+      "description": "Large holder with no detected CEX interactions. Funds origin harder to trace. May be privacy-conscious or using DEX only.",
+      "evidence": [
+        "Matched 3/3 signals",
+        "Pattern: no_exchange_trail",
+        "Confidence: 100%",
+        "Signal: exchange_interactions",
+        "Signal: balance_usd",
+        "Signal: tx_count"
+      ],
+      "action": "Trace funding source through on-chain analysis"
+    },
+    {
+      "title": "HTTP PROTOCOL USAGE",
+      "severity": "MEDIUM",
+      "category": "THREAT",
+      "description": "Found 9 metadata URLs using HTTP instead of HTTPS. Legitimate NFT projects use HTTPS. HTTP indicates lazy scammers or intentional security bypass.",
+      "evidence": [
+        "9 HTTP URLs detected",
+        "Legitimate projects use HTTPS",
+        "HTTP = scam indicator or lazy attacker",
+        "URL: http://api.bbyc-nft.xyz/ipfs/301...",
+        "URL: http://api.azukibaycofficial.xyz/ipfs/22...",
+        "URL: http://api.rich-baby-nfts.xyz/ipfs/22..."
+      ],
+      "action": "HTTP URLs are highly suspicious - likely scam infrastructure"
+    }
+  ]
+}

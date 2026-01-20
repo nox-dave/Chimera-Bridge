@@ -1,0 +1,184 @@
+{
+  "address": "0x7b4576d06d0ce1f83f9a9b76bf8077bffd34fcb1",
+  "ipfs_hashes_found": [],
+  "metadata_analyzed": [],
+  "debug_info": {
+    "nft_transfers_count": 50,
+    "contracts_found": 34,
+    "tokens_checked": 11,
+    "uris_found": 11,
+    "ipfs_hashes_extracted": 0,
+    "metadata_fetched": 0
+  },
+  "findings": {
+    "total_hashes": 0,
+    "unique_hashes": [],
+    "linked_urls": [],
+    "usernames": [],
+    "emails": [],
+    "social_links": [],
+    "timestamps": [],
+    "creators": [],
+    "collections": [],
+    "domains": [
+      "api.coca-cola-nft.xyz",
+      "api.possessednfts.xyz",
+      "api.kahiru-nft.xyz",
+      "api.louis-vuitton-official.top",
+      "api.azukibaycofficial.xyz",
+      "api.lonelypop-nfts.xyz",
+      "api.gene-sis.xyz",
+      "api.b-f-partynfts.xyz",
+      "api.rich-baby-nfts.xyz"
+    ],
+    "domain_analysis": {
+      "api.b-f-partynfts.xyz": {
+        "domain": "api.b-f-partynfts.xyz",
+        "is_ipfs": false,
+        "is_centralized": true,
+        "scam_indicators": [
+          "Suspicious TLD: .xyz"
+        ],
+        "reputation": "suspicious",
+        "whois_info": null
+      },
+      "api.gene-sis.xyz": {
+        "domain": "api.gene-sis.xyz",
+        "is_ipfs": false,
+        "is_centralized": true,
+        "scam_indicators": [
+          "Suspicious TLD: .xyz"
+        ],
+        "reputation": "suspicious",
+        "whois_info": null
+      },
+      "api.coca-cola-nft.xyz": {
+        "domain": "api.coca-cola-nft.xyz",
+        "is_ipfs": false,
+        "is_centralized": true,
+        "scam_indicators": [
+          "Suspicious TLD: .xyz"
+        ],
+        "reputation": "suspicious",
+        "whois_info": null
+      },
+      "api.louis-vuitton-official.top": {
+        "domain": "api.louis-vuitton-official.top",
+        "is_ipfs": false,
+        "is_centralized": true,
+        "scam_indicators": [
+          "Suspicious TLD: .top"
+        ],
+        "reputation": "suspicious",
+        "whois_info": null
+      },
+      "api.possessednfts.xyz": {
+        "domain": "api.possessednfts.xyz",
+        "is_ipfs": false,
+        "is_centralized": true,
+        "scam_indicators": [
+          "Suspicious TLD: .xyz"
+        ],
+        "reputation": "suspicious",
+        "whois_info": null
+      },
+      "api.kahiru-nft.xyz": {
+        "domain": "api.kahiru-nft.xyz",
+        "is_ipfs": false,
+        "is_centralized": true,
+        "scam_indicators": [
+          "Suspicious TLD: .xyz"
+        ],
+        "reputation": "suspicious",
+        "whois_info": null
+      },
+      "api.lonelypop-nfts.xyz": {
+        "domain": "api.lonelypop-nfts.xyz",
+        "is_ipfs": false,
+        "is_centralized": true,
+        "scam_indicators": [
+          "Suspicious TLD: .xyz"
+        ],
+        "reputation": "suspicious",
+        "whois_info": null
+      },
+      "api.azukibaycofficial.xyz": {
+        "domain": "api.azukibaycofficial.xyz",
+        "is_ipfs": false,
+        "is_centralized": true,
+        "scam_indicators": [
+          "Suspicious TLD: .xyz"
+        ],
+        "reputation": "suspicious",
+        "whois_info": null
+      },
+      "api.rich-baby-nfts.xyz": {
+        "domain": "api.rich-baby-nfts.xyz",
+        "is_ipfs": false,
+        "is_centralized": true,
+        "scam_indicators": [
+          "Suspicious TLD: .xyz"
+        ],
+        "reputation": "suspicious",
+        "whois_info": null
+      }
+    },
+    "metadata_urls": [
+      {
+        "contract": "0xecdf8d7fb10f140ed38e8f418a7d50bc9b149b79",
+        "token_id": "8086",
+        "uri": "http://api.b-f-partynfts.xyz/ipfs/8086"
+      },
+      {
+        "contract": "0x96786b18a448d06b30455df59c90778b1e60f9dc",
+        "token_id": "6252",
+        "uri": "http://api.gene-sis.xyz/ipfs/6252"
+      },
+      {
+        "contract": "0x6955175d1b7cc7fa8be33b00113f9988d8eaf323",
+        "token_id": "27",
+        "uri": "http://api.gene-sis.xyz/ipfs/27"
+      },
+      {
+        "contract": "0xd2517661e4b90f2b6fd4a8eee9244049ef40f331",
+        "token_id": "27",
+        "uri": "http://api.coca-cola-nft.xyz/ipfs/27"
+      },
+      {
+        "contract": "0x704a32f5ae95b3c13410ebb68a99f722d2751a89",
+        "token_id": "8518",
+        "uri": "http://api.louis-vuitton-official.top/ipfs/8518"
+      },
+      {
+        "contract": "0x1aaf7492fd4e6661ad496a5cac10a2c32ca1f2e0",
+        "token_id": "5530",
+        "uri": "http://api.possessednfts.xyz/ipfs/5530"
+      },
+      {
+        "contract": "0x3887236e4c82b458bac382234c2646c03037bb24",
+        "token_id": "27",
+        "uri": "http://api.kahiru-nft.xyz/ipfs/27"
+      },
+      {
+        "contract": "0x9af206bdbebff7b707bc56583ccd4db98fd091fe",
+        "token_id": "5255",
+        "uri": "http://api.lonelypop-nfts.xyz/ipfs/5255"
+      },
+      {
+        "contract": "0x9af206bdbebff7b707bc56583ccd4db98fd091fe",
+        "token_id": "27",
+        "uri": "http://api.lonelypop-nfts.xyz/ipfs/27"
+      },
+      {
+        "contract": "0xcbdca1d8b0df1c7f668b53fa3672201316466dcf",
+        "token_id": "27",
+        "uri": "http://api.azukibaycofficial.xyz/ipfs/27"
+      },
+      {
+        "contract": "0x49b9584b2d01ab3b28567ccbfaa9ae0f7c3fe987",
+        "token_id": "27",
+        "uri": "http://api.rich-baby-nfts.xyz/ipfs/27"
+      }
+    ]
+  }
+}

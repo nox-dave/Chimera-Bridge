@@ -1,0 +1,244 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                         🐋 WHALE INTELLIGENCE REPORT                          ║
+║                           Gargophias OSINT Module                            ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+Target:     0xb23360ccdd9ed1b15d45e5d3824bb409c8d7c460
+Generated:  2026-01-20 11:13:24 UTC
+
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                               QUICK ASSESSMENT                               │
+├──────────────────────────────────────────────────────────────────────────────┤
+│  ✅ LIKELY REAL PERSON                                                       │
+│  Confidence: 60%                                                               │
+│  Profile: Mega-Whale | Stablecoin Holder | Meme Coin Player                 │
+└──────────────────────────────────────────────────────────────────────────────┘
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+💰 FINANCIAL SUMMARY
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Total Portfolio Value:  $       18,003,216.67
+  ETH Balance:                      5,813.9315 ETH
+  ETH Value:              $       18,003,216.67
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📊 ACTIVITY METRICS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Transaction Count:                       500
+  Total ETH Moved:                      210.05 ETH
+  Avg Transaction:                      0.5304 ETH
+  Wallet Age:                                0 days
+  First Transaction:                2026-01-20
+  Last Transaction:                 2026-01-20
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🧠 BEHAVIORAL PROFILE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Sophistication Level:   Intermediate        
+  Risk Tolerance:         Aggressive          
+  Trading Style:          Stablecoin Holder   
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+⏰ ACTIVITY PATTERNS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Peak Activity Hours:    9:00, 5:00, 8:00, 7:00 UTC
+  Most Active Days:       Tuesday
+  Likely Timezone:        Asia-Pacific (UTC+8 to +12)
+  Probable Region:        Asia-Pacific
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🔧 PROTOCOL & PLATFORM USAGE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  DeFi Protocols:         None detected
+
+  NFT Platforms:          None detected
+
+  Bridge Usage:           None detected
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🪙 TOKEN INTERESTS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Active Tokens: usdt, usdc, link, shib, ena
+  Categories: 🐸 Meme Coins | 💵 Stablecoin Heavy
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🏦 FUNDING & EXCHANGE RELATIONSHIPS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Original Funding:       Unknown
+                          0xf7c8da79da4cb294c4f55dfebb1b404e3e38d921...
+
+  Exchange Interactions:  None detected (DEX-only or self-custody)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🎯 SIGNAL ANALYSIS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  ✅ BULLISH SIGNALS (Real Person Indicators):
+     • Reasonable tx count
+     • Retail token activity
+     • Meme coin exposure - retail speculation behavior
+
+  ⚠️  RED FLAGS (Caution Indicators):
+     • Fresh wallet with large balance
+     • New wallet with large balance - verify source
+     • No exchange interactions - unusual for large holder
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📋 OSINT ASSESSMENT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  MODERATE CONFIDENCE (60%): Likely a real person, but some uncertainty.
+  GEOGRAPHIC: Activity patterns suggest Asia-Pacific timezone (Asia-Pacific (UTC+8 to +12)).
+  SOPHISTICATION: Intermediate user. Familiar with DeFi basics, uses DEXs.
+  RISK PROFILE: Aggressive. Stablecoin Holder.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🎭 PROFILE HYPOTHESIS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Archetype: Conservative Whale / Stablecoin Holder
+  
+  Narrative:
+    A mega-whale with significant market influence.
+    Originally funded through Unknown, suggesting traditional onboarding.
+    Shows familiarity with DEXs and basic DeFi concepts.
+    Activity patterns suggest Asia-Pacific timezone.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🔗 INVESTIGATION LINKS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Etherscan:      https://etherscan.io/address/0xb23360ccdd9ed1b15d45e5d3824bb409c8d7c460
+  Debank:         https://debank.com/profile/0xb23360ccdd9ed1b15d45e5d3824bb409c8d7c460
+  Arkham Intel:   https://platform.arkhamintelligence.com/explorer/address/0xb23360ccdd9ed1b15d45e5d3824bb409c8d7c460
+  Nansen:         https://pro.nansen.ai/wallet/0xb23360ccdd9ed1b15d45e5d3824bb409c8d7c460
+  Zerion:         https://app.zerion.io/0xb23360ccdd9ed1b15d45e5d3824bb409c8d7c460/overview
+  Zapper:         https://zapper.xyz/account/0xb23360ccdd9ed1b15d45e5d3824bb409c8d7c460
+
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                      PRIORITY: MEDIUM | CONFIDENCE: 60%                      ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+
+🔍 FUNDING SOURCE TRACE
+━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Hops Traced: 0
+
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🌐 IPFS & DOMAIN OSINT ANALYSIS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+NFT Transfers Analyzed: 3
+Contracts Checked: 3
+Tokens Scanned: 3
+Metadata Files Fetched: 0
+
+IPFS Hashes Found: 1
+
+Unique IPFS Hashes:
+  • QmQpgc5VKqA8evqfoQ2hXJY2dWwn8wqGjhU17Gjju3qPi4
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🌍 DOMAIN INTELLIGENCE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Domain: luckyusdc.xyz
+  Reputation: SUSPICIOUS
+  ⚠️  SCAM INDICATORS:
+    • Contains suspicious keyword: 'lucky'
+    • Suspicious TLD: .xyz
+  Metadata URLs: 1
+
+Domain: file-3af.pages.dev
+  Reputation: UNKNOWN
+  Metadata URLs: 1
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📋 METADATA SOURCES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Contract: 0x732bc69d... | Token: 3055
+    URI: https://luckyusdc.xyz/metadata/3055.json...
+  Contract: 0xf83119c3... | Token: 130
+    URI: ipfs://QmQpgc5VKqA8evqfoQ2hXJY2dWwn8wqGjhU17Gjju3qPi4/metadata.json...
+  Contract: 0xe5c90645... | Token: 121
+    URI: https://file-3af.pages.dev/reward3/json.json?nft=all...
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🔗 ENS & SOCIAL IDENTITY
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+ENS Name: None (wallet does not have an ENS name)
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🎯 OSINT VERDICTS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🚨 [CRITICAL] SCAM NFT AIRDROP DETECTED
+   This wallet received an NFT from a scam domain impersonating USDC stablecoin. The domain 'luckyusdc.xyz' is designed to phish users.
+   Evidence:
+     • Contains 'lucky' - Lottery/giveaway scam bait
+     • Impersonating USDC stablecoin
+     • Suspicious TLD: .xyz
+   → Action: Do not interact with this NFT or visit the domain
+
+⚡ [MEDIUM] NFT COLLECTOR PROFILE
+   Wallet shows strong NFT activity with significant holdings. Potential social identity vector through NFT metadata.
+   Evidence:
+     • Matched 3/4 signals
+     • Pattern: nft_collector
+     • Confidence: 75%
+     • Signal: balance_usd
+   → Action: Investigate NFT metadata for OSINT
+
+⚡ [MEDIUM] HIGH-RISK TRADER PROFILE
+   Wallet shows impulsive trading behavior with meme coin exposure. Likely susceptible to FOMO-based attacks.
+   Evidence:
+     • Matched 3/3 signals
+     • Pattern: high_risk_trader
+     • Confidence: 100%
+     • Signal: meme_exposure
+   → Action: Target with urgency-based scams, fake alpha
+
+⚡ [MEDIUM] NO EXCHANGE TRAIL
+   Large holder with no detected CEX interactions. Funds origin harder to trace. May be privacy-conscious or using DEX only.
+   Evidence:
+     • Matched 3/3 signals
+     • Pattern: no_exchange_trail
+     • Confidence: 100%
+     • Signal: exchange_interactions
+   → Action: Trace funding source through on-chain analysis
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🎯 OSINT VERDICTS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🚨 [CRITICAL] SCAM NFT AIRDROP DETECTED
+   This wallet received an NFT from a scam domain impersonating USDC stablecoin. The domain 'luckyusdc.xyz' is designed to phish users.
+     • Contains 'lucky' - Lottery/giveaway scam bait
+     • Impersonating USDC stablecoin
+     • Suspicious TLD: .xyz
+   → Action: Do not interact with this NFT or visit the domain
+
+⚡ [MEDIUM] NFT COLLECTOR PROFILE
+   Wallet shows strong NFT activity with significant holdings. Potential social identity vector through NFT metadata.
+     • Matched 3/4 signals
+     • Pattern: nft_collector
+     • Confidence: 75%
+   → Action: Investigate NFT metadata for OSINT
+
+⚡ [MEDIUM] HIGH-RISK TRADER PROFILE
+   Wallet shows impulsive trading behavior with meme coin exposure. Likely susceptible to FOMO-based attacks.
+     • Matched 3/3 signals
+     • Pattern: high_risk_trader
+     • Confidence: 100%
+   → Action: Target with urgency-based scams, fake alpha
+
+⚡ [MEDIUM] NO EXCHANGE TRAIL
+   Large holder with no detected CEX interactions. Funds origin harder to trace. May be privacy-conscious or using DEX only.
+     • Matched 3/3 signals
+     • Pattern: no_exchange_trail
+     • Confidence: 100%
+   → Action: Trace funding source through on-chain analysis
+

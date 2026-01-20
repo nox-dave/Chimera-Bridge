@@ -1,0 +1,175 @@
+{
+  "address": "0x58b704065b7aff3ed351052f8560019e05925023",
+  "ipfs_hashes_found": [],
+  "metadata_analyzed": [
+    {
+      "contract": "0x524cab2ec69124574082676e6f654a18df49a048",
+      "token_id": "15644",
+      "analysis": {
+        "name": "Lil Pudgy #15644",
+        "description": "Lil Pudgys are a collection of 22,222 randomly generated NFTs minted on Ethereum.",
+        "image": "https://api.pudgypenguins.io/lil/image/15644",
+        "external_url": "",
+        "attributes": [
+          {
+            "trait_type": "Background",
+            "value": "Pink"
+          },
+          {
+            "trait_type": "Skin",
+            "value": "Baby Pink"
+          },
+          {
+            "trait_type": "Body",
+            "value": "Tube Unicorn"
+          },
+          {
+            "trait_type": "Face",
+            "value": "Football"
+          },
+          {
+            "trait_type": "Left Flipper",
+            "value": "None"
+          },
+          {
+            "trait_type": "Head",
+            "value": "Flower Yellow"
+          },
+          {
+            "trait_type": "Right Flipper",
+            "value": "Plushie Black"
+          }
+        ],
+        "properties": {},
+        "creator": {},
+        "artist": "",
+        "collection": {},
+        "ipfs_hashes": [],
+        "linked_urls": [
+          "https://api.pudgypenguins.io/lil/image/15644"
+        ],
+        "timestamps": [],
+        "usernames": [],
+        "emails": [],
+        "social_links": []
+      },
+      "source": "https",
+      "domain": "api.pudgypenguins.io"
+    },
+    {
+      "contract": "0x524cab2ec69124574082676e6f654a18df49a048",
+      "token_id": "4734",
+      "analysis": {
+        "name": "Lil Pudgy #4734",
+        "description": "Lil Pudgys are a collection of 22,222 randomly generated NFTs minted on Ethereum.",
+        "image": "https://api.pudgypenguins.io/lil/image/4734",
+        "external_url": "",
+        "attributes": [
+          {
+            "trait_type": "Background",
+            "value": "Tangerine"
+          },
+          {
+            "trait_type": "Skin",
+            "value": "Green"
+          },
+          {
+            "trait_type": "Body",
+            "value": "Tribal Necklace"
+          },
+          {
+            "trait_type": "Face",
+            "value": "Circle Glasses"
+          },
+          {
+            "trait_type": "Left Flipper",
+            "value": "Kite Gold"
+          },
+          {
+            "trait_type": "Head",
+            "value": "Jester's Hat"
+          },
+          {
+            "trait_type": "Right Flipper",
+            "value": "None"
+          }
+        ],
+        "properties": {},
+        "creator": {},
+        "artist": "",
+        "collection": {},
+        "ipfs_hashes": [],
+        "linked_urls": [
+          "https://api.pudgypenguins.io/lil/image/4734"
+        ],
+        "timestamps": [],
+        "usernames": [],
+        "emails": [],
+        "social_links": []
+      },
+      "source": "https",
+      "domain": "api.pudgypenguins.io"
+    }
+  ],
+  "debug_info": {
+    "nft_transfers_count": 3,
+    "contracts_found": 2,
+    "tokens_checked": 3,
+    "uris_found": 3,
+    "ipfs_hashes_extracted": 0,
+    "metadata_fetched": 2
+  },
+  "findings": {
+    "total_hashes": 0,
+    "unique_hashes": [],
+    "linked_urls": [
+      "https://api.pudgypenguins.io/lil/image/15644",
+      "https://api.pudgypenguins.io/lil/image/4734"
+    ],
+    "usernames": [],
+    "emails": [],
+    "social_links": [],
+    "timestamps": [],
+    "creators": [],
+    "collections": [],
+    "domains": [
+      "file-3af.pages.dev",
+      "api.pudgypenguins.io"
+    ],
+    "domain_analysis": {
+      "file-3af.pages.dev": {
+        "domain": "file-3af.pages.dev",
+        "is_ipfs": false,
+        "is_centralized": true,
+        "scam_indicators": [],
+        "reputation": "unknown",
+        "whois_info": null
+      },
+      "api.pudgypenguins.io": {
+        "domain": "api.pudgypenguins.io",
+        "is_ipfs": false,
+        "is_centralized": true,
+        "scam_indicators": [],
+        "reputation": "unknown",
+        "whois_info": null
+      }
+    },
+    "metadata_urls": [
+      {
+        "contract": "0xe5c9064540f398282e04ef1cadf195eb8dc310c4",
+        "token_id": "62",
+        "uri": "https://file-3af.pages.dev/reward3/json.json?nft=all"
+      },
+      {
+        "contract": "0x524cab2ec69124574082676e6f654a18df49a048",
+        "token_id": "15644",
+        "uri": "https://api.pudgypenguins.io/lil/15644"
+      },
+      {
+        "contract": "0x524cab2ec69124574082676e6f654a18df49a048",
+        "token_id": "4734",
+        "uri": "https://api.pudgypenguins.io/lil/4734"
+      }
+    ]
+  }
+}

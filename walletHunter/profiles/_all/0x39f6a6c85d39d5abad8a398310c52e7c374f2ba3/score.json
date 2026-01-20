@@ -1,0 +1,21 @@
+{
+  "address": "0x39f6a6c85d39d5abad8a398310c52e7c374f2ba3",
+  "total_score": 85,
+  "value_score": 40,
+  "vulnerability_score": 30,
+  "confidence_score": 15,
+  "freshness_score": 0,
+  "balance_usd": 9820707.435947735,
+  "categories": [
+    "\ud83c\udd95_newcomers",
+    "\ud83d\udca4_dormant_whales",
+    "\ud83d\udc1f_easy_targets",
+    "\ud83e\udd8a_cautious_holders",
+    "\ud83d\udc8e_high_value",
+    "\ud83c\udfaf_prime_targets"
+  ],
+  "confidence_pct": 65,
+  "last_updated": "",
+  "disqualified": false,
+  "disqualify_reason": ""
+}

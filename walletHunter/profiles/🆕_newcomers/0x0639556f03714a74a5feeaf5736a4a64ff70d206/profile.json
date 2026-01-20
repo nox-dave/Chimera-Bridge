@@ -1,0 +1,872 @@
+{
+  "address": "0x0639556f03714a74a5feeaf5736a4a64ff70d206",
+  "discovered_at": "2026-01-15T16:04:16.225992+00:00",
+  "total_value_usd": 155772.51505130116,
+  "eth_balance": 46.939185213420025,
+  "eth_value_usd": 155772.51505130116,
+  "token_holdings": {},
+  "risk_score": 75,
+  "tx_count": 1000,
+  "defi_activity": false,
+  "nft_activity": {
+    "unique_collections": 72,
+    "top_collections": [
+      [
+        "Gucci",
+        85
+      ],
+      [
+        "Louis Vuitton",
+        36
+      ],
+      [
+        "Imaginary Ones",
+        12
+      ],
+      [
+        "Possessed",
+        10
+      ],
+      [
+        "BAYC Otherside Land",
+        7
+      ],
+      [
+        "APPLE",
+        7
+      ],
+      [
+        "Dolce Gabbana",
+        6
+      ],
+      [
+        "Rolex",
+        6
+      ],
+      [
+        "Coca-Cola",
+        5
+      ],
+      [
+        "Invisible Friends 3d",
+        5
+      ]
+    ],
+    "collection_addresses": {
+      "0xecdf8d7fb10f140ed38e8f418a7d50bc9b149b79": 1,
+      "0x96786b18a448d06b30455df59c90778b1e60f9dc": 1,
+      "0x6955175d1b7cc7fa8be33b00113f9988d8eaf323": 1,
+      "0xd2517661e4b90f2b6fd4a8eee9244049ef40f331": 1,
+      "0x704a32f5ae95b3c13410ebb68a99f722d2751a89": 1,
+      "0x1aaf7492fd4e6661ad496a5cac10a2c32ca1f2e0": 1,
+      "0x3887236e4c82b458bac382234c2646c03037bb24": 1,
+      "0x9af206bdbebff7b707bc56583ccd4db98fd091fe": 2,
+      "0xcbdca1d8b0df1c7f668b53fa3672201316466dcf": 1,
+      "0x39935034e697f34df0ab54530d5d15ea1e1e34bc": 1,
+      "0xc5e39ca13e22debc2f86762f01e9106645ece068": 1,
+      "0x06b8a2251ce3163ace8815ccdd781a2a40fe11d1": 1,
+      "0x91d9b268f3d4cdcdaf03672bfe6255c1ce8d6058": 1,
+      "0xeff9852106430fbe38defe2c1b0dc4436ec1dad3": 1,
+      "0x745b3e261ad8024d02d569fc461a99f9c4cc1b86": 1,
+      "0x068303a96c83750d6141f2f57a770a6d709c775a": 1,
+      "0x274c18896c5dd7860ab0d8eee8dad9a272366a46": 1,
+      "0xd4c5b8ab3856b48d71dd4f893812ba37b1fd689f": 1,
+      "0x48c2337981c883b31234551b53c697b77c16a59e": 1,
+      "0x1379e81aeb6c850eb67295a939b82991c1c26fb5": 1,
+      "0xd2b3395e203837f934d16b43ccb122f659800cf6": 1,
+      "0x059e3557e5321c64064df37c200b851eea950618": 1,
+      "0x6684ba855355420002753e5d3e3b6d06b52ac9dd": 1,
+      "0x86f6b5b50e980222d04a644fac4f72db99c25ca7": 2,
+      "0x2b4d2be70b0155dd88cfe1d32edaf8db3a10dbe3": 1,
+      "0xf1495cd87d927988ff25629d92565f874d2d686d": 2,
+      "0xf276ed0f992956379cf2f0e20d537150f3074490": 1,
+      "0x176ff191b9d4de11c9d5f979ea5a56f2ac027aaf": 3,
+      "0xf4c23679a94b78eedd3215e2e58d06c5cb3146c4": 1,
+      "0x034a0e87ccb2943e60ddc1fd6a3ab3aaa442e554": 1,
+      "0x0d5e50c1e7cfde5219c21e0e103fe4b916805652": 1,
+      "0x5d76397c691feaad749316ae3c183f51f23fe6bc": 2,
+      "0x8e38da647a81a4eb12a9a54226f476af4c2e5530": 2,
+      "0x0700381065195737e8c0da6d6bb637da55066993": 1,
+      "0x94ee23bd943f2cbb69df49b6e3b1b200da090565": 2,
+      "0xea5e4eb7c4c66aff42a5eaeefa878306e7949d50": 1,
+      "0x95a5170f1aeb36fd1e0947dbf9b4d55627b4d763": 1,
+      "0x795091d2d91717569bbf72f8856b6623a93d9398": 1,
+      "0xcae0180625a70f210c50e1979f64e9861b423b82": 1,
+      "0xa6f943dbb53e44a22e438bb06f28d3605b679601": 1,
+      "0x5ad06285676539066a0ccb7844db910ecb0ce6ab": 1,
+      "0x3e4c6981206092b602c764ff72fe729de445d8e3": 1,
+      "0x54fed13938d13f188b40e6f6227bc9723c10caca": 1,
+      "0x9c2d09169060cf448ad368f663b1620242557b1e": 1,
+      "0xc9941023d1f55d848c118dd485009f70abff483f": 1,
+      "0x6475d9f16505f9be6637aac07479be310e486c7f": 1,
+      "0xcc973033c6535bc35744b08983caeb752890d8e5": 1,
+      "0x9cec481c2836091cec7a82bd4d0a784f242a6ce3": 1,
+      "0x7425933147d944c489df567d76fc5fb25b2e193b": 1,
+      "0x8ef59dc8e117a126fb30666f4b4b0275cfb3338d": 1,
+      "0xb319ddfadac89a05e3013f8c2194a2fb5d0c5012": 1,
+      "0x11c0743031fac04ff0ac901328107404fc0cd39b": 1,
+      "0xeb6b24148f093691367a445fedb7fdc1ab55fc88": 1,
+      "0xd1769aa418e30e8a777ef7f1b3986a9bf064282f": 1,
+      "0xc53d5e2b695be05e236196fd0799230fc1b484a1": 1,
+      "0xa732df994fb72fae9c809968086f6ea990ef964c": 1,
+      "0xa8c53a6931ed5c615146cb90beecbe4b768e55bd": 2,
+      "0xcfecc39fc710493d1bdd9005bea176a5bd4445e4": 1,
+      "0x30cfdd2978f951e58128f50c170b1ae6b5769894": 1,
+      "0x3fe81770221c47ad1b3f3d6a172ceea457be7c59": 1,
+      "0x9f265bd4a1ada0ce57f9043ffe8aff24b40e4edf": 2,
+      "0x2168ce97d977b6a1604e4059251ed3223b8267d9": 1,
+      "0x7f82b2081f2193cdb6c8ccbc93f7acdb9cb69bca": 2,
+      "0x96a0253db6b0a04c8639408baf25b7f497339be9": 1,
+      "0x8f91878a9685a5c8561a10d2f7894d3ba6e8ff6a": 1,
+      "0xc42a1341c25cec43f0a79de8b9d783ff9980e5ef": 1,
+      "0xacdc5807942652c8cc99076fc402adf4d0770bda": 1,
+      "0x4bd9664d40ab842b90d4f2e51f71b32961554165": 1,
+      "0xf33cdcf907dc77b0cc1d975658435fefbc56508d": 1,
+      "0xf8ced4bdfa1f72ecfee2f98229e8f13ded7c40f1": 1,
+      "0x81763c7213591c1b76ae9fc233531d4fffd7fd72": 1,
+      "0x27ad6c38762237e6d644b210a0997701afdd6f2b": 1,
+      "0xfb81cd2f66f772436260f73ff547a06a6c2d8a17": 3,
+      "0xc357e8b286d0a5ce8ff708ec2720b8d24d3cf160": 1,
+      "0xfdfb369d9910d16f7357bb6b18a6fc4cba6dc871": 1,
+      "0xb368d728a401f79126fadcd00207ec668952b56e": 1,
+      "0x72871f4c0e7c6b43f0b22790dae3275aff918ff5": 1,
+      "0xd5dd47f6d4adf315faf1612151665475fa815a32": 1,
+      "0xdb1a17383ec5f23e2b1b30120ffa0e925e0b2397": 1,
+      "0xc73304a5d3c9539dd5e36cf4150e08949edac667": 1,
+      "0xfcc35158ae5d52905c7456396c6fcb0ce06b7d2b": 1,
+      "0x4c3334e831fb348dff73919338066eb82614ced8": 1,
+      "0x7b19b1c62737d389a7b2d65d4ae03b08977bb305": 1,
+      "0x15a4e34f6f5a93bd62bdc2327879f1f2639782f6": 2,
+      "0x80db2cbcd50ffe2518b4629d924d9e38ccb09af4": 1,
+      "0xb36e88797398063d4d3c080b317c4ddab6bdd651": 1,
+      "0xb9ef26579908f018796ee8728786a9525475dc9d": 1,
+      "0x743f577230cb0f914f37ef62cbbe015cde6dbb10": 2,
+      "0x1bd0a201dddc89989e9c3533f6f3b4b7624a67e8": 1,
+      "0x2ba4463703d5f831ce445a6315e240ee459808e7": 1,
+      "0xe334c6d4bcd4c5d7f23a75f808eb9c6653a6d4c0": 1,
+      "0x34aa4716f5116ac3d5ca1b4580bc87ef84f8c2c1": 1,
+      "0x1312e3c05ac40367cb80ff5faab1f75d563711c5": 1,
+      "0x11c16cda78b714e14f41d4aa49c31fdc4a8011ec": 1,
+      "0xef897b87e2d91e8a548b61ab064602425f451723": 1,
+      "0xca8a36b4c2b083fe7326a51256a6b5395fc90a59": 1,
+      "0xf7b32fba04c04ca2ddaefd9dd1dbe1153cccda6a": 1,
+      "0x8cdd2f148d854e62fb3a28d7a7b648e221c9a6ca": 1,
+      "0x8e9eca24f0cfd2a5d1007e67ef53ebeb5887b774": 2,
+      "0x4ebc94fd959d2c4b33ca75963c6b5e95b7bf4a21": 3,
+      "0xceacb5cc03591b7cd522b3b40d26ef3a21c282f9": 1,
+      "0xad8c3bdd635e33e14dfc020fcd922ef89aa9bf6e": 1,
+      "0xd3b76c58d69945378c12ef3e2b5805df39f813d5": 1,
+      "0x46f8654dcdacac2f85c540d95a552721291899f8": 1,
+      "0x4393c02e65cd9596d0578813aa225a72312b423b": 1,
+      "0x2d677dbe16752a066ef83e382dcc04d7003a61ed": 3,
+      "0xcb2ee2bd21dc2a0504b2cd405612045a2b129b2d": 1,
+      "0x38797ea75becceb8381201525cf29c7d651f3cf5": 2,
+      "0xec9b9d220651e7bcf9c812ccc966d12d922f237b": 1,
+      "0x3af3b6f9e6aedd8b9fa327d3df908743cfed49b4": 1,
+      "0xaba09ad69d0d1fed4167487ff955ea4db81bc260": 1,
+      "0x6a1fbd083380d585df1bb3337a7d087be9d72b73": 1,
+      "0x8c68b805f2cae22ff68fd9c572e7c958cacad7d4": 1,
+      "0x9f9400cbd0975204b7610015fac4e10de473fc4d": 1,
+      "0xc1f0c2e6ec774a33a23d863c7ab02b8c6991bef6": 1,
+      "0x7f4d09419d231eda3a2ebe36fa84a2cf44ad5afb": 3,
+      "0x1b696f38b711c067bc80d204e442d341a0e9f0ad": 1,
+      "0x77b25667e5258305dcaab7e0a21d068c5a3c7eb1": 1,
+      "0x22f709f3851c9adabe6c600cae8abee5f1f1918a": 1,
+      "0xbcdedd6a26ec0bf627eb64eb1d1f7927e7159cd6": 1,
+      "0x8794ffb49bc980b63b92347456bb55d01c45e309": 1,
+      "0x6dbc1f3961fd606feaf5fb73245aa4b2674d1e66": 1,
+      "0xf0ebd6cca49718563d9fdaa2b4690fec9fc9361c": 1,
+      "0xe19b3862a4393e61be2e28e89a98501e83441b9e": 1,
+      "0xc4b87b74dd61edd9fc00fc31db251324ff13dce9": 4,
+      "0x026dce20bf77e08ca8aceb6b239cc54bb9d638ac": 1,
+      "0x186df81ec222a4fd6b7ea290f3cdf27c7361f7c8": 1,
+      "0x78c2cb01d9854e5ee1c120fa487b67d77401899e": 1,
+      "0x0c5932213a9b70b91625caeea7d22b5a16b108ae": 2,
+      "0x309157a8fc78cf52a591661db04162bdafec33db": 1,
+      "0xabe7b97730887de0aa949a6751fa411f103e9977": 3,
+      "0xbfc1fbfdb3c440459d0ece2de312086ffbba1bea": 9,
+      "0x70a5283ef534c82314e05a28aed8563f9cf41258": 1,
+      "0x8e7d9f344c525a4b161bc1959fd217eb34ecd010": 7,
+      "0x86cbd722483b1000c3aa604de923bc3056213db2": 1,
+      "0x85265fb0b93e664f50854783da5f0326b677ed05": 1,
+      "0xb66d6b3021da366acdb73e23f3f0121753b25de3": 7,
+      "0xc1080b3bffc7262f4cf729f5ee64d2d8a7f376c7": 4,
+      "0x1909f16783dcf477651d0c10d210441d26aa16ed": 8,
+      "0x81aa0bd4bd29795a7d339417e350e47a209507de": 5,
+      "0x3bfcdb0261e7f71bd81896816d8515c7352099f0": 1,
+      "0x1a89b29ca35f4eaa3f22bd71c2f723cddf6df6af": 1,
+      "0x7d24bb9bb72a14aee2d22092240182bdbbd0c5d6": 53,
+      "0x8026a40580ee24c75191fa5179b011d49687f279": 1,
+      "0xc622785aae07cc18ccc8a6de436f7d7f408865e8": 1,
+      "0xbc35155fea4465852ce74049adc67673a6b2bf99": 3,
+      "0x1a4a94011794a48a9327f99e240361a7c582324f": 4,
+      "0xc09be1ee3d0923915ed7789c3adf5886ca9e80af": 2,
+      "0x14feca2a60453921301aafd7f32afc800eb12598": 1,
+      "0x00703f9b11f2ac02d391a11e7b97c6ee80cd8563": 2,
+      "0x4ecfab6981b662f668f2323a4eb7a8887f49353d": 1,
+      "0xfb6ab41e3d96e39827bb98330e4bcebfea188658": 1,
+      "0x2f2954aa2fe2e60c54f396b83b89d4a1f7c2cce9": 1,
+      "0x23eb53558885008160c2647f7ad1135ee6539896": 1,
+      "0x000386e3f7559d9b6a2f5c46b4ad1a9587d59dc3": 2,
+      "0x73e5b26f9dde3cf9a284bbb6025b188b33dd30b4": 1,
+      "0xea7c47dc52d1d90544664486c7e894235e4ad1ae": 1,
+      "0xd6f0441565c17f398b65332b7eb9e5bafb70d2da": 1,
+      "0xea290752e458ddd8562d4aeea0f098e38e6a3591": 6
+    }
+  },
+  "bridge_activity": false,
+  "age_days": 2,
+  "osint_categories": [
+    "\ud83c\udfb0_gamblers",
+    "\ud83c\udd95_newcomers",
+    "\ud83c\udfc6_status_seekers"
+  ],
+  "primary_osint_category": "\ud83c\udfb0_gamblers",
+  "behavior": {
+    "confidence_score": 75,
+    "sophistication": "Intermediate",
+    "risk_tolerance": "Conservative",
+    "trading_style": "Active Trader",
+    "likely_region": "Europe",
+    "likely_timezone": "Europe/Africa (UTC+0 to +3)",
+    "meme_exposure": false,
+    "defi_protocols": [],
+    "nft_platforms": [],
+    "bridges_used": [],
+    "exchange_interactions": [],
+    "frequent_counterparties": []
+  },
+  "transaction_analysis": {
+    "total_transactions": 1000,
+    "total_value_eth": 0.003023809179000008,
+    "most_active_hour": 15,
+    "most_active_day": "Wednesday",
+    "top_recipients": [
+      [
+        "0x514910771af9ca656af840dff83e8264ecf986ca",
+        227
+      ],
+      [
+        "0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9",
+        64
+      ],
+      [
+        "0x1f9840a85d5af5bf1d1762f925bdaddc4201f984",
+        46
+      ],
+      [
+        "0x7420b4b9a0110cdc71fb720908340c03f9bc03ec",
+        38
+      ],
+      [
+        "0xfed2399b20011af1fc985d5354f12cbc57ed48f9",
+        35
+      ],
+      [
+        "0x8290333cef9e6d528dd5618fb97a76f268f3edd4",
+        28
+      ],
+      [
+        "0xc00e94cb662c3520282e6f5717214004a7f26888",
+        24
+      ],
+      [
+        "0x0d8775f648430679a709e98d2b0cb6250d2887ef",
+        21
+      ],
+      [
+        "0xa0b73e1ff0b80914ab6fe0444e65848c4c34450b",
+        19
+      ],
+      [
+        "0xd533a949740bb3306d119cc777fa900ba034cd52",
+        19
+      ]
+    ],
+    "top_senders": [
+      [
+        "0x0639556f03714a74a5feeaf5736a4a64ff70d206",
+        992
+      ],
+      [
+        "0x59505c2802a7e023f361082044aea4dfe7db2387",
+        2
+      ],
+      [
+        "0xc8aa100830d70b005429e20d08fb35c73ad0e4b3",
+        1
+      ],
+      [
+        "0xdd27616d176583a6286a9a075b084705534e52de",
+        1
+      ],
+      [
+        "0x961ca588369d5a4d6f919cae8d1612fd6671eee9",
+        1
+      ],
+      [
+        "0xd6e84aa4fd7bc2d2ec47853b2609f0cfb768e0f2",
+        1
+      ],
+      [
+        "0x786d5ea6e8338dc4adcd6822a561f01c6b7f7283",
+        1
+      ],
+      [
+        "0x8dce70b20a4f4168981f04e3ff0ec27214e80202",
+        1
+      ]
+    ],
+    "first_transaction": "2026-01-10T17:57:11",
+    "last_transaction": "2026-01-15T17:03:11",
+    "avg_gas_used": 40583.057,
+    "avg_gas_price": 35718599.60948445
+  },
+  "token_activity": {
+    "unique_tokens": 32,
+    "top_tokens": [
+      [
+        "LINK",
+        317
+      ],
+      [
+        "UNI",
+        101
+      ],
+      [
+        "AAVE",
+        97
+      ],
+      [
+        "CRV",
+        51
+      ],
+      [
+        "MANA",
+        43
+      ],
+      [
+        "JASMY",
+        40
+      ],
+      [
+        "YGG",
+        36
+      ],
+      [
+        "CRO",
+        32
+      ],
+      [
+        "1INCH",
+        29
+      ],
+      [
+        "COMP",
+        27
+      ],
+      [
+        "BAT",
+        26
+      ],
+      [
+        "RSR",
+        26
+      ],
+      [
+        "GRT",
+        22
+      ],
+      [
+        "SNX",
+        19
+      ],
+      [
+        "WBTC",
+        19
+      ],
+      [
+        "LDO",
+        17
+      ],
+      [
+        "OGN",
+        15
+      ],
+      [
+        "MASK",
+        15
+      ],
+      [
+        "SUSHI",
+        12
+      ],
+      [
+        "AGLD",
+        11
+      ]
+    ],
+    "token_values": {
+      "UNI": 85800.96274656175,
+      "BAT": 721853.3782993619,
+      "1INCH": 447514.98070074,
+      "LINK": 175174.2209286835,
+      "YGG": 910537.7051010901,
+      "SNX": 96446.23743679999,
+      "JASMY": 34955724.02506795,
+      "BAND": 2857.8792852,
+      "AAVE": 2701.09821727092,
+      "COMP": 3315.92491353697,
+      "ANKR": 541904.2946993401,
+      "CRO": 821383.4798371302,
+      "WBTC": 124.04493778999999,
+      "WILD": 5540.038275280001,
+      "MANA": 1155170.0569382603,
+      "LDO": 90049.37887851,
+      "SWEAT": 17882186.221507534,
+      "RSR": 31246082.15213204,
+      "OGN": 796586.7506773904,
+      "CRV": 1008626.2145905597,
+      "ZRX": 196243.29991034,
+      "GRT": 156748.29408623002,
+      "SUSHI": 104369.86779683999,
+      "BAL": 2977.2673018200003,
+      "AGLD": 195578.69599037,
+      "MASK": 113908.70989157,
+      "LRC": 102704.39743566001,
+      "RLC": 1287.81181327,
+      "ALICE": 48128.662475,
+      "CVX": 6306.582526700001,
+      "DENT": 1308168.31345223,
+      "BETA": 299.7
+    },
+    "token_details": {
+      "UNI": [
+        "Uniswap"
+      ],
+      "BAT": [
+        "BAT"
+      ],
+      "1INCH": [
+        "1INCH Token"
+      ],
+      "LINK": [
+        "ChainLink Token"
+      ],
+      "YGG": [
+        "Yield Guild Games Token"
+      ],
+      "SNX": [
+        "Synthetix Network Token"
+      ],
+      "JASMY": [
+        "JasmyCoin"
+      ],
+      "BAND": [
+        "BandToken"
+      ],
+      "AAVE": [
+        "Aave Token"
+      ],
+      "COMP": [
+        "Compound"
+      ],
+      "ANKR": [
+        "Ankr Network"
+      ],
+      "CRO": [
+        "Cronos Coin"
+      ],
+      "WBTC": [
+        "Wrapped BTC"
+      ],
+      "WILD": [
+        "Wilder"
+      ],
+      "MANA": [
+        "Decentraland"
+      ],
+      "LDO": [
+        "Lido DAO Token"
+      ],
+      "SWEAT": [
+        "SWEAT"
+      ],
+      "RSR": [
+        "Reserve Rights"
+      ],
+      "OGN": [
+        "OriginToken"
+      ],
+      "CRV": [
+        "Curve DAO Token"
+      ],
+      "ZRX": [
+        "ZRX"
+      ],
+      "GRT": [
+        "Graph Token"
+      ],
+      "SUSHI": [
+        "SushiToken"
+      ],
+      "BAL": [
+        "Balancer"
+      ],
+      "AGLD": [
+        "Adventure Gold"
+      ],
+      "MASK": [
+        "Mask Network"
+      ],
+      "LRC": [
+        "LoopringCoin V2"
+      ],
+      "RLC": [
+        "RLC"
+      ],
+      "ALICE": [
+        "ALICE"
+      ],
+      "CVX": [
+        "Convex Token"
+      ],
+      "DENT": [
+        "DENT"
+      ],
+      "BETA": [
+        "Beta Token"
+      ]
+    }
+  },
+  "ipfs_osint": {
+    "address": "0x0639556f03714a74a5feeaf5736a4a64ff70d206",
+    "ipfs_hashes_found": [],
+    "metadata_analyzed": [],
+    "debug_info": {
+      "nft_transfers_count": 287,
+      "contracts_found": 35,
+      "tokens_checked": 11,
+      "uris_found": 11,
+      "ipfs_hashes_extracted": 0,
+      "metadata_fetched": 0
+    },
+    "findings": {
+      "total_hashes": 0,
+      "unique_hashes": [],
+      "linked_urls": [],
+      "usernames": [],
+      "emails": [],
+      "social_links": [],
+      "timestamps": [],
+      "creators": [],
+      "collections": [],
+      "domains": [
+        "api.gene-sis.xyz",
+        "api.lonelypop-nfts.xyz",
+        "api.coca-cola-nft.xyz",
+        "api.azukibaycofficial.xyz",
+        "api.possessednfts.xyz",
+        "api.louis-vuitton-official.top",
+        "api.b-f-partynfts.xyz",
+        "api.kahiru-nft.xyz"
+      ],
+      "domain_analysis": {
+        "api.b-f-partynfts.xyz": {
+          "domain": "api.b-f-partynfts.xyz",
+          "is_ipfs": false,
+          "is_centralized": true,
+          "scam_indicators": [
+            "Suspicious TLD: .xyz"
+          ],
+          "reputation": "suspicious",
+          "whois_info": null
+        },
+        "api.gene-sis.xyz": {
+          "domain": "api.gene-sis.xyz",
+          "is_ipfs": false,
+          "is_centralized": true,
+          "scam_indicators": [
+            "Suspicious TLD: .xyz"
+          ],
+          "reputation": "suspicious",
+          "whois_info": null
+        },
+        "api.coca-cola-nft.xyz": {
+          "domain": "api.coca-cola-nft.xyz",
+          "is_ipfs": false,
+          "is_centralized": true,
+          "scam_indicators": [
+            "Suspicious TLD: .xyz"
+          ],
+          "reputation": "suspicious",
+          "whois_info": null
+        },
+        "api.louis-vuitton-official.top": {
+          "domain": "api.louis-vuitton-official.top",
+          "is_ipfs": false,
+          "is_centralized": true,
+          "scam_indicators": [
+            "Suspicious TLD: .top"
+          ],
+          "reputation": "suspicious",
+          "whois_info": null
+        },
+        "api.possessednfts.xyz": {
+          "domain": "api.possessednfts.xyz",
+          "is_ipfs": false,
+          "is_centralized": true,
+          "scam_indicators": [
+            "Suspicious TLD: .xyz"
+          ],
+          "reputation": "suspicious",
+          "whois_info": null
+        },
+        "api.kahiru-nft.xyz": {
+          "domain": "api.kahiru-nft.xyz",
+          "is_ipfs": false,
+          "is_centralized": true,
+          "scam_indicators": [
+            "Suspicious TLD: .xyz"
+          ],
+          "reputation": "suspicious",
+          "whois_info": null
+        },
+        "api.lonelypop-nfts.xyz": {
+          "domain": "api.lonelypop-nfts.xyz",
+          "is_ipfs": false,
+          "is_centralized": true,
+          "scam_indicators": [
+            "Suspicious TLD: .xyz"
+          ],
+          "reputation": "suspicious",
+          "whois_info": null
+        },
+        "api.azukibaycofficial.xyz": {
+          "domain": "api.azukibaycofficial.xyz",
+          "is_ipfs": false,
+          "is_centralized": true,
+          "scam_indicators": [
+            "Suspicious TLD: .xyz"
+          ],
+          "reputation": "suspicious",
+          "whois_info": null
+        }
+      },
+      "metadata_urls": [
+        {
+          "contract": "0xecdf8d7fb10f140ed38e8f418a7d50bc9b149b79",
+          "token_id": "8141",
+          "uri": "http://api.b-f-partynfts.xyz/ipfs/8141"
+        },
+        {
+          "contract": "0x96786b18a448d06b30455df59c90778b1e60f9dc",
+          "token_id": "6307",
+          "uri": "http://api.gene-sis.xyz/ipfs/6307"
+        },
+        {
+          "contract": "0x6955175d1b7cc7fa8be33b00113f9988d8eaf323",
+          "token_id": "82",
+          "uri": "http://api.gene-sis.xyz/ipfs/82"
+        },
+        {
+          "contract": "0xd2517661e4b90f2b6fd4a8eee9244049ef40f331",
+          "token_id": "82",
+          "uri": "http://api.coca-cola-nft.xyz/ipfs/82"
+        },
+        {
+          "contract": "0x704a32f5ae95b3c13410ebb68a99f722d2751a89",
+          "token_id": "8573",
+          "uri": "http://api.louis-vuitton-official.top/ipfs/8573"
+        },
+        {
+          "contract": "0x1aaf7492fd4e6661ad496a5cac10a2c32ca1f2e0",
+          "token_id": "5585",
+          "uri": "http://api.possessednfts.xyz/ipfs/5585"
+        },
+        {
+          "contract": "0x3887236e4c82b458bac382234c2646c03037bb24",
+          "token_id": "82",
+          "uri": "http://api.kahiru-nft.xyz/ipfs/82"
+        },
+        {
+          "contract": "0x9af206bdbebff7b707bc56583ccd4db98fd091fe",
+          "token_id": "5310",
+          "uri": "http://api.lonelypop-nfts.xyz/ipfs/5310"
+        },
+        {
+          "contract": "0x9af206bdbebff7b707bc56583ccd4db98fd091fe",
+          "token_id": "82",
+          "uri": "http://api.lonelypop-nfts.xyz/ipfs/82"
+        },
+        {
+          "contract": "0xcbdca1d8b0df1c7f668b53fa3672201316466dcf",
+          "token_id": "82",
+          "uri": "http://api.azukibaycofficial.xyz/ipfs/82"
+        },
+        {
+          "contract": "0x39935034e697f34df0ab54530d5d15ea1e1e34bc",
+          "token_id": "5585",
+          "uri": "http://api.possessednfts.xyz/ipfs/5585"
+        }
+      ]
+    }
+  },
+  "ens": {
+    "address": "0x0639556f03714a74a5feeaf5736a4a64ff70d206",
+    "ens_name": null,
+    "text_records": {},
+    "social_links": {},
+    "has_ens": false,
+    "has_social_links": false
+  },
+  "approval_risk": {
+    "scan_timestamp": "2026-01-15T16:04:29.249401+00:00",
+    "total_approvals": 0,
+    "unlimited_approvals": 0,
+    "high_risk_approvals": 0,
+    "total_exposure_usd": 0,
+    "verdicts": [],
+    "has_dangerous_approvals": false
+  },
+  "funding_trace": {
+    "target": "0x0639556f03714a74a5feeaf5736a4a64ff70d206",
+    "trace_timestamp": "2026-01-15T16:04:25.300124+00:00",
+    "total_hops": 0,
+    "origin_found": false,
+    "origin_type": null,
+    "origin_label": null,
+    "trace_complete": false,
+    "trace_stopped_reason": "No funding transaction found",
+    "funding_chain": []
+  },
+  "token_risks": {
+    "scan_timestamp": "2026-01-15T16:04:29.972589+00:00",
+    "tokens_analyzed": 0,
+    "risky_tokens": 0,
+    "total_value_at_risk_usd": 0,
+    "has_risky_tokens": false,
+    "verdicts": [],
+    "honeypots_detected": 0,
+    "impersonators_detected": 0
+  },
+  "verdicts": [
+    {
+      "title": "SCAM NFT AIRDROP DETECTED",
+      "severity": "CRITICAL",
+      "category": "THREAT",
+      "description": "This wallet received an NFT from a scam domain impersonating Bored Ape Yacht Club. The domain 'api.azukibaycofficial.xyz' is designed to phish users.",
+      "evidence": [
+        "Contains 'official' - Impersonation attempt",
+        "Impersonating Azuki NFT collection NFT collection",
+        "Impersonating Bored Ape Yacht Club NFT collection",
+        "Suspicious TLD: .xyz"
+      ],
+      "action": "Do not interact with this NFT or visit the domain"
+    },
+    {
+      "title": "CARPET BOMBING SCAM CAMPAIGN",
+      "severity": "HIGH",
+      "category": "THREAT",
+      "description": "Wallet is being carpet bombed with 8 different scam NFT campaigns. Attackers have identified this wallet and are coordinating multiple phishing attempts. This pattern indicates the wallet is on a 'fresh whale' list being sold to scammers.",
+      "evidence": [
+        "8 suspicious domains detected",
+        "Multiple coordinated phishing campaigns",
+        "Wallet is on attacker radar",
+        "Likely on a 'fresh whale' list being sold",
+        "Domain: api.gene-sis.xyz",
+        "Domain: api.lonelypop-nfts.xyz",
+        "Domain: api.coca-cola-nft.xyz",
+        "Domain: api.azukibaycofficial.xyz",
+        "Domain: api.possessednfts.xyz"
+      ],
+      "action": "High-priority target - multiple attacker groups know about this wallet"
+    },
+    {
+      "title": "SUSPICIOUS NFT AIRDROP",
+      "severity": "HIGH",
+      "category": "THREAT",
+      "description": "This wallet received an NFT from suspicious domain 'api.gene-sis.xyz'. Likely a phishing or scam attempt.",
+      "evidence": [
+        "Suspicious TLD: .xyz"
+      ],
+      "action": "Investigate domain before any interaction"
+    },
+    {
+      "title": "SUSPICIOUS NFT AIRDROP",
+      "severity": "HIGH",
+      "category": "THREAT",
+      "description": "This wallet received an NFT from suspicious domain 'api.lonelypop-nfts.xyz'. Likely a phishing or scam attempt.",
+      "evidence": [
+        "Suspicious TLD: .xyz"
+      ],
+      "action": "Investigate domain before any interaction"
+    },
+    {
+      "title": "SUSPICIOUS NFT AIRDROP",
+      "severity": "HIGH",
+      "category": "THREAT",
+      "description": "This wallet received an NFT from suspicious domain 'api.coca-cola-nft.xyz'. Likely a phishing or scam attempt.",
+      "evidence": [
+        "Suspicious TLD: .xyz"
+      ],
+      "action": "Investigate domain before any interaction"
+    },
+    {
+      "title": "SUSPICIOUS NFT AIRDROP",
+      "severity": "HIGH",
+      "category": "THREAT",
+      "description": "This wallet received an NFT from suspicious domain 'api.possessednfts.xyz'. Likely a phishing or scam attempt.",
+      "evidence": [
+        "Suspicious TLD: .xyz"
+      ],
+      "action": "Investigate domain before any interaction"
+    },
+    {
+      "title": "SUSPICIOUS NFT AIRDROP",
+      "severity": "HIGH",
+      "category": "THREAT",
+      "description": "This wallet received an NFT from suspicious domain 'api.louis-vuitton-official.top'. Likely a phishing or scam attempt.",
+      "evidence": [
+        "Contains 'official' - Impersonation attempt",
+        "Suspicious TLD: .top"
+      ],
+      "action": "Investigate domain before any interaction"
+    },
+    {
+      "title": "SUSPICIOUS NFT AIRDROP",
+      "severity": "HIGH",
+      "category": "THREAT",
+      "description": "This wallet received an NFT from suspicious domain 'api.b-f-partynfts.xyz'. Likely a phishing or scam attempt.",
+      "evidence": [
+        "Suspicious TLD: .xyz"
+      ],
+      "action": "Investigate domain before any interaction"
+    },
+    {
+      "title": "SUSPICIOUS NFT AIRDROP",
+      "severity": "HIGH",
+      "category": "THREAT",
+      "description": "This wallet received an NFT from suspicious domain 'api.kahiru-nft.xyz'. Likely a phishing or scam attempt.",
+      "evidence": [
+        "Suspicious TLD: .xyz"
+      ],
+      "action": "Investigate domain before any interaction"
+    },
+    {
+      "title": "HTTP PROTOCOL USAGE",
+      "severity": "MEDIUM",
+      "category": "THREAT",
+      "description": "Found 11 metadata URLs using HTTP instead of HTTPS. Legitimate NFT projects use HTTPS. HTTP indicates lazy scammers or intentional security bypass.",
+      "evidence": [
+        "11 HTTP URLs detected",
+        "Legitimate projects use HTTPS",
+        "HTTP = scam indicator or lazy attacker",
+        "URL: http://api.b-f-partynfts.xyz/ipfs/8141...",
+        "URL: http://api.gene-sis.xyz/ipfs/6307...",
+        "URL: http://api.gene-sis.xyz/ipfs/82..."
+      ],
+      "action": "HTTP URLs are highly suspicious - likely scam infrastructure"
+    }
+  ]
+}

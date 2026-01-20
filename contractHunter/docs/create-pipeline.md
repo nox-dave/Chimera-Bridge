@@ -1,0 +1,1 @@
+So everything we just did and implemented it. Please include this here in this document. but in as simple and straightforward language as possible without bloating anything. I just want to keep it to the essential information that is needed to understand what we just implemented. @docs/pipeline.md 

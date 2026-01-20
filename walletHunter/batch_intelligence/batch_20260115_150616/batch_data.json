@@ -1,0 +1,79 @@
+{
+  "generated_at": "2026-01-15T15:06:16.990866+00:00",
+  "batch_size": 6,
+  "parameters": {
+    "min_balance": 100000,
+    "limit": 10,
+    "include_ipfs": true
+  },
+  "total_value_usd": 30935675.92023083,
+  "profiles": [
+    {
+      "address": "0x58b704065b7aff3ed351052f8560019e05925023",
+      "balance_usd": 404653.16974856675,
+      "confidence": 70,
+      "sophistication": "Intermediate",
+      "categories": [
+        "\ud83c\udfb0_gamblers",
+        "\ud83c\udd95_newcomers",
+        "\ud83c\udfc6_status_seekers"
+      ]
+    },
+    {
+      "address": "0x7f604d597c15b2e2f60dc645844f68b1d781b752",
+      "balance_usd": 26993588.365155518,
+      "confidence": 75,
+      "sophistication": "Intermediate",
+      "categories": [
+        "\ud83c\udfb0_gamblers",
+        "\ud83c\udd95_newcomers",
+        "\ud83c\udfc6_status_seekers",
+        "\ud83d\udc8e_high_value",
+        "\ud83c\udfaf_prime_targets"
+      ]
+    },
+    {
+      "address": "0x38f6d5fb32f970fe60924b282704899411126336",
+      "balance_usd": 3061822.925417037,
+      "confidence": 85,
+      "sophistication": "Intermediate",
+      "categories": [
+        "\ud83c\udfb0_gamblers",
+        "\ud83c\udd95_newcomers",
+        "\ud83d\udc8e_high_value",
+        "\ud83c\udfaf_prime_targets"
+      ]
+    },
+    {
+      "address": "0x0639556f03714a74a5feeaf5736a4a64ff70d206",
+      "balance_usd": 156865.30177851664,
+      "confidence": 75,
+      "sophistication": "Intermediate",
+      "categories": [
+        "\ud83c\udfb0_gamblers",
+        "\ud83c\udd95_newcomers",
+        "\ud83c\udfc6_status_seekers"
+      ]
+    },
+    {
+      "address": "0xad85405cbb1476825b78a021fa9e543bf7937549",
+      "balance_usd": 165262.37047260723,
+      "confidence": 60,
+      "sophistication": "Intermediate",
+      "categories": [
+        "\ud83c\udfb0_gamblers",
+        "\ud83c\udd95_newcomers"
+      ]
+    },
+    {
+      "address": "0x8fa129f87b8a11ee1ca35abd46674f8b66984d4a",
+      "balance_usd": 153483.78765858355,
+      "confidence": 60,
+      "sophistication": "Intermediate",
+      "categories": [
+        "\ud83c\udfb0_gamblers",
+        "\ud83c\udd95_newcomers"
+      ]
+    }
+  ]
+}

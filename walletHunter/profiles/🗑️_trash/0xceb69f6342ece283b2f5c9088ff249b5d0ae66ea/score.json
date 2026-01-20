@@ -1,0 +1,16 @@
+{
+  "address": "0xceb69f6342ece283b2f5c9088ff249b5d0ae66ea",
+  "total_score": 0,
+  "value_score": 0,
+  "vulnerability_score": 0,
+  "confidence_score": 0,
+  "freshness_score": 0,
+  "balance_usd": 8105784.928657672,
+  "categories": [
+    "\ud83c\udfe2_institutions"
+  ],
+  "confidence_pct": 30,
+  "last_updated": "",
+  "disqualified": true,
+  "disqualify_reason": "Category: \ud83c\udfe2_institutions"
+}

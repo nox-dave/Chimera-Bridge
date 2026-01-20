@@ -1,0 +1,2125 @@
+{
+  "address": "0x000000000000000000000000000000000000dead",
+  "discovered_at": "2026-01-15T14:03:22.350990+00:00",
+  "total_value_usd": 42616001.518465005,
+  "eth_balance": 12631.44935132373,
+  "eth_value_usd": 42616001.518465005,
+  "token_holdings": {},
+  "risk_score": 85,
+  "tx_count": 1000,
+  "defi_activity": false,
+  "nft_activity": {
+    "unique_collections": 56,
+    "top_collections": [
+      [
+        "Highflyers",
+        79
+      ],
+      [
+        "Regenz",
+        53
+      ],
+      [
+        "CHIBI DINOS",
+        45
+      ],
+      [
+        "Raccoon Secret Society",
+        26
+      ],
+      [
+        "Purrnelopes Country Club",
+        25
+      ],
+      [
+        "Shiitakes",
+        24
+      ],
+      [
+        "Little Lemon Friends",
+        20
+      ],
+      [
+        "Down Market Ducks",
+        14
+      ],
+      [
+        "GoblinAi",
+        12
+      ],
+      [
+        "Dream Team",
+        12
+      ]
+    ],
+    "collection_addresses": {
+      "0x290a0376177a172911baba25f6c15e1748f4ae47": 9,
+      "0xc9e3e94cb6df75988e09e621a18841cccfd3c7e5": 1,
+      "0x2c88aa0956bc9813505d73575f653f69ada60923": 3,
+      "0xbda2481db91fc0f942ed3f53de378ba45ba9d17e": 3,
+      "0x8c6def540b83471664edc6d5cf75883986932674": 3,
+      "0x652721fee72039b04de328d5a01fe402493e20e7": 6,
+      "0xd6c71ba1d2a3d8e707684ca84c888547c57a13af": 1,
+      "0xb0ae9dd22a2e1211f813b081098581dd0ff5b981": 1,
+      "0x8e6e63e05fffc220f808674e6ce14c82799d9f84": 14,
+      "0x4742d7e66fb868a4fdbedfea829e611335c0d562": 4,
+      "0x70c7e98cf47b953b80a84b347f370c9b7c6b0cba": 6,
+      "0xe453684ea037bac8268b336841711a0d9ec10581": 8,
+      "0x832ce2bbe1b4f06d22fb884e288f1554061943a1": 1,
+      "0x9f4df153d95a8460f6e82c21cab92719781fab84": 10,
+      "0x2e956ed3d7337f4ed4316a6e8f2edf74bf84bb54": 5,
+      "0x248f0913387eef740b1dc73ba81c815b748a8859": 79,
+      "0xffdd6647dc49b3580a44473dd73209154674575f": 1,
+      "0xa027942abd42c0098c11a84df44cce58546cfb69": 1,
+      "0xafd867667ec6d2be5bdcd41d76da7e96a1f67f18": 53,
+      "0xfb9e9e7150ccebfe42d58de1989c5283d0eaab2e": 8,
+      "0x15c2b137e59620552bd0d712fe7279cf1f47468d": 1,
+      "0xc2189a47ac4e3d4c34c848b96eea704609be2ece": 12,
+      "0xdb7b094fdc04f51560a03a99f747044951b73727": 8,
+      "0x877ab7aa50b8e42ad3c9fe562870e91489eea876": 9,
+      "0x0b22fe0a2995c5389ac093400e52471dca8bb48a": 20,
+      "0x06f8b41b72c04b2bba587fc7b09dbfb877ca7d04": 3,
+      "0xe12edaab53023c75473a5a011bdb729ee73545e8": 45,
+      "0x8e1ede0f23091a7b7daecfc259d7e411e9b96097": 1,
+      "0x020bb206cd689d6981182579da490d5f4ceb4c46": 26,
+      "0xd1cb076f657a38538a5579e3772788e34e83b19c": 5,
+      "0xff2351228add6cb04e6694af4258368435eb0ce3": 1,
+      "0xc52a74928b5c439dc115b2ce1572643d18cabe0b": 1,
+      "0xca7ca7bcc765f77339be2d648ba53ce9c8a262bd": 1,
+      "0x8354726ea92fec0b013de2889b0d9eeff8533186": 10,
+      "0x32f2a60942e7563cfc42766018641c6c6b10830e": 2,
+      "0xa7d8d9ef8d8ce8992df33d8b8cf4aebabd5bd270": 11,
+      "0x8cb05890b7a640341069fb65dd4e070367f4d2e6": 1,
+      "0x0e8f71422d97fa588593cc78c6585d2328132008": 1,
+      "0x144e84adafa54de411e68e1de16ec9953b46180f": 24,
+      "0x9cc26d6c68af6c7b7316dea943f059441a54d68a": 12,
+      "0x9759226b2f8ddeff81583e244ef3bd13aaa7e4a1": 25,
+      "0x2febe228d2ad5a9adc8ec3f77b3f23ad7bb13b1e": 12,
+      "0x0c6218d95735d3e12ae7c4703106e4b8e0b61010": 9,
+      "0xbd216513d74c8cf14cf4747e6aaa6420ff64ee9e": 1,
+      "0xac27663e7b27da4fa969ddc990b504679a0d6f92": 12,
+      "0xfdb3e529814afc5df5a5faf126989683b17daef9": 3,
+      "0x1d20a51f088492a0f1c57f047a9e30c9ab5c07ea": 2,
+      "0x93a796b1e846567fe3577af7b7bb89f71680173a": 1,
+      "0xa45ef87f51b84dbd0d5b003d288b16d3d044fe6f": 2,
+      "0x63578ca1be3ab8e75d88854485e8c23b41d87b16": 1,
+      "0xc051aab77edf25119b1a37740636ddbfb803c4e5": 5,
+      "0x34d85c9cdeb23fa97cb08333b511ac86e1c4e258": 3,
+      "0x0000000000cf80e7cf8fa4480907f692177f8e06": 2,
+      "0x14f03368b43e3a3d27d45f84fabd61cc07ea5da3": 5,
+      "0x4de566ac60e83015156cfd5c180f4bcad320a56d": 1,
+      "0xbcdad26ab1f7642076b0f46280acdfb4300bbfc5": 1,
+      "0xfd0af9ddbd3fd21e3593428830fe47c4f749b1fa": 4
+    }
+  },
+  "bridge_activity": false,
+  "age_days": 28,
+  "osint_categories": [
+    "\ud83c\udfb0_gamblers",
+    "\ud83c\udd95_newcomers",
+    "\ud83c\udfc6_status_seekers",
+    "\ud83d\udc8e_high_value",
+    "\ud83c\udfaf_prime_targets"
+  ],
+  "primary_osint_category": "\ud83c\udfb0_gamblers",
+  "behavior": {
+    "confidence_score": 85,
+    "sophistication": "Intermediate",
+    "risk_tolerance": "Aggressive",
+    "trading_style": "Active Trader",
+    "likely_region": "Europe",
+    "likely_timezone": "Europe/Africa (UTC+0 to +3)",
+    "meme_exposure": true,
+    "defi_protocols": [],
+    "nft_platforms": [],
+    "bridges_used": [],
+    "exchange_interactions": [],
+    "frequent_counterparties": []
+  },
+  "transaction_analysis": {
+    "total_transactions": 1000,
+    "total_value_eth": 1.3344785243724566,
+    "most_active_hour": 6,
+    "most_active_day": "Sunday",
+    "top_recipients": [
+      [
+        "0x000000000000000000000000000000000000dead",
+        1000
+      ]
+    ],
+    "top_senders": [
+      [
+        "0x5f7318ae7d7741eead63ea66cb016139fcea1d1e",
+        247
+      ],
+      [
+        "0x18968721ac867837e2c0469e62db7d732766c73d",
+        50
+      ],
+      [
+        "0x07799fee459524e9c12976d872d9f36e1cba7d86",
+        30
+      ],
+      [
+        "0xb547de8b3cc50abc7a4829555b61a3fbcc0df11b",
+        21
+      ],
+      [
+        "0xd8510b41f58de207de0f8417b1970f65ff593ff4",
+        17
+      ],
+      [
+        "0x591194aac77219acb352ef51834e8ee88d3c5caf",
+        16
+      ],
+      [
+        "0x40bc46e437c58ae528885c4d6f3ff8ed42fab6bc",
+        12
+      ],
+      [
+        "0x0d250e0a08932d3b94eac42ecbcab1dfe75e3dc9",
+        12
+      ],
+      [
+        "0x05fa91c59008813c95ec49e7dbcdd8890cc99fb7",
+        11
+      ],
+      [
+        "0x249428cb586c77b604c81316e8417e7b676de3d7",
+        11
+      ]
+    ],
+    "first_transaction": "2025-10-20T14:51:23",
+    "last_transaction": "2026-01-15T07:52:59",
+    "avg_gas_used": 22969.45,
+    "avg_gas_price": 6466406195.521209
+  },
+  "token_activity": {
+    "unique_tokens": 245,
+    "top_tokens": [
+      [
+        "NWO",
+        43
+      ],
+      [
+        "PEPE",
+        18
+      ],
+      [
+        "PNKSTR",
+        11
+      ],
+      [
+        "ENRON",
+        11
+      ],
+      [
+        "UNI-V2",
+        10
+      ],
+      [
+        "BTC",
+        10
+      ],
+      [
+        "OM",
+        10
+      ],
+      [
+        "ElonMusk",
+        10
+      ],
+      [
+        "CATS",
+        9
+      ],
+      [
+        "MUMU",
+        9
+      ],
+      [
+        "UBU",
+        8
+      ],
+      [
+        "CROW",
+        7
+      ],
+      [
+        "MEMES",
+        6
+      ],
+      [
+        "SANIC",
+        6
+      ],
+      [
+        "SDAO",
+        6
+      ],
+      [
+        "HINU",
+        6
+      ],
+      [
+        "MATRIX",
+        6
+      ],
+      [
+        "RAMO",
+        6
+      ],
+      [
+        "JOEROGAN",
+        6
+      ],
+      [
+        "STUDENT",
+        6
+      ]
+    ],
+    "token_values": {
+      "UNI-V2": 20037.66117633865,
+      "SAYLOR": 1161572.191733626,
+      "PNKSTR": 19467.846645942704,
+      "PawZ": 18.415231404754223,
+      "MEMES": 142385639.11637232,
+      "NWO": 2691605.574986086,
+      "XAi": 2452.89385991376,
+      "PEGZ": 162.18201218531215,
+      "UBU": 11597.286909999999,
+      "PINK": 1184405891992.4355,
+      "Kujira": 2061911152906.9272,
+      "BTC": 362682.401326014,
+      "Shy": 10663348.71237613,
+      "BABYSHIKOKU": 1399860.076790731,
+      "DFC": 2213055.001371638,
+      "MUSK": 133094719.53421634,
+      "PUPPYRIUM": 1422876.7110458142,
+      "BOUNTY": 10190214.820483707,
+      "BARK": 2236257.4168718024,
+      "OSCAR": 500.0,
+      "BEE": 1738193304297.8235,
+      "SPURDO": 736847625060.0455,
+      "OM": 1224723.9539326208,
+      "UP": 9.663611909898725e+23,
+      "TSANGNYON": 1585527.285502297,
+      "EPEP": 2015616.194544418,
+      "MARVIN": 928763.9567723877,
+      "cX": 1819813.7792251313,
+      "NOOT NOOT": 1064352.8928616773,
+      "YE": 2494681.076344666,
+      "CATS": 2023543772421.5803,
+      "ElonMusk": 1359416068.9306884,
+      "DOGEX": 790987691.2398759,
+      "ELSA": 16536.34503741706,
+      "WCDZ": 138889269.41430387,
+      "NORMIE": 632.7944467249347,
+      "X-GPT": 677.8998024451101,
+      "SHEP": 113186387095.23303,
+      "ORDOGE": 890827.9124823839,
+      "TaleOf": 15344.943313524825,
+      "STICK": 1986.095147863167,
+      "RBTC": 470149.75936567807,
+      "BUX": 2589.4752329268713,
+      "SHITCOIN": 2138091.207460247,
+      "PKN": 171.57606987510405,
+      "CYDOGE": 1498.6741049237946,
+      "SANIC": 1626427.512901431,
+      "MIKU": 1817689.0989424672,
+      "DINGER": 939.2892447944707,
+      "MICHIKO": 1569370.9441334673,
+      "SDAO": 1670111.6916023823,
+      "LILPEPE": 9468093.74888966,
+      "HINU": 8332964.124742302,
+      "MATRIX": 633295.2289294769,
+      "ERIC": 713925.709553238,
+      "DATBOI": 405.80100170483547,
+      "yAhoO": 2171138.7270635115,
+      "RAMO": 480463.53386064677,
+      "JOEROGAN": 321592742.8438121,
+      "STUDENT": 507469.9468613276,
+      "SLOANS": 1476593.8197720167,
+      "vitalek": 798331.1500899051,
+      "KISH": 847873419385.4812,
+      "4CHAN": 663.9243522445056,
+      "NTC": 632390.4593358384,
+      "\u043e\u0439\u043e\u0439\u043e\u0439\u043e\u0439\u043e\u0439\u043e": 631123490.7914461,
+      "MUMU": 806597268.8808601,
+      "RYU": 639674.5706707528,
+      "RDP": 991963.5095975345,
+      "": 1489866295.3694687,
+      "Mika": 306540329.0953169,
+      "NLA": 10195604851.435999,
+      "ENRON": 1027985463710.1842,
+      "CRYPTOSKULL": 830538.0591948666,
+      "CTECH": 1106128.734559506,
+      "BEETHOVEN": 82163096.14579313,
+      "MILKER": 237594438.08600658,
+      "AI WEB3": 212481670798.18002,
+      "DRAGON": 1647900.2496420043,
+      "DEGEN": 4613258.358447907,
+      "LAEEB": 3408891.997851419,
+      "JOKES": 3389895.419504141,
+      "FLIX": 306492.90424579184,
+      "PVE": 94706.05426220827,
+      "SLINKY": 25446814.816474862,
+      "APEP": 202274.2485698515,
+      "FLUFFY": 61434083.4924064,
+      "CHAOS": 39742.76015572086,
+      "UNITY": 0.000944411669009282,
+      "420": 1793.183237650251,
+      "PUFFY": 2138263514.5737524,
+      "ACOUST": 3446763934.6532264,
+      "KRYPTOINU": 215924.814310408,
+      "APENAI": 1699325086.958005,
+      "MUMU2.0": 1145872845395.3074,
+      "SUS": 1719187.6978519992,
+      "Kurisumasu": 115567.34481627193,
+      "OSHIB": 2743436655.4978175,
+      "MEMEFI": 8039216.038096429,
+      "SHIBAI": 1193579.9115054037,
+      "AFT": 1813874.3132748562,
+      "UNIBOT": 130.7270135811428,
+      "CMSN": 59977.671585422395,
+      "SLACK": 335378145.2410897,
+      "TOPG": 179413.37181233562,
+      "WHELL": 323105553.20825434,
+      "SMUDGE": 225721.94795041293,
+      "DJI": 343072.90554818,
+      "WUFF FORCE": 1786579.6169464733,
+      "STG": 142331.3392721769,
+      "PUSH": 1356078790.2362392,
+      "GDAO": 3428685.707125187,
+      "FTX2.0": 361202.85326529096,
+      "ED": 5394701.131743749,
+      "9GAG": 2692383758824786.0,
+      "YODA": 65563328.15688352,
+      "HUNYUAN": 1686.7483841095545,
+      "EPI": 42656739267.32483,
+      "ERMN": 858.4277538196252,
+      "OSHIRO": 3952225.688636908,
+      "SHINOKU": 1458509.6233504517,
+      "Paris": 1149294.2351085562,
+      "TA": 2349861.9047800982,
+      "BabyPochita": 1508421.346013823,
+      "BART": 1386066.4805724998,
+      "TZN": 1373041.7584879054,
+      "KARMA": 763895.2340524456,
+      "MoD": 535287.8843842961,
+      "NKI": 2017487.6442498458,
+      "PIG": 1557629061237.2283,
+      "TRUCK": 664564.5096510432,
+      "SANGHA": 2554689.2121107895,
+      "BUKA": 162446012.01075518,
+      "RIPGWC": 32201.187255277124,
+      "POG": 132205257.9724854,
+      "SHIBX": 14080.500306135664,
+      "TWIZZLER": 218905.7519945211,
+      "\u0394S": 24435585.39937388,
+      "PEPE": 163718579960.27576,
+      "GAL": 73.20636467818498,
+      "GATSBY": 1048.7340019968337,
+      "WOFL": 72234.9602451908,
+      "DNUTZ": 2016253.6863612162,
+      "BSHIK": 2302133017245.219,
+      "GLOOM": 1006.7769683628081,
+      "Tsukumrocket": 4021476.6720034676,
+      "PAWP": 1551219.3883965276,
+      "YiLongMa": 1188349.5554922975,
+      "LOONG": 1030951870.11747,
+      "BMNR": 110436.68755987691,
+      "PNDX": 54792.69853166786,
+      "USHIB": 1235.7456587405095,
+      "DOSU": 838756.534697513,
+      "PI": 880916.6057613811,
+      "GW": 866.4055579918265,
+      "SEKISHU": 882.3575410945897,
+      "EMAX": 898671.7707132422,
+      "WSB": 923608.4631999375,
+      "$SHIRO": 662255290.9829512,
+      "SND": 19718.754257929715,
+      "ILLUMINATI": 1451183.8583416457,
+      "MUZZLE": 678.7566576508367,
+      "EAT": 7555.696449980618,
+      "HARNESS": 721625.679995307,
+      "SFP9600": 440999.75801506743,
+      "LFG": 50.80617849902884,
+      "FREYJA": 575932720.0080323,
+      "HUNTER": 540037831.2173905,
+      "DLPEPE": 558658.9792195758,
+      "DFX": 537339.3686676414,
+      "RUDOLPH": 55781.103220797435,
+      "WOLF": 350458.0701668837,
+      "PEKING": 39968024.498597614,
+      "YODOR": 535336.6177575068,
+      "APU": 232729553.75902897,
+      "PAN": 10.669507678134597,
+      "mett": 385521.4572164911,
+      "$OBI": 568870600.0675505,
+      "XFUND": 58190.682833539155,
+      "DASGUD": 68007143.37714757,
+      "HOBO": 427649.31351087394,
+      "SailorMoon": 458811.60834161274,
+      "CHRIS": 47767.826926925445,
+      "MIA": 41486.68382672421,
+      "WEPE": 436099.5522840643,
+      "PEP": 465661.7701484973,
+      "Resshin": 48726.40652008636,
+      "OPI": 55350.11576205951,
+      "MIRACLE": 676107574.2584732,
+      "$FLY": 614699150.4669733,
+      "DREAM": 503111869.07553864,
+      "DAWAE": 549720.4744735813,
+      "SFM": 621932.4886534347,
+      "BOB": 566878.8692792703,
+      "THE2.0": 6403.214369354999,
+      "CROW": 43984043945.98763,
+      "BICASSO": 96003780876.84668,
+      "TPV": 5826320.598475866,
+      "JANE": 543367.1500843177,
+      "$USBtc": 548.4082089949621,
+      "AURORA": 750013.4098361665,
+      "DSHIB": 525483093.11941385,
+      "RSHIB": 566.0238998994913,
+      "PROOF": 33.071679671426935,
+      "THOR": 3783.7416930169293,
+      "SOBO": 47604890699.0849,
+      "ECBB": 46841.44792584459,
+      "SHIBHEX": 489.6643859410024,
+      "GROK": 424693.41693370836,
+      "SHTRX": 459965619560.7159,
+      "API": 470.95412912656235,
+      "SFLOKI": 635004.3140530303,
+      "BALL": 615584.7885041405,
+      "KUTAI": 67.49871079246321,
+      "OKAY": 374604601.479963,
+      "the ticker is PEPE": 354440.4597250605,
+      "SQUIDGAME": 235709390.95031708,
+      "CHAD": 643759.4995899587,
+      "JEET": 1681.2084003135,
+      "7suka": 1261589283.5906105,
+      "EUL": 0.5578543909973139,
+      "ETHERBALL": 717384400.7030492,
+      "R86": 335612.82433577965,
+      "OMNIA": 10699.85842271,
+      "TREE": 3357.5595150905447,
+      "TALI": 267636794.55662712,
+      "7A\u03a9\u221e": 0.4524179136072864,
+      "SFS-LP": 1.3257532111428999e-05,
+      "HIRO": 331176432.1070878,
+      "stETH": 1e-18,
+      "DEXTF": 83.3249361625,
+      "WHITEPEPE": 163022.709681046,
+      "CLIFF": 679227344.3870518,
+      "NEO": 630236137.4064974,
+      "LIT": 99.5795018,
+      "VISTA": 5.2094326121347665,
+      "BOTTO": 69.0,
+      "MASYA": 43770396640.17887,
+      "XGT": 167999999.99800003,
+      "eVa": 464.01968642099996,
+      "KIBSHI": 1.0,
+      "ARKCOIN": 0.0,
+      "UNI": 4000.0,
+      "HACHI": 191315.93142517726,
+      "TREAT": 3757.8733906650814
+    },
+    "token_details": {
+      "UNI-V2": [
+        "Uniswap V2"
+      ],
+      "SAYLOR": [
+        "Saylor Moon"
+      ],
+      "PNKSTR": [
+        "PunkStrategy"
+      ],
+      "PawZ": [
+        "PawZaar"
+      ],
+      "MEMES": [
+        "MemeSwap"
+      ],
+      "NWO": [
+        "NewWorldOrder"
+      ],
+      "XAi": [
+        "Copilot X Ai"
+      ],
+      "PEGZ": [
+        "Pegz"
+      ],
+      "UBU": [
+        "UbuntuCoin"
+      ],
+      "PINK": [
+        "Pink Pepe"
+      ],
+      "Kujira": [
+        "Dejitaru Kujira"
+      ],
+      "BTC": [
+        "BurnTheCows"
+      ],
+      "Shy": [
+        "Shytoshi"
+      ],
+      "BABYSHIKOKU": [
+        "BSHIK"
+      ],
+      "DFC": [
+        "Doha Fifa Coin"
+      ],
+      "MUSK": [
+        "Elon Musk Coin"
+      ],
+      "PUPPYRIUM": [
+        "Puppyrium"
+      ],
+      "BOUNTY": [
+        "bounty.tech"
+      ],
+      "BARK": [
+        "Bark"
+      ],
+      "OSCAR": [
+        "Oscar"
+      ],
+      "BEE": [
+        "SHIBEE INU"
+      ],
+      "SPURDO": [
+        "SPURDO"
+      ],
+      "OM": [
+        "MANTRA DAO"
+      ],
+      "UP": [
+        "Up Syndrome"
+      ],
+      "TSANGNYON": [
+        "TSANGNYON HERUKA"
+      ],
+      "EPEP": [
+        "Epep"
+      ],
+      "MARVIN": [
+        "Marvin"
+      ],
+      "cX": [
+        "NewCommunityX"
+      ],
+      "NOOT NOOT": [
+        "PINGU"
+      ],
+      "YE": [
+        "President Kanye Inu"
+      ],
+      "CATS": [
+        "Masya",
+        "Catcoin"
+      ],
+      "ElonMusk": [
+        "ElonMusk"
+      ],
+      "DOGEX": [
+        "Doge X"
+      ],
+      "ELSA": [
+        "Elsa Finney"
+      ],
+      "WCDZ": [
+        "WcDizer 3000"
+      ],
+      "NORMIE": [
+        "Norman"
+      ],
+      "X-GPT": [
+        "X-GPT"
+      ],
+      "SHEP": [
+        "SHEPKITA INU"
+      ],
+      "ORDOGE": [
+        "Ordinal Doge"
+      ],
+      "TaleOf": [
+        "Tale Of Satoshi"
+      ],
+      "STICK": [
+        "Stickman"
+      ],
+      "RBTC": [
+        "Running Bitcoin"
+      ],
+      "BUX": [
+        "Magic Autism Bux"
+      ],
+      "SHITCOIN": [
+        "SatoshiLongbottomCramerBulbasaur420Inu"
+      ],
+      "PKN": [
+        "Poken"
+      ],
+      "CYDOGE": [
+        "CYBERDOGE"
+      ],
+      "SANIC": [
+        "Sanic"
+      ],
+      "MIKU": [
+        "Miku Coin"
+      ],
+      "DINGER": [
+        "Schrodinger"
+      ],
+      "MICHIKO": [
+        "Michiko Inu"
+      ],
+      "SDAO": [
+        "Singularity Dao",
+        "SlingDAO"
+      ],
+      "LILPEPE": [
+        "Little Pepe"
+      ],
+      "HINU": [
+        "Hayate INU"
+      ],
+      "MATRIX": [
+        "The Centralized World"
+      ],
+      "ERIC": [
+        "Elons Bee"
+      ],
+      "DATBOI": [
+        "Dat Boi"
+      ],
+      "yAhoO": [
+        "Geocities Coin"
+      ],
+      "RAMO": [
+        "Ramo Inu"
+      ],
+      "JOEROGAN": [
+        "Joe Rogan Inu"
+      ],
+      "STUDENT": [
+        "Student Inu"
+      ],
+      "SLOANS": [
+        "Student Inu"
+      ],
+      "vitalek": [
+        "vitalek buteren"
+      ],
+      "KISH": [
+        "Kishuna Inu"
+      ],
+      "4CHAN": [
+        "4Chan"
+      ],
+      "NTC": [
+        "Netcoin"
+      ],
+      "\u043e\u0439\u043e\u0439\u043e\u0439\u043e\u0439\u043e\u0439\u043e": [
+        "Polar Bear 2026"
+      ],
+      "MUMU": [
+        "Mumu The Bull",
+        "MUMU"
+      ],
+      "RYU": [
+        "Ryukyu"
+      ],
+      "RDP": [
+        "RuglessDP"
+      ],
+      "": [
+        ""
+      ],
+      "Mika": [
+        "Mikaboshi"
+      ],
+      "NLA": [
+        "No Limit Ape"
+      ],
+      "ENRON": [
+        "Enron Creditors Recovery Corp"
+      ],
+      "CRYPTOSKULL": [
+        "CRYPTOSKULL"
+      ],
+      "CTECH": [
+        "CommuniTech"
+      ],
+      "BEETHOVEN": [
+        "Beethoven Inu"
+      ],
+      "MILKER": [
+        "Milkers"
+      ],
+      "AI WEB3": [
+        "AI WEB3"
+      ],
+      "DRAGON": [
+        "The Auspicious Dragon"
+      ],
+      "DEGEN": [
+        "Rekt Degens"
+      ],
+      "LAEEB": [
+        "Laeeb Inu"
+      ],
+      "JOKES": [
+        "JOKES TOKEN"
+      ],
+      "FLIX": [
+        "FLIX Token"
+      ],
+      "PVE": [
+        "Putin vs Elon"
+      ],
+      "SLINKY": [
+        "Slinky Inu"
+      ],
+      "APEP": [
+        "APEP"
+      ],
+      "FLUFFY": [
+        "Fluffy Inu"
+      ],
+      "CHAOS": [
+        "Chaos Inu"
+      ],
+      "UNITY": [
+        "All I want is Unity"
+      ],
+      "420": [
+        "Route 420"
+      ],
+      "PUFFY": [
+        "PUFFY INU"
+      ],
+      "ACOUST": [
+        "Acoustic"
+      ],
+      "KRYPTOINU": [
+        "KryptoInu"
+      ],
+      "APENAI": [
+        "APED THIS"
+      ],
+      "MUMU2.0": [
+        "Mumu 2.0"
+      ],
+      "SUS": [
+        "SUS"
+      ],
+      "Kurisumasu": [
+        "A degens Christmas"
+      ],
+      "OSHIB": [
+        "OnigiriShiba"
+      ],
+      "MEMEFI": [
+        "MemeDefi"
+      ],
+      "SHIBAI": [
+        "Artificial Shibtelligence"
+      ],
+      "AFT": [
+        "Argentina Fan Token"
+      ],
+      "UNIBOT": [
+        "Unibot"
+      ],
+      "CMSN": [
+        "The Commission"
+      ],
+      "SLACK": [
+        "SLACKER"
+      ],
+      "TOPG": [
+        "Free Tate"
+      ],
+      "WHELL": [
+        "Wrapped Hellsing"
+      ],
+      "SMUDGE": [
+        "Smudge Coin"
+      ],
+      "DJI": [
+        "Dont Jeet Inu"
+      ],
+      "WUFF FORCE": [
+        "$WUFF"
+      ],
+      "STG": [
+        "StargateToken"
+      ],
+      "PUSH": [
+        "Pusheen"
+      ],
+      "GDAO": [
+        "GambleDao"
+      ],
+      "FTX2.0": [
+        "FTX2.0"
+      ],
+      "ED": [
+        "Ethereum Dark"
+      ],
+      "9GAG": [
+        "9GAG"
+      ],
+      "YODA": [
+        "Master Yoda"
+      ],
+      "HUNYUAN": [
+        "HunyuanAide"
+      ],
+      "EPI": [
+        "Meltdown"
+      ],
+      "ERMN": [
+        "Ermn Musk"
+      ],
+      "OSHIRO": [
+        "Osaka no Shiro"
+      ],
+      "SHINOKU": [
+        "Shinoku"
+      ],
+      "Paris": [
+        "ParisPets"
+      ],
+      "TA": [
+        "THE Ape"
+      ],
+      "BabyPochita": [
+        "Baby Pochita"
+      ],
+      "BART": [
+        "Why You Little"
+      ],
+      "TZN": [
+        "Tarzan"
+      ],
+      "KARMA": [
+        "Kismet"
+      ],
+      "MoD": [
+        "MoonOrDust"
+      ],
+      "NKI": [
+        "North Korea Inu"
+      ],
+      "PIG": [
+        "Pig Coin"
+      ],
+      "TRUCK": [
+        "Cybertruck"
+      ],
+      "SANGHA": [
+        "TSUKA SANGHA"
+      ],
+      "BUKA": [
+        "Dejitaru Buka"
+      ],
+      "RIPGWC": [
+        "SceptreXC"
+      ],
+      "POG": [
+        "POGGERS"
+      ],
+      "SHIBX": [
+        "ShibXAI"
+      ],
+      "TWIZZLER": [
+        "Twizzler"
+      ],
+      "\u0394S": [
+        "Entropy"
+      ],
+      "PEPE": [
+        "Pepe",
+        "Pepe on ETH",
+        "Pepe The Frog",
+        "Pepe Official",
+        "Pepe Trainer",
+        "Not Pepe"
+      ],
+      "GAL": [
+        "Galxe"
+      ],
+      "GATSBY": [
+        "Gatsby Inu"
+      ],
+      "WOFL": [
+        "WOFL"
+      ],
+      "DNUTZ": [
+        "Dejitaru Deez Nuts"
+      ],
+      "BSHIK": [
+        "BABY SHIKOKU INU"
+      ],
+      "GLOOM": [
+        "Gloomy"
+      ],
+      "Tsukumrocket": [
+        "Dejitaru Tsukumrocket"
+      ],
+      "PAWP": [
+        "Shibarium Pawpetuals"
+      ],
+      "YiLongMa": [
+        "Elons Doppelganger"
+      ],
+      "LOONG": [
+        "Loong"
+      ],
+      "BMNR": [
+        "BitMine Immersion Technologies"
+      ],
+      "PNDX": [
+        "Pond0x"
+      ],
+      "USHIB": [
+        "US Shiba"
+      ],
+      "DOSU": [
+        "DOGEBOSU"
+      ],
+      "PI": [
+        "Ai Pepe"
+      ],
+      "GW": [
+        "Generational Wealth"
+      ],
+      "SEKISHU": [
+        "Sekishu Inu"
+      ],
+      "EMAX": [
+        "Ethereum Max"
+      ],
+      "WSB": [
+        "WALL STREET BABY"
+      ],
+      "$SHIRO": [
+        "Shiro Inu"
+      ],
+      "SND": [
+        "SatNode"
+      ],
+      "ILLUMINATI": [
+        "Illuminati"
+      ],
+      "MUZZLE": [
+        "Muzzle"
+      ],
+      "EAT": [
+        "Eat"
+      ],
+      "HARNESS": [
+        "Harness"
+      ],
+      "SFP9600": [
+        "ShibaFlokiPepe9600"
+      ],
+      "LFG": [
+        "A HUNTERS MEME"
+      ],
+      "FREYJA": [
+        "The Goddess"
+      ],
+      "HUNTER": [
+        "Shepherd Inu"
+      ],
+      "DLPEPE": [
+        "\u15eaO\u1587K \u14aaO\u1587\u15ea PEPE"
+      ],
+      "DFX": [
+        "DogeFX"
+      ],
+      "RUDOLPH": [
+        "Rudolph"
+      ],
+      "WOLF": [
+        "Landwolf"
+      ],
+      "PEKING": [
+        "King Pepe"
+      ],
+      "YODOR": [
+        "\u15eaO\u1587K \u148dE\u15eaO\u1587 \u15f0\u15e9\u1515TE\u1587"
+      ],
+      "APU": [
+        "APU"
+      ],
+      "PAN": [
+        "Pan Paniscus"
+      ],
+      "mett": [
+        "mett feeree"
+      ],
+      "$OBI": [
+        "OnlyBuyInu"
+      ],
+      "XFUND": [
+        "XAI FUND"
+      ],
+      "DASGUD": [
+        "Das Gud Coin"
+      ],
+      "HOBO": [
+        "Hobo Coin"
+      ],
+      "SailorMoon": [
+        "SailorMoon"
+      ],
+      "CHRIS": [
+        "Autistic Simpsons"
+      ],
+      "MIA": [
+        "Milady Saga"
+      ],
+      "WEPE": [
+        "Wepe"
+      ],
+      "PEP": [
+        "Smol"
+      ],
+      "Resshin": [
+        "Flame Of Recca"
+      ],
+      "OPI": [
+        "One Percent Inu"
+      ],
+      "MIRACLE": [
+        "Kiseki Inu"
+      ],
+      "$FLY": [
+        "Zero Gravity"
+      ],
+      "DREAM": [
+        "Yumekujira"
+      ],
+      "DAWAE": [
+        "DAWAE"
+      ],
+      "SFM": [
+        "SafeMoon"
+      ],
+      "BOB": [
+        "Bob"
+      ],
+      "THE2.0": [
+        "The Protocol 2.0"
+      ],
+      "CROW": [
+        "WISDOM"
+      ],
+      "BICASSO": [
+        "Bicasso"
+      ],
+      "TPV": [
+        "The Paw Vault"
+      ],
+      "JANE": [
+        "JANE"
+      ],
+      "$USBtc": [
+        "USBTC"
+      ],
+      "AURORA": [
+        "Celeste"
+      ],
+      "DSHIB": [
+        "Decentra Shib"
+      ],
+      "RSHIB": [
+        "Rare Shiba"
+      ],
+      "PROOF": [
+        "zeta:know"
+      ],
+      "THOR": [
+        "THORSwap Token"
+      ],
+      "SOBO": [
+        "Sonic Bonk"
+      ],
+      "ECBB": [
+        "European Central BitBank"
+      ],
+      "SHIBHEX": [
+        "ShibHex"
+      ],
+      "GROK": [
+        "Grok Community"
+      ],
+      "SHTRX": [
+        "ShibTronix"
+      ],
+      "API": [
+        "Artificial Pepe Intelligence"
+      ],
+      "SFLOKI": [
+        "Santa Floki"
+      ],
+      "BALL": [
+        "CHASE"
+      ],
+      "KUTAI": [
+        "Dejitaru Shukutai"
+      ],
+      "OKAY": [
+        "OKAY"
+      ],
+      "the ticker is PEPE": [
+        "Pepe the Hedgefrog"
+      ],
+      "SQUIDGAME": [
+        "The Challenge"
+      ],
+      "CHAD": [
+        "Chad"
+      ],
+      "JEET": [
+        "Etherjeet"
+      ],
+      "7suka": [
+        "7suka"
+      ],
+      "EUL": [
+        "Euler"
+      ],
+      "ETHERBALL": [
+        "EtherBall"
+      ],
+      "R86": [
+        "Radical 86"
+      ],
+      "OMNIA": [
+        "OMNIA Protocol"
+      ],
+      "TREE": [
+        "Tree"
+      ],
+      "TALI": [
+        "TALARIA INU"
+      ],
+      "7A\u03a9\u221e": [
+        "Est. 1905"
+      ],
+      "SFS-LP": [
+        "Safeswap LPs"
+      ],
+      "HIRO": [
+        "Hiroyuki"
+      ],
+      "stETH": [
+        "stETH"
+      ],
+      "DEXTF": [
+        "DEXTF Token"
+      ],
+      "WHITEPEPE": [
+        "White Pepe"
+      ],
+      "CLIFF": [
+        "Red Clifford"
+      ],
+      "NEO": [
+        "NEO"
+      ],
+      "LIT": [
+        "Litentry"
+      ],
+      "VISTA": [
+        "Ethervista"
+      ],
+      "BOTTO": [
+        "Botto"
+      ],
+      "MASYA": [
+        "MASYA"
+      ],
+      "XGT": [
+        "Green Token"
+      ],
+      "eVa": [
+        "eVa-ai"
+      ],
+      "KIBSHI": [
+        "KiboShib"
+      ],
+      "ARKCOIN": [
+        "ArkCoin"
+      ],
+      "UNI": [
+        "Uniswap"
+      ],
+      "HACHI": [
+        "Hachiko Inu"
+      ],
+      "TREAT": [
+        "Treat"
+      ]
+    }
+  },
+  "ipfs_osint": {
+    "address": "0x000000000000000000000000000000000000dead",
+    "ipfs_hashes_found": [
+      {
+        "contract": "0xc9e3e94cb6df75988e09e621a18841cccfd3c7e5",
+        "token_id": "24",
+        "uri": "ipfs://QmZyYg1GQAJbrNVniTW6ugKgzaYHEFULhJv36RfRUwjEwS/hidden.json",
+        "ipfs_hash": "QmZyYg1GQAJbrNVniTW6ugKgzaYHEFULhJv36RfRUwjEwS"
+      },
+      {
+        "contract": "0x8c6def540b83471664edc6d5cf75883986932674",
+        "token_id": "2461",
+        "uri": "ipfs://bafybeiezjadomtdaifzgsuzovionlgseqjv7bbmeochhm4jn4dztxunfzi/2461",
+        "ipfs_hash": "bafybeiezjadomtdaifzgsuzovionlgseqjv7bbmeochhm4jn4dztxunfzi"
+      },
+      {
+        "contract": "0x8c6def540b83471664edc6d5cf75883986932674",
+        "token_id": "4559",
+        "uri": "ipfs://bafybeiezjadomtdaifzgsuzovionlgseqjv7bbmeochhm4jn4dztxunfzi/4559",
+        "ipfs_hash": "bafybeiezjadomtdaifzgsuzovionlgseqjv7bbmeochhm4jn4dztxunfzi"
+      },
+      {
+        "contract": "0x8c6def540b83471664edc6d5cf75883986932674",
+        "token_id": "3941",
+        "uri": "ipfs://bafybeiezjadomtdaifzgsuzovionlgseqjv7bbmeochhm4jn4dztxunfzi/3941",
+        "ipfs_hash": "bafybeiezjadomtdaifzgsuzovionlgseqjv7bbmeochhm4jn4dztxunfzi"
+      },
+      {
+        "contract": "0x8e6e63e05fffc220f808674e6ce14c82799d9f84",
+        "token_id": "6861",
+        "uri": "ipfs://bafybeigtyxrp4ujy4u2juthjfc26blvu7lnxjkwcac4stahn3ixayhxwe4/6861.json",
+        "ipfs_hash": "bafybeigtyxrp4ujy4u2juthjfc26blvu7lnxjkwcac4stahn3ixayhxwe4"
+      },
+      {
+        "contract": "0x8e6e63e05fffc220f808674e6ce14c82799d9f84",
+        "token_id": "7595",
+        "uri": "ipfs://bafybeigtyxrp4ujy4u2juthjfc26blvu7lnxjkwcac4stahn3ixayhxwe4/7595.json",
+        "ipfs_hash": "bafybeigtyxrp4ujy4u2juthjfc26blvu7lnxjkwcac4stahn3ixayhxwe4"
+      },
+      {
+        "contract": "0x8e6e63e05fffc220f808674e6ce14c82799d9f84",
+        "token_id": "8365",
+        "uri": "ipfs://bafybeigtyxrp4ujy4u2juthjfc26blvu7lnxjkwcac4stahn3ixayhxwe4/8365.json",
+        "ipfs_hash": "bafybeigtyxrp4ujy4u2juthjfc26blvu7lnxjkwcac4stahn3ixayhxwe4"
+      },
+      {
+        "contract": "0x8e6e63e05fffc220f808674e6ce14c82799d9f84",
+        "token_id": "2708",
+        "uri": "ipfs://bafybeigtyxrp4ujy4u2juthjfc26blvu7lnxjkwcac4stahn3ixayhxwe4/2708.json",
+        "ipfs_hash": "bafybeigtyxrp4ujy4u2juthjfc26blvu7lnxjkwcac4stahn3ixayhxwe4"
+      },
+      {
+        "contract": "0x8e6e63e05fffc220f808674e6ce14c82799d9f84",
+        "token_id": "5993",
+        "uri": "ipfs://bafybeigtyxrp4ujy4u2juthjfc26blvu7lnxjkwcac4stahn3ixayhxwe4/5993.json",
+        "ipfs_hash": "bafybeigtyxrp4ujy4u2juthjfc26blvu7lnxjkwcac4stahn3ixayhxwe4"
+      }
+    ],
+    "metadata_analyzed": [
+      {
+        "contract": "0x2c88aa0956bc9813505d73575f653f69ada60923",
+        "token_id": "15575",
+        "analysis": {
+          "name": "Genesis Land #15575",
+          "description": "One of only 20,000 Genesis Land plots that will ever exist in Wolf Game.",
+          "image": "https://wg-land.s3.us-west-2.amazonaws.com/15575.png",
+          "external_url": "",
+          "attributes": [
+            {
+              "trait_type": "Community",
+              "value": "78"
+            },
+            {
+              "trait_type": "Grass",
+              "value": 152
+            },
+            {
+              "trait_type": "Wood",
+              "value": 76
+            },
+            {
+              "trait_type": "Stone",
+              "value": 92
+            },
+            {
+              "trait_type": "Water",
+              "value": 80
+            },
+            {
+              "trait_type": "Structures",
+              "value": "NO"
+            }
+          ],
+          "properties": {},
+          "creator": {},
+          "artist": "",
+          "collection": {},
+          "ipfs_hashes": [],
+          "linked_urls": [
+            "https://wg-land.s3.us-west-2.amazonaws.com/15575.png"
+          ],
+          "timestamps": [],
+          "usernames": [],
+          "emails": [],
+          "social_links": []
+        },
+        "source": "https",
+        "domain": "wg-land.s3.us-west-2.amazonaws.com"
+      },
+      {
+        "contract": "0x2c88aa0956bc9813505d73575f653f69ada60923",
+        "token_id": "8750",
+        "analysis": {
+          "name": "Genesis Land #8750",
+          "description": "One of only 20,000 Genesis Land plots that will ever exist in Wolf Game.",
+          "image": "https://wg-land.s3.us-west-2.amazonaws.com/8750.png",
+          "external_url": "",
+          "attributes": [
+            {
+              "trait_type": "Community",
+              "value": "44"
+            },
+            {
+              "trait_type": "Grass",
+              "value": 204
+            },
+            {
+              "trait_type": "Wood",
+              "value": 132
+            },
+            {
+              "trait_type": "Stone",
+              "value": 0
+            },
+            {
+              "trait_type": "Water",
+              "value": 64
+            },
+            {
+              "trait_type": "Structures",
+              "value": "NO"
+            }
+          ],
+          "properties": {},
+          "creator": {},
+          "artist": "",
+          "collection": {},
+          "ipfs_hashes": [],
+          "linked_urls": [
+            "https://wg-land.s3.us-west-2.amazonaws.com/8750.png"
+          ],
+          "timestamps": [],
+          "usernames": [],
+          "emails": [],
+          "social_links": []
+        },
+        "source": "https",
+        "domain": "wg-land.s3.us-west-2.amazonaws.com"
+      },
+      {
+        "contract": "0x2c88aa0956bc9813505d73575f653f69ada60923",
+        "token_id": "4511",
+        "analysis": {
+          "name": "Genesis Land #4511",
+          "description": "One of only 20,000 Genesis Land plots that will ever exist in Wolf Game.",
+          "image": "https://wg-land.s3.us-west-2.amazonaws.com/4511.png",
+          "external_url": "",
+          "attributes": [
+            {
+              "trait_type": "Community",
+              "value": "23"
+            },
+            {
+              "trait_type": "Grass",
+              "value": 0
+            },
+            {
+              "trait_type": "Wood",
+              "value": 256
+            },
+            {
+              "trait_type": "Stone",
+              "value": 0
+            },
+            {
+              "trait_type": "Water",
+              "value": 0
+            },
+            {
+              "trait_type": "Structures",
+              "value": "YES"
+            }
+          ],
+          "properties": {},
+          "creator": {},
+          "artist": "",
+          "collection": {},
+          "ipfs_hashes": [],
+          "linked_urls": [
+            "https://wg-land.s3.us-west-2.amazonaws.com/4511.png"
+          ],
+          "timestamps": [],
+          "usernames": [],
+          "emails": [],
+          "social_links": []
+        },
+        "source": "https",
+        "domain": "wg-land.s3.us-west-2.amazonaws.com"
+      },
+      {
+        "contract": "0x2c88aa0956bc9813505d73575f653f69ada60923",
+        "token_id": "2577",
+        "analysis": {
+          "name": "Genesis Land #2577",
+          "description": "One of only 20,000 Genesis Land plots that will ever exist in Wolf Game.",
+          "image": "https://wg-land.s3.us-west-2.amazonaws.com/2577.png",
+          "external_url": "",
+          "attributes": [
+            {
+              "trait_type": "Community",
+              "value": "13"
+            },
+            {
+              "trait_type": "Grass",
+              "value": 104
+            },
+            {
+              "trait_type": "Wood",
+              "value": 40
+            },
+            {
+              "trait_type": "Stone",
+              "value": 8
+            },
+            {
+              "trait_type": "Water",
+              "value": 104
+            },
+            {
+              "trait_type": "Structures",
+              "value": "YES"
+            }
+          ],
+          "properties": {},
+          "creator": {},
+          "artist": "",
+          "collection": {},
+          "ipfs_hashes": [],
+          "linked_urls": [
+            "https://wg-land.s3.us-west-2.amazonaws.com/2577.png"
+          ],
+          "timestamps": [],
+          "usernames": [],
+          "emails": [],
+          "social_links": []
+        },
+        "source": "https",
+        "domain": "wg-land.s3.us-west-2.amazonaws.com"
+      },
+      {
+        "contract": "0x2c88aa0956bc9813505d73575f653f69ada60923",
+        "token_id": "3865",
+        "analysis": {
+          "name": "Genesis Land #3865",
+          "description": "One of only 20,000 Genesis Land plots that will ever exist in Wolf Game.",
+          "image": "https://wg-land.s3.us-west-2.amazonaws.com/3865.png",
+          "external_url": "",
+          "attributes": [
+            {
+              "trait_type": "Community",
+              "value": "20"
+            },
+            {
+              "trait_type": "Grass",
+              "value": 128
+            },
+            {
+              "trait_type": "Wood",
+              "value": 84
+            },
+            {
+              "trait_type": "Stone",
+              "value": 148
+            },
+            {
+              "trait_type": "Water",
+              "value": 40
+            },
+            {
+              "trait_type": "Structures",
+              "value": "NO"
+            }
+          ],
+          "properties": {},
+          "creator": {},
+          "artist": "",
+          "collection": {},
+          "ipfs_hashes": [],
+          "linked_urls": [
+            "https://wg-land.s3.us-west-2.amazonaws.com/3865.png"
+          ],
+          "timestamps": [],
+          "usernames": [],
+          "emails": [],
+          "social_links": []
+        },
+        "source": "https",
+        "domain": "wg-land.s3.us-west-2.amazonaws.com"
+      },
+      {
+        "contract": "0xb0ae9dd22a2e1211f813b081098581dd0ff5b981",
+        "token_id": "381",
+        "analysis": {
+          "name": "Perry Egg 381",
+          "description": "Just an egg. Probably nothing.",
+          "image": "https://api.falcon.finance/eggs/icy_blue_rocking_right.svg",
+          "external_url": "",
+          "attributes": [
+            {
+              "colour": "Icy blue"
+            },
+            {
+              "trait_type": "Colour",
+              "value": "Icy blue"
+            },
+            {
+              "trait_type": "Plumage",
+              "value": "None"
+            },
+            {
+              "trait_type": "Accessory",
+              "value": "None"
+            },
+            {
+              "trait_type": "Balance",
+              "value": "Rocking right"
+            }
+          ],
+          "properties": {},
+          "creator": {},
+          "artist": "",
+          "collection": {},
+          "ipfs_hashes": [],
+          "linked_urls": [
+            "https://api.falcon.finance/eggs/icy_blue_rocking_right.svg"
+          ],
+          "timestamps": [],
+          "usernames": [],
+          "emails": [],
+          "social_links": []
+        },
+        "source": "https",
+        "domain": "api.falcon.finance"
+      },
+      {
+        "contract": "0xb0ae9dd22a2e1211f813b081098581dd0ff5b981",
+        "token_id": "278",
+        "analysis": {
+          "name": "Perry Egg 278",
+          "description": "Just an egg. Probably nothing.",
+          "image": "https://api.falcon.finance/eggs/light_lavender_rocking_right.svg",
+          "external_url": "",
+          "attributes": [
+            {
+              "colour": "Light lavender"
+            },
+            {
+              "trait_type": "Colour",
+              "value": "Light lavender"
+            },
+            {
+              "trait_type": "Plumage",
+              "value": "None"
+            },
+            {
+              "trait_type": "Accessory",
+              "value": "None"
+            },
+            {
+              "trait_type": "Balance",
+              "value": "Rocking right"
+            }
+          ],
+          "properties": {},
+          "creator": {},
+          "artist": "",
+          "collection": {},
+          "ipfs_hashes": [],
+          "linked_urls": [
+            "https://api.falcon.finance/eggs/light_lavender_rocking_right.svg"
+          ],
+          "timestamps": [],
+          "usernames": [],
+          "emails": [],
+          "social_links": []
+        },
+        "source": "https",
+        "domain": "api.falcon.finance"
+      },
+      {
+        "contract": "0xb0ae9dd22a2e1211f813b081098581dd0ff5b981",
+        "token_id": "3386",
+        "analysis": {
+          "name": "Perry Egg 3386",
+          "description": "Just an egg. Probably nothing.",
+          "image": "https://api.falcon.finance/eggs/mint_green_dusk.svg",
+          "external_url": "",
+          "attributes": [
+            {
+              "colour": "Mint green"
+            },
+            {
+              "trait_type": "Colour",
+              "value": "Mint green"
+            },
+            {
+              "trait_type": "Plumage",
+              "value": "Dusk"
+            },
+            {
+              "trait_type": "Accessory",
+              "value": "None"
+            },
+            {
+              "trait_type": "Balance",
+              "value": "Up only"
+            }
+          ],
+          "properties": {},
+          "creator": {},
+          "artist": "",
+          "collection": {},
+          "ipfs_hashes": [],
+          "linked_urls": [
+            "https://api.falcon.finance/eggs/mint_green_dusk.svg"
+          ],
+          "timestamps": [],
+          "usernames": [],
+          "emails": [],
+          "social_links": []
+        },
+        "source": "https",
+        "domain": "api.falcon.finance"
+      },
+      {
+        "contract": "0xb0ae9dd22a2e1211f813b081098581dd0ff5b981",
+        "token_id": "301",
+        "analysis": {
+          "name": "Perry Egg 301",
+          "description": "Just an egg. Probably nothing.",
+          "image": "https://api.falcon.finance/eggs/mint_green_rocking_right.svg",
+          "external_url": "",
+          "attributes": [
+            {
+              "colour": "Mint green"
+            },
+            {
+              "trait_type": "Colour",
+              "value": "Mint green"
+            },
+            {
+              "trait_type": "Plumage",
+              "value": "None"
+            },
+            {
+              "trait_type": "Accessory",
+              "value": "None"
+            },
+            {
+              "trait_type": "Balance",
+              "value": "Rocking right"
+            }
+          ],
+          "properties": {},
+          "creator": {},
+          "artist": "",
+          "collection": {},
+          "ipfs_hashes": [],
+          "linked_urls": [
+            "https://api.falcon.finance/eggs/mint_green_rocking_right.svg"
+          ],
+          "timestamps": [],
+          "usernames": [],
+          "emails": [],
+          "social_links": []
+        },
+        "source": "https",
+        "domain": "api.falcon.finance"
+      },
+      {
+        "contract": "0xb0ae9dd22a2e1211f813b081098581dd0ff5b981",
+        "token_id": "298",
+        "analysis": {
+          "name": "Perry Egg 298",
+          "description": "Just an egg. Probably nothing.",
+          "image": "https://api.falcon.finance/eggs/mint_green_up_only.svg",
+          "external_url": "",
+          "attributes": [
+            {
+              "colour": "Mint green"
+            },
+            {
+              "trait_type": "Colour",
+              "value": "Mint green"
+            },
+            {
+              "trait_type": "Plumage",
+              "value": "None"
+            },
+            {
+              "trait_type": "Accessory",
+              "value": "None"
+            },
+            {
+              "trait_type": "Balance",
+              "value": "Up only"
+            }
+          ],
+          "properties": {},
+          "creator": {},
+          "artist": "",
+          "collection": {},
+          "ipfs_hashes": [],
+          "linked_urls": [
+            "https://api.falcon.finance/eggs/mint_green_up_only.svg"
+          ],
+          "timestamps": [],
+          "usernames": [],
+          "emails": [],
+          "social_links": []
+        },
+        "source": "https",
+        "domain": "api.falcon.finance"
+      }
+    ],
+    "debug_info": {
+      "nft_transfers_count": 500,
+      "contracts_found": 9,
+      "tokens_checked": 35,
+      "uris_found": 35,
+      "ipfs_hashes_extracted": 9,
+      "metadata_fetched": 10
+    },
+    "findings": {
+      "total_hashes": 3,
+      "unique_hashes": [
+        "bafybeiezjadomtdaifzgsuzovionlgseqjv7bbmeochhm4jn4dztxunfzi",
+        "QmZyYg1GQAJbrNVniTW6ugKgzaYHEFULhJv36RfRUwjEwS",
+        "bafybeigtyxrp4ujy4u2juthjfc26blvu7lnxjkwcac4stahn3ixayhxwe4"
+      ],
+      "linked_urls": [
+        "https://api.falcon.finance/eggs/light_lavender_rocking_right.svg",
+        "https://api.falcon.finance/eggs/mint_green_dusk.svg",
+        "https://wg-land.s3.us-west-2.amazonaws.com/8750.png",
+        "https://wg-land.s3.us-west-2.amazonaws.com/4511.png",
+        "https://wg-land.s3.us-west-2.amazonaws.com/2577.png",
+        "https://wg-land.s3.us-west-2.amazonaws.com/3865.png",
+        "https://api.falcon.finance/eggs/icy_blue_rocking_right.svg",
+        "https://api.falcon.finance/eggs/mint_green_rocking_right.svg",
+        "https://wg-land.s3.us-west-2.amazonaws.com/15575.png",
+        "https://api.falcon.finance/eggs/mint_green_up_only.svg"
+      ],
+      "usernames": [],
+      "emails": [],
+      "social_links": [],
+      "timestamps": [],
+      "creators": [],
+      "collections": [],
+      "domains": [
+        "fighters-dapp-rlmvb.ondigitalocean.app",
+        "farmer-api.wolf.game",
+        "nft.9mm.pro",
+        "wg-land.s3.us-west-2.amazonaws.com",
+        "api.falcon.finance"
+      ],
+      "domain_analysis": {
+        "nft.9mm.pro": {
+          "domain": "nft.9mm.pro",
+          "is_ipfs": false,
+          "is_centralized": true,
+          "scam_indicators": [],
+          "reputation": "unknown",
+          "whois_info": null
+        },
+        "wg-land.s3.us-west-2.amazonaws.com": {
+          "domain": "wg-land.s3.us-west-2.amazonaws.com",
+          "is_ipfs": false,
+          "is_centralized": true,
+          "scam_indicators": [],
+          "reputation": "unknown",
+          "whois_info": null
+        },
+        "farmer-api.wolf.game": {
+          "domain": "farmer-api.wolf.game",
+          "is_ipfs": false,
+          "is_centralized": true,
+          "scam_indicators": [],
+          "reputation": "unknown",
+          "whois_info": null
+        },
+        "fighters-dapp-rlmvb.ondigitalocean.app": {
+          "domain": "fighters-dapp-rlmvb.ondigitalocean.app",
+          "is_ipfs": false,
+          "is_centralized": true,
+          "scam_indicators": [],
+          "reputation": "unknown",
+          "whois_info": null
+        },
+        "api.falcon.finance": {
+          "domain": "api.falcon.finance",
+          "is_ipfs": false,
+          "is_centralized": true,
+          "scam_indicators": [],
+          "reputation": "unknown",
+          "whois_info": null
+        }
+      },
+      "metadata_urls": [
+        {
+          "contract": "0x290a0376177a172911baba25f6c15e1748f4ae47",
+          "token_id": "36",
+          "uri": "https://nft.9mm.pro/v3/eth/36"
+        },
+        {
+          "contract": "0x290a0376177a172911baba25f6c15e1748f4ae47",
+          "token_id": "41",
+          "uri": "https://nft.9mm.pro/v3/eth/41"
+        },
+        {
+          "contract": "0x290a0376177a172911baba25f6c15e1748f4ae47",
+          "token_id": "8",
+          "uri": "https://nft.9mm.pro/v3/eth/8"
+        },
+        {
+          "contract": "0x290a0376177a172911baba25f6c15e1748f4ae47",
+          "token_id": "179",
+          "uri": "https://nft.9mm.pro/v3/eth/179"
+        },
+        {
+          "contract": "0x290a0376177a172911baba25f6c15e1748f4ae47",
+          "token_id": "30",
+          "uri": "https://nft.9mm.pro/v3/eth/30"
+        },
+        {
+          "contract": "0xc9e3e94cb6df75988e09e621a18841cccfd3c7e5",
+          "token_id": "24",
+          "uri": "ipfs://QmZyYg1GQAJbrNVniTW6ugKgzaYHEFULhJv36RfRUwjEwS/hidden.json"
+        },
+        {
+          "contract": "0x2c88aa0956bc9813505d73575f653f69ada60923",
+          "token_id": "15575",
+          "uri": "https://wg-land.s3.us-west-2.amazonaws.com/15575"
+        },
+        {
+          "contract": "0x2c88aa0956bc9813505d73575f653f69ada60923",
+          "token_id": "8750",
+          "uri": "https://wg-land.s3.us-west-2.amazonaws.com/8750"
+        },
+        {
+          "contract": "0x2c88aa0956bc9813505d73575f653f69ada60923",
+          "token_id": "4511",
+          "uri": "https://wg-land.s3.us-west-2.amazonaws.com/4511"
+        },
+        {
+          "contract": "0x2c88aa0956bc9813505d73575f653f69ada60923",
+          "token_id": "2577",
+          "uri": "https://wg-land.s3.us-west-2.amazonaws.com/2577"
+        },
+        {
+          "contract": "0x2c88aa0956bc9813505d73575f653f69ada60923",
+          "token_id": "3865",
+          "uri": "https://wg-land.s3.us-west-2.amazonaws.com/3865"
+        },
+        {
+          "contract": "0xbda2481db91fc0f942ed3f53de378ba45ba9d17e",
+          "token_id": "3582",
+          "uri": "https://farmer-api.wolf.game/farmer/3582"
+        },
+        {
+          "contract": "0xbda2481db91fc0f942ed3f53de378ba45ba9d17e",
+          "token_id": "9204",
+          "uri": "https://farmer-api.wolf.game/farmer/9204"
+        },
+        {
+          "contract": "0xbda2481db91fc0f942ed3f53de378ba45ba9d17e",
+          "token_id": "3117",
+          "uri": "https://farmer-api.wolf.game/farmer/3117"
+        },
+        {
+          "contract": "0xbda2481db91fc0f942ed3f53de378ba45ba9d17e",
+          "token_id": "7743",
+          "uri": "https://farmer-api.wolf.game/farmer/7743"
+        },
+        {
+          "contract": "0xbda2481db91fc0f942ed3f53de378ba45ba9d17e",
+          "token_id": "3798",
+          "uri": "https://farmer-api.wolf.game/farmer/3798"
+        },
+        {
+          "contract": "0x8c6def540b83471664edc6d5cf75883986932674",
+          "token_id": "2461",
+          "uri": "ipfs://bafybeiezjadomtdaifzgsuzovionlgseqjv7bbmeochhm4jn4dztxunfzi/2461"
+        },
+        {
+          "contract": "0x8c6def540b83471664edc6d5cf75883986932674",
+          "token_id": "4559",
+          "uri": "ipfs://bafybeiezjadomtdaifzgsuzovionlgseqjv7bbmeochhm4jn4dztxunfzi/4559"
+        },
+        {
+          "contract": "0x8c6def540b83471664edc6d5cf75883986932674",
+          "token_id": "3941",
+          "uri": "ipfs://bafybeiezjadomtdaifzgsuzovionlgseqjv7bbmeochhm4jn4dztxunfzi/3941"
+        },
+        {
+          "contract": "0x652721fee72039b04de328d5a01fe402493e20e7",
+          "token_id": "11",
+          "uri": "aaa11"
+        },
+        {
+          "contract": "0x652721fee72039b04de328d5a01fe402493e20e7",
+          "token_id": "1",
+          "uri": "aaa1"
+        },
+        {
+          "contract": "0x652721fee72039b04de328d5a01fe402493e20e7",
+          "token_id": "5",
+          "uri": "aaa5"
+        },
+        {
+          "contract": "0x652721fee72039b04de328d5a01fe402493e20e7",
+          "token_id": "3",
+          "uri": "aaa3"
+        },
+        {
+          "contract": "0x652721fee72039b04de328d5a01fe402493e20e7",
+          "token_id": "7",
+          "uri": "aaa7"
+        },
+        {
+          "contract": "0xd6c71ba1d2a3d8e707684ca84c888547c57a13af",
+          "token_id": "121",
+          "uri": "https://fighters-dapp-rlmvb.ondigitalocean.app/fighters/121"
+        },
+        {
+          "contract": "0xb0ae9dd22a2e1211f813b081098581dd0ff5b981",
+          "token_id": "381",
+          "uri": "https://api.falcon.finance/eggs/381"
+        },
+        {
+          "contract": "0xb0ae9dd22a2e1211f813b081098581dd0ff5b981",
+          "token_id": "278",
+          "uri": "https://api.falcon.finance/eggs/278"
+        },
+        {
+          "contract": "0xb0ae9dd22a2e1211f813b081098581dd0ff5b981",
+          "token_id": "3386",
+          "uri": "https://api.falcon.finance/eggs/3386"
+        },
+        {
+          "contract": "0xb0ae9dd22a2e1211f813b081098581dd0ff5b981",
+          "token_id": "301",
+          "uri": "https://api.falcon.finance/eggs/301"
+        },
+        {
+          "contract": "0xb0ae9dd22a2e1211f813b081098581dd0ff5b981",
+          "token_id": "298",
+          "uri": "https://api.falcon.finance/eggs/298"
+        },
+        {
+          "contract": "0x8e6e63e05fffc220f808674e6ce14c82799d9f84",
+          "token_id": "6861",
+          "uri": "ipfs://bafybeigtyxrp4ujy4u2juthjfc26blvu7lnxjkwcac4stahn3ixayhxwe4/6861.json"
+        },
+        {
+          "contract": "0x8e6e63e05fffc220f808674e6ce14c82799d9f84",
+          "token_id": "7595",
+          "uri": "ipfs://bafybeigtyxrp4ujy4u2juthjfc26blvu7lnxjkwcac4stahn3ixayhxwe4/7595.json"
+        },
+        {
+          "contract": "0x8e6e63e05fffc220f808674e6ce14c82799d9f84",
+          "token_id": "8365",
+          "uri": "ipfs://bafybeigtyxrp4ujy4u2juthjfc26blvu7lnxjkwcac4stahn3ixayhxwe4/8365.json"
+        },
+        {
+          "contract": "0x8e6e63e05fffc220f808674e6ce14c82799d9f84",
+          "token_id": "2708",
+          "uri": "ipfs://bafybeigtyxrp4ujy4u2juthjfc26blvu7lnxjkwcac4stahn3ixayhxwe4/2708.json"
+        },
+        {
+          "contract": "0x8e6e63e05fffc220f808674e6ce14c82799d9f84",
+          "token_id": "5993",
+          "uri": "ipfs://bafybeigtyxrp4ujy4u2juthjfc26blvu7lnxjkwcac4stahn3ixayhxwe4/5993.json"
+        }
+      ]
+    }
+  },
+  "ens": {
+    "address": "0x000000000000000000000000000000000000dead",
+    "ens_name": null,
+    "text_records": {},
+    "social_links": {},
+    "has_ens": false,
+    "has_social_links": false
+  },
+  "verdicts": [
+    {
+      "title": "HIGH-RISK TRADER PROFILE",
+      "severity": "MEDIUM",
+      "category": "PROFILE",
+      "description": "Wallet shows impulsive trading behavior with meme coin exposure. Likely susceptible to FOMO-based attacks.",
+      "evidence": [
+        "Matched 3/3 signals",
+        "Pattern: high_risk_trader",
+        "Confidence: 100%",
+        "Signal: meme_exposure",
+        "Signal: tx_count",
+        "Signal: balance_usd"
+      ],
+      "action": "Target with urgency-based scams, fake alpha"
+    },
+    {
+      "title": "NO EXCHANGE TRAIL",
+      "severity": "MEDIUM",
+      "category": "INTEL",
+      "description": "Large holder with no detected CEX interactions. Funds origin harder to trace. May be privacy-conscious or using DEX only.",
+      "evidence": [
+        "Matched 3/3 signals",
+        "Pattern: no_exchange_trail",
+        "Confidence: 100%",
+        "Signal: exchange_interactions",
+        "Signal: balance_usd",
+        "Signal: tx_count"
+      ],
+      "action": "Trace funding source through on-chain analysis"
+    },
+    {
+      "title": "CONFIRMED INDIVIDUAL",
+      "severity": "INFO",
+      "category": "PROFILE",
+      "description": "High confidence this is a real individual, not a bot or institution. Human transaction patterns detected.",
+      "evidence": [
+        "Matched 3/4 signals",
+        "Pattern: confirmed_individual",
+        "Confidence: 75%",
+        "Signal: confidence_score",
+        "Signal: tx_count",
+        "Signal: tx_count"
+      ],
+      "action": "Suitable for targeted social engineering"
+    }
+  ]
+}

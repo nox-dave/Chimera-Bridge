@@ -1,0 +1,76 @@
+{
+  "address": "0x264bd8291fae1d75db2c5f573b07faa6715997b5",
+  "ipfs_hashes_found": [
+    {
+      "contract": "0xa53d381e979064e10f22a37d0d162fdd3a846cd8",
+      "token_id": "134",
+      "uri": "ipfs://QmNNRhri6ZqCTASX5aCtPtZJ6pmrVBf9WjM69Seps4xCPA/metadata.json",
+      "ipfs_hash": "QmNNRhri6ZqCTASX5aCtPtZJ6pmrVBf9WjM69Seps4xCPA"
+    },
+    {
+      "contract": "0xa53d381e979064e10f22a37d0d162fdd3a846cd8",
+      "token_id": "135",
+      "uri": "ipfs://QmNNRhri6ZqCTASX5aCtPtZJ6pmrVBf9WjM69Seps4xCPA/metadata.json",
+      "ipfs_hash": "QmNNRhri6ZqCTASX5aCtPtZJ6pmrVBf9WjM69Seps4xCPA"
+    },
+    {
+      "contract": "0xa53d381e979064e10f22a37d0d162fdd3a846cd8",
+      "token_id": "131",
+      "uri": "ipfs://QmNNRhri6ZqCTASX5aCtPtZJ6pmrVBf9WjM69Seps4xCPA/metadata.json",
+      "ipfs_hash": "QmNNRhri6ZqCTASX5aCtPtZJ6pmrVBf9WjM69Seps4xCPA"
+    },
+    {
+      "contract": "0x0f771e52e32133193d583d564c23f774bd664564",
+      "token_id": "27354256029996895115549872180978256484823431067458016482442946726644286488577",
+      "uri": "ipfs://ipfs/bafkreiamazvucld3mmlvjmrisztubivsd3jrju3ccqmlvgi3eab3jevcny",
+      "ipfs_hash": "ipfs"
+    }
+  ],
+  "metadata_analyzed": [],
+  "debug_info": {
+    "nft_transfers_count": 4,
+    "contracts_found": 2,
+    "tokens_checked": 4,
+    "uris_found": 4,
+    "ipfs_hashes_extracted": 4,
+    "metadata_fetched": 0
+  },
+  "findings": {
+    "total_hashes": 2,
+    "unique_hashes": [
+      "ipfs",
+      "QmNNRhri6ZqCTASX5aCtPtZJ6pmrVBf9WjM69Seps4xCPA"
+    ],
+    "linked_urls": [],
+    "usernames": [],
+    "emails": [],
+    "social_links": [],
+    "timestamps": [],
+    "creators": [],
+    "collections": [],
+    "domains": [],
+    "domain_analysis": {},
+    "metadata_urls": [
+      {
+        "contract": "0xa53d381e979064e10f22a37d0d162fdd3a846cd8",
+        "token_id": "134",
+        "uri": "ipfs://QmNNRhri6ZqCTASX5aCtPtZJ6pmrVBf9WjM69Seps4xCPA/metadata.json"
+      },
+      {
+        "contract": "0xa53d381e979064e10f22a37d0d162fdd3a846cd8",
+        "token_id": "135",
+        "uri": "ipfs://QmNNRhri6ZqCTASX5aCtPtZJ6pmrVBf9WjM69Seps4xCPA/metadata.json"
+      },
+      {
+        "contract": "0xa53d381e979064e10f22a37d0d162fdd3a846cd8",
+        "token_id": "131",
+        "uri": "ipfs://QmNNRhri6ZqCTASX5aCtPtZJ6pmrVBf9WjM69Seps4xCPA/metadata.json"
+      },
+      {
+        "contract": "0x0f771e52e32133193d583d564c23f774bd664564",
+        "token_id": "27354256029996895115549872180978256484823431067458016482442946726644286488577",
+        "uri": "ipfs://ipfs/bafkreiamazvucld3mmlvjmrisztubivsd3jrju3ccqmlvgi3eab3jevcny"
+      }
+    ]
+  }
+}

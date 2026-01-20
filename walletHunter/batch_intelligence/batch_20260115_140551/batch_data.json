@@ -1,0 +1,98 @@
+{
+  "generated_at": "2026-01-15T14:05:51.565447+00:00",
+  "batch_size": 7,
+  "parameters": {
+    "min_balance": 100000,
+    "limit": 10,
+    "include_ipfs": true
+  },
+  "total_value_usd": 79770905.56493774,
+  "profiles": [
+    {
+      "address": "0x7f604d597c15b2e2f60dc645844f68b1d781b752",
+      "balance_usd": 27231742.042412575,
+      "confidence": 75,
+      "sophistication": "Intermediate",
+      "categories": [
+        "\ud83c\udfb0_gamblers",
+        "\ud83c\udd95_newcomers",
+        "\ud83c\udfc6_status_seekers",
+        "\ud83d\udc8e_high_value",
+        "\ud83c\udfaf_prime_targets"
+      ]
+    },
+    {
+      "address": "0x000000000000000000000000000000000000dead",
+      "balance_usd": 42616001.518465005,
+      "confidence": 85,
+      "sophistication": "Intermediate",
+      "categories": [
+        "\ud83c\udfb0_gamblers",
+        "\ud83c\udd95_newcomers",
+        "\ud83c\udfc6_status_seekers",
+        "\ud83d\udc8e_high_value",
+        "\ud83c\udfaf_prime_targets"
+      ]
+    },
+    {
+      "address": "0x93228d328c9c74c2bfe9f97638bbb5ef322f2bd5",
+      "balance_usd": 1190491.5140352799,
+      "confidence": 75,
+      "sophistication": "Intermediate",
+      "categories": [
+        "\ud83c\udfb0_gamblers",
+        "\ud83c\udd95_newcomers",
+        "\ud83d\udc8e_high_value",
+        "\ud83c\udfaf_prime_targets"
+      ]
+    },
+    {
+      "address": "0x974caa59e49682cda0ad2bbe82983419a2ecc400",
+      "balance_usd": 4477695.32389565,
+      "confidence": 60,
+      "sophistication": "Intermediate",
+      "categories": [
+        "\ud83c\udfb0_gamblers",
+        "\ud83c\udd95_newcomers",
+        "\ud83c\udfc6_status_seekers",
+        "\ud83d\udc8e_high_value",
+        "\ud83c\udfaf_prime_targets"
+      ]
+    },
+    {
+      "address": "0x38f6d5fb32f970fe60924b282704899411126336",
+      "balance_usd": 3070754.485057171,
+      "confidence": 85,
+      "sophistication": "Intermediate",
+      "categories": [
+        "\ud83c\udfb0_gamblers",
+        "\ud83c\udd95_newcomers",
+        "\ud83d\udc8e_high_value",
+        "\ud83c\udfaf_prime_targets"
+      ]
+    },
+    {
+      "address": "0x9776cbecf431869d7cce96819131476c2e0f4ed5",
+      "balance_usd": 1017265.4883081899,
+      "confidence": 75,
+      "sophistication": "Intermediate",
+      "categories": [
+        "\ud83c\udfb0_gamblers",
+        "\ud83c\udd95_newcomers",
+        "\ud83c\udfc6_status_seekers",
+        "\ud83d\udc8e_high_value",
+        "\ud83c\udfaf_prime_targets"
+      ]
+    },
+    {
+      "address": "0xad85405cbb1476825b78a021fa9e543bf7937549",
+      "balance_usd": 166955.19276386278,
+      "confidence": 60,
+      "sophistication": "Intermediate",
+      "categories": [
+        "\ud83c\udfb0_gamblers",
+        "\ud83c\udd95_newcomers"
+      ]
+    }
+  ]
+}

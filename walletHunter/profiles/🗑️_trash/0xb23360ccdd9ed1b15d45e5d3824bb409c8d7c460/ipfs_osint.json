@@ -1,0 +1,75 @@
+{
+  "address": "0xb23360ccdd9ed1b15d45e5d3824bb409c8d7c460",
+  "ipfs_hashes_found": [
+    {
+      "contract": "0xf83119c353ce05f297ed0d1772944c12baf56118",
+      "token_id": "130",
+      "uri": "ipfs://QmQpgc5VKqA8evqfoQ2hXJY2dWwn8wqGjhU17Gjju3qPi4/metadata.json",
+      "ipfs_hash": "QmQpgc5VKqA8evqfoQ2hXJY2dWwn8wqGjhU17Gjju3qPi4"
+    }
+  ],
+  "metadata_analyzed": [],
+  "debug_info": {
+    "nft_transfers_count": 3,
+    "contracts_found": 3,
+    "tokens_checked": 3,
+    "uris_found": 3,
+    "ipfs_hashes_extracted": 1,
+    "metadata_fetched": 0
+  },
+  "findings": {
+    "total_hashes": 1,
+    "unique_hashes": [
+      "QmQpgc5VKqA8evqfoQ2hXJY2dWwn8wqGjhU17Gjju3qPi4"
+    ],
+    "linked_urls": [],
+    "usernames": [],
+    "emails": [],
+    "social_links": [],
+    "timestamps": [],
+    "creators": [],
+    "collections": [],
+    "domains": [
+      "luckyusdc.xyz",
+      "file-3af.pages.dev"
+    ],
+    "domain_analysis": {
+      "luckyusdc.xyz": {
+        "domain": "luckyusdc.xyz",
+        "is_ipfs": false,
+        "is_centralized": true,
+        "scam_indicators": [
+          "Contains suspicious keyword: 'lucky'",
+          "Suspicious TLD: .xyz"
+        ],
+        "reputation": "suspicious",
+        "whois_info": null
+      },
+      "file-3af.pages.dev": {
+        "domain": "file-3af.pages.dev",
+        "is_ipfs": false,
+        "is_centralized": true,
+        "scam_indicators": [],
+        "reputation": "unknown",
+        "whois_info": null
+      }
+    },
+    "metadata_urls": [
+      {
+        "contract": "0x732bc69d3ed34a18058dee2a9ef046d440a357e5",
+        "token_id": "3055",
+        "uri": "https://luckyusdc.xyz/metadata/3055.json"
+      },
+      {
+        "contract": "0xf83119c353ce05f297ed0d1772944c12baf56118",
+        "token_id": "130",
+        "uri": "ipfs://QmQpgc5VKqA8evqfoQ2hXJY2dWwn8wqGjhU17Gjju3qPi4/metadata.json"
+      },
+      {
+        "contract": "0xe5c9064540f398282e04ef1cadf195eb8dc310c4",
+        "token_id": "121",
+        "uri": "https://file-3af.pages.dev/reward3/json.json?nft=all"
+      }
+    ]
+  }
+}

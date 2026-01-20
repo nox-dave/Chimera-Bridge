@@ -1,0 +1,353 @@
+{
+  "address": "0x264bd8291fae1d75db2c5f573b07faa6715997b5",
+  "discovered_at": "2026-01-15T15:32:06.200979+00:00",
+  "total_value_usd": 10350921.803323584,
+  "eth_balance": 3103.8773117118794,
+  "eth_value_usd": 10350921.803323584,
+  "token_holdings": {},
+  "risk_score": 50,
+  "tx_count": 1000,
+  "defi_activity": false,
+  "nft_activity": {
+    "unique_collections": 2,
+    "top_collections": [
+      [
+        "$10,000 ETH Rewards airdrop-eth.com",
+        3
+      ],
+      [
+        "__pimpinMYdigitalz",
+        1
+      ]
+    ],
+    "collection_addresses": {
+      "0xa53d381e979064e10f22a37d0d162fdd3a846cd8": 3,
+      "0x0f771e52e32133193d583d564c23f774bd664564": 1
+    }
+  },
+  "bridge_activity": false,
+  "age_days": 0,
+  "osint_categories": [
+    "\ud83c\udfb0_gamblers",
+    "\ud83c\udd95_newcomers",
+    "\ud83c\udfc6_status_seekers"
+  ],
+  "primary_osint_category": "\ud83c\udfb0_gamblers",
+  "behavior": {
+    "confidence_score": 50,
+    "sophistication": "Intermediate",
+    "risk_tolerance": "Conservative",
+    "trading_style": "Long-term Holder",
+    "likely_region": "Europe",
+    "likely_timezone": "Europe/Africa (UTC+0 to +3)",
+    "meme_exposure": false,
+    "defi_protocols": [],
+    "nft_platforms": [],
+    "bridges_used": [],
+    "exchange_interactions": [],
+    "frequent_counterparties": []
+  },
+  "transaction_analysis": {
+    "total_transactions": 1000,
+    "total_value_eth": 150.8320478961782,
+    "most_active_hour": 15,
+    "most_active_day": "Thursday",
+    "top_recipients": [
+      [
+        "0x6c3ea9036406852006290770bedfcaba0e23a0e8",
+        209
+      ],
+      [
+        "0x264bd8291fae1d75db2c5f573b07faa6715997b5",
+        125
+      ],
+      [
+        "0x7e7392e24e7653b0ad7735d8c7e61db086bb719f",
+        14
+      ],
+      [
+        "0x90746d207cd56fef45c64bcc79dbf236d04c7608",
+        10
+      ],
+      [
+        "0x514910771af9ca656af840dff83e8264ecf986ca",
+        10
+      ],
+      [
+        "0xbdda9b5e993a661193c1e4de4b4bbe2024c4e5b4",
+        6
+      ],
+      [
+        "0xe343167631d89b6ffc58b88d6b7fb0228795491d",
+        6
+      ],
+      [
+        "0xa9532465780bdd949afd50612b8a941fea5163bd",
+        5
+      ],
+      [
+        "0x7431088d7eafb497091414358bb6a90ba8949937",
+        5
+      ],
+      [
+        "0xe0366c2bf6253300a1b776bd9ddc24b2a1b6e9b7",
+        4
+      ]
+    ],
+    "top_senders": [
+      [
+        "0x264bd8291fae1d75db2c5f573b07faa6715997b5",
+        875
+      ],
+      [
+        "0x3a09c40f8f7b93c8c7e09a5422e56dfe7c7d2794",
+        6
+      ],
+      [
+        "0x92164cd938aff4d97ea2111dc24720dc77bdf226",
+        5
+      ],
+      [
+        "0x12c43cc8e0679ed16da5766f57586db854a4ead9",
+        2
+      ],
+      [
+        "0x3d8b824d6e3be30acf1137897d6418fddf850fde",
+        1
+      ],
+      [
+        "0xd79d9127619b9a808cceec84eabc7a5c5ad55226",
+        1
+      ],
+      [
+        "0x8a92792e661170df64cf3072ef47b7427df1550b",
+        1
+      ],
+      [
+        "0xc98662d502dac2370b9f803242e92468fa2b7662",
+        1
+      ],
+      [
+        "0x50afa1a821c837c06f6cdbb9cb5f7844b3e98813",
+        1
+      ],
+      [
+        "0x0b7c5fd2e30743e05e4123be88222dc57b449b63",
+        1
+      ]
+    ],
+    "first_transaction": "2026-01-15T12:08:47",
+    "last_transaction": "2026-01-15T16:29:47",
+    "avg_gas_used": 29082.629,
+    "avg_gas_price": 192118249.18560034
+  },
+  "token_activity": {
+    "unique_tokens": 8,
+    "top_tokens": [
+      [
+        "PYUSD",
+        785
+      ],
+      [
+        "USDC",
+        128
+      ],
+      [
+        "LINK",
+        47
+      ],
+      [
+        "UNI",
+        18
+      ],
+      [
+        "USDG",
+        12
+      ],
+      [
+        "USDP",
+        5
+      ],
+      [
+        "USDT",
+        3
+      ],
+      [
+        "PAXG",
+        2
+      ]
+    ],
+    "token_values": {
+      "PYUSD": 36329217.07953503,
+      "USDP": 33406.89000000001,
+      "USDC": 14616521.120244006,
+      "LINK": 763.7419256229583,
+      "USDG": 24665835.846699998,
+      "USDT": 120.009575,
+      "UNI": 182.52685332000001,
+      "PAXG": 2.21188913
+    },
+    "token_details": {
+      "PYUSD": [
+        "PayPal USD"
+      ],
+      "USDP": [
+        "Pax Dollar"
+      ],
+      "USDC": [
+        "USDC"
+      ],
+      "LINK": [
+        "ChainLink Token"
+      ],
+      "USDG": [
+        "Global Dollar"
+      ],
+      "USDT": [
+        "Tether USD"
+      ],
+      "UNI": [
+        "Uniswap"
+      ],
+      "PAXG": [
+        "Paxos Gold"
+      ]
+    }
+  },
+  "ipfs_osint": {
+    "address": "0x264bd8291fae1d75db2c5f573b07faa6715997b5",
+    "ipfs_hashes_found": [
+      {
+        "contract": "0xa53d381e979064e10f22a37d0d162fdd3a846cd8",
+        "token_id": "134",
+        "uri": "ipfs://QmNNRhri6ZqCTASX5aCtPtZJ6pmrVBf9WjM69Seps4xCPA/metadata.json",
+        "ipfs_hash": "QmNNRhri6ZqCTASX5aCtPtZJ6pmrVBf9WjM69Seps4xCPA"
+      },
+      {
+        "contract": "0xa53d381e979064e10f22a37d0d162fdd3a846cd8",
+        "token_id": "135",
+        "uri": "ipfs://QmNNRhri6ZqCTASX5aCtPtZJ6pmrVBf9WjM69Seps4xCPA/metadata.json",
+        "ipfs_hash": "QmNNRhri6ZqCTASX5aCtPtZJ6pmrVBf9WjM69Seps4xCPA"
+      },
+      {
+        "contract": "0xa53d381e979064e10f22a37d0d162fdd3a846cd8",
+        "token_id": "131",
+        "uri": "ipfs://QmNNRhri6ZqCTASX5aCtPtZJ6pmrVBf9WjM69Seps4xCPA/metadata.json",
+        "ipfs_hash": "QmNNRhri6ZqCTASX5aCtPtZJ6pmrVBf9WjM69Seps4xCPA"
+      },
+      {
+        "contract": "0x0f771e52e32133193d583d564c23f774bd664564",
+        "token_id": "27354256029996895115549872180978256484823431067458016482442946726644286488577",
+        "uri": "ipfs://ipfs/bafkreiamazvucld3mmlvjmrisztubivsd3jrju3ccqmlvgi3eab3jevcny",
+        "ipfs_hash": "ipfs"
+      }
+    ],
+    "metadata_analyzed": [],
+    "debug_info": {
+      "nft_transfers_count": 4,
+      "contracts_found": 2,
+      "tokens_checked": 4,
+      "uris_found": 4,
+      "ipfs_hashes_extracted": 4,
+      "metadata_fetched": 0
+    },
+    "findings": {
+      "total_hashes": 2,
+      "unique_hashes": [
+        "ipfs",
+        "QmNNRhri6ZqCTASX5aCtPtZJ6pmrVBf9WjM69Seps4xCPA"
+      ],
+      "linked_urls": [],
+      "usernames": [],
+      "emails": [],
+      "social_links": [],
+      "timestamps": [],
+      "creators": [],
+      "collections": [],
+      "domains": [],
+      "domain_analysis": {},
+      "metadata_urls": [
+        {
+          "contract": "0xa53d381e979064e10f22a37d0d162fdd3a846cd8",
+          "token_id": "134",
+          "uri": "ipfs://QmNNRhri6ZqCTASX5aCtPtZJ6pmrVBf9WjM69Seps4xCPA/metadata.json"
+        },
+        {
+          "contract": "0xa53d381e979064e10f22a37d0d162fdd3a846cd8",
+          "token_id": "135",
+          "uri": "ipfs://QmNNRhri6ZqCTASX5aCtPtZJ6pmrVBf9WjM69Seps4xCPA/metadata.json"
+        },
+        {
+          "contract": "0xa53d381e979064e10f22a37d0d162fdd3a846cd8",
+          "token_id": "131",
+          "uri": "ipfs://QmNNRhri6ZqCTASX5aCtPtZJ6pmrVBf9WjM69Seps4xCPA/metadata.json"
+        },
+        {
+          "contract": "0x0f771e52e32133193d583d564c23f774bd664564",
+          "token_id": "27354256029996895115549872180978256484823431067458016482442946726644286488577",
+          "uri": "ipfs://ipfs/bafkreiamazvucld3mmlvjmrisztubivsd3jrju3ccqmlvgi3eab3jevcny"
+        }
+      ]
+    }
+  },
+  "ens": {
+    "address": "0x264bd8291fae1d75db2c5f573b07faa6715997b5",
+    "ens_name": null,
+    "text_records": {},
+    "social_links": {},
+    "has_ens": false,
+    "has_social_links": false
+  },
+  "approval_risk": {
+    "scan_timestamp": "2026-01-15T15:32:48.086422+00:00",
+    "total_approvals": 0,
+    "unlimited_approvals": 0,
+    "high_risk_approvals": 0,
+    "total_exposure_usd": 0,
+    "verdicts": [],
+    "has_dangerous_approvals": false
+  },
+  "funding_trace": {
+    "target": "0x264bd8291fae1d75db2c5f573b07faa6715997b5",
+    "trace_timestamp": "2026-01-15T15:32:14.856841+00:00",
+    "total_hops": 0,
+    "origin_found": false,
+    "origin_type": null,
+    "origin_label": null,
+    "trace_complete": false,
+    "trace_stopped_reason": "No funding transaction found",
+    "funding_chain": []
+  },
+  "verdicts": [
+    {
+      "title": "NFT COLLECTOR PROFILE",
+      "severity": "MEDIUM",
+      "category": "PROFILE",
+      "description": "Wallet shows strong NFT activity with significant holdings. Potential social identity vector through NFT metadata.",
+      "evidence": [
+        "Matched 3/4 signals",
+        "Pattern: nft_collector",
+        "Confidence: 75%",
+        "Signal: balance_usd",
+        "Signal: tx_frequency",
+        "Signal: defi_protocols_count"
+      ],
+      "action": "Investigate NFT metadata for OSINT"
+    },
+    {
+      "title": "NO EXCHANGE TRAIL",
+      "severity": "MEDIUM",
+      "category": "INTEL",
+      "description": "Large holder with no detected CEX interactions. Funds origin harder to trace. May be privacy-conscious or using DEX only.",
+      "evidence": [
+        "Matched 3/3 signals",
+        "Pattern: no_exchange_trail",
+        "Confidence: 100%",
+        "Signal: exchange_interactions",
+        "Signal: balance_usd",
+        "Signal: tx_count"
+      ],
+      "action": "Trace funding source through on-chain analysis"
+    }
+  ]
+}

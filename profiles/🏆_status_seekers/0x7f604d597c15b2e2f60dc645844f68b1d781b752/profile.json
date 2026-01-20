@@ -1,0 +1,596 @@
+{
+  "address": "0x7f604d597c15b2e2f60dc645844f68b1d781b752",
+  "discovered_at": "2026-01-20T10:13:38.406456+00:00",
+  "total_value_usd": 17490247.533519294,
+  "eth_balance": 5648.27404126106,
+  "eth_value_usd": 17490247.533519294,
+  "token_holdings": {},
+  "risk_score": 70,
+  "tx_count": 1000,
+  "defi_activity": false,
+  "nft_activity": {
+    "unique_collections": 1,
+    "top_collections": [
+      [
+        "ClaimPass",
+        1
+      ]
+    ],
+    "collection_addresses": {
+      "0x732bc69d3ed34a18058dee2a9ef046d440a357e5": 1
+    }
+  },
+  "bridge_activity": false,
+  "age_days": 1,
+  "osint_categories": [
+    "\ud83c\udfb0_gamblers",
+    "\ud83c\udd95_newcomers",
+    "\ud83c\udfc6_status_seekers",
+    "\ud83d\udc8e_high_value",
+    "\ud83c\udfaf_prime_targets"
+  ],
+  "primary_osint_category": "\ud83c\udfb0_gamblers",
+  "behavior": {
+    "confidence_score": 70,
+    "sophistication": "Intermediate",
+    "risk_tolerance": "Aggressive",
+    "trading_style": "Active Trader",
+    "likely_region": "Europe",
+    "likely_timezone": "Europe/Africa (UTC+0 to +3)",
+    "meme_exposure": true,
+    "defi_protocols": [],
+    "nft_platforms": [],
+    "bridges_used": [],
+    "exchange_interactions": [],
+    "frequent_counterparties": []
+  },
+  "transaction_analysis": {
+    "total_transactions": 1000,
+    "total_value_eth": 4079.85753041,
+    "most_active_hour": 14,
+    "most_active_day": "Monday",
+    "top_recipients": [
+      [
+        "0xdac17f958d2ee523a2206206994597c13d831ec7",
+        166
+      ],
+      [
+        "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+        121
+      ],
+      [
+        "0x3506424f91fd33084466f402d5d97f05f8e3b4af",
+        36
+      ],
+      [
+        "0xd533a949740bb3306d119cc777fa900ba034cd52",
+        32
+      ],
+      [
+        "0x514910771af9ca656af840dff83e8264ecf986ca",
+        25
+      ],
+      [
+        "0x6982508145454ce325ddbe47a25d4ec3d2311933",
+        22
+      ],
+      [
+        "0xe28b3b32b6c345a34ff64674606124dd5aceca30",
+        20
+      ],
+      [
+        "0xaea46a60368a7bd060eec7df8cba43b7ef41ad85",
+        19
+      ],
+      [
+        "0x1f9840a85d5af5bf1d1762f925bdaddc4201f984",
+        17
+      ],
+      [
+        "0xfaba6f8e4a5e8ab82f62fe7c39859fa577269be3",
+        17
+      ]
+    ],
+    "top_senders": [
+      [
+        "0x7f604d597c15b2e2f60dc645844f68b1d781b752",
+        1000
+      ]
+    ],
+    "first_transaction": "2026-01-18T01:26:23",
+    "last_transaction": "2026-01-20T11:03:35",
+    "avg_gas_used": 43210.757,
+    "avg_gas_price": 35422614.975210115
+  },
+  "token_activity": {
+    "unique_tokens": 68,
+    "top_tokens": [
+      [
+        "USDT",
+        194
+      ],
+      [
+        "USDC",
+        181
+      ],
+      [
+        "FET",
+        44
+      ],
+      [
+        "ONDO",
+        44
+      ],
+      [
+        "UNI",
+        39
+      ],
+      [
+        "SHIB",
+        37
+      ],
+      [
+        "CRV",
+        36
+      ],
+      [
+        "LINK",
+        35
+      ],
+      [
+        "PEPE",
+        25
+      ],
+      [
+        "CHZ",
+        21
+      ],
+      [
+        "INJ",
+        19
+      ],
+      [
+        "GRT",
+        19
+      ],
+      [
+        "AAVE",
+        14
+      ],
+      [
+        "RLUSD",
+        13
+      ],
+      [
+        "AXS",
+        11
+      ],
+      [
+        "EURC",
+        10
+      ],
+      [
+        "ZRX",
+        10
+      ],
+      [
+        "SUSHI",
+        9
+      ],
+      [
+        "FTM",
+        8
+      ],
+      [
+        "LDO",
+        8
+      ]
+    ],
+    "token_values": {
+      "STORJ": 24763.862467040002,
+      "USDT": 12997659.064049002,
+      "USDC": 26221681.407867998,
+      "SHIB": 92035351169.58096,
+      "LINK": 137518.86924617004,
+      "AAVE": 969.539338388123,
+      "RLUSD": 3719796.8930680277,
+      "INJ": 10063.787064949998,
+      "EURC": 46568.312672,
+      "UNI": 93262.67772549002,
+      "FLOKI": 187079327.46,
+      "SAND": 4256.40107583,
+      "ZRX": 83664.61189783999,
+      "FET": 466898.6872554709,
+      "PEPE": 73488517670.0793,
+      "CRV": 131652.45307612003,
+      "FTM": 165667.9921783271,
+      "ACU": 5.0,
+      "GWEI": 10.0,
+      "AXS": 15034.33634639,
+      "LDO": 4550.908198589999,
+      "GRT": 1883483.7405316702,
+      "APE": 6738.45084403,
+      "BAT": 24185.509143119998,
+      "AMP": 103000.10651895,
+      "VIRTUAL": 2011.45033552,
+      "AUDIO": 34020.231181439995,
+      "ONDO": 844822.7563235485,
+      "XCN": 449025.6,
+      "YFI": 87.29478347,
+      "CHZ": 1648835.0250811696,
+      "WECAN": 3332640.7320000003,
+      "POL": 30556.53906793,
+      "DAI": 2300.7313403800003,
+      "ZETA": 20.0,
+      "SYRUP": 182650.93191,
+      "COMP": 51.80235769,
+      "SUSHI": 880.90765304,
+      "1INCH": 80.0,
+      "IMX": 335.36466494,
+      "EURCV": 40.0,
+      "KNC": 107.1,
+      "TRAC": 80.0,
+      "GALA": 54455455.90272679,
+      "PYUSD": 40.0,
+      "UMA": 2.0,
+      "Mog": 10000000.0,
+      "SMT": 160.0,
+      "CTSI": 280.0,
+      "XCHNG": 37696.299999999996,
+      "LRC": 120.0,
+      "MANA": 114.78,
+      "PERP": 1008.05939394,
+      "CTX": 20.0,
+      "SNX": 2.0,
+      "ENS": 0.4,
+      "RNDR": 0.8,
+      "WBTC": 0.00216,
+      "SKL": 80.0,
+      "LMWR": 200.0,
+      "BLUR": 160.0,
+      "WOO": 80.0,
+      "MKR": 3.7720637099999994,
+      "CXT": 1200.0,
+      "STRK": 75.6,
+      "ENJ": 40.0,
+      "ENA": 69000.0,
+      "WLFI": 7713.63
+    },
+    "token_details": {
+      "STORJ": [
+        "Storj"
+      ],
+      "USDT": [
+        "Tether USD"
+      ],
+      "USDC": [
+        "USDC",
+        "USD Coin"
+      ],
+      "SHIB": [
+        "SHIBA INU"
+      ],
+      "LINK": [
+        "ChainLink Token"
+      ],
+      "AAVE": [
+        "Aave Token"
+      ],
+      "RLUSD": [
+        "RLUSD"
+      ],
+      "INJ": [
+        "Injective Token"
+      ],
+      "EURC": [
+        "EURC"
+      ],
+      "UNI": [
+        "Uniswap"
+      ],
+      "FLOKI": [
+        "FLOKI"
+      ],
+      "SAND": [
+        "SAND"
+      ],
+      "ZRX": [
+        "ZRX"
+      ],
+      "FET": [
+        "Fetch"
+      ],
+      "PEPE": [
+        "Pepe"
+      ],
+      "CRV": [
+        "Curve DAO Token"
+      ],
+      "FTM": [
+        "Fantom Token"
+      ],
+      "ACU": [
+        "Acurast"
+      ],
+      "GWEI": [
+        "ETHGas"
+      ],
+      "AXS": [
+        "Axie Infinity Shard"
+      ],
+      "LDO": [
+        "Lido DAO Token"
+      ],
+      "GRT": [
+        "Graph Token"
+      ],
+      "APE": [
+        "ApeCoin"
+      ],
+      "BAT": [
+        "BAT"
+      ],
+      "AMP": [
+        "Amp"
+      ],
+      "VIRTUAL": [
+        "Virtual Protocol"
+      ],
+      "AUDIO": [
+        "Audius"
+      ],
+      "ONDO": [
+        "Ondo"
+      ],
+      "XCN": [
+        "Onyxcoin"
+      ],
+      "YFI": [
+        "yearn.finance"
+      ],
+      "CHZ": [
+        "chiliZ"
+      ],
+      "WECAN": [
+        "Wecan"
+      ],
+      "POL": [
+        "Polygon Ecosystem Token"
+      ],
+      "DAI": [
+        "Dai Stablecoin"
+      ],
+      "ZETA": [
+        "Zeta"
+      ],
+      "SYRUP": [
+        "Syrup Token"
+      ],
+      "COMP": [
+        "Compound"
+      ],
+      "SUSHI": [
+        "SushiToken"
+      ],
+      "1INCH": [
+        "1INCH Token"
+      ],
+      "IMX": [
+        "Immutable X"
+      ],
+      "EURCV": [
+        "EUR CoinVertible"
+      ],
+      "KNC": [
+        "Kyber Network Crystal v2"
+      ],
+      "TRAC": [
+        "Trace"
+      ],
+      "GALA": [
+        "Gala"
+      ],
+      "PYUSD": [
+        "PayPal USD"
+      ],
+      "UMA": [
+        "UMA Voting Token v1"
+      ],
+      "Mog": [
+        "Mog Coin"
+      ],
+      "SMT": [
+        "Swarm Markets"
+      ],
+      "CTSI": [
+        "Cartesi Token"
+      ],
+      "XCHNG": [
+        "Chainge"
+      ],
+      "LRC": [
+        "LoopringCoin V2"
+      ],
+      "MANA": [
+        "Decentraland"
+      ],
+      "PERP": [
+        "Perpetual"
+      ],
+      "CTX": [
+        "Cryptex"
+      ],
+      "SNX": [
+        "Synthetix Network Token"
+      ],
+      "ENS": [
+        "Ethereum Name Service"
+      ],
+      "RNDR": [
+        "Render Token"
+      ],
+      "WBTC": [
+        "Wrapped BTC"
+      ],
+      "SKL": [
+        "SKALE"
+      ],
+      "LMWR": [
+        "LimeWire Token"
+      ],
+      "BLUR": [
+        "Blur"
+      ],
+      "WOO": [
+        "WOO"
+      ],
+      "MKR": [
+        "Maker"
+      ],
+      "CXT": [
+        "Covalent X Token"
+      ],
+      "STRK": [
+        "Starknet Token"
+      ],
+      "ENJ": [
+        "EnjinCoin"
+      ],
+      "ENA": [
+        "Ethena"
+      ],
+      "WLFI": [
+        "World Liberty Financial"
+      ]
+    }
+  },
+  "ipfs_osint": {
+    "address": "0x7f604d597c15b2e2f60dc645844f68b1d781b752",
+    "ipfs_hashes_found": [],
+    "metadata_analyzed": [],
+    "debug_info": {
+      "nft_transfers_count": 1,
+      "contracts_found": 1,
+      "tokens_checked": 1,
+      "uris_found": 1,
+      "ipfs_hashes_extracted": 0,
+      "metadata_fetched": 0
+    },
+    "findings": {
+      "total_hashes": 0,
+      "unique_hashes": [],
+      "linked_urls": [],
+      "usernames": [],
+      "emails": [],
+      "social_links": [],
+      "timestamps": [],
+      "creators": [],
+      "collections": [],
+      "domains": [
+        "luckyusdc.xyz"
+      ],
+      "domain_analysis": {
+        "luckyusdc.xyz": {
+          "domain": "luckyusdc.xyz",
+          "is_ipfs": false,
+          "is_centralized": true,
+          "scam_indicators": [
+            "Contains suspicious keyword: 'lucky'",
+            "Suspicious TLD: .xyz"
+          ],
+          "reputation": "suspicious",
+          "whois_info": null
+        }
+      },
+      "metadata_urls": [
+        {
+          "contract": "0x732bc69d3ed34a18058dee2a9ef046d440a357e5",
+          "token_id": "3046",
+          "uri": "https://luckyusdc.xyz/metadata/3046.json"
+        }
+      ]
+    }
+  },
+  "ens": {
+    "address": "0x7f604d597c15b2e2f60dc645844f68b1d781b752",
+    "ens_name": null,
+    "text_records": {},
+    "social_links": {},
+    "has_ens": false,
+    "has_social_links": false
+  },
+  "approval_risk": {
+    "scan_timestamp": "2026-01-20T10:13:48.411923+00:00",
+    "total_approvals": 0,
+    "unlimited_approvals": 0,
+    "high_risk_approvals": 0,
+    "total_exposure_usd": 0,
+    "verdicts": [],
+    "has_dangerous_approvals": false
+  },
+  "funding_trace": {
+    "target": "0x7f604d597c15b2e2f60dc645844f68b1d781b752",
+    "trace_timestamp": "2026-01-20T10:13:47.169537+00:00",
+    "total_hops": 0,
+    "origin_found": false,
+    "origin_type": null,
+    "origin_label": null,
+    "trace_complete": false,
+    "trace_stopped_reason": "No funding transaction found",
+    "funding_chain": []
+  },
+  "token_risks": {
+    "scan_timestamp": "2026-01-20T10:13:49.132892+00:00",
+    "tokens_analyzed": 0,
+    "risky_tokens": 0,
+    "total_value_at_risk_usd": 0,
+    "has_risky_tokens": false,
+    "verdicts": [],
+    "honeypots_detected": 0,
+    "impersonators_detected": 0
+  },
+  "verdicts": [
+    {
+      "title": "SCAM NFT AIRDROP DETECTED",
+      "severity": "CRITICAL",
+      "category": "THREAT",
+      "description": "This wallet received an NFT from a scam domain impersonating USDC stablecoin. The domain 'luckyusdc.xyz' is designed to phish users.",
+      "evidence": [
+        "Contains 'lucky' - Lottery/giveaway scam bait",
+        "Impersonating USDC stablecoin",
+        "Suspicious TLD: .xyz"
+      ],
+      "action": "Do not interact with this NFT or visit the domain"
+    },
+    {
+      "title": "HIGH-RISK TRADER PROFILE",
+      "severity": "MEDIUM",
+      "category": "PROFILE",
+      "description": "Wallet shows impulsive trading behavior with meme coin exposure. Likely susceptible to FOMO-based attacks.",
+      "evidence": [
+        "Matched 3/3 signals",
+        "Pattern: high_risk_trader",
+        "Confidence: 100%",
+        "Signal: meme_exposure",
+        "Signal: tx_count",
+        "Signal: balance_usd"
+      ],
+      "action": "Target with urgency-based scams, fake alpha"
+    },
+    {
+      "title": "NO EXCHANGE TRAIL",
+      "severity": "MEDIUM",
+      "category": "INTEL",
+      "description": "Large holder with no detected CEX interactions. Funds origin harder to trace. May be privacy-conscious or using DEX only.",
+      "evidence": [
+        "Matched 3/3 signals",
+        "Pattern: no_exchange_trail",
+        "Confidence: 100%",
+        "Signal: exchange_interactions",
+        "Signal: balance_usd",
+        "Signal: tx_count"
+      ],
+      "action": "Trace funding source through on-chain analysis"
+    }
+  ]
+}

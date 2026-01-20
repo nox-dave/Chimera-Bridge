@@ -1,0 +1,20 @@
+{
+  "address": "0x38f6d5fb32f970fe60924b282704899411126336",
+  "discovered_at": "2026-01-10T20:12:44.126464",
+  "total_value_usd": 2955462.9537593294,
+  "eth_balance": 985.1543179197765,
+  "eth_value_usd": 2955462.9537593294,
+  "token_holdings": {},
+  "category": "likely_exchange",
+  "risk_score": 30,
+  "priority": "low",
+  "tx_count": 173682,
+  "total_moved_eth": 0,
+  "defi_activity": false,
+  "nft_activity": false,
+  "bridge_activity": false,
+  "age_days": null,
+  "first_seen": null,
+  "last_active": null,
+  "etherscan_url": "https://etherscan.io/address/0x38f6d5fb32f970fe60924b282704899411126336"
+}

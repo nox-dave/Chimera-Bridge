@@ -1,0 +1,35 @@
+{
+  "address": "0x7e593457ed381546787beb14fdc9ec6cc0c135fd",
+  "discovered_at": "2026-01-09T16:02:27.542042",
+  "total_value_usd": 4877079.993092651,
+  "eth_balance": 1342.3101640482168,
+  "eth_value_usd": 4026930.4921446503,
+  "token_holdings": {
+    "USDT": {
+      "balance": 850149.500948,
+      "value_usd": 850149.500948
+    }
+  },
+  "category": "likely_individual",
+  "risk_score": 65,
+  "priority": "high",
+  "tx_count": 0,
+  "total_moved_eth": 0,
+  "defi_activity": false,
+  "nft_activity": false,
+  "bridge_activity": false,
+  "age_days": null,
+  "first_seen": null,
+  "last_active": null,
+  "etherscan_url": "https://etherscan.io/address/0x7e593457ed381546787beb14fdc9ec6cc0c135fd",
+  "osint_categories": [
+    "\ud83c\udd95_newcomers",
+    "\ud83d\udca4_dormant_whales",
+    "\ud83d\udc1f_easy_targets",
+    "\ud83e\udd8a_cautious_holders",
+    "\ud83d\udc8e_high_value",
+    "\ud83c\udfaf_prime_targets"
+  ],
+  "priority_score": 75,
+  "last_triage": "2026-01-14T15:44:52.549296Z"
+}

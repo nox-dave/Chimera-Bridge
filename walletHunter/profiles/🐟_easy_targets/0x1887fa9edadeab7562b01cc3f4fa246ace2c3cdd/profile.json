@@ -1,0 +1,329 @@
+{
+  "address": "0x1887fa9edadeab7562b01cc3f4fa246ace2c3cdd",
+  "discovered_at": "2026-01-15T11:36:04.917995+00:00",
+  "total_value_usd": 11239824.574001035,
+  "eth_balance": 3355.7468472905584,
+  "eth_value_usd": 11239824.574001035,
+  "token_holdings": {},
+  "risk_score": 75,
+  "tx_count": 1000,
+  "defi_activity": false,
+  "nft_activity": {},
+  "bridge_activity": false,
+  "age_days": 0,
+  "osint_categories": [
+    "\ud83c\udfb0_gamblers",
+    "\ud83c\udd95_newcomers",
+    "\ud83d\udc1f_easy_targets",
+    "\ud83d\udc8e_high_value",
+    "\ud83c\udfaf_prime_targets"
+  ],
+  "primary_osint_category": "\ud83c\udfb0_gamblers",
+  "behavior": {
+    "confidence_score": 75,
+    "sophistication": "Novice",
+    "risk_tolerance": "Aggressive",
+    "trading_style": "Stablecoin Holder",
+    "likely_region": "Asia-Pacific",
+    "likely_timezone": "Asia-Pacific (UTC+8 to +12)",
+    "meme_exposure": true,
+    "defi_protocols": [],
+    "nft_platforms": [],
+    "bridges_used": [],
+    "exchange_interactions": [],
+    "frequent_counterparties": []
+  },
+  "transaction_analysis": {
+    "total_transactions": 1000,
+    "total_value_eth": 58.00454738809401,
+    "most_active_hour": 7,
+    "most_active_day": "Thursday",
+    "top_recipients": [
+      [
+        "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+        336
+      ],
+      [
+        "0x95ad61b0a150d79219dcf64e1e6cc01f0b64c4ce",
+        41
+      ],
+      [
+        "0x6982508145454ce325ddbe47a25d4ec3d2311933",
+        15
+      ],
+      [
+        "0xda5e1988097297dcdc1f90d4dfe7909e847cbef6",
+        14
+      ],
+      [
+        "0xa2cd3d43c775978a96bdbf12d733d5a1ed94fb18",
+        10
+      ],
+      [
+        "0xcf0c122c6b73ff809c693db761e7baebe62b6a2e",
+        10
+      ],
+      [
+        "0x1887fa9edadeab7562b01cc3f4fa246ace2c3cdd",
+        9
+      ],
+      [
+        "0x7ef51e9f12a177a86de5c4d29f725ee1b0085798",
+        9
+      ],
+      [
+        "0xfaba6f8e4a5e8ab82f62fe7c39859fa577269be3",
+        7
+      ],
+      [
+        "0x624f68f94369d4c9352dc8bb7f2bac61c05955a9",
+        6
+      ]
+    ],
+    "top_senders": [
+      [
+        "0x1887fa9edadeab7562b01cc3f4fa246ace2c3cdd",
+        991
+      ],
+      [
+        "0x006130bd63d3ceec630351f62bc302f9d287ed8c",
+        2
+      ],
+      [
+        "0xf7ae0044d606bfa1aa5ea99fbc2abd20ca7d01e6",
+        1
+      ],
+      [
+        "0x06f3e8a2f4c098e73e318bb09cd0660900f01be3",
+        1
+      ],
+      [
+        "0x9e5f34261160737ea2ffba85570af898b8032316",
+        1
+      ],
+      [
+        "0x6a0197cdc876e2b5a192896d3f36ed57063f1fd8",
+        1
+      ],
+      [
+        "0xeaf6f4568295afccbbacfc63c2cce9a556ad314e",
+        1
+      ],
+      [
+        "0x7734240fc5d0fd7a5c358d537885c154d62ad4c1",
+        1
+      ],
+      [
+        "0xc6a71d3f60c44c7a102a2deb3bed390a6b48e77f",
+        1
+      ]
+    ],
+    "first_transaction": "2026-01-14T19:03:35",
+    "last_transaction": "2026-01-15T12:34:23",
+    "avg_gas_used": 37322.611,
+    "avg_gas_price": 353433356.3898985
+  },
+  "token_activity": {
+    "unique_tokens": 15,
+    "top_tokens": [
+      [
+        "USDC",
+        761
+      ],
+      [
+        "SHIB",
+        80
+      ],
+      [
+        "PEPE",
+        45
+      ],
+      [
+        "WLFI",
+        40
+      ],
+      [
+        "XCN",
+        19
+      ],
+      [
+        "FLOKI",
+        17
+      ],
+      [
+        "ONDO",
+        13
+      ],
+      [
+        "USDT",
+        9
+      ],
+      [
+        "CRV",
+        5
+      ],
+      [
+        "UNI",
+        3
+      ],
+      [
+        "COMP",
+        2
+      ],
+      [
+        "AAVE",
+        2
+      ],
+      [
+        "LDO",
+        2
+      ],
+      [
+        "SYRUP",
+        1
+      ],
+      [
+        "LINK",
+        1
+      ]
+    ],
+    "token_values": {
+      "USDC": 2500572.3737799963,
+      "XCN": 713817.7003133169,
+      "SHIB": 2181447838.8700004,
+      "WLFI": 65987.49181261931,
+      "PEPE": 553394733.2652733,
+      "FLOKI": 32209178.765690077,
+      "ONDO": 7606.024141173703,
+      "USDT": 0.0,
+      "CRV": 5695.776932132199,
+      "UNI": 275.26148819812886,
+      "COMP": 11.157823184561071,
+      "AAVE": 2.1405018167311325,
+      "LDO": 295.545,
+      "SYRUP": 250.64080386313503,
+      "LINK": 3.159256315813005
+    },
+    "token_details": {
+      "USDC": [
+        "USDC"
+      ],
+      "XCN": [
+        "Onyxcoin"
+      ],
+      "SHIB": [
+        "SHIBA INU"
+      ],
+      "WLFI": [
+        "World Liberty Financial"
+      ],
+      "PEPE": [
+        "Pepe"
+      ],
+      "FLOKI": [
+        "FLOKI"
+      ],
+      "ONDO": [
+        "Ondo"
+      ],
+      "USDT": [
+        "Tether USD"
+      ],
+      "CRV": [
+        "Curve DAO Token"
+      ],
+      "UNI": [
+        "Uniswap"
+      ],
+      "COMP": [
+        "Compound"
+      ],
+      "AAVE": [
+        "Aave Token"
+      ],
+      "LDO": [
+        "Lido DAO Token"
+      ],
+      "SYRUP": [
+        "Syrup Token"
+      ],
+      "LINK": [
+        "ChainLink Token"
+      ]
+    }
+  },
+  "ipfs_osint": {
+    "skipped": true,
+    "reason": "no_nft_activity"
+  },
+  "ens": {
+    "address": "0x1887fa9edadeab7562b01cc3f4fa246ace2c3cdd",
+    "ens_name": null,
+    "text_records": {},
+    "social_links": {},
+    "has_ens": false,
+    "has_social_links": false
+  },
+  "verdicts": [
+    {
+      "title": "NFT COLLECTOR PROFILE",
+      "severity": "MEDIUM",
+      "category": "PROFILE",
+      "description": "Wallet shows strong NFT activity with significant holdings. Potential social identity vector through NFT metadata.",
+      "evidence": [
+        "Matched 3/4 signals",
+        "Pattern: nft_collector",
+        "Confidence: 75%",
+        "Signal: balance_usd",
+        "Signal: tx_frequency",
+        "Signal: defi_protocols_count"
+      ],
+      "action": "Investigate NFT metadata for OSINT"
+    },
+    {
+      "title": "LOW SOPHISTICATION TARGET",
+      "severity": "MEDIUM",
+      "category": "VULNERABILITY",
+      "description": "Wallet shows limited DeFi knowledge but holds significant value. Basic phishing likely to succeed.",
+      "evidence": [
+        "Matched 3/4 signals",
+        "Pattern: low_sophistication_target",
+        "Confidence: 75%",
+        "Signal: sophistication",
+        "Signal: balance_usd",
+        "Signal: defi_protocols_count"
+      ],
+      "action": "Standard phishing attacks likely effective"
+    },
+    {
+      "title": "HIGH-RISK TRADER PROFILE",
+      "severity": "MEDIUM",
+      "category": "PROFILE",
+      "description": "Wallet shows impulsive trading behavior with meme coin exposure. Likely susceptible to FOMO-based attacks.",
+      "evidence": [
+        "Matched 3/3 signals",
+        "Pattern: high_risk_trader",
+        "Confidence: 100%",
+        "Signal: meme_exposure",
+        "Signal: tx_count",
+        "Signal: balance_usd"
+      ],
+      "action": "Target with urgency-based scams, fake alpha"
+    },
+    {
+      "title": "NO EXCHANGE TRAIL",
+      "severity": "MEDIUM",
+      "category": "INTEL",
+      "description": "Large holder with no detected CEX interactions. Funds origin harder to trace. May be privacy-conscious or using DEX only.",
+      "evidence": [
+        "Matched 3/3 signals",
+        "Pattern: no_exchange_trail",
+        "Confidence: 100%",
+        "Signal: exchange_interactions",
+        "Signal: balance_usd",
+        "Signal: tx_count"
+      ],
+      "action": "Trace funding source through on-chain analysis"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "address": "0x5e878ab619c88e2fff7fad1a2f602af8185b4a93",
+  "total_score": 50,
+  "value_score": 10,
+  "vulnerability_score": 25,
+  "confidence_score": 15,
+  "freshness_score": 0,
+  "balance_usd": 352914.09064118355,
+  "categories": [
+    "\ud83c\udd95_newcomers",
+    "\ud83d\udc1f_easy_targets",
+    "\ud83e\udd8a_cautious_holders"
+  ],
+  "confidence_pct": 60,
+  "last_updated": "",
+  "disqualified": false,
+  "disqualify_reason": ""
+}

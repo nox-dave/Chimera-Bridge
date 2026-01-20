@@ -1,0 +1,358 @@
+{
+  "address": "0x93228d328c9c74c2bfe9f97638bbb5ef322f2bd5",
+  "discovered_at": "2026-01-15T14:05:05.399982+00:00",
+  "total_value_usd": 1190491.5140352799,
+  "eth_balance": 352.5441979496712,
+  "eth_value_usd": 1190491.5140352799,
+  "token_holdings": {},
+  "risk_score": 75,
+  "tx_count": 1000,
+  "defi_activity": false,
+  "nft_activity": {},
+  "bridge_activity": false,
+  "age_days": 1,
+  "osint_categories": [
+    "\ud83c\udfb0_gamblers",
+    "\ud83c\udd95_newcomers",
+    "\ud83d\udc8e_high_value",
+    "\ud83c\udfaf_prime_targets"
+  ],
+  "primary_osint_category": "\ud83c\udfb0_gamblers",
+  "behavior": {
+    "confidence_score": 75,
+    "sophistication": "Intermediate",
+    "risk_tolerance": "Aggressive",
+    "trading_style": "Active Trader",
+    "likely_region": "Europe",
+    "likely_timezone": "Europe/Africa (UTC+0 to +3)",
+    "meme_exposure": true,
+    "defi_protocols": [],
+    "nft_platforms": [],
+    "bridges_used": [],
+    "exchange_interactions": [],
+    "frequent_counterparties": []
+  },
+  "transaction_analysis": {
+    "total_transactions": 1000,
+    "total_value_eth": 2493.5512928037906,
+    "most_active_hour": 15,
+    "most_active_day": "Wednesday",
+    "top_recipients": [
+      [
+        "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+        361
+      ],
+      [
+        "0xdac17f958d2ee523a2206206994597c13d831ec7",
+        225
+      ],
+      [
+        "0x93228d328c9c74c2bfe9f97638bbb5ef322f2bd5",
+        98
+      ],
+      [
+        "0xfaba6f8e4a5e8ab82f62fe7c39859fa577269be3",
+        26
+      ],
+      [
+        "0x6982508145454ce325ddbe47a25d4ec3d2311933",
+        25
+      ],
+      [
+        "0x514910771af9ca656af840dff83e8264ecf986ca",
+        15
+      ],
+      [
+        "0x95ad61b0a150d79219dcf64e1e6cc01f0b64c4ce",
+        10
+      ],
+      [
+        "0xd533a949740bb3306d119cc777fa900ba034cd52",
+        7
+      ],
+      [
+        "0x5d4d640e08f810f35df96ada6c029f12d5a7cfca",
+        6
+      ],
+      [
+        "0x2a45b74cfb0573b9ad5ae39da4fd0e3ffbaea7be",
+        5
+      ]
+    ],
+    "top_senders": [
+      [
+        "0x93228d328c9c74c2bfe9f97638bbb5ef322f2bd5",
+        902
+      ],
+      [
+        "0x304cef5d7091cc4446577c1cefa06dc75f1d59ee",
+        11
+      ],
+      [
+        "0x818570b628809140c3d1fdde811ef3b91dfd4482",
+        7
+      ],
+      [
+        "0x2e6f0bc8a636b3c36ad49b31bc3032d5f7823ed8",
+        2
+      ],
+      [
+        "0x939d35ab356132d3ca131776cff843f9cd646663",
+        2
+      ],
+      [
+        "0xde61d84e68071734e2a1302e146a69d7145ac5b2",
+        2
+      ],
+      [
+        "0x3655c49ca1741dd2cb65e1bd4f9f2009c69afb1c",
+        2
+      ],
+      [
+        "0x4a0b593fe31d0b5fa349890c02364a91f4689f48",
+        2
+      ],
+      [
+        "0x3f220ff37d07ab00b807c44e5f1f3f58dff2fa62",
+        2
+      ],
+      [
+        "0xa232e8172e026dfdbdec9c3d72315beb2587d1d1",
+        2
+      ]
+    ],
+    "first_transaction": "2026-01-13T15:08:59",
+    "last_transaction": "2026-01-15T15:03:23",
+    "avg_gas_used": 44629.028,
+    "avg_gas_price": 2120223551.1087692
+  },
+  "token_activity": {
+    "unique_tokens": 24,
+    "top_tokens": [
+      [
+        "USDC",
+        443
+      ],
+      [
+        "USDT",
+        301
+      ],
+      [
+        "ONDO",
+        64
+      ],
+      [
+        "LINK",
+        41
+      ],
+      [
+        "PEPE",
+        38
+      ],
+      [
+        "SKATE",
+        22
+      ],
+      [
+        "CRV",
+        17
+      ],
+      [
+        "SHIB",
+        13
+      ],
+      [
+        "AAVE",
+        10
+      ],
+      [
+        "EURC",
+        10
+      ],
+      [
+        "LA",
+        7
+      ],
+      [
+        "EIGEN",
+        6
+      ],
+      [
+        "UNI",
+        5
+      ],
+      [
+        "ZIG",
+        5
+      ],
+      [
+        "WLD",
+        4
+      ],
+      [
+        "SPX",
+        4
+      ],
+      [
+        "APE",
+        2
+      ],
+      [
+        "ATH",
+        2
+      ],
+      [
+        "SAND",
+        1
+      ],
+      [
+        "PENDLE",
+        1
+      ]
+    ],
+    "token_values": {
+      "USDC": 2070507.6607200005,
+      "USDT": 1330032.185419,
+      "SAND": 800.0,
+      "ONDO": 715446.9503314779,
+      "SHIB": 35898157357.59741,
+      "AAVE": 399.8517401191934,
+      "PEPE": 81721229667.63454,
+      "UNI": 1316.59902468,
+      "CRV": 115328.22089708474,
+      "SKATE": 1595325.4472999999,
+      "LINK": 15595.69413599,
+      "WLD": 2085.55665525,
+      "SPX": 4270.21319792,
+      "EURC": 442092.76918500004,
+      "ZIG": 76444.80300000001,
+      "LA": 87796.05473464,
+      "PENDLE": 3.68453796,
+      "MANA": 273.92778,
+      "EIGEN": 39891.43735408,
+      "ENA": 13.0,
+      "APE": 6967.73344434678,
+      "IMX": 350.5,
+      "\u200bW\u2061L\u206cD\u2064\u200b": 1998.4999999999998,
+      "ATH": 335602.67000000004
+    },
+    "token_details": {
+      "USDC": [
+        "USDC"
+      ],
+      "USDT": [
+        "Tether USD"
+      ],
+      "SAND": [
+        "SAND"
+      ],
+      "ONDO": [
+        "Ondo"
+      ],
+      "SHIB": [
+        "SHIBA INU"
+      ],
+      "AAVE": [
+        "Aave Token"
+      ],
+      "PEPE": [
+        "Pepe"
+      ],
+      "UNI": [
+        "Uniswap"
+      ],
+      "CRV": [
+        "Curve DAO Token"
+      ],
+      "SKATE": [
+        "Skate"
+      ],
+      "LINK": [
+        "ChainLink Token"
+      ],
+      "WLD": [
+        "Worldcoin"
+      ],
+      "SPX": [
+        "SPX6900"
+      ],
+      "EURC": [
+        "EURC"
+      ],
+      "ZIG": [
+        "ZigCoin"
+      ],
+      "LA": [
+        "Lagrange"
+      ],
+      "PENDLE": [
+        "Pendle"
+      ],
+      "MANA": [
+        "Decentraland"
+      ],
+      "EIGEN": [
+        "Eigen"
+      ],
+      "ENA": [
+        "Ethena"
+      ],
+      "APE": [
+        "ApeCoin"
+      ],
+      "IMX": [
+        "Immutable X"
+      ],
+      "\u200bW\u2061L\u206cD\u2064\u200b": [
+        "\ufeffW\u2061\u043e\u200er\u2063l\u2063d\u200c\u0441\u200d\u043e\u206bi\u206dn\u200d\u200c"
+      ],
+      "ATH": [
+        "Aethir Token"
+      ]
+    }
+  },
+  "ipfs_osint": {
+    "skipped": true,
+    "reason": "no_nft_activity"
+  },
+  "ens": {
+    "address": "0x93228d328c9c74c2bfe9f97638bbb5ef322f2bd5",
+    "ens_name": null,
+    "text_records": {},
+    "social_links": {},
+    "has_ens": false,
+    "has_social_links": false
+  },
+  "verdicts": [
+    {
+      "title": "HIGH-RISK TRADER PROFILE",
+      "severity": "MEDIUM",
+      "category": "PROFILE",
+      "description": "Wallet shows impulsive trading behavior with meme coin exposure. Likely susceptible to FOMO-based attacks.",
+      "evidence": [
+        "Matched 3/3 signals",
+        "Pattern: high_risk_trader",
+        "Confidence: 100%",
+        "Signal: meme_exposure",
+        "Signal: tx_count",
+        "Signal: balance_usd"
+      ],
+      "action": "Target with urgency-based scams, fake alpha"
+    },
+    {
+      "title": "NO EXCHANGE TRAIL",
+      "severity": "MEDIUM",
+      "category": "INTEL",
+      "description": "Large holder with no detected CEX interactions. Funds origin harder to trace. May be privacy-conscious or using DEX only.",
+      "evidence": [
+        "Matched 3/3 signals",
+        "Pattern: no_exchange_trail",
+        "Confidence: 100%",
+        "Signal: exchange_interactions",
+        "Signal: balance_usd",
+        "Signal: tx_count"
+      ],
+      "action": "Trace funding source through on-chain analysis"
+    }
+  ]
+}
