@@ -1,0 +1,265 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                         🐋 WHALE INTELLIGENCE REPORT                          ║
+║                           Gargophias OSINT Module                            ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+Target:     0x3a6687c021f87c1ef9739dfc1adade48c72a7511
+Generated:  2026-01-20 17:13:50 UTC
+
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                               QUICK ASSESSMENT                               │
+├──────────────────────────────────────────────────────────────────────────────┤
+│  ✅ LIKELY REAL PERSON                                                       │
+│  Confidence: 85%                                                               │
+│  Profile: Fish | NFT Collector | Meme Coin Player                           │
+└──────────────────────────────────────────────────────────────────────────────┘
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+💰 FINANCIAL SUMMARY
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Total Portfolio Value:  $                0.24
+  ETH Balance:                          0.0001 ETH
+  ETH Value:              $                0.24
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📊 ACTIVITY METRICS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Transaction Count:                       500
+  Total ETH Moved:                       68.14 ETH
+  Avg Transaction:                      0.2227 ETH
+  Wallet Age:                            1,208 days
+  First Transaction:                2022-09-30
+  Last Transaction:                 2026-01-20
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🧠 BEHAVIORAL PROFILE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Sophistication Level:   Advanced            
+  Risk Tolerance:         Aggressive          
+  Trading Style:          NFT Collector       
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+⏰ ACTIVITY PATTERNS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Peak Activity Hours:    8:00, 6:00, 22:00, 9:00 UTC
+  Most Active Days:       Sunday, Saturday, Friday
+  Likely Timezone:        Europe/Africa (UTC+0 to +3)
+  Probable Region:        Europe
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🔧 PROTOCOL & PLATFORM USAGE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  DeFi Protocols:
+    ✓ WETH Contract
+    ✓ Uniswap Universal Router
+
+  NFT Platforms:
+    ✓ X2Y2
+    ✓ OpenSea Seaport
+    ✓ OpenSea Seaport 1.6
+
+  Cross-Chain Bridges:
+    ✓ zkSync Bridge
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🪙 TOKEN INTERESTS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Active Tokens: weth, usdc, sos, fuel, renzo restaked eth, eeth, lvlusdusdc, eigen, rez, looks
+  Categories: 🐸 Meme Coins | 🏦 DeFi Tokens
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🏦 FUNDING & EXCHANGE RELATIONSHIPS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Original Funding:       Binance 14
+                          0x28c6c06298d514db089934071355e5743bf21d60...
+
+  Exchange Interactions:
+    • Binance 15
+    • Bybit Hot Wallet
+    • OKX 3
+    • Binance 14
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🎯 SIGNAL ANALYSIS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  ✅ BULLISH SIGNALS (Real Person Indicators):
+     • Exchange interactions
+     • Reasonable tx count
+     • Retail token activity
+     • NFT activity
+     • NFT activity - potential social identity vector
+     • Meme coin exposure - retail speculation behavior
+     • Funded from Binance 14 - withdrew from CEX
+
+  ⚠️  RED FLAGS (Caution Indicators):
+     • No significant red flags detected
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📋 OSINT ASSESSMENT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  HIGH CONFIDENCE (85%): This wallet likely belongs to a real individual.
+  GEOGRAPHIC: Activity patterns suggest Europe timezone (Europe/Africa (UTC+0 to +3)).
+  SOPHISTICATION: Advanced-level user. Experienced with DeFi, understands gas optimization.
+  RISK PROFILE: Aggressive. NFT Collector.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🎭 PROFILE HYPOTHESIS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Archetype: General Crypto Holder
+  
+  Narrative:
+    Originally funded through Binance, suggesting traditional onboarding.
+    Demonstrates advanced knowledge of DeFi protocols and on-chain mechanics.
+    Activity patterns suggest European timezone.
+    NFT activity provides potential vector for social identity discovery.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🔗 INVESTIGATION LINKS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Etherscan:      https://etherscan.io/address/0x3a6687c021f87c1ef9739dfc1adade48c72a7511
+  Debank:         https://debank.com/profile/0x3a6687c021f87c1ef9739dfc1adade48c72a7511
+  Arkham Intel:   https://platform.arkhamintelligence.com/explorer/address/0x3a6687c021f87c1ef9739dfc1adade48c72a7511
+  Nansen:         https://pro.nansen.ai/wallet/0x3a6687c021f87c1ef9739dfc1adade48c72a7511
+  Zerion:         https://app.zerion.io/0x3a6687c021f87c1ef9739dfc1adade48c72a7511/overview
+  Zapper:         https://zapper.xyz/account/0x3a6687c021f87c1ef9739dfc1adade48c72a7511
+
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                      PRIORITY: MEDIUM | CONFIDENCE: 85%                      ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+
+🔍 FUNDING SOURCE TRACE
+━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Hops Traced: 0
+
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🌐 IPFS & DOMAIN OSINT ANALYSIS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+NFT Transfers Analyzed: 129
+Contracts Checked: 18
+Tokens Scanned: 16
+Metadata Files Fetched: 3
+
+IPFS Hashes Found: 4
+
+Unique IPFS Hashes:
+  • bafybeiapkzfqa7n2o25hkasmkdz4el2ie3bz25gcg3yf4rkcpwezhe3ctm
+  • bafybeidjhro2a5kweai77pnhhzv34ffdfcvpkdxu7rqep2l6f5dz46etlm
+  • bafybeidgbhucjcqslrcigdh527f5rg462gvg2oamoxr2fqiqcw6yddc46i
+  • bafybeifsexiiy4rkwr62m3ha4zcrxfo3dnjlhqqxwezxhemz3os5vbww7m
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🌍 DOMAIN INTELLIGENCE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Domain: graphigo.prd.galaxy.eco
+  Reputation: UNKNOWN
+  Metadata URLs: 1
+
+Domain: one-gravity-uri.0g.ai
+  Reputation: UNKNOWN
+  Metadata URLs: 1
+
+Domain: derivio-mission.vercel.app
+  Reputation: UNKNOWN
+  Metadata URLs: 3
+
+Domain: public-cdn.sign.global
+  Reputation: UNKNOWN
+  Metadata URLs: 1
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📋 METADATA SOURCES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Contract: 0x47d7b611... | Token: 1139
+    URI: ipfs://bafybeiapkzfqa7n2o25hkasmkdz4el2ie3bz25gcg3yf4rkcpwezhe3ctm/113...
+  Contract: 0x26d85a13... | Token: 172874
+    URI: ipfs://bafybeifsexiiy4rkwr62m3ha4zcrxfo3dnjlhqqxwezxhemz3os5vbww7m/met...
+  Contract: 0xf39c410d... | Token: 1231
+    URI: https://one-gravity-uri.0g.ai/1231.json...
+  Contract: 0xbc37ee54... | Token: 1179
+    URI: https://public-cdn.sign.global/SeeingSigns/1179.json...
+  Contract: 0x86857299... | Token: 53
+    URI: https://derivio-mission.vercel.app/api/nft/1/metadata/53...
+  Contract: 0x86857299... | Token: 95
+    URI: https://derivio-mission.vercel.app/api/nft/1/metadata/95...
+  Contract: 0x86857299... | Token: 158
+    URI: https://derivio-mission.vercel.app/api/nft/1/metadata/158...
+  Contract: 0x5765a0ca... | Token: 1448
+    URI: ipfs://bafybeidjhro2a5kweai77pnhhzv34ffdfcvpkdxu7rqep2l6f5dz46etlm/144...
+  Contract: 0x9830b32f... | Token: 481
+    URI: ipfs://bafybeidgbhucjcqslrcigdh527f5rg462gvg2oamoxr2fqiqcw6yddc46i/481...
+  Contract: 0xf6b3cc9a... | Token: 13
+    URI: https://graphigo.prd.galaxy.eco/metadata/0xf6b3cc9a23095c1acbf076cb560...
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🔗 LINKED URLs
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  • https://cdn.galxe.com/galaxy/rise/344c05fe-f2dc-4cf3-8aac-28ee2c3dd17f.mp4
+  • http://public-cdn.sign.global/seeingsigns/seeing_signs.mp4
+  • https://galaxy.eco/nft/169858488/0xf6b3cc9a23095c1acbf076cb560bbb56c19504e2
+  • https://one-gravity-images.0g.ai/0xaf0354bdb25a87bdb86bb24a2fdbd49bc018016517ba7872765eba6ac11f690c.png
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🔗 ENS & SOCIAL IDENTITY
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+ENS Name: fucketf.eth
+
+ENS Text Records:
+  • avatar: https://euc.li/fucketf.eth
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📊 METADATA ANALYSIS SUMMARY
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Total metadata files analyzed: 3
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🎯 OSINT VERDICTS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+⚡ [MEDIUM] NFT COLLECTOR PROFILE
+   Wallet shows strong NFT activity with significant holdings. Potential social identity vector through NFT metadata.
+   Evidence:
+     • Matched 3/4 signals
+     • Pattern: nft_collector
+     • Confidence: 75%
+     • Signal: nft_platforms_count
+   → Action: Investigate NFT metadata for OSINT
+
+ℹ️ [INFO] CONFIRMED INDIVIDUAL
+   High confidence this is a real individual, not a bot or institution. Human transaction patterns detected.
+   Evidence:
+     • Matched 3/4 signals
+     • Pattern: confirmed_individual
+     • Confidence: 75%
+     • Signal: confidence_score
+   → Action: Suitable for targeted social engineering
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🎯 OSINT VERDICTS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+⚡ [MEDIUM] NFT COLLECTOR PROFILE
+   Wallet shows strong NFT activity with significant holdings. Potential social identity vector through NFT metadata.
+     • Matched 3/4 signals
+     • Pattern: nft_collector
+     • Confidence: 75%
+   → Action: Investigate NFT metadata for OSINT
+
+ℹ️ [INFO] CONFIRMED INDIVIDUAL
+   High confidence this is a real individual, not a bot or institution. Human transaction patterns detected.
+     • Matched 3/4 signals
+     • Pattern: confirmed_individual
+     • Confidence: 75%
+   → Action: Suitable for targeted social engineering
+

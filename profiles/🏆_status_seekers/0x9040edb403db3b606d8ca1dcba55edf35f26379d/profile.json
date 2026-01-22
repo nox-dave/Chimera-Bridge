@@ -1,0 +1,293 @@
+{
+  "address": "0x9040edb403db3b606d8ca1dcba55edf35f26379d",
+  "discovered_at": "2026-01-20T16:13:56.241582+00:00",
+  "total_value_usd": 0.00272881025618262,
+  "eth_balance": 9.00307464e-07,
+  "eth_value_usd": 0.00272881025618262,
+  "token_holdings": {},
+  "risk_score": 55,
+  "tx_count": 68,
+  "defi_activity": true,
+  "nft_activity": {
+    "unique_collections": 1,
+    "top_collections": [
+      [
+        "ObolLockups",
+        2
+      ]
+    ],
+    "collection_addresses": {
+      "0x3b9122704a20946e9cb49b2a8616ccc0f0d61adb": 2
+    }
+  },
+  "bridge_activity": false,
+  "age_days": 667,
+  "osint_categories": [
+    "\ud83c\udfc6_status_seekers"
+  ],
+  "primary_osint_category": "\ud83c\udfc6_status_seekers",
+  "behavior": {
+    "confidence_score": 55,
+    "sophistication": "Intermediate",
+    "risk_tolerance": "Moderate",
+    "trading_style": "Long-term Holder",
+    "likely_region": "Europe",
+    "likely_timezone": "Europe/Africa (UTC+0 to +3)",
+    "meme_exposure": false,
+    "defi_protocols": [
+      "1inch V5",
+      "0x Protocol"
+    ],
+    "nft_platforms": [],
+    "bridges_used": [],
+    "exchange_interactions": [
+      "Binance 15",
+      "Binance 16"
+    ],
+    "frequent_counterparties": []
+  },
+  "transaction_analysis": {
+    "total_transactions": 68,
+    "total_value_eth": 8.59435385261607,
+    "most_active_hour": 12,
+    "most_active_day": "Monday",
+    "top_recipients": [
+      [
+        "0xf3a11f43420e565373bd0fb1a638514938a6c530",
+        19
+      ],
+      [
+        "0xdef1c0ded9bec7f1a1670819833240f027b25eff",
+        11
+      ],
+      [
+        "0x9040edb403db3b606d8ca1dcba55edf35f26379d",
+        10
+      ],
+      [
+        "0xfe0c30065b384f05761f15d0cc899d4f9f9cc0eb",
+        10
+      ],
+      [
+        "0x1111111254eeb25477b68fb85ed929f73a960582",
+        8
+      ],
+      [
+        "0x35fa164735182de50811e8e2e824cfb9b6118ac2",
+        6
+      ],
+      [
+        "0x97ad24ab86186af1d0bad969c7ec2116f2120db6",
+        1
+      ],
+      [
+        "0x0b010000b7624eb9b3dfbc279673c76e9d29d5f7",
+        1
+      ],
+      [
+        "0x3b9122704a20946e9cb49b2a8616ccc0f0d61adb",
+        1
+      ],
+      [
+        "0xefd2247fcc3c7aa1fcbe1d2b81e6d0164583eea3",
+        1
+      ]
+    ],
+    "top_senders": [
+      [
+        "0x9040edb403db3b606d8ca1dcba55edf35f26379d",
+        58
+      ],
+      [
+        "0xc722e255ae7cb1c5fa9d7f558e5b88ac8b4b78a0",
+        4
+      ],
+      [
+        "0xdfd5293d8e347dfe59e90efd55b2956a1343963d",
+        2
+      ],
+      [
+        "0x4976a4a02f38326660d17bf34b431dc6e2eb2327",
+        1
+      ],
+      [
+        "0x21a31ee1afc51d94c2efccaa2092ad1028285549",
+        1
+      ],
+      [
+        "0x9696f59e4d72e237be84ffd425dcad154bf96976",
+        1
+      ],
+      [
+        "0xf3a15fb53eb57868d6dc8d45aca10528b5e7c530",
+        1
+      ]
+    ],
+    "first_transaction": "2024-03-24T15:38:47",
+    "last_transaction": "2026-01-20T15:36:35",
+    "avg_gas_used": 90826.83823529411,
+    "avg_gas_price": 16756238025.922998
+  },
+  "token_activity": {
+    "unique_tokens": 11,
+    "top_tokens": [
+      [
+        "ETHFI",
+        12
+      ],
+      [
+        "eETH",
+        10
+      ],
+      [
+        "SWOL",
+        2
+      ],
+      [
+        "OBOL",
+        2
+      ],
+      [
+        "CAT",
+        1
+      ],
+      [
+        "SUPERDOG",
+        1
+      ],
+      [
+        "PORT",
+        1
+      ],
+      [
+        "BONE",
+        1
+      ],
+      [
+        "SP",
+        1
+      ],
+      [
+        "BRM",
+        1
+      ],
+      [
+        "Get $ETHFI reward at https://etherfilabs.com",
+        1
+      ]
+    ],
+    "token_values": {
+      "eETH": 0.22061735087547965,
+      "CAT": 1.0,
+      "SUPERDOG": 5.0,
+      "PORT": 1.0,
+      "BONE": 1.0,
+      "SP": 1.0,
+      "BRM": 700.0,
+      "SWOL": 4752145.693066177,
+      "OBOL": 22880.0,
+      "ETHFI": 8484.281696335247,
+      "Get $ETHFI reward at https://etherfilabs.com": 752000.0
+    },
+    "token_details": {
+      "eETH": [
+        "ether.fi ETH"
+      ],
+      "CAT": [
+        "Trump Cat"
+      ],
+      "SUPERDOG": [
+        "SUPERDOG"
+      ],
+      "PORT": [
+        "DePORT"
+      ],
+      "BONE": [
+        "Trump Bone"
+      ],
+      "SP": [
+        "Padre Spurdo"
+      ],
+      "BRM": [
+        "BullRun Meme"
+      ],
+      "SWOL": [
+        "Snowy Owl"
+      ],
+      "OBOL": [
+        "Obol Network"
+      ],
+      "ETHFI": [
+        "ether.fi governance token"
+      ],
+      "Get $ETHFI reward at https://etherfilabs.com": [
+        "! etherfilabs.com"
+      ]
+    }
+  },
+  "ipfs_osint": {
+    "address": "0x9040edb403db3b606d8ca1dcba55edf35f26379d",
+    "ipfs_hashes_found": [],
+    "metadata_analyzed": [],
+    "debug_info": {
+      "nft_transfers_count": 2,
+      "contracts_found": 1,
+      "tokens_checked": 1,
+      "uris_found": 0,
+      "ipfs_hashes_extracted": 0,
+      "metadata_fetched": 0
+    },
+    "findings": {
+      "total_hashes": 0,
+      "unique_hashes": [],
+      "linked_urls": [],
+      "usernames": [],
+      "emails": [],
+      "social_links": [],
+      "timestamps": [],
+      "creators": [],
+      "collections": [],
+      "domains": [],
+      "domain_analysis": {},
+      "metadata_urls": []
+    }
+  },
+  "ens": {
+    "address": "0x9040edb403db3b606d8ca1dcba55edf35f26379d",
+    "ens_name": null,
+    "text_records": {},
+    "social_links": {},
+    "has_ens": false,
+    "has_social_links": false
+  },
+  "approval_risk": {
+    "scan_timestamp": "2026-01-20T16:14:05.903404+00:00",
+    "total_approvals": 0,
+    "unlimited_approvals": 0,
+    "high_risk_approvals": 0,
+    "total_exposure_usd": 0,
+    "verdicts": [],
+    "has_dangerous_approvals": false
+  },
+  "funding_trace": {
+    "target": "0x9040edb403db3b606d8ca1dcba55edf35f26379d",
+    "trace_timestamp": "2026-01-20T16:14:04.247070+00:00",
+    "total_hops": 0,
+    "origin_found": false,
+    "origin_type": null,
+    "origin_label": null,
+    "trace_complete": false,
+    "trace_stopped_reason": "No funding transaction found",
+    "funding_chain": []
+  },
+  "token_risks": {
+    "scan_timestamp": "2026-01-20T16:14:06.621577+00:00",
+    "tokens_analyzed": 0,
+    "risky_tokens": 0,
+    "total_value_at_risk_usd": 0,
+    "has_risky_tokens": false,
+    "verdicts": [],
+    "honeypots_detected": 0,
+    "impersonators_detected": 0
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "timestamp": "2026-01-20T16:59:33.012398",
+  "source_hunt": "/home/shahazzad/Desktop/FORGEMIX/Chimera/Contracts/hunt_20260120_150816.json",
+  "contracts_analyzed": 5,
+  "total_wallets_found": 0,
+  "total_exposure_usd": 0,
+  "exposures": [
+    {
+      "contract_address": "0x35fA164735182de50811E8e2E824cFb9B6118ac2",
+      "contract_name": "ether.fi Stake",
+      "chain": "Ethereum",
+      "category": "Liquid Restaking",
+      "tvl": 8855116953.130785,
+      "vulnerability_count": 9,
+      "highest_severity": "CRITICAL",
+      "total_wallets": 0,
+      "total_exposure_usd": 0,
+      "high_value_wallets": 0,
+      "exposed_wallets": []
+    },
+    {
+      "contract_address": "0x8315177aB297bA92A06054cE80a67Ed4DBd7ed3a",
+      "contract_name": "Arbitrum Bridge",
+      "chain": "Ethereum",
+      "category": "Canonical Bridge",
+      "tvl": 4402823045.787454,
+      "vulnerability_count": 6,
+      "highest_severity": "CRITICAL",
+      "total_wallets": 0,
+      "total_exposure_usd": 0,
+      "high_value_wallets": 0,
+      "exposed_wallets": []
+    },
+    {
+      "contract_address": "0x49048044D57e1C92A77f79988d21Fa8fAF74E97e",
+      "contract_name": "Base Bridge",
+      "chain": "Ethereum",
+      "category": "Canonical Bridge",
+      "tvl": 3452445704.6865654,
+      "vulnerability_count": 13,
+      "highest_severity": "CRITICAL",
+      "total_wallets": 0,
+      "total_exposure_usd": 0,
+      "high_value_wallets": 0,
+      "exposed_wallets": []
+    },
+    {
+      "contract_address": "0x68749665FF8D2d112Fa859AA293F07A622782F38",
+      "contract_name": "Tether Gold",
+      "chain": "Ethereum",
+      "category": "RWA",
+      "tvl": 2475195573.9885273,
+      "vulnerability_count": 8,
+      "highest_severity": "CRITICAL",
+      "total_wallets": 0,
+      "total_exposure_usd": 0,
+      "high_value_wallets": 0,
+      "exposed_wallets": []
+    },
+    {
+      "contract_address": "0x777777c9898D384F785Ee44Acfe945efDFf5f3E0",
+      "contract_name": "Steakhouse Financial",
+      "chain": "Ethereum",
+      "category": "Risk Curators",
+      "tvl": 2035185829.3925343,
+      "vulnerability_count": 7,
+      "highest_severity": "CRITICAL",
+      "total_wallets": 0,
+      "total_exposure_usd": 0,
+      "high_value_wallets": 0,
+      "exposed_wallets": []
+    }
+  ]
+}

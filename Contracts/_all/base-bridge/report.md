@@ -1,6 +1,6 @@
 # 🔱 Basilisk Security Report: Base Bridge
 
-> Generated: 2026-01-20T15:20:22.463664
+> Generated: 2026-01-22T19:32:58.617562
 
 ## Protocol Overview
 
@@ -10,23 +10,23 @@
 | **Address** | `0x49048044D57e1C92A77f79988d21Fa8fAF74E97e` |
 | **Chain** | Ethereum |
 | **Category** | Canonical Bridge |
-| **TVL** | $3,452,445,705 |
+| **TVL** | $3,316,413,394 |
 | **Audit Status** | ❌ Unaudited |
 | **Priority Score** | **80/100** |
 
 ## Verdicts
 
 - 🚨 **UNAUDITED HIGH-TVL PROTOCOL** (CRITICAL)
-  - Protocol has $3,452,445,705 TVL without documented audit
+  - Protocol has $3,316,413,394 TVL without documented audit
 - ℹ️ **VERY HIGH TVL TARGET** (INFO)
   - Protocol holds over $10M in TVL
 
-## Vulnerabilities Found (9)
+## Vulnerabilities Found (8)
 
 | Severity | Count |
 |----------|-------|
 | 🚨 Critical | 0 |
-| ⚠️ High | 4 |
+| ⚠️ High | 3 |
 | ⚡ Medium | 2 |
 | 📌 Low | 2 |
 | ℹ️ Info | 1 |
@@ -42,17 +42,7 @@
 
 **Recommendation**: Use msg.sender instead of tx.origin
 
-#### 2. Missing Access Control: renounceOwnership
-
-- **Detector**: access-control-pattern
-- **Confidence**: 80%
-- **Locations**: renounceOwnership
-
-**Description**: Function 'renounceOwnership' appears sensitive but has no obvious access control modifier.
-
-**Recommendation**: Add appropriate access control (onlyOwner, onlyAdmin, etc.)
-
-#### 3. Unchecked Call Return
+#### 2. Unchecked Call Return
 
 - **Detector**: unchecked-call-pattern
 - **Confidence**: 80%
@@ -62,7 +52,7 @@
 
 **Recommendation**: Check return value: (bool success, ) = addr.call(...); require(success);
 
-#### 4. Selfdestruct Present
+#### 3. Selfdestruct Present
 
 - **Detector**: selfdestruct-pattern
 - **Confidence**: 70%

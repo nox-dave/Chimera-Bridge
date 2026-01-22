@@ -1,0 +1,63 @@
+{
+  "address": "0x97c7ea0bbb592d8ff1d310bd7a8ace8cccbdb342",
+  "ipfs_hashes_found": [
+    {
+      "contract": "0x26d85a13212433fe6a8381969c2b0db390a0b0ae",
+      "token_id": "10297",
+      "uri": "ipfs://bafybeifsexiiy4rkwr62m3ha4zcrxfo3dnjlhqqxwezxhemz3os5vbww7m/metadata.json",
+      "ipfs_hash": "bafybeifsexiiy4rkwr62m3ha4zcrxfo3dnjlhqqxwezxhemz3os5vbww7m"
+    }
+  ],
+  "metadata_analyzed": [],
+  "debug_info": {
+    "nft_transfers_count": 4,
+    "contracts_found": 4,
+    "tokens_checked": 4,
+    "uris_found": 3,
+    "ipfs_hashes_extracted": 1,
+    "metadata_fetched": 0
+  },
+  "findings": {
+    "total_hashes": 1,
+    "unique_hashes": [
+      "bafybeifsexiiy4rkwr62m3ha4zcrxfo3dnjlhqqxwezxhemz3os5vbww7m"
+    ],
+    "linked_urls": [],
+    "usernames": [],
+    "emails": [],
+    "social_links": [],
+    "timestamps": [],
+    "creators": [],
+    "collections": [],
+    "domains": [
+      "mint.fun"
+    ],
+    "domain_analysis": {
+      "mint.fun": {
+        "domain": "mint.fun",
+        "is_ipfs": false,
+        "is_centralized": true,
+        "scam_indicators": [],
+        "reputation": "unknown",
+        "whois_info": null
+      }
+    },
+    "metadata_urls": [
+      {
+        "contract": "0x26d85a13212433fe6a8381969c2b0db390a0b0ae",
+        "token_id": "10297",
+        "uri": "ipfs://bafybeifsexiiy4rkwr62m3ha4zcrxfo3dnjlhqqxwezxhemz3os5vbww7m/metadata.json"
+      },
+      {
+        "contract": "0x0000000000664ceffed39244a8312bd895470803",
+        "token_id": "395135",
+        "uri": "https://mint.fun/api/mintfun/fundrop/token/395135.json"
+      },
+      {
+        "contract": "0x129c45d0359417517436920ffb3cf78e410daecd",
+        "token_id": "4113",
+        "uri": "data:application/json;base64,eyJuYW1lIjogIlBvcnRyYWl0IOKAlCAwMTEwMDAwMSAwMTEwMTAwMSA0MTEzIiwgImRlc2NyaXB0aW9uIjogIlRoZSBQb3J0cmFpdCBBSSBORlQgaGFzIGJlZW4gZGV2ZWxvcGVkIHRvIGNvbW1lbW9yYXRlIHRoZSBpbnRyb2R1Y3Rpb24gb2YgUG9ydHJhaXQgQUksIHRoZSBBSS1kcml2ZW4gZmVhdHVyZSBkZXNpZ25lZCB0byBlbmhhbmNlIHdlYnNpdGUgY3JlYXRpb24gdGhyb3VnaCBQb3J0cmFpdCdzIGJldGEgcHJvZ3JhbW1lLlxuXG5BIHNuYXBzaG90IHdhcyB0YWtlbiBvbiBGZWJydWFyeSAxMiwgMjAyNCwgdG8gYXNjZXJ0YWluIGVsaWdpYmlsaXR5IGZvciBleHRlbmRlZCBhY2Nlc3MgdG8gQUkgZmVhdHVyZXMgaW4gUG9ydHJhaXQncyBwdWJsaWMgdmVyc2lvbi5cblxuQXQgcHJlc2VudCwgdGhpcyBORlQgc2VydmVzIG5vIHB1cnBvc2UgYmV5b25kIG1hcmtpbmcgdGhlIG9jY2FzaW9uIG9mIFBvcnRyYWl0IEFJJ3MgbGF1bmNoLlxuXG5UbyBidWlsZCB5b3VyIFBvcnRyYWl0LCB2aXNpdCBwb3J0cmFpdC5zby4iLCAiaW1hZ2UiOiAiaXBmczovL2JhZnliZWlkdHNkZndydWpxZ2xtdXQya3Nyc2JuMmMydXhrd2R1cHl6cmNhaG02d2F3Mnpya2l1em5pIiwgImFuaW1hdGlvbl91cmwiOiAiaXBmczovL2JhZnliZWloM2p1aHB3czIyazVhM3loaXBjdTNwYzU2YTJ5bm0zbDJ5eXIzeWF4azZ0ZHYyamR1b2thIiwgInByb3BlcnRpZXMiOiB7Im51bWJlciI6IDQxMTMsICJuYW1lIjogIlBvcnRyYWl0IOKAlCAwMTEwMDAwMSAwMTEwMTAwMSJ9fQ=="
+      }
+    ]
+  }
+}

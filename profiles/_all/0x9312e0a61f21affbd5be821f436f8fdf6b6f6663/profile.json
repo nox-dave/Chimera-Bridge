@@ -1,0 +1,284 @@
+{
+  "address": "0x9312e0a61f21affbd5be821f436f8fdf6b6f6663",
+  "discovered_at": "2026-01-20T16:17:04.105106+00:00",
+  "total_value_usd": 26.991815341877686,
+  "eth_balance": 0.008904701954892815,
+  "eth_value_usd": 26.991815341877686,
+  "token_holdings": {},
+  "risk_score": 65,
+  "tx_count": 48,
+  "defi_activity": true,
+  "nft_activity": {},
+  "bridge_activity": false,
+  "age_days": 50,
+  "osint_categories": [
+    "\ud83d\udc1f_easy_targets"
+  ],
+  "primary_osint_category": "\ud83d\udc1f_easy_targets",
+  "behavior": {
+    "confidence_score": 65,
+    "sophistication": "Novice",
+    "risk_tolerance": "Moderate",
+    "trading_style": "Stablecoin Holder",
+    "likely_region": "Asia-Pacific",
+    "likely_timezone": "Asia-Pacific (UTC+8 to +12)",
+    "meme_exposure": false,
+    "defi_protocols": [
+      "Metamask Swap Router"
+    ],
+    "nft_platforms": [],
+    "bridges_used": [],
+    "exchange_interactions": [],
+    "frequent_counterparties": []
+  },
+  "transaction_analysis": {
+    "total_transactions": 48,
+    "total_value_eth": 0.65447458423416,
+    "most_active_hour": 3,
+    "most_active_day": "Thursday",
+    "top_recipients": [
+      [
+        "0x9312e0a61f21affbd5be821f436f8fdf6b6f6663",
+        40
+      ],
+      [
+        "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+        2
+      ],
+      [
+        "0x0439e60f02a8900a951603950d8d4527f400c3f1",
+        1
+      ],
+      [
+        "0x68749665ff8d2d112fa859aa293f07a622782f38",
+        1
+      ],
+      [
+        "0xdac17f958d2ee523a2206206994597c13d831ec7",
+        1
+      ],
+      [
+        "0xedde52716072abe1ee511ac9d1a4e04c829a76f9",
+        1
+      ],
+      [
+        "0xa5f565650890fba1824ee0f21ebbbf660a179934",
+        1
+      ],
+      [
+        "0x881d40237659c251811cec9c364ef91dc08d300c",
+        1
+      ]
+    ],
+    "top_senders": [
+      [
+        "0x9312e0a61f21affbd5be821f436f8fdf6b6f6663",
+        8
+      ],
+      [
+        "0xedde3046c5222202d7f0b9a3e1c6fad7e4e176f9",
+        7
+      ],
+      [
+        "0xeddeb0aa129637e9096bf2caf5a05707f1be56f9",
+        5
+      ],
+      [
+        "0xedd12957fd00eb9ca6eadef5cd88e14196a286f9",
+        5
+      ],
+      [
+        "0x581ba095d656ac26c897dc32f396e86298120490",
+        3
+      ],
+      [
+        "0x070799a0af92f51389e2aea77b298acdc0ad43b2",
+        3
+      ],
+      [
+        "0x06e3c2596fda31702b28cd95d080721342613403",
+        3
+      ],
+      [
+        "0x58184d03fad0e6410b22e7209151e4453b5c0490",
+        3
+      ],
+      [
+        "0x06eafb86873682e252a63c6b34b008e23e443403",
+        3
+      ],
+      [
+        "0x070112561eeddbbf9e0be07a4cd6d323e29e83b2",
+        3
+      ]
+    ],
+    "first_transaction": "2025-12-01T00:44:35",
+    "last_transaction": "2026-01-20T17:14:11",
+    "avg_gas_used": 42103.125,
+    "avg_gas_price": 766505308.7014929
+  },
+  "token_activity": {
+    "unique_tokens": 14,
+    "top_tokens": [
+      [
+        "USDC",
+        29
+      ],
+      [
+        "USDT",
+        13
+      ],
+      [
+        "PAXG",
+        9
+      ],
+      [
+        "XAUt",
+        3
+      ],
+      [
+        "ERC20\uff1aUSDC",
+        2
+      ],
+      [
+        "\ua4f4\ua4e2\ua4d3\u0421",
+        1
+      ],
+      [
+        "ERC20\uff1aUSDT",
+        1
+      ],
+      [
+        "UniLife",
+        1
+      ],
+      [
+        "SUPERDOG",
+        1
+      ],
+      [
+        "AICC",
+        1
+      ],
+      [
+        "ZIK",
+        1
+      ],
+      [
+        "SPX",
+        1
+      ],
+      [
+        "Gemini3",
+        1
+      ],
+      [
+        "ePEPE",
+        1
+      ]
+    ],
+    "token_values": {
+      "XAUt": 0.702518,
+      "USDT": 156076.450585,
+      "USDC": 490779.901864,
+      "ERC20\uff1aUSDC": 47399.5,
+      "PAXG": 32.6203517,
+      "\ua4f4\ua4e2\ua4d3\u0421": 30615.0,
+      "ERC20\uff1aUSDT": 19509.5,
+      "UniLife": 5.0,
+      "SUPERDOG": 5.0,
+      "AICC": 17500.0,
+      "ZIK": 444.0,
+      "SPX": 10.0,
+      "Gemini3": 10.0,
+      "ePEPE": 20.0
+    },
+    "token_details": {
+      "XAUt": [
+        "Tether Gold"
+      ],
+      "USDT": [
+        "Tether USD"
+      ],
+      "USDC": [
+        "USDC",
+        "USD Coin"
+      ],
+      "ERC20\uff1aUSDC": [
+        "USDC(USDC)"
+      ],
+      "PAXG": [
+        "Paxos Gold"
+      ],
+      "\ua4f4\ua4e2\ua4d3\u0421": [
+        "\ua4f4\ua4e2\ua4d3\u0421"
+      ],
+      "ERC20\uff1aUSDT": [
+        "Tether USD (USDT\uff09"
+      ],
+      "UniLife": [
+        "UniLife"
+      ],
+      "SUPERDOG": [
+        "SUPERDOG"
+      ],
+      "AICC": [
+        "AI Chain Coin"
+      ],
+      "ZIK": [
+        "ZIK coin"
+      ],
+      "SPX": [
+        "SPX"
+      ],
+      "Gemini3": [
+        "Gemini3"
+      ],
+      "ePEPE": [
+        "ePEPE"
+      ]
+    }
+  },
+  "ipfs_osint": {
+    "skipped": true,
+    "reason": "no_nft_activity"
+  },
+  "ens": {
+    "address": "0x9312e0a61f21affbd5be821f436f8fdf6b6f6663",
+    "ens_name": null,
+    "text_records": {},
+    "social_links": {},
+    "has_ens": false,
+    "has_social_links": false
+  },
+  "approval_risk": {
+    "scan_timestamp": "2026-01-20T16:17:12.766574+00:00",
+    "total_approvals": 0,
+    "unlimited_approvals": 0,
+    "high_risk_approvals": 0,
+    "total_exposure_usd": 0,
+    "verdicts": [],
+    "has_dangerous_approvals": false
+  },
+  "funding_trace": {
+    "target": "0x9312e0a61f21affbd5be821f436f8fdf6b6f6663",
+    "trace_timestamp": "2026-01-20T16:17:11.802545+00:00",
+    "total_hops": 0,
+    "origin_found": false,
+    "origin_type": null,
+    "origin_label": null,
+    "trace_complete": false,
+    "trace_stopped_reason": "No funding transaction found",
+    "funding_chain": []
+  },
+  "token_risks": {
+    "scan_timestamp": "2026-01-20T16:17:13.480922+00:00",
+    "tokens_analyzed": 0,
+    "risky_tokens": 0,
+    "total_value_at_risk_usd": 0,
+    "has_risky_tokens": false,
+    "verdicts": [],
+    "honeypots_detected": 0,
+    "impersonators_detected": 0
+  }
+}

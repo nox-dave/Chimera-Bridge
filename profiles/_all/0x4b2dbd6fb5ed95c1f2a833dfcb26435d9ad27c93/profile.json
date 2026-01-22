@@ -1,0 +1,212 @@
+{
+  "address": "0x4b2dbd6fb5ed95c1f2a833dfcb26435d9ad27c93",
+  "discovered_at": "2026-01-20T16:15:09.073483+00:00",
+  "total_value_usd": 3.3321575742094365,
+  "eth_balance": 0.001100144796043181,
+  "eth_value_usd": 3.3321575742094365,
+  "token_holdings": {},
+  "risk_score": 50,
+  "tx_count": 46,
+  "defi_activity": true,
+  "nft_activity": {},
+  "bridge_activity": true,
+  "age_days": 187,
+  "osint_categories": [
+    "\ud83e\udde0_defi_natives"
+  ],
+  "primary_osint_category": "\ud83e\udde0_defi_natives",
+  "behavior": {
+    "confidence_score": 50,
+    "sophistication": "Advanced",
+    "risk_tolerance": "Moderate",
+    "trading_style": "Stablecoin Holder",
+    "likely_region": "Europe",
+    "likely_timezone": "Europe/Africa (UTC+0 to +3)",
+    "meme_exposure": false,
+    "defi_protocols": [
+      "1inch V5",
+      "Metamask Swap Router",
+      "WETH Contract",
+      "Uniswap V2"
+    ],
+    "nft_platforms": [],
+    "bridges_used": [
+      "Arbitrum Gateway"
+    ],
+    "exchange_interactions": [],
+    "frequent_counterparties": []
+  },
+  "transaction_analysis": {
+    "total_transactions": 46,
+    "total_value_eth": 0.03459746842862878,
+    "most_active_hour": 18,
+    "most_active_day": "Tuesday",
+    "top_recipients": [
+      [
+        "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+        6
+      ],
+      [
+        "0x77b2043768d28e9c9ab44e1abfc95944bce57931",
+        5
+      ],
+      [
+        "0x296f55f8fb28e498b858d0bcda06d955b2cb3f97",
+        5
+      ],
+      [
+        "0x4b2dbd6fb5ed95c1f2a833dfcb26435d9ad27c93",
+        5
+      ],
+      [
+        "0x66a9893cc07d91d95644aedd05d03f95e1dba8af",
+        4
+      ],
+      [
+        "0x4c1746a800d224393fe2470c70a35717ed4ea5f1",
+        4
+      ],
+      [
+        "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+        3
+      ],
+      [
+        "0x881d40237659c251811cec9c364ef91dc08d300c",
+        3
+      ],
+      [
+        "0x7de04c96be5159c3b5ceffc82aa176dc81281557",
+        3
+      ],
+      [
+        "0xc026395860db2d07ee33e05fe50ed7bd583189c7",
+        2
+      ]
+    ],
+    "top_senders": [
+      [
+        "0x4b2dbd6fb5ed95c1f2a833dfcb26435d9ad27c93",
+        42
+      ],
+      [
+        "0xb42f812a44c22cc6b861478900401ee759ebead6",
+        2
+      ],
+      [
+        "0xc066ac5d385419b1a8c43a0e146fa439837a8b8c",
+        2
+      ]
+    ],
+    "first_transaction": "2025-07-17T10:43:59",
+    "last_transaction": "2025-08-05T18:29:59",
+    "avg_gas_used": 100894.97826086957,
+    "avg_gas_price": 4557730219.377853
+  },
+  "token_activity": {
+    "unique_tokens": 7,
+    "top_tokens": [
+      [
+        "USDC",
+        17
+      ],
+      [
+        "WETH",
+        6
+      ],
+      [
+        "PLUME",
+        2
+      ],
+      [
+        "BONE",
+        1
+      ],
+      [
+        "BP",
+        1
+      ],
+      [
+        "CSS",
+        1
+      ],
+      [
+        "GUS",
+        1
+      ]
+    ],
+    "token_values": {
+      "BONE": 1.0,
+      "BP": 1.0,
+      "CSS": 1.0,
+      "GUS": 1.0,
+      "USDC": 373.019652,
+      "WETH": 0.003948728703611661,
+      "PLUME": 303.58897188188945
+    },
+    "token_details": {
+      "BONE": [
+        "Trump Bone"
+      ],
+      "BP": [
+        "Bang Pang"
+      ],
+      "CSS": [
+        "Cyrus Sargon"
+      ],
+      "GUS": [
+        "Cheesy Gus"
+      ],
+      "USDC": [
+        "USDC"
+      ],
+      "WETH": [
+        "Wrapped Ether"
+      ],
+      "PLUME": [
+        "Plume"
+      ]
+    }
+  },
+  "ipfs_osint": {
+    "skipped": true,
+    "reason": "no_nft_activity"
+  },
+  "ens": {
+    "address": "0x4b2dbd6fb5ed95c1f2a833dfcb26435d9ad27c93",
+    "ens_name": null,
+    "text_records": {},
+    "social_links": {},
+    "has_ens": false,
+    "has_social_links": false
+  },
+  "approval_risk": {
+    "scan_timestamp": "2026-01-20T16:15:15.969981+00:00",
+    "total_approvals": 0,
+    "unlimited_approvals": 0,
+    "high_risk_approvals": 0,
+    "total_exposure_usd": 0,
+    "verdicts": [],
+    "has_dangerous_approvals": false
+  },
+  "funding_trace": {
+    "target": "0x4b2dbd6fb5ed95c1f2a833dfcb26435d9ad27c93",
+    "trace_timestamp": "2026-01-20T16:15:15.067186+00:00",
+    "total_hops": 0,
+    "origin_found": false,
+    "origin_type": null,
+    "origin_label": null,
+    "trace_complete": false,
+    "trace_stopped_reason": "No funding transaction found",
+    "funding_chain": []
+  },
+  "token_risks": {
+    "scan_timestamp": "2026-01-20T16:15:16.768271+00:00",
+    "tokens_analyzed": 0,
+    "risky_tokens": 0,
+    "total_value_at_risk_usd": 0,
+    "has_risky_tokens": false,
+    "verdicts": [],
+    "honeypots_detected": 0,
+    "impersonators_detected": 0
+  }
+}

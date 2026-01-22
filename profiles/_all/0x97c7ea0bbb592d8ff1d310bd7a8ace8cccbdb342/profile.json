@@ -1,0 +1,484 @@
+{
+  "address": "0x97c7ea0bbb592d8ff1d310bd7a8ace8cccbdb342",
+  "discovered_at": "2026-01-20T16:13:14.943562+00:00",
+  "total_value_usd": 31.889675871474104,
+  "eth_balance": 0.010520597848217303,
+  "eth_value_usd": 31.889675871474104,
+  "token_holdings": {},
+  "risk_score": 60,
+  "tx_count": 120,
+  "defi_activity": true,
+  "nft_activity": {
+    "unique_collections": 4,
+    "top_collections": [
+      [
+        "Withdraw Request NFT",
+        1
+      ],
+      [
+        "Ten Years Of Ethereum",
+        1
+      ],
+      [
+        "mint.fun !fundrop pass",
+        1
+      ],
+      [
+        "Portrait \u2014 01100001 01101001",
+        1
+      ]
+    ],
+    "collection_addresses": {
+      "0x7d5706f6ef3f89b3951e23e557cdfbc3239d4e2c": 1,
+      "0x26d85a13212433fe6a8381969c2b0db390a0b0ae": 1,
+      "0x0000000000664ceffed39244a8312bd895470803": 1,
+      "0x129c45d0359417517436920ffb3cf78e410daecd": 1
+    }
+  },
+  "bridge_activity": true,
+  "age_days": 904,
+  "osint_categories": [
+    "\ud83c\udfc6_status_seekers",
+    "\ud83e\udde0_defi_natives"
+  ],
+  "primary_osint_category": "\ud83c\udfc6_status_seekers",
+  "behavior": {
+    "confidence_score": 60,
+    "sophistication": "Advanced",
+    "risk_tolerance": "Moderate",
+    "trading_style": "Long-term Holder",
+    "likely_region": "Americas",
+    "likely_timezone": "Americas (UTC-5 to -8)",
+    "meme_exposure": false,
+    "defi_protocols": [
+      "WETH Contract",
+      "Uniswap Universal Router 2"
+    ],
+    "nft_platforms": [],
+    "bridges_used": [
+      "zkSync Bridge"
+    ],
+    "exchange_interactions": [],
+    "frequent_counterparties": []
+  },
+  "transaction_analysis": {
+    "total_transactions": 120,
+    "total_value_eth": 5.326917240553916,
+    "most_active_hour": 0,
+    "most_active_day": "Monday",
+    "top_recipients": [
+      [
+        "0xdcd0f5ab30856f28385f641580bbd85f88349124",
+        8
+      ],
+      [
+        "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+        6
+      ],
+      [
+        "0x39053d51b77dc0d36036fc1fcc8cb819df8ef37a",
+        5
+      ],
+      [
+        "0x4c9edd5852cd905f086c759e8383e09bff1e68b3",
+        4
+      ],
+      [
+        "0x90d2af7d622ca3141efa4d8f1f24d86e5974cc8f",
+        4
+      ],
+      [
+        "0x97c7ea0bbb592d8ff1d310bd7a8ace8cccbdb342",
+        4
+      ],
+      [
+        "0xf047ab4c75cebf0eb9ed34ae2c186f3611aeafa6",
+        4
+      ],
+      [
+        "0x888888888889758f76e7103c6cbf23abbf58f946",
+        3
+      ],
+      [
+        "0x463626cf9028d96ead5084954ff634f813d5ffb9",
+        3
+      ],
+      [
+        "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+        3
+      ]
+    ],
+    "top_senders": [
+      [
+        "0x97c7ea0bbb592d8ff1d310bd7a8ace8cccbdb342",
+        116
+      ],
+      [
+        "0xf70da97812cb96acdf810712aa562db8dfa3dbef",
+        2
+      ],
+      [
+        "0xcc9557f04633d82fb6a1741dcec96986cd8689ae",
+        1
+      ],
+      [
+        "0xe4edb277e41dc89ab076a1f049f4a3efa700bce8",
+        1
+      ]
+    ],
+    "first_transaction": "2023-07-31T11:24:59",
+    "last_transaction": "2026-01-20T16:31:23",
+    "avg_gas_used": 132564.41666666666,
+    "avg_gas_price": 17057839392.282675
+  },
+  "token_activity": {
+    "unique_tokens": 40,
+    "top_tokens": [
+      [
+        "USDC",
+        14
+      ],
+      [
+        "USDe",
+        8
+      ],
+      [
+        "EIGEN",
+        8
+      ],
+      [
+        "alUSD",
+        7
+      ],
+      [
+        "WETH",
+        5
+      ],
+      [
+        "eETH",
+        4
+      ],
+      [
+        "eUSDe",
+        4
+      ],
+      [
+        "swETH",
+        4
+      ],
+      [
+        "mswETH",
+        4
+      ],
+      [
+        "ETHFI",
+        4
+      ],
+      [
+        "Renzo Restaked ETH",
+        4
+      ],
+      [
+        "weETH",
+        2
+      ],
+      [
+        "SY-alUSD",
+        2
+      ],
+      [
+        "alUSDUSDC",
+        2
+      ],
+      [
+        "alUSDUSDC-gauge",
+        2
+      ],
+      [
+        "tETH",
+        2
+      ],
+      [
+        "UNI",
+        2
+      ],
+      [
+        "ERC20",
+        2
+      ],
+      [
+        "PROVE",
+        2
+      ],
+      [
+        "wstETH",
+        2
+      ]
+    ],
+    "token_values": {
+      "eETH": 3.0793362485968565,
+      "weETH": 0.9889222026812781,
+      "USDC": 8355.618877,
+      "sUSDe": 19.788830554889667,
+      "alUSD": 5955.135756427879,
+      "SY-alUSD": 16.450975717779013,
+      "alUSDUSDC": 1850.0875265921711,
+      "alUSDUSDC-gauge": 1850.0875265921711,
+      "tETH": 1.070594,
+      "BONE": 1.0,
+      "AICC": 17500.0,
+      "YT-alUSD-11DEC2025": 3450.596344,
+      "YT-tUSDe-18DEC2025": 7718.508579569658,
+      "sENA": 14.84,
+      "USDe": 4874.824350192355,
+      "eUSDe": 2437.4121754494263,
+      "UNI": 0.417328909629017,
+      "Visit website uniyield .org to claim rewards": 427.32,
+      "UNDG": 0.000277632,
+      "BP": 1.0,
+      "WETH": 2.4817767124259476,
+      "ERC20": 229.33034897936338,
+      "PROVE": 458.22857142857146,
+      "wstETH": 0.43212653015532443,
+      "tacETH": 0.5189225318306909,
+      "swETH": 1.2302138830496632,
+      "SWELL": 472.25271741354464,
+      "rSWELL": 472.25271741354464,
+      "KING": 0.001816174419527591,
+      "AERO": 100000000000.0,
+      "Grok3 Coin": 857990000000.0,
+      "GROK3 AI": 999660000000.0,
+      "BROCCOLI COIN": 995000000000000.0,
+      "ETHG": 2000000.0,
+      "EIGEN": 573.6361934114742,
+      "mswETH": 1.2302138830496632,
+      "ETHFI": 490.4028105669463,
+      "DOP": 467.76,
+      "Renzo Restaked ETH": 3.9755918304454636,
+      "Visit liquid-eth.net claim rewards": 1.7
+    },
+    "token_details": {
+      "eETH": [
+        "ether.fi ETH"
+      ],
+      "weETH": [
+        "Wrapped eETH"
+      ],
+      "USDC": [
+        "USDC"
+      ],
+      "sUSDe": [
+        "Staked USDe"
+      ],
+      "alUSD": [
+        "Autonomous Liquidity USD"
+      ],
+      "SY-alUSD": [
+        "SY-alUSD"
+      ],
+      "alUSDUSDC": [
+        "alUSDUSDC Almanak"
+      ],
+      "alUSDUSDC-gauge": [
+        "Curve.fi alUSDUSDC Gauge Deposit"
+      ],
+      "tETH": [
+        "Terminal WETH"
+      ],
+      "BONE": [
+        "Trump Bone"
+      ],
+      "AICC": [
+        "AI Chain Coin"
+      ],
+      "YT-alUSD-11DEC2025": [
+        "YT Autonomous Liquidity USD 11DEC2025"
+      ],
+      "YT-tUSDe-18DEC2025": [
+        "YT-tUSDe-18DEC2025"
+      ],
+      "sENA": [
+        "Staked ENA"
+      ],
+      "USDe": [
+        "USDe"
+      ],
+      "eUSDe": [
+        "Ethereal Pre-deposit Vault"
+      ],
+      "UNI": [
+        "Uniswap"
+      ],
+      "Visit website uniyield .org to claim rewards": [
+        "Visit website uniyield .org to claim rewards"
+      ],
+      "UNDG": [
+        "UniDexGas.com"
+      ],
+      "BP": [
+        "Bang Pang"
+      ],
+      "WETH": [
+        "Wrapped Ether"
+      ],
+      "ERC20": [
+        "Token"
+      ],
+      "PROVE": [
+        "Succinct"
+      ],
+      "wstETH": [
+        "Wrapped liquid staked Ether 2.0"
+      ],
+      "tacETH": [
+        "Turtle TAC ETH Vault"
+      ],
+      "swETH": [
+        "swETH"
+      ],
+      "SWELL": [
+        "Swell Governance Token"
+      ],
+      "rSWELL": [
+        "rSWELL"
+      ],
+      "KING": [
+        "King Protocol"
+      ],
+      "AERO": [
+        "Aerodrome"
+      ],
+      "Grok3 Coin": [
+        "GROK3 COIN"
+      ],
+      "GROK3 AI": [
+        "Grok3 AI"
+      ],
+      "BROCCOLI COIN": [
+        "Broccoli Coin"
+      ],
+      "ETHG": [
+        "Ethereum Games"
+      ],
+      "EIGEN": [
+        "Eigen"
+      ],
+      "mswETH": [
+        "mswETH"
+      ],
+      "ETHFI": [
+        "ether.fi governance token"
+      ],
+      "DOP": [
+        "Data Ownership Protocol"
+      ],
+      "Renzo Restaked ETH": [
+        "ezETH"
+      ],
+      "Visit liquid-eth.net claim rewards": [
+        "# liquid-eth.net"
+      ]
+    }
+  },
+  "ipfs_osint": {
+    "address": "0x97c7ea0bbb592d8ff1d310bd7a8ace8cccbdb342",
+    "ipfs_hashes_found": [
+      {
+        "contract": "0x26d85a13212433fe6a8381969c2b0db390a0b0ae",
+        "token_id": "10297",
+        "uri": "ipfs://bafybeifsexiiy4rkwr62m3ha4zcrxfo3dnjlhqqxwezxhemz3os5vbww7m/metadata.json",
+        "ipfs_hash": "bafybeifsexiiy4rkwr62m3ha4zcrxfo3dnjlhqqxwezxhemz3os5vbww7m"
+      }
+    ],
+    "metadata_analyzed": [],
+    "debug_info": {
+      "nft_transfers_count": 4,
+      "contracts_found": 4,
+      "tokens_checked": 4,
+      "uris_found": 3,
+      "ipfs_hashes_extracted": 1,
+      "metadata_fetched": 0
+    },
+    "findings": {
+      "total_hashes": 1,
+      "unique_hashes": [
+        "bafybeifsexiiy4rkwr62m3ha4zcrxfo3dnjlhqqxwezxhemz3os5vbww7m"
+      ],
+      "linked_urls": [],
+      "usernames": [],
+      "emails": [],
+      "social_links": [],
+      "timestamps": [],
+      "creators": [],
+      "collections": [],
+      "domains": [
+        "mint.fun"
+      ],
+      "domain_analysis": {
+        "mint.fun": {
+          "domain": "mint.fun",
+          "is_ipfs": false,
+          "is_centralized": true,
+          "scam_indicators": [],
+          "reputation": "unknown",
+          "whois_info": null
+        }
+      },
+      "metadata_urls": [
+        {
+          "contract": "0x26d85a13212433fe6a8381969c2b0db390a0b0ae",
+          "token_id": "10297",
+          "uri": "ipfs://bafybeifsexiiy4rkwr62m3ha4zcrxfo3dnjlhqqxwezxhemz3os5vbww7m/metadata.json"
+        },
+        {
+          "contract": "0x0000000000664ceffed39244a8312bd895470803",
+          "token_id": "395135",
+          "uri": "https://mint.fun/api/mintfun/fundrop/token/395135.json"
+        },
+        {
+          "contract": "0x129c45d0359417517436920ffb3cf78e410daecd",
+          "token_id": "4113",
+          "uri": "data:application/json;base64,eyJuYW1lIjogIlBvcnRyYWl0IOKAlCAwMTEwMDAwMSAwMTEwMTAwMSA0MTEzIiwgImRlc2NyaXB0aW9uIjogIlRoZSBQb3J0cmFpdCBBSSBORlQgaGFzIGJlZW4gZGV2ZWxvcGVkIHRvIGNvbW1lbW9yYXRlIHRoZSBpbnRyb2R1Y3Rpb24gb2YgUG9ydHJhaXQgQUksIHRoZSBBSS1kcml2ZW4gZmVhdHVyZSBkZXNpZ25lZCB0byBlbmhhbmNlIHdlYnNpdGUgY3JlYXRpb24gdGhyb3VnaCBQb3J0cmFpdCdzIGJldGEgcHJvZ3JhbW1lLlxuXG5BIHNuYXBzaG90IHdhcyB0YWtlbiBvbiBGZWJydWFyeSAxMiwgMjAyNCwgdG8gYXNjZXJ0YWluIGVsaWdpYmlsaXR5IGZvciBleHRlbmRlZCBhY2Nlc3MgdG8gQUkgZmVhdHVyZXMgaW4gUG9ydHJhaXQncyBwdWJsaWMgdmVyc2lvbi5cblxuQXQgcHJlc2VudCwgdGhpcyBORlQgc2VydmVzIG5vIHB1cnBvc2UgYmV5b25kIG1hcmtpbmcgdGhlIG9jY2FzaW9uIG9mIFBvcnRyYWl0IEFJJ3MgbGF1bmNoLlxuXG5UbyBidWlsZCB5b3VyIFBvcnRyYWl0LCB2aXNpdCBwb3J0cmFpdC5zby4iLCAiaW1hZ2UiOiAiaXBmczovL2JhZnliZWlkdHNkZndydWpxZ2xtdXQya3Nyc2JuMmMydXhrd2R1cHl6cmNhaG02d2F3Mnpya2l1em5pIiwgImFuaW1hdGlvbl91cmwiOiAiaXBmczovL2JhZnliZWloM2p1aHB3czIyazVhM3loaXBjdTNwYzU2YTJ5bm0zbDJ5eXIzeWF4azZ0ZHYyamR1b2thIiwgInByb3BlcnRpZXMiOiB7Im51bWJlciI6IDQxMTMsICJuYW1lIjogIlBvcnRyYWl0IOKAlCAwMTEwMDAwMSAwMTEwMTAwMSJ9fQ=="
+        }
+      ]
+    }
+  },
+  "ens": {
+    "address": "0x97c7ea0bbb592d8ff1d310bd7a8ace8cccbdb342",
+    "ens_name": null,
+    "text_records": {},
+    "social_links": {},
+    "has_ens": false,
+    "has_social_links": false
+  },
+  "approval_risk": {
+    "scan_timestamp": "2026-01-20T16:13:25.346866+00:00",
+    "total_approvals": 0,
+    "unlimited_approvals": 0,
+    "high_risk_approvals": 0,
+    "total_exposure_usd": 0,
+    "verdicts": [],
+    "has_dangerous_approvals": false
+  },
+  "funding_trace": {
+    "target": "0x97c7ea0bbb592d8ff1d310bd7a8ace8cccbdb342",
+    "trace_timestamp": "2026-01-20T16:13:22.180324+00:00",
+    "total_hops": 0,
+    "origin_found": false,
+    "origin_type": null,
+    "origin_label": null,
+    "trace_complete": false,
+    "trace_stopped_reason": "No funding transaction found",
+    "funding_chain": []
+  },
+  "token_risks": {
+    "scan_timestamp": "2026-01-20T16:13:26.067946+00:00",
+    "tokens_analyzed": 0,
+    "risky_tokens": 0,
+    "total_value_at_risk_usd": 0,
+    "has_risky_tokens": false,
+    "verdicts": [],
+    "honeypots_detected": 0,
+    "impersonators_detected": 0
+  }
+}

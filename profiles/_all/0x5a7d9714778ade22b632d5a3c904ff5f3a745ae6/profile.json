@@ -1,0 +1,322 @@
+{
+  "address": "0x5a7d9714778ade22b632d5a3c904ff5f3a745ae6",
+  "discovered_at": "2026-01-20T16:15:01.135788+00:00",
+  "total_value_usd": 27.709599345674615,
+  "eth_balance": 0.009144492655403088,
+  "eth_value_usd": 27.709599345674615,
+  "token_holdings": {},
+  "risk_score": 75,
+  "tx_count": 454,
+  "defi_activity": true,
+  "nft_activity": {},
+  "bridge_activity": true,
+  "age_days": 166,
+  "osint_categories": [
+    "\ud83c\udf09_cross_chain_users",
+    "\ud83e\udde0_defi_natives"
+  ],
+  "primary_osint_category": "\ud83c\udf09_cross_chain_users",
+  "behavior": {
+    "confidence_score": 75,
+    "sophistication": "Expert",
+    "risk_tolerance": "Moderate",
+    "trading_style": "DeFi Farmer",
+    "likely_region": "Asia-Pacific",
+    "likely_timezone": "Asia-Pacific (UTC+8 to +12)",
+    "meme_exposure": false,
+    "defi_protocols": [
+      "Uniswap V3",
+      "Uniswap V2",
+      "WETH Contract",
+      "Compound",
+      "SushiSwap",
+      "Metamask Swap Router",
+      "Aave V2",
+      "Uniswap Universal Router 2"
+    ],
+    "nft_platforms": [],
+    "bridges_used": [
+      "Optimism Bridge",
+      "Wormhole",
+      "Arbitrum Inbox",
+      "Polygon Bridge",
+      "Arbitrum Gateway"
+    ],
+    "exchange_interactions": [],
+    "frequent_counterparties": []
+  },
+  "transaction_analysis": {
+    "total_transactions": 454,
+    "total_value_eth": 2.9608965457297916,
+    "most_active_hour": 3,
+    "most_active_day": "Thursday",
+    "top_recipients": [
+      [
+        "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+        99
+      ],
+      [
+        "0xbebc44782c7db0a1a60cb6fe97d0b483032ff1c7",
+        50
+      ],
+      [
+        "0x6b175474e89094c44da98b954eedeac495271d0f",
+        33
+      ],
+      [
+        "0x7d2768de32b0b80b7a3454c06bdac94a69ddc7a9",
+        28
+      ],
+      [
+        "0xdac17f958d2ee523a2206206994597c13d831ec7",
+        22
+      ],
+      [
+        "0x2222222222222222222222222222222222222222",
+        15
+      ],
+      [
+        "0x663dc15d3c1ac63ff12e45ab68fea3f0a883c251",
+        14
+      ],
+      [
+        "0x3d9819210a31b4961b30ef54be2aed79b9c9cd3b",
+        14
+      ],
+      [
+        "0x1234567890123456789012345678901234567890",
+        13
+      ],
+      [
+        "0x7a250d5630b4cf539739df2c5dacb4c659f2488d",
+        11
+      ]
+    ],
+    "top_senders": [
+      [
+        "0x5a7d9714778ade22b632d5a3c904ff5f3a745ae6",
+        452
+      ],
+      [
+        "0x4e5b2e1dc63f6b91cb6cd759936495434c7e972f",
+        2
+      ]
+    ],
+    "first_transaction": "2025-08-06T21:56:47",
+    "last_transaction": "2025-10-23T01:55:47",
+    "avg_gas_used": 46470.799559471365,
+    "avg_gas_price": 327363548.70756906
+  },
+  "token_activity": {
+    "unique_tokens": 18,
+    "top_tokens": [
+      [
+        "USDT",
+        16
+      ],
+      [
+        "WETH",
+        13
+      ],
+      [
+        "DAI",
+        3
+      ],
+      [
+        "ARB",
+        3
+      ],
+      [
+        "ERC20",
+        3
+      ],
+      [
+        "cETH",
+        2
+      ],
+      [
+        "SOL",
+        2
+      ],
+      [
+        "LIFE",
+        1
+      ],
+      [
+        "SP",
+        1
+      ],
+      [
+        "EPIN",
+        1
+      ],
+      [
+        "DOK",
+        1
+      ],
+      [
+        "KEB",
+        1
+      ],
+      [
+        "MB",
+        1
+      ],
+      [
+        "CSS",
+        1
+      ],
+      [
+        "GUS",
+        1
+      ],
+      [
+        "aWETH",
+        1
+      ],
+      [
+        "ETHG",
+        1
+      ],
+      [
+        "AICC",
+        1
+      ]
+    ],
+    "token_values": {
+      "LIFE": 1.0,
+      "SP": 1.0,
+      "EPIN": 1.0,
+      "DOK": 1.0,
+      "KEB": 1.0,
+      "MB": 1.0,
+      "USDT": 4416.64962,
+      "cETH": 0.99084964,
+      "CSS": 1.0,
+      "GUS": 1.0,
+      "DAI": 437.8692903907631,
+      "ARB": 454.959214683879,
+      "SOL": 0.98014528,
+      "aWETH": 3.881592e-12,
+      "WETH": 3.881623999999999e-12,
+      "ETHG": 2000000.0,
+      "AICC": 17500.0,
+      "ERC20": 1.0000000000000002e-17
+    },
+    "token_details": {
+      "LIFE": [
+        "Wall Life"
+      ],
+      "SP": [
+        "Padre Spurdo"
+      ],
+      "EPIN": [
+        "EePIN"
+      ],
+      "DOK": [
+        "Disco Kendu"
+      ],
+      "KEB": [
+        "Shibo Kibo"
+      ],
+      "MB": [
+        "Meta Boost"
+      ],
+      "USDT": [
+        "Tether USD"
+      ],
+      "cETH": [
+        "Compound Ether"
+      ],
+      "CSS": [
+        "Cyrus Sargon"
+      ],
+      "GUS": [
+        "Cheesy Gus"
+      ],
+      "DAI": [
+        "Dai Stablecoin"
+      ],
+      "ARB": [
+        "Arbitrum"
+      ],
+      "SOL": [
+        "Wrapped SOL (Wormhole)"
+      ],
+      "aWETH": [
+        "Aave interest bearing WETH"
+      ],
+      "WETH": [
+        "Wrapped Ether"
+      ],
+      "ETHG": [
+        "Ethereum Games"
+      ],
+      "AICC": [
+        "AI Chain Coin"
+      ],
+      "ERC20": [
+        "Token"
+      ]
+    }
+  },
+  "ipfs_osint": {
+    "skipped": true,
+    "reason": "no_nft_activity"
+  },
+  "ens": {
+    "address": "0x5a7d9714778ade22b632d5a3c904ff5f3a745ae6",
+    "ens_name": null,
+    "text_records": {},
+    "social_links": {},
+    "has_ens": false,
+    "has_social_links": false
+  },
+  "approval_risk": {
+    "scan_timestamp": "2026-01-20T16:15:08.348699+00:00",
+    "total_approvals": 0,
+    "unlimited_approvals": 0,
+    "high_risk_approvals": 0,
+    "total_exposure_usd": 0,
+    "verdicts": [],
+    "has_dangerous_approvals": false
+  },
+  "funding_trace": {
+    "target": "0x5a7d9714778ade22b632d5a3c904ff5f3a745ae6",
+    "trace_timestamp": "2026-01-20T16:15:07.464425+00:00",
+    "total_hops": 0,
+    "origin_found": false,
+    "origin_type": null,
+    "origin_label": null,
+    "trace_complete": false,
+    "trace_stopped_reason": "No funding transaction found",
+    "funding_chain": []
+  },
+  "token_risks": {
+    "scan_timestamp": "2026-01-20T16:15:09.068925+00:00",
+    "tokens_analyzed": 0,
+    "risky_tokens": 0,
+    "total_value_at_risk_usd": 0,
+    "has_risky_tokens": false,
+    "verdicts": [],
+    "honeypots_detected": 0,
+    "impersonators_detected": 0
+  },
+  "verdicts": [
+    {
+      "title": "DEFI POWER USER",
+      "severity": "MEDIUM",
+      "category": "PROFILE",
+      "description": "Advanced DeFi user with multi-protocol exposure and cross-chain activity. High sophistication level.",
+      "evidence": [
+        "Matched 3/4 signals",
+        "Pattern: defi_power_user",
+        "Confidence: 75%",
+        "Signal: defi_protocols_count",
+        "Signal: bridges_count",
+        "Signal: sophistication"
+      ],
+      "action": "Target with advanced DeFi scams, fake protocol exploits"
+    }
+  ]
+}

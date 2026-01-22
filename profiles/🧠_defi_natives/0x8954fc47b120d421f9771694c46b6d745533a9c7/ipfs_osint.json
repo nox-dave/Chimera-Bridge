@@ -1,0 +1,195 @@
+{
+  "address": "0x8954fc47b120d421f9771694c46b6d745533a9c7",
+  "ipfs_hashes_found": [],
+  "metadata_analyzed": [
+    {
+      "contract": "0x932261f9fc8da46c4a22e31b45c4de60623848bf",
+      "token_id": "178257",
+      "analysis": {
+        "name": "#178257",
+        "description": "Zerion DNA is a first of a kind Dynamic NFT Avatar \u2013 a generative, living NFT that evolves over time to reflect your digital identity. Every wallet action renders unique attributes so that no two NFTs are alike. Wallet actions that will cause the NFT to evolve include buying and selling tokens, interacting with different networks and exploring the Zerion app.\n\nTo claim your DNA, create a Zerion Wallet via our Zerion iOS and Android apps.",
+        "image": "https://zerion-dna.s3.us-east-1.amazonaws.com/onepointo/75d486dffda6f3fa50be87fe86700d1675214993.png",
+        "external_url": "https://app.zerion.io/nfts/0x932261f9fc8da46c4a22e31b45c4de60623848bf:178257",
+        "attributes": [
+          {
+            "trait_type": "Age",
+            "value": "56 weeks"
+          },
+          {
+            "trait_type": "Gas Spend",
+            "value": "$0\u2013$50"
+          },
+          {
+            "display_type": "number",
+            "trait_type": "Transactions",
+            "value": 0
+          },
+          {
+            "trait_type": "Balance",
+            "value": "$0\u2013$100"
+          },
+          {
+            "display_type": "number",
+            "trait_type": "Assets",
+            "value": 4
+          },
+          {
+            "trait_type": "Favorite Network",
+            "value": "Ethereum"
+          },
+          {
+            "trait_type": "Body",
+            "value": "Level 6"
+          },
+          {
+            "trait_type": "Background",
+            "value": "Level 1"
+          }
+        ],
+        "properties": {},
+        "creator": {},
+        "artist": "",
+        "collection": {},
+        "ipfs_hashes": [],
+        "linked_urls": [
+          "https://app.zerion.io/nfts/0x932261f9fc8da46c4a22e31b45c4de60623848bf:178257",
+          "https://zerion-dna-mini.s3.us-east-1.amazonaws.com/onepointo/3e772576c12f14793674e1ffb248670becbc7020.270x270.png",
+          "https://zerion-dna.s3.us-east-1.amazonaws.com/onepointo/75d486dffda6f3fa50be87fe86700d1675214993.png"
+        ],
+        "timestamps": [],
+        "usernames": [],
+        "emails": [],
+        "social_links": []
+      },
+      "source": "https",
+      "domain": "dna.zerion.io"
+    },
+    {
+      "contract": "0x8d0802559775c70fb505f22988a4fd4a4f6d3b62",
+      "token_id": "56566",
+      "analysis": {
+        "name": "EigenWorld #56566",
+        "description": "EigenWorlds is EigenLayer\u2019s second NFT collection, an open edition for all community members to mint their names and own their visual emblems in the EigenLayer ecosystem.\n\nEach design is unique based on the minter\u2019s on-chain behavior, text input and a creative visual algorithm.",
+        "image": "https://eigen-layer.s3.us-east-1.amazonaws.com/tokens/56566.png",
+        "external_url": "",
+        "attributes": [
+          {
+            "trait_type": "Tier",
+            "value": "Restaker"
+          },
+          {
+            "trait_type": "Minting key",
+            "value": "88888888"
+          }
+        ],
+        "properties": {},
+        "creator": {},
+        "artist": "",
+        "collection": {},
+        "ipfs_hashes": [],
+        "linked_urls": [
+          "https://eigen-layer.s3.amazonaws.com/animations/56566.html",
+          "https://eigen-layer.s3.us-east-1.amazonaws.com/tokens/56566.png"
+        ],
+        "timestamps": [],
+        "usernames": [],
+        "emails": [],
+        "social_links": []
+      },
+      "source": "https",
+      "domain": "eigen-layer-02462cd942da.herokuapp.com"
+    }
+  ],
+  "debug_info": {
+    "nft_transfers_count": 5,
+    "contracts_found": 4,
+    "tokens_checked": 5,
+    "uris_found": 5,
+    "ipfs_hashes_extracted": 0,
+    "metadata_fetched": 2
+  },
+  "findings": {
+    "total_hashes": 0,
+    "unique_hashes": [],
+    "linked_urls": [
+      "https://eigen-layer.s3.amazonaws.com/animations/56566.html",
+      "https://zerion-dna-mini.s3.us-east-1.amazonaws.com/onepointo/3e772576c12f14793674e1ffb248670becbc7020.270x270.png",
+      "https://zerion-dna.s3.us-east-1.amazonaws.com/onepointo/75d486dffda6f3fa50be87fe86700d1675214993.png",
+      "https://app.zerion.io/nfts/0x932261f9fc8da46c4a22e31b45c4de60623848bf:178257",
+      "https://eigen-layer.s3.us-east-1.amazonaws.com/tokens/56566.png"
+    ],
+    "usernames": [],
+    "emails": [],
+    "social_links": [],
+    "timestamps": [],
+    "creators": [],
+    "collections": [],
+    "domains": [
+      "api.dtools.org",
+      "dna.zerion.io",
+      "zenacademy.com",
+      "eigen-layer-02462cd942da.herokuapp.com"
+    ],
+    "domain_analysis": {
+      "api.dtools.org": {
+        "domain": "api.dtools.org",
+        "is_ipfs": false,
+        "is_centralized": true,
+        "scam_indicators": [],
+        "reputation": "unknown",
+        "whois_info": null
+      },
+      "dna.zerion.io": {
+        "domain": "dna.zerion.io",
+        "is_ipfs": false,
+        "is_centralized": true,
+        "scam_indicators": [],
+        "reputation": "unknown",
+        "whois_info": null
+      },
+      "zenacademy.com": {
+        "domain": "zenacademy.com",
+        "is_ipfs": false,
+        "is_centralized": true,
+        "scam_indicators": [],
+        "reputation": "unknown",
+        "whois_info": null
+      },
+      "eigen-layer-02462cd942da.herokuapp.com": {
+        "domain": "eigen-layer-02462cd942da.herokuapp.com",
+        "is_ipfs": false,
+        "is_centralized": true,
+        "scam_indicators": [],
+        "reputation": "unknown",
+        "whois_info": null
+      }
+    },
+    "metadata_urls": [
+      {
+        "contract": "0xde07734c6a573371a5c88753b77e3c81055bdcc1",
+        "token_id": "16275",
+        "uri": "https://api.dtools.org/commonpass/16275"
+      },
+      {
+        "contract": "0xde07734c6a573371a5c88753b77e3c81055bdcc1",
+        "token_id": "15843",
+        "uri": "https://api.dtools.org/commonpass/15843"
+      },
+      {
+        "contract": "0x932261f9fc8da46c4a22e31b45c4de60623848bf",
+        "token_id": "178257",
+        "uri": "https://dna.zerion.io/api/v1/avatars/onepointo/178257"
+      },
+      {
+        "contract": "0x26d6c3e7aefce970fe3be5d589dbabfd30026924",
+        "token_id": "15059",
+        "uri": "https://zenacademy.com/api/tokens/15059"
+      },
+      {
+        "contract": "0x8d0802559775c70fb505f22988a4fd4a4f6d3b62",
+        "token_id": "56566",
+        "uri": "https://eigen-layer-02462cd942da.herokuapp.com/api/metadata/56566"
+      }
+    ]
+  }
+}

@@ -1,0 +1,145 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                         🐋 WHALE INTELLIGENCE REPORT                          ║
+║                           Gargophias OSINT Module                            ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+Target:     0x5a7d9714778ade22b632d5a3c904ff5f3a745ae6
+Generated:  2026-01-20 17:15:09 UTC
+
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                               QUICK ASSESSMENT                               │
+├──────────────────────────────────────────────────────────────────────────────┤
+│  ✅ LIKELY REAL PERSON                                                       │
+│  Confidence: 75%                                                               │
+│  Profile: Fish | DeFi Farmer | Cross-chain User                             │
+└──────────────────────────────────────────────────────────────────────────────┘
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+💰 FINANCIAL SUMMARY
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Total Portfolio Value:  $               27.71
+  ETH Balance:                          0.0091 ETH
+  ETH Value:              $               27.71
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📊 ACTIVITY METRICS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Transaction Count:                       454
+  Total ETH Moved:                        2.96 ETH
+  Avg Transaction:                      0.0293 ETH
+  Wallet Age:                              166 days
+  First Transaction:                2025-08-06
+  Last Transaction:                 2025-10-22
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🧠 BEHAVIORAL PROFILE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Sophistication Level:   Expert              
+  Risk Tolerance:         Moderate            
+  Trading Style:          DeFi Farmer         
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+⏰ ACTIVITY PATTERNS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Peak Activity Hours:    1:00, 4:00, 0:00, 2:00 UTC
+  Most Active Days:       Thursday, Wednesday, Tuesday
+  Likely Timezone:        Asia-Pacific (UTC+8 to +12)
+  Probable Region:        Asia-Pacific
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🔧 PROTOCOL & PLATFORM USAGE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  DeFi Protocols:
+    ✓ Uniswap V3
+    ✓ Uniswap V2
+    ✓ WETH Contract
+    ✓ Compound
+    ✓ SushiSwap
+    ✓ Metamask Swap Router
+
+  NFT Platforms:          None detected
+
+  Cross-Chain Bridges:
+    ✓ Optimism Bridge
+    ✓ Wormhole
+    ✓ Arbitrum Inbox
+    ✓ Polygon Bridge
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🪙 TOKEN INTERESTS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Active Tokens: usdt, weth, dai, arb, erc20, ceth, sol, life, sp, epin
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🏦 FUNDING & EXCHANGE RELATIONSHIPS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Original Funding:       Unknown
+                          0x4e5b2e1dc63f6b91cb6cd759936495434c7e972f...
+
+  Exchange Interactions:  None detected (DEX-only or self-custody)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🎯 SIGNAL ANALYSIS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  ✅ BULLISH SIGNALS (Real Person Indicators):
+     • Targeted by dust attacks
+     • Reasonable tx count
+     • Being targeted by address poisoning (scammers target real whales)
+
+  ⚠️  RED FLAGS (Caution Indicators):
+     • No significant red flags detected
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📋 OSINT ASSESSMENT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  HIGH CONFIDENCE (75%): This wallet likely belongs to a real individual.
+  GEOGRAPHIC: Activity patterns suggest Asia-Pacific timezone (Asia-Pacific (UTC+8 to +12)).
+  SOPHISTICATION: Expert-level user. Experienced with DeFi, understands gas optimization.
+  RISK PROFILE: Moderate. DeFi Farmer.
+  NOTABLE: Active target of address poisoning attacks - confirms wallet is monitored by scammers.
+  NOTABLE: Uses multiple bridges - may have significant holdings on other chains.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🎭 PROFILE HYPOTHESIS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Archetype: DeFi Power User / Yield Farmer
+  
+  Narrative:
+    Originally funded through Unknown, suggesting traditional onboarding.
+    Demonstrates advanced knowledge of DeFi protocols and on-chain mechanics.
+    Activity patterns suggest Asia-Pacific timezone.
+    Being targeted by scammers confirms this is an active, monitored wallet.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🔗 INVESTIGATION LINKS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Etherscan:      https://etherscan.io/address/0x5a7d9714778ade22b632d5a3c904ff5f3a745ae6
+  Debank:         https://debank.com/profile/0x5a7d9714778ade22b632d5a3c904ff5f3a745ae6
+  Arkham Intel:   https://platform.arkhamintelligence.com/explorer/address/0x5a7d9714778ade22b632d5a3c904ff5f3a745ae6
+  Nansen:         https://pro.nansen.ai/wallet/0x5a7d9714778ade22b632d5a3c904ff5f3a745ae6
+  Zerion:         https://app.zerion.io/0x5a7d9714778ade22b632d5a3c904ff5f3a745ae6/overview
+  Zapper:         https://zapper.xyz/account/0x5a7d9714778ade22b632d5a3c904ff5f3a745ae6
+
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                      PRIORITY: MEDIUM | CONFIDENCE: 75%                      ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+
+🔍 FUNDING SOURCE TRACE
+━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Hops Traced: 0
+
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🎯 OSINT VERDICTS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+⚡ [MEDIUM] DEFI POWER USER
+   Advanced DeFi user with multi-protocol exposure and cross-chain activity. High sophistication level.
+     • Matched 3/4 signals
+     • Pattern: defi_power_user
+     • Confidence: 75%
+   → Action: Target with advanced DeFi scams, fake protocol exploits
+

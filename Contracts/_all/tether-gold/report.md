@@ -1,6 +1,6 @@
 # 🔱 Basilisk Security Report: Tether Gold
 
-> Generated: 2026-01-20T15:20:22.464521
+> Generated: 2026-01-22T19:32:58.619034
 
 ## Protocol Overview
 
@@ -10,14 +10,14 @@
 | **Address** | `0x68749665FF8D2d112Fa859AA293F07A622782F38` |
 | **Chain** | Ethereum |
 | **Category** | RWA |
-| **TVL** | $2,475,195,574 |
+| **TVL** | $2,566,326,514 |
 | **Audit Status** | ❌ Unaudited |
 | **Priority Score** | **80/100** |
 
 ## Verdicts
 
 - 🚨 **UNAUDITED HIGH-TVL PROTOCOL** (CRITICAL)
-  - Protocol has $2,475,195,574 TVL without documented audit
+  - Protocol has $2,566,326,514 TVL without documented audit
 - ℹ️ **VERY HIGH TVL TARGET** (INFO)
   - Protocol holds over $10M in TVL
 

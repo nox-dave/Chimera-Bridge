@@ -1,0 +1,536 @@
+{
+  "address": "0xdc06023b80e588f1121a901efc3a0126f7191692",
+  "discovered_at": "2026-01-20T16:16:20.749716+00:00",
+  "total_value_usd": 255.77146044967918,
+  "eth_balance": 0.0843799720405767,
+  "eth_value_usd": 255.77146044967918,
+  "token_holdings": {},
+  "risk_score": 60,
+  "tx_count": 1000,
+  "defi_activity": false,
+  "nft_activity": {
+    "unique_collections": 1,
+    "top_collections": [
+      [
+        "Withdraw Request NFT",
+        10
+      ]
+    ],
+    "collection_addresses": {
+      "0x7d5706f6ef3f89b3951e23e557cdfbc3239d4e2c": 10
+    }
+  },
+  "bridge_activity": false,
+  "age_days": 28,
+  "osint_categories": [
+    "\ud83c\udfb0_gamblers",
+    "\ud83c\udfc6_status_seekers"
+  ],
+  "primary_osint_category": "\ud83c\udfb0_gamblers",
+  "behavior": {
+    "confidence_score": 60,
+    "sophistication": "Intermediate",
+    "risk_tolerance": "Conservative",
+    "trading_style": "Active Trader",
+    "likely_region": "Europe",
+    "likely_timezone": "Europe/Africa (UTC+0 to +3)",
+    "meme_exposure": false,
+    "defi_protocols": [],
+    "nft_platforms": [],
+    "bridges_used": [],
+    "exchange_interactions": [],
+    "frequent_counterparties": []
+  },
+  "transaction_analysis": {
+    "total_transactions": 1000,
+    "total_value_eth": 0.05260810131559933,
+    "most_active_hour": 7,
+    "most_active_day": "Tuesday",
+    "top_recipients": [
+      [
+        "0x6774bcbd5cecef1336b5300fb5186a12ddd8b367",
+        760
+      ],
+      [
+        "0x49048044d57e1c92a77f79988d21fa8faf74e97e",
+        206
+      ],
+      [
+        "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+        6
+      ],
+      [
+        "0xba3cb449bd2b4adddbc894d8697f5170800eadec",
+        5
+      ],
+      [
+        "0xd19d4b5d358258f05d7b411e21a1460d11b0876f",
+        4
+      ],
+      [
+        "0x657e8c867d8b37dcc18fa4caead9c45eb088c642",
+        3
+      ],
+      [
+        "0x663dc15d3c1ac63ff12e45ab68fea3f0a883c251",
+        2
+      ],
+      [
+        "0xcd2eb13d6831d4602d80e5db9230a57596cdca63",
+        2
+      ],
+      [
+        "0xcd5fe23c85820f7b72d0926fc9b05b43e359b7ee",
+        2
+      ],
+      [
+        "0x963f15f97db125fdbaa36aee1a34a6cbe24e0768",
+        1
+      ]
+    ],
+    "top_senders": [
+      [
+        "0xdc06023b80e588f1121a901efc3a0126f7191692",
+        1000
+      ]
+    ],
+    "first_transaction": "2025-11-21T16:00:59",
+    "last_transaction": "2026-01-20T14:21:23",
+    "avg_gas_used": 194869.125,
+    "avg_gas_price": 3540720434.299887
+  },
+  "token_activity": {
+    "unique_tokens": 70,
+    "top_tokens": [
+      [
+        "weETH",
+        88
+      ],
+      [
+        "USDC",
+        43
+      ],
+      [
+        "eETH",
+        34
+      ],
+      [
+        "eBTC",
+        29
+      ],
+      [
+        "liquidETH",
+        19
+      ],
+      [
+        "ETHFI",
+        18
+      ],
+      [
+        "USDT",
+        16
+      ],
+      [
+        "liquidBeraETH",
+        15
+      ],
+      [
+        "WETH",
+        14
+      ],
+      [
+        "liquidBeraBTC",
+        14
+      ],
+      [
+        "wHYPE",
+        9
+      ],
+      [
+        "stETH",
+        8
+      ],
+      [
+        "liquidUSD",
+        7
+      ],
+      [
+        "WBTC",
+        6
+      ],
+      [
+        "liquidBTC",
+        5
+      ],
+      [
+        "sETHFI",
+        4
+      ],
+      [
+        "Renzo Restaked ETH",
+        4
+      ],
+      [
+        "LBTC",
+        3
+      ],
+      [
+        "gtLRTcore",
+        3
+      ],
+      [
+        "USR",
+        2
+      ]
+    ],
+    "token_values": {
+      "GWEI": 5.0,
+      "ACU": 5.0,
+      "UniLife": 5.0,
+      "USDC": 1339.818516,
+      "EHORSE": 5.0,
+      "SUPERDOG": 5.0,
+      "USR": 11.045004368562807,
+      "ZIK": 222.0,
+      "CPM": 2000.0,
+      "YES": 3.0,
+      "wHYPE": 0.04210200000000001,
+      "DOGX": 2.0,
+      "xAI": 10.0,
+      "KIB": 1.0,
+      "LINK": 2.0,
+      "wTAO": 2.0,
+      "weETH": 0.3738773404292948,
+      "MetaAI": 10.0,
+      "ChatGpt": 6.0,
+      "SPX": 10.0,
+      "USDT": 47.263423999999986,
+      "Gemini3": 10.0,
+      "ePEPE": 20.0,
+      "eBTC": 0.00322667,
+      "BONE": 1.0,
+      "LIFE": 1.0,
+      "SP": 1.0,
+      "EPIN": 1.0,
+      "DOK": 1.0,
+      "WETH": 0.037502223325642715,
+      "XENA": 4.0,
+      "ERCAI": 4.0,
+      "SUPERX": 4.0,
+      "TRUNK": 1.0,
+      "liquidUSD": 8.634432,
+      "KEB": 1.0,
+      "liquidETH": 0.03295906612646829,
+      "MB": 1.0,
+      "Stars": 2.0,
+      "XMOVE": 2.0,
+      "CSS": 1.0,
+      "GUS": 1.0,
+      "MCAT": 2.0,
+      "PMAI": 2.0,
+      "FOMO": 2.0,
+      "SBX": 2.0,
+      "CAI": 2.0,
+      "INX": 2.0,
+      "SWOL": 30000.0,
+      "JUNFOX": 6475736593.067264,
+      "liquidBeraETH": 0.01788196459382962,
+      "liquidBeraBTC": 0.0020084000000000005,
+      "sETHFI": 32.459347600949336,
+      "ETHFI": 181.80565562875418,
+      "liquidBTC": 0.00043252,
+      "LiquidKatanaETH": 0.005172167837581394,
+      "LBTC": 0.00044165000000000003,
+      "Renzo Restaked ETH": 0.003800565821123176,
+      "WBTC": 0.00128926,
+      "UltraUSD": 1.039109,
+      "ETHG": 2000000.0,
+      "eETH": 0.25346932810127365,
+      "gtLRTcore": 0.003766790649375084,
+      "AICC": 17500.0,
+      "eUSD": 1.5012532307249684,
+      "stETH": 0.058631363532162445,
+      "MOVE": 8.0,
+      "NC-Eligible (Verify: www.nodeco.in)": 10403.999999999998,
+      "wstETH": 0.001682157095100066,
+      "USD0 [www.usual.finance]": 1668.0
+    },
+    "token_details": {
+      "GWEI": [
+        "ETHGas"
+      ],
+      "ACU": [
+        "Acurast"
+      ],
+      "UniLife": [
+        "UniLife"
+      ],
+      "USDC": [
+        "USDC"
+      ],
+      "EHORSE": [
+        "EHORSE"
+      ],
+      "SUPERDOG": [
+        "SUPERDOG"
+      ],
+      "USR": [
+        "Resolv USD"
+      ],
+      "ZIK": [
+        "ZIK coin"
+      ],
+      "CPM": [
+        "Crypto Pump Meme"
+      ],
+      "YES": [
+        "YES"
+      ],
+      "wHYPE": [
+        "Wrapped HYPE"
+      ],
+      "DOGX": [
+        "DOGX"
+      ],
+      "xAI": [
+        "xAI"
+      ],
+      "KIB": [
+        "Kibo Shib"
+      ],
+      "LINK": [
+        "LINK"
+      ],
+      "wTAO": [
+        "wTAO"
+      ],
+      "weETH": [
+        "Wrapped eETH"
+      ],
+      "MetaAI": [
+        "MetaAI"
+      ],
+      "ChatGpt": [
+        "ChatGpt"
+      ],
+      "SPX": [
+        "SPX"
+      ],
+      "USDT": [
+        "Tether USD"
+      ],
+      "Gemini3": [
+        "Gemini3"
+      ],
+      "ePEPE": [
+        "ePEPE"
+      ],
+      "eBTC": [
+        "ether.fi BTC"
+      ],
+      "BONE": [
+        "Trump Bone"
+      ],
+      "LIFE": [
+        "Wall Life"
+      ],
+      "SP": [
+        "Padre Spurdo"
+      ],
+      "EPIN": [
+        "EePIN"
+      ],
+      "DOK": [
+        "Disco Kendu"
+      ],
+      "WETH": [
+        "Wrapped Ether"
+      ],
+      "XENA": [
+        "XENA"
+      ],
+      "ERCAI": [
+        "ERCAI"
+      ],
+      "SUPERX": [
+        "SUPERX"
+      ],
+      "TRUNK": [
+        "Donald Trunk"
+      ],
+      "liquidUSD": [
+        "Ether.Fi Liquid USD"
+      ],
+      "KEB": [
+        "Shibo Kibo"
+      ],
+      "liquidETH": [
+        "Ether.Fi Liquid ETH"
+      ],
+      "MB": [
+        "Meta Boost"
+      ],
+      "Stars": [
+        "Stars"
+      ],
+      "XMOVE": [
+        "XMOVE"
+      ],
+      "CSS": [
+        "Cyrus Sargon"
+      ],
+      "GUS": [
+        "Cheesy Gus"
+      ],
+      "MCAT": [
+        "MCAT"
+      ],
+      "PMAI": [
+        "PMAI"
+      ],
+      "FOMO": [
+        "FOMO"
+      ],
+      "SBX": [
+        "SBX"
+      ],
+      "CAI": [
+        "CAI"
+      ],
+      "INX": [
+        "INX"
+      ],
+      "SWOL": [
+        "Snowy Owl"
+      ],
+      "JUNFOX": [
+        "Juniper Foxx"
+      ],
+      "liquidBeraETH": [
+        "Ether.Fi Liquid Bera ETH"
+      ],
+      "liquidBeraBTC": [
+        "Ether.Fi Liquid Bera BTC"
+      ],
+      "sETHFI": [
+        "Staked ETHFI"
+      ],
+      "ETHFI": [
+        "ether.fi governance token"
+      ],
+      "liquidBTC": [
+        "Ether.Fi Liquid BTC"
+      ],
+      "LiquidKatanaETH": [
+        "Ether.fi Liquid Katana ETH"
+      ],
+      "LBTC": [
+        "Lombard Staked BTC"
+      ],
+      "Renzo Restaked ETH": [
+        "ezETH"
+      ],
+      "WBTC": [
+        "Wrapped BTC"
+      ],
+      "UltraUSD": [
+        "Ultra Yield Stablecoin Vault"
+      ],
+      "ETHG": [
+        "Ethereum Games"
+      ],
+      "eETH": [
+        "ether.fi ETH"
+      ],
+      "gtLRTcore": [
+        "Gauntlet LRT Core"
+      ],
+      "AICC": [
+        "AI Chain Coin"
+      ],
+      "eUSD": [
+        "ether.fi USD"
+      ],
+      "stETH": [
+        "stETH"
+      ],
+      "MOVE": [
+        "Movement"
+      ],
+      "NC-Eligible (Verify: www.nodeco.in)": [
+        ""
+      ],
+      "wstETH": [
+        "Wrapped liquid staked Ether 2.0"
+      ],
+      "USD0 [www.usual.finance]": [
+        "!"
+      ]
+    }
+  },
+  "ipfs_osint": {
+    "address": "0xdc06023b80e588f1121a901efc3a0126f7191692",
+    "ipfs_hashes_found": [],
+    "metadata_analyzed": [],
+    "debug_info": {
+      "nft_transfers_count": 10,
+      "contracts_found": 1,
+      "tokens_checked": 5,
+      "uris_found": 0,
+      "ipfs_hashes_extracted": 0,
+      "metadata_fetched": 0
+    },
+    "findings": {
+      "total_hashes": 0,
+      "unique_hashes": [],
+      "linked_urls": [],
+      "usernames": [],
+      "emails": [],
+      "social_links": [],
+      "timestamps": [],
+      "creators": [],
+      "collections": [],
+      "domains": [],
+      "domain_analysis": {},
+      "metadata_urls": []
+    }
+  },
+  "ens": {
+    "address": "0xdc06023b80e588f1121a901efc3a0126f7191692",
+    "ens_name": null,
+    "text_records": {},
+    "social_links": {},
+    "has_ens": false,
+    "has_social_links": false
+  },
+  "approval_risk": {
+    "scan_timestamp": "2026-01-20T16:16:32.444717+00:00",
+    "total_approvals": 0,
+    "unlimited_approvals": 0,
+    "high_risk_approvals": 0,
+    "total_exposure_usd": 0,
+    "verdicts": [],
+    "has_dangerous_approvals": false
+  },
+  "funding_trace": {
+    "target": "0xdc06023b80e588f1121a901efc3a0126f7191692",
+    "trace_timestamp": "2026-01-20T16:16:30.022071+00:00",
+    "total_hops": 0,
+    "origin_found": false,
+    "origin_type": null,
+    "origin_label": null,
+    "trace_complete": false,
+    "trace_stopped_reason": "No funding transaction found",
+    "funding_chain": []
+  },
+  "token_risks": {
+    "scan_timestamp": "2026-01-20T16:16:33.171117+00:00",
+    "tokens_analyzed": 0,
+    "risky_tokens": 0,
+    "total_value_at_risk_usd": 0,
+    "has_risky_tokens": false,
+    "verdicts": [],
+    "honeypots_detected": 0,
+    "impersonators_detected": 0
+  }
+}

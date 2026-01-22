@@ -4,20 +4,20 @@
   "address": "0x35fA164735182de50811E8e2E824cFb9B6118ac2",
   "chain": "Ethereum",
   "category": "Liquid Restaking",
-  "tvl": 8855116953.130785,
-  "tvl_formatted": "$8,855,116,953",
+  "tvl": 8523445558.942568,
+  "tvl_formatted": "$8,523,445,559",
   "is_audited": false,
   "priority_score": 80,
-  "scanned_at": "2026-01-20T15:20:22.462105",
+  "scanned_at": "2026-01-22T19:32:58.610421",
   "verdicts": [
     {
       "title": "UNAUDITED HIGH-TVL PROTOCOL",
       "severity": "CRITICAL",
       "category": "TRUST",
-      "description": "Protocol has $8,855,116,953 TVL without documented audit",
+      "description": "Protocol has $8,523,445,559 TVL without documented audit",
       "evidence": [
         "No audit links found",
-        "TVL: $8,855,116,953"
+        "TVL: $8,523,445,559"
       ],
       "action": "Priority target for vulnerability analysis"
     },
@@ -27,7 +27,7 @@
       "category": "INTEL",
       "description": "Protocol holds over $10M in TVL",
       "evidence": [
-        "TVL: $8,855,116,953"
+        "TVL: $8,523,445,559"
       ],
       "action": "High-value target if vulnerable"
     }
@@ -44,7 +44,11 @@
         "pauseContract"
       ],
       "recommendation": "Add appropriate access control (onlyOwner, onlyAdmin, etc.)",
-      "source": "pattern"
+      "source": "pattern",
+      "_validation": {
+        "status": "CONFIRMED",
+        "reason": "Function 'pauseContract' appears to lack access control"
+      }
     },
     {
       "detector": "unchecked-arithmetic-pattern",
@@ -55,7 +59,11 @@
       "description": "Contract uses unchecked blocks. Verify overflow is intentional.",
       "locations": [],
       "recommendation": "Ensure unchecked arithmetic cannot cause security issues",
-      "source": "pattern"
+      "source": "pattern",
+      "_validation": {
+        "status": "NEEDS_REVIEW",
+        "reason": "No automated validator for detector: unchecked-arithmetic-pattern"
+      }
     },
     {
       "detector": "timestamp-dependence-pattern",
@@ -66,7 +74,11 @@
       "description": "Contract logic depends on block.timestamp. Miners can manipulate slightly.",
       "locations": [],
       "recommendation": "Avoid using timestamps for critical logic or use block.number",
-      "source": "pattern"
+      "source": "pattern",
+      "_validation": {
+        "status": "NEEDS_REVIEW",
+        "reason": "No automated validator for detector: timestamp-dependence-pattern"
+      }
     },
     {
       "detector": "reentrancy-eth-pattern",
@@ -77,7 +89,11 @@
       "description": "External call with ETH followed by state change detected. ReentrancyGuard is present - likely protected but verify manually.",
       "locations": [],
       "recommendation": "Verify nonReentrant modifier is applied to this function",
-      "source": "pattern"
+      "source": "pattern",
+      "_validation": {
+        "status": "NEEDS_REVIEW",
+        "reason": "No automated validator for detector: reentrancy-eth-pattern"
+      }
     },
     {
       "detector": "delegatecall-proxy-pattern",
@@ -88,7 +104,11 @@
       "description": "Contract uses delegatecall as part of proxy pattern. Verify implementation address is properly controlled.",
       "locations": [],
       "recommendation": "Ensure only authorized addresses can update implementation",
-      "source": "pattern"
+      "source": "pattern",
+      "_validation": {
+        "status": "NEEDS_REVIEW",
+        "reason": "No automated validator for detector: delegatecall-proxy-pattern"
+      }
     }
   ],
   "vulnerability_summary": {

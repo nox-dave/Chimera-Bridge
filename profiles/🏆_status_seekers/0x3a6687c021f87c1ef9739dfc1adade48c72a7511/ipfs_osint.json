@@ -1,0 +1,246 @@
+{
+  "address": "0x3a6687c021f87c1ef9739dfc1adade48c72a7511",
+  "ipfs_hashes_found": [
+    {
+      "contract": "0x47d7b6116c2303f4d0232c767f71e00db166b67a",
+      "token_id": "1139",
+      "uri": "ipfs://bafybeiapkzfqa7n2o25hkasmkdz4el2ie3bz25gcg3yf4rkcpwezhe3ctm/1139",
+      "ipfs_hash": "bafybeiapkzfqa7n2o25hkasmkdz4el2ie3bz25gcg3yf4rkcpwezhe3ctm"
+    },
+    {
+      "contract": "0x26d85a13212433fe6a8381969c2b0db390a0b0ae",
+      "token_id": "172874",
+      "uri": "ipfs://bafybeifsexiiy4rkwr62m3ha4zcrxfo3dnjlhqqxwezxhemz3os5vbww7m/metadata.json",
+      "ipfs_hash": "bafybeifsexiiy4rkwr62m3ha4zcrxfo3dnjlhqqxwezxhemz3os5vbww7m"
+    },
+    {
+      "contract": "0x5765a0ca7d8b98b04b80323d327e611beeeb2092",
+      "token_id": "1448",
+      "uri": "ipfs://bafybeidjhro2a5kweai77pnhhzv34ffdfcvpkdxu7rqep2l6f5dz46etlm/1448",
+      "ipfs_hash": "bafybeidjhro2a5kweai77pnhhzv34ffdfcvpkdxu7rqep2l6f5dz46etlm"
+    },
+    {
+      "contract": "0x9830b32f7210f0857a859c2a86387e4d1bb760b8",
+      "token_id": "481",
+      "uri": "ipfs://bafybeidgbhucjcqslrcigdh527f5rg462gvg2oamoxr2fqiqcw6yddc46i/481",
+      "ipfs_hash": "bafybeidgbhucjcqslrcigdh527f5rg462gvg2oamoxr2fqiqcw6yddc46i"
+    }
+  ],
+  "metadata_analyzed": [
+    {
+      "contract": "0xf39c410dac956ba98004f411e182fb4eed595270",
+      "token_id": "1231",
+      "analysis": {
+        "name": "One Gravity",
+        "description": "One Gravity is the first NFT collection for 0G, the largest AI L1. 1,888 NFTs for a community shaping AI & Web3. It's time to Defy Gravity.",
+        "image": "https://one-gravity-images.0g.ai/0xaf0354bdb25a87bdb86bb24a2fdbd49bc018016517ba7872765eba6ac11f690c.png",
+        "external_url": "",
+        "attributes": [],
+        "properties": {},
+        "creator": {},
+        "artist": "",
+        "collection": {},
+        "ipfs_hashes": [],
+        "linked_urls": [
+          "https://one-gravity-images.0g.ai/0xaf0354bdb25a87bdb86bb24a2fdbd49bc018016517ba7872765eba6ac11f690c.png"
+        ],
+        "timestamps": [],
+        "usernames": [],
+        "emails": [],
+        "social_links": []
+      },
+      "source": "https",
+      "domain": "one-gravity-uri.0g.ai"
+    },
+    {
+      "contract": "0xbc37ee54f066e79c23389c55925f877f79f3cb84",
+      "token_id": "1179",
+      "analysis": {
+        "name": "Seeing Signs",
+        "description": "this person is Seeing Signs",
+        "image": "http://public-cdn.sign.global/SeeingSigns/Seeing_Signs.mp4",
+        "external_url": "",
+        "attributes": [],
+        "properties": {},
+        "creator": {},
+        "artist": "",
+        "collection": {},
+        "ipfs_hashes": [],
+        "linked_urls": [
+          "http://public-cdn.sign.global/seeingsigns/seeing_signs.mp4"
+        ],
+        "timestamps": [],
+        "usernames": [],
+        "emails": [],
+        "social_links": []
+      },
+      "source": "https",
+      "domain": "public-cdn.sign.global"
+    },
+    {
+      "contract": "0xf6b3cc9a23095c1acbf076cb560bbb56c19504e2",
+      "token_id": "13",
+      "analysis": {
+        "name": "RICE Farmer",
+        "description": " Minted by Galxe Campaign: The Gigagas Era Begins",
+        "image": "https://cdn.galxe.com/galaxy/rise/344c05fe-f2dc-4cf3-8aac-28ee2c3dd17f.mp4",
+        "external_url": "",
+        "attributes": [
+          {
+            "trait_type": "Color",
+            "value": "Multi-Color"
+          },
+          {
+            "trait_type": "Food",
+            "value": "Rice"
+          },
+          {
+            "trait_type": "Era",
+            "value": "Gigagas"
+          },
+          {
+            "display_type": "date",
+            "trait_type": "birthday",
+            "value": 1727166869
+          }
+        ],
+        "properties": {},
+        "creator": {},
+        "artist": "",
+        "collection": {},
+        "ipfs_hashes": [],
+        "linked_urls": [
+          "https://cdn.galxe.com/galaxy/rise/344c05fe-f2dc-4cf3-8aac-28ee2c3dd17f.mp4",
+          "https://galaxy.eco/nft/169858488/0xf6b3cc9a23095c1acbf076cb560bbb56c19504e2"
+        ],
+        "timestamps": [],
+        "usernames": [],
+        "emails": [],
+        "social_links": []
+      },
+      "source": "https",
+      "domain": "graphigo.prd.galaxy.eco"
+    }
+  ],
+  "debug_info": {
+    "nft_transfers_count": 129,
+    "contracts_found": 18,
+    "tokens_checked": 16,
+    "uris_found": 10,
+    "ipfs_hashes_extracted": 4,
+    "metadata_fetched": 3
+  },
+  "findings": {
+    "total_hashes": 4,
+    "unique_hashes": [
+      "bafybeiapkzfqa7n2o25hkasmkdz4el2ie3bz25gcg3yf4rkcpwezhe3ctm",
+      "bafybeidjhro2a5kweai77pnhhzv34ffdfcvpkdxu7rqep2l6f5dz46etlm",
+      "bafybeidgbhucjcqslrcigdh527f5rg462gvg2oamoxr2fqiqcw6yddc46i",
+      "bafybeifsexiiy4rkwr62m3ha4zcrxfo3dnjlhqqxwezxhemz3os5vbww7m"
+    ],
+    "linked_urls": [
+      "https://cdn.galxe.com/galaxy/rise/344c05fe-f2dc-4cf3-8aac-28ee2c3dd17f.mp4",
+      "http://public-cdn.sign.global/seeingsigns/seeing_signs.mp4",
+      "https://galaxy.eco/nft/169858488/0xf6b3cc9a23095c1acbf076cb560bbb56c19504e2",
+      "https://one-gravity-images.0g.ai/0xaf0354bdb25a87bdb86bb24a2fdbd49bc018016517ba7872765eba6ac11f690c.png"
+    ],
+    "usernames": [],
+    "emails": [],
+    "social_links": [],
+    "timestamps": [],
+    "creators": [],
+    "collections": [],
+    "domains": [
+      "graphigo.prd.galaxy.eco",
+      "one-gravity-uri.0g.ai",
+      "derivio-mission.vercel.app",
+      "public-cdn.sign.global"
+    ],
+    "domain_analysis": {
+      "one-gravity-uri.0g.ai": {
+        "domain": "one-gravity-uri.0g.ai",
+        "is_ipfs": false,
+        "is_centralized": true,
+        "scam_indicators": [],
+        "reputation": "unknown",
+        "whois_info": null
+      },
+      "public-cdn.sign.global": {
+        "domain": "public-cdn.sign.global",
+        "is_ipfs": false,
+        "is_centralized": true,
+        "scam_indicators": [],
+        "reputation": "unknown",
+        "whois_info": null
+      },
+      "derivio-mission.vercel.app": {
+        "domain": "derivio-mission.vercel.app",
+        "is_ipfs": false,
+        "is_centralized": true,
+        "scam_indicators": [],
+        "reputation": "unknown",
+        "whois_info": null
+      },
+      "graphigo.prd.galaxy.eco": {
+        "domain": "graphigo.prd.galaxy.eco",
+        "is_ipfs": false,
+        "is_centralized": true,
+        "scam_indicators": [],
+        "reputation": "unknown",
+        "whois_info": null
+      }
+    },
+    "metadata_urls": [
+      {
+        "contract": "0x47d7b6116c2303f4d0232c767f71e00db166b67a",
+        "token_id": "1139",
+        "uri": "ipfs://bafybeiapkzfqa7n2o25hkasmkdz4el2ie3bz25gcg3yf4rkcpwezhe3ctm/1139"
+      },
+      {
+        "contract": "0x26d85a13212433fe6a8381969c2b0db390a0b0ae",
+        "token_id": "172874",
+        "uri": "ipfs://bafybeifsexiiy4rkwr62m3ha4zcrxfo3dnjlhqqxwezxhemz3os5vbww7m/metadata.json"
+      },
+      {
+        "contract": "0xf39c410dac956ba98004f411e182fb4eed595270",
+        "token_id": "1231",
+        "uri": "https://one-gravity-uri.0g.ai/1231.json"
+      },
+      {
+        "contract": "0xbc37ee54f066e79c23389c55925f877f79f3cb84",
+        "token_id": "1179",
+        "uri": "https://public-cdn.sign.global/SeeingSigns/1179.json"
+      },
+      {
+        "contract": "0x8685729950d052b4bea725789387c9fa80a76921",
+        "token_id": "53",
+        "uri": "https://derivio-mission.vercel.app/api/nft/1/metadata/53"
+      },
+      {
+        "contract": "0x8685729950d052b4bea725789387c9fa80a76921",
+        "token_id": "95",
+        "uri": "https://derivio-mission.vercel.app/api/nft/1/metadata/95"
+      },
+      {
+        "contract": "0x8685729950d052b4bea725789387c9fa80a76921",
+        "token_id": "158",
+        "uri": "https://derivio-mission.vercel.app/api/nft/1/metadata/158"
+      },
+      {
+        "contract": "0x5765a0ca7d8b98b04b80323d327e611beeeb2092",
+        "token_id": "1448",
+        "uri": "ipfs://bafybeidjhro2a5kweai77pnhhzv34ffdfcvpkdxu7rqep2l6f5dz46etlm/1448"
+      },
+      {
+        "contract": "0x9830b32f7210f0857a859c2a86387e4d1bb760b8",
+        "token_id": "481",
+        "uri": "ipfs://bafybeidgbhucjcqslrcigdh527f5rg462gvg2oamoxr2fqiqcw6yddc46i/481"
+      },
+      {
+        "contract": "0xf6b3cc9a23095c1acbf076cb560bbb56c19504e2",
+        "token_id": "13",
+        "uri": "https://graphigo.prd.galaxy.eco/metadata/0xf6b3cc9a23095c1acbf076cb560bbb56c19504e2/13.json"
+      }
+    ]
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "address": "0x5d4134308b9a814822d1cd0e53bcaa5f6d9513f1",
+  "discovered_at": "2026-01-20T16:14:45.915442+00:00",
+  "total_value_usd": 0.03162018628709228,
+  "eth_balance": 1.0435032194355e-05,
+  "eth_value_usd": 0.03162018628709228,
+  "token_holdings": {},
+  "risk_score": 50,
+  "tx_count": 15,
+  "defi_activity": false,
+  "nft_activity": {},
+  "bridge_activity": true,
+  "age_days": 93,
+  "osint_categories": [
+    "\ud83c\udf09_cross_chain_users"
+  ],
+  "primary_osint_category": "\ud83c\udf09_cross_chain_users",
+  "behavior": {
+    "confidence_score": 50,
+    "sophistication": "Intermediate",
+    "risk_tolerance": "Conservative",
+    "trading_style": "Long-term Holder",
+    "likely_region": "Europe",
+    "likely_timezone": "Europe/Africa (UTC+0 to +3)",
+    "meme_exposure": false,
+    "defi_protocols": [],
+    "nft_platforms": [],
+    "bridges_used": [
+      "Arbitrum Gateway",
+      "Optimism Bridge"
+    ],
+    "exchange_interactions": [],
+    "frequent_counterparties": []
+  },
+  "transaction_analysis": {
+    "total_transactions": 15,
+    "total_value_eth": 0.011638003723696257,
+    "most_active_hour": 17,
+    "most_active_day": "Thursday",
+    "top_recipients": [
+      [
+        "0x0439e60f02a8900a951603950d8d4527f400c3f1",
+        3
+      ],
+      [
+        "0x5d4134308b9a814822d1cd0e53bcaa5f6d9513f1",
+        3
+      ],
+      [
+        "0xf2b6aa72c8bd03adb117ae70f58f2a8843dc492a",
+        2
+      ],
+      [
+        "0x49048044d57e1c92a77f79988d21fa8faf74e97e",
+        2
+      ],
+      [
+        "0x1f9840a85d5af5bf1d1762f925bdaddc4201f984",
+        2
+      ],
+      [
+        "0x99c9fc46f92e8a1c0dec1b1747d010903e884be1",
+        1
+      ],
+      [
+        "0x8315177ab297ba92a06054ce80a67ed4dbd7ed3a",
+        1
+      ],
+      [
+        "0xc00e94cb662c3520282e6f5717214004a7f26888",
+        1
+      ]
+    ],
+    "top_senders": [
+      [
+        "0x5d4134308b9a814822d1cd0e53bcaa5f6d9513f1",
+        14
+      ],
+      [
+        "0xf8d19ecf7d9e3c970480886e8aa1b6ed8b692632",
+        1
+      ]
+    ],
+    "first_transaction": "2025-10-18T19:36:11",
+    "last_transaction": "2025-11-21T17:47:11",
+    "avg_gas_used": 45579.13333333333,
+    "avg_gas_price": 343441598.0255432
+  },
+  "token_activity": {},
+  "ipfs_osint": {
+    "skipped": true,
+    "reason": "no_nft_activity"
+  },
+  "ens": {
+    "address": "0x5d4134308b9a814822d1cd0e53bcaa5f6d9513f1",
+    "ens_name": null,
+    "text_records": {},
+    "social_links": {},
+    "has_ens": false,
+    "has_social_links": false
+  },
+  "approval_risk": {
+    "scan_timestamp": "2026-01-20T16:14:51.973275+00:00",
+    "total_approvals": 0,
+    "unlimited_approvals": 0,
+    "high_risk_approvals": 0,
+    "total_exposure_usd": 0,
+    "verdicts": [],
+    "has_dangerous_approvals": false
+  },
+  "funding_trace": {
+    "target": "0x5d4134308b9a814822d1cd0e53bcaa5f6d9513f1",
+    "trace_timestamp": "2026-01-20T16:14:51.101042+00:00",
+    "total_hops": 0,
+    "origin_found": false,
+    "origin_type": null,
+    "origin_label": null,
+    "trace_complete": false,
+    "trace_stopped_reason": "No funding transaction found",
+    "funding_chain": []
+  },
+  "token_risks": {
+    "scan_timestamp": "2026-01-20T16:14:52.689783+00:00",
+    "tokens_analyzed": 0,
+    "risky_tokens": 0,
+    "total_value_at_risk_usd": 0,
+    "has_risky_tokens": false,
+    "verdicts": [],
+    "honeypots_detected": 0,
+    "impersonators_detected": 0
+  }
+}

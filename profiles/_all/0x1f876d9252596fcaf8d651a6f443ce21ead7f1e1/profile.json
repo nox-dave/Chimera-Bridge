@@ -1,0 +1,478 @@
+{
+  "address": "0x1f876d9252596fcaf8d651a6f443ce21ead7f1e1",
+  "discovered_at": "2026-01-22T14:21:10.144496+00:00",
+  "total_value_usd": 125632.83152006392,
+  "eth_balance": 42.270608541367864,
+  "eth_value_usd": 125632.83152006392,
+  "token_holdings": {},
+  "risk_score": 75,
+  "tx_count": 115,
+  "defi_activity": false,
+  "nft_activity": {},
+  "bridge_activity": true,
+  "age_days": 139,
+  "osint_categories": [
+    "\ud83c\udf09_cross_chain_users",
+    "\ud83e\udde0_defi_natives"
+  ],
+  "primary_osint_category": "\ud83c\udf09_cross_chain_users",
+  "behavior": {
+    "confidence_score": 75,
+    "sophistication": "Advanced",
+    "risk_tolerance": "Conservative",
+    "trading_style": "Long-term Holder",
+    "likely_region": "Europe",
+    "likely_timezone": "Europe/Africa (UTC+0 to +3)",
+    "meme_exposure": false,
+    "defi_protocols": [],
+    "nft_platforms": [],
+    "bridges_used": [
+      "Optimism Bridge",
+      "Polygon Bridge",
+      "Wormhole"
+    ],
+    "exchange_interactions": [
+      "Binance 14"
+    ],
+    "frequent_counterparties": []
+  },
+  "transaction_analysis": {
+    "total_transactions": 115,
+    "total_value_eth": 42.24987874562913,
+    "most_active_hour": 12,
+    "most_active_day": "Tuesday",
+    "top_recipients": [
+      [
+        "0x49048044d57e1c92a77f79988d21fa8faf74e97e",
+        14
+      ],
+      [
+        "0x111111125421ca6dc452d289314280a0f8842a65",
+        11
+      ],
+      [
+        "0x6a000f20005980200259b80c5102003040001068",
+        9
+      ],
+      [
+        "0xbeb5fc579115071764c7423a4f12edde41f106ed",
+        5
+      ],
+      [
+        "0x6c76de483f1752ac8473e2b4983a873991e70da7",
+        5
+      ],
+      [
+        "0x13239c268beddd88ad0cb02050d3ff6a9d00de6d",
+        4
+      ],
+      [
+        "0xe53ec727dbdeb9e2d5456c3be40cff031ab40a55",
+        4
+      ],
+      [
+        "0xdd66781d0e9a08d4fbb5ec7bac80b691be27f21d",
+        3
+      ],
+      [
+        "0xb1f1ee126e9c96231cc3d3fad7c08b4cf873b1f1",
+        3
+      ],
+      [
+        "0x7130e2563974219f3dd152575c7468d7c2ad0d96",
+        3
+      ]
+    ],
+    "top_senders": [
+      [
+        "0x1f876d9252596fcaf8d651a6f443ce21ead7f1e1",
+        113
+      ],
+      [
+        "0x28c6c06298d514db089934071355e5743bf21d60",
+        2
+      ]
+    ],
+    "first_transaction": "2025-09-04T16:51:35",
+    "last_transaction": "2026-01-20T15:39:59",
+    "avg_gas_used": 163311.22608695654,
+    "avg_gas_price": 1112928591.0715199
+  },
+  "token_activity": {
+    "unique_tokens": 53,
+    "top_tokens": [
+      [
+        "USDC",
+        135
+      ],
+      [
+        "BTR",
+        34
+      ],
+      [
+        "VITA",
+        23
+      ],
+      [
+        "WILD",
+        19
+      ],
+      [
+        "USDT",
+        18
+      ],
+      [
+        "BOS",
+        15
+      ],
+      [
+        "REKT",
+        8
+      ],
+      [
+        "SUPER",
+        7
+      ],
+      [
+        "TAIKO",
+        6
+      ],
+      [
+        "SPEC",
+        5
+      ],
+      [
+        "CXT",
+        4
+      ],
+      [
+        "AXGT",
+        4
+      ],
+      [
+        "BDXN",
+        3
+      ],
+      [
+        "BIFI",
+        3
+      ],
+      [
+        "ICHI",
+        3
+      ],
+      [
+        "PERP",
+        2
+      ],
+      [
+        "CIG",
+        2
+      ],
+      [
+        "CORN",
+        2
+      ],
+      [
+        "TOWER",
+        2
+      ],
+      [
+        "mooBIFI",
+        2
+      ]
+    ],
+    "token_values": {
+      "BOS": 4972428.365735769,
+      "USDC": 109916.61123499999,
+      "STAR": 1.0,
+      "PERP": 46313.73286390693,
+      "CIG": 3909840.0,
+      "\ua4f4\ua4e2\ua4d3\u0421": 3.299672,
+      "CXT": 1208569.8341634243,
+      "SPEC": 2037.3478837439993,
+      "BDXN": 200451.66606684326,
+      "USDT": 56580.702209,
+      "BTR": 769386.3346841413,
+      "UniLife": 5.0,
+      "AXGT": 114628.60636278908,
+      "CORN": 2947.195373924934,
+      "SUPERDOG": 5.0,
+      "TOWER": 34289524.16920544,
+      "YES": 3.0,
+      "BIFI": 382.3109835644999,
+      "mooBIFI": 304.93396786571213,
+      "DOGX": 2.0,
+      "VITA": 24068.68746923856,
+      "WETH": 1e-07,
+      "ETH | Visit website ethcollect .org to claim rewar": 1.7,
+      "MIXQ": 14.72,
+      "MIXQ_Dividend_Tracker": 0.017044595413498172,
+      "TUSD": 0.0001,
+      "Visit website yldusd .org to claim rewards": 3876.23,
+      "SPX": 10.0,
+      "LSK": 21113.0422491493,
+      "YFTE": 0.015412848,
+      "CELR": 999460.15698436,
+      "WXRP": 9091.998,
+      "ePEPE": 20.0,
+      "Gemini3": 10.0,
+      "transfer/cosmoshub-0/transfer/channel-1316/unil": 3.3257583954e-08,
+      "REKT": 214722963828.47443,
+      "U\u200c\u2063\u200eS\u2063\u200c\u200f\u2063D\u200e\u2063\u200fC\u2063\u200f\u200d": 5000.0,
+      "WILD": 1220680.6971417633,
+      "TAIKO": 31833.754399988473,
+      "SUPER": 326280.26361741987,
+      "MINDFAK": 380590.5615018058,
+      "\u4ee5\u592aAI": 5.0,
+      "BUN": 5.0,
+      "\u4ee5\u592a\u4eba\u751f": 5.0,
+      "XENA": 2.0,
+      "AICC": 17500.0,
+      "ERC20": 0.0,
+      "HEGIC": 139601.74261276383,
+      "Stars": 2.0,
+      "XMOVE": 2.0,
+      "DHT": 101914.29473137236,
+      "VLR": 1359932.8727833035,
+      "ICHI": 46400.0
+    },
+    "token_details": {
+      "BOS": [
+        "BitcoinOS Token"
+      ],
+      "USDC": [
+        "USD Coin",
+        "USDC"
+      ],
+      "STAR": [
+        "Trump Star"
+      ],
+      "PERP": [
+        "Perpetual"
+      ],
+      "CIG": [
+        "Cigarette Token"
+      ],
+      "\ua4f4\ua4e2\ua4d3\u0421": [
+        "\ua4f4\ua4e2\ua4d3\u0421"
+      ],
+      "CXT": [
+        "Covalent X Token"
+      ],
+      "SPEC": [
+        "Spectral Token"
+      ],
+      "BDXN": [
+        "Bondex Token"
+      ],
+      "USDT": [
+        "Tether USD"
+      ],
+      "BTR": [
+        "BTR token"
+      ],
+      "UniLife": [
+        "UniLife"
+      ],
+      "AXGT": [
+        "AXGT",
+        "AxonDAO Governance Token"
+      ],
+      "CORN": [
+        "Corn"
+      ],
+      "SUPERDOG": [
+        "SUPERDOG"
+      ],
+      "TOWER": [
+        "TOWER"
+      ],
+      "YES": [
+        "YES"
+      ],
+      "BIFI": [
+        "Beefy"
+      ],
+      "mooBIFI": [
+        "Moo BIFI"
+      ],
+      "DOGX": [
+        "DOGX"
+      ],
+      "VITA": [
+        "VitaDAO Token"
+      ],
+      "WETH": [
+        "Wrapped Ether"
+      ],
+      "ETH | Visit website ethcollect .org to claim rewar": [
+        "ETH | Visit website ethcollect .org to claim rewards"
+      ],
+      "MIXQ": [
+        "MixQuity.finance"
+      ],
+      "MIXQ_Dividend_Tracker": [
+        "MIXQ_Dividend_Tracker"
+      ],
+      "TUSD": [
+        "TrueUSD"
+      ],
+      "Visit website yldusd .org to claim rewards": [
+        "Visit website yldusd .org to claim rewards"
+      ],
+      "SPX": [
+        "SPX"
+      ],
+      "LSK": [
+        "Lisk"
+      ],
+      "YFTE": [
+        "YfTether.io"
+      ],
+      "CELR": [
+        "CelerToken"
+      ],
+      "WXRP": [
+        "Wrapped XRP"
+      ],
+      "ePEPE": [
+        "ePEPE"
+      ],
+      "Gemini3": [
+        "Gemini3"
+      ],
+      "transfer/cosmoshub-0/transfer/channel-1316/unil": [
+        "transfer/cosmoshub-0/transfer/channel-1316/unil"
+      ],
+      "REKT": [
+        "Rekt"
+      ],
+      "U\u200c\u2063\u200eS\u2063\u200c\u200f\u2063D\u200e\u2063\u200fC\u2063\u200f\u200d": [
+        "US\u200b\u200eD\u200e\u2063\u200e\u200f \u200b\u200fC\u2063\u200e\u200c\u200e\u200c\u200e\u03bf\u2063\u200d\u200fi\u200en\u200b"
+      ],
+      "WILD": [
+        "Wilder"
+      ],
+      "TAIKO": [
+        "Taiko Token"
+      ],
+      "SUPER": [
+        "SuperVerse"
+      ],
+      "MINDFAK": [
+        "Mindfak By Matt Furie"
+      ],
+      "\u4ee5\u592aAI": [
+        "\u4ee5\u592aAI"
+      ],
+      "BUN": [
+        "BUN"
+      ],
+      "\u4ee5\u592a\u4eba\u751f": [
+        "\u4ee5\u592a\u4eba\u751f"
+      ],
+      "XENA": [
+        "XENA"
+      ],
+      "AICC": [
+        "AI Chain Coin"
+      ],
+      "ERC20": [
+        "Token"
+      ],
+      "HEGIC": [
+        "Hegic"
+      ],
+      "Stars": [
+        "Stars"
+      ],
+      "XMOVE": [
+        "XMOVE"
+      ],
+      "DHT": [
+        "dHedge DAO Token"
+      ],
+      "VLR": [
+        "Velora"
+      ],
+      "ICHI": [
+        "ICHI"
+      ]
+    }
+  },
+  "ipfs_osint": {
+    "skipped": true,
+    "reason": "no_nft_activity"
+  },
+  "ens": {
+    "address": "0x1f876d9252596fcaf8d651a6f443ce21ead7f1e1",
+    "ens_name": null,
+    "text_records": {},
+    "social_links": {},
+    "has_ens": false,
+    "has_social_links": false
+  },
+  "approval_risk": {
+    "scan_timestamp": "2026-01-22T14:21:17.791106+00:00",
+    "total_approvals": 0,
+    "unlimited_approvals": 0,
+    "high_risk_approvals": 0,
+    "total_exposure_usd": 0,
+    "verdicts": [],
+    "has_dangerous_approvals": false
+  },
+  "funding_trace": {
+    "target": "0x1f876d9252596fcaf8d651a6f443ce21ead7f1e1",
+    "trace_timestamp": "2026-01-22T14:21:16.916671+00:00",
+    "total_hops": 0,
+    "origin_found": false,
+    "origin_type": null,
+    "origin_label": null,
+    "trace_complete": false,
+    "trace_stopped_reason": "No funding transaction found",
+    "funding_chain": []
+  },
+  "token_risks": {
+    "scan_timestamp": "2026-01-22T14:21:18.516373+00:00",
+    "tokens_analyzed": 0,
+    "risky_tokens": 0,
+    "total_value_at_risk_usd": 0,
+    "has_risky_tokens": false,
+    "verdicts": [],
+    "honeypots_detected": 0,
+    "impersonators_detected": 0
+  },
+  "verdicts": [
+    {
+      "title": "NFT COLLECTOR PROFILE",
+      "severity": "MEDIUM",
+      "category": "PROFILE",
+      "description": "Wallet shows strong NFT activity with significant holdings. Potential social identity vector through NFT metadata.",
+      "evidence": [
+        "Matched 3/4 signals",
+        "Pattern: nft_collector",
+        "Confidence: 75%",
+        "Signal: balance_usd",
+        "Signal: tx_frequency",
+        "Signal: defi_protocols_count"
+      ],
+      "action": "Investigate NFT metadata for OSINT"
+    },
+    {
+      "title": "LOW SOPHISTICATION TARGET",
+      "severity": "MEDIUM",
+      "category": "VULNERABILITY",
+      "description": "Wallet shows limited DeFi knowledge but holds significant value. Basic phishing likely to succeed.",
+      "evidence": [
+        "Matched 3/4 signals",
+        "Pattern: low_sophistication_target",
+        "Confidence: 75%",
+        "Signal: balance_usd",
+        "Signal: defi_protocols_count",
+        "Signal: exchange_interactions"
+      ],
+      "action": "Standard phishing attacks likely effective"
+    }
+  ]
+}

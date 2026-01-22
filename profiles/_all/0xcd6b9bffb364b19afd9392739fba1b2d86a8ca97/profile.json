@@ -1,0 +1,516 @@
+{
+  "address": "0xcd6b9bffb364b19afd9392739fba1b2d86a8ca97",
+  "discovered_at": "2026-01-20T16:18:34.830676+00:00",
+  "total_value_usd": 257.37442428906877,
+  "eth_balance": 0.08485941224271808,
+  "eth_value_usd": 257.37442428906877,
+  "token_holdings": {},
+  "risk_score": 65,
+  "tx_count": 103,
+  "defi_activity": true,
+  "nft_activity": {
+    "unique_collections": 4,
+    "top_collections": [
+      [
+        "DToolsCommonPass",
+        1
+      ],
+      [
+        "Zerion DNA 1.0",
+        1
+      ],
+      [
+        "EigenWorlds",
+        1
+      ],
+      [
+        "ZenAcademy Student IDs",
+        1
+      ]
+    ],
+    "collection_addresses": {
+      "0xde07734c6a573371a5c88753b77e3c81055bdcc1": 1,
+      "0x932261f9fc8da46c4a22e31b45c4de60623848bf": 1,
+      "0x8d0802559775c70fb505f22988a4fd4a4f6d3b62": 1,
+      "0x26d6c3e7aefce970fe3be5d589dbabfd30026924": 1
+    }
+  },
+  "bridge_activity": false,
+  "age_days": 935,
+  "osint_categories": [
+    "\ud83c\udfc6_status_seekers",
+    "\ud83e\udde0_defi_natives"
+  ],
+  "primary_osint_category": "\ud83c\udfc6_status_seekers",
+  "behavior": {
+    "confidence_score": 65,
+    "sophistication": "Intermediate",
+    "risk_tolerance": "Moderate",
+    "trading_style": "Long-term Holder",
+    "likely_region": "Europe",
+    "likely_timezone": "Europe/Africa (UTC+0 to +3)",
+    "meme_exposure": false,
+    "defi_protocols": [
+      "Uniswap V3",
+      "WETH Contract",
+      "Uniswap V2"
+    ],
+    "nft_platforms": [],
+    "bridges_used": [],
+    "exchange_interactions": [
+      "Binance 15"
+    ],
+    "frequent_counterparties": []
+  },
+  "transaction_analysis": {
+    "total_transactions": 103,
+    "total_value_eth": 1.7015865657980114,
+    "most_active_hour": 16,
+    "most_active_day": "Sunday",
+    "top_recipients": [
+      [
+        "0xae7ab96520de3a18e5e111b5eaab095312d7fe84",
+        15
+      ],
+      [
+        "0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0",
+        12
+      ],
+      [
+        "0x030ba81f1c18d280636f32af80b9aad02cf0854e",
+        6
+      ],
+      [
+        "0xe592427a0aece92de3edee1f18e0157c05861564",
+        6
+      ],
+      [
+        "0xcd6b9bffb364b19afd9392739fba1b2d86a8ca97",
+        5
+      ],
+      [
+        "0x6b175474e89094c44da98b954eedeac495271d0f",
+        4
+      ],
+      [
+        "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+        4
+      ],
+      [
+        "0x777777c9898d384f785ee44acfe945efdff5f3e0",
+        4
+      ],
+      [
+        "0x77cdd9e097f34c1fa861daeb6823de741fab2321",
+        4
+      ],
+      [
+        "0x7a250d5630b4cf539739df2c5dacb4c659f2488d",
+        4
+      ]
+    ],
+    "top_senders": [
+      [
+        "0xcd6b9bffb364b19afd9392739fba1b2d86a8ca97",
+        98
+      ],
+      [
+        "0x16883023ac7503960a5f6c7f0b8d2280c9888888",
+        2
+      ],
+      [
+        "0x8954fc47b120d421f9771694c46b6d745533a9c7",
+        2
+      ],
+      [
+        "0x21a31ee1afc51d94c2efccaa2092ad1028285549",
+        1
+      ]
+    ],
+    "first_transaction": "2023-06-29T22:04:59",
+    "last_transaction": "2026-01-06T16:16:59",
+    "avg_gas_used": 98569.3495145631,
+    "avg_gas_price": 38695704361.95782
+  },
+  "token_activity": {
+    "unique_tokens": 18,
+    "top_tokens": [
+      [
+        "stETH",
+        10
+      ],
+      [
+        "DAI",
+        8
+      ],
+      [
+        "cbETH",
+        6
+      ],
+      [
+        "wstETH",
+        4
+      ],
+      [
+        "APE",
+        3
+      ],
+      [
+        "spWETH",
+        2
+      ],
+      [
+        "variableDebtDAI",
+        2
+      ],
+      [
+        "EIGEN",
+        2
+      ],
+      [
+        "$ EthAave.com - Visit to claim staking rewards",
+        2
+      ],
+      [
+        "USDC",
+        2
+      ],
+      [
+        "USDT",
+        2
+      ],
+      [
+        "CPM",
+        1
+      ],
+      [
+        "AICC",
+        1
+      ],
+      [
+        "ETHG",
+        1
+      ],
+      [
+        "SUPERDOG",
+        1
+      ],
+      [
+        "WETH",
+        1
+      ],
+      [
+        "NEIRO",
+        1
+      ],
+      [
+        "$ ETH35.com - Visit to claim bonus rewards",
+        1
+      ]
+    ],
+    "token_values": {
+      "CPM": 2000.0,
+      "AICC": 17500.0,
+      "ETHG": 2000000.0,
+      "SUPERDOG": 5.0,
+      "DAI": 467.27092923340183,
+      "stETH": 0.0981075481325482,
+      "WETH": 0.058318999910054896,
+      "spWETH": 0.112,
+      "variableDebtDAI": 60.0,
+      "EIGEN": 220.0,
+      "NEIRO": 108000.00000000001,
+      "$ ETH35.com - Visit to claim bonus rewards": 9283.0,
+      "$ EthAave.com - Visit to claim staking rewards": 200.0,
+      "wstETH": 0.017588330421477456,
+      "APE": 0.0,
+      "cbETH": 0.5545989378311827,
+      "USDC": 403.792178,
+      "USDT": 495.96557
+    },
+    "token_details": {
+      "CPM": [
+        "Crypto Pump Meme"
+      ],
+      "AICC": [
+        "AI Chain Coin"
+      ],
+      "ETHG": [
+        "Ethereum Games"
+      ],
+      "SUPERDOG": [
+        "SUPERDOG"
+      ],
+      "DAI": [
+        "Dai Stablecoin"
+      ],
+      "stETH": [
+        "stETH"
+      ],
+      "WETH": [
+        "Wrapped Ether"
+      ],
+      "spWETH": [
+        "Spark WETH"
+      ],
+      "variableDebtDAI": [
+        "Spark Variable Debt DAI"
+      ],
+      "EIGEN": [
+        "Eigen"
+      ],
+      "NEIRO": [
+        "Neiro Pump"
+      ],
+      "$ ETH35.com - Visit to claim bonus rewards": [
+        "$ ETH35.com"
+      ],
+      "$ EthAave.com - Visit to claim staking rewards": [
+        "$ EthAave.com"
+      ],
+      "wstETH": [
+        "Wrapped liquid staked Ether 2.0"
+      ],
+      "APE": [
+        "ApeCoin"
+      ],
+      "cbETH": [
+        "Coinbase Wrapped Staked ETH"
+      ],
+      "USDC": [
+        "USDC"
+      ],
+      "USDT": [
+        "Tether USD"
+      ]
+    }
+  },
+  "ipfs_osint": {
+    "address": "0xcd6b9bffb364b19afd9392739fba1b2d86a8ca97",
+    "ipfs_hashes_found": [],
+    "metadata_analyzed": [
+      {
+        "contract": "0x932261f9fc8da46c4a22e31b45c4de60623848bf",
+        "token_id": "178260",
+        "analysis": {
+          "name": "#178260",
+          "description": "Zerion DNA is a first of a kind Dynamic NFT Avatar \u2013 a generative, living NFT that evolves over time to reflect your digital identity. Every wallet action renders unique attributes so that no two NFTs are alike. Wallet actions that will cause the NFT to evolve include buying and selling tokens, interacting with different networks and exploring the Zerion app.\n\nTo claim your DNA, create a Zerion Wallet via our Zerion iOS and Android apps.",
+          "image": "https://zerion-dna.s3.us-east-1.amazonaws.com/onepointo/93a0ade20e7f663d346db81dbe8c849cbf785503.png",
+          "external_url": "https://app.zerion.io/nfts/0x932261f9fc8da46c4a22e31b45c4de60623848bf:178260",
+          "attributes": [
+            {
+              "trait_type": "Age",
+              "value": "56 weeks"
+            },
+            {
+              "trait_type": "Gas Spend",
+              "value": "$0\u2013$50"
+            },
+            {
+              "display_type": "number",
+              "trait_type": "Transactions",
+              "value": 0
+            },
+            {
+              "trait_type": "Balance",
+              "value": "$0\u2013$100"
+            },
+            {
+              "display_type": "number",
+              "trait_type": "Assets",
+              "value": 3
+            },
+            {
+              "trait_type": "Favorite Network",
+              "value": "Linea"
+            },
+            {
+              "trait_type": "Body",
+              "value": "Level 6"
+            },
+            {
+              "trait_type": "Background",
+              "value": "Level 1"
+            }
+          ],
+          "properties": {},
+          "creator": {},
+          "artist": "",
+          "collection": {},
+          "ipfs_hashes": [],
+          "linked_urls": [
+            "https://zerion-dna.s3.us-east-1.amazonaws.com/onepointo/93a0ade20e7f663d346db81dbe8c849cbf785503.png",
+            "https://app.zerion.io/nfts/0x932261f9fc8da46c4a22e31b45c4de60623848bf:178260",
+            "https://zerion-dna-mini.s3.us-east-1.amazonaws.com/onepointo/c4d89db51d929bb72bee192ce486aaa2cc086a2d.270x270.png"
+          ],
+          "timestamps": [],
+          "usernames": [],
+          "emails": [],
+          "social_links": []
+        },
+        "source": "https",
+        "domain": "dna.zerion.io"
+      },
+      {
+        "contract": "0x8d0802559775c70fb505f22988a4fd4a4f6d3b62",
+        "token_id": "56573",
+        "analysis": {
+          "name": "EigenWorld #56573",
+          "description": "EigenWorlds is EigenLayer\u2019s second NFT collection, an open edition for all community members to mint their names and own their visual emblems in the EigenLayer ecosystem.\n\nEach design is unique based on the minter\u2019s on-chain behavior, text input and a creative visual algorithm.",
+          "image": "https://eigen-layer.s3.us-east-1.amazonaws.com/tokens/56573.png",
+          "external_url": "",
+          "attributes": [
+            {
+              "trait_type": "Tier",
+              "value": "Restaker"
+            },
+            {
+              "trait_type": "Minting key",
+              "value": "88888888"
+            }
+          ],
+          "properties": {},
+          "creator": {},
+          "artist": "",
+          "collection": {},
+          "ipfs_hashes": [],
+          "linked_urls": [
+            "https://eigen-layer.s3.us-east-1.amazonaws.com/tokens/56573.png",
+            "https://eigen-layer.s3.amazonaws.com/animations/56573.html"
+          ],
+          "timestamps": [],
+          "usernames": [],
+          "emails": [],
+          "social_links": []
+        },
+        "source": "https",
+        "domain": "eigen-layer-02462cd942da.herokuapp.com"
+      }
+    ],
+    "debug_info": {
+      "nft_transfers_count": 4,
+      "contracts_found": 4,
+      "tokens_checked": 4,
+      "uris_found": 4,
+      "ipfs_hashes_extracted": 0,
+      "metadata_fetched": 2
+    },
+    "findings": {
+      "total_hashes": 0,
+      "unique_hashes": [],
+      "linked_urls": [
+        "https://eigen-layer.s3.amazonaws.com/animations/56573.html",
+        "https://app.zerion.io/nfts/0x932261f9fc8da46c4a22e31b45c4de60623848bf:178260",
+        "https://zerion-dna.s3.us-east-1.amazonaws.com/onepointo/93a0ade20e7f663d346db81dbe8c849cbf785503.png",
+        "https://eigen-layer.s3.us-east-1.amazonaws.com/tokens/56573.png",
+        "https://zerion-dna-mini.s3.us-east-1.amazonaws.com/onepointo/c4d89db51d929bb72bee192ce486aaa2cc086a2d.270x270.png"
+      ],
+      "usernames": [],
+      "emails": [],
+      "social_links": [],
+      "timestamps": [],
+      "creators": [],
+      "collections": [],
+      "domains": [
+        "api.dtools.org",
+        "dna.zerion.io",
+        "zenacademy.com",
+        "eigen-layer-02462cd942da.herokuapp.com"
+      ],
+      "domain_analysis": {
+        "api.dtools.org": {
+          "domain": "api.dtools.org",
+          "is_ipfs": false,
+          "is_centralized": true,
+          "scam_indicators": [],
+          "reputation": "unknown",
+          "whois_info": null
+        },
+        "dna.zerion.io": {
+          "domain": "dna.zerion.io",
+          "is_ipfs": false,
+          "is_centralized": true,
+          "scam_indicators": [],
+          "reputation": "unknown",
+          "whois_info": null
+        },
+        "eigen-layer-02462cd942da.herokuapp.com": {
+          "domain": "eigen-layer-02462cd942da.herokuapp.com",
+          "is_ipfs": false,
+          "is_centralized": true,
+          "scam_indicators": [],
+          "reputation": "unknown",
+          "whois_info": null
+        },
+        "zenacademy.com": {
+          "domain": "zenacademy.com",
+          "is_ipfs": false,
+          "is_centralized": true,
+          "scam_indicators": [],
+          "reputation": "unknown",
+          "whois_info": null
+        }
+      },
+      "metadata_urls": [
+        {
+          "contract": "0xde07734c6a573371a5c88753b77e3c81055bdcc1",
+          "token_id": "16276",
+          "uri": "https://api.dtools.org/commonpass/16276"
+        },
+        {
+          "contract": "0x932261f9fc8da46c4a22e31b45c4de60623848bf",
+          "token_id": "178260",
+          "uri": "https://dna.zerion.io/api/v1/avatars/onepointo/178260"
+        },
+        {
+          "contract": "0x8d0802559775c70fb505f22988a4fd4a4f6d3b62",
+          "token_id": "56573",
+          "uri": "https://eigen-layer-02462cd942da.herokuapp.com/api/metadata/56573"
+        },
+        {
+          "contract": "0x26d6c3e7aefce970fe3be5d589dbabfd30026924",
+          "token_id": "14576",
+          "uri": "https://zenacademy.com/api/tokens/14576"
+        }
+      ]
+    }
+  },
+  "ens": {
+    "address": "0xcd6b9bffb364b19afd9392739fba1b2d86a8ca97",
+    "ens_name": null,
+    "text_records": {},
+    "social_links": {},
+    "has_ens": false,
+    "has_social_links": false
+  },
+  "approval_risk": {
+    "scan_timestamp": "2026-01-20T16:18:44.030008+00:00",
+    "total_approvals": 0,
+    "unlimited_approvals": 0,
+    "high_risk_approvals": 0,
+    "total_exposure_usd": 0,
+    "verdicts": [],
+    "has_dangerous_approvals": false
+  },
+  "funding_trace": {
+    "target": "0xcd6b9bffb364b19afd9392739fba1b2d86a8ca97",
+    "trace_timestamp": "2026-01-20T16:18:40.515508+00:00",
+    "total_hops": 0,
+    "origin_found": false,
+    "origin_type": null,
+    "origin_label": null,
+    "trace_complete": false,
+    "trace_stopped_reason": "No funding transaction found",
+    "funding_chain": []
+  },
+  "token_risks": {
+    "scan_timestamp": "2026-01-20T16:18:44.751970+00:00",
+    "tokens_analyzed": 0,
+    "risky_tokens": 0,
+    "total_value_at_risk_usd": 0,
+    "has_risky_tokens": false,
+    "verdicts": [],
+    "honeypots_detected": 0,
+    "impersonators_detected": 0
+  }
+}

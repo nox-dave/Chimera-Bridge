@@ -1,0 +1,122 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                         🐋 WHALE INTELLIGENCE REPORT                          ║
+║                           Gargophias OSINT Module                            ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+Target:     0x9312e0a61f21affbd5be821f436f8fdf6b6f6663
+Generated:  2026-01-20 17:17:13 UTC
+
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                               QUICK ASSESSMENT                               │
+├──────────────────────────────────────────────────────────────────────────────┤
+│  ✅ LIKELY REAL PERSON                                                       │
+│  Confidence: 65%                                                               │
+│  Profile: Fish | Stablecoin Holder                                          │
+└──────────────────────────────────────────────────────────────────────────────┘
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+💰 FINANCIAL SUMMARY
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Total Portfolio Value:  $               26.99
+  ETH Balance:                          0.0089 ETH
+  ETH Value:              $               26.99
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📊 ACTIVITY METRICS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Transaction Count:                        48
+  Total ETH Moved:                        0.65 ETH
+  Avg Transaction:                      0.0152 ETH
+  Wallet Age:                               50 days
+  First Transaction:                2025-11-30
+  Last Transaction:                 2026-01-20
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🧠 BEHAVIORAL PROFILE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Sophistication Level:   Novice              
+  Risk Tolerance:         Moderate            
+  Trading Style:          Stablecoin Holder   
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+⏰ ACTIVITY PATTERNS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Peak Activity Hours:    2:00, 0:00, 1:00, 3:00 UTC
+  Most Active Days:       Thursday, Sunday, Monday
+  Likely Timezone:        Asia-Pacific (UTC+8 to +12)
+  Probable Region:        Asia-Pacific
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🔧 PROTOCOL & PLATFORM USAGE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  DeFi Protocols:
+    ✓ Metamask Swap Router
+
+  NFT Platforms:          None detected
+
+  Bridge Usage:           None detected
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🪙 TOKEN INTERESTS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Active Tokens: usdc, usdt, paxg, xaut, erc20：usdc, ꓴꓢꓓс, erc20：usdt, unilife, superdog, aicc
+  Categories: 💵 Stablecoin Heavy
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🏦 FUNDING & EXCHANGE RELATIONSHIPS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Original Funding:       Unknown
+                          0xced92fa7f0797cbc851b48140ae218a0b0d41ce0...
+
+  Exchange Interactions:  None detected (DEX-only or self-custody)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🎯 SIGNAL ANALYSIS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  ✅ BULLISH SIGNALS (Real Person Indicators):
+     • Targeted by dust attacks
+     • Being targeted by address poisoning (scammers target real whales)
+
+  ⚠️  RED FLAGS (Caution Indicators):
+     • No significant red flags detected
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📋 OSINT ASSESSMENT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  MODERATE CONFIDENCE (65%): Likely a real person, but some uncertainty.
+  GEOGRAPHIC: Activity patterns suggest Asia-Pacific timezone (Asia-Pacific (UTC+8 to +12)).
+  SOPHISTICATION: Novice user. Primarily uses exchanges, limited DeFi exposure.
+  RISK PROFILE: Moderate. Stablecoin Holder.
+  NOTABLE: Active target of address poisoning attacks - confirms wallet is monitored by scammers.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🎭 PROFILE HYPOTHESIS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Archetype: General Crypto Holder
+  
+  Narrative:
+    Originally funded through Unknown, suggesting traditional onboarding.
+    Appears to rely primarily on centralized exchanges.
+    Activity patterns suggest Asia-Pacific timezone.
+    Being targeted by scammers confirms this is an active, monitored wallet.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🔗 INVESTIGATION LINKS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Etherscan:      https://etherscan.io/address/0x9312e0a61f21affbd5be821f436f8fdf6b6f6663
+  Debank:         https://debank.com/profile/0x9312e0a61f21affbd5be821f436f8fdf6b6f6663
+  Arkham Intel:   https://platform.arkhamintelligence.com/explorer/address/0x9312e0a61f21affbd5be821f436f8fdf6b6f6663
+  Nansen:         https://pro.nansen.ai/wallet/0x9312e0a61f21affbd5be821f436f8fdf6b6f6663
+  Zerion:         https://app.zerion.io/0x9312e0a61f21affbd5be821f436f8fdf6b6f6663/overview
+  Zapper:         https://zapper.xyz/account/0x9312e0a61f21affbd5be821f436f8fdf6b6f6663
+
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                      PRIORITY: MEDIUM | CONFIDENCE: 65%                      ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+
+🔍 FUNDING SOURCE TRACE
+━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Hops Traced: 0
+

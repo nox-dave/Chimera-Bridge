@@ -1,0 +1,399 @@
+{
+  "address": "0xf8fc9a91349ebd2033d53f2b97245102f00aba96",
+  "discovered_at": "2026-01-20T16:14:52.692899+00:00",
+  "total_value_usd": 18.273355243353034,
+  "eth_balance": 0.006030421469753125,
+  "eth_value_usd": 18.273355243353034,
+  "token_holdings": {},
+  "risk_score": 65,
+  "tx_count": 1000,
+  "defi_activity": true,
+  "nft_activity": {},
+  "bridge_activity": false,
+  "age_days": 41,
+  "osint_categories": [
+    "\ud83c\udfb0_gamblers"
+  ],
+  "primary_osint_category": "\ud83c\udfb0_gamblers",
+  "behavior": {
+    "confidence_score": 65,
+    "sophistication": "Novice",
+    "risk_tolerance": "Moderate",
+    "trading_style": "Active Trader",
+    "likely_region": "Europe",
+    "likely_timezone": "Europe/Africa (UTC+0 to +3)",
+    "meme_exposure": false,
+    "defi_protocols": [
+      "WETH Contract"
+    ],
+    "nft_platforms": [],
+    "bridges_used": [],
+    "exchange_interactions": [
+      "Binance 7",
+      "Binance 8"
+    ],
+    "frequent_counterparties": []
+  },
+  "transaction_analysis": {
+    "total_transactions": 1000,
+    "total_value_eth": 0.04523023581659954,
+    "most_active_hour": 15,
+    "most_active_day": "Saturday",
+    "top_recipients": [
+      [
+        "0xd8da6bf26964af9d7eed9e03e53415d37aa96045",
+        112
+      ],
+      [
+        "0x220866b1a2219f40e72f5c628b65d54268ca3a9d",
+        84
+      ],
+      [
+        "0xca8fa8f0b631ecdb18cda619c4fc9d197c8affca",
+        74
+      ],
+      [
+        "0xbe0eb53f46cd790cd13851d5eff43d12404d33e8",
+        72
+      ],
+      [
+        "0x0a4c79ce84202b03e95b7a692e5d728d83c44c76",
+        65
+      ],
+      [
+        "0x2f2d854c1d6d5bb8936bb85bc07c28ebb42c9b10",
+        54
+      ],
+      [
+        "0x1b3cb81e51011b549d78bf720b0d924ac763a7c2",
+        51
+      ],
+      [
+        "0xb61a16bda6d61d9b8ad493bf05962c5b98d1712f",
+        47
+      ],
+      [
+        "0xa86e3d1c80a750a310b484fb9bdc470753a7506f",
+        32
+      ],
+      [
+        "0x8d05d9924fe935bd533a844271a1b2078eae6fcf",
+        21
+      ]
+    ],
+    "top_senders": [
+      [
+        "0xf8fc9a91349ebd2033d53f2b97245102f00aba96",
+        996
+      ],
+      [
+        "0xacb31853dd2e89609f4aee741f51952e5eda680d",
+        3
+      ],
+      [
+        "0xcc93d88a65cf75bc3ac83af50468223209539ee6",
+        1
+      ]
+    ],
+    "first_transaction": "2025-10-04T22:05:47",
+    "last_transaction": "2026-01-09T15:04:11",
+    "avg_gas_used": 22014.792,
+    "avg_gas_price": 1106868007.7383442
+  },
+  "token_activity": {
+    "unique_tokens": 37,
+    "top_tokens": [
+      [
+        "E\ua4d4H",
+        72
+      ],
+      [
+        "ETH",
+        68
+      ],
+      [
+        "USDT",
+        20
+      ],
+      [
+        "BRD",
+        1
+      ],
+      [
+        "HQG",
+        1
+      ],
+      [
+        "PAP",
+        1
+      ],
+      [
+        "BREV",
+        1
+      ],
+      [
+        "GUYS",
+        1
+      ],
+      [
+        "DOGX",
+        1
+      ],
+      [
+        "xAI",
+        1
+      ],
+      [
+        "wTAO",
+        1
+      ],
+      [
+        "LINK",
+        1
+      ],
+      [
+        "MetaAI",
+        1
+      ],
+      [
+        "FISH",
+        1
+      ],
+      [
+        "BONE",
+        1
+      ],
+      [
+        "LIFE",
+        1
+      ],
+      [
+        "BP",
+        1
+      ],
+      [
+        "TRUNK",
+        1
+      ],
+      [
+        "KEB",
+        1
+      ],
+      [
+        "MB",
+        1
+      ]
+    ],
+    "token_values": {
+      "BRD": 1.0,
+      "HQG": 1.168888,
+      "PAP": 1.0,
+      "BREV": 5.0,
+      "GUYS": 1.0,
+      "DOGX": 2.0,
+      "xAI": 10.0,
+      "wTAO": 2.0,
+      "LINK": 2.0,
+      "MetaAI": 10.0,
+      "ETH": 0.0008242977000000014,
+      "E\ua4d4H": 0.0008727858000000016,
+      "FISH": 1.0,
+      "BONE": 1.0,
+      "LIFE": 1.0,
+      "USDT": 305.15719799999994,
+      "BP": 1.0,
+      "TRUNK": 1.0,
+      "KEB": 1.0,
+      "MB": 1.0,
+      "Stars": 2.0,
+      "XMOVE": 2.0,
+      "BOP": 1.0,
+      "SDOG": 1.0,
+      "DK": 1.0,
+      "CSS": 1.0,
+      "QUK": 1.0,
+      "EPIN": 1.0,
+      "GUS": 1.0,
+      "CAI": 2.0,
+      "FOMO": 2.0,
+      "INX": 2.0,
+      "SBX": 2.0,
+      "PMAI": 2.0,
+      "GF": 1.0,
+      "KIB": 1.0,
+      "AICC": 17500.0
+    },
+    "token_details": {
+      "BRD": [
+        "Bread"
+      ],
+      "HQG": [
+        "\u73af\u7403\u80a1"
+      ],
+      "PAP": [
+        "Apu Pepe"
+      ],
+      "BREV": [
+        "Brevis"
+      ],
+      "GUYS": [
+        "Rekt Guys"
+      ],
+      "DOGX": [
+        "DOGX"
+      ],
+      "xAI": [
+        "xAI"
+      ],
+      "wTAO": [
+        "wTAO"
+      ],
+      "LINK": [
+        "LINK"
+      ],
+      "MetaAI": [
+        "MetaAI"
+      ],
+      "ETH": [
+        "ETH"
+      ],
+      "E\ua4d4H": [
+        "E\ua4d4H"
+      ],
+      "FISH": [
+        "Salty Fish"
+      ],
+      "BONE": [
+        "Trump Bone"
+      ],
+      "LIFE": [
+        "Wall Life"
+      ],
+      "USDT": [
+        "Tether USD"
+      ],
+      "BP": [
+        "Bang Pang"
+      ],
+      "TRUNK": [
+        "Donald Trunk"
+      ],
+      "KEB": [
+        "Shibo Kibo"
+      ],
+      "MB": [
+        "Meta Boost"
+      ],
+      "Stars": [
+        "Stars"
+      ],
+      "XMOVE": [
+        "XMOVE"
+      ],
+      "BOP": [
+        "MIssu Bop"
+      ],
+      "SDOG": [
+        "SKI DOG"
+      ],
+      "DK": [
+        "Disco Kitus"
+      ],
+      "CSS": [
+        "Cyrus Sargon"
+      ],
+      "QUK": [
+        "QUICK"
+      ],
+      "EPIN": [
+        "DePIN"
+      ],
+      "GUS": [
+        "Cheesy Gus"
+      ],
+      "CAI": [
+        "CAI"
+      ],
+      "FOMO": [
+        "FOMO"
+      ],
+      "INX": [
+        "INX"
+      ],
+      "SBX": [
+        "SBX"
+      ],
+      "PMAI": [
+        "PMAI"
+      ],
+      "GF": [
+        "God Father"
+      ],
+      "KIB": [
+        "Kibo Shib"
+      ],
+      "AICC": [
+        "AI Chain Coin"
+      ]
+    }
+  },
+  "ipfs_osint": {
+    "skipped": true,
+    "reason": "no_nft_activity"
+  },
+  "ens": {
+    "address": "0xf8fc9a91349ebd2033d53f2b97245102f00aba96",
+    "ens_name": null,
+    "text_records": {},
+    "social_links": {},
+    "has_ens": false,
+    "has_social_links": false
+  },
+  "approval_risk": {
+    "scan_timestamp": "2026-01-20T16:15:00.416873+00:00",
+    "total_approvals": 0,
+    "unlimited_approvals": 0,
+    "high_risk_approvals": 0,
+    "total_exposure_usd": 0,
+    "verdicts": [],
+    "has_dangerous_approvals": false
+  },
+  "funding_trace": {
+    "target": "0xf8fc9a91349ebd2033d53f2b97245102f00aba96",
+    "trace_timestamp": "2026-01-20T16:14:59.532897+00:00",
+    "total_hops": 0,
+    "origin_found": false,
+    "origin_type": null,
+    "origin_label": null,
+    "trace_complete": false,
+    "trace_stopped_reason": "No funding transaction found",
+    "funding_chain": []
+  },
+  "token_risks": {
+    "scan_timestamp": "2026-01-20T16:15:01.131437+00:00",
+    "tokens_analyzed": 0,
+    "risky_tokens": 0,
+    "total_value_at_risk_usd": 0,
+    "has_risky_tokens": false,
+    "verdicts": [],
+    "honeypots_detected": 0,
+    "impersonators_detected": 0
+  },
+  "verdicts": [
+    {
+      "title": "LOW SOPHISTICATION TARGET",
+      "severity": "MEDIUM",
+      "category": "VULNERABILITY",
+      "description": "Wallet shows limited DeFi knowledge but holds significant value. Basic phishing likely to succeed.",
+      "evidence": [
+        "Matched 3/4 signals",
+        "Pattern: low_sophistication_target",
+        "Confidence: 75%",
+        "Signal: sophistication",
+        "Signal: defi_protocols_count",
+        "Signal: exchange_interactions"
+      ],
+      "action": "Standard phishing attacks likely effective"
+    }
+  ]
+}

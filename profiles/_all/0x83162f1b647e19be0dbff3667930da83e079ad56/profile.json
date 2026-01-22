@@ -1,0 +1,756 @@
+{
+  "address": "0x83162f1b647e19be0dbff3667930da83e079ad56",
+  "discovered_at": "2026-01-20T16:15:55.498051+00:00",
+  "total_value_usd": 1390.3584929805206,
+  "eth_balance": 0.4590406145633314,
+  "eth_value_usd": 1390.3584929805206,
+  "token_holdings": {},
+  "risk_score": 75,
+  "tx_count": 659,
+  "defi_activity": true,
+  "nft_activity": {},
+  "bridge_activity": true,
+  "age_days": 26,
+  "osint_categories": [
+    "\ud83c\udfb0_gamblers",
+    "\ud83c\udf09_cross_chain_users",
+    "\ud83e\udde0_defi_natives"
+  ],
+  "primary_osint_category": "\ud83c\udfb0_gamblers",
+  "behavior": {
+    "confidence_score": 75,
+    "sophistication": "Advanced",
+    "risk_tolerance": "Moderate",
+    "trading_style": "Active Trader",
+    "likely_region": "Americas",
+    "likely_timezone": "Americas (UTC-5 to -8)",
+    "meme_exposure": false,
+    "defi_protocols": [
+      "WETH Contract"
+    ],
+    "nft_platforms": [],
+    "bridges_used": [
+      "Polygon Bridge",
+      "Optimism Bridge",
+      "Wormhole"
+    ],
+    "exchange_interactions": [],
+    "frequent_counterparties": []
+  },
+  "transaction_analysis": {
+    "total_transactions": 659,
+    "total_value_eth": 20.61367849845389,
+    "most_active_hour": 16,
+    "most_active_day": "Tuesday",
+    "top_recipients": [
+      [
+        "0x6a000f20005980200259b80c5102003040001068",
+        156
+      ],
+      [
+        "0x49048044d57e1c92a77f79988d21fa8faf74e97e",
+        87
+      ],
+      [
+        "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+        32
+      ],
+      [
+        "0x0b9857ae2d4a3dbe74ffe1d7df045bb7f96e4840",
+        26
+      ],
+      [
+        "0x6131b5fae19ea4f9d964eac0408e4408b66337b5",
+        22
+      ],
+      [
+        "0x111111125421ca6dc452d289314280a0f8842a65",
+        21
+      ],
+      [
+        "0x42458259d5c85fb2bf117f197f1fef8c3b7dcbfe",
+        16
+      ],
+      [
+        "0x3154cf16ccdb4c6d922629664174b904d80f2c35",
+        14
+      ],
+      [
+        "0x3ee18b2214aff97000d974cf647e7c347e8fa585",
+        11
+      ],
+      [
+        "0x83162f1b647e19be0dbff3667930da83e079ad56",
+        10
+      ]
+    ],
+    "top_senders": [
+      [
+        "0x83162f1b647e19be0dbff3667930da83e079ad56",
+        650
+      ],
+      [
+        "0xfdff888c5c29ec25ec9e9c570ea5b373f060ac85",
+        3
+      ],
+      [
+        "0xfdff0dd30b7c0062a123cb8f1377a8f5e463ac85",
+        1
+      ],
+      [
+        "0xfdf70484aa77f84bb5c4ebdc167e0768a119ac85",
+        1
+      ],
+      [
+        "0xfdf4831f5c4e541996132861e1fbcc000214ac85",
+        1
+      ],
+      [
+        "0xfdff1fc5c1e15e9eb28f38e2dac5b857becfac85",
+        1
+      ],
+      [
+        "0xfdff0b569f14af593d446e51b3e42f502124ac85",
+        1
+      ],
+      [
+        "0xd65fb5b62eeb32d63cf2416d5045f0b91f09aa75",
+        1
+      ]
+    ],
+    "first_transaction": "2025-12-17T21:07:59",
+    "last_transaction": "2026-01-20T17:07:47",
+    "avg_gas_used": 217813.7086494689,
+    "avg_gas_price": 524685884.8814193
+  },
+  "token_activity": {
+    "unique_tokens": 120,
+    "top_tokens": [
+      [
+        "WETH",
+        534
+      ],
+      [
+        "REACT",
+        51
+      ],
+      [
+        "FOOM",
+        20
+      ],
+      [
+        "LON",
+        14
+      ],
+      [
+        "WALLET",
+        13
+      ],
+      [
+        "BIO",
+        12
+      ],
+      [
+        "ZCX",
+        10
+      ],
+      [
+        "SWAP",
+        9
+      ],
+      [
+        "VEE",
+        9
+      ],
+      [
+        "vDOT",
+        9
+      ],
+      [
+        "ERC20",
+        8
+      ],
+      [
+        "FP",
+        8
+      ],
+      [
+        "ELON",
+        8
+      ],
+      [
+        "VITA",
+        8
+      ],
+      [
+        "TOWER",
+        7
+      ],
+      [
+        "BOTTO",
+        7
+      ],
+      [
+        "CIG",
+        6
+      ],
+      [
+        "DYP",
+        6
+      ],
+      [
+        "MATH",
+        6
+      ],
+      [
+        "DOT",
+        6
+      ]
+    ],
+    "token_values": {
+      "NUMI": 2.5590851777098718,
+      "WETH": 309.8656802979217,
+      "FOOM": 407950082573.8746,
+      "SWAP": 46811.47850181801,
+      "@G": 18742.995705448047,
+      "LON": 191347.10004177474,
+      "GWEI": 5.0,
+      "XCHNG": 92357.50488045759,
+      "HAIR": 280.4346834371718,
+      "DGLD": 14.20274171892111,
+      "M69": 20263897845.75647,
+      "GRIX": 53105.02676751796,
+      "UDO": 124172.40000000001,
+      "CIG": 7390826.213126197,
+      "REKT": 23008782876.440712,
+      "savUSD": 0.0871795933854263,
+      "GOVI": 442589.77745803766,
+      "DYP": 271208.7989572421,
+      "\u018e\u0500\u018e\u0500": 584348789472.1757,
+      "OWL": 12.0,
+      "FLUX": 18712.279421690302,
+      "HEX": 2.00002,
+      "MATH": 36986.63203054277,
+      "iFARM": 18.0828144140772,
+      "ERC20": 3122349.1849731486,
+      "VEE": 72055133.35949247,
+      "HUNT": 80159.54173417258,
+      "AZUR": 312040.8196758861,
+      "DONUT": 709392.814817098,
+      "HLS": 228064.6841534811,
+      "TOWER": 5161980.120298039,
+      "UniLife": 5.0,
+      "OVR": 33832.73812646598,
+      "HOGE": 127701351.23731188,
+      "wHOGE": 131623652.90010118,
+      "GAPPY": 1006427851.4542563,
+      "kitties": 27311094.483057164,
+      "CPM": 2000.0,
+      "CAT": 1.0,
+      "WFRAX": 635.2684507865774,
+      "DOT": 8130.2644279915585,
+      "BEPE": 5.0,
+      "DMTR": 23763.59054770006,
+      "BREV": 1324.3548244592516,
+      "ZTC": 169011.15071000002,
+      "JESUS": 36815128466.70677,
+      "FP": 69083.63734399999,
+      "BOTTO": 108705.71943388204,
+      "ABR0": 93.01817816536465,
+      "FXB_20261231": 9876.022312984544,
+      "BADGER": 2528.2892254033623,
+      "ELON": 142236479904.30844,
+      "FLUID": 1479.6880912583565,
+      "REACT": 867997.3250688236,
+      "PORT": 1.0,
+      "GIV": 1386152.5040440606,
+      "FYDE": 168428.730728,
+      "NEURON": 33838693.265350595,
+      "BIO": 147662.86706849176,
+      "1": 50182861.70697683,
+      "ZCX": 683356.8695738136,
+      "VITA": 10326.183197754111,
+      "EHORSE": 5.0,
+      "SUPERDOG": 5.0,
+      "frxUSD": 0.04037017264818863,
+      "PAP": 1.0,
+      "ZENT": 1874056.6698804367,
+      "ALI": 565428.9714783285,
+      "wPOKT": 150897.028978,
+      "POKT": 235373.794529,
+      "FORT": 30940.915003680777,
+      "GEL": 92.57046264517284,
+      "KIBSHI": 94448979.84732513,
+      "KIB": 1.0,
+      "PENGU": 19719.141894,
+      "WALLET": 2348910.0163084907,
+      "$Reach": 761882.0319895726,
+      "CXT": 38263.11991573269,
+      "PNK": 701383.960781092,
+      "SWFTC": 469945.49485485,
+      "WPLS": 15772420.64140885,
+      "TIME": 163.98035000000002,
+      "BAG": 240.0071963341495,
+      "HOP": 266414.0329518783,
+      "LSK": 9049.00967109665,
+      "FUELX": 8270861.784976167,
+      "DEUS": 0.007143032867085154,
+      "BOSON": 95856.28868278707,
+      "SEXY": 97103.04244722352,
+      "NexF": 304853706.34457964,
+      "WAGMI": 62732.48429552641,
+      "GHX": 12.644941465661043,
+      "PEPE": 1729214.5817782474,
+      "FOAM": 3659016.993570202,
+      "MINDS": 37116.84341103496,
+      "AAG": 4859.3923218485925,
+      "GROW": 5663.093855580104,
+      "BDX": 0.030229099000000002,
+      "YES": 3.0,
+      "GUYS": 1.0,
+      "FOX": 253610.51607133378,
+      "CAH": 824.1514822186813,
+      "AKITA": 35011489121.46299,
+      "FIRE": 1.0,
+      "KEKIUS": 1.0,
+      "ADS": 25037.665421915597,
+      "PUSSY": 117348531.27482694,
+      "ARV": 13629840.1006771,
+      "vDOT": 4914.010002024207,
+      "LINU": 82502154930.91304,
+      "FXS": 0.006261466087954974,
+      "XER": 172104.65641261858,
+      "AIUS": 969.2534417076736,
+      "DOGX": 2.0,
+      "PMON": 224.3066266985,
+      "AICC": 17500.0,
+      "RLY": 870.953906384439,
+      "BNF": 1734932.2454610772,
+      "IONP": 81.09330064418819,
+      "SD": 1517.077506150299
+    },
+    "token_details": {
+      "NUMI": [
+        "NUMINE Token"
+      ],
+      "WETH": [
+        "Wrapped Ether"
+      ],
+      "FOOM": [
+        "FOOM"
+      ],
+      "SWAP": [
+        "TrustSwap Token"
+      ],
+      "@G": [
+        "G@ETH"
+      ],
+      "LON": [
+        "LON Token"
+      ],
+      "GWEI": [
+        "ETHGas"
+      ],
+      "XCHNG": [
+        "Chainge"
+      ],
+      "HAIR": [
+        "HairDAO Token"
+      ],
+      "DGLD": [
+        "Digital Gold"
+      ],
+      "M69": [
+        "Money2069"
+      ],
+      "GRIX": [
+        "Grix"
+      ],
+      "UDO": [
+        "Unido"
+      ],
+      "CIG": [
+        "Cigarette Token"
+      ],
+      "REKT": [
+        "Rekt"
+      ],
+      "savUSD": [
+        "Staked avUSD"
+      ],
+      "GOVI": [
+        "GOVI"
+      ],
+      "DYP": [
+        "Dypius"
+      ],
+      "\u018e\u0500\u018e\u0500": [
+        "\u018e\u0500\u018e\u0500"
+      ],
+      "OWL": [
+        "Owlto"
+      ],
+      "FLUX": [
+        "FLUX"
+      ],
+      "HEX": [
+        "HEX"
+      ],
+      "MATH": [
+        "MATH Token"
+      ],
+      "iFARM": [
+        "iFARM"
+      ],
+      "ERC20": [
+        "Token"
+      ],
+      "VEE": [
+        "Vee Token",
+        "BLOCKv"
+      ],
+      "HUNT": [
+        "HUNT Token"
+      ],
+      "AZUR": [
+        "Azuro"
+      ],
+      "DONUT": [
+        "Donut"
+      ],
+      "HLS": [
+        "Helios"
+      ],
+      "TOWER": [
+        "TOWER"
+      ],
+      "UniLife": [
+        "UniLife"
+      ],
+      "OVR": [
+        "OVR"
+      ],
+      "HOGE": [
+        "hoge.finance"
+      ],
+      "wHOGE": [
+        "Wrapped HOGE"
+      ],
+      "GAPPY": [
+        "Gap Tooth Lizard"
+      ],
+      "kitties": [
+        "I love kitties"
+      ],
+      "CPM": [
+        "Crypto Pump Meme"
+      ],
+      "CAT": [
+        "Trump Cat"
+      ],
+      "WFRAX": [
+        "Wrapped Frax"
+      ],
+      "DOT": [
+        "Polkadot Token (Relay Chain)"
+      ],
+      "BEPE": [
+        "Baby Pepe"
+      ],
+      "DMTR": [
+        "Dimitra Token"
+      ],
+      "BREV": [
+        "Brevis Token"
+      ],
+      "ZTC": [
+        "Zenchain",
+        "ZenChain"
+      ],
+      "JESUS": [
+        "Jesus Coin"
+      ],
+      "FP": [
+        "Fren Pet"
+      ],
+      "BOTTO": [
+        "Botto"
+      ],
+      "ABR0": [
+        "Allbridge Zero"
+      ],
+      "FXB_20261231": [
+        "FXB_4_DEC312026"
+      ],
+      "BADGER": [
+        "Badger"
+      ],
+      "ELON": [
+        "Dogelon"
+      ],
+      "FLUID": [
+        "Fluid"
+      ],
+      "REACT": [
+        "Wrapped REACT"
+      ],
+      "PORT": [
+        "DePORT"
+      ],
+      "GIV": [
+        "Giveth"
+      ],
+      "FYDE": [
+        "Fyde"
+      ],
+      "NEURON": [
+        "Cerebrum DAO Token"
+      ],
+      "BIO": [
+        "BIO"
+      ],
+      "1": [
+        "1 coin can change your life"
+      ],
+      "ZCX": [
+        "ZEN Exchange Token"
+      ],
+      "VITA": [
+        "VitaDAO Token"
+      ],
+      "EHORSE": [
+        "EHORSE"
+      ],
+      "SUPERDOG": [
+        "SUPERDOG"
+      ],
+      "frxUSD": [
+        "Frax USD"
+      ],
+      "PAP": [
+        "Apu Pepe"
+      ],
+      "ZENT": [
+        "Zentry"
+      ],
+      "ALI": [
+        "Artificial Liquid Intelligence Token"
+      ],
+      "wPOKT": [
+        "Wrapped Pocket"
+      ],
+      "POKT": [
+        "Pocket Network"
+      ],
+      "FORT": [
+        "Forta"
+      ],
+      "GEL": [
+        "Gelato Network Token"
+      ],
+      "KIBSHI": [
+        "KiboShib"
+      ],
+      "KIB": [
+        "Kibo Shib"
+      ],
+      "PENGU": [
+        "Pudgy Penguins"
+      ],
+      "WALLET": [
+        "Ambire Wallet"
+      ],
+      "$Reach": [
+        "Reach"
+      ],
+      "CXT": [
+        "Covalent X Token"
+      ],
+      "PNK": [
+        "Pinakion"
+      ],
+      "SWFTC": [
+        "SwftCoin"
+      ],
+      "WPLS": [
+        "Wrapped Pulse from PulseChain"
+      ],
+      "TIME": [
+        "ChronoTech Token"
+      ],
+      "BAG": [
+        "Blockchain Adventurers Guild"
+      ],
+      "HOP": [
+        "Hop"
+      ],
+      "LSK": [
+        "Lisk"
+      ],
+      "FUELX": [
+        "Fuel"
+      ],
+      "DEUS": [
+        "DEUS"
+      ],
+      "BOSON": [
+        "Boson Token"
+      ],
+      "SEXY": [
+        "Settled ETHXY Token"
+      ],
+      "NexF": [
+        "NexF"
+      ],
+      "WAGMI": [
+        "Wagmi"
+      ],
+      "GHX": [
+        "GamerCoin"
+      ],
+      "PEPE": [
+        "Pepe Community"
+      ],
+      "FOAM": [
+        "FOAM Token"
+      ],
+      "MINDS": [
+        "Minds"
+      ],
+      "AAG": [
+        "AAG"
+      ],
+      "GROW": [
+        "ValleyDAO Token"
+      ],
+      "BDX": [
+        "BELDEX"
+      ],
+      "YES": [
+        "YES"
+      ],
+      "GUYS": [
+        "Rekt Guys"
+      ],
+      "FOX": [
+        "FOX"
+      ],
+      "CAH": [
+        "Moon Tropica"
+      ],
+      "AKITA": [
+        "Akita Inu"
+      ],
+      "FIRE": [
+        "Trump Fire"
+      ],
+      "KEKIUS": [
+        "Volt Kekius"
+      ],
+      "ADS": [
+        "Adshares"
+      ],
+      "PUSSY": [
+        "PUSSY token from PulseChain"
+      ],
+      "ARV": [
+        "ARIVA"
+      ],
+      "vDOT": [
+        "Bifrost Voucher DOT"
+      ],
+      "LINU": [
+        "Luna Inu"
+      ],
+      "FXS": [
+        "Frax Share"
+      ],
+      "XER": [
+        "Xerberus"
+      ],
+      "AIUS": [
+        "Arbius"
+      ],
+      "DOGX": [
+        "DOGX"
+      ],
+      "PMON": [
+        "Polkamon"
+      ],
+      "AICC": [
+        "AI Chain Coin"
+      ],
+      "RLY": [
+        "Rally"
+      ],
+      "BNF": [
+        "BonFi"
+      ],
+      "IONP": [
+        "Ion Power Token"
+      ],
+      "SD": [
+        "Stader"
+      ]
+    }
+  },
+  "ipfs_osint": {
+    "skipped": true,
+    "reason": "no_nft_activity"
+  },
+  "ens": {
+    "address": "0x83162f1b647e19be0dbff3667930da83e079ad56",
+    "ens_name": null,
+    "text_records": {},
+    "social_links": {},
+    "has_ens": false,
+    "has_social_links": false
+  },
+  "approval_risk": {
+    "scan_timestamp": "2026-01-20T16:16:04.626707+00:00",
+    "total_approvals": 0,
+    "unlimited_approvals": 0,
+    "high_risk_approvals": 0,
+    "total_exposure_usd": 0,
+    "verdicts": [],
+    "has_dangerous_approvals": false
+  },
+  "funding_trace": {
+    "target": "0x83162f1b647e19be0dbff3667930da83e079ad56",
+    "trace_timestamp": "2026-01-20T16:16:03.678305+00:00",
+    "total_hops": 0,
+    "origin_found": false,
+    "origin_type": null,
+    "origin_label": null,
+    "trace_complete": false,
+    "trace_stopped_reason": "No funding transaction found",
+    "funding_chain": []
+  },
+  "token_risks": {
+    "scan_timestamp": "2026-01-20T16:16:05.348040+00:00",
+    "tokens_analyzed": 0,
+    "risky_tokens": 0,
+    "total_value_at_risk_usd": 0,
+    "has_risky_tokens": false,
+    "verdicts": [],
+    "honeypots_detected": 0,
+    "impersonators_detected": 0
+  },
+  "verdicts": [
+    {
+      "title": "DEFI POWER USER",
+      "severity": "MEDIUM",
+      "category": "PROFILE",
+      "description": "Advanced DeFi user with multi-protocol exposure and cross-chain activity. High sophistication level.",
+      "evidence": [
+        "Matched 3/4 signals",
+        "Pattern: defi_power_user",
+        "Confidence: 75%",
+        "Signal: bridges_count",
+        "Signal: sophistication",
+        "Signal: tx_count"
+      ],
+      "action": "Target with advanced DeFi scams, fake protocol exploits"
+    }
+  ]
+}

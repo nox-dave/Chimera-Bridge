@@ -169,9 +169,19 @@ class ReportGenerator:
         with open(protocol_dir / "report.md", "w") as f:
             f.write(md_report)
         
-        summary_txt = self._generate_summary_text(report)
-        with open(protocol_dir / "summary.txt", "w", encoding="utf-8") as f:
-            f.write(summary_txt)
+        try:
+            from .enhanced_report_generator import generate_enhanced_report
+            source_code = report.source_code or ""
+            generate_enhanced_report(
+                protocol_data=profile,
+                findings=report.vulnerabilities,
+                source_code=source_code,
+                output_dir=str(protocol_dir),
+            )
+        except Exception as e:
+            summary_txt = self._generate_summary_text(report)
+            with open(protocol_dir / "summary.txt", "w", encoding="utf-8") as f:
+                f.write(summary_txt)
         
         if create_symlinks:
             self._create_priority_symlinks(report, protocol_dir)

@@ -1,0 +1,192 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                         🐋 WHALE INTELLIGENCE REPORT                          ║
+║                           Gargophias OSINT Module                            ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+Target:     0x8954fc47b120d421f9771694c46b6d745533a9c7
+Generated:  2026-01-20 17:18:58 UTC
+
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                               QUICK ASSESSMENT                               │
+├──────────────────────────────────────────────────────────────────────────────┤
+│  ✅ LIKELY REAL PERSON                                                       │
+│  Confidence: 55%                                                               │
+│  Profile: Fish | Long-term Holder                                           │
+└──────────────────────────────────────────────────────────────────────────────┘
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+💰 FINANCIAL SUMMARY
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Total Portfolio Value:  $              252.03
+  ETH Balance:                          0.0831 ETH
+  ETH Value:              $              252.03
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📊 ACTIVITY METRICS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Transaction Count:                       100
+  Total ETH Moved:                        1.81 ETH
+  Avg Transaction:                      0.1003 ETH
+  Wallet Age:                              935 days
+  First Transaction:                2023-06-29
+  Last Transaction:                 2026-01-06
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🧠 BEHAVIORAL PROFILE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Sophistication Level:   Intermediate        
+  Risk Tolerance:         Moderate            
+  Trading Style:          Long-term Holder    
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+⏰ ACTIVITY PATTERNS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Peak Activity Hours:    3:00, 23:00, 20:00, 8:00 UTC
+  Most Active Days:       Sunday, Thursday, Tuesday
+  Likely Timezone:        Europe/Africa (UTC+0 to +3)
+  Probable Region:        Europe
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🔧 PROTOCOL & PLATFORM USAGE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  DeFi Protocols:
+    ✓ Uniswap V3
+    ✓ WETH Contract
+    ✓ Uniswap V2
+
+  NFT Platforms:          None detected
+
+  Bridge Usage:           None detected
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🪙 TOKEN INTERESTS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Active Tokens: steth, dai, wsteth, cbeth, ape, spweth, variabledebtdai, eigen, $ ethaave.com - visit to claim staking rewards, usdt
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🏦 FUNDING & EXCHANGE RELATIONSHIPS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Original Funding:       Binance 15
+                          0x21a31ee1afc51d94c2efccaa2092ad1028285549...
+
+  Exchange Interactions:
+    • Binance 15
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🎯 SIGNAL ANALYSIS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  ✅ BULLISH SIGNALS (Real Person Indicators):
+     • Exchange interactions
+     • Funded from Binance 15 - withdrew from CEX
+
+  ⚠️  RED FLAGS (Caution Indicators):
+     • No significant red flags detected
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📋 OSINT ASSESSMENT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  MODERATE CONFIDENCE (55%): Likely a real person, but some uncertainty.
+  GEOGRAPHIC: Activity patterns suggest Europe timezone (Europe/Africa (UTC+0 to +3)).
+  SOPHISTICATION: Intermediate user. Familiar with DeFi basics, uses DEXs.
+  RISK PROFILE: Moderate. Long-term Holder.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🎭 PROFILE HYPOTHESIS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Archetype: General Crypto Holder
+  
+  Narrative:
+    Originally funded through Binance, suggesting traditional onboarding.
+    Shows familiarity with DEXs and basic DeFi concepts.
+    Activity patterns suggest European timezone.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🔗 INVESTIGATION LINKS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Etherscan:      https://etherscan.io/address/0x8954fc47b120d421f9771694c46b6d745533a9c7
+  Debank:         https://debank.com/profile/0x8954fc47b120d421f9771694c46b6d745533a9c7
+  Arkham Intel:   https://platform.arkhamintelligence.com/explorer/address/0x8954fc47b120d421f9771694c46b6d745533a9c7
+  Nansen:         https://pro.nansen.ai/wallet/0x8954fc47b120d421f9771694c46b6d745533a9c7
+  Zerion:         https://app.zerion.io/0x8954fc47b120d421f9771694c46b6d745533a9c7/overview
+  Zapper:         https://zapper.xyz/account/0x8954fc47b120d421f9771694c46b6d745533a9c7
+
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                       PRIORITY: LOW | CONFIDENCE: 55%                        ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+
+🔍 FUNDING SOURCE TRACE
+━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Hops Traced: 0
+
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🌐 IPFS & DOMAIN OSINT ANALYSIS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+NFT Transfers Analyzed: 5
+Contracts Checked: 4
+Tokens Scanned: 5
+Metadata Files Fetched: 2
+
+IPFS Hashes Found: 0
+  (No IPFS hashes found - metadata may be on centralized servers)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🌍 DOMAIN INTELLIGENCE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Domain: api.dtools.org
+  Reputation: UNKNOWN
+  Metadata URLs: 2
+
+Domain: dna.zerion.io
+  Reputation: UNKNOWN
+  Metadata URLs: 1
+
+Domain: zenacademy.com
+  Reputation: UNKNOWN
+  Metadata URLs: 1
+
+Domain: eigen-layer-02462cd942da.herokuapp.com
+  Reputation: UNKNOWN
+  Metadata URLs: 1
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📋 METADATA SOURCES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Contract: 0xde07734c... | Token: 16275
+    URI: https://api.dtools.org/commonpass/16275...
+  Contract: 0xde07734c... | Token: 15843
+    URI: https://api.dtools.org/commonpass/15843...
+  Contract: 0x932261f9... | Token: 178257
+    URI: https://dna.zerion.io/api/v1/avatars/onepointo/178257...
+  Contract: 0x26d6c3e7... | Token: 15059
+    URI: https://zenacademy.com/api/tokens/15059...
+  Contract: 0x8d080255... | Token: 56566
+    URI: https://eigen-layer-02462cd942da.herokuapp.com/api/metadata/56566...
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🔗 LINKED URLs
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  • https://eigen-layer.s3.amazonaws.com/animations/56566.html
+  • https://zerion-dna-mini.s3.us-east-1.amazonaws.com/onepointo/3e772576c12f14793674e1ffb248670becbc7020.270x270.png
+  • https://zerion-dna.s3.us-east-1.amazonaws.com/onepointo/75d486dffda6f3fa50be87fe86700d1675214993.png
+  • https://app.zerion.io/nfts/0x932261f9fc8da46c4a22e31b45c4de60623848bf:178257
+  • https://eigen-layer.s3.us-east-1.amazonaws.com/tokens/56566.png
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🔗 ENS & SOCIAL IDENTITY
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+ENS Name: None (wallet does not have an ENS name)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📊 METADATA ANALYSIS SUMMARY
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Total metadata files analyzed: 2

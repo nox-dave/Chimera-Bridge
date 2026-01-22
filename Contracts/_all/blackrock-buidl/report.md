@@ -1,6 +1,6 @@
 # 🔱 Basilisk Security Report: BlackRock BUIDL
 
-> Generated: 2026-01-20T15:20:22.466089
+> Generated: 2026-01-22T17:48:17.744007
 
 ## Protocol Overview
 
@@ -10,14 +10,14 @@
 | **Address** | `0x7712c34205737192402172409a8F7ccef8aA2AEc` |
 | **Chain** | Ethereum |
 | **Category** | RWA |
-| **TVL** | $1,980,597,356 |
+| **TVL** | $1,951,475,168 |
 | **Audit Status** | ❌ Unaudited |
 | **Priority Score** | **80/100** |
 
 ## Verdicts
 
 - 🚨 **UNAUDITED HIGH-TVL PROTOCOL** (CRITICAL)
-  - Protocol has $1,980,597,356 TVL without documented audit
+  - Protocol has $1,951,475,168 TVL without documented audit
 - ℹ️ **VERY HIGH TVL TARGET** (INFO)
   - Protocol holds over $10M in TVL
 

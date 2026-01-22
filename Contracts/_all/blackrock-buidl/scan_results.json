@@ -1,16 +1,16 @@
 {
   "protocol_slug": "blackrock-buidl",
-  "scanned_at": "2026-01-20T15:20:22.466089",
+  "scanned_at": "2026-01-22T17:48:17.744007",
   "priority_score": 80,
   "verdicts": [
     {
       "title": "UNAUDITED HIGH-TVL PROTOCOL",
       "severity": "CRITICAL",
       "category": "TRUST",
-      "description": "Protocol has $1,980,597,356 TVL without documented audit",
+      "description": "Protocol has $1,951,475,168 TVL without documented audit",
       "evidence": [
         "No audit links found",
-        "TVL: $1,980,597,356"
+        "TVL: $1,951,475,168"
       ],
       "action": "Priority target for vulnerability analysis"
     },
@@ -20,7 +20,7 @@
       "category": "INTEL",
       "description": "Protocol holds over $10M in TVL",
       "evidence": [
-        "TVL: $1,980,597,356"
+        "TVL: $1,951,475,168"
       ],
       "action": "High-value target if vulnerable"
     }

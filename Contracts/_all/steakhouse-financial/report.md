@@ -1,6 +1,6 @@
 # 🔱 Basilisk Security Report: Steakhouse Financial
 
-> Generated: 2026-01-20T15:20:22.465224
+> Generated: 2026-01-22T19:32:58.627208
 
 ## Protocol Overview
 
@@ -10,14 +10,14 @@
 | **Address** | `0x777777c9898D384F785Ee44Acfe945efDFf5f3E0` |
 | **Chain** | Ethereum |
 | **Category** | Risk Curators |
-| **TVL** | $2,035,185,829 |
+| **TVL** | $2,014,039,929 |
 | **Audit Status** | ❌ Unaudited |
 | **Priority Score** | **80/100** |
 
 ## Verdicts
 
 - 🚨 **UNAUDITED HIGH-TVL PROTOCOL** (CRITICAL)
-  - Protocol has $2,035,185,829 TVL without documented audit
+  - Protocol has $2,014,039,929 TVL without documented audit
 - ℹ️ **VERY HIGH TVL TARGET** (INFO)
   - Protocol holds over $10M in TVL
 

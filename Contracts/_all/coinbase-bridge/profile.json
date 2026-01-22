@@ -1,0 +1,178 @@
+{
+  "protocol_name": "Coinbase Bridge",
+  "protocol_slug": "coinbase-bridge",
+  "address": "0x49048044D57e1C92A77f79988d21Fa8fAF74E97e",
+  "chain": "Ethereum",
+  "category": "Bridge",
+  "tvl": 6538186273.795464,
+  "tvl_formatted": "$6,538,186,274",
+  "is_audited": false,
+  "priority_score": 90,
+  "scanned_at": "2026-01-22T19:32:58.601909",
+  "verdicts": [
+    {
+      "title": "UNAUDITED HIGH-TVL PROTOCOL",
+      "severity": "CRITICAL",
+      "category": "TRUST",
+      "description": "Protocol has $6,538,186,274 TVL without documented audit",
+      "evidence": [
+        "No audit links found",
+        "TVL: $6,538,186,274"
+      ],
+      "action": "Priority target for vulnerability analysis"
+    },
+    {
+      "title": "BRIDGE PROTOCOL",
+      "severity": "CRITICAL",
+      "category": "EXPOSURE",
+      "description": "Bridge exploits historically cause massive losses",
+      "evidence": [
+        "Category: Bridge"
+      ],
+      "action": "Analyze for category-specific vulnerabilities"
+    },
+    {
+      "title": "VERY HIGH TVL TARGET",
+      "severity": "INFO",
+      "category": "INTEL",
+      "description": "Protocol holds over $10M in TVL",
+      "evidence": [
+        "TVL: $6,538,186,274"
+      ],
+      "action": "High-value target if vulnerable"
+    }
+  ],
+  "vulnerabilities": [
+    {
+      "detector": "tx-origin-pattern",
+      "type": "tx_origin",
+      "severity": "High",
+      "confidence": 0.9,
+      "title": "tx.origin Authentication",
+      "description": "tx.origin used for authentication. Vulnerable to phishing attacks.",
+      "locations": [],
+      "recommendation": "Use msg.sender instead of tx.origin",
+      "source": "pattern",
+      "_validation": {
+        "status": "CONFIRMED",
+        "reason": "tx.origin used in authentication check"
+      }
+    },
+    {
+      "detector": "unchecked-call-pattern",
+      "type": "unchecked_return",
+      "severity": "High",
+      "confidence": 0.8,
+      "title": "Unchecked Call Return",
+      "description": "Low-level call without checking return value. Call may fail silently.",
+      "locations": [
+        "Line 472"
+      ],
+      "recommendation": "Check return value: (bool success, ) = addr.call(...); require(success);",
+      "source": "pattern",
+      "_validation": {
+        "status": "CONFIRMED",
+        "reason": "Found 3 potentially unchecked low-level calls"
+      }
+    },
+    {
+      "detector": "selfdestruct-pattern",
+      "type": "selfdestruct",
+      "severity": "High",
+      "confidence": 0.7,
+      "title": "Selfdestruct Present",
+      "description": "Contract contains selfdestruct. Can be used to force-send ETH or destroy contract.",
+      "locations": [],
+      "recommendation": "Ensure selfdestruct is properly protected and necessary",
+      "source": "pattern",
+      "_validation": {
+        "status": "CONFIRMED",
+        "reason": "selfdestruct found in code"
+      }
+    },
+    {
+      "detector": "signature-replay-pattern",
+      "type": "signature_replay",
+      "severity": "Medium",
+      "confidence": 0.7,
+      "title": "Potential Signature Replay",
+      "description": "ecrecover used with missing domain separator. May be vulnerable to replay attacks.",
+      "locations": [],
+      "recommendation": "Implement EIP-712 with nonce, deadline, and domain separator",
+      "source": "pattern",
+      "_validation": {
+        "status": "NEEDS_REVIEW",
+        "reason": "No automated validator for detector: signature-replay-pattern"
+      }
+    },
+    {
+      "detector": "unchecked-arithmetic-pattern",
+      "type": "integer_overflow",
+      "severity": "Medium",
+      "confidence": 0.6,
+      "title": "Unchecked Arithmetic Block",
+      "description": "Contract uses unchecked blocks. Verify overflow is intentional.",
+      "locations": [],
+      "recommendation": "Ensure unchecked arithmetic cannot cause security issues",
+      "source": "pattern",
+      "_validation": {
+        "status": "NEEDS_REVIEW",
+        "reason": "No automated validator for detector: unchecked-arithmetic-pattern"
+      }
+    },
+    {
+      "detector": "timestamp-dependence-pattern",
+      "type": "timestamp_dependence",
+      "severity": "Low",
+      "confidence": 0.6,
+      "title": "Timestamp Dependence",
+      "description": "Contract logic depends on block.timestamp. Miners can manipulate slightly.",
+      "locations": [],
+      "recommendation": "Avoid using timestamps for critical logic or use block.number",
+      "source": "pattern",
+      "_validation": {
+        "status": "NEEDS_REVIEW",
+        "reason": "No automated validator for detector: timestamp-dependence-pattern"
+      }
+    },
+    {
+      "detector": "reentrancy-eth-pattern",
+      "type": "reentrancy",
+      "severity": "Low",
+      "confidence": 0.3,
+      "title": "Potential Reentrancy (ETH) - Likely Protected",
+      "description": "External call with ETH followed by state change detected. ReentrancyGuard is present - likely protected but verify manually.",
+      "locations": [],
+      "recommendation": "Verify nonReentrant modifier is applied to this function",
+      "source": "pattern",
+      "_validation": {
+        "status": "NEEDS_REVIEW",
+        "reason": "No automated validator for detector: reentrancy-eth-pattern"
+      }
+    },
+    {
+      "detector": "delegatecall-proxy-pattern",
+      "type": "delegatecall",
+      "severity": "Informational",
+      "confidence": 0.9,
+      "title": "Delegatecall in Proxy Contract",
+      "description": "Contract uses delegatecall as part of proxy pattern. Verify implementation address is properly controlled.",
+      "locations": [],
+      "recommendation": "Ensure only authorized addresses can update implementation",
+      "source": "pattern",
+      "_validation": {
+        "status": "NEEDS_REVIEW",
+        "reason": "No automated validator for detector: delegatecall-proxy-pattern"
+      }
+    }
+  ],
+  "vulnerability_summary": {
+    "total": 8,
+    "critical": 0,
+    "high": 3,
+    "medium": 2,
+    "low": 2,
+    "info": 1
+  },
+  "has_source_code": true
+}

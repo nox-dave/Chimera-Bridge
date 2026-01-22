@@ -1,0 +1,406 @@
+{
+  "address": "0xf031a0e85346485b110157c2d06124f7be6a8a33",
+  "discovered_at": "2026-01-20T16:14:06.759145+00:00",
+  "total_value_usd": 7539.9726378857,
+  "eth_balance": 2.4876385702758705,
+  "eth_value_usd": 7539.9726378857,
+  "token_holdings": {},
+  "risk_score": 70,
+  "tx_count": 104,
+  "defi_activity": true,
+  "nft_activity": {},
+  "bridge_activity": false,
+  "age_days": 900,
+  "osint_categories": [
+    "\ud83e\udde0_defi_natives"
+  ],
+  "primary_osint_category": "\ud83e\udde0_defi_natives",
+  "behavior": {
+    "confidence_score": 70,
+    "sophistication": "Intermediate",
+    "risk_tolerance": "Moderate",
+    "trading_style": "Long-term Holder",
+    "likely_region": "Europe",
+    "likely_timezone": "Europe/Africa (UTC+0 to +3)",
+    "meme_exposure": false,
+    "defi_protocols": [
+      "1inch V5",
+      "0x Protocol",
+      "WETH Contract"
+    ],
+    "nft_platforms": [],
+    "bridges_used": [],
+    "exchange_interactions": [],
+    "frequent_counterparties": []
+  },
+  "transaction_analysis": {
+    "total_transactions": 104,
+    "total_value_eth": 1845.8743427629975,
+    "most_active_hour": 15,
+    "most_active_day": "Thursday",
+    "top_recipients": [
+      [
+        "0xf031a0e85346485b110157c2d06124f7be6a8a33",
+        18
+      ],
+      [
+        "0x888888888889758f76e7103c6cbf23abbf58f946",
+        14
+      ],
+      [
+        "0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0",
+        5
+      ],
+      [
+        "0xae7ab96520de3a18e5e111b5eaab095312d7fe84",
+        4
+      ],
+      [
+        "0x35fa164735182de50811e8e2e824cfb9b6118ac2",
+        4
+      ],
+      [
+        "0x8236a87084f8b84306f72007f36f2618a5634494",
+        4
+      ],
+      [
+        "0x111111125421ca6dc452d289314280a0f8842a65",
+        4
+      ],
+      [
+        "0x9040e41ef5e8b281535a96d9a48acb8cfabd9a48",
+        4
+      ],
+      [
+        "0x9aa79c84b79816ab920bbce20f8f74557b514734",
+        3
+      ],
+      [
+        "0xf0bb20865277abd641a307ece5ee04e79073416c",
+        2
+      ]
+    ],
+    "top_senders": [
+      [
+        "0xf031a0e85346485b110157c2d06124f7be6a8a33",
+        86
+      ],
+      [
+        "0x9776cbecf431869d7cce96819131476c2e0f4ed5",
+        6
+      ],
+      [
+        "0xb364e75b1189dcbbf7f0c856456c1ba8e4d6481b",
+        6
+      ],
+      [
+        "0xc3adc21006ccbf90f2afc4df8ef77669a614d23b",
+        2
+      ],
+      [
+        "0xe9110ff040d5a3effbd7fe3321be8c09f5bbbb4b",
+        1
+      ],
+      [
+        "0xa21a16ec22a940990922220e4ab5bf4c2310f556",
+        1
+      ],
+      [
+        "0x5e4d28a44dfcaa41e4de1ee4e20740ce4a04c40b",
+        1
+      ],
+      [
+        "0x838218689a9874baf908087c740b01b0534f8d27",
+        1
+      ]
+    ],
+    "first_transaction": "2023-08-03T22:41:11",
+    "last_transaction": "2026-01-20T15:31:11",
+    "avg_gas_used": 160660.79807692306,
+    "avg_gas_price": 30682114204.459656
+  },
+  "token_activity": {
+    "unique_tokens": 38,
+    "top_tokens": [
+      [
+        "stETH",
+        12
+      ],
+      [
+        "LBTC",
+        9
+      ],
+      [
+        "wstETH",
+        9
+      ],
+      [
+        "eETH",
+        8
+      ],
+      [
+        "PENDLE-LPT",
+        8
+      ],
+      [
+        "PENDLE",
+        5
+      ],
+      [
+        "liquidETH",
+        4
+      ],
+      [
+        "BARD",
+        4
+      ],
+      [
+        "liquidBeraETH",
+        4
+      ],
+      [
+        "Av2-WETH-LP",
+        4
+      ],
+      [
+        "ERC20",
+        3
+      ],
+      [
+        "WETH",
+        3
+      ],
+      [
+        "ETH",
+        3
+      ],
+      [
+        "PT-liquidBeraETH-8MAY2025",
+        3
+      ],
+      [
+        "PT-liquidBeraETH-10APR2025",
+        3
+      ],
+      [
+        "LiquidKatanaETH",
+        2
+      ],
+      [
+        "katanaLBTCv",
+        2
+      ],
+      [
+        "stBARD",
+        2
+      ],
+      [
+        "ETHFI",
+        2
+      ],
+      [
+        "YT-LBTC-18DEC2025",
+        2
+      ]
+    ],
+    "token_values": {
+      "liquidETH": 1668.243132472177,
+      "eETH": 3550.119208850675,
+      "BTCe": 35.64785669,
+      "LBTC": 218.03898718,
+      "LiquidKatanaETH": 1263.836366156701,
+      "katanaLBTCv": 72.66679078,
+      "UCAP": 0.03,
+      "YIELDX": 199.27049999999997,
+      "stETH": 1248.7664566299645,
+      "\u4ee5\u592aAI": 5.0,
+      "\u4ee5\u592a\u4eba\u751f": 5.0,
+      "BUN": 5.0,
+      "ERC20": 9673.000000003634,
+      "stBARD": 9274.471271291935,
+      "BARD": 19346.0,
+      "ETHFI": 8401.262422078671,
+      "XPT": 0.001,
+      "WETH": 93.70598829524263,
+      "Visit website ethnano .org to claim rewards": 2.7,
+      "ETH": 3.0,
+      "PENDLE": 794.0963182948683,
+      "PENDLE-LPT": 552.901500027037,
+      "wstETH": 2072.1393586815,
+      "YT-LBTC-18DEC2025": 6.31727764,
+      "KING": 3.261391782575968,
+      "AICC": 17500.0,
+      "liquidBeraETH": 2230.744079604292,
+      "PT-liquidBeraETH-8MAY2025": 1136.7539800228442,
+      "GPT": 100.0,
+      "ETHf": 3038735.0932822013,
+      "GitHub": 50.0,
+      "PT-liquidBeraETH-10APR2025": 1134.2285223845154,
+      "ACX": 3081.122241782956,
+      "Av2-WETH-LP": 2018.3830412138973,
+      "E\u0422H": 5.0,
+      "Visit LiquidEther.net to claim rewards": 1.7,
+      "OPT": 0.14,
+      "Claim Rewards at https://abict.site": 1778.0
+    },
+    "token_details": {
+      "liquidETH": [
+        "Ether.Fi Liquid ETH"
+      ],
+      "eETH": [
+        "ether.fi ETH"
+      ],
+      "BTCe": [
+        "Bitcoin Earn"
+      ],
+      "LBTC": [
+        "Lombard Staked BTC"
+      ],
+      "LiquidKatanaETH": [
+        "Ether.fi Liquid Katana ETH"
+      ],
+      "katanaLBTCv": [
+        "Bitcoin Katana Vault"
+      ],
+      "UCAP": [
+        "UniCap.finance"
+      ],
+      "YIELDX": [
+        "yield-farming.io"
+      ],
+      "stETH": [
+        "stETH"
+      ],
+      "\u4ee5\u592aAI": [
+        "\u4ee5\u592aAI"
+      ],
+      "\u4ee5\u592a\u4eba\u751f": [
+        "\u4ee5\u592a\u4eba\u751f"
+      ],
+      "BUN": [
+        "BUN"
+      ],
+      "ERC20": [
+        "Token"
+      ],
+      "stBARD": [
+        "Staked BARD"
+      ],
+      "BARD": [
+        "Lombard"
+      ],
+      "ETHFI": [
+        "ether.fi governance token"
+      ],
+      "XPT": [
+        "XPToken.io"
+      ],
+      "WETH": [
+        "Wrapped Ether"
+      ],
+      "Visit website ethnano .org to claim rewards": [
+        "Visit website ethnano .org to claim rewards"
+      ],
+      "ETH": [
+        "Ethereum",
+        "ETH"
+      ],
+      "PENDLE": [
+        "Pendle"
+      ],
+      "PENDLE-LPT": [
+        "Pendle Market"
+      ],
+      "wstETH": [
+        "Wrapped liquid staked Ether 2.0"
+      ],
+      "YT-LBTC-18DEC2025": [
+        "YT Lombard LBTC 18DEC2025"
+      ],
+      "KING": [
+        "King Protocol"
+      ],
+      "AICC": [
+        "AI Chain Coin"
+      ],
+      "liquidBeraETH": [
+        "Ether.Fi Liquid Bera ETH"
+      ],
+      "PT-liquidBeraETH-8MAY2025": [
+        "PT-liquidBeraETH-8MAY2025"
+      ],
+      "GPT": [
+        "ChatGpt"
+      ],
+      "ETHf": [
+        "Ethereum Defi"
+      ],
+      "GitHub": [
+        "GitHub Token"
+      ],
+      "PT-liquidBeraETH-10APR2025": [
+        "PT-liquidBeraETH-10APR2025"
+      ],
+      "ACX": [
+        "Across Protocol Token"
+      ],
+      "Av2-WETH-LP": [
+        "Across V2 Wrapped Ether LP Token"
+      ],
+      "E\u0422H": [
+        "E\u0422H"
+      ],
+      "Visit LiquidEther.net to claim rewards": [
+        "# LiquidEther.net"
+      ],
+      "OPT": [
+        "ethopt.io"
+      ],
+      "Claim Rewards at https://abict.site": [
+        "abict.site"
+      ]
+    }
+  },
+  "ipfs_osint": {
+    "skipped": true,
+    "reason": "no_nft_activity"
+  },
+  "ens": {
+    "address": "0xf031a0e85346485b110157c2d06124f7be6a8a33",
+    "ens_name": null,
+    "text_records": {},
+    "social_links": {},
+    "has_ens": false,
+    "has_social_links": false
+  },
+  "approval_risk": {
+    "scan_timestamp": "2026-01-20T16:14:14.451887+00:00",
+    "total_approvals": 0,
+    "unlimited_approvals": 0,
+    "high_risk_approvals": 0,
+    "total_exposure_usd": 0,
+    "verdicts": [],
+    "has_dangerous_approvals": false
+  },
+  "funding_trace": {
+    "target": "0xf031a0e85346485b110157c2d06124f7be6a8a33",
+    "trace_timestamp": "2026-01-20T16:14:13.594275+00:00",
+    "total_hops": 0,
+    "origin_found": false,
+    "origin_type": null,
+    "origin_label": null,
+    "trace_complete": false,
+    "trace_stopped_reason": "No funding transaction found",
+    "funding_chain": []
+  },
+  "token_risks": {
+    "scan_timestamp": "2026-01-20T16:14:15.180823+00:00",
+    "tokens_analyzed": 0,
+    "risky_tokens": 0,
+    "total_value_at_risk_usd": 0,
+    "has_risky_tokens": false,
+    "verdicts": [],
+    "honeypots_detected": 0,
+    "impersonators_detected": 0
+  }
+}

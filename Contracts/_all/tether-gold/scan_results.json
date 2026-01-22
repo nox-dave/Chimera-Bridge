@@ -1,16 +1,16 @@
 {
   "protocol_slug": "tether-gold",
-  "scanned_at": "2026-01-20T15:20:22.464521",
+  "scanned_at": "2026-01-22T19:32:58.619034",
   "priority_score": 80,
   "verdicts": [
     {
       "title": "UNAUDITED HIGH-TVL PROTOCOL",
       "severity": "CRITICAL",
       "category": "TRUST",
-      "description": "Protocol has $2,475,195,574 TVL without documented audit",
+      "description": "Protocol has $2,566,326,514 TVL without documented audit",
       "evidence": [
         "No audit links found",
-        "TVL: $2,475,195,574"
+        "TVL: $2,566,326,514"
       ],
       "action": "Priority target for vulnerability analysis"
     },
@@ -20,7 +20,7 @@
       "category": "INTEL",
       "description": "Protocol holds over $10M in TVL",
       "evidence": [
-        "TVL: $2,475,195,574"
+        "TVL: $2,566,326,514"
       ],
       "action": "High-value target if vulnerable"
     }
@@ -35,7 +35,11 @@
       "description": "Contract uses unchecked blocks. Verify overflow is intentional.",
       "locations": [],
       "recommendation": "Ensure unchecked arithmetic cannot cause security issues",
-      "source": "pattern"
+      "source": "pattern",
+      "_validation": {
+        "status": "NEEDS_REVIEW",
+        "reason": "No automated validator for detector: unchecked-arithmetic-pattern"
+      }
     },
     {
       "detector": "unchecked-transfer-pattern",
@@ -46,7 +50,11 @@
       "description": "ERC20 transfer may not check return value. Non-standard tokens may return false instead of reverting.",
       "locations": [],
       "recommendation": "Use SafeERC20 library or check return value",
-      "source": "pattern"
+      "source": "pattern",
+      "_validation": {
+        "status": "NEEDS_REVIEW",
+        "reason": "No automated validator for detector: unchecked-transfer-pattern"
+      }
     },
     {
       "detector": "reentrancy-transfer-pattern",
@@ -57,7 +65,11 @@
       "description": "State change after transfer/send. Lower risk due to gas limits but still a pattern violation.",
       "locations": [],
       "recommendation": "Apply checks-effects-interactions pattern",
-      "source": "pattern"
+      "source": "pattern",
+      "_validation": {
+        "status": "NEEDS_REVIEW",
+        "reason": "No automated validator for detector: reentrancy-transfer-pattern"
+      }
     },
     {
       "detector": "timestamp-dependence-pattern",
@@ -68,7 +80,11 @@
       "description": "Contract logic depends on block.timestamp. Miners can manipulate slightly.",
       "locations": [],
       "recommendation": "Avoid using timestamps for critical logic or use block.number",
-      "source": "pattern"
+      "source": "pattern",
+      "_validation": {
+        "status": "NEEDS_REVIEW",
+        "reason": "No automated validator for detector: timestamp-dependence-pattern"
+      }
     }
   ],
   "summary": {

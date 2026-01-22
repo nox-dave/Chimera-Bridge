@@ -1,16 +1,16 @@
 {
   "protocol_slug": "arbitrum-bridge",
-  "scanned_at": "2026-01-20T15:20:22.462959",
+  "scanned_at": "2026-01-22T19:32:58.615641",
   "priority_score": 80,
   "verdicts": [
     {
       "title": "UNAUDITED HIGH-TVL PROTOCOL",
       "severity": "CRITICAL",
       "category": "TRUST",
-      "description": "Protocol has $4,402,823,046 TVL without documented audit",
+      "description": "Protocol has $4,262,848,800 TVL without documented audit",
       "evidence": [
         "No audit links found",
-        "TVL: $4,402,823,046"
+        "TVL: $4,262,848,800"
       ],
       "action": "Priority target for vulnerability analysis"
     },
@@ -20,7 +20,7 @@
       "category": "INTEL",
       "description": "Protocol holds over $10M in TVL",
       "evidence": [
-        "TVL: $4,402,823,046"
+        "TVL: $4,262,848,800"
       ],
       "action": "High-value target if vulnerable"
     }
@@ -37,7 +37,11 @@
         "Line 691"
       ],
       "recommendation": "Check return value: (bool success, ) = addr.call(...); require(success);",
-      "source": "pattern"
+      "source": "pattern",
+      "_validation": {
+        "status": "CONFIRMED",
+        "reason": "Found 3 potentially unchecked low-level calls"
+      }
     },
     {
       "detector": "reentrancy-eth-pattern",
@@ -48,7 +52,11 @@
       "description": "External call with ETH followed by state change detected. ReentrancyGuard is present - likely protected but verify manually.",
       "locations": [],
       "recommendation": "Verify nonReentrant modifier is applied to this function",
-      "source": "pattern"
+      "source": "pattern",
+      "_validation": {
+        "status": "NEEDS_REVIEW",
+        "reason": "No automated validator for detector: reentrancy-eth-pattern"
+      }
     }
   ],
   "summary": {

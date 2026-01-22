@@ -1,6 +1,6 @@
 # 🔱 Basilisk Security Report: Arbitrum Bridge
 
-> Generated: 2026-01-20T15:20:22.462959
+> Generated: 2026-01-22T19:32:58.615641
 
 ## Protocol Overview
 
@@ -10,14 +10,14 @@
 | **Address** | `0x8315177aB297bA92A06054cE80a67Ed4DBd7ed3a` |
 | **Chain** | Ethereum |
 | **Category** | Canonical Bridge |
-| **TVL** | $4,402,823,046 |
+| **TVL** | $4,262,848,800 |
 | **Audit Status** | ❌ Unaudited |
 | **Priority Score** | **80/100** |
 
 ## Verdicts
 
 - 🚨 **UNAUDITED HIGH-TVL PROTOCOL** (CRITICAL)
-  - Protocol has $4,402,823,046 TVL without documented audit
+  - Protocol has $4,262,848,800 TVL without documented audit
 - ℹ️ **VERY HIGH TVL TARGET** (INFO)
   - Protocol holds over $10M in TVL
 

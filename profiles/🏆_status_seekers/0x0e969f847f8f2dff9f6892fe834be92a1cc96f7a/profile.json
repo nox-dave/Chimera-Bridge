@@ -1,0 +1,1815 @@
+{
+  "address": "0x0e969f847f8f2dff9f6892fe834be92a1cc96f7a",
+  "discovered_at": "2026-01-20T16:17:35.832299+00:00",
+  "total_value_usd": 30.329389528373714,
+  "eth_balance": 0.009997419902244937,
+  "eth_value_usd": 30.329389528373714,
+  "token_holdings": {},
+  "risk_score": 90,
+  "tx_count": 989,
+  "defi_activity": true,
+  "nft_activity": {
+    "unique_collections": 44,
+    "top_collections": [
+      [
+        "DeHorizon",
+        19
+      ],
+      [
+        "More Loot",
+        11
+      ],
+      [
+        "Uniswap V3: Positions NFT",
+        6
+      ],
+      [
+        "DeMeta",
+        5
+      ],
+      [
+        "Catdogs Club",
+        4
+      ],
+      [
+        "Exhibit by Highlight",
+        3
+      ],
+      [
+        "Tubby Apes",
+        2
+      ],
+      [
+        "Degen Frens",
+        2
+      ],
+      [
+        "AI MinionSilhouette",
+        2
+      ],
+      [
+        "GUNBULL",
+        2
+      ]
+    ],
+    "collection_addresses": {
+      "0x26d85a13212433fe6a8381969c2b0db390a0b0ae": 1,
+      "0xb7e548c4f133adbb910914d7529d5cb00c2e9051": 1,
+      "0xd0f6a80064580b685e71359277370d6d4eece3a4": 1,
+      "0xfccc94f2b99ec71ff04e6ce9f0ea9797f4f0536b": 1,
+      "0x4a3e49f77a2a5b60682a2d6b8899c7c5211eb646": 1,
+      "0x9d90669665607f08005cae4a7098143f554c59ef": 1,
+      "0x0000000000664ceffed39244a8312bd895470803": 1,
+      "0x554f3b93d82ce2435206f3ad8ac4154d056cd18e": 1,
+      "0xa12f77d7b39a7b556ba4be6ec7328b0049288ac3": 3,
+      "0x457efd33def0bff2dfe33089d385898d919d3a10": 1,
+      "0x00cb53780ea58503d3059fc02ddd596d0be926cb": 1,
+      "0x6a42765d211a57a3c9bbfbc17c6bd1db6f0fc460": 1,
+      "0x16b2f56890583a38def7bc3372e170ec369fb2cb": 1,
+      "0x88969ae921dfc76803c6ee5c58b2bda4c3e365d9": 1,
+      "0x87acae6df21385a74ed4fb55a1a29354e9bdc6c1": 1,
+      "0xccce297b06db0d859dfff0b936137f213e9b08ef": 1,
+      "0x88e16dc5398a4a89afc9596f95e108c4102f7296": 4,
+      "0x637598669c5383e94117959ab84f765b086aa4fb": 1,
+      "0xc9a42690912f6bd134dbc4e2493158b3d72cad21": 1,
+      "0xa3b61c077da9da080d22a4ce24f9fd5f139634ca": 1,
+      "0x92b971d307ebfc7331c23429e204a5e4adf7a833": 1,
+      "0x283a844bd9bfae7655b72430c2c11fd57b01f1c4": 2,
+      "0x932261f9fc8da46c4a22e31b45c4de60623848bf": 1,
+      "0xb0582dd9ca9f2d3f1c6878c803b13000c755b02c": 2,
+      "0x0f7709dff61ac707234cc8628fcc9cc4ab3d585c": 2,
+      "0xd945f759d422ae30a6166838317b937de08380e3": 1,
+      "0xc36442b4a4522e871399cd717abdd847ab11fe88": 6,
+      "0x90b3832e2f2ade2fe382a911805b6933c056d6ed": 1,
+      "0x2face815247a997eaa29881c16f75fd83f4df65b": 1,
+      "0xbf92a355c73de74969a75258e02a15a2764d4970": 1,
+      "0xabefbc9fd2f806065b4f3c237d4b59d9a97bcac7": 1,
+      "0xbdcaab0d1392a391ac91c477fe18a85cbe855aba": 1,
+      "0x9d90308d16b94c38048c782bdd8104a964758a23": 1,
+      "0x1dfe7ca09e99d10835bf73044a23b73fc20623df": 11,
+      "0x2a28ec87ee3bf6672dec0e775450bd952a09ef6d": 19,
+      "0x4b8e2f93687e1353f255b62c7f3f19240656573f": 5,
+      "0xe014be427727ca50e427f2ab8df39746defe3fa0": 2,
+      "0xc4e0f3ec24972c75df7c716922096f4270b7bb4e": 1,
+      "0xa98b29a8f5a247802149c268ecf860b8308b7291": 1,
+      "0xabc207502ea88d9bca29b95cd2eee5f0d7936418": 1,
+      "0x933492b6b7038a7e4f14b64defe40463f9bc3508": 1,
+      "0x18df6c571f6fe9283b87f910e41dc5c8b77b7da5": 1,
+      "0x2ceb85a2402c94305526ab108e7597a102d6c175": 2,
+      "0x57f1887a8bf19b14fc0df6fd9b2acc9af147ea85": 1
+    }
+  },
+  "bridge_activity": true,
+  "age_days": 1035,
+  "osint_categories": [
+    "\ud83c\udfc6_status_seekers",
+    "\ud83e\udde0_defi_natives"
+  ],
+  "primary_osint_category": "\ud83c\udfc6_status_seekers",
+  "behavior": {
+    "confidence_score": 90,
+    "sophistication": "Expert",
+    "risk_tolerance": "Moderate",
+    "trading_style": "Long-term Holder",
+    "likely_region": "Europe",
+    "likely_timezone": "Europe/Africa (UTC+0 to +3)",
+    "meme_exposure": false,
+    "defi_protocols": [
+      "Uniswap V2",
+      "Uniswap Universal Router",
+      "Compound",
+      "1inch V5",
+      "Aave V2",
+      "0x Protocol"
+    ],
+    "nft_platforms": [],
+    "bridges_used": [
+      "zkSync Bridge"
+    ],
+    "exchange_interactions": [
+      "Binance 15",
+      "Binance 16",
+      "Binance 14"
+    ],
+    "frequent_counterparties": []
+  },
+  "transaction_analysis": {
+    "total_transactions": 989,
+    "total_value_eth": 962.7894090137958,
+    "most_active_hour": 12,
+    "most_active_day": "Saturday",
+    "top_recipients": [
+      [
+        "0x0e969f847f8f2dff9f6892fe834be92a1cc96f7a",
+        72
+      ],
+      [
+        "0xae7ab96520de3a18e5e111b5eaab095312d7fe84",
+        34
+      ],
+      [
+        "0xdef171fe48cf0115b1d80b88dc8eab59176fee57",
+        31
+      ],
+      [
+        "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+        29
+      ],
+      [
+        "0xdac17f958d2ee523a2206206994597c13d831ec7",
+        23
+      ],
+      [
+        "0xc36442b4a4522e871399cd717abdd847ab11fe88",
+        23
+      ],
+      [
+        "0x25db17b3aa18b7e29072fb54b1c6dfd14aad2b8c",
+        21
+      ],
+      [
+        "0x7a250d5630b4cf539739df2c5dacb4c659f2488d",
+        19
+      ],
+      [
+        "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+        19
+      ],
+      [
+        "0x4fabb145d64652a948d72533023f6e7a623c7c53",
+        18
+      ]
+    ],
+    "top_senders": [
+      [
+        "0x0e969f847f8f2dff9f6892fe834be92a1cc96f7a",
+        917
+      ],
+      [
+        "0x9696f59e4d72e237be84ffd425dcad154bf96976",
+        7
+      ],
+      [
+        "0xc098b2a3aa256d2140208c3de6543aaef5cd3a94",
+        7
+      ],
+      [
+        "0x25dbfbfc6ee521f2351f18512c57c89a8c0e2b8c",
+        6
+      ],
+      [
+        "0x21a31ee1afc51d94c2efccaa2092ad1028285549",
+        6
+      ],
+      [
+        "0x56eddb7aa87536c09ccc2793473599fd21a8b17f",
+        6
+      ],
+      [
+        "0xdfd5293d8e347dfe59e90efd55b2956a1343963d",
+        6
+      ],
+      [
+        "0x4976a4a02f38326660d17bf34b431dc6e2eb2327",
+        5
+      ],
+      [
+        "0x08e6d0ef3de28c071097e00984e97b0d061a452a",
+        3
+      ],
+      [
+        "0x28c6c06298d514db089934071355e5743bf21d60",
+        3
+      ]
+    ],
+    "first_transaction": "2021-05-01T03:33:54",
+    "last_transaction": "2026-01-13T06:31:59",
+    "avg_gas_used": 122546.4216380182,
+    "avg_gas_price": 40163899115.90152
+  },
+  "token_activity": {
+    "unique_tokens": 199,
+    "top_tokens": [
+      [
+        "BUSD",
+        179
+      ],
+      [
+        "DAI",
+        113
+      ],
+      [
+        "USDC",
+        63
+      ],
+      [
+        "USDT",
+        45
+      ],
+      [
+        "stETH",
+        44
+      ],
+      [
+        "esLBR",
+        19
+      ],
+      [
+        "LBR",
+        17
+      ],
+      [
+        "peUSD",
+        17
+      ],
+      [
+        "XRUNE",
+        15
+      ],
+      [
+        "wstETH",
+        14
+      ],
+      [
+        "ETH",
+        13
+      ],
+      [
+        "WETH",
+        12
+      ],
+      [
+        "VEMP",
+        12
+      ],
+      [
+        "ETHPAD",
+        12
+      ],
+      [
+        "PENDLE-LPT",
+        11
+      ],
+      [
+        "USDe",
+        10
+      ],
+      [
+        "GRT",
+        10
+      ],
+      [
+        "tGRT",
+        9
+      ],
+      [
+        "GF",
+        9
+      ],
+      [
+        "PSP",
+        8
+      ]
+    ],
+    "token_values": {
+      "kitties": 27311094.483057164,
+      "SUPERDOG": 5.0,
+      "DAI": 85810.48499666248,
+      "USDC": 472689.7866690001,
+      "USDT": 874607.9686759996,
+      "STOS": 4000.0,
+      "oSQTH": 5.561565744080443,
+      "ETH": 103.24222963323854,
+      "E\ua4d4H": 26.6,
+      "stETH": 468.9907751165914,
+      "USDe": 500016.08274101577,
+      "XMOVE": 2.0,
+      "Stars": 2.0,
+      "ERC20": 200009.99999999997,
+      "JBX": 799999.9999999999,
+      "WETH": 66.1315984050972,
+      "Visit website getether .net to claim rewards": 2.7,
+      "PSP": 44813.73636112816,
+      "SAI": 10.0,
+      "FOMO": 2.0,
+      "INX": 2.0,
+      "CAI": 2.0,
+      "SBX": 2.0,
+      "PMAI": 2.0,
+      "pufETH": 39.7182972981011,
+      "SY pufETH": 0.10479676942612857,
+      "YFI": 0.1,
+      "\u0415\u180eT\u180e\u041d": 6.048279117402136,
+      "LBR": 28422.094754194335,
+      "peUSD": 83359.72246332052,
+      "esLBR": 37512.2971187165,
+      "\u0415TH": 0.01,
+      "UNCX": 12.0,
+      "ACX": 3955.9359857172885,
+      "Av2-ACX-LP": 3177.0786000000003,
+      "MAV": 21049.104240377732,
+      "EIGEN": 1455.1995542139193,
+      "ENS": 913.6745333008329,
+      "yCRV": 4140.612146136191,
+      "st-yCRV": 2145.8698404620886,
+      "Cake": 99.98,
+      "cbETH": 0.4000368036692217,
+      "wstETH": 111.57662630201466,
+      "wstETH-sAR": 0.17996243694467778,
+      "YT-pufETH-27JUN2024": 17.114023906878064,
+      "SUSHI": 1475.5585008298042,
+      "xSUSHI": 1000.0,
+      "GRT": 24539.93002363719,
+      "tGRT": 16718.58801087889,
+      "tGRT-GRT-SWAP": 24019.281003190496,
+      "SMILE": 603.99,
+      "PUFFER": 1533.57607,
+      "$ ETH35.com - Visit to claim bonus rewards": 9283.0,
+      "PENDLE-LPT": 81198.42088928136,
+      "PENDLE": 352.230023944532,
+      "STONE": 62.019954158278125,
+      "cSTONE": 40.0,
+      "UNI-V2": 40.82887169744569,
+      "mETH": 80.45062208696916,
+      "mmETH": 40.0,
+      "$ eigentoken.org": 74500.0,
+      "$ EthAave.com - Visit to claim staking rewards": 200.0,
+      "$PENDLE airdrop at https://pamdle.finance": 37021.25472109275,
+      "COMP": 2.262292069976e-06,
+      "aSTETH": 0.04174364400489361,
+      "variableDebtWETH": 0.011987402984415488,
+      "variableDebtUSDC": 42.415564,
+      "cDAI": 904.550886,
+      "cUSDC": 881.023114,
+      "SPOT": 33.0578512,
+      "FPI": 37.735849056603776,
+      "CPI": 200.0,
+      "VEMP": 172077.51504034025,
+      "xVEMP": 49896.24180458134,
+      "REZ": 1206.0,
+      "Get $PENDLE at https://pendleapp.org": 540.0,
+      "OMNI": 30.6551298,
+      "Visit https://spktoken.com to earn $SPK airdrops.": 328000.0,
+      "stketh.com": 75.2,
+      "\u0415\u0422\u041d": 23.5465215,
+      "Renzo Restaked ETH": 0.2183305245088036,
+      "ALT": 482.0,
+      "Claim $ALT airdrop at https://altlayerlabs.com": 3500.0,
+      "Claim $SLN airdrop at https://smart-layer.org": 300.0,
+      "blastnative.com": 7500.0,
+      "Visit https://voucher-lido.com to claim rewards": 1.7,
+      "SLN": 67.0,
+      "Claim $PUFETH reward at https://puf-eth.com": 1.0,
+      "Claim $STOS reward at https://stratoslabs.org": 2043100.0,
+      "GF": 4701.8176450997435,
+      "esGF": 2757.6405272657976,
+      "Visit https://www.ethfi.farm to claim rewards.": 6.25,
+      "www.zkfair.events": 29209.0,
+      "Visit https://www.ethfi.farm to claim genesis drop": 6.25,
+      "Visit https://www.oeth.app to claim rewards.": 7.5,
+      "swETH": 20.000000000000004,
+      "Visit aaveprotocol.net to claim rewards": 30.0,
+      "Visit enstoken.net to claim rewards": 237.34,
+      "Visit aavenetwork.org to claim rewards": 30.0,
+      "42069": 6992.0,
+      "BLLB": 31216.94016,
+      "Visit LiquidEther.io to claim rewards": 1.7,
+      "D\u0410I": 10165.026358548152,
+      "eqbPENDLE-LPT": 60000.0,
+      "xEQB": 232.2645703594361,
+      "EQB": 77.42152345314537,
+      "U\u0405D\u0422": 29634.396905,
+      "E\u200aTH": 1.0,
+      "DETF": 1166.6666666666665,
+      "sePSP1": 20000.0,
+      "\u0395\u03a4H": 1.0,
+      "TGT": 20697.455823532346,
+      "POL": 6000.0,
+      "MATIC": 6100.0,
+      "sGF": 1997.2602739726028,
+      "CRV": 2799.7426922698605,
+      "3Crv": 1643.47047935974,
+      "yveCRV-DAO": 10049.539393396966,
+      "RAFT": 60901.33982,
+      "R": 8000.0,
+      "rwstETH-c": 8.838778971037888,
+      "rwstETH-d": 8041.936555194938,
+      "sDAI": 30353.978642705704,
+      "Visit https://apyeth.su to claim rewards": 1.4,
+      "eUSD": 442.87833398741503,
+      "Visit https://usd2023.com to claim rewards": 3999.9900000000002,
+      "Reward Token - Claim at https://stUSD.live": 1387.0,
+      "HOP": 1297.296120869138,
+      "\u054d\u054fDC": 40000.0,
+      "U\u0405D\u0421": 40000.0,
+      "Visit https://get-usdc.com to claim rewards": 1049.0,
+      "Claim rewards via https://atusd.pro": 385.0,
+      "$ LidoAirdrop.com - Visit to claim $7600": 7600.0,
+      "Claim rewards at https://USDs.pro": 610.0,
+      "BUSD": 550000.678,
+      "VERSE": 370246.5339627891,
+      "VERSE-X": 131.4018512028416,
+      "HFT": 400.0,
+      "MC": 1000.0,
+      "sMCV2": 3000.0,
+      "OTEX": 152.3540047841451,
+      "1INCH": 200.0,
+      "st1INCH": 152.3540047841451,
+      "SPSP_PP3": 10000.0,
+      "DOD": 20.0,
+      "880$ Visit https://aibonus.site to claim reward.": 8.0,
+      "": 5e+19,
+      "NUTS": 8.8888,
+      "$ ClaimUniLP.com - Visit to claim": 7000.0,
+      "$ BUSDBonus.com": 7000.0,
+      "NFTButerin.com": 7.0,
+      "$ UniswapLR.com @ 5.75": 1000.0,
+      "[lidosr.xyz] Claim your special rewards.": 111.4187,
+      "SDETHER.COM": 6375.0,
+      "XMON": 0.01,
+      "LidoLP.com": 6000.0,
+      "UniLP.net\u2063": 300.0,
+      "LPUniswap.com": 800.0,
+      "UniswapLP.com": 400.0,
+      "MANA": 100.0,
+      "bkdUSDC": 19.578749,
+      "Otherside Raffle Token OTHRVERSE.xyz": 1.0,
+      "DFA": 1.0,
+      "XRUNE": 72518.58502233363,
+      "stkXPRT": 100.0,
+      "pXPRT": 0.0,
+      "RSS3": 67.3,
+      "MNET": 27019.999999989188,
+      "GNO": 9.834,
+      "WTF": 1221.3081202187666,
+      "GAS": 1003530.3299080291,
+      "JPEGS": 500.0,
+      "MASK": 497919859.23717576,
+      "cETH": 19.94243126,
+      "SOS": 22841985.742,
+      "DD": 500.0,
+      "DEVT": 1515.0,
+      "RADAR": 5798.000000000001,
+      "rETH-THETA": 0.1957106401548954,
+      "Up1.org": 66527.0,
+      "ETHPAD": 200000.0,
+      "A68.net": 93989.28000000001,
+      "KRAUSE": 100.0,
+      "KWIK": 80000.0,
+      "yvWETH": 0.19870543102040764,
+      "THOR": 4020.0,
+      "vXRUNE": 100.0,
+      "RSwap.net": 300000.0,
+      "XCH": 298131.0,
+      "WAGMIGOTCHI": 14011036.253491424,
+      "GALA": 200000.0,
+      "EDEN": 1800.0,
+      "bETH": 7.991998,
+      "ARCX": 500.0,
+      "SLP": 596.0,
+      "TRIBE": 2000.0,
+      "NODE": 324.823131344,
+      "FOX": 400.0,
+      "GTC": 100.0
+    },
+    "token_details": {
+      "kitties": [
+        "I love kitties"
+      ],
+      "SUPERDOG": [
+        "SUPERDOG"
+      ],
+      "DAI": [
+        "Dai Stablecoin"
+      ],
+      "USDC": [
+        "USDC"
+      ],
+      "USDT": [
+        "USDT...",
+        "Tether USD"
+      ],
+      "STOS": [
+        "Stratos Token"
+      ],
+      "oSQTH": [
+        "Opyn Squeeth"
+      ],
+      "ETH": [
+        "Ethereum",
+        "ETH",
+        "ETH..."
+      ],
+      "E\ua4d4H": [
+        "E\ua4d4H"
+      ],
+      "stETH": [
+        "stETH"
+      ],
+      "USDe": [
+        "USDe"
+      ],
+      "XMOVE": [
+        "XMOVE"
+      ],
+      "Stars": [
+        "Stars"
+      ],
+      "ERC20": [
+        "Token"
+      ],
+      "JBX": [
+        "Juicebox"
+      ],
+      "WETH": [
+        "Wrapped Ether"
+      ],
+      "Visit website getether .net to claim rewards": [
+        "Visit website getether .net to claim rewards"
+      ],
+      "PSP": [
+        "ParaSwap"
+      ],
+      "SAI": [
+        "Sai Stablecoin v1.0"
+      ],
+      "FOMO": [
+        "FOMO"
+      ],
+      "INX": [
+        "INX"
+      ],
+      "CAI": [
+        "CAI"
+      ],
+      "SBX": [
+        "SBX"
+      ],
+      "PMAI": [
+        "PMAI"
+      ],
+      "pufETH": [
+        "pufETH"
+      ],
+      "SY pufETH": [
+        "SY Puffer ETH"
+      ],
+      "YFI": [
+        "yearn.finance"
+      ],
+      "\u0415\u180eT\u180e\u041d": [
+        "\u0415\u180eT\u180e\u041d"
+      ],
+      "LBR": [
+        "Lybra"
+      ],
+      "peUSD": [
+        "peg-eUSD"
+      ],
+      "esLBR": [
+        "esLBR"
+      ],
+      "\u0415TH": [
+        "\u0415TH"
+      ],
+      "UNCX": [
+        "UniCrypt"
+      ],
+      "ACX": [
+        "Across Protocol Token"
+      ],
+      "Av2-ACX-LP": [
+        "Across V2 Across Protocol Token LP Token"
+      ],
+      "MAV": [
+        "Maverick Token"
+      ],
+      "EIGEN": [
+        "Eigen"
+      ],
+      "ENS": [
+        "Ethereum Name Service"
+      ],
+      "yCRV": [
+        "Yearn CRV"
+      ],
+      "st-yCRV": [
+        "Staked Yearn CRV Vault"
+      ],
+      "Cake": [
+        "PancakeSwap Token"
+      ],
+      "cbETH": [
+        "Coinbase Wrapped Staked ETH"
+      ],
+      "wstETH": [
+        "Wrapped liquid staked Ether 2.0"
+      ],
+      "wstETH-sAR": [
+        "Wrapped liquid staked Ether 2.0 Sense Auto Roller"
+      ],
+      "YT-pufETH-27JUN2024": [
+        "YT Puffer ETH 27JUN2024"
+      ],
+      "SUSHI": [
+        "SushiToken"
+      ],
+      "xSUSHI": [
+        "SushiBar"
+      ],
+      "GRT": [
+        "Graph Token"
+      ],
+      "tGRT": [
+        "tender GRT"
+      ],
+      "tGRT-GRT-SWAP": [
+        "tGRT-GRT Swap Token"
+      ],
+      "SMILE": [
+        "bitSmiley"
+      ],
+      "PUFFER": [
+        "PUFFER"
+      ],
+      "$ ETH35.com - Visit to claim bonus rewards": [
+        "$ ETH35.com"
+      ],
+      "PENDLE-LPT": [
+        "Pendle Market"
+      ],
+      "PENDLE": [
+        "Pendle"
+      ],
+      "STONE": [
+        "StakeStone Ether"
+      ],
+      "cSTONE": [
+        "STONE Carnival LP"
+      ],
+      "UNI-V2": [
+        "Uniswap V2"
+      ],
+      "mETH": [
+        "mETH"
+      ],
+      "mmETH": [
+        "mmETH"
+      ],
+      "$ eigentoken.org": [
+        "$ eigentoken.org"
+      ],
+      "$ EthAave.com - Visit to claim staking rewards": [
+        "$ EthAave.com"
+      ],
+      "$PENDLE airdrop at https://pamdle.finance": [
+        "$ Pamdle.finance Airdrop"
+      ],
+      "COMP": [
+        "Compound"
+      ],
+      "aSTETH": [
+        "Aave interest bearing STETH"
+      ],
+      "variableDebtWETH": [
+        "Aave variable debt bearing WETH"
+      ],
+      "variableDebtUSDC": [
+        "Aave variable debt bearing USDC"
+      ],
+      "cDAI": [
+        "Compound Dai"
+      ],
+      "cUSDC": [
+        "Compound USD Coin"
+      ],
+      "SPOT": [
+        "SPOT"
+      ],
+      "FPI": [
+        "Frax Price Index"
+      ],
+      "CPI": [
+        "Consumer Price Index"
+      ],
+      "VEMP": [
+        "vEmpire Gamer Token"
+      ],
+      "xVEMP": [
+        "xVEMP"
+      ],
+      "REZ": [
+        "Renzo"
+      ],
+      "Get $PENDLE at https://pendleapp.org": [
+        "# pendleapp.org"
+      ],
+      "OMNI": [
+        "Omni Network"
+      ],
+      "Visit https://spktoken.com to earn $SPK airdrops.": [
+        "$ spktoken.com"
+      ],
+      "stketh.com": [
+        "!  stketh.com"
+      ],
+      "\u0415\u0422\u041d": [
+        "\u0415\u0422\u041d...",
+        "\u0415\u0422\u041d"
+      ],
+      "Renzo Restaked ETH": [
+        "ezETH"
+      ],
+      "ALT": [
+        "AltLayer Token"
+      ],
+      "Claim $ALT airdrop at https://altlayerlabs.com": [
+        "# altlayerlabs.com"
+      ],
+      "Claim $SLN airdrop at https://smart-layer.org": [
+        "# smart-layer.org"
+      ],
+      "blastnative.com": [
+        "blastnative.com"
+      ],
+      "Visit https://voucher-lido.com to claim rewards": [
+        "# voucher-lido.com"
+      ],
+      "SLN": [
+        "Smart Layer Network Token"
+      ],
+      "Claim $PUFETH reward at https://puf-eth.com": [
+        "# puf-eth.com"
+      ],
+      "Claim $STOS reward at https://stratoslabs.org": [
+        "! stratoslabs.org"
+      ],
+      "GF": [
+        "GuildFi Token"
+      ],
+      "esGF": [
+        "Escrow GuildFi"
+      ],
+      "Visit https://www.ethfi.farm to claim rewards.": [
+        "ethfi"
+      ],
+      "www.zkfair.events": [
+        "! A-ZKF"
+      ],
+      "Visit https://www.ethfi.farm to claim genesis drop": [
+        "ethfi"
+      ],
+      "Visit https://www.oeth.app to claim rewards.": [
+        "oeth.app"
+      ],
+      "swETH": [
+        "swETH"
+      ],
+      "Visit aaveprotocol.net to claim rewards": [
+        "# aaveprotocol.net"
+      ],
+      "Visit enstoken.net to claim rewards": [
+        "# enstoken.net"
+      ],
+      "Visit aavenetwork.org to claim rewards": [
+        "# aavenetwork.org"
+      ],
+      "42069": [
+        "42069"
+      ],
+      "BLLB": [
+        "Bitland"
+      ],
+      "Visit LiquidEther.io to claim rewards": [
+        "# LiquidEther.io"
+      ],
+      "D\u0410I": [
+        "D\u0410I \u0405t\u0430bl\u0435c\u043ein"
+      ],
+      "eqbPENDLE-LPT": [
+        "Pendle Market Equilibria Deposit"
+      ],
+      "xEQB": [
+        "max EQB"
+      ],
+      "EQB": [
+        "Equilibria Token"
+      ],
+      "U\u0405D\u0422": [
+        "T\u0435th\u0435r U\u0405D"
+      ],
+      "E\u200aTH": [
+        "ET\u200aH"
+      ],
+      "DETF": [
+        "DETF token"
+      ],
+      "sePSP1": [
+        "Social Escrowed PSP"
+      ],
+      "\u0395\u03a4H": [
+        "\u0395\u03a4H...."
+      ],
+      "TGT": [
+        "THORWallet Governance Token"
+      ],
+      "POL": [
+        "Polygon Ecosystem Token"
+      ],
+      "MATIC": [
+        "Matic Token"
+      ],
+      "sGF": [
+        "Staked GuildFi"
+      ],
+      "CRV": [
+        "Curve DAO Token"
+      ],
+      "3Crv": [
+        "Curve.fi DAI/USDC/USDT"
+      ],
+      "yveCRV-DAO": [
+        "veCRV-DAO yVault"
+      ],
+      "RAFT": [
+        "Raft"
+      ],
+      "R": [
+        "R Stablecoin"
+      ],
+      "rwstETH-c": [
+        "Raft Wrapped liquid staked Ether 2.0 collateral"
+      ],
+      "rwstETH-d": [
+        "Raft Wrapped liquid staked Ether 2.0 debt"
+      ],
+      "sDAI": [
+        "Savings Dai"
+      ],
+      "Visit https://apyeth.su to claim rewards": [
+        "# apyeth.su"
+      ],
+      "eUSD": [
+        "eUSD"
+      ],
+      "Visit https://usd2023.com to claim rewards": [
+        "# usd2023.com"
+      ],
+      "Reward Token - Claim at https://stUSD.live": [
+        "$ stUSD.live"
+      ],
+      "HOP": [
+        "Hop"
+      ],
+      "\u054d\u054fDC": [
+        "\u054d\u054fDC"
+      ],
+      "U\u0405D\u0421": [
+        "USD\u0421.."
+      ],
+      "Visit https://get-usdc.com to claim rewards": [
+        "$ get-usdc.com"
+      ],
+      "Claim rewards via https://atusd.pro": [
+        "atusd.pro"
+      ],
+      "$ LidoAirdrop.com - Visit to claim $7600": [
+        "$ LidoAirdrop.com"
+      ],
+      "Claim rewards at https://USDs.pro": [
+        "$ USDs.pro"
+      ],
+      "BUSD": [
+        "Binance USD (BUSD)",
+        "BUSD",
+        "B..USD"
+      ],
+      "VERSE": [
+        "Verse"
+      ],
+      "VERSE-X": [
+        "Verse Exchange"
+      ],
+      "HFT": [
+        "Hashflow"
+      ],
+      "MC": [
+        "Merit Circle"
+      ],
+      "sMCV2": [
+        "Staked Merit Circle V2"
+      ],
+      "OTEX": [
+        "OTEX"
+      ],
+      "1INCH": [
+        "1INCH Token"
+      ],
+      "st1INCH": [
+        "Staking 1INCH v2"
+      ],
+      "SPSP_PP3": [
+        "SPSPParaSwapPool3"
+      ],
+      "DOD": [
+        "Kuiclub-Doodles"
+      ],
+      "880$ Visit https://aibonus.site to claim reward.": [
+        "$ aibonus.site"
+      ],
+      "": [
+        ""
+      ],
+      "NUTS": [
+        "NutsDAO"
+      ],
+      "$ ClaimUniLP.com - Visit to claim": [
+        "$ ClaimUniLP.com"
+      ],
+      "$ BUSDBonus.com": [
+        "$ BUSDBonus.com"
+      ],
+      "NFTButerin.com": [
+        "$ NFTButerin.com"
+      ],
+      "$ UniswapLR.com @ 5.75": [
+        "$ UniswapLR.com"
+      ],
+      "[lidosr.xyz] Claim your special rewards.": [
+        "(lidosr.xyz)"
+      ],
+      "SDETHER.COM": [
+        "SDETHER.COM"
+      ],
+      "XMON": [
+        "XMON"
+      ],
+      "LidoLP.com": [
+        "$ LidoLP.com"
+      ],
+      "UniLP.net\u2063": [
+        "UNILP"
+      ],
+      "LPUniswap.com": [
+        "! LPUniswap.com !"
+      ],
+      "UniswapLP.com": [
+        "$ UniswapLP.com"
+      ],
+      "MANA": [
+        "Decentraland"
+      ],
+      "bkdUSDC": [
+        "Backd USDC"
+      ],
+      "Otherside Raffle Token OTHRVERSE.xyz": [
+        "Otherside Raffle Token OTHRVERSE.xyz"
+      ],
+      "DFA": [
+        "DeFine Art"
+      ],
+      "XRUNE": [
+        "XRUNE Token"
+      ],
+      "stkXPRT": [
+        "pSTAKE Staked XPRT"
+      ],
+      "pXPRT": [
+        "pSTAKE Pegged XPRT"
+      ],
+      "RSS3": [
+        "RSS3"
+      ],
+      "MNET": [
+        "Mine Network Token"
+      ],
+      "GNO": [
+        "Gnosis"
+      ],
+      "WTF": [
+        "fees.wtf"
+      ],
+      "GAS": [
+        "Gas DAO"
+      ],
+      "JPEGS": [
+        "IlliquidDAO"
+      ],
+      "MASK": [
+        "MaskDAO"
+      ],
+      "cETH": [
+        "Compound Ether"
+      ],
+      "SOS": [
+        "SOS"
+      ],
+      "DD": [
+        "DeHorizon DAO"
+      ],
+      "DEVT": [
+        "Decentralized Eternal Virtual Traveller"
+      ],
+      "RADAR": [
+        "DappRadar"
+      ],
+      "rETH-THETA": [
+        "Ribbon ETH Theta Vault"
+      ],
+      "Up1.org": [
+        "Up1.org"
+      ],
+      "ETHPAD": [
+        "ETHPAD.network"
+      ],
+      "A68.net": [
+        "A68.net"
+      ],
+      "KRAUSE": [
+        "KRAUSE"
+      ],
+      "KWIK": [
+        "Kwikswap"
+      ],
+      "yvWETH": [
+        "WETH yVault"
+      ],
+      "THOR": [
+        "THORSwap Token"
+      ],
+      "vXRUNE": [
+        "Thorstarter Voting Token"
+      ],
+      "RSwap.net": [
+        "RSwap.net"
+      ],
+      "XCH": [
+        "ABCHANGE.io"
+      ],
+      "WAGMIGOTCHI": [
+        "WAGMIGOTCHI"
+      ],
+      "GALA": [
+        "Gala"
+      ],
+      "EDEN": [
+        "Eden"
+      ],
+      "bETH": [
+        "bETH"
+      ],
+      "ARCX": [
+        "ARCx Governance Token"
+      ],
+      "SLP": [
+        "Smooth Love Potion"
+      ],
+      "TRIBE": [
+        "Tribe"
+      ],
+      "NODE": [
+        "DAppNode DAO Token"
+      ],
+      "FOX": [
+        "FOX"
+      ],
+      "GTC": [
+        "Gitcoin"
+      ]
+    }
+  },
+  "ipfs_osint": {
+    "address": "0x0e969f847f8f2dff9f6892fe834be92a1cc96f7a",
+    "ipfs_hashes_found": [
+      {
+        "contract": "0x26d85a13212433fe6a8381969c2b0db390a0b0ae",
+        "token_id": "723439",
+        "uri": "ipfs://bafybeifsexiiy4rkwr62m3ha4zcrxfo3dnjlhqqxwezxhemz3os5vbww7m/metadata.json",
+        "ipfs_hash": "bafybeifsexiiy4rkwr62m3ha4zcrxfo3dnjlhqqxwezxhemz3os5vbww7m"
+      }
+    ],
+    "metadata_analyzed": [
+      {
+        "contract": "0xb7e548c4f133adbb910914d7529d5cb00c2e9051",
+        "token_id": "489173",
+        "analysis": {
+          "name": "PalioAI #489173",
+          "description": "Your Exclusive AI Companion and Personal Intellectual Property! Palio redefines the essence of connection in Web3 as a significant other powered by generative AI technology. Embrace a unique bond with Palio, where each interaction is a step into the future of digital companionship. Own a piece of this revolutionary journey with Palio\u2014your AI bestie awaits.",
+          "image": "https://resources.xter.io/nft/palio/palio/b8ffa3866895146511f87c23fa92795f.jpg",
+          "external_url": "",
+          "attributes": [
+            {
+              "k": "trait1",
+              "name": "Trait1",
+              "value": "Genius",
+              "type": "string",
+              "trait_type": "Trait1"
+            },
+            {
+              "k": "trait2",
+              "name": "Trait2",
+              "value": "Adaptable",
+              "type": "string",
+              "trait_type": "Trait2"
+            }
+          ],
+          "properties": {},
+          "creator": {},
+          "artist": "",
+          "collection": {},
+          "ipfs_hashes": [],
+          "linked_urls": [
+            "https://resources.xter.io/nft/palio/palio/b8ffa3866895146511f87c23fa92795f.jpg"
+          ],
+          "timestamps": [],
+          "usernames": [],
+          "emails": [],
+          "social_links": []
+        },
+        "source": "https",
+        "domain": "api.xter.io"
+      },
+      {
+        "contract": "0x4a3e49f77a2a5b60682a2d6b8899c7c5211eb646",
+        "token_id": "989",
+        "analysis": {
+          "name": "Maverick Position NFT #989",
+          "description": "This NFT stores all of a user's liquidity positions across Mavericks pools, including balances, distributions, and rewards. The owner of this NFT can modify or redeem liquidity and rewards from those positions.",
+          "image": "https://api.mav.xyz/api/nft/1/989.svg",
+          "external_url": "",
+          "attributes": [
+            {
+              "trait_type": "category",
+              "value": "Maverick Position NFT"
+            }
+          ],
+          "properties": {},
+          "creator": {},
+          "artist": "",
+          "collection": {},
+          "ipfs_hashes": [],
+          "linked_urls": [
+            "https://api.mav.xyz/api/nft/1/989.svg"
+          ],
+          "timestamps": [],
+          "usernames": [],
+          "emails": [],
+          "social_links": []
+        },
+        "source": "https",
+        "domain": "api.mav.xyz"
+      },
+      {
+        "contract": "0xa12f77d7b39a7b556ba4be6ec7328b0049288ac3",
+        "token_id": "2640",
+        "analysis": {
+          "name": "",
+          "description": "",
+          "image": "https://arweave.net/DgpwG2eWtifd8ox2Is52p7WdEJbj6rnWy34Jvjhpojc",
+          "external_url": "",
+          "attributes": [
+            {
+              "trait_type": "Name",
+              "value": 2518
+            },
+            {
+              "trait_type": "Title",
+              "value": "Portrait of a Man"
+            },
+            {
+              "trait_type": "Colorway",
+              "value": "Past"
+            },
+            {
+              "trait_type": "Date",
+              "value": "150 B.C."
+            },
+            {
+              "trait_type": "Artist",
+              "value": "Unknown Artist"
+            },
+            {
+              "trait_type": "Culture",
+              "value": "Greek"
+            },
+            {
+              "trait_type": "Period",
+              "value": "Hellenistic"
+            },
+            {
+              "trait_type": "Medium",
+              "value": "Marble"
+            },
+            {
+              "trait_type": "Size",
+              "value": "40.7 \u00d7 25 \u00d7 31.7 cm"
+            },
+            {
+              "trait_type": "Classification",
+              "value": "Sculpture"
+            },
+            {
+              "trait_type": "Object No.",
+              "value": "91.AA.14"
+            },
+            {
+              "trait_type": "Museum",
+              "value": "Getty Villa Museum"
+            },
+            {
+              "trait_type": "Location",
+              "value": "Pacific Palisades, California, USA"
+            },
+            {
+              "trait_type": "Geolocation",
+              "value": "34.04608125599205, -118.56487153057424"
+            },
+            {
+              "trait_type": "Origin",
+              "value": "Pergamon, Greece, Asia Minor"
+            },
+            {
+              "trait_type": "Tools",
+              "value": "Malleus, Dolabra"
+            },
+            {
+              "trait_type": "Format",
+              "value": "MP4"
+            },
+            {
+              "trait_type": "Scan Year",
+              "value": 2017
+            },
+            {
+              "trait_type": "Scanner",
+              "value": "Oliver Laric"
+            },
+            {
+              "trait_type": "PPI",
+              "value": 72
+            },
+            {
+              "trait_type": "Dimensions",
+              "value": "2000 \u00d7 2000 px"
+            },
+            {
+              "trait_type": "Color Space",
+              "value": "RGB"
+            },
+            {
+              "trait_type": "Color Profile",
+              "value": "sRGB IEC61966-2.1"
+            },
+            {
+              "trait_type": "FPS",
+              "value": 30
+            }
+          ],
+          "properties": {},
+          "creator": {},
+          "artist": "",
+          "collection": {},
+          "ipfs_hashes": [],
+          "linked_urls": [
+            "https://arweave.net/dgpwg2ewtifd8ox2is52p7wdejbj6rnwy34jvjhpojc",
+            "https://arweave.net/fqronqlucftxwb_qs5w-tgddu9qqs5h2d4aqatieeni"
+          ],
+          "timestamps": [],
+          "usernames": [],
+          "emails": [],
+          "social_links": []
+        },
+        "source": "https",
+        "domain": "highlight-creator-assets.highlight.xyz"
+      },
+      {
+        "contract": "0xa12f77d7b39a7b556ba4be6ec7328b0049288ac3",
+        "token_id": "2642",
+        "analysis": {
+          "name": "",
+          "description": "",
+          "image": "https://arweave.net/yI8Ui1SKLDZDAWP2FRC46b-taBLQHWuNG11QPCHz99M",
+          "external_url": "",
+          "attributes": [
+            {
+              "trait_type": "Name",
+              "value": 8547
+            },
+            {
+              "trait_type": "Title",
+              "value": "Zenobia in Chains"
+            },
+            {
+              "trait_type": "Colorway",
+              "value": "Present"
+            },
+            {
+              "trait_type": "Date",
+              "value": "1859"
+            },
+            {
+              "trait_type": "Artist",
+              "value": "Harriet Hosmer"
+            },
+            {
+              "trait_type": "Culture",
+              "value": "American"
+            },
+            {
+              "trait_type": "Period",
+              "value": "Neoclassicism"
+            },
+            {
+              "trait_type": "Medium",
+              "value": "Marble"
+            },
+            {
+              "trait_type": "Size",
+              "value": "112.4 \u00d7 35.6 \u00d7 45.7 cm"
+            },
+            {
+              "trait_type": "Classification",
+              "value": "Sculpture"
+            },
+            {
+              "trait_type": "Object No.",
+              "value": "19:2008"
+            },
+            {
+              "trait_type": "Museum",
+              "value": "Saint Louis Art Museum"
+            },
+            {
+              "trait_type": "Location",
+              "value": "St. Louis, Missouri, USA"
+            },
+            {
+              "trait_type": "Geolocation",
+              "value": "38.639515684580175, -90.29444818629784"
+            },
+            {
+              "trait_type": "Origin",
+              "value": "Rome, Italy, Europe"
+            },
+            {
+              "trait_type": "Tools",
+              "value": "Mazza, Scalpelli"
+            },
+            {
+              "trait_type": "Format",
+              "value": "MP4"
+            },
+            {
+              "trait_type": "Scan Year",
+              "value": 2019
+            },
+            {
+              "trait_type": "Scanner",
+              "value": "Oliver Laric"
+            },
+            {
+              "trait_type": "PPI",
+              "value": 72
+            },
+            {
+              "trait_type": "Dimensions",
+              "value": "2000 \u00d7 2000 px"
+            },
+            {
+              "trait_type": "Color Space",
+              "value": "RGB"
+            },
+            {
+              "trait_type": "Color Profile",
+              "value": "sRGB IEC61966-2.1"
+            },
+            {
+              "trait_type": "FPS",
+              "value": 30
+            }
+          ],
+          "properties": {},
+          "creator": {},
+          "artist": "",
+          "collection": {},
+          "ipfs_hashes": [],
+          "linked_urls": [
+            "https://arweave.net/yi8ui1skldzdawp2frc46b-tablqhwung11qpchz99m",
+            "https://arweave.net/eiq-d-af-z7qr1z5gr1ulm5vaqif6cv-blbsquzo_js"
+          ],
+          "timestamps": [],
+          "usernames": [],
+          "emails": [],
+          "social_links": []
+        },
+        "source": "https",
+        "domain": "highlight-creator-assets.highlight.xyz"
+      },
+      {
+        "contract": "0xa12f77d7b39a7b556ba4be6ec7328b0049288ac3",
+        "token_id": "2641",
+        "analysis": {
+          "name": "",
+          "description": "",
+          "image": "https://arweave.net/yI8Ui1SKLDZDAWP2FRC46b-taBLQHWuNG11QPCHz99M",
+          "external_url": "",
+          "attributes": [
+            {
+              "trait_type": "Name",
+              "value": 4456
+            },
+            {
+              "trait_type": "Title",
+              "value": "Zenobia in Chains"
+            },
+            {
+              "trait_type": "Colorway",
+              "value": "Present"
+            },
+            {
+              "trait_type": "Date",
+              "value": "1859"
+            },
+            {
+              "trait_type": "Artist",
+              "value": "Harriet Hosmer"
+            },
+            {
+              "trait_type": "Culture",
+              "value": "American"
+            },
+            {
+              "trait_type": "Period",
+              "value": "Neoclassicism"
+            },
+            {
+              "trait_type": "Medium",
+              "value": "Marble"
+            },
+            {
+              "trait_type": "Size",
+              "value": "112.4 \u00d7 35.6 \u00d7 45.7 cm"
+            },
+            {
+              "trait_type": "Classification",
+              "value": "Sculpture"
+            },
+            {
+              "trait_type": "Object No.",
+              "value": "19:2008"
+            },
+            {
+              "trait_type": "Museum",
+              "value": "Saint Louis Art Museum"
+            },
+            {
+              "trait_type": "Location",
+              "value": "St. Louis, Missouri, USA"
+            },
+            {
+              "trait_type": "Geolocation",
+              "value": "38.639515684580175, -90.29444818629784"
+            },
+            {
+              "trait_type": "Origin",
+              "value": "Rome, Italy, Europe"
+            },
+            {
+              "trait_type": "Tools",
+              "value": "Mazza, Scalpelli"
+            },
+            {
+              "trait_type": "Format",
+              "value": "MP4"
+            },
+            {
+              "trait_type": "Scan Year",
+              "value": 2019
+            },
+            {
+              "trait_type": "Scanner",
+              "value": "Oliver Laric"
+            },
+            {
+              "trait_type": "PPI",
+              "value": 72
+            },
+            {
+              "trait_type": "Dimensions",
+              "value": "2000 \u00d7 2000 px"
+            },
+            {
+              "trait_type": "Color Space",
+              "value": "RGB"
+            },
+            {
+              "trait_type": "Color Profile",
+              "value": "sRGB IEC61966-2.1"
+            },
+            {
+              "trait_type": "FPS",
+              "value": 30
+            }
+          ],
+          "properties": {},
+          "creator": {},
+          "artist": "",
+          "collection": {},
+          "ipfs_hashes": [],
+          "linked_urls": [
+            "https://arweave.net/yi8ui1skldzdawp2frc46b-tablqhwung11qpchz99m",
+            "https://arweave.net/eiq-d-af-z7qr1z5gr1ulm5vaqif6cv-blbsquzo_js"
+          ],
+          "timestamps": [],
+          "usernames": [],
+          "emails": [],
+          "social_links": []
+        },
+        "source": "https",
+        "domain": "highlight-creator-assets.highlight.xyz"
+      }
+    ],
+    "debug_info": {
+      "nft_transfers_count": 91,
+      "contracts_found": 32,
+      "tokens_checked": 12,
+      "uris_found": 12,
+      "ipfs_hashes_extracted": 1,
+      "metadata_fetched": 5
+    },
+    "findings": {
+      "total_hashes": 1,
+      "unique_hashes": [
+        "bafybeifsexiiy4rkwr62m3ha4zcrxfo3dnjlhqqxwezxhemz3os5vbww7m"
+      ],
+      "linked_urls": [
+        "https://arweave.net/dgpwg2ewtifd8ox2is52p7wdejbj6rnwy34jvjhpojc",
+        "https://arweave.net/yi8ui1skldzdawp2frc46b-tablqhwung11qpchz99m",
+        "https://arweave.net/eiq-d-af-z7qr1z5gr1ulm5vaqif6cv-blbsquzo_js",
+        "https://arweave.net/fqronqlucftxwb_qs5w-tgddu9qqs5h2d4aqatieeni",
+        "https://api.mav.xyz/api/nft/1/989.svg",
+        "https://resources.xter.io/nft/palio/palio/b8ffa3866895146511f87c23fa92795f.jpg"
+      ],
+      "usernames": [],
+      "emails": [],
+      "social_links": [],
+      "timestamps": [],
+      "creators": [],
+      "collections": [],
+      "domains": [
+        "highlight-creator-assets.highlight.xyz",
+        "files.bns.org",
+        "api.mav.xyz",
+        "api.xter.io",
+        "mint.fun",
+        "skygatetaiwan.s3.ap-southeast-1.amazonaws.com"
+      ],
+      "domain_analysis": {
+        "api.xter.io": {
+          "domain": "api.xter.io",
+          "is_ipfs": false,
+          "is_centralized": true,
+          "scam_indicators": [],
+          "reputation": "unknown",
+          "whois_info": null
+        },
+        "skygatetaiwan.s3.ap-southeast-1.amazonaws.com": {
+          "domain": "skygatetaiwan.s3.ap-southeast-1.amazonaws.com",
+          "is_ipfs": false,
+          "is_centralized": true,
+          "scam_indicators": [],
+          "reputation": "unknown",
+          "whois_info": null
+        },
+        "api.mav.xyz": {
+          "domain": "api.mav.xyz",
+          "is_ipfs": false,
+          "is_centralized": true,
+          "scam_indicators": [
+            "Suspicious TLD: .xyz"
+          ],
+          "reputation": "suspicious",
+          "whois_info": null
+        },
+        "mint.fun": {
+          "domain": "mint.fun",
+          "is_ipfs": false,
+          "is_centralized": true,
+          "scam_indicators": [],
+          "reputation": "unknown",
+          "whois_info": null
+        },
+        "highlight-creator-assets.highlight.xyz": {
+          "domain": "highlight-creator-assets.highlight.xyz",
+          "is_ipfs": false,
+          "is_centralized": true,
+          "scam_indicators": [
+            "Suspicious TLD: .xyz"
+          ],
+          "reputation": "suspicious",
+          "whois_info": null
+        },
+        "files.bns.org": {
+          "domain": "files.bns.org",
+          "is_ipfs": false,
+          "is_centralized": true,
+          "scam_indicators": [],
+          "reputation": "unknown",
+          "whois_info": null
+        }
+      },
+      "metadata_urls": [
+        {
+          "contract": "0x26d85a13212433fe6a8381969c2b0db390a0b0ae",
+          "token_id": "723439",
+          "uri": "ipfs://bafybeifsexiiy4rkwr62m3ha4zcrxfo3dnjlhqqxwezxhemz3os5vbww7m/metadata.json"
+        },
+        {
+          "contract": "0xb7e548c4f133adbb910914d7529d5cb00c2e9051",
+          "token_id": "489173",
+          "uri": "https://api.xter.io/asset/nft/meta/ethereum/0xb7e548c4f133adbb910914d7529d5cb00c2e9051/0x00000000000000000000000000000000000000000000000000000000000776d5"
+        },
+        {
+          "contract": "0xd0f6a80064580b685e71359277370d6d4eece3a4",
+          "token_id": "7650",
+          "uri": "https://skygatetaiwan.s3.ap-southeast-1.amazonaws.com/media/tenjin/metadata/7650.json"
+        },
+        {
+          "contract": "0xfccc94f2b99ec71ff04e6ce9f0ea9797f4f0536b",
+          "token_id": "814",
+          "uri": "data:application/json;base64,eyJuYW1lIjogIlBvb2x5IFdpbnMgODE0IiwgImRlc2NyaXB0aW9uIjogIkNvbW1lbW9yYXRpdmUgTkZUIG1pbnQgY2VsZWJyYXRpbmcgUG9vbHlzIHZpY3RvcnkhIPCfppwiLCAiaW1hZ2UiOiAiaXBmczovL2JhZnliZWloM3l6eGxhNTdrZ3RucGE0Z3M3YnczYjVsdmpnZG1peGhld3B5N3hqa3d6eHRxdnRvaGZpIiwgInByb3BlcnRpZXMiOiB7Im51bWJlciI6IDgxNCwgIm5hbWUiOiAiUG9vbHkgV2lucyJ9fQ=="
+        },
+        {
+          "contract": "0x4a3e49f77a2a5b60682a2d6b8899c7c5211eb646",
+          "token_id": "989",
+          "uri": "https://api.mav.xyz/api/position/1/989"
+        },
+        {
+          "contract": "0x9d90669665607f08005cae4a7098143f554c59ef",
+          "token_id": "29808",
+          "uri": "data:application/json;base64,eyJuYW1lIjogIlN0YW5kIHdpdGggQ3J5cHRvIDI5ODA4IiwgImRlc2NyaXB0aW9uIjogIlRoZSBTdGFuZCB3aXRoIENyeXB0byBjb21tZW1vcmF0aXZlIE5GVCBpcyBhIHN5bWJvbCBvZiB1bml0eSBmb3IgdGhlIGNyeXB0byBjb21tdW5pdHkgc2Vla2luZyBzZW5zaWJsZSBjcnlwdG8gcG9saWN5LiBGZWF0dXJpbmcgYSBibHVlIHNoaWVsZCwgaXQgcmVwcmVzZW50cyBvdXIgY29sbGVjdGl2ZSBzdGFuZCB0byBwcm90ZWN0IGFuZCBwcm9tb3RlIHRoZSBwb3RlbnRpYWwgb2YgY3J5cHRvLlxuXG5UaGUgYmx1ZSBzaGllbGQgbm90IG9ubHkgc2hvd3MgeW91ciBzdXBwb3J0IGZvciB0aGUgY2F1c2UgYnV0IGFsc28gdGhhdCB5b3UncmUgcGFydCBvZiBhIGdyb3dpbmcgY29tbXVuaXR5IHdobyBiZWxpZXZlcyBpbiB0aGUgZnV0dXJlIG9mIGNyeXB0by4gV2UnbGwgYWxzbyBwZXJpb2RpY2FsbHkgdXBkYXRlIHRoZSBRUiBjb2RlLCBlbmFibGluZyB0aGUgU3RhbmQgd2l0aCBDcnlwdG8gY29tbXVuaXR5IHRvIHRha2UgZGlmZmVyZW50IGFjdGlvbnMgdG8gY29udGludWUgYWR2b2NhdGluZyBmb3IgY3J5cHRvLlxuXG5TaG93IHlvdXIgc3VwcG9ydCBhbmQgYmUgcGFydCBvZiB0aGUgY29tbXVuaXR5IHNoYXBpbmcgdGhlIGZ1dHVyZSBvZiBjcnlwdG86XG5cblN0ZXAgMTogTWludCB5b3VyIGZyZWUgU3RhbmQgd2l0aCBDcnlwdG8gY29tbWVtb3JhdGl2ZSBORlRcblxuU3RlcCAyOiBBZGQgYSBzaGllbGQgZW1vamkgbmV4dCB0byB5b3VyIFR3aXR0ZXIgZGlzcGxheSBuYW1lIPCfm6HvuI9cblxuU3RlcCAzOiBTY2FuIHRoZSBRUiBjb2RlIG9uIHRoZSBORlQgdG8gYmVjb21lIGEgU3RhbmQgd2l0aCBDcnlwdG8gYWR2b2NhdGUsIG9yIHNpZ24gdXAgaGVyZTogaHR0cHM6Ly93d3cuY29pbmJhc2UuY29tL3N0YW5kd2l0aGNyeXB0by9zaWdudXBcblxuVGhpcyBpcyBhIHB1cmVseSBjb21tZW1vcmF0aXZlIE5GVCB3aXRoIGFuIG9wZW4gbWludCBhbmQgaGFzIG5vIGludGVuZGVkIHV0aWxpdHkgb3IgdmFsdWUuIEFueSBtaW50IGZlZXMgYXNzb2NpYXRlZCB3aXRoIHRoZSBTdGFuZCBXaXRoIENyeXB0byBORlQgY29sbGVjdGlvbiB3aWxsIGJlIGRvbmF0ZWQgdG8gdmV0dGVkIG9yZ2FuaXphdGlvbnMgdGhyb3VnaCBhIENyeXB0byBBZHZvY2FjeSBSb3VuZCB3aXRoIEdpdGNvaW4uIE1pbnQgdW5saW1pdGVkIE5GVHMgYW5kIHJhaXNlIG1vcmUgZnVuZHMgdG8gc3VwcG9ydCBjcnlwdG8gYWR2b2NhY3kuXG4iLCAiaW1hZ2UiOiAiaXBmczovL2JhZmtyZWloc2dpZmIzeTR1cnFlZ28zbHBvanh0bmV1eXcyc2dzeGZrdzV2c2R0M3h5ZTRmdnFoMm55IiwgInByb3BlcnRpZXMiOiB7Im51bWJlciI6IDI5ODA4LCAibmFtZSI6ICJTdGFuZCB3aXRoIENyeXB0byJ9fQ=="
+        },
+        {
+          "contract": "0x0000000000664ceffed39244a8312bd895470803",
+          "token_id": "80795",
+          "uri": "https://mint.fun/api/mintfun/fundrop/token/80795.json"
+        },
+        {
+          "contract": "0x554f3b93d82ce2435206f3ad8ac4154d056cd18e",
+          "token_id": "24017",
+          "uri": "data:application/json;base64,eyJuYW1lIjogImJhc2Uub3JnIC0+IGJhc2UuZXRoIDI0MDE3IiwgImRlc2NyaXB0aW9uIjogIldoZW4gd2UgbGF1bmNoZWQgQmFzZSwgd2Ugc2V0IGJhc2Uub3JnIGFzIG91ciBvbmNoYWluIGlkZW50aXR5IHZpYSBFTlMgYmVjYXVzZSB0aGF0IHdhcyB0aGUgYmVzdCBkb21haW4gd2UgaGFkLlxuXG5SZWNlbnRseSwgaW4gcmVjb2duaXRpb24gb2YgaG93IHdl4oCZdmUgYnVpbHQgQmFzZSwgYW4gYW5vbnltb3VzIHN0cmFuZ2VyIGdpZnRlZCB1cyBiYXNlLmV0aC4gVGhleSBkaWQgdGhpcyBhcyBhIHJlY29nbml0aW9uIG9mIG91ciBjb21taXRtZW50IHRvIGRlY2VudHJhbGl6YXRpb24gYW5kIG9wZW4gc291cmNlLCB0d28gdmFsdWVzIHdoaWNoIHdlIHdpbGwgY29udGludWUgdG8gdXBob2xkLlxuXG5XZSBiZWxpZXZlIHRoYXQgb25jaGFpbiBpcyB0aGUgbmV4dCBvbmxpbmUgYW5kIHRoYXQgLmV0aCBiZXR0ZXIgcmVwcmVzZW50cyB0aGF0IGV0aG9zIHRoYW4gLm9yZy4gVGhlcmVmb3JlLCBmcm9tIHRoaXMgbW9tZW50IGZvcndhcmQsIHdlIGFyZSBwcm91ZCB0byByb2NrIGJhc2UuZXRoIGFzIG91ciBwcmltYXJ5IG9uY2hhaW4gaWRlbnRpdHkgdmlhIEVOUy5cblxub25saW5lIOKGkiBvbmNoYWluXG5cbmJhc2Uub3JnIC0+IGJhc2UuZXRoXG5cblRoaXMgaXMgYSBjb21tZW1vcmF0aXZlIE5GVCBhbmQgZG9lcyBub3QgaGF2ZSBhbnkgb3RoZXIgdXRpbGl0eSwgZnVuY3Rpb24sIG9yIGludGVuZGVkIHZhbHVlLiIsICJpbWFnZSI6ICJpcGZzOi8vYmFma3JlaWRsZWp0aGt6aHRxMjNvajNmMnBlbWN3NzVsZTUyN3hvemhubzVwdXBnb2QzbTI2ZXV5ZmUiLCAicHJvcGVydGllcyI6IHsibnVtYmVyIjogMjQwMTcsICJuYW1lIjogImJhc2Uub3JnIC0+IGJhc2UuZXRoIn19"
+        },
+        {
+          "contract": "0xa12f77d7b39a7b556ba4be6ec7328b0049288ac3",
+          "token_id": "2640",
+          "uri": "https://highlight-creator-assets.highlight.xyz/main/base-dir/fd26d151-5ba5-43cb-8861-d6a621eb911b/onChainDir/2640"
+        },
+        {
+          "contract": "0xa12f77d7b39a7b556ba4be6ec7328b0049288ac3",
+          "token_id": "2642",
+          "uri": "https://highlight-creator-assets.highlight.xyz/main/base-dir/fd26d151-5ba5-43cb-8861-d6a621eb911b/onChainDir/2642"
+        },
+        {
+          "contract": "0xa12f77d7b39a7b556ba4be6ec7328b0049288ac3",
+          "token_id": "2641",
+          "uri": "https://highlight-creator-assets.highlight.xyz/main/base-dir/fd26d151-5ba5-43cb-8861-d6a621eb911b/onChainDir/2641"
+        },
+        {
+          "contract": "0x457efd33def0bff2dfe33089d385898d919d3a10",
+          "token_id": "3386266117922079731294797339624531042986267902473685806088475936911837225334",
+          "uri": "https://files.bns.org/mainnet/baee51eb/0x457eFd33Def0bFF2dfe33089D385898D919d3a10/3386266117922079731294797339624531042986267902473685806088475936911837225334"
+        }
+      ]
+    }
+  },
+  "ens": {
+    "address": "0x0e969f847f8f2dff9f6892fe834be92a1cc96f7a",
+    "ens_name": "to-da-moon.eth",
+    "text_records": {},
+    "social_links": {},
+    "has_ens": true,
+    "has_social_links": false
+  },
+  "approval_risk": {
+    "scan_timestamp": "2026-01-20T16:18:00.719981+00:00",
+    "total_approvals": 0,
+    "unlimited_approvals": 0,
+    "high_risk_approvals": 0,
+    "total_exposure_usd": 0,
+    "verdicts": [],
+    "has_dangerous_approvals": false
+  },
+  "funding_trace": {
+    "target": "0x0e969f847f8f2dff9f6892fe834be92a1cc96f7a",
+    "trace_timestamp": "2026-01-20T16:17:45.588200+00:00",
+    "total_hops": 0,
+    "origin_found": false,
+    "origin_type": null,
+    "origin_label": null,
+    "trace_complete": false,
+    "trace_stopped_reason": "No funding transaction found",
+    "funding_chain": []
+  },
+  "token_risks": {
+    "scan_timestamp": "2026-01-20T16:18:04.886477+00:00",
+    "tokens_analyzed": 0,
+    "risky_tokens": 0,
+    "total_value_at_risk_usd": 0,
+    "has_risky_tokens": false,
+    "verdicts": [],
+    "honeypots_detected": 0,
+    "impersonators_detected": 0
+  },
+  "verdicts": [
+    {
+      "title": "SUSPICIOUS NFT AIRDROP",
+      "severity": "HIGH",
+      "category": "THREAT",
+      "description": "This wallet received an NFT from suspicious domain 'highlight-creator-assets.highlight.xyz'. Likely a phishing or scam attempt.",
+      "evidence": [
+        "Suspicious TLD: .xyz"
+      ],
+      "action": "Investigate domain before any interaction"
+    },
+    {
+      "title": "SUSPICIOUS NFT AIRDROP",
+      "severity": "HIGH",
+      "category": "THREAT",
+      "description": "This wallet received an NFT from suspicious domain 'api.mav.xyz'. Likely a phishing or scam attempt.",
+      "evidence": [
+        "Suspicious TLD: .xyz"
+      ],
+      "action": "Investigate domain before any interaction"
+    },
+    {
+      "title": "DEFI POWER USER",
+      "severity": "MEDIUM",
+      "category": "PROFILE",
+      "description": "Advanced DeFi user with multi-protocol exposure and cross-chain activity. High sophistication level.",
+      "evidence": [
+        "Matched 3/4 signals",
+        "Pattern: defi_power_user",
+        "Confidence: 75%",
+        "Signal: defi_protocols_count",
+        "Signal: sophistication",
+        "Signal: tx_count"
+      ],
+      "action": "Target with advanced DeFi scams, fake protocol exploits"
+    },
+    {
+      "title": "CONFIRMED INDIVIDUAL",
+      "severity": "INFO",
+      "category": "PROFILE",
+      "description": "High confidence this is a real individual, not a bot or institution. Human transaction patterns detected.",
+      "evidence": [
+        "Matched 3/4 signals",
+        "Pattern: confirmed_individual",
+        "Confidence: 75%",
+        "Signal: confidence_score",
+        "Signal: tx_count",
+        "Signal: tx_count"
+      ],
+      "action": "Suitable for targeted social engineering"
+    }
+  ]
+}

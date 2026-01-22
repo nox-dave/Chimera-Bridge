@@ -1,6 +1,6 @@
 # 🔱 Basilisk Security Report: ether.fi Stake
 
-> Generated: 2026-01-20T15:20:22.462105
+> Generated: 2026-01-22T19:32:58.610421
 
 ## Protocol Overview
 
@@ -10,14 +10,14 @@
 | **Address** | `0x35fA164735182de50811E8e2E824cFb9B6118ac2` |
 | **Chain** | Ethereum |
 | **Category** | Liquid Restaking |
-| **TVL** | $8,855,116,953 |
+| **TVL** | $8,523,445,559 |
 | **Audit Status** | ❌ Unaudited |
 | **Priority Score** | **80/100** |
 
 ## Verdicts
 
 - 🚨 **UNAUDITED HIGH-TVL PROTOCOL** (CRITICAL)
-  - Protocol has $8,855,116,953 TVL without documented audit
+  - Protocol has $8,523,445,559 TVL without documented audit
 - ℹ️ **VERY HIGH TVL TARGET** (INFO)
   - Protocol holds over $10M in TVL
 

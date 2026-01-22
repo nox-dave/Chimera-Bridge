@@ -1,0 +1,169 @@
+{
+  "address": "0x52dd3efff03f3d1505869acf45e3022efe46f7a5",
+  "discovered_at": "2026-01-20T16:16:13.352919+00:00",
+  "total_value_usd": 2.7586171761700706,
+  "eth_balance": 0.000909767243716621,
+  "eth_value_usd": 2.7586171761700706,
+  "token_holdings": {},
+  "risk_score": 60,
+  "tx_count": 58,
+  "defi_activity": false,
+  "nft_activity": {},
+  "bridge_activity": false,
+  "age_days": 23,
+  "osint_categories": [
+    "\ud83d\udc1f_easy_targets"
+  ],
+  "primary_osint_category": "\ud83d\udc1f_easy_targets",
+  "behavior": {
+    "confidence_score": 60,
+    "sophistication": "Novice",
+    "risk_tolerance": "Conservative",
+    "trading_style": "Regular Trader",
+    "likely_region": "Asia-Pacific",
+    "likely_timezone": "Asia-Pacific (UTC+8 to +12)",
+    "meme_exposure": false,
+    "defi_protocols": [],
+    "nft_platforms": [],
+    "bridges_used": [],
+    "exchange_interactions": [],
+    "frequent_counterparties": []
+  },
+  "transaction_analysis": {
+    "total_transactions": 58,
+    "total_value_eth": 16.61324925751009,
+    "most_active_hour": 8,
+    "most_active_day": "Monday",
+    "top_recipients": [
+      [
+        "0x6033f7f88332b8db6ad452b7c6d5bb643990ae3f",
+        17
+      ],
+      [
+        "0x52dd3efff03f3d1505869acf45e3022efe46f7a5",
+        16
+      ],
+      [
+        "0x2658723bf70c7667de6b25f99fcce13a16d25d08",
+        11
+      ],
+      [
+        "0x49048044d57e1c92a77f79988d21fa8faf74e97e",
+        6
+      ],
+      [
+        "0x3154cf16ccdb4c6d922629664174b904d80f2c35",
+        4
+      ],
+      [
+        "0x6a000f20005980200259b80c5102003040001068",
+        2
+      ],
+      [
+        "0x4cd00e387622c35bddb9b4c962c136462338bc31",
+        1
+      ],
+      [
+        "0x8b0576e39f1233679109f9b40cfcc2a7e0901ede",
+        1
+      ]
+    ],
+    "top_senders": [
+      [
+        "0x52dd3efff03f3d1505869acf45e3022efe46f7a5",
+        42
+      ],
+      [
+        "0x5babe600b9fcd5fb7b66c0611bf4896d967b23a1",
+        9
+      ],
+      [
+        "0xbd5de42c378037f503df8a615ad676018e3a2199",
+        6
+      ],
+      [
+        "0xabd5bc6c5139274ed0103865a82c83135c807571",
+        1
+      ]
+    ],
+    "first_transaction": "2025-12-27T22:18:59",
+    "last_transaction": "2026-01-20T16:06:35",
+    "avg_gas_used": 228628.6724137931,
+    "avg_gas_price": 41348540.11634369
+  },
+  "token_activity": {
+    "unique_tokens": 3,
+    "top_tokens": [
+      [
+        "LSK",
+        28
+      ],
+      [
+        "UniLife",
+        1
+      ],
+      [
+        "SUPERDOG",
+        1
+      ]
+    ],
+    "token_values": {
+      "LSK": 186585.74892522395,
+      "UniLife": 5.0,
+      "SUPERDOG": 5.0
+    },
+    "token_details": {
+      "LSK": [
+        "Lisk"
+      ],
+      "UniLife": [
+        "UniLife"
+      ],
+      "SUPERDOG": [
+        "SUPERDOG"
+      ]
+    }
+  },
+  "ipfs_osint": {
+    "skipped": true,
+    "reason": "no_nft_activity"
+  },
+  "ens": {
+    "address": "0x52dd3efff03f3d1505869acf45e3022efe46f7a5",
+    "ens_name": null,
+    "text_records": {},
+    "social_links": {},
+    "has_ens": false,
+    "has_social_links": false
+  },
+  "approval_risk": {
+    "scan_timestamp": "2026-01-20T16:16:20.018601+00:00",
+    "total_approvals": 0,
+    "unlimited_approvals": 0,
+    "high_risk_approvals": 0,
+    "total_exposure_usd": 0,
+    "verdicts": [],
+    "has_dangerous_approvals": false
+  },
+  "funding_trace": {
+    "target": "0x52dd3efff03f3d1505869acf45e3022efe46f7a5",
+    "trace_timestamp": "2026-01-20T16:16:19.177456+00:00",
+    "total_hops": 0,
+    "origin_found": false,
+    "origin_type": null,
+    "origin_label": null,
+    "trace_complete": false,
+    "trace_stopped_reason": "No funding transaction found",
+    "funding_chain": []
+  },
+  "token_risks": {
+    "scan_timestamp": "2026-01-20T16:16:20.745639+00:00",
+    "tokens_analyzed": 0,
+    "risky_tokens": 0,
+    "total_value_at_risk_usd": 0,
+    "has_risky_tokens": false,
+    "verdicts": [],
+    "honeypots_detected": 0,
+    "impersonators_detected": 0
+  }
+}

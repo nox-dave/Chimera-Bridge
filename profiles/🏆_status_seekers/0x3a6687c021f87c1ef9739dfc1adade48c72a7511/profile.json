@@ -1,0 +1,741 @@
+{
+  "address": "0x3a6687c021f87c1ef9739dfc1adade48c72a7511",
+  "discovered_at": "2026-01-20T16:13:26.220021+00:00",
+  "total_value_usd": 0.2351268648951764,
+  "eth_balance": 7.7569781481756e-05,
+  "eth_value_usd": 0.2351268648951764,
+  "token_holdings": {},
+  "risk_score": 85,
+  "tx_count": 690,
+  "defi_activity": true,
+  "nft_activity": {
+    "unique_collections": 34,
+    "top_collections": [
+      [
+        "Ethereum Name Service",
+        47
+      ],
+      [
+        "Gloomy Doomers",
+        18
+      ],
+      [
+        "Derivio Deeno NFT",
+        6
+      ],
+      [
+        "OurFounderIsDead",
+        6
+      ],
+      [
+        "The Escher Edition",
+        5
+      ],
+      [
+        "Zorggles",
+        5
+      ],
+      [
+        "feetpix",
+        4
+      ],
+      [
+        "Crowd",
+        3
+      ],
+      [
+        "Lamumudotxyz",
+        2
+      ],
+      [
+        "One Gravity",
+        2
+      ]
+    ],
+    "collection_addresses": {
+      "0x47d7b6116c2303f4d0232c767f71e00db166b67a": 2,
+      "0x57f1887a8bf19b14fc0df6fd9b2acc9af147ea85": 47,
+      "0x26d85a13212433fe6a8381969c2b0db390a0b0ae": 1,
+      "0xf39c410dac956ba98004f411e182fb4eed595270": 2,
+      "0xbc37ee54f066e79c23389c55925f877f79f3cb84": 2,
+      "0x8685729950d052b4bea725789387c9fa80a76921": 6,
+      "0x5765a0ca7d8b98b04b80323d327e611beeeb2092": 2,
+      "0x9830b32f7210f0857a859c2a86387e4d1bb760b8": 2,
+      "0x15c905dec8da0a90fa05f8121e8f8285d30ef1f4": 2,
+      "0xf6b3cc9a23095c1acbf076cb560bbb56c19504e2": 1,
+      "0xf76d8e5c6d94ace0321f927b83a977bef6d1a9f2": 1,
+      "0x030ed150475f8243314de04deeaaf816e3d68666": 1,
+      "0x7172b87400b850069c425ecd18f2c2553b7fb479": 1,
+      "0x0000000000664ceffed39244a8312bd895470803": 1,
+      "0x554f3b93d82ce2435206f3ad8ac4154d056cd18e": 1,
+      "0xaa7200ee500de2dcde75e996de83cbd73bca9705": 3,
+      "0x5078981549a1cc18673eb76fb47468f546aadc51": 4,
+      "0x1bbec3ef715cce96b715bc0aa8fef8989f7ad3b2": 5,
+      "0xd4307e0acd12cf46fd6cf93bc264f5d5d1598792": 1,
+      "0xa6c4df945dbb1d71fe9a8d71ae93b8d5c2bbebe4": 1,
+      "0x816840b298c3a326330236ac1368d3887d27a7cb": 2,
+      "0xa3c81f1f2598d5fb5447d95aa03f31bba7f1dd21": 1,
+      "0x7d3c47d820b34d7df1e50be510a1b2519945839b": 1,
+      "0x68d5dc6f36a0aa8a5f167dda2af94572c8ce694e": 1,
+      "0x8660264e842bb398becdbd19bdb492f1c7c20b0f": 18,
+      "0x9ba596da06da0bf9105e58a792b455b7f9b15c70": 5,
+      "0x5fa965932875c056b4d674371f701832a784bcd5": 1,
+      "0xd7dad6f978e53986d8800cc096604dcacff51536": 1,
+      "0x7492e30d60d96c58ed0f0dc2fe536098c620c4c0": 1,
+      "0xb4fedc003053c22ac8b808bb424f3e1787f30cf2": 1,
+      "0x34f08f2a3f4a86531e9c4139fde571a62689afec": 2,
+      "0xb39304157227d684f28353fb7a016bd1c685da5f": 6,
+      "0x7fef3f3364c7d8b9bfabb1b24d5ce92a402c6bd3": 2,
+      "0x712b9720b37bd206ed938a5fff4ca48cb89643ba": 1
+    }
+  },
+  "bridge_activity": true,
+  "age_days": 1208,
+  "osint_categories": [
+    "\ud83c\udfb0_gamblers",
+    "\ud83c\udfc6_status_seekers",
+    "\ud83e\udde0_defi_natives"
+  ],
+  "primary_osint_category": "\ud83c\udfb0_gamblers",
+  "behavior": {
+    "confidence_score": 85,
+    "sophistication": "Advanced",
+    "risk_tolerance": "Aggressive",
+    "trading_style": "NFT Collector",
+    "likely_region": "Europe",
+    "likely_timezone": "Europe/Africa (UTC+0 to +3)",
+    "meme_exposure": true,
+    "defi_protocols": [
+      "WETH Contract",
+      "Uniswap Universal Router"
+    ],
+    "nft_platforms": [
+      "X2Y2",
+      "OpenSea Seaport",
+      "OpenSea Seaport 1.6"
+    ],
+    "bridges_used": [
+      "zkSync Bridge"
+    ],
+    "exchange_interactions": [
+      "Binance 15",
+      "Bybit Hot Wallet",
+      "OKX 3",
+      "Binance 14"
+    ],
+    "frequent_counterparties": []
+  },
+  "transaction_analysis": {
+    "total_transactions": 690,
+    "total_value_eth": 102.23654563051574,
+    "most_active_hour": 9,
+    "most_active_day": "Sunday",
+    "top_recipients": [
+      [
+        "0x3a6687c021f87c1ef9739dfc1adade48c72a7511",
+        219
+      ],
+      [
+        "0x283af0b28c62c092c9727f1ee09c02ca627eb7f5",
+        68
+      ],
+      [
+        "0x00000000006c3852cbef3e08e8df289169ede581",
+        27
+      ],
+      [
+        "0xbaf02dd32f409be40a4a2011ce5314850e2b534f",
+        21
+      ],
+      [
+        "0x81d0e60b18abfeffd768e3ea0a62561be4cfeeae",
+        17
+      ],
+      [
+        "0x2f9b96251fe83856052cb8ff5e21ed3aa88c1c0b",
+        15
+      ],
+      [
+        "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+        14
+      ],
+      [
+        "0x57f1887a8bf19b14fc0df6fd9b2acc9af147ea85",
+        14
+      ],
+      [
+        "0x77ed3fa96cf879f38d5544ad4397456e90134781",
+        10
+      ],
+      [
+        "0x0000000000000068f116a894984e2db1123eb395",
+        10
+      ]
+    ],
+    "top_senders": [
+      [
+        "0x3a6687c021f87c1ef9739dfc1adade48c72a7511",
+        478
+      ],
+      [
+        "0xf89d7b9c864f589bbf53a82105107622b35eaa40",
+        35
+      ],
+      [
+        "0x81d0e60b18abfeffd768e3ea0a62561be4cfeeae",
+        26
+      ],
+      [
+        "0x4976a4a02f38326660d17bf34b431dc6e2eb2327",
+        14
+      ],
+      [
+        "0x77ed3fa96cf879f38d5544ad4397456e90134781",
+        12
+      ],
+      [
+        "0x21a31ee1afc51d94c2efccaa2092ad1028285549",
+        9
+      ],
+      [
+        "0x9696f59e4d72e237be84ffd425dcad154bf96976",
+        9
+      ],
+      [
+        "0x28c6c06298d514db089934071355e5743bf21d60",
+        8
+      ],
+      [
+        "0x75e89d5979e4f6fba9f97c104c2f0afb3f1dcb88",
+        7
+      ],
+      [
+        "0x80c67432656d59144ceff962e8faf8926599bcf8",
+        5
+      ]
+    ],
+    "first_transaction": "2021-12-27T23:02:12",
+    "last_transaction": "2026-01-20T16:22:35",
+    "avg_gas_used": 65004.057971014496,
+    "avg_gas_price": 92721531826.48499
+  },
+  "token_activity": {
+    "unique_tokens": 28,
+    "top_tokens": [
+      [
+        "WETH",
+        27
+      ],
+      [
+        "USDC",
+        11
+      ],
+      [
+        "SOS",
+        8
+      ],
+      [
+        "FUEL",
+        7
+      ],
+      [
+        "Renzo Restaked ETH",
+        6
+      ],
+      [
+        "eETH",
+        5
+      ],
+      [
+        "lvlUSDUSDC",
+        4
+      ],
+      [
+        "EIGEN",
+        4
+      ],
+      [
+        "REZ",
+        4
+      ],
+      [
+        "LOOKS",
+        4
+      ],
+      [
+        "BAL",
+        3
+      ],
+      [
+        "U\u0405D\u0421",
+        2
+      ],
+      [
+        "lvlUSD",
+        2
+      ],
+      [
+        "fWETH",
+        2
+      ],
+      [
+        "PENDLE-LPT",
+        2
+      ],
+      [
+        "ETHFI",
+        2
+      ],
+      [
+        "ARKM",
+        2
+      ],
+      [
+        "F9",
+        2
+      ],
+      [
+        "PYR",
+        2
+      ],
+      [
+        "REQ",
+        2
+      ]
+    ],
+    "token_values": {
+      "WETH": 2.7040500753982246,
+      "USDC": 2905.124552,
+      "lvlUSDUSDC": 1262.261351961906,
+      "FUEL": 1625589.090279476,
+      "U\u0405D\u0421": 775.5465119999999,
+      "lvlUSD": 776.5524780000001,
+      "fWETH": 0.07544064991313042,
+      "EIGEN": 251.04086844,
+      "Claim on: claim.renzo-ecosystem.com": 3.0,
+      "REZ": 1991.6,
+      "Renzo Restaked ETH": 7.516438945585572,
+      "PENDLE-LPT": 0.5828518248720854,
+      "$Pendle Reward Ticket By https://pendledao.app": 139000.0,
+      "ETHFI": 350.2,
+      "Visit liquid-eth.net claim rewards": 1.7,
+      "eETH": 1.1387984223238348,
+      "ARKM": 394.8589106592887,
+      "F9": 14399.979260572,
+      "fork-eth.com": 1400.0,
+      "PYR": 546.22363938,
+      "REQ": 241.16907452,
+      "BAL": 3.3031188,
+      "MKR": 0.015645918853359343,
+      "SHIB": 2693038.525767471,
+      "SKM": 87461.82683526308,
+      "SOS": 596984936.6076281,
+      "veSOS": 69368260.29092777,
+      "LOOKS": 1538.6775485852825
+    },
+    "token_details": {
+      "WETH": [
+        "Wrapped Ether"
+      ],
+      "USDC": [
+        "USDC"
+      ],
+      "lvlUSDUSDC": [
+        "lvlUSD/USDC"
+      ],
+      "FUEL": [
+        "FUEL"
+      ],
+      "U\u0405D\u0421": [
+        "U\u0405D\u0421"
+      ],
+      "lvlUSD": [
+        "Level USD"
+      ],
+      "fWETH": [
+        "Fluid Wrapped Ether"
+      ],
+      "EIGEN": [
+        "Eigen"
+      ],
+      "Claim on: claim.renzo-ecosystem.com": [
+        "Renzo Restaked ETH"
+      ],
+      "REZ": [
+        "Renzo"
+      ],
+      "Renzo Restaked ETH": [
+        "ezETH"
+      ],
+      "PENDLE-LPT": [
+        "Pendle Market"
+      ],
+      "$Pendle Reward Ticket By https://pendledao.app": [
+        "! Pendle Ticket By pendledao.app"
+      ],
+      "ETHFI": [
+        "ether.fi governance token"
+      ],
+      "Visit liquid-eth.net claim rewards": [
+        "# liquid-eth.net"
+      ],
+      "eETH": [
+        "ether.fi ETH"
+      ],
+      "ARKM": [
+        "Arkham"
+      ],
+      "F9": [
+        "Falcon 9"
+      ],
+      "fork-eth.com": [
+        "Fork-Eth.com"
+      ],
+      "PYR": [
+        "PYR Token"
+      ],
+      "REQ": [
+        "Request"
+      ],
+      "BAL": [
+        "Balancer"
+      ],
+      "MKR": [
+        "Maker"
+      ],
+      "SHIB": [
+        "SHIBA INU"
+      ],
+      "SKM": [
+        "Skrumble Token"
+      ],
+      "SOS": [
+        "SOS"
+      ],
+      "veSOS": [
+        "veSOS"
+      ],
+      "LOOKS": [
+        "LooksRare Token"
+      ]
+    }
+  },
+  "ipfs_osint": {
+    "address": "0x3a6687c021f87c1ef9739dfc1adade48c72a7511",
+    "ipfs_hashes_found": [
+      {
+        "contract": "0x47d7b6116c2303f4d0232c767f71e00db166b67a",
+        "token_id": "1139",
+        "uri": "ipfs://bafybeiapkzfqa7n2o25hkasmkdz4el2ie3bz25gcg3yf4rkcpwezhe3ctm/1139",
+        "ipfs_hash": "bafybeiapkzfqa7n2o25hkasmkdz4el2ie3bz25gcg3yf4rkcpwezhe3ctm"
+      },
+      {
+        "contract": "0x26d85a13212433fe6a8381969c2b0db390a0b0ae",
+        "token_id": "172874",
+        "uri": "ipfs://bafybeifsexiiy4rkwr62m3ha4zcrxfo3dnjlhqqxwezxhemz3os5vbww7m/metadata.json",
+        "ipfs_hash": "bafybeifsexiiy4rkwr62m3ha4zcrxfo3dnjlhqqxwezxhemz3os5vbww7m"
+      },
+      {
+        "contract": "0x5765a0ca7d8b98b04b80323d327e611beeeb2092",
+        "token_id": "1448",
+        "uri": "ipfs://bafybeidjhro2a5kweai77pnhhzv34ffdfcvpkdxu7rqep2l6f5dz46etlm/1448",
+        "ipfs_hash": "bafybeidjhro2a5kweai77pnhhzv34ffdfcvpkdxu7rqep2l6f5dz46etlm"
+      },
+      {
+        "contract": "0x9830b32f7210f0857a859c2a86387e4d1bb760b8",
+        "token_id": "481",
+        "uri": "ipfs://bafybeidgbhucjcqslrcigdh527f5rg462gvg2oamoxr2fqiqcw6yddc46i/481",
+        "ipfs_hash": "bafybeidgbhucjcqslrcigdh527f5rg462gvg2oamoxr2fqiqcw6yddc46i"
+      }
+    ],
+    "metadata_analyzed": [
+      {
+        "contract": "0xf39c410dac956ba98004f411e182fb4eed595270",
+        "token_id": "1231",
+        "analysis": {
+          "name": "One Gravity",
+          "description": "One Gravity is the first NFT collection for 0G, the largest AI L1. 1,888 NFTs for a community shaping AI & Web3. It's time to Defy Gravity.",
+          "image": "https://one-gravity-images.0g.ai/0xaf0354bdb25a87bdb86bb24a2fdbd49bc018016517ba7872765eba6ac11f690c.png",
+          "external_url": "",
+          "attributes": [],
+          "properties": {},
+          "creator": {},
+          "artist": "",
+          "collection": {},
+          "ipfs_hashes": [],
+          "linked_urls": [
+            "https://one-gravity-images.0g.ai/0xaf0354bdb25a87bdb86bb24a2fdbd49bc018016517ba7872765eba6ac11f690c.png"
+          ],
+          "timestamps": [],
+          "usernames": [],
+          "emails": [],
+          "social_links": []
+        },
+        "source": "https",
+        "domain": "one-gravity-uri.0g.ai"
+      },
+      {
+        "contract": "0xbc37ee54f066e79c23389c55925f877f79f3cb84",
+        "token_id": "1179",
+        "analysis": {
+          "name": "Seeing Signs",
+          "description": "this person is Seeing Signs",
+          "image": "http://public-cdn.sign.global/SeeingSigns/Seeing_Signs.mp4",
+          "external_url": "",
+          "attributes": [],
+          "properties": {},
+          "creator": {},
+          "artist": "",
+          "collection": {},
+          "ipfs_hashes": [],
+          "linked_urls": [
+            "http://public-cdn.sign.global/seeingsigns/seeing_signs.mp4"
+          ],
+          "timestamps": [],
+          "usernames": [],
+          "emails": [],
+          "social_links": []
+        },
+        "source": "https",
+        "domain": "public-cdn.sign.global"
+      },
+      {
+        "contract": "0xf6b3cc9a23095c1acbf076cb560bbb56c19504e2",
+        "token_id": "13",
+        "analysis": {
+          "name": "RICE Farmer",
+          "description": " Minted by Galxe Campaign: The Gigagas Era Begins",
+          "image": "https://cdn.galxe.com/galaxy/rise/344c05fe-f2dc-4cf3-8aac-28ee2c3dd17f.mp4",
+          "external_url": "",
+          "attributes": [
+            {
+              "trait_type": "Color",
+              "value": "Multi-Color"
+            },
+            {
+              "trait_type": "Food",
+              "value": "Rice"
+            },
+            {
+              "trait_type": "Era",
+              "value": "Gigagas"
+            },
+            {
+              "display_type": "date",
+              "trait_type": "birthday",
+              "value": 1727166869
+            }
+          ],
+          "properties": {},
+          "creator": {},
+          "artist": "",
+          "collection": {},
+          "ipfs_hashes": [],
+          "linked_urls": [
+            "https://cdn.galxe.com/galaxy/rise/344c05fe-f2dc-4cf3-8aac-28ee2c3dd17f.mp4",
+            "https://galaxy.eco/nft/169858488/0xf6b3cc9a23095c1acbf076cb560bbb56c19504e2"
+          ],
+          "timestamps": [],
+          "usernames": [],
+          "emails": [],
+          "social_links": []
+        },
+        "source": "https",
+        "domain": "graphigo.prd.galaxy.eco"
+      }
+    ],
+    "debug_info": {
+      "nft_transfers_count": 129,
+      "contracts_found": 18,
+      "tokens_checked": 16,
+      "uris_found": 10,
+      "ipfs_hashes_extracted": 4,
+      "metadata_fetched": 3
+    },
+    "findings": {
+      "total_hashes": 4,
+      "unique_hashes": [
+        "bafybeiapkzfqa7n2o25hkasmkdz4el2ie3bz25gcg3yf4rkcpwezhe3ctm",
+        "bafybeidjhro2a5kweai77pnhhzv34ffdfcvpkdxu7rqep2l6f5dz46etlm",
+        "bafybeidgbhucjcqslrcigdh527f5rg462gvg2oamoxr2fqiqcw6yddc46i",
+        "bafybeifsexiiy4rkwr62m3ha4zcrxfo3dnjlhqqxwezxhemz3os5vbww7m"
+      ],
+      "linked_urls": [
+        "https://cdn.galxe.com/galaxy/rise/344c05fe-f2dc-4cf3-8aac-28ee2c3dd17f.mp4",
+        "http://public-cdn.sign.global/seeingsigns/seeing_signs.mp4",
+        "https://galaxy.eco/nft/169858488/0xf6b3cc9a23095c1acbf076cb560bbb56c19504e2",
+        "https://one-gravity-images.0g.ai/0xaf0354bdb25a87bdb86bb24a2fdbd49bc018016517ba7872765eba6ac11f690c.png"
+      ],
+      "usernames": [],
+      "emails": [],
+      "social_links": [],
+      "timestamps": [],
+      "creators": [],
+      "collections": [],
+      "domains": [
+        "graphigo.prd.galaxy.eco",
+        "one-gravity-uri.0g.ai",
+        "derivio-mission.vercel.app",
+        "public-cdn.sign.global"
+      ],
+      "domain_analysis": {
+        "one-gravity-uri.0g.ai": {
+          "domain": "one-gravity-uri.0g.ai",
+          "is_ipfs": false,
+          "is_centralized": true,
+          "scam_indicators": [],
+          "reputation": "unknown",
+          "whois_info": null
+        },
+        "public-cdn.sign.global": {
+          "domain": "public-cdn.sign.global",
+          "is_ipfs": false,
+          "is_centralized": true,
+          "scam_indicators": [],
+          "reputation": "unknown",
+          "whois_info": null
+        },
+        "derivio-mission.vercel.app": {
+          "domain": "derivio-mission.vercel.app",
+          "is_ipfs": false,
+          "is_centralized": true,
+          "scam_indicators": [],
+          "reputation": "unknown",
+          "whois_info": null
+        },
+        "graphigo.prd.galaxy.eco": {
+          "domain": "graphigo.prd.galaxy.eco",
+          "is_ipfs": false,
+          "is_centralized": true,
+          "scam_indicators": [],
+          "reputation": "unknown",
+          "whois_info": null
+        }
+      },
+      "metadata_urls": [
+        {
+          "contract": "0x47d7b6116c2303f4d0232c767f71e00db166b67a",
+          "token_id": "1139",
+          "uri": "ipfs://bafybeiapkzfqa7n2o25hkasmkdz4el2ie3bz25gcg3yf4rkcpwezhe3ctm/1139"
+        },
+        {
+          "contract": "0x26d85a13212433fe6a8381969c2b0db390a0b0ae",
+          "token_id": "172874",
+          "uri": "ipfs://bafybeifsexiiy4rkwr62m3ha4zcrxfo3dnjlhqqxwezxhemz3os5vbww7m/metadata.json"
+        },
+        {
+          "contract": "0xf39c410dac956ba98004f411e182fb4eed595270",
+          "token_id": "1231",
+          "uri": "https://one-gravity-uri.0g.ai/1231.json"
+        },
+        {
+          "contract": "0xbc37ee54f066e79c23389c55925f877f79f3cb84",
+          "token_id": "1179",
+          "uri": "https://public-cdn.sign.global/SeeingSigns/1179.json"
+        },
+        {
+          "contract": "0x8685729950d052b4bea725789387c9fa80a76921",
+          "token_id": "53",
+          "uri": "https://derivio-mission.vercel.app/api/nft/1/metadata/53"
+        },
+        {
+          "contract": "0x8685729950d052b4bea725789387c9fa80a76921",
+          "token_id": "95",
+          "uri": "https://derivio-mission.vercel.app/api/nft/1/metadata/95"
+        },
+        {
+          "contract": "0x8685729950d052b4bea725789387c9fa80a76921",
+          "token_id": "158",
+          "uri": "https://derivio-mission.vercel.app/api/nft/1/metadata/158"
+        },
+        {
+          "contract": "0x5765a0ca7d8b98b04b80323d327e611beeeb2092",
+          "token_id": "1448",
+          "uri": "ipfs://bafybeidjhro2a5kweai77pnhhzv34ffdfcvpkdxu7rqep2l6f5dz46etlm/1448"
+        },
+        {
+          "contract": "0x9830b32f7210f0857a859c2a86387e4d1bb760b8",
+          "token_id": "481",
+          "uri": "ipfs://bafybeidgbhucjcqslrcigdh527f5rg462gvg2oamoxr2fqiqcw6yddc46i/481"
+        },
+        {
+          "contract": "0xf6b3cc9a23095c1acbf076cb560bbb56c19504e2",
+          "token_id": "13",
+          "uri": "https://graphigo.prd.galaxy.eco/metadata/0xf6b3cc9a23095c1acbf076cb560bbb56c19504e2/13.json"
+        }
+      ]
+    }
+  },
+  "ens": {
+    "address": "0x3a6687c021f87c1ef9739dfc1adade48c72a7511",
+    "ens_name": "fucketf.eth",
+    "text_records": {
+      "avatar": "https://euc.li/fucketf.eth"
+    },
+    "social_links": {},
+    "has_ens": true,
+    "has_social_links": false
+  },
+  "approval_risk": {
+    "scan_timestamp": "2026-01-20T16:13:50.007203+00:00",
+    "total_approvals": 0,
+    "unlimited_approvals": 0,
+    "high_risk_approvals": 0,
+    "total_exposure_usd": 0,
+    "verdicts": [],
+    "has_dangerous_approvals": false
+  },
+  "funding_trace": {
+    "target": "0x3a6687c021f87c1ef9739dfc1adade48c72a7511",
+    "trace_timestamp": "2026-01-20T16:13:35.745238+00:00",
+    "total_hops": 0,
+    "origin_found": false,
+    "origin_type": null,
+    "origin_label": null,
+    "trace_complete": false,
+    "trace_stopped_reason": "No funding transaction found",
+    "funding_chain": []
+  },
+  "token_risks": {
+    "scan_timestamp": "2026-01-20T16:13:50.733984+00:00",
+    "tokens_analyzed": 0,
+    "risky_tokens": 0,
+    "total_value_at_risk_usd": 0,
+    "has_risky_tokens": false,
+    "verdicts": [],
+    "honeypots_detected": 0,
+    "impersonators_detected": 0
+  },
+  "verdicts": [
+    {
+      "title": "NFT COLLECTOR PROFILE",
+      "severity": "MEDIUM",
+      "category": "PROFILE",
+      "description": "Wallet shows strong NFT activity with significant holdings. Potential social identity vector through NFT metadata.",
+      "evidence": [
+        "Matched 3/4 signals",
+        "Pattern: nft_collector",
+        "Confidence: 75%",
+        "Signal: nft_platforms_count",
+        "Signal: tx_frequency",
+        "Signal: defi_protocols_count"
+      ],
+      "action": "Investigate NFT metadata for OSINT"
+    },
+    {
+      "title": "CONFIRMED INDIVIDUAL",
+      "severity": "INFO",
+      "category": "PROFILE",
+      "description": "High confidence this is a real individual, not a bot or institution. Human transaction patterns detected.",
+      "evidence": [
+        "Matched 3/4 signals",
+        "Pattern: confirmed_individual",
+        "Confidence: 75%",
+        "Signal: confidence_score",
+        "Signal: tx_count",
+        "Signal: tx_count"
+      ],
+      "action": "Suitable for targeted social engineering"
+    }
+  ]
+}

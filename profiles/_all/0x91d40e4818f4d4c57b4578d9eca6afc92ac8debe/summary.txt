@@ -1,0 +1,142 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                         🐋 WHALE INTELLIGENCE REPORT                          ║
+║                           Gargophias OSINT Module                            ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+Target:     0x91d40e4818f4d4c57b4578d9eca6afc92ac8debe
+Generated:  2026-01-20 17:17:34 UTC
+
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                               QUICK ASSESSMENT                               │
+├──────────────────────────────────────────────────────────────────────────────┤
+│  ✅ LIKELY REAL PERSON                                                       │
+│  Confidence: 70%                                                               │
+│  Profile: Dolphin | Long-term Holder | Political Token Holder               │
+└──────────────────────────────────────────────────────────────────────────────┘
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+💰 FINANCIAL SUMMARY
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Total Portfolio Value:  $          374,786.32
+  ETH Balance:                        123.5405 ETH
+  ETH Value:              $          374,786.32
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📊 ACTIVITY METRICS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Transaction Count:                       500
+  Total ETH Moved:                        0.00 ETH
+  Avg Transaction:                      0.0000 ETH
+  Wallet Age:                                0 days
+  First Transaction:                2026-01-20
+  Last Transaction:                 2026-01-20
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🧠 BEHAVIORAL PROFILE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Sophistication Level:   Intermediate        
+  Risk Tolerance:         Aggressive          
+  Trading Style:          Long-term Holder    
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+⏰ ACTIVITY PATTERNS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Peak Activity Hours:    12:00, 13:00, 15:00, 14:00 UTC
+  Most Active Days:       Tuesday
+  Likely Timezone:        Europe/Africa (UTC+0 to +3)
+  Probable Region:        Europe
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🔧 PROTOCOL & PLATFORM USAGE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  DeFi Protocols:         None detected
+
+  NFT Platforms:          None detected
+
+  Bridge Usage:           None detected
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🪙 TOKEN INTERESTS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Active Tokens: elon, vra, axs, xaut, resolv, link, pepe, wlfi, ondo, meme
+  Categories: 🐸 Meme Coins | 🏛️ Political Tokens | 🏦 DeFi Tokens | 🎮 Gaming Tokens
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🏦 FUNDING & EXCHANGE RELATIONSHIPS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Original Funding:       Unknown / Contract
+
+  Exchange Interactions:  None detected (DEX-only or self-custody)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🎯 SIGNAL ANALYSIS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  ✅ BULLISH SIGNALS (Real Person Indicators):
+     • Reasonable tx count
+     • Retail token activity
+     • Holds political tokens - retail investor behavior
+     • Meme coin exposure - retail speculation behavior
+
+  ⚠️  RED FLAGS (Caution Indicators):
+     • No significant red flags detected
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📋 OSINT ASSESSMENT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  HIGH CONFIDENCE (70%): This wallet likely belongs to a real individual.
+  GEOGRAPHIC: Activity patterns suggest Europe timezone (Europe/Africa (UTC+0 to +3)).
+  SOPHISTICATION: Intermediate user. Familiar with DeFi basics, uses DEXs.
+  RISK PROFILE: Aggressive. Long-term Holder.
+  NOTABLE: Holds political tokens (e.g., WLFI) - likely follows US crypto politics.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🎭 PROFILE HYPOTHESIS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Archetype: Retail Speculator / Political Crypto Enthusiast
+  
+  Narrative:
+    A mid-tier holder with meaningful skin in the game.
+    Shows familiarity with DEXs and basic DeFi concepts.
+    Activity patterns suggest European timezone.
+    Interest in political tokens suggests engagement with US crypto politics.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🔗 INVESTIGATION LINKS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Etherscan:      https://etherscan.io/address/0x91d40e4818f4d4c57b4578d9eca6afc92ac8debe
+  Debank:         https://debank.com/profile/0x91d40e4818f4d4c57b4578d9eca6afc92ac8debe
+  Arkham Intel:   https://platform.arkhamintelligence.com/explorer/address/0x91d40e4818f4d4c57b4578d9eca6afc92ac8debe
+  Nansen:         https://pro.nansen.ai/wallet/0x91d40e4818f4d4c57b4578d9eca6afc92ac8debe
+  Zerion:         https://app.zerion.io/0x91d40e4818f4d4c57b4578d9eca6afc92ac8debe/overview
+  Zapper:         https://zapper.xyz/account/0x91d40e4818f4d4c57b4578d9eca6afc92ac8debe
+
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                      PRIORITY: MEDIUM | CONFIDENCE: 70%                      ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+
+🔍 FUNDING SOURCE TRACE
+━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Hops Traced: 0
+
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🎯 OSINT VERDICTS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+⚡ [MEDIUM] NFT COLLECTOR PROFILE
+   Wallet shows strong NFT activity with significant holdings. Potential social identity vector through NFT metadata.
+     • Matched 3/4 signals
+     • Pattern: nft_collector
+     • Confidence: 75%
+   → Action: Investigate NFT metadata for OSINT
+
+⚡ [MEDIUM] HIGH-RISK TRADER PROFILE
+   Wallet shows impulsive trading behavior with meme coin exposure. Likely susceptible to FOMO-based attacks.
+     • Matched 3/3 signals
+     • Pattern: high_risk_trader
+     • Confidence: 100%
+   → Action: Target with urgency-based scams, fake alpha
+

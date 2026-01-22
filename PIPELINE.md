@@ -51,6 +51,12 @@ CONTRACT HUNTER PIPELINE
 │   ├── Slither analysis (20+ detectors, if installed)
 │   └── LLM analyzers (12+ specialized analyzers)
 │
+├── [3.5/5] Finding Validation
+│   └── FindingValidator (filters false positives)
+│       ├── Validates findings against source code
+│       ├── Filters false positives automatically
+│       └── Returns only confirmed + needs_review findings
+│
 ├── [4/5] Priority Scoring
 │   ├── Severity assessment (Critical/High/Medium/Low)
 │   ├── Priority score calculation (0-100)
@@ -129,30 +135,31 @@ WALLET HUNTER PIPELINE
 ```
 CHIMERA BRIDGE PIPELINE
 │
-├── Input: Vulnerable Contract (from contractHunter)
-│   ├── Contract address
-│   ├── Vulnerability summary
-│   └── Chain information
+├── Input: Hunt Results (hunt_*.json from contractHunter)
+│   ├── Filter by vulnerability severity
+│   ├── Process vulnerabilities + verdicts
+│   └── Handle multiple protocol name fields
 │
 ├── Step 1: Query Contract Interactions
 │   ├── Etherscan transaction history
 │   ├── Extract unique wallet addresses
-│   └── Filter exchanges & contracts
+│   ├── Filter known exchanges (Binance, Coinbase, etc.)
+│   └── Filter null/burn addresses
 │
-├── Step 2: Calculate Exposure
-│   ├── Token balance queries
-│   ├── Position data (LP, staking, deposits)
-│   └── USD value conversion
+├── Step 2: Estimate Exposure
+│   └── Placeholder (returns 0.0, can be enhanced)
 │
-├── Step 3: Profile Exposed Wallets
+├── Step 3: Profile Exposed Wallets (optional)
+│   ├── Limit to first 5 wallets per contract
+│   ├── 30 second timeout per wallet
 │   └── UnifiedProfiler.generate_full_profile()
-│       └── Full 9-step wallet pipeline
 │
-└── Output: Exposure Report
-    ├── Total value at risk
-    ├── Wallet count
+└── Output: Bridge Report
+    ├── bridge_YYYYMMDD_HHMMSS.json
+    ├── bridge_YYYYMMDD_HHMMSS.md
+    ├── Total wallets found
     ├── High-value wallets (>$100k)
-    └── Detailed wallet profiles
+    └── Top 20 wallets per contract
 ```
 
 ```
@@ -203,26 +210,19 @@ COMPLETE CHIMERA WORKFLOW
 └── chimera/menu.py [3] Chimera Bridge
     │
     ├── [1] Bridge Hunt Results
-    │   └── ContractWalletBridge.bridge_from_hunt_results()
+    │   └── ChimeraBridge.bridge_from_hunt_results()
     │       │
     │       ├── Load hunt_*.json from contractHunter
-    │       ├── Filter to vulnerable contracts
-    │       ├── For each contract:
-    │       │   ├── Query exposed wallets
-    │       │   ├── Calculate exposure amounts
-    │       │   └── Profile wallets (walletHunter)
-    │       └── Generate exposure reports
+    │       ├── Filter by severity (default: HIGH+)
+    │       ├── Process vulnerabilities + verdicts
+    │       ├── For each contract (default: max 10):
+    │       │   ├── Query exposed wallets (default: max 20)
+    │       │   ├── Estimate exposure
+    │       │   └── Optionally profile wallets (default: disabled)
+    │       └── Generate bridge reports (JSON + Markdown)
     │
-    ├── [2] Bridge Single Contract
-    │   └── ContractWalletBridge.find_exposed_wallets()
-    │       │
-    │       ├── Input: Contract address
-    │       ├── Query interactions
-    │       ├── Calculate exposure
-    │       └── Profile wallets
-    │
-    └── [3] View Exposure Reports
-        └── Browse chimera/reports/exposure_*.json
+    └── [2] View Bridge Reports
+        └── Browse chimera/reports/bridge_*.json
 ```
 
 ```
@@ -269,6 +269,14 @@ CONTRACT HUNTER DETAILED FLOW
 │   │           ├── confidence (0.0-1.0)
 │   │           └── location
 │   │
+│   ├── Step 3.5: Validate Findings
+│   │   └── FindingValidator.validate_findings()
+│   │       │
+│   │       ├── Checks findings against source code
+│   │       ├── Filters false positives (regex/string matching)
+│   │       ├── Categorizes: CONFIRMED, FALSE_POSITIVE, NEEDS_REVIEW
+│   │       └── Returns only validated findings
+│   │
 │   ├── Step 4: Generate Verdicts & Priority
 │   │   └── ContractHunter._generate_verdicts()
 │   │       │
@@ -283,10 +291,16 @@ CONTRACT HUNTER DETAILED FLOW
 │   └── Step 5: Save Results & Categorization
 │       ├── Save to Contracts/_all/{protocol}/
 │       │   ├── profile.json (with vulnerabilities + verdicts)
-│       │   ├── summary.txt (human-readable)
+│       │   ├── summary.txt (Enhanced Report Generator)
 │       │   ├── scan_results.json
 │       │   ├── report.md
 │       │   └── source.sol
+│       ├── Enhanced Report Generation
+│       │   └── EnhancedReportGenerator.generate_enhanced_report()
+│       │       ├── Extracts code context (function names, line numbers)
+│       │       ├── Assesses false positive likelihood
+│       │       ├── Adds recommendations and references
+│       │       └── Handles known audited protocols
 │       ├── Auto-categorize into archetypes
 │       │   └── ContractCategorizer.categorize_from_hunt_results()
 │       │       ├── Analyze vulnerabilities, TVL, audit status
@@ -300,7 +314,7 @@ CONTRACT HUNTER DETAILED FLOW
         ├── _all/ (single source of truth)
         │   └── {protocol_slug}/
         │       ├── profile.json (complete data + vulnerabilities + verdicts)
-        │       ├── summary.txt (human-readable summary)
+        │       ├── summary.txt (enhanced report with code context)
         │       ├── source.sol
         │       ├── scan_results.json
         │       └── report.md
@@ -481,81 +495,67 @@ CHIMERA BRIDGE DETAILED FLOW
 │
 ├── chimera/bridge.py
 │   │
-│   ├── ContractWalletBridge.find_exposed_wallets()
+│   ├── ChimeraBridge (ContractWalletBridge alias for compatibility)
 │   │   │
-│   │   ├── Input
-│   │   │   ├── contract_address
-│   │   │   ├── chain
-│   │   │   ├── vulnerability_info
-│   │   │   └── contract_name
+│   │   ├── API Key Loading
+│   │   │   ├── Constructor parameter
+│   │   │   ├── ETHERSCAN_API_KEY env var
+│   │   │   ├── ETHERSCAN_KEY env var
+│   │   │   └── .env file search (current dir, parent, contractHunter, walletHunter, home)
 │   │   │
-│   │   ├── Step 1: Query Contract Interactions
-│   │   │   └── _get_contract_interactions()
-│   │   │       │
-│   │   │       ├── Etherscan API: txlist
-│   │   │       ├── Extract unique addresses (from/to)
-│   │   │       ├── Filter contract address itself
-│   │   │       └── Return interaction list
+│   │   ├── ChimeraBridge.bridge_from_hunt_results()
+│   │   │   │
+│   │   │   ├── Load hunt_*.json from contractHunter
+│   │   │   ├── Filter contracts by severity threshold
+│   │   │   ├── Process vulnerabilities + verdicts arrays
+│   │   │   ├── Handle protocol/protocol_name fields
+│   │   │   ├── Skip contracts with empty addresses
+│   │   │   │
+│   │   │   ├── For each vulnerable contract:
+│   │   │   │   ├── Query wallet interactions (Etherscan)
+│   │   │   │   ├── Filter exchanges & known contracts
+│   │   │   │   ├── Estimate exposure (default: 0.0)
+│   │   │   │   └── Optionally profile wallets (walletHunter)
+│   │   │   │
+│   │   │   └── Generate bridge report (JSON + Markdown)
 │   │   │
-│   │   ├── Step 2: Calculate Exposure
-│   │   │   └── _estimate_exposure()
-│   │   │       │
-│   │   │       ├── Query token balances (ERC-20)
-│   │   │       ├── Query protocol positions (LP, staking)
-│   │   │       ├── Convert to USD value
-│   │   │       └── Filter by min_value_usd threshold
+│   │   ├── analyze_contract()
+│   │   │   │
+│   │   │   ├── Query contract interactions
+│   │   │   │   └── get_contract_interactions()
+│   │   │   │       ├── Etherscan API: txlist
+│   │   │   │       ├── Extract unique wallet addresses
+│   │   │   │       ├── Filter known exchanges (Binance, Coinbase, etc.)
+│   │   │   │       └── Filter null/burn addresses
+│   │   │   │
+│   │   │   ├── Process wallets (default: max 20 per contract)
+│   │   │   │   └── Optional profiling (default: disabled)
+│   │   │   │       ├── Limit to first 5 wallets
+│   │   │   │       ├── 30 second timeout per wallet
+│   │   │   │       └── Run in executor (async-safe)
+│   │   │   │
+│   │   │   └── Return ContractExposure
 │   │   │
-│   │   ├── Step 3: Profile Wallets
-│   │   │   └── UnifiedProfiler.generate_full_profile()
-│   │   │       │
-│   │   │       └── Full 9-step wallet pipeline
-│   │   │           ├── Wallet data
-│   │   │           ├── Transaction analysis
-│   │   │           ├── Behavioral intelligence
-│   │   │           ├── Funding trace
-│   │   │           ├── IPFS OSINT
-│   │   │           ├── ENS resolution
-│   │   │           ├── Approval scanner
-│   │   │           ├── Token risk scanner
-│   │   │           └── Verdicts
-│   │   │
-│   │   └── Output: ExposureReport
-│   │       ├── contract_address
-│   │       ├── contract_name
-│   │       ├── total_exposed_value
-│   │       ├── total_wallets
-│   │       ├── high_value_wallets (>$100k)
-│   │       └── exposed_wallets[] (with profiles)
+│   │   └── generate_exposure_summary()
+│   │       │
+│   │       ├── Text summary format
+│   │       ├── Overview stats
+│   │       ├── Per-contract breakdown
+│   │       └── Top exposed wallets
 │   │
-│   ├── ContractWalletBridge.bridge_from_hunt_results()
-│   │   │
-│   │   ├── Load hunt_*.json
-│   │   ├── Filter to vulnerable contracts
-│   │   ├── For each contract (up to max_contracts):
-│   │   │   └── find_exposed_wallets()
-│   │   └── Generate summary report
-│   │
-│   └── ContractWalletBridge.generate_exposure_summary()
+│   └── Output Structure
 │       │
-│       ├── Overview stats
-│       ├── Per-contract breakdown
-│       ├── Top exposed wallets
-│       └── Markdown format
-│
-└── Output Structure
-    │
-    └── chimera/reports/
-        ├── exposure_{contract_slug}.json
-        │   ├── contract_address
-        │   ├── vulnerability_summary
-        │   ├── total_exposed_value
-        │   ├── total_wallets
-        │   └── exposed_wallets[] (top 50)
-        │
-        └── exposure_summary_YYYYMMDD_HHMMSS.md
-            ├── Overview
-            ├── Contracts table
-            └── Top wallets table
+│       └── chimera/reports/
+│           ├── bridge_YYYYMMDD_HHMMSS.json
+│           │   ├── contracts_analyzed
+│           │   ├── total_wallets_found
+│           │   ├── total_exposure_usd
+│           │   └── exposures[] (top 20 wallets per contract)
+│           │
+│           └── bridge_YYYYMMDD_HHMMSS.md
+│               ├── Overview table
+│               ├── Exposure by contract table
+│               └── Contract details with top wallets
 ```
 
 ```
@@ -622,7 +622,12 @@ VULNERABILITY DETECTION MATRIX
 │   │   ├── msg.value Loop
 │   │   └── Initialization Issues
 │   │
-│   └── Slither Analysis (20+ detectors, if installed)
+│   ├── Slither Analysis (20+ detectors, if installed)
+│   │
+│   └── FindingValidator (False Positive Filter)
+│       ├── Validates findings against source code
+│       ├── Filters false positives automatically
+│       └── Zero LLM required (pure code analysis)
 │
 └── walletHunter (Security Scanners)
     │
@@ -683,17 +688,16 @@ INTELLIGENCE OUTPUTS
 │
 └── chimera Bridge Outputs
     │
-    ├── chimera/reports/exposure_{contract}.json
-    │   ├── contract_address
-    │   ├── vulnerability_summary
-    │   ├── total_exposed_value
-    │   ├── total_wallets
-    │   └── exposed_wallets[] (with profiles)
+    ├── chimera/reports/bridge_YYYYMMDD_HHMMSS.json
+    │   ├── contracts_analyzed
+    │   ├── total_wallets_found
+    │   ├── total_exposure_usd
+    │   └── exposures[] (per contract, top 20 wallets)
     │
-    └── chimera/reports/exposure_summary_*.md
-        ├── Overview stats
-        ├── Contracts table
-        └── Top wallets table
+    └── chimera/reports/bridge_YYYYMMDD_HHMMSS.md
+        ├── Overview table
+        ├── Exposure by contract table
+        └── Contract details with top wallets
 ```
 
 ```
@@ -808,7 +812,7 @@ CONFIGURATION
 └── Default Settings
     ├── contractHunter: PatternScanner enabled (free)
     ├── walletHunter: IPFS OSINT optional
-    └── bridge: Profile top 20 wallets per contract
+    └── bridge: Max 20 wallets per contract, profiling disabled by default
 ```
 
 ```
@@ -856,15 +860,16 @@ COMPLETE EXAMPLE WORKFLOW
 │   └── chimera/menu.py [3] → [1] Bridge Hunt Results
 │       │
 │       ├── Load hunt_20250120_120000.json
+│       ├── Filter to HIGH+ vulnerabilities
 │       ├── Process 5 vulnerable contracts
-│       ├── Query 200+ wallet interactions
-│       ├── Calculate exposure amounts
-│       └── Profile top 20 wallets per contract
+│       ├── Query wallet interactions (Etherscan)
+│       ├── Filter exchanges & contracts
+│       └── Optionally profile top 5 wallets per contract
 │       │
-│       └── Output: chimera/reports/exposure_*.json
-│           ├── Total value at risk: $2.5M
-│           ├── 47 wallets exposed
-│           └── 12 high-value wallets (>$100k)
+│       └── Output: chimera/reports/bridge_*.json
+│           ├── Total wallets found: 200+
+│           ├── Contracts analyzed: 5
+│           └── High-value wallets: 12 (>$100k)
 │
 └── Step 3: Analyze Top Targets
     └── chimera/menu.py [2] → [2] Analyze Address
@@ -878,6 +883,37 @@ COMPLETE EXAMPLE WORKFLOW
             ├── profile.json
             ├── summary.txt
             └── ipfs_osint.json
+```
+
+```
+ENHANCED REPORT GENERATOR
+│
+├── contractHunter/src/reports/enhanced_report_generator.py
+│   │
+│   ├── Code Context Extraction
+│   │   ├── Extracts function names from vulnerability descriptions
+│   │   ├── Finds code snippets with line numbers
+│   │   └── Highlights vulnerable lines
+│   │
+│   ├── False Positive Assessment
+│   │   ├── Checks known audited protocols
+│   │   ├── Evaluates detector confidence
+│   │   └── Flags likely false positives
+│   │
+│   ├── Enhanced Findings
+│   │   ├── Code context with highlighted lines
+│   │   ├── Recommendations per vulnerability type
+│   │   ├── SWC registry references
+│   │   └── False positive likelihood (High/Medium/Low)
+│   │
+│   └── Audit Handling
+│       ├── Detects known audited protocols (Arbitrum, Uniswap, etc.)
+│       ├── Overrides "unaudited" verdicts with audit info
+│       └── Adds audit notice warnings
+│
+└── Integration
+    └── Automatically used in ReportGenerator.save_protocol_report()
+        └── Generates enhanced summary.txt for all contract reports
 ```
 
 ```

@@ -1,0 +1,295 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                         🐋 WHALE INTELLIGENCE REPORT                          ║
+║                           Gargophias OSINT Module                            ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+Target:     0x0e969f847f8f2dff9f6892fe834be92a1cc96f7a
+Generated:  2026-01-20 17:18:04 UTC
+
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                               QUICK ASSESSMENT                               │
+├──────────────────────────────────────────────────────────────────────────────┤
+│  ✅ LIKELY REAL PERSON                                                       │
+│  Confidence: 90%                                                               │
+│  Profile: Fish | Long-term Holder                                           │
+└──────────────────────────────────────────────────────────────────────────────┘
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+💰 FINANCIAL SUMMARY
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Total Portfolio Value:  $               30.33
+  ETH Balance:                          0.0100 ETH
+  ETH Value:              $               30.33
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📊 ACTIVITY METRICS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Transaction Count:                       500
+  Total ETH Moved:                      497.51 ETH
+  Avg Transaction:                      4.1116 ETH
+  Wallet Age:                            1,035 days
+  First Transaction:                2023-03-21
+  Last Transaction:                 2026-01-13
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🧠 BEHAVIORAL PROFILE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Sophistication Level:   Expert              
+  Risk Tolerance:         Moderate            
+  Trading Style:          Long-term Holder    
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+⏰ ACTIVITY PATTERNS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Peak Activity Hours:    9:00, 22:00, 23:00, 0:00 UTC
+  Most Active Days:       Friday, Saturday, Wednesday
+  Likely Timezone:        Europe/Africa (UTC+0 to +3)
+  Probable Region:        Europe
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🔧 PROTOCOL & PLATFORM USAGE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  DeFi Protocols:
+    ✓ Uniswap V2
+    ✓ Uniswap Universal Router
+    ✓ Compound
+    ✓ 1inch V5
+    ✓ Aave V2
+    ✓ 0x Protocol
+
+  NFT Platforms:          None detected
+
+  Cross-Chain Bridges:
+    ✓ zkSync Bridge
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🪙 TOKEN INTERESTS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Active Tokens: steth, usdt, eth, usde, peusd, eslbr, wsteth, dai, lbr, eigen
+  Categories: 🏦 DeFi Tokens
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🏦 FUNDING & EXCHANGE RELATIONSHIPS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Original Funding:       Unknown
+                          0x9696f59e4d72e237be84ffd425dcad154bf96976...
+
+  Exchange Interactions:
+    • Binance 15
+    • Binance 16
+    • Binance 14
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🎯 SIGNAL ANALYSIS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  ✅ BULLISH SIGNALS (Real Person Indicators):
+     • Targeted by dust attacks
+     • Uses round number transfers
+     • Exchange interactions
+     • Reasonable tx count
+     • Being targeted by address poisoning (scammers target real whales)
+     • Uses round number transfers (13x) - human behavior
+
+  ⚠️  RED FLAGS (Caution Indicators):
+     • No significant red flags detected
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📋 OSINT ASSESSMENT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  HIGH CONFIDENCE (90%): This wallet likely belongs to a real individual.
+  GEOGRAPHIC: Activity patterns suggest Europe timezone (Europe/Africa (UTC+0 to +3)).
+  SOPHISTICATION: Expert-level user. Experienced with DeFi, understands gas optimization.
+  RISK PROFILE: Moderate. Long-term Holder.
+  NOTABLE: Active target of address poisoning attacks - confirms wallet is monitored by scammers.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🎭 PROFILE HYPOTHESIS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Archetype: DeFi Power User / Yield Farmer
+  
+  Narrative:
+    Originally funded through Unknown, suggesting traditional onboarding.
+    Demonstrates advanced knowledge of DeFi protocols and on-chain mechanics.
+    Activity patterns suggest European timezone.
+    Being targeted by scammers confirms this is an active, monitored wallet.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🔗 INVESTIGATION LINKS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Etherscan:      https://etherscan.io/address/0x0e969f847f8f2dff9f6892fe834be92a1cc96f7a
+  Debank:         https://debank.com/profile/0x0e969f847f8f2dff9f6892fe834be92a1cc96f7a
+  Arkham Intel:   https://platform.arkhamintelligence.com/explorer/address/0x0e969f847f8f2dff9f6892fe834be92a1cc96f7a
+  Nansen:         https://pro.nansen.ai/wallet/0x0e969f847f8f2dff9f6892fe834be92a1cc96f7a
+  Zerion:         https://app.zerion.io/0x0e969f847f8f2dff9f6892fe834be92a1cc96f7a/overview
+  Zapper:         https://zapper.xyz/account/0x0e969f847f8f2dff9f6892fe834be92a1cc96f7a
+
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                      PRIORITY: MEDIUM | CONFIDENCE: 90%                      ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+
+🔍 FUNDING SOURCE TRACE
+━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Hops Traced: 0
+
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🌐 IPFS & DOMAIN OSINT ANALYSIS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+NFT Transfers Analyzed: 91
+Contracts Checked: 32
+Tokens Scanned: 12
+Metadata Files Fetched: 5
+
+IPFS Hashes Found: 1
+
+Unique IPFS Hashes:
+  • bafybeifsexiiy4rkwr62m3ha4zcrxfo3dnjlhqqxwezxhemz3os5vbww7m
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🌍 DOMAIN INTELLIGENCE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Domain: highlight-creator-assets.highlight.xyz
+  Reputation: SUSPICIOUS
+  ⚠️  SCAM INDICATORS:
+    • Suspicious TLD: .xyz
+  Metadata URLs: 3
+
+Domain: files.bns.org
+  Reputation: UNKNOWN
+  Metadata URLs: 1
+
+Domain: api.mav.xyz
+  Reputation: SUSPICIOUS
+  ⚠️  SCAM INDICATORS:
+    • Suspicious TLD: .xyz
+  Metadata URLs: 1
+
+Domain: api.xter.io
+  Reputation: UNKNOWN
+  Metadata URLs: 1
+
+Domain: mint.fun
+  Reputation: UNKNOWN
+  Metadata URLs: 1
+
+Domain: skygatetaiwan.s3.ap-southeast-1.amazonaws.com
+  Reputation: UNKNOWN
+  Metadata URLs: 1
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📋 METADATA SOURCES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Contract: 0x26d85a13... | Token: 723439
+    URI: ipfs://bafybeifsexiiy4rkwr62m3ha4zcrxfo3dnjlhqqxwezxhemz3os5vbww7m/met...
+  Contract: 0xb7e548c4... | Token: 489173
+    URI: https://api.xter.io/asset/nft/meta/ethereum/0xb7e548c4f133adbb910914d7...
+  Contract: 0xd0f6a800... | Token: 7650
+    URI: https://skygatetaiwan.s3.ap-southeast-1.amazonaws.com/media/tenjin/met...
+  Contract: 0xfccc94f2... | Token: 814
+    URI: data:application/json;base64,eyJuYW1lIjogIlBvb2x5IFdpbnMgODE0IiwgImRlc...
+  Contract: 0x4a3e49f7... | Token: 989
+    URI: https://api.mav.xyz/api/position/1/989...
+  Contract: 0x9d906696... | Token: 29808
+    URI: data:application/json;base64,eyJuYW1lIjogIlN0YW5kIHdpdGggQ3J5cHRvIDI5O...
+  Contract: 0x00000000... | Token: 80795
+    URI: https://mint.fun/api/mintfun/fundrop/token/80795.json...
+  Contract: 0x554f3b93... | Token: 24017
+    URI: data:application/json;base64,eyJuYW1lIjogImJhc2Uub3JnIC0+IGJhc2UuZXRoI...
+  Contract: 0xa12f77d7... | Token: 2640
+    URI: https://highlight-creator-assets.highlight.xyz/main/base-dir/fd26d151-...
+  Contract: 0xa12f77d7... | Token: 2642
+    URI: https://highlight-creator-assets.highlight.xyz/main/base-dir/fd26d151-...
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🔗 LINKED URLs
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  • https://arweave.net/dgpwg2ewtifd8ox2is52p7wdejbj6rnwy34jvjhpojc
+  • https://arweave.net/yi8ui1skldzdawp2frc46b-tablqhwung11qpchz99m
+  • https://arweave.net/eiq-d-af-z7qr1z5gr1ulm5vaqif6cv-blbsquzo_js
+  • https://arweave.net/fqronqlucftxwb_qs5w-tgddu9qqs5h2d4aqatieeni
+  • https://api.mav.xyz/api/nft/1/989.svg
+  • https://resources.xter.io/nft/palio/palio/b8ffa3866895146511f87c23fa92795f.jpg
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🔗 ENS & SOCIAL IDENTITY
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+ENS Name: to-da-moon.eth
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📊 METADATA ANALYSIS SUMMARY
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Total metadata files analyzed: 5
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🎯 OSINT VERDICTS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+⚠️ [HIGH] SUSPICIOUS NFT AIRDROP
+   This wallet received an NFT from suspicious domain 'highlight-creator-assets.highlight.xyz'. Likely a phishing or scam attempt.
+   Evidence:
+     • Suspicious TLD: .xyz
+   → Action: Investigate domain before any interaction
+
+⚠️ [HIGH] SUSPICIOUS NFT AIRDROP
+   This wallet received an NFT from suspicious domain 'api.mav.xyz'. Likely a phishing or scam attempt.
+   Evidence:
+     • Suspicious TLD: .xyz
+   → Action: Investigate domain before any interaction
+
+⚡ [MEDIUM] DEFI POWER USER
+   Advanced DeFi user with multi-protocol exposure and cross-chain activity. High sophistication level.
+   Evidence:
+     • Matched 3/4 signals
+     • Pattern: defi_power_user
+     • Confidence: 75%
+     • Signal: defi_protocols_count
+   → Action: Target with advanced DeFi scams, fake protocol exploits
+
+ℹ️ [INFO] CONFIRMED INDIVIDUAL
+   High confidence this is a real individual, not a bot or institution. Human transaction patterns detected.
+   Evidence:
+     • Matched 3/4 signals
+     • Pattern: confirmed_individual
+     • Confidence: 75%
+     • Signal: confidence_score
+   → Action: Suitable for targeted social engineering
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🎯 OSINT VERDICTS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+⚠️ [HIGH] SUSPICIOUS NFT AIRDROP
+   This wallet received an NFT from suspicious domain 'highlight-creator-assets.highlight.xyz'. Likely a phishing or scam attempt.
+     • Suspicious TLD: .xyz
+   → Action: Investigate domain before any interaction
+
+⚠️ [HIGH] SUSPICIOUS NFT AIRDROP
+   This wallet received an NFT from suspicious domain 'api.mav.xyz'. Likely a phishing or scam attempt.
+     • Suspicious TLD: .xyz
+   → Action: Investigate domain before any interaction
+
+⚡ [MEDIUM] DEFI POWER USER
+   Advanced DeFi user with multi-protocol exposure and cross-chain activity. High sophistication level.
+     • Matched 3/4 signals
+     • Pattern: defi_power_user
+     • Confidence: 75%
+   → Action: Target with advanced DeFi scams, fake protocol exploits
+
+ℹ️ [INFO] CONFIRMED INDIVIDUAL
+   High confidence this is a real individual, not a bot or institution. Human transaction patterns detected.
+     • Matched 3/4 signals
+     • Pattern: confirmed_individual
+     • Confidence: 75%
+   → Action: Suitable for targeted social engineering
+

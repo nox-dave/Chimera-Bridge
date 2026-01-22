@@ -4,20 +4,20 @@
   "address": "0x49048044D57e1C92A77f79988d21Fa8fAF74E97e",
   "chain": "Ethereum",
   "category": "Canonical Bridge",
-  "tvl": 3452445704.6865654,
-  "tvl_formatted": "$3,452,445,705",
+  "tvl": 3316413393.7009034,
+  "tvl_formatted": "$3,316,413,394",
   "is_audited": false,
   "priority_score": 80,
-  "scanned_at": "2026-01-20T15:20:22.463664",
+  "scanned_at": "2026-01-22T19:32:58.617562",
   "verdicts": [
     {
       "title": "UNAUDITED HIGH-TVL PROTOCOL",
       "severity": "CRITICAL",
       "category": "TRUST",
-      "description": "Protocol has $3,452,445,705 TVL without documented audit",
+      "description": "Protocol has $3,316,413,394 TVL without documented audit",
       "evidence": [
         "No audit links found",
-        "TVL: $3,452,445,705"
+        "TVL: $3,316,413,394"
       ],
       "action": "Priority target for vulnerability analysis"
     },
@@ -27,7 +27,7 @@
       "category": "INTEL",
       "description": "Protocol holds over $10M in TVL",
       "evidence": [
-        "TVL: $3,452,445,705"
+        "TVL: $3,316,413,394"
       ],
       "action": "High-value target if vulnerable"
     }
@@ -42,20 +42,11 @@
       "description": "tx.origin used for authentication. Vulnerable to phishing attacks.",
       "locations": [],
       "recommendation": "Use msg.sender instead of tx.origin",
-      "source": "pattern"
-    },
-    {
-      "detector": "access-control-pattern",
-      "type": "access_control",
-      "severity": "High",
-      "confidence": 0.8,
-      "title": "Missing Access Control: renounceOwnership",
-      "description": "Function 'renounceOwnership' appears sensitive but has no obvious access control modifier.",
-      "locations": [
-        "renounceOwnership"
-      ],
-      "recommendation": "Add appropriate access control (onlyOwner, onlyAdmin, etc.)",
-      "source": "pattern"
+      "source": "pattern",
+      "_validation": {
+        "status": "CONFIRMED",
+        "reason": "tx.origin used in authentication check"
+      }
     },
     {
       "detector": "unchecked-call-pattern",
@@ -68,7 +59,11 @@
         "Line 472"
       ],
       "recommendation": "Check return value: (bool success, ) = addr.call(...); require(success);",
-      "source": "pattern"
+      "source": "pattern",
+      "_validation": {
+        "status": "CONFIRMED",
+        "reason": "Found 3 potentially unchecked low-level calls"
+      }
     },
     {
       "detector": "selfdestruct-pattern",
@@ -79,7 +74,11 @@
       "description": "Contract contains selfdestruct. Can be used to force-send ETH or destroy contract.",
       "locations": [],
       "recommendation": "Ensure selfdestruct is properly protected and necessary",
-      "source": "pattern"
+      "source": "pattern",
+      "_validation": {
+        "status": "CONFIRMED",
+        "reason": "selfdestruct found in code"
+      }
     },
     {
       "detector": "signature-replay-pattern",
@@ -90,7 +89,11 @@
       "description": "ecrecover used with missing domain separator. May be vulnerable to replay attacks.",
       "locations": [],
       "recommendation": "Implement EIP-712 with nonce, deadline, and domain separator",
-      "source": "pattern"
+      "source": "pattern",
+      "_validation": {
+        "status": "NEEDS_REVIEW",
+        "reason": "No automated validator for detector: signature-replay-pattern"
+      }
     },
     {
       "detector": "unchecked-arithmetic-pattern",
@@ -101,7 +104,11 @@
       "description": "Contract uses unchecked blocks. Verify overflow is intentional.",
       "locations": [],
       "recommendation": "Ensure unchecked arithmetic cannot cause security issues",
-      "source": "pattern"
+      "source": "pattern",
+      "_validation": {
+        "status": "NEEDS_REVIEW",
+        "reason": "No automated validator for detector: unchecked-arithmetic-pattern"
+      }
     },
     {
       "detector": "timestamp-dependence-pattern",
@@ -112,7 +119,11 @@
       "description": "Contract logic depends on block.timestamp. Miners can manipulate slightly.",
       "locations": [],
       "recommendation": "Avoid using timestamps for critical logic or use block.number",
-      "source": "pattern"
+      "source": "pattern",
+      "_validation": {
+        "status": "NEEDS_REVIEW",
+        "reason": "No automated validator for detector: timestamp-dependence-pattern"
+      }
     },
     {
       "detector": "reentrancy-eth-pattern",
@@ -123,7 +134,11 @@
       "description": "External call with ETH followed by state change detected. ReentrancyGuard is present - likely protected but verify manually.",
       "locations": [],
       "recommendation": "Verify nonReentrant modifier is applied to this function",
-      "source": "pattern"
+      "source": "pattern",
+      "_validation": {
+        "status": "NEEDS_REVIEW",
+        "reason": "No automated validator for detector: reentrancy-eth-pattern"
+      }
     },
     {
       "detector": "delegatecall-proxy-pattern",
@@ -134,13 +149,17 @@
       "description": "Contract uses delegatecall as part of proxy pattern. Verify implementation address is properly controlled.",
       "locations": [],
       "recommendation": "Ensure only authorized addresses can update implementation",
-      "source": "pattern"
+      "source": "pattern",
+      "_validation": {
+        "status": "NEEDS_REVIEW",
+        "reason": "No automated validator for detector: delegatecall-proxy-pattern"
+      }
     }
   ],
   "vulnerability_summary": {
-    "total": 9,
+    "total": 8,
     "critical": 0,
-    "high": 4,
+    "high": 3,
     "medium": 2,
     "low": 2,
     "info": 1

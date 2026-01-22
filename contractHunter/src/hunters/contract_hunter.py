@@ -7,8 +7,9 @@ Flow:
 1. Discover protocols via DeFiLlama (by TVL, category, audit status)
 2. Fetch contract addresses
 3. Analyze each contract for vulnerabilities
-4. Generate verdicts and prioritize
-5. Bridge to Gargophias for victim identification
+4. VALIDATE findings to filter false positives  ← NEW
+5. Generate verdicts and prioritize
+6. Bridge to Gargophias for victim identification
 
 Usage:
     hunter = ContractHunter()
@@ -82,6 +83,23 @@ except ImportError:
         except ImportError:
             pass
 
+VALIDATOR_AVAILABLE = False
+FindingValidator = None
+
+try:
+    from scanners.finding_validator import FindingValidator
+    VALIDATOR_AVAILABLE = True
+except ImportError:
+    try:
+        from src.scanners.finding_validator import FindingValidator
+        VALIDATOR_AVAILABLE = True
+    except ImportError:
+        try:
+            from ..scanners.finding_validator import FindingValidator
+            VALIDATOR_AVAILABLE = True
+        except ImportError:
+            pass
+
 ADDRESS_DB_AVAILABLE = False
 get_address = lambda slug, chain: ""
 PROTOCOL_ADDRESSES = {}
@@ -152,6 +170,7 @@ class ContractTarget:
     vulnerabilities: List[Dict] = field(default_factory=list)
     verdicts: List[Dict] = field(default_factory=list)
     priority_score: int = 0
+    validation_stats: Optional[Dict] = None
 
 
 @dataclass
@@ -165,6 +184,7 @@ class HuntResult:
     vulnerabilities_found: int
     targets: List[ContractTarget]
     high_priority: List[ContractTarget]
+    validation_summary: Optional[Dict] = None
     
     def to_dict(self) -> Dict:
         return {
@@ -184,12 +204,16 @@ class HuntResult:
                     "audited": t.is_audited,
                     "vulnerabilities": t.vulnerabilities,
                     "verdicts": t.verdicts,
-                    "priority_score": t.priority_score
+                    "priority_score": t.priority_score,
+                    "validation_stats": t.validation_stats
                 }
                 for t in self.targets
             ],
             "high_priority_count": len(self.high_priority)
         }
+        if self.validation_summary:
+            result["validation_summary"] = self.validation_summary
+        return result
 
 
 class ContractHunter:
@@ -197,6 +221,9 @@ class ContractHunter:
     Contract Hunter - Discovery engine for vulnerable protocols
     
     Mirrors Gargophias's unified_profiler.py hunting flow.
+    
+    NEW: Includes FindingValidator to automatically filter false positives
+    from PatternScanner/Slither results.
     """
     
     PRESETS = {
@@ -274,6 +301,13 @@ class ContractHunter:
             print("[+] PatternScanner initialized (Slither + Pattern Matching)")
         else:
             print("[!] PatternScanner not available - vulnerability scanning disabled")
+        
+        self.validator = None
+        if VALIDATOR_AVAILABLE and FindingValidator:
+            self.validator = FindingValidator()
+            print("[+] FindingValidator initialized (False Positive Filter)")
+        else:
+            print("[!] FindingValidator not available - all findings will be reported")
         
         (self.output_dir / "_all").mkdir(exist_ok=True)
         (self.output_dir / "🎯_critical").mkdir(exist_ok=True)
@@ -480,24 +514,55 @@ class ContractHunter:
                                 target.source_fetched = True
                                 
                                 findings = await self.scanner.scan(source.source_code, target.protocol_name)
-                                target.vulnerabilities = [f.to_dict() for f in findings]
-                                target.analysis_complete = True
-                                vulnerabilities_found += len(findings)
                                 
-                                critical_high = sum(1 for f in findings if f.severity.value in ["Critical", "High"])
+                                if self.validator and findings:
+                                    findings_dicts = [f.to_dict() for f in findings]
+                                    validation_result = self.validator.validate_findings(
+                                        findings_dicts,
+                                        source.source_code
+                                    )
+                                    
+                                    validated_findings = []
+                                    for vf in validation_result.confirmed + validation_result.needs_review:
+                                        finding_dict = vf.original_finding.copy()
+                                        finding_dict['_validation'] = {
+                                            'status': vf.status.value,
+                                            'reason': vf.reason
+                                        }
+                                        validated_findings.append(finding_dict)
+                                    
+                                    target.vulnerabilities = validated_findings
+                                    target.validation_stats = {
+                                        "original_count": len(findings),
+                                        "validated_count": len(validated_findings),
+                                        "eliminated": len(validation_result.false_positives) + len(validation_result.likely_false_positives),
+                                        "elimination_rate": validation_result.elimination_rate
+                                    }
+                                    
+                                    vulnerabilities_found += len(validated_findings)
+                                    
+                                    if verbose and target.validation_stats["eliminated"] > 0:
+                                        print(f"      🔍 Validated: {len(findings)} → {len(validated_findings)} (filtered {target.validation_stats['eliminated']} false positives)")
+                                else:
+                                    target.vulnerabilities = [f.to_dict() for f in findings]
+                                    vulnerabilities_found += len(findings)
+                                
+                                target.analysis_complete = True
+                                
+                                critical_high = sum(1 for f in target.vulnerabilities if f.get('severity') in ["Critical", "High"])
                                 if critical_high > 0:
                                     target.priority_score = min(100, target.priority_score + critical_high * 5)
                                 
                                 if critical_high > 0:
                                     target.verdicts.insert(0, {
-                                        "title": "CRITICAL VULNERABILITIES FOUND" if any(f.severity.value == "Critical" for f in findings) else "HIGH VULNERABILITIES FOUND",
-                                        "severity": "CRITICAL" if any(f.severity.value == "Critical" for f in findings) else "HIGH",
+                                        "title": "CRITICAL VULNERABILITIES FOUND" if any(f.get('severity') == "Critical" for f in target.vulnerabilities) else "HIGH VULNERABILITIES FOUND",
+                                        "severity": "CRITICAL" if any(f.get('severity') == "Critical" for f in target.vulnerabilities) else "HIGH",
                                         "category": "SECURITY",
-                                        "description": f"Found {len(findings)} vulnerabilities ({critical_high} critical/high)",
+                                        "description": f"Found {len(target.vulnerabilities)} validated vulnerabilities ({critical_high} critical/high)",
                                     })
                                 
-                                if verbose and findings:
-                                    print(f"      Found {len(findings)} issues")
+                                if verbose and target.vulnerabilities:
+                                    print(f"      Found {len(target.vulnerabilities)} validated issues")
                         except Exception as e:
                             if verbose:
                                 print(f"      [!] Error: {e}")
@@ -790,7 +855,14 @@ class ContractHunter:
             for vuln in target.vulnerabilities[:3]:
                 sev = vuln.get('severity', 'Unknown')
                 title = vuln.get('title', 'Unknown')
-                lines.append(f"      • [{sev}] {title}")
+                validation = vuln.get('_validation', {})
+                status = validation.get('status', '')
+                status_icon = "✅" if status == "CONFIRMED" else "🔍" if status == "NEEDS_REVIEW" else ""
+                lines.append(f"      • [{sev}] {title} {status_icon}")
+        
+        if target.validation_stats:
+            stats = target.validation_stats
+            lines.append(f"   📊 Validation: {stats['original_count']} raw → {stats['validated_count']} validated ({stats['elimination_rate']:.0f}% filtered)")
         
         return "\n".join(lines)
     
@@ -814,7 +886,23 @@ class ContractHunter:
             return []
         
         findings = await self.scanner.scan(source_code, contract_name)
-        return [f.to_dict() for f in findings]
+        findings_dicts = [f.to_dict() for f in findings]
+        
+        if self.validator and findings_dicts:
+            validation_result = self.validator.validate_findings(findings_dicts, source_code)
+            
+            validated = []
+            for vf in validation_result.confirmed + validation_result.needs_review:
+                finding_dict = vf.original_finding.copy()
+                finding_dict['_validation'] = {
+                    'status': vf.status.value,
+                    'reason': vf.reason
+                }
+                validated.append(finding_dict)
+            
+            return validated
+        
+        return findings_dicts
     
     async def scan_contract_file(self, file_path: str) -> List[Dict]:
         """
@@ -831,7 +919,29 @@ class ContractHunter:
             return []
         
         findings = await self.scanner.scan_file(file_path)
-        return [f.to_dict() for f in findings]
+        findings_dicts = [f.to_dict() for f in findings]
+        
+        if self.validator and findings_dicts:
+            try:
+                with open(file_path, 'r') as f:
+                    source_code = f.read()
+                
+                validation_result = self.validator.validate_findings(findings_dicts, source_code)
+                
+                validated = []
+                for vf in validation_result.confirmed + validation_result.needs_review:
+                    finding_dict = vf.original_finding.copy()
+                    finding_dict['_validation'] = {
+                        'status': vf.status.value,
+                        'reason': vf.reason
+                    }
+                    validated.append(finding_dict)
+                
+                return validated
+            except Exception:
+                pass
+        
+        return findings_dicts
     
     async def fetch_and_scan_contract(
         self,
@@ -858,7 +968,8 @@ class ContractHunter:
             "source_code": None,
             "vulnerabilities": [],
             "scan_completed": False,
-            "error": None
+            "error": None,
+            "validation": None
         }
         
         network = normalize_chain_name(chain)
@@ -905,15 +1016,51 @@ class ContractHunter:
         
         findings = await self.scanner.scan(source.source_code, source.name)
         
-        result["vulnerabilities"] = [f.to_dict() for f in findings]
-        result["scan_completed"] = True
-        result["vulnerability_count"] = len(findings)
+        if self.validator and findings:
+            findings_dicts = [f.to_dict() for f in findings]
+            validation_result = self.validator.validate_findings(
+                findings_dicts,
+                source.source_code
+            )
+            
+            validated_findings = []
+            for vf in validation_result.confirmed + validation_result.needs_review:
+                finding_dict = vf.original_finding.copy()
+                finding_dict['_validation'] = {
+                    'status': vf.status.value,
+                    'reason': vf.reason
+                }
+                validated_findings.append(finding_dict)
+            
+            result["vulnerabilities"] = validated_findings
+            result["validation"] = {
+                "original_count": len(findings),
+                "validated_count": len(validated_findings),
+                "eliminated": len(validation_result.false_positives) + len(validation_result.likely_false_positives),
+                "elimination_rate": validation_result.elimination_rate
+            }
+            
+            if result["validation"]["eliminated"] > 0:
+                print(f"    🔍 Validated: {len(findings)} → {len(validated_findings)} findings (filtered {result['validation']['eliminated']} false positives)")
+            
+            result["vulnerability_count"] = len(validated_findings)
+            
+            severity_counts = {}
+            for f in validated_findings:
+                sev = f.get('severity', 'Unknown')
+                severity_counts[sev] = severity_counts.get(sev, 0) + 1
+            result["severity_counts"] = severity_counts
+        else:
+            result["vulnerabilities"] = [f.to_dict() for f in findings]
+            result["vulnerability_count"] = len(findings)
+            
+            severity_counts = {}
+            for f in findings:
+                sev = f.severity.value
+                severity_counts[sev] = severity_counts.get(sev, 0) + 1
+            result["severity_counts"] = severity_counts
         
-        severity_counts = {}
-        for f in findings:
-            sev = f.severity.value
-            severity_counts[sev] = severity_counts.get(sev, 0) + 1
-        result["severity_counts"] = severity_counts
+        result["scan_completed"] = True
         
         if severity_counts.get("Critical", 0) > 0:
             result["risk_level"] = "CRITICAL"
@@ -946,7 +1093,8 @@ class ContractHunter:
         1. Discover protocols from DeFiLlama
         2. For top targets, fetch contract source from Etherscan
         3. Scan each contract with PatternScanner + Slither
-        4. Generate comprehensive results
+        4. VALIDATE findings to filter false positives  ← NEW
+        5. Generate comprehensive results
         
         Args:
             min_tvl: Minimum TVL filter
@@ -988,6 +1136,8 @@ class ContractHunter:
         
         scanned_count = 0
         vuln_count = 0
+        total_eliminated = 0
+        total_original = 0
         
         for i, target in enumerate(targets_to_scan):
             if verbose:
@@ -1012,6 +1162,11 @@ class ContractHunter:
                 target.source_code = scan_result.get("source_code")
                 target.vulnerabilities = scan_result.get("vulnerabilities", [])
                 target.analysis_complete = True
+                
+                if scan_result.get("validation"):
+                    target.validation_stats = scan_result["validation"]
+                    total_original += scan_result["validation"]["original_count"]
+                    total_eliminated += scan_result["validation"]["eliminated"]
                 
                 vuln_count += scan_result.get("vulnerability_count", 0)
                 
@@ -1038,6 +1193,14 @@ class ContractHunter:
         result.contracts_analyzed = scanned_count
         result.vulnerabilities_found = vuln_count
         
+        if total_original > 0:
+            result.validation_summary = {
+                "total_original_findings": total_original,
+                "total_validated_findings": vuln_count,
+                "total_eliminated": total_eliminated,
+                "global_elimination_rate": (total_eliminated / total_original * 100) if total_original > 0 else 0
+            }
+        
         result.targets.sort(key=lambda x: x.priority_score, reverse=True)
         result.high_priority = [t for t in result.targets if t.priority_score >= 60]
         
@@ -1046,6 +1209,8 @@ class ContractHunter:
             print(f"📊 Scan Complete!")
             print(f"   Contracts scanned: {scanned_count}")
             print(f"   Vulnerabilities found: {vuln_count}")
+            if result.validation_summary:
+                print(f"   🔍 Validation: {total_original} raw → {vuln_count} validated ({result.validation_summary['global_elimination_rate']:.1f}% filtered)")
         
         return result
     
@@ -1064,6 +1229,13 @@ class ContractHunter:
         
         unaudited = sum(1 for t in result.targets if not t.is_audited)
         print(f"   Unaudited protocols: {unaudited}")
+        
+        if result.validation_summary:
+            vs = result.validation_summary
+            print(f"\n🔍 Validation Summary:")
+            print(f"   Raw findings: {vs['total_original_findings']}")
+            print(f"   After validation: {vs['total_validated_findings']}")
+            print(f"   False positives filtered: {vs['total_eliminated']} ({vs['global_elimination_rate']:.1f}%)")
         
         if result.high_priority:
             print(f"\n🎯 High Priority Targets (score >= 60):")
