@@ -1,338 +1,331 @@
-# CHIMERA
+# 🔥 CHIMERA
 
-Unified Security Intelligence Platform for Smart Contract and Wallet Analysis
+**Offensive Security Intelligence Pipeline for Smart Contract Vulnerabilities**
 
-**Tests** **License:** MIT **Python** 3.10+ **Foundry**
+> Discover vulnerable contracts → Find exposed wallets → Generate actionable intelligence
 
-[Overview](#overview) • [Installation](#installation) • [Configuration](#configuration) • [Quick Start](#quick-start) • [Workflow](#workflow) • [Documentation](#documentation)
+---
 
-## Overview
+## What Is This?
 
-CHIMERA combines three integrated systems for comprehensive security intelligence:
+Chimera is a three-stage security research tool that:
 
-- **contractHunter (Basilisk)** – Discovers and analyzes vulnerable smart contracts
-- **walletHunter (Gargophias)** – Profiles and categorizes high-value wallets
-- **Bridge** – Connects vulnerable contracts to exposed wallets
+1. **Finds** vulnerable smart contracts across DeFi protocols
+2. **Identifies** wallets exposed to those vulnerabilities
+3. **Profiles** wallet owners for security research
 
-### Key Features
+```
+┌──────────────────┐     ┌──────────────────┐     ┌──────────────────┐
+│  CONTRACT HUNTER │────►│  CHIMERA BRIDGE  │────►│  WALLET HUNTER   │
+│                  │     │                  │     │                  │
+├──────────────────┤     ├──────────────────┤     ├──────────────────┤
+│ • DeFiLlama API  │     │ • Transaction    │     │ • Balance check  │
+│ • Etherscan      │     │   history query  │     │ • Behavior       │
+│ • Pattern scan   │     │ • Wallet extract │     │   analysis       │
+│ • Slither        │     │ • Exchange       │     │ • Funding trace  │
+│ • Auto-validate  │     │   filtering      │     │ • OSINT modules  │
+└──────────────────┘     └──────────────────┘     └──────────────────┘
+```
 
-**Contract Intelligence**
-- DeFiLlama protocol discovery with TVL and category filtering
-- Multi-chain contract source fetching (Ethereum, Polygon, Arbitrum, Optimism, Base, BSC, Avalanche)
-- Pattern-based vulnerability detection (14+ detectors, free)
-- Slither integration (20+ detectors, optional)
-- LLM-powered analyzers for deep code analysis
-- Priority scoring and automated verdict generation
+---
 
-**Wallet Intelligence**
-- High-value wallet discovery via token holder queries and RPC scanning
-- 9-step profiling pipeline: data collection, transaction analysis, behavioral intelligence, funding trace, IPFS OSINT, ENS resolution, approval scanning, token risk analysis, verdict generation
-- Multi-hop funding source tracing (exchanges, mixers, bridges)
-- IPFS metadata extraction and domain analysis
-- Automated OSINT categorization (14 behavioral categories)
-- Priority scoring with actionable target identification
+## Key Features
 
-**Bridge Intelligence**
-- Automatic exposure calculation for vulnerable contracts
-- On-chain interaction querying to identify at-risk wallets
-- Integrated wallet profiling for exposed addresses
-- Consolidated exposure reports with risk assessment
+### 🔱 Contract Hunter
+- Discovers 6000+ protocols via DeFiLlama API
+- Fetches verified source code from Etherscan
+- Scans with 14+ vulnerability patterns + Slither
+- **Auto-validates findings to filter false positives**
+- Categorizes by risk archetype
 
-**Unified Interface**
-- Single menu system for all operations
-- Seamless workflow from contract discovery to wallet profiling
-- Automated result bridging between systems
+### 🌉 Chimera Bridge
+- Connects vulnerable contracts to exposed wallets
+- Queries on-chain transaction history
+- Filters out exchanges, bots, and contracts
+- Estimates USD exposure per wallet
+- Ranks wallets by value at risk
 
-## Installation
+### 👁️ Wallet Hunter
+- Full 9-stage wallet profiling pipeline
+- Behavioral analysis (trading style, sophistication)
+- Geographic inference from activity patterns
+- Funding source tracing (exchange KYC vectors)
+- OSINT modules (ENS, IPFS metadata, approvals)
 
-### Prerequisites
+---
 
-- Python 3.10+
-- Foundry (for contract compilation and testing)
-- API keys (see Configuration)
-
-### Setup
+## Quick Start
 
 ```bash
-# Clone the repository
-git clone <repository-url>
+# Clone and setup
 cd Chimera
+pip install -r requirements.txt
 
-# Install Python dependencies
-pip install -r contractHunter/requirements.txt
-pip install -r walletHunter/requirements.txt
+# Set API keys
+export ETHERSCAN_API_KEY=your_key
 
-# Install Foundry (if not already installed)
-curl -L https://foundry.paradigm.xyz | bash
-foundryup
+# Run the menu
+python chimera/menu.py
 ```
+
+---
+
+## Example Workflow
+
+### Step 1: Hunt for Vulnerable Contracts
+```
+Menu → [1] Contract Hunter → [1] Full Scan
+
+Output:
+  ✅ 30 protocols discovered
+  ✅ 7 contracts scanned
+  ✅ 30 vulnerabilities found (after validation)
+  ✅ Filtered 6.2% false positives
+```
+
+### Step 2: Bridge to Exposed Wallets
+```
+Menu → [3] Chimera Bridge → [1] Bridge Hunt Results
+
+Output:
+  ✅ 5 contracts analyzed
+  ✅ 1,295 wallets found
+  ✅ $646,659 total exposure
+  ✅ 3 high-value wallets (>$100k)
+```
+
+### Step 3: Profile High-Value Targets
+```
+Menu → [2] Wallet Hunter → [2] Analyze Address
+
+Output:
+  ✅ Portfolio: $125,632
+  ✅ 75% confidence: Real person
+  ✅ Region: Europe (UTC+0 to +3)
+  ✅ Funded via: Binance (KYC vector)
+```
+
+---
+
+## Sample Output
+
+### Contract Scan Results
+```
+🔱 HUNT RESULTS
+══════════════════════════════════════════════════
+
+📊 Summary:
+   Protocols discovered: 30
+   High priority targets: 20
+   Total TVL tracked: $192,544,716,982
+
+🔍 Validation Summary:
+   Raw findings: 32
+   After validation: 30
+   False positives filtered: 2 (6.2%)
+
+🎯 High Priority Targets:
+──────────────────────────────────────────────────
+
+[1] 📊 Base Bridge
+    TVL: $3,316,413,394
+    Priority Score: 80/100
+    Vulnerabilities: 8 (validated)
+    • [High] tx.origin Authentication ✅
+    • [High] Unchecked Call Return ✅
+    • [High] Selfdestruct Present ✅
+```
+
+### Bridge Results
+```
+🌉 CHIMERA BRIDGE REPORT
+══════════════════════════════════════════════════
+
+| Contract    | Wallets | Exposure   | High-Value |
+|-------------|---------|------------|------------|
+| Base Bridge | 321     | $129,679   | 1          |
+| Tether Gold | 232     | $508,451   | 2          |
+| ether.fi    | 444     | $7,571     | 0          |
+
+Top Exposed Wallet:
+  Address: 0x1f876d92...
+  Exposure: $128,030
+  Interaction: proveWithdrawalTransaction
+```
+
+### Wallet Intelligence
+```
+╔════════════════════════════════════════════════╗
+║        🐋 WHALE INTELLIGENCE REPORT            ║
+╚════════════════════════════════════════════════╝
+
+Target: 0x1f876d9252596fcaf8d651a6f443ce21ead7f1e1
+
+┌────────────────────────────────────────────────┐
+│  ✅ LIKELY REAL PERSON (75% confidence)        │
+│  Profile: Dolphin | Long-term Holder           │
+└────────────────────────────────────────────────┘
+
+💰 Portfolio:     $125,632
+⏰ Timezone:      Europe (UTC+0 to +3)
+🏦 Funded via:    Binance (KYC vector)
+🧠 Sophistication: Advanced
+⚠️  Risk Profile:  Conservative
+
+OSINT Verdicts:
+  ⚡ NFT COLLECTOR PROFILE
+  ⚡ LOW SOPHISTICATION TARGET
+```
+
+---
+
+## Project Structure
+
+```
+Chimera/
+├── chimera/
+│   ├── menu.py              # Unified menu system
+│   ├── bridge.py            # Contract → Wallet bridge
+│   └── reports/             # Bridge output
+│
+├── contractHunter/
+│   ├── scripts/
+│   │   └── hunt.py          # CLI entry point
+│   └── src/
+│       ├── hunters/
+│       │   └── contract_hunter.py
+│       ├── scanners/
+│       │   ├── pattern_scanner.py
+│       │   └── finding_validator.py  # False positive filter
+│       └── fetchers/
+│           ├── defillama_client.py
+│           └── etherscan_fetcher.py
+│
+├── walletHunter/
+│   ├── whale_menu.py        # Wallet hunter menu
+│   └── src/
+│       ├── unified_profiler.py
+│       ├── intel_profiler.py
+│       └── osint/
+│
+└── Contracts/               # Output directory
+    ├── _all/                # All scanned contracts
+    ├── 🎯_prime_targets/    # High-value + vulnerable
+    └── hunt_*.json          # Hunt results
+```
+
+---
+
+## Technical Highlights
+
+### FindingValidator (New)
+Automatically filters false positives from scanner output:
+
+```python
+# Before: Scanner reports 9 HIGH findings
+# After:  Validator confirms 8, filters 1 false positive
+
+Elimination rate: 6-100% depending on contract type
+Zero LLM required - pure regex/string matching
+```
+
+| Finding Type | Validation Method |
+|--------------|-------------------|
+| tx.origin | Check if `tx.origin` exists in code |
+| selfdestruct | Check if `selfdestruct` exists in code |
+| unchecked call | Check if `require(success)` follows `.call()` |
+| access control | Check if function has modifier |
+
+### Bridge Intelligence
+```python
+# Input: Vulnerable contract
+# Output: Ranked list of exposed wallets
+
+Process:
+1. Query Etherscan for all transactions
+2. Extract unique wallet addresses
+3. Filter known exchanges (Binance, Coinbase, etc.)
+4. Query balances for each wallet
+5. Rank by USD exposure
+```
+
+---
+
+## Use Cases
+
+| Scenario | Flow |
+|----------|------|
+| Bug bounty research | Contract Hunter → Manual review |
+| Exposure assessment | Full pipeline → Bridge report |
+| Wallet investigation | Wallet Hunter → OSINT profile |
+| Protocol security audit | Contract Hunter + validation |
+
+---
+
+## Requirements
+
+- Python 3.9+
+- Etherscan API key (free tier works)
+- Optional: Slither (`pip install slither-analyzer`)
+- Optional: Moralis API key (for whale discovery)
+
+---
 
 ## Configuration
 
 ### Environment Variables
 
-Create a `.env` file in the project root or set environment variables:
+Create a `.env` file or set environment variables:
 
 ```bash
 # Required
 ETHERSCAN_API_KEY=your_etherscan_api_key_here
 
 # Optional (for enhanced features)
-OPENAI_KEY=your_openai_key_here              # For LLM analyzers in contractHunter
-MORALIS_API_KEY=your_moralis_key_here        # For whale discovery in walletHunter
-ALCHEMY_API_KEY=your_alchemy_key_here         # For RPC in walletHunter
+OPENAI_KEY=your_openai_key_here              # For LLM analyzers
+MORALIS_API_KEY=your_moralis_key_here        # For whale discovery
+ALCHEMY_API_KEY=your_alchemy_key_here         # For RPC
 RPC_URL=https://eth.llamarpc.com             # Fallback RPC endpoint
 ```
 
-### API Keys
-
 **Etherscan API Key** (Required)
 - Get free key from [Etherscan](https://etherscan.io/apis)
-- Used for contract source fetching, transaction queries, and wallet analysis
 - Free tier: 5 calls/second
 
-**OpenAI API Key** (Optional)
-- Required for LLM-based vulnerability analyzers in contractHunter
-- Default models: gpt-4o-mini, gpt-4o
-- Can be configured in contractHunter settings
-
 **Moralis API Key** (Optional)
-- Used for top token holder queries in walletHunter
+- Used for top token holder queries
 - Free tier: 25k requests/day
 - Falls back to RPC scanning if not provided
 
-**Alchemy API Key** (Optional)
-- Enhanced RPC access for walletHunter
-- Falls back to public RPC if not provided
+---
 
-## Quick Start
+## Advanced Usage
 
-### Launch Unified Menu
+### Direct CLI Access
 
+**Contract Hunter**
 ```bash
-python3 chimera/menu.py
-```
-
-The menu provides access to:
-- Contract Hunter (discover and scan vulnerable contracts)
-- Wallet Hunter (profile and hunt whale wallets)
-- Chimera Bridge (connect contracts to exposed wallets)
-- Settings (API key management)
-
-### Basic Workflow
-
-**1. Hunt Vulnerable Contracts**
-```bash
-# Via unified menu
-python3 chimera/menu.py
-# Select [1] Contract Hunter → [1] Hunt Contracts
-
-# Or directly
 cd contractHunter
 python3 scripts/hunt.py --preset full_scan --scan --save
 ```
 
-**2. Bridge to Exposed Wallets**
-```bash
-# Via unified menu
-python3 chimera/menu.py
-# Select [3] Chimera Bridge → [1] Bridge Hunt Results
-
-# Or directly
-cd chimera
-python3 -c "from bridge import ContractWalletBridge; import asyncio; bridge = ContractWalletBridge(); asyncio.run(bridge.bridge_from_hunt_results('contractHunter/contracts/hunt_YYYYMMDD_HHMMSS.json'))"
-```
-
-**3. Profile Wallets**
-```bash
-# Via unified menu
-python3 chimera/menu.py
-# Select [2] Wallet Hunter → [1] Hunt Whales
-
-# Or directly
-cd walletHunter
-python3 unified_profiler.py
-```
-
-## Workflow
-
-### Complete Intelligence Pipeline
-
-```
-Step 1: Contract Discovery
-├── DeFiLlama protocol discovery
-├── Filter by TVL, category, audit status
-├── Fetch contract addresses
-└── Output: contracts/hunt_YYYYMMDD_HHMMSS.json
-
-Step 2: Vulnerability Scanning
-├── Fetch verified source from Etherscan
-├── Pattern-based detection (14+ detectors)
-├── Slither analysis (optional)
-└── Output: contracts/_all/{protocol}/scan_results.json
-
-Step 3: Bridge Analysis
-├── Load vulnerable contracts from hunt results
-├── Query on-chain interactions
-├── Calculate exposure amounts
-└── Output: chimera/reports/exposure_*.json
-
-Step 4: Wallet Profiling
-├── Generate full profiles for exposed wallets
-├── 9-step intelligence pipeline
-├── OSINT categorization
-└── Output: profiles/_all/{address}/
-
-Step 5: Intelligence Reports
-├── Exposure summaries
-├── Top targets identification
-└── Risk assessment
-```
-
-### Contract Hunter Workflow
-
-**Hunt Contracts**
-```bash
-cd contractHunter
-
-# Full scan (recommended)
-python3 scripts/hunt.py --preset full_scan --scan --scan-limit 10 --save
-
-# Custom hunt
-python3 scripts/hunt.py \
-  --min-tvl 100000 \
-  --category "Lending" \
-  --unaudited \
-  --scan \
-  --save
-```
-
-**View Results**
-```bash
-# Browse hunt results
-python3 menu.py
-# Select [9] Hunt Contracts → [3] View Hunt Results
-
-# Or view JSON directly
-cat contracts/hunt_YYYYMMDD_HHMMSS.json
-```
-
-### Wallet Hunter Workflow
-
-**Hunt Whales**
+**Wallet Hunter**
 ```bash
 cd walletHunter
-
-# Discover and profile high-value wallets
 python3 unified_profiler.py
-
-# Or via menu
-python3 whale_menu.py
-# Select [1] Hunt Whales
-```
-
-**Analyze Single Address**
-```bash
-# Profile specific wallet
 python3 main.py 0x742d35Cc6634C0532925a3b844Bc9e7595f0bEb
-
-# With IPFS OSINT
-python3 main.py 0x742d35Cc6634C0532925a3b844Bc9e7595f0bEb --ipfs
 ```
 
-**Target Search**
-```bash
-# Search for specific profiles
-python3 target_search.py --rich-dumb -v
-python3 target_search.py --newcomer --balance ">500k" -v
-```
-
-### Bridge Workflow
-
-**Bridge Hunt Results**
+**Bridge**
 ```bash
 cd chimera
-
-# Process latest hunt results
 python3 -c "
 from bridge import ContractWalletBridge
 import asyncio
-
 bridge = ContractWalletBridge()
-asyncio.run(bridge.bridge_from_hunt_results(
-    '../contractHunter/contracts/hunt_YYYYMMDD_HHMMSS.json',
-    max_contracts=5,
-    profile_wallets=True
-))
+asyncio.run(bridge.bridge_from_hunt_results('contractHunter/contracts/hunt_YYYYMMDD_HHMMSS.json'))
 "
 ```
-
-**Bridge Single Contract**
-```bash
-cd chimera
-
-python3 -c "
-from bridge import ContractWalletBridge
-import asyncio
-
-bridge = ContractWalletBridge()
-asyncio.run(bridge.find_exposed_wallets(
-    contract_address='0x35fA164735182de50811E8e2E824cFb9B6118ac2',
-    chain='ethereum',
-    vulnerability_info={'severity': 'CRITICAL', 'type': 'reentrancy'},
-    limit=50
-))
-"
-```
-
-## Documentation
-
-- **[PIPELINE.md](PIPELINE.md)** – Complete process flow documentation
-- **[contractHunter/docs/pipeline.md](contractHunter/docs/pipeline.md)** – Contract Hunter detailed workflow
-- **[walletHunter/docs/PIPELINES.md](walletHunter/docs/PIPELINES.md)** – Wallet Hunter detailed workflow
-
-## Project Structure
-
-```
-Chimera/
-├── contractHunter/          # Contract discovery and analysis
-│   ├── scripts/             # Hunt and analysis scripts
-│   ├── src/                 # Core analyzers and hunters
-│   ├── contracts/           # Hunt results and reports
-│   └── challenges/          # Vulnerable contract examples
-│
-├── walletHunter/            # Wallet profiling and intelligence
-│   ├── src/                 # Core profilers and analyzers
-│   ├── profiles/            # Generated wallet profiles
-│   └── unified_profiler.py  # Main profiling engine
-│
-└── chimera/                   # Bridge and shared utilities
-    ├── bridge.py            # Contract → Wallet connector
-    ├── config.py            # Shared configuration
-    ├── types.py             # Shared data types
-    ├── menu.py              # Unified menu system
-    └── reports/             # Exposure reports
-```
-
-## Output Organization
-
-**Contract Hunter Outputs**
-- `contracts/_all/{protocol}/` – Complete protocol analysis
-- `contracts/hunt_*.json` – Hunt results with vulnerabilities
-- `contracts/🎯_critical/` – Critical findings (symlinks)
-- `contracts/🎯_high/` – High severity findings (symlinks)
-
-**Wallet Hunter Outputs**
-- `profiles/_all/{address}/` – Complete wallet profiles (single source of truth)
-- `profiles/🎯_actionable/` – Top 50 actionable targets (symlinks)
-- `profiles/📦_archive/` – Low priority profiles
-- `profiles/{category}/` – OSINT behavioral categories
-
-**Bridge Outputs**
-- `chimera/reports/exposure_{contract}.json` – Per-contract exposure reports
-- `chimera/reports/exposure_summary_*.md` – Consolidated summaries
-
-## Advanced Usage
 
 ### Custom Hunt Presets
 
@@ -349,27 +342,25 @@ python3 scripts/hunt.py --preset bridge_targets --scan
 python3 scripts/hunt.py --preset lending_risks --scan
 ```
 
-### Priority Triage
+---
 
-```bash
-cd walletHunter
+## Output Organization
 
-# Run priority scoring and triage
-python3 priority_triage.py
+**Contract Hunter Outputs**
+- `contracts/_all/{protocol}/` – Complete protocol analysis
+- `contracts/hunt_*.json` – Hunt results with vulnerabilities
+- `contracts/🎯_prime_targets/` – High-value + vulnerable contracts
 
-# Dry run (preview changes)
-python3 priority_triage.py --dry-run
-```
+**Wallet Hunter Outputs**
+- `profiles/_all/{address}/` – Complete wallet profiles
+- `profiles/🎯_actionable/` – Top 50 actionable targets
+- `profiles/{category}/` – OSINT behavioral categories
 
-### Batch Intelligence
+**Bridge Outputs**
+- `chimera/reports/bridge_*.json` – Per-contract exposure reports
+- `chimera/reports/bridge_*.md` – Human-readable summaries
 
-After whale hunts, batch intelligence summaries are automatically generated:
-- Executive summary with key stats
-- Top targets ranked by actionability
-- Threat landscape analysis
-- Distribution breakdowns
-
-Location: `batch_intelligence/batch_YYYYMMDD_HHMMSS/`
+---
 
 ## Limitations & Considerations
 
@@ -380,33 +371,24 @@ Location: `batch_intelligence/batch_YYYYMMDD_HHMMSS/`
 
 **Codebase Size**
 - Contract Hunter: Optimized for DeFi protocols (typically <10k LOC per contract)
-- Wallet Hunter: Handles any wallet, limited by API rate limits
 - Large codebases may require selective analysis
 
 **API Costs**
 - PatternScanner: Free (pattern-based detection)
 - Slither: Free (if installed locally)
-- LLM Analyzers: Requires OpenAI API key (token costs)
+- LLM Analyzers: Requires OpenAI API key (optional)
 - Etherscan: Free tier sufficient for development
 
-## Contributing
+---
 
-See individual component READMEs:
-- [contractHunter/README.md](contractHunter/README.md)
-- [walletHunter/README.md](walletHunter/README.md)
+## Disclaimer
 
-## License
+This tool is for **authorized security research only**. Use responsibly and ethically within the bounds of applicable laws and authorized bug bounty programs.
 
-MIT
+---
 
-## Responsible Use
+## Author
 
-**Educational and authorized security research purposes only.**
+Built by NoxDave as part of smart contract security research for Softstack internship preparation.
 
-✅ Test contracts you own or have permission to test  
-✅ Analyze publicly available on-chain data  
-✅ Use for security research and education  
-
-❌ Do not attack mainnet contracts without authorization  
-❌ Do not use for malicious purposes  
-❌ Do not violate terms of service of APIs used  
+*January 2026*
