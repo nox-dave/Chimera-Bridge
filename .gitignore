@@ -63,3 +63,7 @@ logs/
 *.db
 *.sqlite
 *.index
+
+*.md
+!README.md
+!**/README.md
