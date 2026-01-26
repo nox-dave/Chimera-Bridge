@@ -1,4 +1,4 @@
-# 🔥 CHIMERA
+# CHIMERA
 
 **Offensive Security Intelligence Pipeline for Smart Contract Vulnerabilities**
 
