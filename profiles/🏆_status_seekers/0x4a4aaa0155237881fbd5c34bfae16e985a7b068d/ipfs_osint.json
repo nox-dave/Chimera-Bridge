@@ -1,0 +1,44 @@
+{
+  "address": "0x4a4aaa0155237881fbd5c34bfae16e985a7b068d",
+  "ipfs_hashes_found": [],
+  "metadata_analyzed": [],
+  "debug_info": {
+    "nft_transfers_count": 1,
+    "contracts_found": 1,
+    "tokens_checked": 1,
+    "uris_found": 1,
+    "ipfs_hashes_extracted": 0,
+    "metadata_fetched": 0
+  },
+  "findings": {
+    "total_hashes": 0,
+    "unique_hashes": [],
+    "linked_urls": [],
+    "usernames": [],
+    "emails": [],
+    "social_links": [],
+    "timestamps": [],
+    "creators": [],
+    "collections": [],
+    "domains": [
+      "ifscdjs.com"
+    ],
+    "domain_analysis": {
+      "ifscdjs.com": {
+        "domain": "ifscdjs.com",
+        "is_ipfs": false,
+        "is_centralized": true,
+        "scam_indicators": [],
+        "reputation": "unknown",
+        "whois_info": null
+      }
+    },
+    "metadata_urls": [
+      {
+        "contract": "0x4ddcab1295c8720f54ab6fe8d4036fff19df4d4f",
+        "token_id": "73",
+        "uri": "https://ifscdjs.com/0x527CaF95c7606a711290345042c2543b75566073/73"
+      }
+    ]
+  }
+}

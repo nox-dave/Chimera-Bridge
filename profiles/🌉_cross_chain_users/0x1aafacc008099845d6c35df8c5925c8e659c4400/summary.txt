@@ -1,0 +1,208 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                         🐋 WHALE INTELLIGENCE REPORT                          ║
+║                           Gargophias OSINT Module                            ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+Target:     0x1aafacc008099845d6c35df8c5925c8e659c4400
+Generated:  2026-01-26 16:00:48 UTC
+
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                               QUICK ASSESSMENT                               │
+├──────────────────────────────────────────────────────────────────────────────┤
+│  ✅ LIKELY REAL PERSON                                                       │
+│  Confidence: 60%                                                               │
+│  Profile: Fish | Active Trader | Cross-chain User                           │
+└──────────────────────────────────────────────────────────────────────────────┘
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+💰 FINANCIAL SUMMARY
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Total Portfolio Value:  $               12.26
+  ETH Balance:                          0.0042 ETH
+  ETH Value:              $               12.26
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📊 ACTIVITY METRICS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Transaction Count:                       500
+  Total ETH Moved:                        0.20 ETH
+  Avg Transaction:                      0.0029 ETH
+  Wallet Age:                               30 days
+  First Transaction:                2025-12-27
+  Last Transaction:                 2026-01-26
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🧠 BEHAVIORAL PROFILE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Sophistication Level:   Advanced            
+  Risk Tolerance:         Moderate            
+  Trading Style:          Active Trader       
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+⏰ ACTIVITY PATTERNS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Peak Activity Hours:    19:00, 14:00, 22:00, 20:00 UTC
+  Most Active Days:       Sunday, Wednesday, Thursday
+  Likely Timezone:        Americas (UTC-5 to -8)
+  Probable Region:        Americas
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🔧 PROTOCOL & PLATFORM USAGE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  DeFi Protocols:
+    ✓ Liquity LUSD
+
+  NFT Platforms:          None detected
+
+  Cross-Chain Bridges:
+    ✓ Optimism Bridge
+    ✓ Polygon Bridge
+    ✓ Wormhole
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🪙 TOKEN INTERESTS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Active Tokens: usdc, usdt, grow, manta, xi, ebtc, bobo, dextf, fbomb, arpa
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🏦 FUNDING & EXCHANGE RELATIONSHIPS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Original Funding:       Unknown / Contract
+
+  Exchange Interactions:  None detected (DEX-only or self-custody)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🎯 SIGNAL ANALYSIS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  ✅ BULLISH SIGNALS (Real Person Indicators):
+     • Reasonable tx count
+
+  ⚠️  RED FLAGS (Caution Indicators):
+     • No significant red flags detected
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📋 OSINT ASSESSMENT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  MODERATE CONFIDENCE (60%): Likely a real person, but some uncertainty.
+  GEOGRAPHIC: Activity patterns suggest Americas timezone (Americas (UTC-5 to -8)).
+  SOPHISTICATION: Advanced-level user. Experienced with DeFi, understands gas optimization.
+  RISK PROFILE: Moderate. Active Trader.
+  NOTABLE: Uses multiple bridges - may have significant holdings on other chains.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🎭 PROFILE HYPOTHESIS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Archetype: Multi-Chain Power User
+  
+  Narrative:
+    Demonstrates advanced knowledge of DeFi protocols and on-chain mechanics.
+    Activity patterns suggest US/Americas timezone - likely American or Canadian.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🔗 INVESTIGATION LINKS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Etherscan:      https://etherscan.io/address/0x1aafacc008099845d6c35df8c5925c8e659c4400
+  Debank:         https://debank.com/profile/0x1aafacc008099845d6c35df8c5925c8e659c4400
+  Arkham Intel:   https://platform.arkhamintelligence.com/explorer/address/0x1aafacc008099845d6c35df8c5925c8e659c4400
+  Nansen:         https://pro.nansen.ai/wallet/0x1aafacc008099845d6c35df8c5925c8e659c4400
+  Zerion:         https://app.zerion.io/0x1aafacc008099845d6c35df8c5925c8e659c4400/overview
+  Zapper:         https://zapper.xyz/account/0x1aafacc008099845d6c35df8c5925c8e659c4400
+
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                      PRIORITY: MEDIUM | CONFIDENCE: 60%                      ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+
+🔍 FUNDING SOURCE TRACE
+━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Hops Traced: 0
+
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🌐 IPFS & DOMAIN OSINT ANALYSIS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+NFT Transfers Analyzed: 8
+Contracts Checked: 8
+Tokens Scanned: 8
+Metadata Files Fetched: 2
+
+IPFS Hashes Found: 8
+
+Unique IPFS Hashes:
+  • bafkreicyaol4miindelz5o5n4edy2gunbarxjnj3ceqau4ifa6hc6ugzlu
+  • bafybeifsexiiy4rkwr62m3ha4zcrxfo3dnjlhqqxwezxhemz3os5vbww7m
+  • QmdXUVdS1CtmfSmZ6FnsZgg3QTav4ucHpCedK61LkWqsMV
+  • bafkreig3gzk3s3tzv54jcmdvyhtzyznkbbp6w42ky2i74jmp7y2sujq2wa
+  • QmXj1PrcsDx3tURgNLeFY1DL1vWC62G9CraAUuGRRDpnHX
+  • QmfJgfuwqrbcQmtUa5xi7sFhSj8LF7vshKHv3NHiMzYbaE
+  • bafybeib4d66fqc22rp56etvriicj4efppzften7ysgx7w3rtbj5figfnpe
+  • QmZ9FcpfXuD99gTbbdbTgzCGUz7YJfR1dwNksxHaNET7an
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📋 METADATA SOURCES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Contract: 0x26d85a13... | Token: 65661
+    URI: ipfs://bafybeifsexiiy4rkwr62m3ha4zcrxfo3dnjlhqqxwezxhemz3os5vbww7m/met...
+  Contract: 0x5782bfff... | Token: 140
+    URI: ipfs://bafkreicyaol4miindelz5o5n4edy2gunbarxjnj3ceqau4ifa6hc6ugzlu...
+  Contract: 0x925bb247... | Token: 62
+    URI: ipfs://QmZ9FcpfXuD99gTbbdbTgzCGUz7YJfR1dwNksxHaNET7an/62.json...
+  Contract: 0x57c0fef5... | Token: 380
+    URI: ipfs://QmdXUVdS1CtmfSmZ6FnsZgg3QTav4ucHpCedK61LkWqsMV/380.json...
+  Contract: 0xbd3e6970... | Token: 989
+    URI: ipfs://bafybeib4d66fqc22rp56etvriicj4efppzften7ysgx7w3rtbj5figfnpe/989...
+  Contract: 0xf2c1fbe5... | Token: 1187
+    URI: ipfs://QmfJgfuwqrbcQmtUa5xi7sFhSj8LF7vshKHv3NHiMzYbaE/1187...
+  Contract: 0x1dac0d4e... | Token: 661
+    URI: ipfs://bafkreig3gzk3s3tzv54jcmdvyhtzyznkbbp6w42ky2i74jmp7y2sujq2wa...
+  Contract: 0x85c11103... | Token: 4102
+    URI: ipfs://QmXj1PrcsDx3tURgNLeFY1DL1vWC62G9CraAUuGRRDpnHX/4102.json...
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🔗 LINKED URLs
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  • https://crazynftstudio.odoo.com/ethereum)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🔗 ENS & SOCIAL IDENTITY
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+ENS Name: None (wallet does not have an ENS name)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📊 METADATA ANALYSIS SUMMARY
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Total metadata files analyzed: 2
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🎯 OSINT VERDICTS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+⚡ [MEDIUM] DEFI POWER USER
+   Advanced DeFi user with multi-protocol exposure and cross-chain activity. High sophistication level.
+   Evidence:
+     • Matched 3/4 signals
+     • Pattern: defi_power_user
+     • Confidence: 75%
+     • Signal: bridges_count
+   → Action: Target with advanced DeFi scams, fake protocol exploits
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🎯 OSINT VERDICTS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+⚡ [MEDIUM] DEFI POWER USER
+   Advanced DeFi user with multi-protocol exposure and cross-chain activity. High sophistication level.
+     • Matched 3/4 signals
+     • Pattern: defi_power_user
+     • Confidence: 75%
+   → Action: Target with advanced DeFi scams, fake protocol exploits
+

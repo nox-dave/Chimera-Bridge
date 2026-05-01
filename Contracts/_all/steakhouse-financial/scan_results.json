@@ -1,16 +1,16 @@
 {
   "protocol_slug": "steakhouse-financial",
-  "scanned_at": "2026-01-22T19:32:58.627208",
+  "scanned_at": "2026-01-26T15:49:04.211949",
   "priority_score": 80,
   "verdicts": [
     {
       "title": "UNAUDITED HIGH-TVL PROTOCOL",
       "severity": "CRITICAL",
       "category": "TRUST",
-      "description": "Protocol has $2,014,039,929 TVL without documented audit",
+      "description": "Protocol has $1,985,318,816 TVL without documented audit",
       "evidence": [
         "No audit links found",
-        "TVL: $2,014,039,929"
+        "TVL: $1,985,318,816"
       ],
       "action": "Priority target for vulnerability analysis"
     },
@@ -20,7 +20,7 @@
       "category": "INTEL",
       "description": "Protocol holds over $10M in TVL",
       "evidence": [
-        "TVL: $2,014,039,929"
+        "TVL: $1,985,318,816"
       ],
       "action": "High-value target if vulnerable"
     }

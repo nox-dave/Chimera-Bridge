@@ -1,0 +1,353 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                         🐋 WHALE INTELLIGENCE REPORT                          ║
+║                           Gargophias OSINT Module                            ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+Target:     0x0d0707963952f2fba59dd06f2b425ace40b492fe
+Generated:  2026-01-26 16:00:53 UTC
+
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                               QUICK ASSESSMENT                               │
+├──────────────────────────────────────────────────────────────────────────────┤
+│  ✅ LIKELY REAL PERSON                                                       │
+│  Confidence: 50%                                                               │
+│  Profile: Mega-Whale | Long-term Holder                                     │
+└──────────────────────────────────────────────────────────────────────────────┘
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+💰 FINANCIAL SUMMARY
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Total Portfolio Value:  $       20,275,755.68
+  ETH Balance:                      6,944.0081 ETH
+  ETH Value:              $       20,275,755.68
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📊 ACTIVITY METRICS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Transaction Count:                       500
+  Total ETH Moved:                      718.03 ETH
+  Avg Transaction:                     15.2772 ETH
+  Wallet Age:                                0 days
+  First Transaction:                2026-01-26
+  Last Transaction:                 2026-01-26
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🧠 BEHAVIORAL PROFILE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Sophistication Level:   Intermediate        
+  Risk Tolerance:         Conservative        
+  Trading Style:          Long-term Holder    
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+⏰ ACTIVITY PATTERNS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Peak Activity Hours:    14:00, 13:00 UTC
+  Most Active Days:       Monday
+  Likely Timezone:        Europe/Africa (UTC+0 to +3)
+  Probable Region:        Europe
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🔧 PROTOCOL & PLATFORM USAGE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  DeFi Protocols:         None detected
+
+  NFT Platforms:          None detected
+
+  Bridge Usage:           None detected
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🪙 TOKEN INTERESTS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Active Tokens: usdt, bly, usdc, hsk, perp, flt, bone, wmtx, mis, qanx
+  Categories: 🏦 DeFi Tokens | 🎮 Gaming Tokens
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🏦 FUNDING & EXCHANGE RELATIONSHIPS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Original Funding:       Unknown
+                          0xda28b1ad910daafac30cfa1f13c3159f7804bbd5...
+
+  Exchange Interactions:  None detected (DEX-only or self-custody)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🎯 SIGNAL ANALYSIS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  ✅ BULLISH SIGNALS (Real Person Indicators):
+     • Reasonable tx count
+
+  ⚠️  RED FLAGS (Caution Indicators):
+     • Fresh wallet with large balance
+     • New wallet with large balance - verify source
+     • No exchange interactions - unusual for large holder
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📋 OSINT ASSESSMENT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  MODERATE CONFIDENCE (50%): Likely a real person, but some uncertainty.
+  GEOGRAPHIC: Activity patterns suggest Europe timezone (Europe/Africa (UTC+0 to +3)).
+  SOPHISTICATION: Intermediate user. Familiar with DeFi basics, uses DEXs.
+  RISK PROFILE: Conservative. Long-term Holder.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🎭 PROFILE HYPOTHESIS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Archetype: General Crypto Holder
+  
+  Narrative:
+    A mega-whale with significant market influence.
+    Originally funded through Unknown, suggesting traditional onboarding.
+    Shows familiarity with DEXs and basic DeFi concepts.
+    Activity patterns suggest European timezone.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🔗 INVESTIGATION LINKS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Etherscan:      https://etherscan.io/address/0x0d0707963952f2fba59dd06f2b425ace40b492fe
+  Debank:         https://debank.com/profile/0x0d0707963952f2fba59dd06f2b425ace40b492fe
+  Arkham Intel:   https://platform.arkhamintelligence.com/explorer/address/0x0d0707963952f2fba59dd06f2b425ace40b492fe
+  Nansen:         https://pro.nansen.ai/wallet/0x0d0707963952f2fba59dd06f2b425ace40b492fe
+  Zerion:         https://app.zerion.io/0x0d0707963952f2fba59dd06f2b425ace40b492fe/overview
+  Zapper:         https://zapper.xyz/account/0x0d0707963952f2fba59dd06f2b425ace40b492fe
+
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                      PRIORITY: MEDIUM | CONFIDENCE: 50%                      ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+
+🔍 FUNDING SOURCE TRACE
+━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Hops Traced: 0
+  Origin: Gate.io (exchange)
+
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🌐 IPFS & DOMAIN OSINT ANALYSIS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+NFT Transfers Analyzed: 93
+Contracts Checked: 10
+Tokens Scanned: 26
+Metadata Files Fetched: 0
+
+IPFS Hashes Found: 2
+
+Unique IPFS Hashes:
+  • bafybeiagljc3nrl6ioe5urgvopf5hoxasnnemwamrt6r6uoprrtrw7rmjm
+  • QmQpgc5VKqA8evqfoQ2hXJY2dWwn8wqGjhU17Gjju3qPi4
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🌍 DOMAIN INTELLIGENCE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Domain: api.illuminatiowlsnft.xyz
+  Reputation: SUSPICIOUS
+  ⚠️  SCAM INDICATORS:
+    • Suspicious TLD: .xyz
+  Metadata URLs: 3
+
+Domain: api.illuminatipepe.top
+  Reputation: SUSPICIOUS
+  ⚠️  SCAM INDICATORS:
+    • Suspicious TLD: .top
+  Metadata URLs: 3
+
+Domain: api.cryptoqutiesnft.xyz
+  Reputation: SUSPICIOUS
+  ⚠️  SCAM INDICATORS:
+    • Suspicious TLD: .xyz
+  Metadata URLs: 5
+
+Domain: api.wardenswap.xyz
+  Reputation: SUSPICIOUS
+  ⚠️  SCAM INDICATORS:
+    • Suspicious TLD: .xyz
+  Metadata URLs: 3
+
+Domain: api.tinybonesnfts.xyz
+  Reputation: SUSPICIOUS
+  ⚠️  SCAM INDICATORS:
+    • Suspicious TLD: .xyz
+  Metadata URLs: 3
+
+Domain: ifscdjs.com
+  Reputation: UNKNOWN
+  Metadata URLs: 1
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📋 METADATA SOURCES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Contract: 0x8da87433... | Token: 80
+    URI: https://ifscdjs.com/0x9350D38bD0BFB78deAcCb2cfC0454d2b2f3e3b73/80...
+  Contract: 0x2bf1aea1... | Token: 10
+    URI: ipfs://bafybeiagljc3nrl6ioe5urgvopf5hoxasnnemwamrt6r6uoprrtrw7rmjm/10....
+  Contract: 0xf83119c3... | Token: 121
+    URI: ipfs://QmQpgc5VKqA8evqfoQ2hXJY2dWwn8wqGjhU17Gjju3qPi4/metadata.json...
+  Contract: 0x727132c9... | Token: 32
+    URI: http://api.cryptoqutiesnft.xyz/ipfs/32...
+  Contract: 0x727132c9... | Token: 73
+    URI: http://api.cryptoqutiesnft.xyz/ipfs/73...
+  Contract: 0x727132c9... | Token: 71
+    URI: http://api.cryptoqutiesnft.xyz/ipfs/71...
+  Contract: 0x727132c9... | Token: 51
+    URI: http://api.cryptoqutiesnft.xyz/ipfs/51...
+  Contract: 0x727132c9... | Token: 72
+    URI: http://api.cryptoqutiesnft.xyz/ipfs/72...
+  Contract: 0xc450362d... | Token: 3
+    URI: http://api.illuminatiowlsnft.xyz/ipfs/3...
+  Contract: 0xc450362d... | Token: 1
+    URI: http://api.illuminatiowlsnft.xyz/ipfs/1...
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🔗 ENS & SOCIAL IDENTITY
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+ENS Name: None (wallet does not have an ENS name)
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🎯 OSINT VERDICTS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🚨 [CRITICAL] ON FRESH WHALE LIST
+   Brand new wallet (0 days old) with $20,275,756 is being targeted by 5 different scam campaigns. This indicates the wallet address is on a 'fresh whale' list being sold to multiple attacker groups. Attackers know this wallet exists and have its address.
+   Evidence:
+     • Wallet age: 0 days
+     • Balance: $20,275,756
+     • 5 scam campaigns detected
+     • Multiple attacker groups targeting same wallet
+   → Action: This wallet is being actively monitored by scammers - high-value target
+
+⚠️ [HIGH] CARPET BOMBING SCAM CAMPAIGN
+   Wallet is being carpet bombed with 5 different scam NFT campaigns. Attackers have identified this wallet and are coordinating multiple phishing attempts. This pattern indicates the wallet is on a 'fresh whale' list being sold to scammers.
+   Evidence:
+     • 5 suspicious domains detected
+     • Multiple coordinated phishing campaigns
+     • Wallet is on attacker radar
+     • Likely on a 'fresh whale' list being sold
+   → Action: High-priority target - multiple attacker groups know about this wallet
+
+⚠️ [HIGH] SUSPICIOUS NFT AIRDROP
+   This wallet received an NFT from suspicious domain 'api.illuminatiowlsnft.xyz'. Likely a phishing or scam attempt.
+   Evidence:
+     • Suspicious TLD: .xyz
+   → Action: Investigate domain before any interaction
+
+⚠️ [HIGH] SUSPICIOUS NFT AIRDROP
+   This wallet received an NFT from suspicious domain 'api.illuminatipepe.top'. Likely a phishing or scam attempt.
+   Evidence:
+     • Suspicious TLD: .top
+   → Action: Investigate domain before any interaction
+
+⚠️ [HIGH] SUSPICIOUS NFT AIRDROP
+   This wallet received an NFT from suspicious domain 'api.cryptoqutiesnft.xyz'. Likely a phishing or scam attempt.
+   Evidence:
+     • Suspicious TLD: .xyz
+   → Action: Investigate domain before any interaction
+
+⚠️ [HIGH] SUSPICIOUS NFT AIRDROP
+   This wallet received an NFT from suspicious domain 'api.wardenswap.xyz'. Likely a phishing or scam attempt.
+   Evidence:
+     • Suspicious TLD: .xyz
+   → Action: Investigate domain before any interaction
+
+⚠️ [HIGH] SUSPICIOUS NFT AIRDROP
+   This wallet received an NFT from suspicious domain 'api.tinybonesnfts.xyz'. Likely a phishing or scam attempt.
+   Evidence:
+     • Suspicious TLD: .xyz
+   → Action: Investigate domain before any interaction
+
+⚡ [MEDIUM] NFT COLLECTOR PROFILE
+   Wallet shows strong NFT activity with significant holdings. Potential social identity vector through NFT metadata.
+   Evidence:
+     • Matched 3/4 signals
+     • Pattern: nft_collector
+     • Confidence: 75%
+     • Signal: balance_usd
+   → Action: Investigate NFT metadata for OSINT
+
+⚡ [MEDIUM] NO EXCHANGE TRAIL
+   Large holder with no detected CEX interactions. Funds origin harder to trace. May be privacy-conscious or using DEX only.
+   Evidence:
+     • Matched 3/3 signals
+     • Pattern: no_exchange_trail
+     • Confidence: 100%
+     • Signal: exchange_interactions
+   → Action: Trace funding source through on-chain analysis
+
+⚡ [MEDIUM] HTTP PROTOCOL USAGE
+   Found 17 metadata URLs using HTTP instead of HTTPS. Legitimate NFT projects use HTTPS. HTTP indicates lazy scammers or intentional security bypass.
+   Evidence:
+     • 17 HTTP URLs detected
+     • Legitimate projects use HTTPS
+     • HTTP = scam indicator or lazy attacker
+     • URL: http://api.cryptoqutiesnft.xyz/ipfs/32...
+   → Action: HTTP URLs are highly suspicious - likely scam infrastructure
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🎯 OSINT VERDICTS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🚨 [CRITICAL] ON FRESH WHALE LIST
+   Brand new wallet (0 days old) with $20,275,756 is being targeted by 5 different scam campaigns. This indicates the wallet address is on a 'fresh whale' list being sold to multiple attacker groups. Attackers know this wallet exists and have its address.
+     • Wallet age: 0 days
+     • Balance: $20,275,756
+     • 5 scam campaigns detected
+   → Action: This wallet is being actively monitored by scammers - high-value target
+
+⚠️ [HIGH] CARPET BOMBING SCAM CAMPAIGN
+   Wallet is being carpet bombed with 5 different scam NFT campaigns. Attackers have identified this wallet and are coordinating multiple phishing attempts. This pattern indicates the wallet is on a 'fresh whale' list being sold to scammers.
+     • 5 suspicious domains detected
+     • Multiple coordinated phishing campaigns
+     • Wallet is on attacker radar
+   → Action: High-priority target - multiple attacker groups know about this wallet
+
+⚠️ [HIGH] SUSPICIOUS NFT AIRDROP
+   This wallet received an NFT from suspicious domain 'api.illuminatiowlsnft.xyz'. Likely a phishing or scam attempt.
+     • Suspicious TLD: .xyz
+   → Action: Investigate domain before any interaction
+
+⚠️ [HIGH] SUSPICIOUS NFT AIRDROP
+   This wallet received an NFT from suspicious domain 'api.illuminatipepe.top'. Likely a phishing or scam attempt.
+     • Suspicious TLD: .top
+   → Action: Investigate domain before any interaction
+
+⚠️ [HIGH] SUSPICIOUS NFT AIRDROP
+   This wallet received an NFT from suspicious domain 'api.cryptoqutiesnft.xyz'. Likely a phishing or scam attempt.
+     • Suspicious TLD: .xyz
+   → Action: Investigate domain before any interaction
+
+⚠️ [HIGH] SUSPICIOUS NFT AIRDROP
+   This wallet received an NFT from suspicious domain 'api.wardenswap.xyz'. Likely a phishing or scam attempt.
+     • Suspicious TLD: .xyz
+   → Action: Investigate domain before any interaction
+
+⚠️ [HIGH] SUSPICIOUS NFT AIRDROP
+   This wallet received an NFT from suspicious domain 'api.tinybonesnfts.xyz'. Likely a phishing or scam attempt.
+     • Suspicious TLD: .xyz
+   → Action: Investigate domain before any interaction
+
+⚡ [MEDIUM] NFT COLLECTOR PROFILE
+   Wallet shows strong NFT activity with significant holdings. Potential social identity vector through NFT metadata.
+     • Matched 3/4 signals
+     • Pattern: nft_collector
+     • Confidence: 75%
+   → Action: Investigate NFT metadata for OSINT
+
+⚡ [MEDIUM] NO EXCHANGE TRAIL
+   Large holder with no detected CEX interactions. Funds origin harder to trace. May be privacy-conscious or using DEX only.
+     • Matched 3/3 signals
+     • Pattern: no_exchange_trail
+     • Confidence: 100%
+   → Action: Trace funding source through on-chain analysis
+
+⚡ [MEDIUM] HTTP PROTOCOL USAGE
+   Found 17 metadata URLs using HTTP instead of HTTPS. Legitimate NFT projects use HTTPS. HTTP indicates lazy scammers or intentional security bypass.
+     • 17 HTTP URLs detected
+     • Legitimate projects use HTTPS
+     • HTTP = scam indicator or lazy attacker
+   → Action: HTTP URLs are highly suspicious - likely scam infrastructure
+

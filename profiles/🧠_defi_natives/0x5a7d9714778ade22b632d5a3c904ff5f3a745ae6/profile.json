@@ -1,16 +1,16 @@
 {
   "address": "0x5a7d9714778ade22b632d5a3c904ff5f3a745ae6",
-  "discovered_at": "2026-01-20T16:15:01.135788+00:00",
-  "total_value_usd": 27.709599345674615,
+  "discovered_at": "2026-01-26T14:57:21.186318+00:00",
+  "total_value_usd": 26.619735790140343,
   "eth_balance": 0.009144492655403088,
-  "eth_value_usd": 27.709599345674615,
+  "eth_value_usd": 26.619735790140343,
   "token_holdings": {},
   "risk_score": 75,
   "tx_count": 454,
   "defi_activity": true,
   "nft_activity": {},
   "bridge_activity": true,
-  "age_days": 166,
+  "age_days": 172,
   "osint_categories": [
     "\ud83c\udf09_cross_chain_users",
     "\ud83e\udde0_defi_natives"
@@ -25,20 +25,20 @@
     "likely_timezone": "Asia-Pacific (UTC+8 to +12)",
     "meme_exposure": false,
     "defi_protocols": [
+      "SushiSwap",
+      "Uniswap Universal Router 2",
+      "Metamask Swap Router",
       "Uniswap V3",
-      "Uniswap V2",
       "WETH Contract",
       "Compound",
-      "SushiSwap",
-      "Metamask Swap Router",
       "Aave V2",
-      "Uniswap Universal Router 2"
+      "Uniswap V2"
     ],
     "nft_platforms": [],
     "bridges_used": [
+      "Arbitrum Inbox",
       "Optimism Bridge",
       "Wormhole",
-      "Arbitrum Inbox",
       "Polygon Bridge",
       "Arbitrum Gateway"
     ],
@@ -273,7 +273,7 @@
     "has_social_links": false
   },
   "approval_risk": {
-    "scan_timestamp": "2026-01-20T16:15:08.348699+00:00",
+    "scan_timestamp": "2026-01-26T14:57:28.853888+00:00",
     "total_approvals": 0,
     "unlimited_approvals": 0,
     "high_risk_approvals": 0,
@@ -283,7 +283,7 @@
   },
   "funding_trace": {
     "target": "0x5a7d9714778ade22b632d5a3c904ff5f3a745ae6",
-    "trace_timestamp": "2026-01-20T16:15:07.464425+00:00",
+    "trace_timestamp": "2026-01-26T14:57:27.990180+00:00",
     "total_hops": 0,
     "origin_found": false,
     "origin_type": null,
@@ -293,7 +293,7 @@
     "funding_chain": []
   },
   "token_risks": {
-    "scan_timestamp": "2026-01-20T16:15:09.068925+00:00",
+    "scan_timestamp": "2026-01-26T14:57:29.577588+00:00",
     "tokens_analyzed": 0,
     "risky_tokens": 0,
     "total_value_at_risk_usd": 0,

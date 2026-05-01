@@ -1,0 +1,1294 @@
+{
+  "address": "0x0d0707963952f2fba59dd06f2b425ace40b492fe",
+  "discovered_at": "2026-01-26T15:00:12.801594+00:00",
+  "total_value_usd": 20275755.679770697,
+  "eth_balance": 6944.008123663706,
+  "eth_value_usd": 20275755.679770697,
+  "token_holdings": {},
+  "risk_score": 50,
+  "tx_count": 1000,
+  "defi_activity": false,
+  "nft_activity": {
+    "unique_collections": 14,
+    "top_collections": [
+      [
+        "illuminati Owls",
+        29
+      ],
+      [
+        "Quties",
+        12
+      ],
+      [
+        "MetaWarden",
+        12
+      ],
+      [
+        "Time Frog",
+        6
+      ],
+      [
+        "Tiny Bones Club",
+        6
+      ],
+      [
+        "Flipped Punks",
+        6
+      ],
+      [
+        "Bored Ape Flipped Club",
+        6
+      ],
+      [
+        "AvaPepes",
+        5
+      ],
+      [
+        "NbaYac",
+        5
+      ],
+      [
+        "",
+        2
+      ]
+    ],
+    "collection_addresses": {
+      "0x8da874330fd513fd4f3241fd2dad55d2fdbc5dbd": 1,
+      "0x2bf1aea13ab81423ccc16de6fb45462e60f5a88c": 1,
+      "0xf83119c353ce05f297ed0d1772944c12baf56118": 1,
+      "0xe9baeef7097a0d4656918b8259aaef09809e09a9": 1,
+      "0x727132c902218131c5e511f2f55b26f25a938fe1": 12,
+      "0xc450362d646f42327050ff3521fc2061b34a6a0d": 29,
+      "0xf978b85c899522d48d927a2ab010ab5570a13907": 6,
+      "0xf54b166b66d9113a40ae55a4fea30bb806cdb23d": 12,
+      "0x72e07e22f7639365be1536fbaf49daa01d1f99b5": 5,
+      "0x2c906bb58e6f083b4322cd9ad72feb0e93016137": 6,
+      "0x1f201a9f8cd14cae8dc448b2413a12abd3a25e16": 6,
+      "0xc226555e5353eef2148fc11dcf1ce519a5c3d212": 6,
+      "0xf07441e25000b6914ebadc609a3d425d6b97448a": 5,
+      "0x376c4c43e092bd48a9cdc8259dec833bbd6d6860": 2
+    }
+  },
+  "bridge_activity": false,
+  "age_days": 0,
+  "osint_categories": [
+    "\ud83c\udfb0_gamblers",
+    "\ud83c\udd95_newcomers",
+    "\ud83c\udfc6_status_seekers"
+  ],
+  "primary_osint_category": "\ud83c\udfb0_gamblers",
+  "behavior": {
+    "confidence_score": 50,
+    "sophistication": "Intermediate",
+    "risk_tolerance": "Conservative",
+    "trading_style": "Long-term Holder",
+    "likely_region": "Europe",
+    "likely_timezone": "Europe/Africa (UTC+0 to +3)",
+    "meme_exposure": false,
+    "defi_protocols": [],
+    "nft_platforms": [],
+    "bridges_used": [],
+    "exchange_interactions": [],
+    "frequent_counterparties": []
+  },
+  "transaction_analysis": {
+    "total_transactions": 1000,
+    "total_value_eth": 965.4587425193724,
+    "most_active_hour": 14,
+    "most_active_day": "Monday",
+    "top_recipients": [
+      [
+        "0xdac17f958d2ee523a2206206994597c13d831ec7",
+        165
+      ],
+      [
+        "0xf091867ec603a6628ed83d274e835539d82e9cc8",
+        107
+      ],
+      [
+        "0xe7c6bf469e97eeb0bfb74c8dbff5bd47d4c1c98a",
+        53
+      ],
+      [
+        "0x0d0707963952f2fba59dd06f2b425ace40b492fe",
+        49
+      ],
+      [
+        "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+        37
+      ],
+      [
+        "0x944824290cc12f31ae18ef51216a223ba4063092",
+        26
+      ],
+      [
+        "0xbc396689893d065f41bc2c6ecbee5e0085233447",
+        18
+      ],
+      [
+        "0x68749665ff8d2d112fa859aa293f07a622782f38",
+        15
+      ],
+      [
+        "0xc064f4f215b6a1e4e7f39bd8530c4de0fc43ee9d",
+        15
+      ],
+      [
+        "0x77146784315ba81904d654466968e3a7c196d1f3",
+        14
+      ]
+    ],
+    "top_senders": [
+      [
+        "0x0d0707963952f2fba59dd06f2b425ace40b492fe",
+        951
+      ],
+      [
+        "0xecd3b4b7fd0bc9f52335f29a3e007453de07d2b9",
+        5
+      ],
+      [
+        "0xcf72351a45d4a560f5e78ba3e1d00dd24602edae",
+        3
+      ],
+      [
+        "0x816c4878518d53d73bc0434cd6e15c0d3e99ddfc",
+        2
+      ],
+      [
+        "0x277fee253eadd89d0fb87c1ade8d6bbe870cf605",
+        2
+      ],
+      [
+        "0x8bee7340304a051b16cecee05fb8c999db3b65ed",
+        2
+      ],
+      [
+        "0x36d24fe8d7d7e0aa968a62eb9fea142cd5ecf311",
+        2
+      ],
+      [
+        "0x01eda2759dfea6a37ed9d7b7c1bac339cac49daf",
+        1
+      ],
+      [
+        "0x827e539ade36edfaeaa3c2a66e5bcbd0c6fbbe5d",
+        1
+      ],
+      [
+        "0xdc19993aec5493e9b43f624e7bfdaa87b4edacf8",
+        1
+      ]
+    ],
+    "first_transaction": "2026-01-26T12:20:59",
+    "last_transaction": "2026-01-26T15:59:11",
+    "avg_gas_used": 47343.428,
+    "avg_gas_price": 1070210663.0035499
+  },
+  "token_activity": {
+    "unique_tokens": 160,
+    "top_tokens": [
+      [
+        "USDT",
+        234
+      ],
+      [
+        "USDC",
+        183
+      ],
+      [
+        "ZETA",
+        81
+      ],
+      [
+        "HSK",
+        50
+      ],
+      [
+        "LM",
+        26
+      ],
+      [
+        "BLY",
+        19
+      ],
+      [
+        "XAUt",
+        15
+      ],
+      [
+        "SYRUP",
+        14
+      ],
+      [
+        "PERP",
+        13
+      ],
+      [
+        "MASA",
+        12
+      ],
+      [
+        "AXS",
+        10
+      ],
+      [
+        "FF",
+        10
+      ],
+      [
+        "ZRX",
+        10
+      ],
+      [
+        "ZND",
+        9
+      ],
+      [
+        "MASK",
+        9
+      ],
+      [
+        "SLVon",
+        8
+      ],
+      [
+        "GRT",
+        8
+      ],
+      [
+        "FLT",
+        7
+      ],
+      [
+        "BONE",
+        7
+      ],
+      [
+        "WMTX",
+        6
+      ]
+    ],
+    "token_values": {
+      "USDT": 8606030.648745004,
+      "ZETA": 4204916.3807491725,
+      "USDC": 9833589.144389002,
+      "FLT": 1018720.0947550001,
+      "BONE": 60563.590000000004,
+      "RLS": 2693763.42,
+      "VSN": 36347.91412,
+      "weETH": 0.7613707164289976,
+      "BLY": 9830479.716262873,
+      "PERP": 992074.6150999999,
+      "HSK": 669860.18083815,
+      "WMTX": 228401.16348000002,
+      "AVL": 200318.62585741,
+      "QANX": 105646.99557135001,
+      "XAUt": 608.427242,
+      "PUNDIX": 13201.091668500001,
+      "DAI": 2007.3998926000002,
+      "ATH": 1684119.25,
+      "Yf-DAI": 152.66587684,
+      "AXS": 27439.439999999995,
+      "DODO": 67951.0,
+      "stETH": 4.759657,
+      "MIS": 8260.353268500001,
+      "DOGE2.0": 1946296160919.6223,
+      "AIEPK": 4560764.12861691,
+      "LBlock": 12343681.44,
+      "ZND": 1164796.43525,
+      "MYTH": 1161.417,
+      "EUL": 3.0824,
+      "RED": 583115.52,
+      "SLVon": 870.0039988999999,
+      "KITE": 189553.831664,
+      "NOM": 930521.23,
+      "CLORE": 559404.0919981999,
+      "SDEX": 92545.002859,
+      "NFLXon": 22.722668,
+      "IMU": 1163059.5057722903,
+      "SPX": 301067.65152094996,
+      "BOX": 17902.8853805,
+      "ENS": 390.88700000000006,
+      "CHR": 40622.04,
+      "ACU": 120397.6375,
+      "ZRO": 52201.453,
+      "MYRIA": 21498475.64,
+      "TANSSI": 1810372.9983708998,
+      "LM": 37701687.946966216,
+      "COMP": 769.03537182,
+      "ORBS": 1583534.56596932,
+      "MULTI": 321.41713775,
+      "RAGE": 192114.94,
+      "BOBA": 14652.000000000002,
+      "XYO": 184909.19,
+      "PENDLE": 8857.489,
+      "CRO": 641.8083508,
+      "H": 54220.66,
+      "GWEI": 761364.13332354,
+      "1EARTH": 0.0181,
+      "CROS": 9857146.59175,
+      "SIDUS": 1410044.9100000001,
+      "ALEPH": 79101.9,
+      "STBU": 280160.5206,
+      "$MBG": 33721.367337,
+      "BAG": 3726466.6012,
+      "ONX": 168454.636365,
+      "GEAR": 294803.29000000004,
+      "PEIPEI": 60381397927.37834,
+      "VT": 115162.68400000001,
+      "HOT": 2226103.374578,
+      "DUSK": 10987.82,
+      "Block": 99999.99999999999,
+      "BAL": 5179.96,
+      "TURBO": 33642695.629999995,
+      "ENA": 242358.089407,
+      "WLFI": 934751.832926,
+      "TREE": 340632.505,
+      "TAIKO": 109064.75668178001,
+      "AXL": 211457.94,
+      "FF": 1795167.8347650003,
+      "ORDER": 1604407.4991999997,
+      "IN": 199999.99999999997,
+      "GRT": 2131461.4066161197,
+      "MASA": 16726056.479421983,
+      "LIT": 20000.0,
+      "MASK": 226679.76843250002,
+      "G-CRE": 79455.94989999999,
+      "SAFE": 180187.0,
+      "SAHARA": 2096001.9,
+      "SYRUP": 1072361.7949217202,
+      "ZKC": 104703.70999999999,
+      "$PAAL": 562877.41486988,
+      "PAXG": 2.48376,
+      "KRL": 10474.609999999999,
+      "OPEN": 10216.635376000002,
+      "NUX": 202030.4786605,
+      "PUSH": 21586.149999999998,
+      "FLUID": 74846.70855184001,
+      "SMILE": 21159.700780000003,
+      "RESOLV": 15956.089343,
+      "GOVI": 28199.219999999998,
+      "LQTY": 38215.060000000005,
+      "PORK": 56724397443.58,
+      "WALLET": 19950.809999999998,
+      "GHX": 750470.34399999,
+      "VLR": 292297.775,
+      "PLUME": 280405.224,
+      "SHIB": 5011460.9050013,
+      "XCN": 749838.32,
+      "CHEX": 18948.370000000003,
+      "ZRX": 272875.9131201,
+      "RJV": 172251.7,
+      "IMX": 25.0,
+      "BUBBLE": 1370656.0799999998,
+      "BITCOIN": 2791319.93307889,
+      "GLM": 35377.81110941,
+      "wXTM": 200912.43000000002,
+      "Pin": 134.078,
+      "EPT": 334324.88999999996,
+      "MAGA": 73073570.53,
+      "GTC": 412.18803823,
+      "MEME": 13151.427000000001,
+      "STOS": 1923.0265184999998,
+      "MOVE": 23240.63,
+      "PEPE": 2125053305.848614,
+      "A8": 47471.86,
+      "FET": 3154.72,
+      "VRA": 196580882.22000003,
+      "MLN": 85.569,
+      "T": 1257624.27203453,
+      "KEKIUS": 226100.76,
+      "COOK": 1968567.56,
+      "EIGEN": 1814.7169800000001,
+      "RAVE": 31680.057119,
+      "BDXN": 610299.74,
+      "USDe": 16537.52,
+      "VOOI": 930758.3912613201,
+      "BAT": 221967.41143563343,
+      "YFI": 7.90991842,
+      "Auction": 2211.138,
+      "AAVE": 85.98718,
+      "TALK": 75512.02492474999,
+      "FYDE": 43439.737690780006,
+      "SPEC": 653.88,
+      "SPK": 548071.68,
+      "SGR": 871.62,
+      "WLD": 41.450987000000005,
+      "ELP": 10244295.745665,
+      "DNOW": 219489.46227699998,
+      "ETHFI": 350.7607082,
+      "TET": 1297.16,
+      "LINK": 1.603336,
+      "LPT": 4999.69,
+      "SKM": 808574.25708108,
+      "SHIRO": 81210954014.0893,
+      "ENSO": 10900.499,
+      "SUKU": 223458.74,
+      "MNT": 819.84,
+      "DERI": 8801.63,
+      "REKT": 10707285264.52,
+      "STND": 43814.99999999999,
+      "Nvir": 21416.565264210003
+    },
+    "token_details": {
+      "USDT": [
+        "Tether USD"
+      ],
+      "ZETA": [
+        "Zeta"
+      ],
+      "USDC": [
+        "USDC"
+      ],
+      "FLT": [
+        "Fluence"
+      ],
+      "BONE": [
+        "BONE SHIBASWAP"
+      ],
+      "RLS": [
+        "Rayls"
+      ],
+      "VSN": [
+        "Vision"
+      ],
+      "weETH": [
+        "Wrapped eETH"
+      ],
+      "BLY": [
+        "Blocery Token"
+      ],
+      "PERP": [
+        "Perpetual"
+      ],
+      "HSK": [
+        "HashKey Platform Token"
+      ],
+      "WMTX": [
+        "WorldMobileToken"
+      ],
+      "AVL": [
+        "AVL"
+      ],
+      "QANX": [
+        "QANX Token"
+      ],
+      "XAUt": [
+        "Tether Gold"
+      ],
+      "PUNDIX": [
+        "Pundi X Token"
+      ],
+      "DAI": [
+        "Dai Stablecoin"
+      ],
+      "ATH": [
+        "Aethir Token"
+      ],
+      "Yf-DAI": [
+        "YfDAI.finance"
+      ],
+      "AXS": [
+        "Axie Infinity Shard"
+      ],
+      "DODO": [
+        "DODO bird"
+      ],
+      "stETH": [
+        "stETH"
+      ],
+      "MIS": [
+        "MIS"
+      ],
+      "DOGE2.0": [
+        "Doge 2.0"
+      ],
+      "AIEPK": [
+        "EpiK Protocol"
+      ],
+      "LBlock": [
+        "LuckyBlock"
+      ],
+      "ZND": [
+        "ZNDToken"
+      ],
+      "MYTH": [
+        "Mythos"
+      ],
+      "EUL": [
+        "Euler"
+      ],
+      "RED": [
+        "Redstone"
+      ],
+      "SLVon": [
+        "iShares Silver Trust (Ondo Tokenized)"
+      ],
+      "KITE": [
+        "Kite"
+      ],
+      "NOM": [
+        "Nomina"
+      ],
+      "CLORE": [
+        "Clore"
+      ],
+      "SDEX": [
+        "SmarDex Token"
+      ],
+      "NFLXon": [
+        "Netflix (Ondo Tokenized)"
+      ],
+      "IMU": [
+        "Immunefi"
+      ],
+      "SPX": [
+        "SPX6900"
+      ],
+      "BOX": [
+        "DeBoxToken"
+      ],
+      "ENS": [
+        "Ethereum Name Service"
+      ],
+      "CHR": [
+        "Chroma"
+      ],
+      "ACU": [
+        "ACU"
+      ],
+      "ZRO": [
+        "LayerZero"
+      ],
+      "MYRIA": [
+        "Myria"
+      ],
+      "TANSSI": [
+        "TANSSI"
+      ],
+      "LM": [
+        "LeisureMeta"
+      ],
+      "COMP": [
+        "Compound"
+      ],
+      "ORBS": [
+        "Orbs"
+      ],
+      "MULTI": [
+        "Multichain"
+      ],
+      "RAGE": [
+        "RageToken"
+      ],
+      "BOBA": [
+        "Boba Token"
+      ],
+      "XYO": [
+        "XY Oracle"
+      ],
+      "PENDLE": [
+        "Pendle"
+      ],
+      "CRO": [
+        "Cronos Coin"
+      ],
+      "H": [
+        "Humanity"
+      ],
+      "GWEI": [
+        "ETHGas"
+      ],
+      "1EARTH": [
+        "EarthFund"
+      ],
+      "CROS": [
+        "Cros Token"
+      ],
+      "SIDUS": [
+        "SIDUS"
+      ],
+      "ALEPH": [
+        "aleph.im v2"
+      ],
+      "STBU": [
+        "Stobox Token v.2"
+      ],
+      "$MBG": [
+        "$MBG Token"
+      ],
+      "BAG": [
+        "Bag"
+      ],
+      "ONX": [
+        "OnX.finance"
+      ],
+      "GEAR": [
+        "Gearbox"
+      ],
+      "PEIPEI": [
+        "PeiPei"
+      ],
+      "VT": [
+        "VTrading Token"
+      ],
+      "HOT": [
+        "HoloToken"
+      ],
+      "DUSK": [
+        "Dusk Network"
+      ],
+      "Block": [
+        "Block"
+      ],
+      "BAL": [
+        "Balancer"
+      ],
+      "TURBO": [
+        "Turbo"
+      ],
+      "ENA": [
+        "Ethena"
+      ],
+      "WLFI": [
+        "World Liberty Financial"
+      ],
+      "TREE": [
+        "Treehouse"
+      ],
+      "TAIKO": [
+        "Taiko Token"
+      ],
+      "AXL": [
+        "Axelar"
+      ],
+      "FF": [
+        "Falcon Finance"
+      ],
+      "ORDER": [
+        "Orderly Network"
+      ],
+      "IN": [
+        "INFINIT"
+      ],
+      "GRT": [
+        "Graph Token"
+      ],
+      "MASA": [
+        "Masa Token"
+      ],
+      "LIT": [
+        "Lighter"
+      ],
+      "MASK": [
+        "Mask Network"
+      ],
+      "G-CRE": [
+        "Gluwa Creditcoin Vesting Token"
+      ],
+      "SAFE": [
+        "Safe Token"
+      ],
+      "SAHARA": [
+        "Sahara AI"
+      ],
+      "SYRUP": [
+        "Syrup Token"
+      ],
+      "ZKC": [
+        "ZK Coin"
+      ],
+      "$PAAL": [
+        "PAAL AI"
+      ],
+      "PAXG": [
+        "Paxos Gold"
+      ],
+      "KRL": [
+        "Kryll"
+      ],
+      "OPEN": [
+        "Open"
+      ],
+      "NUX": [
+        "NUX Peanut.trade"
+      ],
+      "PUSH": [
+        "Ethereum Push Notification Service"
+      ],
+      "FLUID": [
+        "Fluid"
+      ],
+      "SMILE": [
+        "bitSmiley"
+      ],
+      "RESOLV": [
+        "Resolv"
+      ],
+      "GOVI": [
+        "GOVI"
+      ],
+      "LQTY": [
+        "LQTY"
+      ],
+      "PORK": [
+        "PepeFork"
+      ],
+      "WALLET": [
+        "Ambire Wallet"
+      ],
+      "GHX": [
+        "GamerCoin"
+      ],
+      "VLR": [
+        "Velora"
+      ],
+      "PLUME": [
+        "Plume"
+      ],
+      "SHIB": [
+        "SHIBA INU"
+      ],
+      "XCN": [
+        "Onyxcoin"
+      ],
+      "CHEX": [
+        "Chintai Exchange Token"
+      ],
+      "ZRX": [
+        "ZRX"
+      ],
+      "RJV": [
+        "Rejuve Token"
+      ],
+      "IMX": [
+        "Immutable X"
+      ],
+      "BUBBLE": [
+        "Bubble"
+      ],
+      "BITCOIN": [
+        "HarryPotterObamaSonic10Inu"
+      ],
+      "GLM": [
+        "Golem Network Token"
+      ],
+      "wXTM": [
+        "WrappedXTM"
+      ],
+      "Pin": [
+        "PinLink"
+      ],
+      "EPT": [
+        "Balance"
+      ],
+      "MAGA": [
+        "MAGA"
+      ],
+      "GTC": [
+        "Gitcoin"
+      ],
+      "MEME": [
+        "Memecoin"
+      ],
+      "STOS": [
+        "Stratos Token"
+      ],
+      "MOVE": [
+        "Movement"
+      ],
+      "PEPE": [
+        "Pepe"
+      ],
+      "A8": [
+        "Ancient8"
+      ],
+      "FET": [
+        "Fetch"
+      ],
+      "VRA": [
+        "VERA"
+      ],
+      "MLN": [
+        "Melon Token"
+      ],
+      "T": [
+        "Threshold Network Token"
+      ],
+      "KEKIUS": [
+        "Kekius Maximus"
+      ],
+      "COOK": [
+        "Cook Token"
+      ],
+      "EIGEN": [
+        "Eigen"
+      ],
+      "RAVE": [
+        "RaveDAO"
+      ],
+      "BDXN": [
+        "Bondex Token"
+      ],
+      "USDe": [
+        "USDe"
+      ],
+      "VOOI": [
+        "VOOI"
+      ],
+      "BAT": [
+        "BAT"
+      ],
+      "YFI": [
+        "yearn.finance"
+      ],
+      "Auction": [
+        "Bounce Token"
+      ],
+      "AAVE": [
+        "Aave Token"
+      ],
+      "TALK": [
+        "Talken"
+      ],
+      "FYDE": [
+        "Fyde"
+      ],
+      "SPEC": [
+        "Spectral Token"
+      ],
+      "SPK": [
+        "Spark"
+      ],
+      "SGR": [
+        "Schrodinger"
+      ],
+      "WLD": [
+        "Worldcoin"
+      ],
+      "ELP": [
+        "Elympics"
+      ],
+      "DNOW": [
+        "DuelNow"
+      ],
+      "ETHFI": [
+        "ether.fi governance token"
+      ],
+      "TET": [
+        "Tectum Emission Token"
+      ],
+      "LINK": [
+        "ChainLink Token"
+      ],
+      "LPT": [
+        "Livepeer Token"
+      ],
+      "SKM": [
+        "Skrumble Network V2"
+      ],
+      "SHIRO": [
+        "Shiro Neko"
+      ],
+      "ENSO": [
+        "Enso"
+      ],
+      "SUKU": [
+        "SUKU"
+      ],
+      "MNT": [
+        "Mantle"
+      ],
+      "DERI": [
+        "Deri"
+      ],
+      "REKT": [
+        "Rekt"
+      ],
+      "STND": [
+        "Standard"
+      ],
+      "Nvir": [
+        "NvirWorld"
+      ]
+    }
+  },
+  "ipfs_osint": {
+    "address": "0x0d0707963952f2fba59dd06f2b425ace40b492fe",
+    "ipfs_hashes_found": [
+      {
+        "contract": "0x2bf1aea13ab81423ccc16de6fb45462e60f5a88c",
+        "token_id": "10",
+        "uri": "ipfs://bafybeiagljc3nrl6ioe5urgvopf5hoxasnnemwamrt6r6uoprrtrw7rmjm/10.json",
+        "ipfs_hash": "bafybeiagljc3nrl6ioe5urgvopf5hoxasnnemwamrt6r6uoprrtrw7rmjm"
+      },
+      {
+        "contract": "0xf83119c353ce05f297ed0d1772944c12baf56118",
+        "token_id": "121",
+        "uri": "ipfs://QmQpgc5VKqA8evqfoQ2hXJY2dWwn8wqGjhU17Gjju3qPi4/metadata.json",
+        "ipfs_hash": "QmQpgc5VKqA8evqfoQ2hXJY2dWwn8wqGjhU17Gjju3qPi4"
+      }
+    ],
+    "metadata_analyzed": [],
+    "debug_info": {
+      "nft_transfers_count": 93,
+      "contracts_found": 10,
+      "tokens_checked": 26,
+      "uris_found": 20,
+      "ipfs_hashes_extracted": 2,
+      "metadata_fetched": 0
+    },
+    "findings": {
+      "total_hashes": 2,
+      "unique_hashes": [
+        "bafybeiagljc3nrl6ioe5urgvopf5hoxasnnemwamrt6r6uoprrtrw7rmjm",
+        "QmQpgc5VKqA8evqfoQ2hXJY2dWwn8wqGjhU17Gjju3qPi4"
+      ],
+      "linked_urls": [],
+      "usernames": [],
+      "emails": [],
+      "social_links": [],
+      "timestamps": [],
+      "creators": [],
+      "collections": [],
+      "domains": [
+        "api.illuminatiowlsnft.xyz",
+        "api.illuminatipepe.top",
+        "api.cryptoqutiesnft.xyz",
+        "api.wardenswap.xyz",
+        "api.tinybonesnfts.xyz",
+        "ifscdjs.com"
+      ],
+      "domain_analysis": {
+        "ifscdjs.com": {
+          "domain": "ifscdjs.com",
+          "is_ipfs": false,
+          "is_centralized": true,
+          "scam_indicators": [],
+          "reputation": "unknown",
+          "whois_info": null
+        },
+        "api.cryptoqutiesnft.xyz": {
+          "domain": "api.cryptoqutiesnft.xyz",
+          "is_ipfs": false,
+          "is_centralized": true,
+          "scam_indicators": [
+            "Suspicious TLD: .xyz"
+          ],
+          "reputation": "suspicious",
+          "whois_info": null
+        },
+        "api.illuminatiowlsnft.xyz": {
+          "domain": "api.illuminatiowlsnft.xyz",
+          "is_ipfs": false,
+          "is_centralized": true,
+          "scam_indicators": [
+            "Suspicious TLD: .xyz"
+          ],
+          "reputation": "suspicious",
+          "whois_info": null
+        },
+        "api.wardenswap.xyz": {
+          "domain": "api.wardenswap.xyz",
+          "is_ipfs": false,
+          "is_centralized": true,
+          "scam_indicators": [
+            "Suspicious TLD: .xyz"
+          ],
+          "reputation": "suspicious",
+          "whois_info": null
+        },
+        "api.illuminatipepe.top": {
+          "domain": "api.illuminatipepe.top",
+          "is_ipfs": false,
+          "is_centralized": true,
+          "scam_indicators": [
+            "Suspicious TLD: .top"
+          ],
+          "reputation": "suspicious",
+          "whois_info": null
+        },
+        "api.tinybonesnfts.xyz": {
+          "domain": "api.tinybonesnfts.xyz",
+          "is_ipfs": false,
+          "is_centralized": true,
+          "scam_indicators": [
+            "Suspicious TLD: .xyz"
+          ],
+          "reputation": "suspicious",
+          "whois_info": null
+        }
+      },
+      "metadata_urls": [
+        {
+          "contract": "0x8da874330fd513fd4f3241fd2dad55d2fdbc5dbd",
+          "token_id": "80",
+          "uri": "https://ifscdjs.com/0x9350D38bD0BFB78deAcCb2cfC0454d2b2f3e3b73/80"
+        },
+        {
+          "contract": "0x2bf1aea13ab81423ccc16de6fb45462e60f5a88c",
+          "token_id": "10",
+          "uri": "ipfs://bafybeiagljc3nrl6ioe5urgvopf5hoxasnnemwamrt6r6uoprrtrw7rmjm/10.json"
+        },
+        {
+          "contract": "0xf83119c353ce05f297ed0d1772944c12baf56118",
+          "token_id": "121",
+          "uri": "ipfs://QmQpgc5VKqA8evqfoQ2hXJY2dWwn8wqGjhU17Gjju3qPi4/metadata.json"
+        },
+        {
+          "contract": "0x727132c902218131c5e511f2f55b26f25a938fe1",
+          "token_id": "32",
+          "uri": "http://api.cryptoqutiesnft.xyz/ipfs/32"
+        },
+        {
+          "contract": "0x727132c902218131c5e511f2f55b26f25a938fe1",
+          "token_id": "73",
+          "uri": "http://api.cryptoqutiesnft.xyz/ipfs/73"
+        },
+        {
+          "contract": "0x727132c902218131c5e511f2f55b26f25a938fe1",
+          "token_id": "71",
+          "uri": "http://api.cryptoqutiesnft.xyz/ipfs/71"
+        },
+        {
+          "contract": "0x727132c902218131c5e511f2f55b26f25a938fe1",
+          "token_id": "51",
+          "uri": "http://api.cryptoqutiesnft.xyz/ipfs/51"
+        },
+        {
+          "contract": "0x727132c902218131c5e511f2f55b26f25a938fe1",
+          "token_id": "72",
+          "uri": "http://api.cryptoqutiesnft.xyz/ipfs/72"
+        },
+        {
+          "contract": "0xc450362d646f42327050ff3521fc2061b34a6a0d",
+          "token_id": "3",
+          "uri": "http://api.illuminatiowlsnft.xyz/ipfs/3"
+        },
+        {
+          "contract": "0xc450362d646f42327050ff3521fc2061b34a6a0d",
+          "token_id": "1",
+          "uri": "http://api.illuminatiowlsnft.xyz/ipfs/1"
+        },
+        {
+          "contract": "0xc450362d646f42327050ff3521fc2061b34a6a0d",
+          "token_id": "2",
+          "uri": "http://api.illuminatiowlsnft.xyz/ipfs/2"
+        },
+        {
+          "contract": "0xf54b166b66d9113a40ae55a4fea30bb806cdb23d",
+          "token_id": "32",
+          "uri": "http://api.wardenswap.xyz/ipfs/32"
+        },
+        {
+          "contract": "0xf54b166b66d9113a40ae55a4fea30bb806cdb23d",
+          "token_id": "31",
+          "uri": "http://api.wardenswap.xyz/ipfs/31"
+        },
+        {
+          "contract": "0xf54b166b66d9113a40ae55a4fea30bb806cdb23d",
+          "token_id": "33",
+          "uri": "http://api.wardenswap.xyz/ipfs/33"
+        },
+        {
+          "contract": "0x72e07e22f7639365be1536fbaf49daa01d1f99b5",
+          "token_id": "55",
+          "uri": "http://api.illuminatipepe.top/ipfs/55"
+        },
+        {
+          "contract": "0x72e07e22f7639365be1536fbaf49daa01d1f99b5",
+          "token_id": "53",
+          "uri": "http://api.illuminatipepe.top/ipfs/53"
+        },
+        {
+          "contract": "0x72e07e22f7639365be1536fbaf49daa01d1f99b5",
+          "token_id": "54",
+          "uri": "http://api.illuminatipepe.top/ipfs/54"
+        },
+        {
+          "contract": "0x2c906bb58e6f083b4322cd9ad72feb0e93016137",
+          "token_id": "14",
+          "uri": "http://api.tinybonesnfts.xyz/ipfs/14"
+        },
+        {
+          "contract": "0x2c906bb58e6f083b4322cd9ad72feb0e93016137",
+          "token_id": "13",
+          "uri": "http://api.tinybonesnfts.xyz/ipfs/13"
+        },
+        {
+          "contract": "0x2c906bb58e6f083b4322cd9ad72feb0e93016137",
+          "token_id": "15",
+          "uri": "http://api.tinybonesnfts.xyz/ipfs/15"
+        }
+      ]
+    }
+  },
+  "ens": {
+    "address": "0x0d0707963952f2fba59dd06f2b425ace40b492fe",
+    "ens_name": null,
+    "text_records": {},
+    "social_links": {},
+    "has_ens": false,
+    "has_social_links": false
+  },
+  "approval_risk": {
+    "scan_timestamp": "2026-01-26T15:00:52.732577+00:00",
+    "total_approvals": 0,
+    "unlimited_approvals": 0,
+    "high_risk_approvals": 0,
+    "total_exposure_usd": 0,
+    "verdicts": [],
+    "has_dangerous_approvals": false
+  },
+  "funding_trace": {
+    "target": "0x0d0707963952f2fba59dd06f2b425ace40b492fe",
+    "trace_timestamp": "2026-01-26T15:00:21.224923+00:00",
+    "total_hops": 0,
+    "origin_found": true,
+    "origin_type": "exchange",
+    "origin_label": "Gate.io",
+    "trace_complete": true,
+    "trace_stopped_reason": null,
+    "funding_chain": []
+  },
+  "token_risks": {
+    "scan_timestamp": "2026-01-26T15:00:53.457247+00:00",
+    "tokens_analyzed": 0,
+    "risky_tokens": 0,
+    "total_value_at_risk_usd": 0,
+    "has_risky_tokens": false,
+    "verdicts": [],
+    "honeypots_detected": 0,
+    "impersonators_detected": 0
+  },
+  "verdicts": [
+    {
+      "title": "ON FRESH WHALE LIST",
+      "severity": "CRITICAL",
+      "category": "THREAT",
+      "description": "Brand new wallet (0 days old) with $20,275,756 is being targeted by 5 different scam campaigns. This indicates the wallet address is on a 'fresh whale' list being sold to multiple attacker groups. Attackers know this wallet exists and have its address.",
+      "evidence": [
+        "Wallet age: 0 days",
+        "Balance: $20,275,756",
+        "5 scam campaigns detected",
+        "Multiple attacker groups targeting same wallet",
+        "Address likely leaked from exchange or tracked via mempool"
+      ],
+      "action": "This wallet is being actively monitored by scammers - high-value target"
+    },
+    {
+      "title": "CARPET BOMBING SCAM CAMPAIGN",
+      "severity": "HIGH",
+      "category": "THREAT",
+      "description": "Wallet is being carpet bombed with 5 different scam NFT campaigns. Attackers have identified this wallet and are coordinating multiple phishing attempts. This pattern indicates the wallet is on a 'fresh whale' list being sold to scammers.",
+      "evidence": [
+        "5 suspicious domains detected",
+        "Multiple coordinated phishing campaigns",
+        "Wallet is on attacker radar",
+        "Likely on a 'fresh whale' list being sold",
+        "Domain: api.illuminatiowlsnft.xyz",
+        "Domain: api.illuminatipepe.top",
+        "Domain: api.cryptoqutiesnft.xyz",
+        "Domain: api.wardenswap.xyz",
+        "Domain: api.tinybonesnfts.xyz"
+      ],
+      "action": "High-priority target - multiple attacker groups know about this wallet"
+    },
+    {
+      "title": "SUSPICIOUS NFT AIRDROP",
+      "severity": "HIGH",
+      "category": "THREAT",
+      "description": "This wallet received an NFT from suspicious domain 'api.illuminatiowlsnft.xyz'. Likely a phishing or scam attempt.",
+      "evidence": [
+        "Suspicious TLD: .xyz"
+      ],
+      "action": "Investigate domain before any interaction"
+    },
+    {
+      "title": "SUSPICIOUS NFT AIRDROP",
+      "severity": "HIGH",
+      "category": "THREAT",
+      "description": "This wallet received an NFT from suspicious domain 'api.illuminatipepe.top'. Likely a phishing or scam attempt.",
+      "evidence": [
+        "Suspicious TLD: .top"
+      ],
+      "action": "Investigate domain before any interaction"
+    },
+    {
+      "title": "SUSPICIOUS NFT AIRDROP",
+      "severity": "HIGH",
+      "category": "THREAT",
+      "description": "This wallet received an NFT from suspicious domain 'api.cryptoqutiesnft.xyz'. Likely a phishing or scam attempt.",
+      "evidence": [
+        "Suspicious TLD: .xyz"
+      ],
+      "action": "Investigate domain before any interaction"
+    },
+    {
+      "title": "SUSPICIOUS NFT AIRDROP",
+      "severity": "HIGH",
+      "category": "THREAT",
+      "description": "This wallet received an NFT from suspicious domain 'api.wardenswap.xyz'. Likely a phishing or scam attempt.",
+      "evidence": [
+        "Suspicious TLD: .xyz"
+      ],
+      "action": "Investigate domain before any interaction"
+    },
+    {
+      "title": "SUSPICIOUS NFT AIRDROP",
+      "severity": "HIGH",
+      "category": "THREAT",
+      "description": "This wallet received an NFT from suspicious domain 'api.tinybonesnfts.xyz'. Likely a phishing or scam attempt.",
+      "evidence": [
+        "Suspicious TLD: .xyz"
+      ],
+      "action": "Investigate domain before any interaction"
+    },
+    {
+      "title": "NFT COLLECTOR PROFILE",
+      "severity": "MEDIUM",
+      "category": "PROFILE",
+      "description": "Wallet shows strong NFT activity with significant holdings. Potential social identity vector through NFT metadata.",
+      "evidence": [
+        "Matched 3/4 signals",
+        "Pattern: nft_collector",
+        "Confidence: 75%",
+        "Signal: balance_usd",
+        "Signal: tx_frequency",
+        "Signal: defi_protocols_count"
+      ],
+      "action": "Investigate NFT metadata for OSINT"
+    },
+    {
+      "title": "NO EXCHANGE TRAIL",
+      "severity": "MEDIUM",
+      "category": "INTEL",
+      "description": "Large holder with no detected CEX interactions. Funds origin harder to trace. May be privacy-conscious or using DEX only.",
+      "evidence": [
+        "Matched 3/3 signals",
+        "Pattern: no_exchange_trail",
+        "Confidence: 100%",
+        "Signal: exchange_interactions",
+        "Signal: balance_usd",
+        "Signal: tx_count"
+      ],
+      "action": "Trace funding source through on-chain analysis"
+    },
+    {
+      "title": "HTTP PROTOCOL USAGE",
+      "severity": "MEDIUM",
+      "category": "THREAT",
+      "description": "Found 17 metadata URLs using HTTP instead of HTTPS. Legitimate NFT projects use HTTPS. HTTP indicates lazy scammers or intentional security bypass.",
+      "evidence": [
+        "17 HTTP URLs detected",
+        "Legitimate projects use HTTPS",
+        "HTTP = scam indicator or lazy attacker",
+        "URL: http://api.cryptoqutiesnft.xyz/ipfs/32...",
+        "URL: http://api.cryptoqutiesnft.xyz/ipfs/73...",
+        "URL: http://api.cryptoqutiesnft.xyz/ipfs/71..."
+      ],
+      "action": "HTTP URLs are highly suspicious - likely scam infrastructure"
+    }
+  ]
+}

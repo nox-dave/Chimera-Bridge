@@ -4,20 +4,20 @@
   "address": "0x49048044D57e1C92A77f79988d21Fa8fAF74E97e",
   "chain": "Ethereum",
   "category": "Bridge",
-  "tvl": 6538186273.795464,
-  "tvl_formatted": "$6,538,186,274",
+  "tvl": 6431535408.531618,
+  "tvl_formatted": "$6,431,535,409",
   "is_audited": false,
   "priority_score": 90,
-  "scanned_at": "2026-01-22T19:32:58.601909",
+  "scanned_at": "2026-01-26T15:49:04.183967",
   "verdicts": [
     {
       "title": "UNAUDITED HIGH-TVL PROTOCOL",
       "severity": "CRITICAL",
       "category": "TRUST",
-      "description": "Protocol has $6,538,186,274 TVL without documented audit",
+      "description": "Protocol has $6,431,535,409 TVL without documented audit",
       "evidence": [
         "No audit links found",
-        "TVL: $6,538,186,274"
+        "TVL: $6,431,535,409"
       ],
       "action": "Priority target for vulnerability analysis"
     },
@@ -37,7 +37,7 @@
       "category": "INTEL",
       "description": "Protocol holds over $10M in TVL",
       "evidence": [
-        "TVL: $6,538,186,274"
+        "TVL: $6,431,535,409"
       ],
       "action": "High-value target if vulnerable"
     }

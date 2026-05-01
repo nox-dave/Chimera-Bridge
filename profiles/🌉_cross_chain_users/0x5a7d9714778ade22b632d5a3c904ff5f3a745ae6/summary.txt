@@ -4,7 +4,7 @@
 ╚══════════════════════════════════════════════════════════════════════════════╝
 
 Target:     0x5a7d9714778ade22b632d5a3c904ff5f3a745ae6
-Generated:  2026-01-20 17:15:09 UTC
+Generated:  2026-01-26 15:57:29 UTC
 
 ┌──────────────────────────────────────────────────────────────────────────────┐
 │                               QUICK ASSESSMENT                               │
@@ -17,9 +17,9 @@ Generated:  2026-01-20 17:15:09 UTC
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 💰 FINANCIAL SUMMARY
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  Total Portfolio Value:  $               27.71
+  Total Portfolio Value:  $               26.62
   ETH Balance:                          0.0091 ETH
-  ETH Value:              $               27.71
+  ETH Value:              $               26.62
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 📊 ACTIVITY METRICS
@@ -27,7 +27,7 @@ Generated:  2026-01-20 17:15:09 UTC
   Transaction Count:                       454
   Total ETH Moved:                        2.96 ETH
   Avg Transaction:                      0.0293 ETH
-  Wallet Age:                              166 days
+  Wallet Age:                              172 days
   First Transaction:                2025-08-06
   Last Transaction:                 2025-10-22
 
@@ -50,19 +50,19 @@ Generated:  2026-01-20 17:15:09 UTC
 🔧 PROTOCOL & PLATFORM USAGE
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
   DeFi Protocols:
+    ✓ SushiSwap
+    ✓ Uniswap Universal Router 2
+    ✓ Metamask Swap Router
     ✓ Uniswap V3
-    ✓ Uniswap V2
     ✓ WETH Contract
     ✓ Compound
-    ✓ SushiSwap
-    ✓ Metamask Swap Router
 
   NFT Platforms:          None detected
 
   Cross-Chain Bridges:
+    ✓ Arbitrum Inbox
     ✓ Optimism Bridge
     ✓ Wormhole
-    ✓ Arbitrum Inbox
     ✓ Polygon Bridge
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━

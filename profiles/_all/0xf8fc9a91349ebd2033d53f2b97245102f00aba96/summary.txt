@@ -4,7 +4,7 @@
 ╚══════════════════════════════════════════════════════════════════════════════╝
 
 Target:     0xf8fc9a91349ebd2033d53f2b97245102f00aba96
-Generated:  2026-01-20 17:15:01 UTC
+Generated:  2026-01-26 15:57:21 UTC
 
 ┌──────────────────────────────────────────────────────────────────────────────┐
 │                               QUICK ASSESSMENT                               │
@@ -17,19 +17,19 @@ Generated:  2026-01-20 17:15:01 UTC
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 💰 FINANCIAL SUMMARY
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  Total Portfolio Value:  $               18.27
-  ETH Balance:                          0.0060 ETH
-  ETH Value:              $               18.27
+  Total Portfolio Value:  $               25.24
+  ETH Balance:                          0.0087 ETH
+  ETH Value:              $               25.24
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 📊 ACTIVITY METRICS
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
   Transaction Count:                       500
-  Total ETH Moved:                        0.01 ETH
-  Avg Transaction:                      0.0000 ETH
-  Wallet Age:                               41 days
-  First Transaction:                2025-12-10
-  Last Transaction:                 2026-01-09
+  Total ETH Moved:                        0.03 ETH
+  Avg Transaction:                      0.0001 ETH
+  Wallet Age:                               46 days
+  First Transaction:                2025-12-11
+  Last Transaction:                 2026-01-21
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 🧠 BEHAVIORAL PROFILE
@@ -68,8 +68,8 @@ Generated:  2026-01-20 17:15:01 UTC
                           0xacb31853dd2e89609f4aee741f51952e5eda680d...
 
   Exchange Interactions:
-    • Binance 7
     • Binance 8
+    • Binance 7
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 🎯 SIGNAL ANALYSIS

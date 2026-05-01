@@ -1,0 +1,538 @@
+{
+  "address": "0x05acebb48d35b6108ee15e84c956ae65f9676a01",
+  "discovered_at": "2026-01-26T14:59:06.765105+00:00",
+  "total_value_usd": 79.01030323681854,
+  "eth_balance": 0.02703391720326288,
+  "eth_value_usd": 79.01030323681854,
+  "token_holdings": {},
+  "risk_score": 80,
+  "tx_count": 66,
+  "defi_activity": true,
+  "nft_activity": {
+    "unique_collections": 5,
+    "top_collections": [
+      [
+        "HychainNodeKey",
+        17
+      ],
+      [
+        "TOPIA Worlds",
+        12
+      ],
+      [
+        "Zerion DNA 1.0",
+        1
+      ],
+      [
+        "UMG_Collection",
+        1
+      ],
+      [
+        "Ethereum Name Service",
+        1
+      ]
+    ],
+    "collection_addresses": {
+      "0x932261f9fc8da46c4a22e31b45c4de60623848bf": 1,
+      "0x8d9710f0e193d3f95c0723eaaf1a81030dc9116d": 12,
+      "0xb40cdd7599d8f52c48f29e10cfbf24918c85f7cc": 17,
+      "0xeadff826d532db453b74af636b04232388e7bf0e": 1,
+      "0x57f1887a8bf19b14fc0df6fd9b2acc9af147ea85": 1
+    }
+  },
+  "bridge_activity": true,
+  "age_days": 1109,
+  "osint_categories": [
+    "\ud83c\udfc6_status_seekers",
+    "\ud83c\udf09_cross_chain_users",
+    "\ud83e\udde0_defi_natives"
+  ],
+  "primary_osint_category": "\ud83c\udfc6_status_seekers",
+  "behavior": {
+    "confidence_score": 80,
+    "sophistication": "Advanced",
+    "risk_tolerance": "Moderate-Aggressive",
+    "trading_style": "NFT Collector",
+    "likely_region": "Europe",
+    "likely_timezone": "Europe/Africa (UTC+0 to +3)",
+    "meme_exposure": false,
+    "defi_protocols": [
+      "Uniswap Universal Router",
+      "Uniswap Universal Router 2"
+    ],
+    "nft_platforms": [
+      "OpenSea Seaport 1.6"
+    ],
+    "bridges_used": [
+      "Optimism Bridge",
+      "Arbitrum Inbox",
+      "Polygon Bridge"
+    ],
+    "exchange_interactions": [
+      "Binance 15"
+    ],
+    "frequent_counterparties": []
+  },
+  "transaction_analysis": {
+    "total_transactions": 66,
+    "total_value_eth": 67.53775920211096,
+    "most_active_hour": 17,
+    "most_active_day": "Tuesday",
+    "top_recipients": [
+      [
+        "0x05acebb48d35b6108ee15e84c956ae65f9676a01",
+        9
+      ],
+      [
+        "0x2f53e033c55eb6c87cea259123c0a68ca3578426",
+        8
+      ],
+      [
+        "0x3fc91a3afd70395cd496c647d5a6cc9d4b2b7fad",
+        4
+      ],
+      [
+        "0x0389e24a4bc96518169f83f50fcdda442dd8eafd",
+        4
+      ],
+      [
+        "0x68749665ff8d2d112fa859aa293f07a622782f38",
+        3
+      ],
+      [
+        "0xba3cb449bd2b4adddbc894d8697f5170800eadec",
+        3
+      ],
+      [
+        "0xa0c68c638235ee32657e8f720a23cec1bfc77c77",
+        3
+      ],
+      [
+        "0x0000000000a39bb272e79075ade125fd351887ac",
+        3
+      ],
+      [
+        "0x99c9fc46f92e8a1c0dec1b1747d010903e884be1",
+        3
+      ],
+      [
+        "0x49048044d57e1c92a77f79988d21fa8faf74e97e",
+        2
+      ]
+    ],
+    "top_senders": [
+      [
+        "0x05acebb48d35b6108ee15e84c956ae65f9676a01",
+        57
+      ],
+      [
+        "0xbad6a7e839e5da704a3e597fe71eb9d16071d39d",
+        2
+      ],
+      [
+        "0xbad37bfa2a1388735d2602dfffac2dc936ed139d",
+        2
+      ],
+      [
+        "0xbad7639ddec580f338bf5c533affabc87c7dd39d",
+        1
+      ],
+      [
+        "0xbad6af20405e3f35742eef7d3995bec06419139d",
+        1
+      ],
+      [
+        "0xf397addecdc5915478d50c01be92b50be2fd0898",
+        1
+      ],
+      [
+        "0x21a31ee1afc51d94c2efccaa2092ad1028285549",
+        1
+      ],
+      [
+        "0x46340b20830761efd32832a74d7169b29feb9758",
+        1
+      ]
+    ],
+    "first_transaction": "2023-01-12T16:49:23",
+    "last_transaction": "2026-01-26T15:05:59",
+    "avg_gas_used": 114327.78787878787,
+    "avg_gas_price": 17855712215.773827
+  },
+  "token_activity": {
+    "unique_tokens": 16,
+    "top_tokens": [
+      [
+        "TOPIA",
+        16
+      ],
+      [
+        "XAUt",
+        6
+      ],
+      [
+        "Blur Pool",
+        3
+      ],
+      [
+        "ETH",
+        2
+      ],
+      [
+        "SNX",
+        2
+      ],
+      [
+        "XSGD",
+        2
+      ],
+      [
+        "USDC",
+        1
+      ],
+      [
+        "CAT",
+        1
+      ],
+      [
+        "xAI",
+        1
+      ],
+      [
+        "E\ua4d4H",
+        1
+      ],
+      [
+        "\u4ee5\u592a\u4eba\u751f",
+        1
+      ],
+      [
+        "\u4ee5\u592aAI",
+        1
+      ],
+      [
+        "BUN",
+        1
+      ],
+      [
+        "FUKIFUKI",
+        1
+      ],
+      [
+        "ETHG",
+        1
+      ],
+      [
+        "Visit https://get-usdc.org to claim rewards",
+        1
+      ]
+    ],
+    "token_values": {
+      "USDC": 9437.663214,
+      "ETH": 6.541262941817746,
+      "CAT": 1.0,
+      "XAUt": 5.286486,
+      "xAI": 10.0,
+      "E\ua4d4H": 4.541262941817746,
+      "\u4ee5\u592a\u4eba\u751f": 5.0,
+      "\u4ee5\u592aAI": 5.0,
+      "BUN": 5.0,
+      "TOPIA": 695213.0944847425,
+      "SNX": 2115.802,
+      "FUKIFUKI": 23275910462.19394,
+      "ETHG": 2000000.0,
+      "Blur Pool": 12.0,
+      "Visit https://get-usdc.org to claim rewards": 3999.9900000000002,
+      "XSGD": 5992.72
+    },
+    "token_details": {
+      "USDC": [
+        "USDC"
+      ],
+      "ETH": [
+        "ETH",
+        "Ethereum"
+      ],
+      "CAT": [
+        "Trump Cat"
+      ],
+      "XAUt": [
+        "Tether Gold"
+      ],
+      "xAI": [
+        "xAI"
+      ],
+      "E\ua4d4H": [
+        "E\ua4d4H"
+      ],
+      "\u4ee5\u592a\u4eba\u751f": [
+        "\u4ee5\u592a\u4eba\u751f"
+      ],
+      "\u4ee5\u592aAI": [
+        "\u4ee5\u592aAI"
+      ],
+      "BUN": [
+        "BUN"
+      ],
+      "TOPIA": [
+        "TOPIA"
+      ],
+      "SNX": [
+        "Synthetix Network Token"
+      ],
+      "FUKIFUKI": [
+        "Chinese Fuku-Kun"
+      ],
+      "ETHG": [
+        "Ethereum Games"
+      ],
+      "Blur Pool": [
+        "Blur Pool"
+      ],
+      "Visit https://get-usdc.org to claim rewards": [
+        "# get-usdc.org"
+      ],
+      "XSGD": [
+        "XSGD"
+      ]
+    }
+  },
+  "ipfs_osint": {
+    "address": "0x05acebb48d35b6108ee15e84c956ae65f9676a01",
+    "ipfs_hashes_found": [
+      {
+        "contract": "0x8d9710f0e193d3f95c0723eaaf1a81030dc9116d",
+        "token_id": "8054",
+        "uri": "ipfs://QmVLmSGW6ZBVfVWTmimgp9gpWvRVJXGFVpRqk4k4e7RmfP/8054",
+        "ipfs_hash": "QmVLmSGW6ZBVfVWTmimgp9gpWvRVJXGFVpRqk4k4e7RmfP"
+      },
+      {
+        "contract": "0x8d9710f0e193d3f95c0723eaaf1a81030dc9116d",
+        "token_id": "9627",
+        "uri": "ipfs://QmVLmSGW6ZBVfVWTmimgp9gpWvRVJXGFVpRqk4k4e7RmfP/9627",
+        "ipfs_hash": "QmVLmSGW6ZBVfVWTmimgp9gpWvRVJXGFVpRqk4k4e7RmfP"
+      },
+      {
+        "contract": "0x8d9710f0e193d3f95c0723eaaf1a81030dc9116d",
+        "token_id": "1386",
+        "uri": "ipfs://QmVLmSGW6ZBVfVWTmimgp9gpWvRVJXGFVpRqk4k4e7RmfP/1386",
+        "ipfs_hash": "QmVLmSGW6ZBVfVWTmimgp9gpWvRVJXGFVpRqk4k4e7RmfP"
+      },
+      {
+        "contract": "0x8d9710f0e193d3f95c0723eaaf1a81030dc9116d",
+        "token_id": "3814",
+        "uri": "ipfs://QmVLmSGW6ZBVfVWTmimgp9gpWvRVJXGFVpRqk4k4e7RmfP/3814",
+        "ipfs_hash": "QmVLmSGW6ZBVfVWTmimgp9gpWvRVJXGFVpRqk4k4e7RmfP"
+      },
+      {
+        "contract": "0x8d9710f0e193d3f95c0723eaaf1a81030dc9116d",
+        "token_id": "692",
+        "uri": "ipfs://QmVLmSGW6ZBVfVWTmimgp9gpWvRVJXGFVpRqk4k4e7RmfP/692",
+        "ipfs_hash": "QmVLmSGW6ZBVfVWTmimgp9gpWvRVJXGFVpRqk4k4e7RmfP"
+      }
+    ],
+    "metadata_analyzed": [
+      {
+        "contract": "0x932261f9fc8da46c4a22e31b45c4de60623848bf",
+        "token_id": "411141",
+        "analysis": {
+          "name": "#411141",
+          "description": "Zerion DNA is a first of a kind Dynamic NFT Avatar \u2013 a generative, living NFT that evolves over time to reflect your digital identity. Every wallet action renders unique attributes so that no two NFTs are alike. Wallet actions that will cause the NFT to evolve include buying and selling tokens, interacting with different networks and exploring the Zerion app.\n\nTo claim your DNA, create a Zerion Wallet via our Zerion iOS and Android apps.",
+          "image": "https://zerion-dna.s3.us-east-1.amazonaws.com/onepointo/3628edbc8b1fd3cdff27014e50d7899bd945f22f.png",
+          "external_url": "https://app.zerion.io/nfts/0x932261f9fc8da46c4a22e31b45c4de60623848bf:411141",
+          "attributes": [
+            {
+              "trait_type": "Age",
+              "value": "2 weeks"
+            },
+            {
+              "trait_type": "Gas Spend",
+              "value": "$0\u2013$50"
+            },
+            {
+              "display_type": "number",
+              "trait_type": "Transactions",
+              "value": 1
+            },
+            {
+              "trait_type": "Balance",
+              "value": "$1,000\u2013$10,000"
+            },
+            {
+              "display_type": "number",
+              "trait_type": "Assets",
+              "value": 10
+            },
+            {
+              "trait_type": "Favorite Network",
+              "value": "Ethereum"
+            },
+            {
+              "trait_type": "Body",
+              "value": "Level 1"
+            },
+            {
+              "trait_type": "Background",
+              "value": "Level 1"
+            }
+          ],
+          "properties": {},
+          "creator": {},
+          "artist": "",
+          "collection": {},
+          "ipfs_hashes": [],
+          "linked_urls": [
+            "https://app.zerion.io/nfts/0x932261f9fc8da46c4a22e31b45c4de60623848bf:411141",
+            "https://zerion-dna-mini.s3.us-east-1.amazonaws.com/onepointo/3fd93a842cd345ad7799642e21fdfbaa97346e42.270x270.png",
+            "https://zerion-dna.s3.us-east-1.amazonaws.com/onepointo/3628edbc8b1fd3cdff27014e50d7899bd945f22f.png"
+          ],
+          "timestamps": [],
+          "usernames": [],
+          "emails": [],
+          "social_links": []
+        },
+        "source": "https",
+        "domain": "dna.zerion.io"
+      }
+    ],
+    "debug_info": {
+      "nft_transfers_count": 32,
+      "contracts_found": 5,
+      "tokens_checked": 13,
+      "uris_found": 7,
+      "ipfs_hashes_extracted": 5,
+      "metadata_fetched": 1
+    },
+    "findings": {
+      "total_hashes": 1,
+      "unique_hashes": [
+        "QmVLmSGW6ZBVfVWTmimgp9gpWvRVJXGFVpRqk4k4e7RmfP"
+      ],
+      "linked_urls": [
+        "https://app.zerion.io/nfts/0x932261f9fc8da46c4a22e31b45c4de60623848bf:411141",
+        "https://zerion-dna-mini.s3.us-east-1.amazonaws.com/onepointo/3fd93a842cd345ad7799642e21fdfbaa97346e42.270x270.png",
+        "https://zerion-dna.s3.us-east-1.amazonaws.com/onepointo/3628edbc8b1fd3cdff27014e50d7899bd945f22f.png"
+      ],
+      "usernames": [],
+      "emails": [],
+      "social_links": [],
+      "timestamps": [],
+      "creators": [],
+      "collections": [],
+      "domains": [
+        "alpha.centaurify.io",
+        "dna.zerion.io"
+      ],
+      "domain_analysis": {
+        "dna.zerion.io": {
+          "domain": "dna.zerion.io",
+          "is_ipfs": false,
+          "is_centralized": true,
+          "scam_indicators": [],
+          "reputation": "unknown",
+          "whois_info": null
+        },
+        "alpha.centaurify.io": {
+          "domain": "alpha.centaurify.io",
+          "is_ipfs": false,
+          "is_centralized": true,
+          "scam_indicators": [],
+          "reputation": "unknown",
+          "whois_info": null
+        }
+      },
+      "metadata_urls": [
+        {
+          "contract": "0x932261f9fc8da46c4a22e31b45c4de60623848bf",
+          "token_id": "411141",
+          "uri": "https://dna.zerion.io/api/v1/avatars/onepointo/411141"
+        },
+        {
+          "contract": "0x8d9710f0e193d3f95c0723eaaf1a81030dc9116d",
+          "token_id": "8054",
+          "uri": "ipfs://QmVLmSGW6ZBVfVWTmimgp9gpWvRVJXGFVpRqk4k4e7RmfP/8054"
+        },
+        {
+          "contract": "0x8d9710f0e193d3f95c0723eaaf1a81030dc9116d",
+          "token_id": "9627",
+          "uri": "ipfs://QmVLmSGW6ZBVfVWTmimgp9gpWvRVJXGFVpRqk4k4e7RmfP/9627"
+        },
+        {
+          "contract": "0x8d9710f0e193d3f95c0723eaaf1a81030dc9116d",
+          "token_id": "1386",
+          "uri": "ipfs://QmVLmSGW6ZBVfVWTmimgp9gpWvRVJXGFVpRqk4k4e7RmfP/1386"
+        },
+        {
+          "contract": "0x8d9710f0e193d3f95c0723eaaf1a81030dc9116d",
+          "token_id": "3814",
+          "uri": "ipfs://QmVLmSGW6ZBVfVWTmimgp9gpWvRVJXGFVpRqk4k4e7RmfP/3814"
+        },
+        {
+          "contract": "0x8d9710f0e193d3f95c0723eaaf1a81030dc9116d",
+          "token_id": "692",
+          "uri": "ipfs://QmVLmSGW6ZBVfVWTmimgp9gpWvRVJXGFVpRqk4k4e7RmfP/692"
+        },
+        {
+          "contract": "0xeadff826d532db453b74af636b04232388e7bf0e",
+          "token_id": "1974",
+          "uri": "https://alpha.centaurify.io/artists/umg/collections/the-universal-collection/nfts/1974"
+        }
+      ]
+    }
+  },
+  "ens": {
+    "address": "0x05acebb48d35b6108ee15e84c956ae65f9676a01",
+    "ens_name": "05ace.eth",
+    "text_records": {},
+    "social_links": {},
+    "has_ens": true,
+    "has_social_links": false
+  },
+  "approval_risk": {
+    "scan_timestamp": "2026-01-26T14:59:25.689039+00:00",
+    "total_approvals": 0,
+    "unlimited_approvals": 0,
+    "high_risk_approvals": 0,
+    "total_exposure_usd": 0,
+    "verdicts": [],
+    "has_dangerous_approvals": false
+  },
+  "funding_trace": {
+    "target": "0x05acebb48d35b6108ee15e84c956ae65f9676a01",
+    "trace_timestamp": "2026-01-26T14:59:13.030651+00:00",
+    "total_hops": 0,
+    "origin_found": false,
+    "origin_type": null,
+    "origin_label": null,
+    "trace_complete": false,
+    "trace_stopped_reason": "No funding transaction found",
+    "funding_chain": []
+  },
+  "token_risks": {
+    "scan_timestamp": "2026-01-26T14:59:26.410275+00:00",
+    "tokens_analyzed": 0,
+    "risky_tokens": 0,
+    "total_value_at_risk_usd": 0,
+    "has_risky_tokens": false,
+    "verdicts": [],
+    "honeypots_detected": 0,
+    "impersonators_detected": 0
+  },
+  "verdicts": [
+    {
+      "title": "DORMANT WHALE",
+      "severity": "LOW",
+      "category": "PROFILE",
+      "description": "Old wallet with large balance but minimal recent activity. May be cold storage or abandoned.",
+      "evidence": [
+        "Matched 3/4 signals",
+        "Pattern: dormant_whale",
+        "Confidence: 75%",
+        "Signal: wallet_age_days",
+        "Signal: tx_frequency",
+        "Signal: tx_count"
+      ],
+      "action": "Low priority - minimal activity"
+    }
+  ]
+}

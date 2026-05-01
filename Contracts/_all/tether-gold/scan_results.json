@@ -1,16 +1,16 @@
 {
   "protocol_slug": "tether-gold",
-  "scanned_at": "2026-01-22T19:32:58.619034",
+  "scanned_at": "2026-01-26T15:49:04.204505",
   "priority_score": 80,
   "verdicts": [
     {
       "title": "UNAUDITED HIGH-TVL PROTOCOL",
       "severity": "CRITICAL",
       "category": "TRUST",
-      "description": "Protocol has $2,566,326,514 TVL without documented audit",
+      "description": "Protocol has $2,672,534,386 TVL without documented audit",
       "evidence": [
         "No audit links found",
-        "TVL: $2,566,326,514"
+        "TVL: $2,672,534,386"
       ],
       "action": "Priority target for vulnerability analysis"
     },
@@ -20,7 +20,7 @@
       "category": "INTEL",
       "description": "Protocol holds over $10M in TVL",
       "evidence": [
-        "TVL: $2,566,326,514"
+        "TVL: $2,672,534,386"
       ],
       "action": "High-value target if vulnerable"
     }

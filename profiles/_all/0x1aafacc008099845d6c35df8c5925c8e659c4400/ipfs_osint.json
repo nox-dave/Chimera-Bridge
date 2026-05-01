@@ -1,0 +1,177 @@
+{
+  "address": "0x1aafacc008099845d6c35df8c5925c8e659c4400",
+  "ipfs_hashes_found": [
+    {
+      "contract": "0x26d85a13212433fe6a8381969c2b0db390a0b0ae",
+      "token_id": "65661",
+      "uri": "ipfs://bafybeifsexiiy4rkwr62m3ha4zcrxfo3dnjlhqqxwezxhemz3os5vbww7m/metadata.json",
+      "ipfs_hash": "bafybeifsexiiy4rkwr62m3ha4zcrxfo3dnjlhqqxwezxhemz3os5vbww7m"
+    },
+    {
+      "contract": "0x5782bfff4a063db1e1fbb15941cbcb0bae6301a6",
+      "token_id": "140",
+      "uri": "ipfs://bafkreicyaol4miindelz5o5n4edy2gunbarxjnj3ceqau4ifa6hc6ugzlu",
+      "ipfs_hash": "bafkreicyaol4miindelz5o5n4edy2gunbarxjnj3ceqau4ifa6hc6ugzlu"
+    },
+    {
+      "contract": "0x925bb247497b32b66e8779be0b352258da478af1",
+      "token_id": "62",
+      "uri": "ipfs://QmZ9FcpfXuD99gTbbdbTgzCGUz7YJfR1dwNksxHaNET7an/62.json",
+      "ipfs_hash": "QmZ9FcpfXuD99gTbbdbTgzCGUz7YJfR1dwNksxHaNET7an"
+    },
+    {
+      "contract": "0x57c0fef5c08ad16424adba205d1b61869adeb519",
+      "token_id": "380",
+      "uri": "ipfs://QmdXUVdS1CtmfSmZ6FnsZgg3QTav4ucHpCedK61LkWqsMV/380.json",
+      "ipfs_hash": "QmdXUVdS1CtmfSmZ6FnsZgg3QTav4ucHpCedK61LkWqsMV"
+    },
+    {
+      "contract": "0xbd3e697058ee61edb4f0682c2609607b0f5d8b5d",
+      "token_id": "989",
+      "uri": "ipfs://bafybeib4d66fqc22rp56etvriicj4efppzften7ysgx7w3rtbj5figfnpe/989",
+      "ipfs_hash": "bafybeib4d66fqc22rp56etvriicj4efppzften7ysgx7w3rtbj5figfnpe"
+    },
+    {
+      "contract": "0xf2c1fbe56c6399a9eee374161d830cccddf5788d",
+      "token_id": "1187",
+      "uri": "ipfs://QmfJgfuwqrbcQmtUa5xi7sFhSj8LF7vshKHv3NHiMzYbaE/1187",
+      "ipfs_hash": "QmfJgfuwqrbcQmtUa5xi7sFhSj8LF7vshKHv3NHiMzYbaE"
+    },
+    {
+      "contract": "0x1dac0d4e3d7a35b9fbc6e88cb1134511143ec6f3",
+      "token_id": "661",
+      "uri": "ipfs://bafkreig3gzk3s3tzv54jcmdvyhtzyznkbbp6w42ky2i74jmp7y2sujq2wa",
+      "ipfs_hash": "bafkreig3gzk3s3tzv54jcmdvyhtzyznkbbp6w42ky2i74jmp7y2sujq2wa"
+    },
+    {
+      "contract": "0x85c11103e866672031ee84c472a4211818a1cd22",
+      "token_id": "4102",
+      "uri": "ipfs://QmXj1PrcsDx3tURgNLeFY1DL1vWC62G9CraAUuGRRDpnHX/4102.json",
+      "ipfs_hash": "QmXj1PrcsDx3tURgNLeFY1DL1vWC62G9CraAUuGRRDpnHX"
+    }
+  ],
+  "metadata_analyzed": [
+    {
+      "contract": "0x5782bfff4a063db1e1fbb15941cbcb0bae6301a6",
+      "token_id": "140",
+      "analysis": {
+        "name": "ROBOVERSE",
+        "description": "Revealing after Mint out!",
+        "image": "ipfs://bafybeihk6zo7ukk4p6sxyocufyx5az64px2wpbhqrbegwux7bxv5u4roaa",
+        "external_url": "",
+        "attributes": [],
+        "properties": {},
+        "creator": {},
+        "artist": "",
+        "collection": {},
+        "ipfs_hashes": [
+          "bafybeihk6zo7ukk4p6sxyocufyx5az64px2wpbhqrbegwux7bxv5u4roaa"
+        ],
+        "linked_urls": [],
+        "timestamps": [],
+        "usernames": [],
+        "emails": [],
+        "social_links": []
+      }
+    },
+    {
+      "contract": "0x1dac0d4e3d7a35b9fbc6e88cb1134511143ec6f3",
+      "token_id": "661",
+      "analysis": {
+        "name": "Beetle",
+        "description": "Get guaranteed rewards upto 1 ETH with airdrop. Visit our website [here](https://crazynftstudio.odoo.com/ethereum) for details. Step into the world of Beetle, a unique NFT collection inspired by the resilience, diversity, and beauty of one of nature\u2019s most fascinating creatures\u2014the beetle",
+        "image": "ipfs://bafybeibz3cxjpnkuz4fvun7o5yw552vx3bjy2zo72pyyr5flmpv5owvqfq",
+        "external_url": "",
+        "attributes": [],
+        "properties": {},
+        "creator": {},
+        "artist": "",
+        "collection": {},
+        "ipfs_hashes": [
+          "bafybeibz3cxjpnkuz4fvun7o5yw552vx3bjy2zo72pyyr5flmpv5owvqfq"
+        ],
+        "linked_urls": [
+          "https://crazynftstudio.odoo.com/ethereum)"
+        ],
+        "timestamps": [],
+        "usernames": [],
+        "emails": [],
+        "social_links": []
+      }
+    }
+  ],
+  "debug_info": {
+    "nft_transfers_count": 8,
+    "contracts_found": 8,
+    "tokens_checked": 8,
+    "uris_found": 8,
+    "ipfs_hashes_extracted": 8,
+    "metadata_fetched": 2
+  },
+  "findings": {
+    "total_hashes": 8,
+    "unique_hashes": [
+      "bafkreicyaol4miindelz5o5n4edy2gunbarxjnj3ceqau4ifa6hc6ugzlu",
+      "bafybeifsexiiy4rkwr62m3ha4zcrxfo3dnjlhqqxwezxhemz3os5vbww7m",
+      "QmdXUVdS1CtmfSmZ6FnsZgg3QTav4ucHpCedK61LkWqsMV",
+      "bafkreig3gzk3s3tzv54jcmdvyhtzyznkbbp6w42ky2i74jmp7y2sujq2wa",
+      "QmXj1PrcsDx3tURgNLeFY1DL1vWC62G9CraAUuGRRDpnHX",
+      "QmfJgfuwqrbcQmtUa5xi7sFhSj8LF7vshKHv3NHiMzYbaE",
+      "bafybeib4d66fqc22rp56etvriicj4efppzften7ysgx7w3rtbj5figfnpe",
+      "QmZ9FcpfXuD99gTbbdbTgzCGUz7YJfR1dwNksxHaNET7an"
+    ],
+    "linked_urls": [
+      "https://crazynftstudio.odoo.com/ethereum)"
+    ],
+    "usernames": [],
+    "emails": [],
+    "social_links": [],
+    "timestamps": [],
+    "creators": [],
+    "collections": [],
+    "domains": [],
+    "domain_analysis": {},
+    "metadata_urls": [
+      {
+        "contract": "0x26d85a13212433fe6a8381969c2b0db390a0b0ae",
+        "token_id": "65661",
+        "uri": "ipfs://bafybeifsexiiy4rkwr62m3ha4zcrxfo3dnjlhqqxwezxhemz3os5vbww7m/metadata.json"
+      },
+      {
+        "contract": "0x5782bfff4a063db1e1fbb15941cbcb0bae6301a6",
+        "token_id": "140",
+        "uri": "ipfs://bafkreicyaol4miindelz5o5n4edy2gunbarxjnj3ceqau4ifa6hc6ugzlu"
+      },
+      {
+        "contract": "0x925bb247497b32b66e8779be0b352258da478af1",
+        "token_id": "62",
+        "uri": "ipfs://QmZ9FcpfXuD99gTbbdbTgzCGUz7YJfR1dwNksxHaNET7an/62.json"
+      },
+      {
+        "contract": "0x57c0fef5c08ad16424adba205d1b61869adeb519",
+        "token_id": "380",
+        "uri": "ipfs://QmdXUVdS1CtmfSmZ6FnsZgg3QTav4ucHpCedK61LkWqsMV/380.json"
+      },
+      {
+        "contract": "0xbd3e697058ee61edb4f0682c2609607b0f5d8b5d",
+        "token_id": "989",
+        "uri": "ipfs://bafybeib4d66fqc22rp56etvriicj4efppzften7ysgx7w3rtbj5figfnpe/989"
+      },
+      {
+        "contract": "0xf2c1fbe56c6399a9eee374161d830cccddf5788d",
+        "token_id": "1187",
+        "uri": "ipfs://QmfJgfuwqrbcQmtUa5xi7sFhSj8LF7vshKHv3NHiMzYbaE/1187"
+      },
+      {
+        "contract": "0x1dac0d4e3d7a35b9fbc6e88cb1134511143ec6f3",
+        "token_id": "661",
+        "uri": "ipfs://bafkreig3gzk3s3tzv54jcmdvyhtzyznkbbp6w42ky2i74jmp7y2sujq2wa"
+      },
+      {
+        "contract": "0x85c11103e866672031ee84c472a4211818a1cd22",
+        "token_id": "4102",
+        "uri": "ipfs://QmXj1PrcsDx3tURgNLeFY1DL1vWC62G9CraAUuGRRDpnHX/4102.json"
+      }
+    ]
+  }
+}

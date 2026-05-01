@@ -1,0 +1,53 @@
+{
+  "address": "0x5910a9f4a27d3905b70372efa6f766ddc982e697",
+  "ipfs_hashes_found": [],
+  "metadata_analyzed": [],
+  "debug_info": {
+    "nft_transfers_count": 375,
+    "contracts_found": 1,
+    "tokens_checked": 5,
+    "uris_found": 5,
+    "ipfs_hashes_extracted": 0,
+    "metadata_fetched": 0
+  },
+  "findings": {
+    "total_hashes": 0,
+    "unique_hashes": [],
+    "linked_urls": [],
+    "usernames": [],
+    "emails": [],
+    "social_links": [],
+    "timestamps": [],
+    "creators": [],
+    "collections": [],
+    "domains": [],
+    "domain_analysis": {},
+    "metadata_urls": [
+      {
+        "contract": "0x9e9fbde7c7a83c43913bddc8779158f1368f0413",
+        "token_id": "81043",
+        "uri": "data:application/json;utf8,{\"name\": \"Pandora #81043\",\"description\":\"A collection of 10,000 Replicants enabled by ERC404, an experimental token standard.\",\"external_url\":\"https://pandora.build\",\"image\":\"https://raw.githubusercontent.com/0xacme/pandora/main/1.gif\",\"attributes\":[{\"trait_type\":\"Color\",\"value\":\"Green\"}]}"
+      },
+      {
+        "contract": "0x9e9fbde7c7a83c43913bddc8779158f1368f0413",
+        "token_id": "83836",
+        "uri": "data:application/json;utf8,{\"name\": \"Pandora #83836\",\"description\":\"A collection of 10,000 Replicants enabled by ERC404, an experimental token standard.\",\"external_url\":\"https://pandora.build\",\"image\":\"https://raw.githubusercontent.com/0xacme/pandora/main/3.gif\",\"attributes\":[{\"trait_type\":\"Color\",\"value\":\"Purple\"}]}"
+      },
+      {
+        "contract": "0x9e9fbde7c7a83c43913bddc8779158f1368f0413",
+        "token_id": "90476",
+        "uri": "data:application/json;utf8,{\"name\": \"Pandora #90476\",\"description\":\"A collection of 10,000 Replicants enabled by ERC404, an experimental token standard.\",\"external_url\":\"https://pandora.build\",\"image\":\"https://raw.githubusercontent.com/0xacme/pandora/main/2.gif\",\"attributes\":[{\"trait_type\":\"Color\",\"value\":\"Blue\"}]}"
+      },
+      {
+        "contract": "0x9e9fbde7c7a83c43913bddc8779158f1368f0413",
+        "token_id": "86111",
+        "uri": "data:application/json;utf8,{\"name\": \"Pandora #86111\",\"description\":\"A collection of 10,000 Replicants enabled by ERC404, an experimental token standard.\",\"external_url\":\"https://pandora.build\",\"image\":\"https://raw.githubusercontent.com/0xacme/pandora/main/3.gif\",\"attributes\":[{\"trait_type\":\"Color\",\"value\":\"Purple\"}]}"
+      },
+      {
+        "contract": "0x9e9fbde7c7a83c43913bddc8779158f1368f0413",
+        "token_id": "91215",
+        "uri": "data:application/json;utf8,{\"name\": \"Pandora #91215\",\"description\":\"A collection of 10,000 Replicants enabled by ERC404, an experimental token standard.\",\"external_url\":\"https://pandora.build\",\"image\":\"https://raw.githubusercontent.com/0xacme/pandora/main/2.gif\",\"attributes\":[{\"trait_type\":\"Color\",\"value\":\"Blue\"}]}"
+      }
+    ]
+  }
+}

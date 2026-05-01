@@ -1,0 +1,210 @@
+{
+  "address": "0x0d0707963952f2fba59dd06f2b425ace40b492fe",
+  "ipfs_hashes_found": [
+    {
+      "contract": "0x2bf1aea13ab81423ccc16de6fb45462e60f5a88c",
+      "token_id": "10",
+      "uri": "ipfs://bafybeiagljc3nrl6ioe5urgvopf5hoxasnnemwamrt6r6uoprrtrw7rmjm/10.json",
+      "ipfs_hash": "bafybeiagljc3nrl6ioe5urgvopf5hoxasnnemwamrt6r6uoprrtrw7rmjm"
+    },
+    {
+      "contract": "0xf83119c353ce05f297ed0d1772944c12baf56118",
+      "token_id": "121",
+      "uri": "ipfs://QmQpgc5VKqA8evqfoQ2hXJY2dWwn8wqGjhU17Gjju3qPi4/metadata.json",
+      "ipfs_hash": "QmQpgc5VKqA8evqfoQ2hXJY2dWwn8wqGjhU17Gjju3qPi4"
+    }
+  ],
+  "metadata_analyzed": [],
+  "debug_info": {
+    "nft_transfers_count": 93,
+    "contracts_found": 10,
+    "tokens_checked": 26,
+    "uris_found": 20,
+    "ipfs_hashes_extracted": 2,
+    "metadata_fetched": 0
+  },
+  "findings": {
+    "total_hashes": 2,
+    "unique_hashes": [
+      "bafybeiagljc3nrl6ioe5urgvopf5hoxasnnemwamrt6r6uoprrtrw7rmjm",
+      "QmQpgc5VKqA8evqfoQ2hXJY2dWwn8wqGjhU17Gjju3qPi4"
+    ],
+    "linked_urls": [],
+    "usernames": [],
+    "emails": [],
+    "social_links": [],
+    "timestamps": [],
+    "creators": [],
+    "collections": [],
+    "domains": [
+      "api.illuminatiowlsnft.xyz",
+      "api.illuminatipepe.top",
+      "api.cryptoqutiesnft.xyz",
+      "api.wardenswap.xyz",
+      "api.tinybonesnfts.xyz",
+      "ifscdjs.com"
+    ],
+    "domain_analysis": {
+      "ifscdjs.com": {
+        "domain": "ifscdjs.com",
+        "is_ipfs": false,
+        "is_centralized": true,
+        "scam_indicators": [],
+        "reputation": "unknown",
+        "whois_info": null
+      },
+      "api.cryptoqutiesnft.xyz": {
+        "domain": "api.cryptoqutiesnft.xyz",
+        "is_ipfs": false,
+        "is_centralized": true,
+        "scam_indicators": [
+          "Suspicious TLD: .xyz"
+        ],
+        "reputation": "suspicious",
+        "whois_info": null
+      },
+      "api.illuminatiowlsnft.xyz": {
+        "domain": "api.illuminatiowlsnft.xyz",
+        "is_ipfs": false,
+        "is_centralized": true,
+        "scam_indicators": [
+          "Suspicious TLD: .xyz"
+        ],
+        "reputation": "suspicious",
+        "whois_info": null
+      },
+      "api.wardenswap.xyz": {
+        "domain": "api.wardenswap.xyz",
+        "is_ipfs": false,
+        "is_centralized": true,
+        "scam_indicators": [
+          "Suspicious TLD: .xyz"
+        ],
+        "reputation": "suspicious",
+        "whois_info": null
+      },
+      "api.illuminatipepe.top": {
+        "domain": "api.illuminatipepe.top",
+        "is_ipfs": false,
+        "is_centralized": true,
+        "scam_indicators": [
+          "Suspicious TLD: .top"
+        ],
+        "reputation": "suspicious",
+        "whois_info": null
+      },
+      "api.tinybonesnfts.xyz": {
+        "domain": "api.tinybonesnfts.xyz",
+        "is_ipfs": false,
+        "is_centralized": true,
+        "scam_indicators": [
+          "Suspicious TLD: .xyz"
+        ],
+        "reputation": "suspicious",
+        "whois_info": null
+      }
+    },
+    "metadata_urls": [
+      {
+        "contract": "0x8da874330fd513fd4f3241fd2dad55d2fdbc5dbd",
+        "token_id": "80",
+        "uri": "https://ifscdjs.com/0x9350D38bD0BFB78deAcCb2cfC0454d2b2f3e3b73/80"
+      },
+      {
+        "contract": "0x2bf1aea13ab81423ccc16de6fb45462e60f5a88c",
+        "token_id": "10",
+        "uri": "ipfs://bafybeiagljc3nrl6ioe5urgvopf5hoxasnnemwamrt6r6uoprrtrw7rmjm/10.json"
+      },
+      {
+        "contract": "0xf83119c353ce05f297ed0d1772944c12baf56118",
+        "token_id": "121",
+        "uri": "ipfs://QmQpgc5VKqA8evqfoQ2hXJY2dWwn8wqGjhU17Gjju3qPi4/metadata.json"
+      },
+      {
+        "contract": "0x727132c902218131c5e511f2f55b26f25a938fe1",
+        "token_id": "32",
+        "uri": "http://api.cryptoqutiesnft.xyz/ipfs/32"
+      },
+      {
+        "contract": "0x727132c902218131c5e511f2f55b26f25a938fe1",
+        "token_id": "73",
+        "uri": "http://api.cryptoqutiesnft.xyz/ipfs/73"
+      },
+      {
+        "contract": "0x727132c902218131c5e511f2f55b26f25a938fe1",
+        "token_id": "71",
+        "uri": "http://api.cryptoqutiesnft.xyz/ipfs/71"
+      },
+      {
+        "contract": "0x727132c902218131c5e511f2f55b26f25a938fe1",
+        "token_id": "51",
+        "uri": "http://api.cryptoqutiesnft.xyz/ipfs/51"
+      },
+      {
+        "contract": "0x727132c902218131c5e511f2f55b26f25a938fe1",
+        "token_id": "72",
+        "uri": "http://api.cryptoqutiesnft.xyz/ipfs/72"
+      },
+      {
+        "contract": "0xc450362d646f42327050ff3521fc2061b34a6a0d",
+        "token_id": "3",
+        "uri": "http://api.illuminatiowlsnft.xyz/ipfs/3"
+      },
+      {
+        "contract": "0xc450362d646f42327050ff3521fc2061b34a6a0d",
+        "token_id": "1",
+        "uri": "http://api.illuminatiowlsnft.xyz/ipfs/1"
+      },
+      {
+        "contract": "0xc450362d646f42327050ff3521fc2061b34a6a0d",
+        "token_id": "2",
+        "uri": "http://api.illuminatiowlsnft.xyz/ipfs/2"
+      },
+      {
+        "contract": "0xf54b166b66d9113a40ae55a4fea30bb806cdb23d",
+        "token_id": "32",
+        "uri": "http://api.wardenswap.xyz/ipfs/32"
+      },
+      {
+        "contract": "0xf54b166b66d9113a40ae55a4fea30bb806cdb23d",
+        "token_id": "31",
+        "uri": "http://api.wardenswap.xyz/ipfs/31"
+      },
+      {
+        "contract": "0xf54b166b66d9113a40ae55a4fea30bb806cdb23d",
+        "token_id": "33",
+        "uri": "http://api.wardenswap.xyz/ipfs/33"
+      },
+      {
+        "contract": "0x72e07e22f7639365be1536fbaf49daa01d1f99b5",
+        "token_id": "55",
+        "uri": "http://api.illuminatipepe.top/ipfs/55"
+      },
+      {
+        "contract": "0x72e07e22f7639365be1536fbaf49daa01d1f99b5",
+        "token_id": "53",
+        "uri": "http://api.illuminatipepe.top/ipfs/53"
+      },
+      {
+        "contract": "0x72e07e22f7639365be1536fbaf49daa01d1f99b5",
+        "token_id": "54",
+        "uri": "http://api.illuminatipepe.top/ipfs/54"
+      },
+      {
+        "contract": "0x2c906bb58e6f083b4322cd9ad72feb0e93016137",
+        "token_id": "14",
+        "uri": "http://api.tinybonesnfts.xyz/ipfs/14"
+      },
+      {
+        "contract": "0x2c906bb58e6f083b4322cd9ad72feb0e93016137",
+        "token_id": "13",
+        "uri": "http://api.tinybonesnfts.xyz/ipfs/13"
+      },
+      {
+        "contract": "0x2c906bb58e6f083b4322cd9ad72feb0e93016137",
+        "token_id": "15",
+        "uri": "http://api.tinybonesnfts.xyz/ipfs/15"
+      }
+    ]
+  }
+}

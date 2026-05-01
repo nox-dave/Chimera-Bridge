@@ -1,0 +1,514 @@
+{
+  "address": "0xba5d7a70cc8b40a7ae398721ae558586ca4059b9",
+  "discovered_at": "2026-01-26T14:56:18.256036+00:00",
+  "total_value_usd": 8045.42356837711,
+  "eth_balance": 2.7666523057704833,
+  "eth_value_usd": 8045.42356837711,
+  "token_holdings": {},
+  "risk_score": 75,
+  "tx_count": 230,
+  "defi_activity": true,
+  "nft_activity": {},
+  "bridge_activity": false,
+  "age_days": 1410,
+  "osint_categories": [
+    "\ud83e\udde0_defi_natives"
+  ],
+  "primary_osint_category": "\ud83e\udde0_defi_natives",
+  "behavior": {
+    "confidence_score": 75,
+    "sophistication": "Advanced",
+    "risk_tolerance": "Moderate",
+    "trading_style": "Long-term Holder",
+    "likely_region": "Europe",
+    "likely_timezone": "Europe/Africa (UTC+0 to +3)",
+    "meme_exposure": false,
+    "defi_protocols": [
+      "Uniswap V3",
+      "Aave V3",
+      "Uniswap Universal Router 2"
+    ],
+    "nft_platforms": [],
+    "bridges_used": [],
+    "exchange_interactions": [
+      "Bybit Hot Wallet",
+      "Binance 16"
+    ],
+    "frequent_counterparties": []
+  },
+  "transaction_analysis": {
+    "total_transactions": 230,
+    "total_value_eth": 9.327888194672454,
+    "most_active_hour": 13,
+    "most_active_day": "Monday",
+    "top_recipients": [
+      [
+        "0xba5d7a70cc8b40a7ae398721ae558586ca4059b9",
+        14
+      ],
+      [
+        "0x87870bca3f3fd6335c3f4ce8392d69350b4fa4e2",
+        8
+      ],
+      [
+        "0xdac17f958d2ee523a2206206994597c13d831ec7",
+        7
+      ],
+      [
+        "0x808507121b80c02388fad14726482e061b8da827",
+        6
+      ],
+      [
+        "0x57e114b691db790c35207b2e685d4a43181e6061",
+        6
+      ],
+      [
+        "0x66a9893cc07d91d95644aedd05d03f95e1dba8af",
+        5
+      ],
+      [
+        "0x8be3460a480c80728a8c4d7a5d5303c85ba7b3b9",
+        5
+      ],
+      [
+        "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+        5
+      ],
+      [
+        "0x3f04b65ddbd87f9ce0a2e7eb24d80e7fb87625b5",
+        5
+      ],
+      [
+        "0x8707f238936c12c309bfc2b9959c35828acfc512",
+        5
+      ]
+    ],
+    "top_senders": [
+      [
+        "0xba5d7a70cc8b40a7ae398721ae558586ca4059b9",
+        216
+      ],
+      [
+        "0xf89d7b9c864f589bbf53a82105107622b35eaa40",
+        6
+      ],
+      [
+        "0x54bd2490d751e9be0db1da8856e37962b3282f38",
+        3
+      ],
+      [
+        "0xdfd5293d8e347dfe59e90efd55b2956a1343963d",
+        1
+      ],
+      [
+        "0x0d0707963952f2fba59dd06f2b425ace40b492fe",
+        1
+      ],
+      [
+        "0xf7858da8a6617f7c6d0ff2bcafdb6d2eedf64840",
+        1
+      ],
+      [
+        "0x4976a4a02f38326660d17bf34b431dc6e2eb2327",
+        1
+      ],
+      [
+        "0x75e89d5979e4f6fba9f97c104c2f0afb3f1dcb88",
+        1
+      ]
+    ],
+    "first_transaction": "2022-03-18T11:39:46",
+    "last_transaction": "2026-01-26T14:08:47",
+    "avg_gas_used": 118791.75217391305,
+    "avg_gas_price": 34962903346.24544
+  },
+  "token_activity": {
+    "unique_tokens": 64,
+    "top_tokens": [
+      [
+        "USDC",
+        15
+      ],
+      [
+        "USDT",
+        15
+      ],
+      [
+        "ENA",
+        13
+      ],
+      [
+        "USDe",
+        8
+      ],
+      [
+        "sENA",
+        7
+      ],
+      [
+        "EIGEN",
+        7
+      ],
+      [
+        "eUSDe",
+        6
+      ],
+      [
+        "SD",
+        6
+      ],
+      [
+        "pzETH",
+        5
+      ],
+      [
+        "eETH",
+        4
+      ],
+      [
+        "weETH",
+        4
+      ],
+      [
+        "USD0",
+        4
+      ],
+      [
+        "bUSD0",
+        4
+      ],
+      [
+        "STONE",
+        4
+      ],
+      [
+        "PENDLE-LPT",
+        4
+      ],
+      [
+        "siUSD",
+        4
+      ],
+      [
+        "pufETH",
+        4
+      ],
+      [
+        "USDecrvUSD",
+        4
+      ],
+      [
+        "variableDebtEthUSDC",
+        3
+      ],
+      [
+        "ERC20",
+        3
+      ]
+    ],
+    "token_values": {
+      "eETH": 2.132476014577623,
+      "wstETH": 1.0225093944154144,
+      "weETH": 2.010458937795433,
+      "alUSD": 16759.068932254595,
+      "STARLINK": 5.0,
+      "E\ua4d4H": 0.001,
+      "ALMANAK": 6220.96482397554,
+      "WETH": 1e-07,
+      "ETH | Visit website ethreceive .com to claim rewar": 1.7,
+      "liUSD-13w": 92.98451586955174,
+      "sENA": 4746.7152,
+      "USDe": 42750.383576621876,
+      "eUSDe": 60513.03679157382,
+      "aEtheUSDe": 20265.424841098087,
+      "USDC": 41111.30993599999,
+      "variableDebtEthUSDC": 17000.014512,
+      "USD0": 5803.5729643372815,
+      "USUAL": 1792.6678539284035,
+      "bUSD0": 6036.037303362009,
+      "Stars": 2.0,
+      "XMOVE": 2.0,
+      "DRV": 46.77148743537146,
+      "ERC20": 5084.477030217589,
+      "ENA": 8207.498500732256,
+      "STONE": 1.7784450357917632,
+      "EIGEN": 46.46120171993675,
+      "PENDLE": 31.598909607042266,
+      "PENDLE-LPT": 18190.469782397067,
+      "AICC": 17500.0,
+      "$": 1003.847762,
+      "ETHG": 2000000.0,
+      "liUSD-4w": 5974.554503002221,
+      "siUSD": 13088.281256755296,
+      "USDT": 49028.24167599998,
+      "pzETH": 2.045018788204062,
+      "beraSTONE": 1.0999604948570616,
+      "SD": 240.2402402402402,
+      "deUSD": 3780.0946347778086,
+      "KERNEL": 100.0,
+      "sdeUSD": 3645.954980379745,
+      "ELX": 382.44736265875207,
+      "pufETH": 1.7870047710931485,
+      "REZ": 2881.17,
+      "ETHFI": 367.55669132816,
+      "BBUSD": 2001.234,
+      "NYM": 3292.641079,
+      "WBTC": 0.0296,
+      "Visit pufeth.io to claim rewards": 1.0,
+      "stETH": 0.9,
+      "ENS": 67.03252,
+      "GOG": 13323.874833266349,
+      "Receive $GOG at https://guildofguardian.org": 8460.0,
+      "cSTONE": 0.8892225178958816,
+      "YT-USDe-25JUL2024": 1246.5842092868422,
+      "Claim rewards at https://GOG-Rewards.com": 15000.0,
+      "YT-zs-ezETH-27JUN2024": 0.5037050549375457,
+      "YT-ezETH-25APR2024": 0.9156100312107507,
+      "\u0415T\u041d": 175.1,
+      "AEVO": 1880.0,
+      "USDecrvUSD": 3021.106750957026,
+      "USDecrvUSD-gauge": 1510.553375478513,
+      "crvUSD": 1513.274665880977,
+      "UNI": 128.35728,
+      "TGT": 8142.000000000001
+    },
+    "token_details": {
+      "eETH": [
+        "ether.fi ETH"
+      ],
+      "wstETH": [
+        "Wrapped liquid staked Ether 2.0"
+      ],
+      "weETH": [
+        "Wrapped eETH"
+      ],
+      "alUSD": [
+        "Autonomous Liquidity USD"
+      ],
+      "STARLINK": [
+        "Starlink Airdrop"
+      ],
+      "E\ua4d4H": [
+        "E\ua4d4H"
+      ],
+      "ALMANAK": [
+        "Almanak"
+      ],
+      "WETH": [
+        "Wrapped Ether"
+      ],
+      "ETH | Visit website ethreceive .com to claim rewar": [
+        "ETH | Visit website ethreceive .com to claim rewards"
+      ],
+      "liUSD-13w": [
+        "Locked iUSD - 13 weeks"
+      ],
+      "sENA": [
+        "Staked ENA"
+      ],
+      "USDe": [
+        "USDe"
+      ],
+      "eUSDe": [
+        "Ethereal Pre-deposit Vault"
+      ],
+      "aEtheUSDe": [
+        "Aave Ethereum eUSDe"
+      ],
+      "USDC": [
+        "USDC"
+      ],
+      "variableDebtEthUSDC": [
+        "Aave Ethereum Variable Debt USDC"
+      ],
+      "USD0": [
+        "Usual USD"
+      ],
+      "USUAL": [
+        "USUAL"
+      ],
+      "bUSD0": [
+        "Bond USD0"
+      ],
+      "Stars": [
+        "Stars"
+      ],
+      "XMOVE": [
+        "XMOVE"
+      ],
+      "DRV": [
+        "Derive"
+      ],
+      "ERC20": [
+        "ERC20",
+        "Token"
+      ],
+      "ENA": [
+        "ENA",
+        "Ethena"
+      ],
+      "STONE": [
+        "StakeStone Ether"
+      ],
+      "EIGEN": [
+        "Eigen"
+      ],
+      "PENDLE": [
+        "Pendle"
+      ],
+      "PENDLE-LPT": [
+        "PENDLE-LPT"
+      ],
+      "AICC": [
+        "AI Chain Coin"
+      ],
+      "$": [
+        "Transfer"
+      ],
+      "ETHG": [
+        "Ethereum Games"
+      ],
+      "liUSD-4w": [
+        "Locked iUSD - 4 weeks"
+      ],
+      "siUSD": [
+        "Staked infiniFi USD"
+      ],
+      "USDT": [
+        "Tether USD"
+      ],
+      "pzETH": [
+        "Renzo Restaked LST"
+      ],
+      "beraSTONE": [
+        "Berachain STONE"
+      ],
+      "SD": [
+        "Stader"
+      ],
+      "deUSD": [
+        "deUSD"
+      ],
+      "KERNEL": [
+        "KERNEL"
+      ],
+      "sdeUSD": [
+        "Staked deUSD"
+      ],
+      "ELX": [
+        "Elixir"
+      ],
+      "pufETH": [
+        "pufETH"
+      ],
+      "REZ": [
+        "Renzo"
+      ],
+      "ETHFI": [
+        "ether.fi governance token"
+      ],
+      "BBUSD": [
+        "BounceBit USD"
+      ],
+      "NYM": [
+        "NYM"
+      ],
+      "WBTC": [
+        "Wrapped BTC"
+      ],
+      "Visit pufeth.io to claim rewards": [
+        "# pufeth.io"
+      ],
+      "stETH": [
+        "stETH"
+      ],
+      "ENS": [
+        "Ethereum Name Service"
+      ],
+      "GOG": [
+        "Guild of Guardians"
+      ],
+      "Receive $GOG at https://guildofguardian.org": [
+        "! GOG Reward | guildofguardian.org"
+      ],
+      "cSTONE": [
+        "STONE Carnival LP"
+      ],
+      "YT-USDe-25JUL2024": [
+        "YT Ethena USDe 25JUL2024"
+      ],
+      "Claim rewards at https://GOG-Rewards.com": [
+        "# GOG-Rewards.com"
+      ],
+      "YT-zs-ezETH-27JUN2024": [
+        "YT Zircuit Staking ezETH 27JUN2024"
+      ],
+      "YT-ezETH-25APR2024": [
+        "YT Renzo ezETH 25APR2024"
+      ],
+      "\u0415T\u041d": [
+        "\u0415T\u041d..."
+      ],
+      "AEVO": [
+        "Aevo"
+      ],
+      "USDecrvUSD": [
+        "USDe-crvUSD"
+      ],
+      "USDecrvUSD-gauge": [
+        "Curve.fi USDecrvUSD Gauge Deposit"
+      ],
+      "crvUSD": [
+        "Curve.Fi USD Stablecoin"
+      ],
+      "UNI": [
+        "Uniswap"
+      ],
+      "TGT": [
+        "THORWallet Governance Token"
+      ]
+    }
+  },
+  "ipfs_osint": {
+    "skipped": true,
+    "reason": "no_nft_activity"
+  },
+  "ens": {
+    "address": "0xba5d7a70cc8b40a7ae398721ae558586ca4059b9",
+    "ens_name": null,
+    "text_records": {},
+    "social_links": {},
+    "has_ens": false,
+    "has_social_links": false
+  },
+  "approval_risk": {
+    "scan_timestamp": "2026-01-26T14:56:26.099559+00:00",
+    "total_approvals": 0,
+    "unlimited_approvals": 0,
+    "high_risk_approvals": 0,
+    "total_exposure_usd": 0,
+    "verdicts": [],
+    "has_dangerous_approvals": false
+  },
+  "funding_trace": {
+    "target": "0xba5d7a70cc8b40a7ae398721ae558586ca4059b9",
+    "trace_timestamp": "2026-01-26T14:56:25.233520+00:00",
+    "total_hops": 0,
+    "origin_found": false,
+    "origin_type": null,
+    "origin_label": null,
+    "trace_complete": false,
+    "trace_stopped_reason": "No funding transaction found",
+    "funding_chain": []
+  },
+  "token_risks": {
+    "scan_timestamp": "2026-01-26T14:56:26.831587+00:00",
+    "tokens_analyzed": 0,
+    "risky_tokens": 0,
+    "total_value_at_risk_usd": 0,
+    "has_risky_tokens": false,
+    "verdicts": [],
+    "honeypots_detected": 0,
+    "impersonators_detected": 0
+  }
+}

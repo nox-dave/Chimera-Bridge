@@ -1,16 +1,16 @@
 {
   "address": "0x5d4134308b9a814822d1cd0e53bcaa5f6d9513f1",
-  "discovered_at": "2026-01-20T16:14:45.915442+00:00",
-  "total_value_usd": 0.03162018628709228,
+  "discovered_at": "2026-01-26T14:56:57.565224+00:00",
+  "total_value_usd": 0.0303765129945412,
   "eth_balance": 1.0435032194355e-05,
-  "eth_value_usd": 0.03162018628709228,
+  "eth_value_usd": 0.0303765129945412,
   "token_holdings": {},
   "risk_score": 50,
   "tx_count": 15,
   "defi_activity": false,
   "nft_activity": {},
   "bridge_activity": true,
-  "age_days": 93,
+  "age_days": 99,
   "osint_categories": [
     "\ud83c\udf09_cross_chain_users"
   ],
@@ -100,7 +100,7 @@
     "has_social_links": false
   },
   "approval_risk": {
-    "scan_timestamp": "2026-01-20T16:14:51.973275+00:00",
+    "scan_timestamp": "2026-01-26T14:57:07.697680+00:00",
     "total_approvals": 0,
     "unlimited_approvals": 0,
     "high_risk_approvals": 0,
@@ -110,7 +110,7 @@
   },
   "funding_trace": {
     "target": "0x5d4134308b9a814822d1cd0e53bcaa5f6d9513f1",
-    "trace_timestamp": "2026-01-20T16:14:51.101042+00:00",
+    "trace_timestamp": "2026-01-26T14:57:06.847714+00:00",
     "total_hops": 0,
     "origin_found": false,
     "origin_type": null,
@@ -120,7 +120,7 @@
     "funding_chain": []
   },
   "token_risks": {
-    "scan_timestamp": "2026-01-20T16:14:52.689783+00:00",
+    "scan_timestamp": "2026-01-26T14:57:09.420884+00:00",
     "tokens_analyzed": 0,
     "risky_tokens": 0,
     "total_value_at_risk_usd": 0,

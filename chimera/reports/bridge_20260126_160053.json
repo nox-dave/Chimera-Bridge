@@ -1,0 +1,679 @@
+{
+  "timestamp": "2026-01-26T16:00:53.818339",
+  "source_hunt": "/home/shahazzad/Desktop/FORGEMIX/Chimera/Contracts/hunt_20260126_154853.json",
+  "contracts_analyzed": 5,
+  "total_wallets_found": 1206,
+  "total_exposure_usd": 189007.14576914228,
+  "exposures": [
+    {
+      "contract_address": "0x49048044D57e1C92A77f79988d21Fa8fAF74E97e",
+      "contract_name": "Coinbase Bridge",
+      "chain": "Ethereum",
+      "category": "Bridge",
+      "tvl": 6431535408.531618,
+      "vulnerability_count": 14,
+      "highest_severity": "CRITICAL",
+      "total_wallets": 251,
+      "total_exposure_usd": 87365.10607326246,
+      "high_value_wallets": 0,
+      "exposed_wallets": [
+        {
+          "address": "0x1aafacc008099845d6c35df8c5925c8e659c4400",
+          "interaction_count": 1,
+          "interaction_type": "finalizeWithdrawalTransactionExternalProof",
+          "estimated_exposure_usd": 0.0
+        },
+        {
+          "address": "0xe69f81b825d7dc31ee9becef4dbeab5cf30e3abb",
+          "interaction_count": 1,
+          "interaction_type": "finalizeWithdrawalTransaction",
+          "estimated_exposure_usd": 87365.10607326246
+        },
+        {
+          "address": "0xf70da97812cb96acdf810712aa562db8dfa3dbef",
+          "interaction_count": 1,
+          "interaction_type": "depositTransaction",
+          "estimated_exposure_usd": 0.0
+        },
+        {
+          "address": "0x05acebb48d35b6108ee15e84c956ae65f9676a01",
+          "interaction_count": 1,
+          "interaction_type": "finalizeWithdrawalTransactionExternalProof",
+          "estimated_exposure_usd": 0.0
+        },
+        {
+          "address": "0xdc06023b80e588f1121a901efc3a0126f7191692",
+          "interaction_count": 1,
+          "interaction_type": "proveWithdrawalTransaction",
+          "estimated_exposure_usd": 0.0
+        },
+        {
+          "address": "0x9545e2439c5c75d3aa723acac1aa6b0fa1db6956",
+          "interaction_count": 1,
+          "interaction_type": "depositTransaction",
+          "estimated_exposure_usd": 0.0
+        },
+        {
+          "address": "0xa1814cb3f521a2e01e008b3b0cebe874cf7c9f1e",
+          "interaction_count": 1,
+          "interaction_type": "proveWithdrawalTransaction",
+          "estimated_exposure_usd": 0.0
+        },
+        {
+          "address": "0x72ca79358817eb90cd71c4bdf8f167ad704538f8",
+          "interaction_count": 1,
+          "interaction_type": "proveWithdrawalTransaction",
+          "estimated_exposure_usd": 0.0
+        },
+        {
+          "address": "0x1f876d9252596fcaf8d651a6f443ce21ead7f1e1",
+          "interaction_count": 1,
+          "interaction_type": "proveWithdrawalTransaction",
+          "estimated_exposure_usd": 0.0
+        },
+        {
+          "address": "0xa17b7d51d9cef3297e43fb201212a16327436022",
+          "interaction_count": 1,
+          "interaction_type": "finalizeWithdrawalTransactionExternalProof",
+          "estimated_exposure_usd": 0.0
+        },
+        {
+          "address": "0xa65be561e6dd17f333f6750e6dc2ecb79c8d525e",
+          "interaction_count": 1,
+          "interaction_type": "proveWithdrawalTransaction",
+          "estimated_exposure_usd": 0.0
+        },
+        {
+          "address": "0x8a3afbd5df9c0333504a0178f554db28c9884291",
+          "interaction_count": 1,
+          "interaction_type": "proveWithdrawalTransaction",
+          "estimated_exposure_usd": 0.0
+        },
+        {
+          "address": "0x5f8f15c7e0263239a218dfdf315cfd1911786947",
+          "interaction_count": 1,
+          "interaction_type": "proveWithdrawalTransaction",
+          "estimated_exposure_usd": 0.0
+        },
+        {
+          "address": "0x14268b5cafd61fd568f7caffcddbec8de96abd9c",
+          "interaction_count": 1,
+          "interaction_type": "finalizeWithdrawalTransactionExternalProof",
+          "estimated_exposure_usd": 0.0
+        },
+        {
+          "address": "0xdd77c787f2f89c71791d6630b926701f98f2e735",
+          "interaction_count": 1,
+          "interaction_type": "proveWithdrawalTransaction",
+          "estimated_exposure_usd": 0.0
+        },
+        {
+          "address": "0xca2c728727ecd1b7676003f82545aebd731d13fd",
+          "interaction_count": 1,
+          "interaction_type": "proveWithdrawalTransaction",
+          "estimated_exposure_usd": 0.0
+        },
+        {
+          "address": "0x37863df4712e4494dffc4854862259399354b2bb",
+          "interaction_count": 1,
+          "interaction_type": "finalizeWithdrawalTransactionExternalProof",
+          "estimated_exposure_usd": 0.0
+        },
+        {
+          "address": "0x6ee62fb521531b587e79262d759dec8ce4fef341",
+          "interaction_count": 1,
+          "interaction_type": "finalizeWithdrawalTransactionExternalProof",
+          "estimated_exposure_usd": 0.0
+        },
+        {
+          "address": "0xed9f06e92f908483cf457ecb09af84dbdc9ed5d0",
+          "interaction_count": 1,
+          "interaction_type": "proveWithdrawalTransaction",
+          "estimated_exposure_usd": 0.0
+        },
+        {
+          "address": "0xd46bd800702d639b3ad20c1230d9c1c751d41ea7",
+          "interaction_count": 1,
+          "interaction_type": "proveWithdrawalTransaction",
+          "estimated_exposure_usd": 0.0
+        }
+      ]
+    },
+    {
+      "contract_address": "0x35fA164735182de50811E8e2E824cFb9B6118ac2",
+      "contract_name": "ether.fi Stake",
+      "chain": "Ethereum",
+      "category": "Liquid Restaking",
+      "tvl": 8499387364.316608,
+      "vulnerability_count": 9,
+      "highest_severity": "CRITICAL",
+      "total_wallets": 436,
+      "total_exposure_usd": 11004.164922571692,
+      "high_value_wallets": 0,
+      "exposed_wallets": [
+        {
+          "address": "0x4a54467a5dda082db8922e07e29b9b51c26eb75b",
+          "interaction_count": 1,
+          "interaction_type": "approve",
+          "estimated_exposure_usd": 1.0485565219885709
+        },
+        {
+          "address": "0xd697787787d48888ffb54f333f491f9ebd6a2705",
+          "interaction_count": 1,
+          "interaction_type": "approve",
+          "estimated_exposure_usd": 1992.4184638117656
+        },
+        {
+          "address": "0xe02e6f03f583626481450bbdeb9efd6eb0eed78b",
+          "interaction_count": 1,
+          "interaction_type": "approve",
+          "estimated_exposure_usd": 965.2743338608271
+        },
+        {
+          "address": "0xba5d7a70cc8b40a7ae398721ae558586ca4059b9",
+          "interaction_count": 1,
+          "interaction_type": "approve",
+          "estimated_exposure_usd": 8045.42356837711
+        },
+        {
+          "address": "0x503e1a1934ea6e0fb093df139242e9cac53f382d",
+          "interaction_count": 1,
+          "interaction_type": "approve",
+          "estimated_exposure_usd": 0.0
+        },
+        {
+          "address": "0x70e49eb02d5c05a7e463bc6a0c05b8fc1ca824d1",
+          "interaction_count": 1,
+          "interaction_type": "approve",
+          "estimated_exposure_usd": 0.0
+        },
+        {
+          "address": "0x01cf799ac566ebdc359eefbf61a7da5943b68fbb",
+          "interaction_count": 1,
+          "interaction_type": "approve",
+          "estimated_exposure_usd": 0.0
+        },
+        {
+          "address": "0x0b5381bd292da77e10132fd662215d4f142992e2",
+          "interaction_count": 1,
+          "interaction_type": "approve",
+          "estimated_exposure_usd": 0.0
+        },
+        {
+          "address": "0xe9e71aa6c8639403e39755f6b0a3805d9cb8d057",
+          "interaction_count": 1,
+          "interaction_type": "approve",
+          "estimated_exposure_usd": 0.0
+        },
+        {
+          "address": "0xf095731c807a08009099b0a3eba61fa2cf09b10b",
+          "interaction_count": 1,
+          "interaction_type": "approve",
+          "estimated_exposure_usd": 0.0
+        },
+        {
+          "address": "0x22f5413c075ccd56d575a54763831c4c27a37bdb",
+          "interaction_count": 1,
+          "interaction_type": "approve",
+          "estimated_exposure_usd": 0.0
+        },
+        {
+          "address": "0x6f15f9d78325a25a3ed808c48b43a3af08b828dd",
+          "interaction_count": 1,
+          "interaction_type": "approve",
+          "estimated_exposure_usd": 0.0
+        },
+        {
+          "address": "0x93df59741ee1cde79fa0373ccbe009f26db79053",
+          "interaction_count": 1,
+          "interaction_type": "approve",
+          "estimated_exposure_usd": 0.0
+        },
+        {
+          "address": "0x5500e69d58d8f80b236c8a72fd52c538a5d5237f",
+          "interaction_count": 1,
+          "interaction_type": "approve",
+          "estimated_exposure_usd": 0.0
+        },
+        {
+          "address": "0x610bf13c1b730971079019c2f2dd907a18beee46",
+          "interaction_count": 1,
+          "interaction_type": "approve",
+          "estimated_exposure_usd": 0.0
+        },
+        {
+          "address": "0x6699bb9450dd034b2d3574d0797a7fcb2f4021a0",
+          "interaction_count": 1,
+          "interaction_type": "approve",
+          "estimated_exposure_usd": 0.0
+        },
+        {
+          "address": "0xe65f3930aa2cc8711ef0d8c2244978a7f4a66c6a",
+          "interaction_count": 1,
+          "interaction_type": "approve",
+          "estimated_exposure_usd": 0.0
+        },
+        {
+          "address": "0x9781bdc048d05cfaddb9f5e9141beb5ee7fab610",
+          "interaction_count": 1,
+          "interaction_type": "approve",
+          "estimated_exposure_usd": 0.0
+        },
+        {
+          "address": "0x134f96fc6fe9b520be72479f1ec45f8de26a05b0",
+          "interaction_count": 1,
+          "interaction_type": "approve",
+          "estimated_exposure_usd": 0.0
+        },
+        {
+          "address": "0x407936b50c3a2c1e77b3750c9c735a1643554cab",
+          "interaction_count": 1,
+          "interaction_type": "transfer",
+          "estimated_exposure_usd": 0.0
+        }
+      ]
+    },
+    {
+      "contract_address": "0x8315177aB297bA92A06054cE80a67Ed4DBd7ed3a",
+      "contract_name": "Arbitrum Bridge",
+      "chain": "Ethereum",
+      "category": "Canonical Bridge",
+      "tvl": 4253237288.413897,
+      "vulnerability_count": 6,
+      "highest_severity": "CRITICAL",
+      "total_wallets": 35,
+      "total_exposure_usd": 55.16374046489435,
+      "high_value_wallets": 0,
+      "exposed_wallets": [
+        {
+          "address": "0x5d4134308b9a814822d1cd0e53bcaa5f6d9513f1",
+          "interaction_count": 1,
+          "interaction_type": "depositETH",
+          "estimated_exposure_usd": 0.0303765129945412
+        },
+        {
+          "address": "0xf8fc9a91349ebd2033d53f2b97245102f00aba96",
+          "interaction_count": 1,
+          "interaction_type": "transfer",
+          "estimated_exposure_usd": 25.24372978708091
+        },
+        {
+          "address": "0x5a7d9714778ade22b632d5a3c904ff5f3a745ae6",
+          "interaction_count": 1,
+          "interaction_type": "transfer",
+          "estimated_exposure_usd": 26.619735790140343
+        },
+        {
+          "address": "0x4b2dbd6fb5ed95c1f2a833dfcb26435d9ad27c93",
+          "interaction_count": 1,
+          "interaction_type": "transfer",
+          "estimated_exposure_usd": 3.2025356578162625
+        },
+        {
+          "address": "0x924d787c29338ef75c6f70ae2ad6f849b46640ec",
+          "interaction_count": 1,
+          "interaction_type": "createRetryableTicket",
+          "estimated_exposure_usd": 0.06736271686229969
+        },
+        {
+          "address": "0x23a9fd72cccdd89f40e84270d97c90dcad9bc820",
+          "interaction_count": 1,
+          "interaction_type": "outboundTransfer",
+          "estimated_exposure_usd": 0.0
+        },
+        {
+          "address": "0x1c56b1534dab55144ae781215fe979123291a999",
+          "interaction_count": 1,
+          "interaction_type": "transfer",
+          "estimated_exposure_usd": 0.0
+        },
+        {
+          "address": "0x49c51cc4b3edaf72e8f65518dfc0078665ea1626",
+          "interaction_count": 1,
+          "interaction_type": "depositEth",
+          "estimated_exposure_usd": 0.0
+        },
+        {
+          "address": "0x6c264b2bbd73e14e467c5d0f328de43b982b1b87",
+          "interaction_count": 1,
+          "interaction_type": "multicall",
+          "estimated_exposure_usd": 0.0
+        },
+        {
+          "address": "0x290ca4da2c963dea5ae736469a5b8a53d64d4e6a",
+          "interaction_count": 1,
+          "interaction_type": "transfer",
+          "estimated_exposure_usd": 0.0
+        },
+        {
+          "address": "0x9469ebec2b5c56469ed5ab59dfbc44978e0b1bcd",
+          "interaction_count": 1,
+          "interaction_type": "transfer",
+          "estimated_exposure_usd": 0.0
+        },
+        {
+          "address": "0x3d741319b93622727ea59a230e409f723a67fee6",
+          "interaction_count": 1,
+          "interaction_type": "withdrawUnlockedToken",
+          "estimated_exposure_usd": 0.0
+        },
+        {
+          "address": "0x2377b60638eff2450f4bc17ae25223e8fd08a923",
+          "interaction_count": 1,
+          "interaction_type": "transfer",
+          "estimated_exposure_usd": 0.0
+        },
+        {
+          "address": "0x8449ae41f73cc87a62fdc0a2b74ab1bd7fae296a",
+          "interaction_count": 1,
+          "interaction_type": "depositEth",
+          "estimated_exposure_usd": 0.0
+        },
+        {
+          "address": "0x06c2f86379e5a38ac4ed369a1d9e936df3e5e4b7",
+          "interaction_count": 1,
+          "interaction_type": "transfer",
+          "estimated_exposure_usd": 0.0
+        },
+        {
+          "address": "0xf127eb2c951431fa92e50f652b93a5c9e65727f3",
+          "interaction_count": 1,
+          "interaction_type": "transfer",
+          "estimated_exposure_usd": 0.0
+        },
+        {
+          "address": "0xdc76d0ccc89f070c2aa1360e56692a7728bf796f",
+          "interaction_count": 1,
+          "interaction_type": "depositETH",
+          "estimated_exposure_usd": 0.0
+        },
+        {
+          "address": "0xc647d4080549603f8c779b9dd28e53c62300aea2",
+          "interaction_count": 1,
+          "interaction_type": "depositEth",
+          "estimated_exposure_usd": 0.0
+        },
+        {
+          "address": "0xc024c9abe49f73dce411a3dd82b2597807fd6741",
+          "interaction_count": 1,
+          "interaction_type": "depositEth",
+          "estimated_exposure_usd": 0.0
+        },
+        {
+          "address": "0x1b7af7a77e55cdb2fa1800d32289b405e1899142",
+          "interaction_count": 1,
+          "interaction_type": "transfer",
+          "estimated_exposure_usd": 0.0
+        }
+      ]
+    },
+    {
+      "contract_address": "0x49048044D57e1C92A77f79988d21Fa8fAF74E97e",
+      "contract_name": "Base Bridge",
+      "chain": "Ethereum",
+      "category": "Canonical Bridge",
+      "tvl": 3270459813.215236,
+      "vulnerability_count": 12,
+      "highest_severity": "CRITICAL",
+      "total_wallets": 251,
+      "total_exposure_usd": 87870.93824514623,
+      "high_value_wallets": 0,
+      "exposed_wallets": [
+        {
+          "address": "0x1aafacc008099845d6c35df8c5925c8e659c4400",
+          "interaction_count": 1,
+          "interaction_type": "finalizeWithdrawalTransactionExternalProof",
+          "estimated_exposure_usd": 0.0
+        },
+        {
+          "address": "0xe69f81b825d7dc31ee9becef4dbeab5cf30e3abb",
+          "interaction_count": 1,
+          "interaction_type": "finalizeWithdrawalTransaction",
+          "estimated_exposure_usd": 87569.7298560015
+        },
+        {
+          "address": "0xf70da97812cb96acdf810712aa562db8dfa3dbef",
+          "interaction_count": 1,
+          "interaction_type": "depositTransaction",
+          "estimated_exposure_usd": 0.0
+        },
+        {
+          "address": "0x05acebb48d35b6108ee15e84c956ae65f9676a01",
+          "interaction_count": 1,
+          "interaction_type": "finalizeWithdrawalTransactionExternalProof",
+          "estimated_exposure_usd": 79.01030323681854
+        },
+        {
+          "address": "0xdc06023b80e588f1121a901efc3a0126f7191692",
+          "interaction_count": 1,
+          "interaction_type": "proveWithdrawalTransaction",
+          "estimated_exposure_usd": 222.19808590791166
+        },
+        {
+          "address": "0x9545e2439c5c75d3aa723acac1aa6b0fa1db6956",
+          "interaction_count": 1,
+          "interaction_type": "depositTransaction",
+          "estimated_exposure_usd": 0.0
+        },
+        {
+          "address": "0xa1814cb3f521a2e01e008b3b0cebe874cf7c9f1e",
+          "interaction_count": 1,
+          "interaction_type": "proveWithdrawalTransaction",
+          "estimated_exposure_usd": 0.0
+        },
+        {
+          "address": "0x72ca79358817eb90cd71c4bdf8f167ad704538f8",
+          "interaction_count": 1,
+          "interaction_type": "proveWithdrawalTransaction",
+          "estimated_exposure_usd": 0.0
+        },
+        {
+          "address": "0x1f876d9252596fcaf8d651a6f443ce21ead7f1e1",
+          "interaction_count": 1,
+          "interaction_type": "proveWithdrawalTransaction",
+          "estimated_exposure_usd": 0.0
+        },
+        {
+          "address": "0xa17b7d51d9cef3297e43fb201212a16327436022",
+          "interaction_count": 1,
+          "interaction_type": "finalizeWithdrawalTransactionExternalProof",
+          "estimated_exposure_usd": 0.0
+        },
+        {
+          "address": "0xa65be561e6dd17f333f6750e6dc2ecb79c8d525e",
+          "interaction_count": 1,
+          "interaction_type": "proveWithdrawalTransaction",
+          "estimated_exposure_usd": 0.0
+        },
+        {
+          "address": "0x8a3afbd5df9c0333504a0178f554db28c9884291",
+          "interaction_count": 1,
+          "interaction_type": "proveWithdrawalTransaction",
+          "estimated_exposure_usd": 0.0
+        },
+        {
+          "address": "0x5f8f15c7e0263239a218dfdf315cfd1911786947",
+          "interaction_count": 1,
+          "interaction_type": "proveWithdrawalTransaction",
+          "estimated_exposure_usd": 0.0
+        },
+        {
+          "address": "0x14268b5cafd61fd568f7caffcddbec8de96abd9c",
+          "interaction_count": 1,
+          "interaction_type": "finalizeWithdrawalTransactionExternalProof",
+          "estimated_exposure_usd": 0.0
+        },
+        {
+          "address": "0xdd77c787f2f89c71791d6630b926701f98f2e735",
+          "interaction_count": 1,
+          "interaction_type": "proveWithdrawalTransaction",
+          "estimated_exposure_usd": 0.0
+        },
+        {
+          "address": "0xca2c728727ecd1b7676003f82545aebd731d13fd",
+          "interaction_count": 1,
+          "interaction_type": "proveWithdrawalTransaction",
+          "estimated_exposure_usd": 0.0
+        },
+        {
+          "address": "0x37863df4712e4494dffc4854862259399354b2bb",
+          "interaction_count": 1,
+          "interaction_type": "finalizeWithdrawalTransactionExternalProof",
+          "estimated_exposure_usd": 0.0
+        },
+        {
+          "address": "0x6ee62fb521531b587e79262d759dec8ce4fef341",
+          "interaction_count": 1,
+          "interaction_type": "finalizeWithdrawalTransactionExternalProof",
+          "estimated_exposure_usd": 0.0
+        },
+        {
+          "address": "0xed9f06e92f908483cf457ecb09af84dbdc9ed5d0",
+          "interaction_count": 1,
+          "interaction_type": "proveWithdrawalTransaction",
+          "estimated_exposure_usd": 0.0
+        },
+        {
+          "address": "0xd46bd800702d639b3ad20c1230d9c1c751d41ea7",
+          "interaction_count": 1,
+          "interaction_type": "proveWithdrawalTransaction",
+          "estimated_exposure_usd": 0.0
+        }
+      ]
+    },
+    {
+      "contract_address": "0x68749665FF8D2d112Fa859AA293F07A622782F38",
+      "contract_name": "Tether Gold",
+      "chain": "Ethereum",
+      "category": "RWA",
+      "tvl": 2672534385.724876,
+      "vulnerability_count": 8,
+      "highest_severity": "CRITICAL",
+      "total_wallets": 233,
+      "total_exposure_usd": 2711.7727876970152,
+      "high_value_wallets": 0,
+      "exposed_wallets": [
+        {
+          "address": "0x176ff51e568388ffca6a6bbb89b0714234194e55",
+          "interaction_count": 1,
+          "interaction_type": "transfer",
+          "estimated_exposure_usd": 17.699366093163217
+        },
+        {
+          "address": "0x378671b641a257c5ab8ddbb5e2ff01bd612d7914",
+          "interaction_count": 1,
+          "interaction_type": "transfer",
+          "estimated_exposure_usd": 0.5315628889699744
+        },
+        {
+          "address": "0x5910a9f4a27d3905b70372efa6f766ddc982e697",
+          "interaction_count": 1,
+          "interaction_type": "transfer",
+          "estimated_exposure_usd": 2.6337780672188327
+        },
+        {
+          "address": "0x0d0707963952f2fba59dd06f2b425ace40b492fe",
+          "interaction_count": 1,
+          "interaction_type": "transfer",
+          "estimated_exposure_usd": 0.0
+        },
+        {
+          "address": "0x4a4aaa0155237881fbd5c34bfae16e985a7b068d",
+          "interaction_count": 1,
+          "interaction_type": "transfer",
+          "estimated_exposure_usd": 2690.908080647663
+        },
+        {
+          "address": "0x187c9fbf5bd0f266883c03f320260c407c7b4100",
+          "interaction_count": 1,
+          "interaction_type": "transfer",
+          "estimated_exposure_usd": 0.0
+        },
+        {
+          "address": "0xf8191d98ae98d2f7abdfb63a9b0b812b93c873aa",
+          "interaction_count": 1,
+          "interaction_type": "transfer",
+          "estimated_exposure_usd": 0.0
+        },
+        {
+          "address": "0xbc8a0f5e41857292d12ef620e2a5895ce65a5ce0",
+          "interaction_count": 1,
+          "interaction_type": "transfer",
+          "estimated_exposure_usd": 0.0
+        },
+        {
+          "address": "0x0ba9bf6ece534ef7d43ec50f6f08c899ddecebbe",
+          "interaction_count": 1,
+          "interaction_type": "transfer",
+          "estimated_exposure_usd": 0.0
+        },
+        {
+          "address": "0x715f32fbc06f0d2be796766d2fa0fbb47ebd0e27",
+          "interaction_count": 1,
+          "interaction_type": "transfer",
+          "estimated_exposure_usd": 0.0
+        },
+        {
+          "address": "0x59332dca77ff031b42229c956f8b7f45c0fa0f02",
+          "interaction_count": 1,
+          "interaction_type": "approve",
+          "estimated_exposure_usd": 0.0
+        },
+        {
+          "address": "0x77134cbc06cb00b66f4c7e623d5fdbf6777635ec",
+          "interaction_count": 1,
+          "interaction_type": "transfer",
+          "estimated_exposure_usd": 0.0
+        },
+        {
+          "address": "0x03631c388fb01e0d929627b614eeb501c0ef9dce",
+          "interaction_count": 1,
+          "interaction_type": "transfer",
+          "estimated_exposure_usd": 0.0
+        },
+        {
+          "address": "0xe8f1191e5f6ebfe1e989df2ed8f0c3e3b47b9700",
+          "interaction_count": 1,
+          "interaction_type": "transfer",
+          "estimated_exposure_usd": 0.0
+        },
+        {
+          "address": "0x353d7b969d22d8d08f66e26ef4294f5d46fc6003",
+          "interaction_count": 1,
+          "interaction_type": "transfer",
+          "estimated_exposure_usd": 0.0
+        },
+        {
+          "address": "0xd87d788092eb07b870ef4b2cc8b8b71c25350c5e",
+          "interaction_count": 1,
+          "interaction_type": "transfer",
+          "estimated_exposure_usd": 0.0
+        },
+        {
+          "address": "0xaea86ac3a1639d8e3734861d3ffbe75a27124f5b",
+          "interaction_count": 1,
+          "interaction_type": "transfer",
+          "estimated_exposure_usd": 0.0
+        },
+        {
+          "address": "0xbca34ed5875079cc561840f3409a790769821dbc",
+          "interaction_count": 1,
+          "interaction_type": "transfer",
+          "estimated_exposure_usd": 0.0
+        },
+        {
+          "address": "0x056a60a18164bf36bb5cedb5c51a5ee11eb261a0",
+          "interaction_count": 1,
+          "interaction_type": "approve",
+          "estimated_exposure_usd": 0.0
+        },
+        {
+          "address": "0xa657358b0e7f5d89ed87600fc668b1fa1764c9f4",
+          "interaction_count": 1,
+          "interaction_type": "approve",
+          "estimated_exposure_usd": 0.0
+        }
+      ]
+    }
+  ]
+}

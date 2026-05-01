@@ -1,0 +1,386 @@
+{
+  "address": "0x176ff51e568388ffca6a6bbb89b0714234194e55",
+  "discovered_at": "2026-01-26T14:59:45.163828+00:00",
+  "total_value_usd": 17.699366093163217,
+  "eth_balance": 0.00605790903988628,
+  "eth_value_usd": 17.699366093163217,
+  "token_holdings": {},
+  "risk_score": 90,
+  "tx_count": 286,
+  "defi_activity": false,
+  "nft_activity": {},
+  "bridge_activity": false,
+  "age_days": 1428,
+  "osint_categories": [
+    "\ud83d\udc1f_easy_targets"
+  ],
+  "primary_osint_category": "\ud83d\udc1f_easy_targets",
+  "behavior": {
+    "confidence_score": 90,
+    "sophistication": "Intermediate",
+    "risk_tolerance": "Conservative",
+    "trading_style": "Stablecoin Holder",
+    "likely_region": "Americas",
+    "likely_timezone": "Americas (UTC-5 to -8)",
+    "meme_exposure": false,
+    "defi_protocols": [],
+    "nft_platforms": [],
+    "bridges_used": [],
+    "exchange_interactions": [
+      "Bitget 6"
+    ],
+    "frequent_counterparties": []
+  },
+  "transaction_analysis": {
+    "total_transactions": 286,
+    "total_value_eth": 29.88651387896173,
+    "most_active_hour": 23,
+    "most_active_day": "Tuesday",
+    "top_recipients": [
+      [
+        "0x45804880de22913dafe09f4980848ece6ecbaf78",
+        76
+      ],
+      [
+        "0x176ff51e568388ffca6a6bbb89b0714234194e55",
+        56
+      ],
+      [
+        "0x68749665ff8d2d112fa859aa293f07a622782f38",
+        54
+      ],
+      [
+        "0xdac17f958d2ee523a2206206994597c13d831ec7",
+        51
+      ],
+      [
+        "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+        25
+      ],
+      [
+        "0xc83da2ce67206fe8c6bb156d645c071efa4a738a",
+        18
+      ],
+      [
+        "0x2f8d366027e1143616e0272d8144b320653e9fac",
+        4
+      ],
+      [
+        "0x1d7c3d3052bd0659ada87297200f6e6d09751908",
+        1
+      ],
+      [
+        "0x95ad61b0a150d79219dcf64e1e6cc01f0b64c4ce",
+        1
+      ]
+    ],
+    "top_senders": [
+      [
+        "0x176ff51e568388ffca6a6bbb89b0714234194e55",
+        230
+      ],
+      [
+        "0xc83d6c99f8e7e02235f3eca61a7e6b8bcbb6738a",
+        15
+      ],
+      [
+        "0x1ab4973a48dc892cd9971ece8e01dcc7688f8f23",
+        12
+      ],
+      [
+        "0xc83d33090e84025c42776af0bcf73c3676eb038a",
+        8
+      ],
+      [
+        "0xc83daf8b0219cf52f0e74a083f8196044641738a",
+        6
+      ],
+      [
+        "0x1d7c3d3052bd0659ada87297200f6e6d09751908",
+        6
+      ],
+      [
+        "0xcad621da75a66c7a8f4ff86d30a2bf981bfc8fdd",
+        4
+      ],
+      [
+        "0xc8316e78993b424dbe952578e2e1ab90cbec738a",
+        3
+      ],
+      [
+        "0x93fdadf4992276a37a2a10c03c80cfd604c9402d",
+        2
+      ]
+    ],
+    "first_transaction": "2022-02-27T23:34:02",
+    "last_transaction": "2026-01-26T15:58:59",
+    "avg_gas_used": 47859.23426573427,
+    "avg_gas_price": 54781553060.01075
+  },
+  "token_activity": {
+    "unique_tokens": 29,
+    "top_tokens": [
+      [
+        "USDT",
+        250
+      ],
+      [
+        "PAXG",
+        205
+      ],
+      [
+        "ETH",
+        181
+      ],
+      [
+        "XAUt",
+        103
+      ],
+      [
+        "USDC",
+        82
+      ],
+      [
+        "\ua4f4\ua4e2\ua4d3\ua4d4",
+        18
+      ],
+      [
+        "USD\u0422",
+        4
+      ],
+      [
+        "\u206fU\ufeffS\u2062D\u2064\u03a4\u2061\u2062",
+        3
+      ],
+      [
+        "SHIB",
+        3
+      ],
+      [
+        "\u2062U\u206bS\u2062D\u2061\u03a4\u2061\u206a",
+        2
+      ],
+      [
+        "\u2062U\u206dS\u200eD\u206c\u0421\u2060\u206b",
+        2
+      ],
+      [
+        "\ua4f4\ua4e2\ua4d3\u0421",
+        2
+      ],
+      [
+        "MEMES",
+        1
+      ],
+      [
+        "GWEI",
+        1
+      ],
+      [
+        "XMOVE",
+        1
+      ],
+      [
+        "Stars",
+        1
+      ],
+      [
+        "E\ua4d4H",
+        1
+      ],
+      [
+        "FOMO",
+        1
+      ],
+      [
+        "INX",
+        1
+      ],
+      [
+        "CAI",
+        1
+      ]
+    ],
+    "token_values": {
+      "XAUt": 73.31814300000002,
+      "MEMES": 5.0,
+      "PAXG": 89.74237360479948,
+      "GWEI": 5.0,
+      "USDC": 105275.18297599998,
+      "USDT": 348019.97479899996,
+      "\u2062U\u206bS\u2062D\u2061\u03a4\u2061\u206a": 2000.575111,
+      "\u2062U\u206dS\u200eD\u206c\u0421\u2060\u206b": 1053.019253,
+      "\u206fU\ufeffS\u2062D\u2064\u03a4\u2061\u2062": 4675.990658,
+      "\ua4f4\ua4e2\ua4d3\u0421": 1200.775822,
+      "\ua4f4\ua4e2\ua4d3\ua4d4": 54990.34403799999,
+      "XMOVE": 2.0,
+      "Stars": 2.0,
+      "E\ua4d4H": 0.45937132591752156,
+      "ETH": 163.21112189368029,
+      "FOMO": 2.0,
+      "INX": 2.0,
+      "CAI": 2.0,
+      "SBX": 2.0,
+      "PMAI": 2.0,
+      "WETH": 1e-07,
+      "Visit website nano-ether .com to claim rewards": 2.7,
+      "STEAK": 98.734421,
+      "Earn rewards at https://paxos.gold": 27.5,
+      "USD\u0422": 3221.140578,
+      "USD\u0421": 1e-10,
+      "SHIB": 77685561.28,
+      "Visit eventshiba.org to claim rewards": 75539184.44,
+      "Visit website shibanetwork.org to claim rewards": 525235396.0
+    },
+    "token_details": {
+      "XAUt": [
+        "Tether Gold"
+      ],
+      "MEMES": [
+        "MEMES will continue on Ethereum"
+      ],
+      "PAXG": [
+        "Paxos Gold"
+      ],
+      "GWEI": [
+        "ETHGas"
+      ],
+      "USDC": [
+        "USDC",
+        "USD Coin"
+      ],
+      "USDT": [
+        "Tether USD"
+      ],
+      "\u2062U\u206bS\u2062D\u2061\u03a4\u2061\u206a": [
+        "\u206b\u03a4\u200d\u0435\u2064t\u200ch\u2062\u0435\u2060r\u200d \u200dU\u206bS\u206bD\u2064\u206f"
+      ],
+      "\u2062U\u206dS\u200eD\u206c\u0421\u2060\u206b": [
+        "\u2061U\u2060S\u2063D\u2061\u0421\u206c\u206b"
+      ],
+      "\u206fU\ufeffS\u2062D\u2064\u03a4\u2061\u2062": [
+        "\u200d\u03a4\u206f\u0435\ufefft\u2060h\u206b\u0435\ufeffr\u2064 \u206bU\ufeffS\u2060D\u2064\u200e"
+      ],
+      "\ua4f4\ua4e2\ua4d3\u0421": [
+        "\ua4f4\ua4e2\ua4d3\u0421"
+      ],
+      "\ua4f4\ua4e2\ua4d3\ua4d4": [
+        "\ua4f4\ua4e2\ua4d3\ua4d4"
+      ],
+      "XMOVE": [
+        "XMOVE"
+      ],
+      "Stars": [
+        "Stars"
+      ],
+      "E\ua4d4H": [
+        "E\ua4d4H"
+      ],
+      "ETH": [
+        "ETH",
+        "Ethereum"
+      ],
+      "FOMO": [
+        "FOMO"
+      ],
+      "INX": [
+        "INX"
+      ],
+      "CAI": [
+        "CAI"
+      ],
+      "SBX": [
+        "SBX"
+      ],
+      "PMAI": [
+        "PMAI"
+      ],
+      "WETH": [
+        "Wrapped Ether"
+      ],
+      "Visit website nano-ether .com to claim rewards": [
+        "Visit website nano-ether .com to claim rewards"
+      ],
+      "STEAK": [
+        "Steaks.finance"
+      ],
+      "Earn rewards at https://paxos.gold": [
+        "paxos.gold"
+      ],
+      "USD\u0422": [
+        "\u0422\u0435th\u0435r U\u0405D"
+      ],
+      "USD\u0421": [
+        "USD\u0421"
+      ],
+      "SHIB": [
+        "SHIBA INU"
+      ],
+      "Visit eventshiba.org to claim rewards": [
+        "# eventshiba.org"
+      ],
+      "Visit website shibanetwork.org to claim rewards": [
+        "# shibanetwork.org"
+      ]
+    }
+  },
+  "ipfs_osint": {
+    "skipped": true,
+    "reason": "no_nft_activity"
+  },
+  "ens": {
+    "address": "0x176ff51e568388ffca6a6bbb89b0714234194e55",
+    "ens_name": null,
+    "text_records": {},
+    "social_links": {},
+    "has_ens": false,
+    "has_social_links": false
+  },
+  "approval_risk": {
+    "scan_timestamp": "2026-01-26T14:59:53.761871+00:00",
+    "total_approvals": 0,
+    "unlimited_approvals": 0,
+    "high_risk_approvals": 0,
+    "total_exposure_usd": 0,
+    "verdicts": [],
+    "has_dangerous_approvals": false
+  },
+  "funding_trace": {
+    "target": "0x176ff51e568388ffca6a6bbb89b0714234194e55",
+    "trace_timestamp": "2026-01-26T14:59:52.928093+00:00",
+    "total_hops": 0,
+    "origin_found": false,
+    "origin_type": null,
+    "origin_label": null,
+    "trace_complete": false,
+    "trace_stopped_reason": "No funding transaction found",
+    "funding_chain": []
+  },
+  "token_risks": {
+    "scan_timestamp": "2026-01-26T14:59:54.479543+00:00",
+    "tokens_analyzed": 0,
+    "risky_tokens": 0,
+    "total_value_at_risk_usd": 0,
+    "has_risky_tokens": false,
+    "verdicts": [],
+    "honeypots_detected": 0,
+    "impersonators_detected": 0
+  },
+  "verdicts": [
+    {
+      "title": "CONFIRMED INDIVIDUAL",
+      "severity": "INFO",
+      "category": "PROFILE",
+      "description": "High confidence this is a real individual, not a bot or institution. Human transaction patterns detected.",
+      "evidence": [
+        "Matched 3/4 signals",
+        "Pattern: confirmed_individual",
+        "Confidence: 75%",
+        "Signal: confidence_score",
+        "Signal: tx_count",
+        "Signal: tx_count"
+      ],
+      "action": "Suitable for targeted social engineering"
+    }
+  ]
+}

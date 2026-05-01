@@ -4,7 +4,7 @@
 ╚══════════════════════════════════════════════════════════════════════════════╝
 
 Target:     0x924d787c29338ef75c6f70ae2ad6f849b46640ec
-Generated:  2026-01-20 17:15:23 UTC
+Generated:  2026-01-26 15:57:45 UTC
 
 ┌──────────────────────────────────────────────────────────────────────────────┐
 │                               QUICK ASSESSMENT                               │
@@ -27,7 +27,7 @@ Generated:  2026-01-20 17:15:23 UTC
   Transaction Count:                        82
   Total ETH Moved:                        0.55 ETH
   Avg Transaction:                      0.0096 ETH
-  Wallet Age:                              201 days
+  Wallet Age:                              207 days
   First Transaction:                2025-07-02
   Last Transaction:                 2025-12-17
 
@@ -50,9 +50,9 @@ Generated:  2026-01-20 17:15:23 UTC
 🔧 PROTOCOL & PLATFORM USAGE
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
   DeFi Protocols:
-    ✓ 1inch V5
     ✓ Metamask Swap Router
     ✓ WETH Contract
+    ✓ 1inch V5
 
   NFT Platforms:          None detected
 

@@ -1,0 +1,782 @@
+{
+  "address": "0xf70da97812cb96acdf810712aa562db8dfa3dbef",
+  "discovered_at": "2026-01-26T14:58:36.734595+00:00",
+  "total_value_usd": 766946.0094443099,
+  "eth_balance": 262.415837799602,
+  "eth_value_usd": 766946.0094443099,
+  "token_holdings": {},
+  "risk_score": 70,
+  "tx_count": 1000,
+  "defi_activity": false,
+  "nft_activity": {
+    "unique_collections": 84,
+    "top_collections": [
+      [
+        "Elemental",
+        42
+      ],
+      [
+        "Doodles",
+        28
+      ],
+      [
+        "LilPudgys",
+        28
+      ],
+      [
+        "Wonky Stonks",
+        26
+      ],
+      [
+        "Azuki",
+        18
+      ],
+      [
+        "Pirate",
+        16
+      ],
+      [
+        "Nakamigos",
+        16
+      ],
+      [
+        "Meebits",
+        16
+      ],
+      [
+        "Moonbirds",
+        14
+      ],
+      [
+        "PudgyPresent",
+        12
+      ]
+    ],
+    "collection_addresses": {
+      "0x49a0661c3243627af3fc308de3b6a01f98bf944c": 1,
+      "0xc73ac79cb2dfeefb21d6df7479c9f2e778cde4c8": 1,
+      "0x24f1c5cd52c9c10f6437d483c680c521926fd347": 1,
+      "0x732bc69d3ed34a18058dee2a9ef046d440a357e5": 1,
+      "0x39d3230c84efcb5559d22f499151934476b5c16d": 2,
+      "0x42069abfe407c60cf4ae4112bedead391dba1cdb": 4,
+      "0x790b2cf29ed4f310bf7641f013c65d4560d28371": 8,
+      "0x2d0d57d004f82e9f4471caa8b9f8b1965a814154": 2,
+      "0x306b1ea3ecdf94ab739f1910bbda052ed4a9f949": 8,
+      "0x1b41d54b3f8de13d58102c50d7431fd6aa1a2c48": 16,
+      "0x8a90cab2b38dba80c64b7734e58ee1db38b8992e": 28,
+      "0x592b96241367bab3b2bf930c9d41bdf801749878": 6,
+      "0xe012baf811cf9c05c408e879c399960d1f305903": 2,
+      "0x1cb1a5e65610aeff2551a50f76a87a7d3fb649c6": 4,
+      "0xd774557b647330c91bf44cfeab205095f7e6c367": 16,
+      "0xce42ca363031af3a6d5e60b8da5a9db0c5e6aa43": 6,
+      "0xc0ffee8ff7e5497c2d6f7684859709225fcc5be8": 6,
+      "0xd3d9ddd0cf0a5f0bfb8f7fceae075df687eaebab": 8,
+      "0x524cab2ec69124574082676e6f654a18df49a048": 28,
+      "0xe6d48bf4ee912235398b96e16db6f310c21e82cb": 4,
+      "0x0c56f29b8d90eea71d57cadeb3216b4ef7494abc": 10,
+      "0x7bd29408f11d2bfc23c34f18275bbf23bb716bc7": 16,
+      "0x80336ad7a747236ef41f47ed2c7641828a480baa": 4,
+      "0x7011ee079f579eb313012bddb92fd6f06fa43335": 10,
+      "0x9830b32f7210f0857a859c2a86387e4d1bb760b8": 2,
+      "0x60e4d786628fea6478f785a6d7e704777c86a7c6": 8,
+      "0x23581767a106ae21c074b2276d25e5c3e136a68b": 14,
+      "0xc99c679c50033bbc5321eb88752e89a93e9e83c5": 2,
+      "0x71ab9600ec179c6a8f3e43c866a5c74265f1bce4": 1,
+      "0xb852c6b5892256c264cc2c888ea462189154d8d7": 6,
+      "0xc374a204334d4edd4c6a62f0867c752d65e9579c": 10,
+      "0x062e691c2054de82f28008a8ccc6d7a1c8ce060d": 12,
+      "0x8f1b132e9fd2b9a2b210baa186bf1ae650adf7ac": 2,
+      "0xbd3531da5cf5857e7cfaa92426877b022e612cf8": 2,
+      "0xb6a37b5d14d502c3ab0ae6f3a0e058bc9517786e": 42,
+      "0x5af0d9827e0c53e4799bb226655a1de152a425a5": 12,
+      "0xd4b7d9bb20fa20ddada9ecef8a7355ca983cccb1": 2,
+      "0xacf63e56fd08970b43401492a02f6f38b6635c91": 6,
+      "0x59325733eb952a92e069c87f0a6168b29e80627f": 2,
+      "0x63d48ed3f50aba950c17e37ca03356ccd6b6a280": 2,
+      "0xbaea7422effc762b0810f5e312bfa2e13f0801f3": 2,
+      "0x4e1f41613c9084fdb9e34e11fae9412427480e56": 2,
+      "0x9557df87b329bcb28698d5e0e4530979e74ea164": 2,
+      "0x8c186802b1992f7650ac865d4ca94d55ff3c0d17": 2,
+      "0x466cfcd0525189b573e794f554b8a751279213ac": 8,
+      "0xba30e5f9bb24caa003e9f2f0497ad287fdf95623": 4,
+      "0x49de69f69cd6c4bbb533083c234c5e1e80ca5465": 8,
+      "0x769272677fab02575e84945f03eca517acc544cc": 6,
+      "0x7f36182dee28c45de6072a34d29855bae76dbe2f": 2,
+      "0x39ee2c7b3cb80254225884ca001f57118c8f21b6": 8,
+      "0x5946aeaab44e65eb370ffaa6a7ef2218cff9b47d": 8,
+      "0x8ecd12e0fe8ad36f50e722a09fd3412194cbf8f4": 4,
+      "0x518ba36f1ca6dfe3bb1b098b8dd0444030e79d9f": 26,
+      "0xed5af388653567af2f388e6224dc7c4b3241c544": 18,
+      "0x70789e18a75611a9516d6251d650d096740a9e07": 4,
+      "0xccc441ac31f02cd96c153db6fd5fe0a2f4e6a68d": 2,
+      "0x9378368ba6b85c1fba5b131b530f5f5bedf21a18": 2,
+      "0x6199a4a9a290b0b77ff2e113abe9d1ad4ab5ac63": 2,
+      "0x79fcdef22feed20eddacbb2587640e45491b757f": 2,
+      "0x74b6229ec051cb31ec4072305bd203f16406c387": 2,
+      "0x17ed38f5f519c6ed563be6486e629041bed3dfbc": 2,
+      "0xd564c25b760cb278a55bdd98831f4ff4b6c97b38": 6,
+      "0x8cdbd7010bd197848e95c1fd7f6e870aac9b0d3c": 4,
+      "0x6339e5e072086621540d0362c4e3cea0d643e114": 6,
+      "0xbabafdd8045740449a42b788a26e9b3a32f88ac1": 2,
+      "0x2fc722c1c77170a61f17962cc4d039692f033b43": 2,
+      "0x82f5ef9ddc3d231962ba57a9c2ebb307dc8d26c2": 2,
+      "0x57fbb364041d860995ed610579d70727ac51e470": 2,
+      "0xabcdb5710b88f456fed1e99025379e2969f29610": 2,
+      "0xf0031782d37819f8e209c4421c774ed1f6163052": 2,
+      "0x11b3efbf04f0ba505f380ac20444b6952970ada6": 4,
+      "0x0fc3dd8c37880a297166bed57759974a157f0e74": 4,
+      "0x3bf2922f4520a8ba0c2efc3d2a1539678dad5e9d": 4,
+      "0x49cf6f5d44e70224e2e23fdcdd2c053f30ada28b": 8,
+      "0xfdf5acd92840e796955736b1bb9cc832740744ba": 2,
+      "0x354634c4621cdfb7a25e6486cca1e019777d841b": 2,
+      "0xc9d198089d6c31d0ca5cc5b92c97a57a97bbfde2": 2,
+      "0xc878671ff88f1374d2186127573e4a63931370fc": 2,
+      "0x4d232cd85294acd53ec03f4a57f57888c9ea1946": 2,
+      "0x07f4d0691ee248b46fb71afa15f28a08d951a002": 2,
+      "0xe21ebcd28d37a67757b9bc7b290f4c4928a430b1": 2,
+      "0x1347a97789cd3aa0b11433e8117f55ab640a0451": 2,
+      "0x449019951cbac49343482a5a82ae2615bf1e2d6c": 1,
+      "0x1b1bff222999bcd6fd07b64d7880e6a95d54acaa": 2
+    }
+  },
+  "bridge_activity": true,
+  "age_days": 0,
+  "osint_categories": [
+    "\ud83c\udfb0_gamblers",
+    "\ud83c\udd95_newcomers",
+    "\ud83c\udfc6_status_seekers",
+    "\ud83c\udfaf_prime_targets"
+  ],
+  "primary_osint_category": "\ud83c\udfb0_gamblers",
+  "behavior": {
+    "confidence_score": 70,
+    "sophistication": "Intermediate",
+    "risk_tolerance": "Conservative",
+    "trading_style": "Stablecoin Holder",
+    "likely_region": "Europe",
+    "likely_timezone": "Europe/Africa (UTC+0 to +3)",
+    "meme_exposure": false,
+    "defi_protocols": [],
+    "nft_platforms": [],
+    "bridges_used": [
+      "Arbitrum Inbox"
+    ],
+    "exchange_interactions": [],
+    "frequent_counterparties": []
+  },
+  "transaction_analysis": {
+    "total_transactions": 1000,
+    "total_value_eth": 5244.021641177878,
+    "most_active_hour": 17,
+    "most_active_day": "Sunday",
+    "top_recipients": [
+      [
+        "0xbbbfd134e9b44bfb5123898ba36b01de7ab93d98",
+        125
+      ],
+      [
+        "0xf5042e6ffac5a625d4e7848e0b01373d8eb9e222",
+        105
+      ],
+      [
+        "0xf70da97812cb96acdf810712aa562db8dfa3dbef",
+        105
+      ],
+      [
+        "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+        91
+      ],
+      [
+        "0xdac17f958d2ee523a2206206994597c13d831ec7",
+        75
+      ],
+      [
+        "0xbd3fa81b58ba92a82136038b25adec7066af3155",
+        38
+      ],
+      [
+        "0xb92fe925dc43a0ecde6c8b1a2709c170ec4fff4f",
+        17
+      ],
+      [
+        "0xc026395860db2d07ee33e05fe50ed7bd583189c7",
+        12
+      ],
+      [
+        "0x370a7e2d300c14d79d4a7ee07aaca46c4b3012cf",
+        12
+      ],
+      [
+        "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
+        12
+      ]
+    ],
+    "top_senders": [
+      [
+        "0xf70da97812cb96acdf810712aa562db8dfa3dbef",
+        957
+      ],
+      [
+        "0xdadb0d80178819f2319190d340ce9a924f783711",
+        4
+      ],
+      [
+        "0x396343362be2a4da1ce0c1c210945346fb82aa49",
+        2
+      ],
+      [
+        "0x4838b106fce9647bdf1e7877bf73ce8b0bad5f97",
+        2
+      ],
+      [
+        "0x885832edfd433c33d83880aab075193a7991f133",
+        2
+      ],
+      [
+        "0xb695786b3bc9f74d390b7bd22cf89affe3034b23",
+        2
+      ],
+      [
+        "0x2152d95e9bf7c4d4a8f3114d308ac016f71763ca",
+        2
+      ],
+      [
+        "0x01f3a15d6bca86276bf021423526d7f71c71fa69",
+        1
+      ],
+      [
+        "0xc3706e7a5a77de2d3552a79c56345964dfd687c7",
+        1
+      ],
+      [
+        "0xceb69f6342ece283b2f5c9088ff249b5d0ae66ea",
+        1
+      ]
+    ],
+    "first_transaction": "2026-01-24T09:44:47",
+    "last_transaction": "2026-01-26T15:53:11",
+    "avg_gas_used": 133950.699,
+    "avg_gas_price": 112787418.73468119
+  },
+  "token_activity": {
+    "unique_tokens": 8,
+    "top_tokens": [
+      [
+        "USDC",
+        605
+      ],
+      [
+        "USDT",
+        249
+      ],
+      [
+        "WETH",
+        66
+      ],
+      [
+        "USDe",
+        61
+      ],
+      [
+        "G",
+        7
+      ],
+      [
+        "APE",
+        6
+      ],
+      [
+        "WBTC",
+        5
+      ],
+      [
+        "ANIME",
+        1
+      ]
+    ],
+    "token_values": {
+      "USDC": 5966776.143050998,
+      "USDe": 121129.5835083496,
+      "USDT": 588103.2406000004,
+      "WETH": 26.35371502668433,
+      "ANIME": 1412.7640791269869,
+      "APE": 324.78570737207036,
+      "G": 1562.2076744565368,
+      "WBTC": 0.07045101
+    },
+    "token_details": {
+      "USDC": [
+        "USDC"
+      ],
+      "USDe": [
+        "USDe"
+      ],
+      "USDT": [
+        "Tether USD"
+      ],
+      "WETH": [
+        "Wrapped Ether"
+      ],
+      "ANIME": [
+        "Animecoin"
+      ],
+      "APE": [
+        "ApeCoin"
+      ],
+      "G": [
+        "Gravity"
+      ],
+      "WBTC": [
+        "Wrapped BTC"
+      ]
+    }
+  },
+  "ipfs_osint": {
+    "address": "0xf70da97812cb96acdf810712aa562db8dfa3dbef",
+    "ipfs_hashes_found": [
+      {
+        "contract": "0x49a0661c3243627af3fc308de3b6a01f98bf944c",
+        "token_id": "0",
+        "uri": "ipfs://bafkreigv27yhw6bcyxm4dkbzalxxj3tcogd46zkjhuopzor4tghh4qcujm",
+        "ipfs_hash": "bafkreigv27yhw6bcyxm4dkbzalxxj3tcogd46zkjhuopzor4tghh4qcujm"
+      },
+      {
+        "contract": "0x49a0661c3243627af3fc308de3b6a01f98bf944c",
+        "token_id": "1068",
+        "uri": "ipfs://bafkreigv27yhw6bcyxm4dkbzalxxj3tcogd46zkjhuopzor4tghh4qcujm",
+        "ipfs_hash": "bafkreigv27yhw6bcyxm4dkbzalxxj3tcogd46zkjhuopzor4tghh4qcujm"
+      },
+      {
+        "contract": "0xc73ac79cb2dfeefb21d6df7479c9f2e778cde4c8",
+        "token_id": "9",
+        "uri": "ipfs://bafybeiei73lco4ow546bkdqqph6ykcw4legv3s6ga7ec7grfszt5lk5cti/9.json",
+        "ipfs_hash": "bafybeiei73lco4ow546bkdqqph6ykcw4legv3s6ga7ec7grfszt5lk5cti"
+      },
+      {
+        "contract": "0x42069abfe407c60cf4ae4112bedead391dba1cdb",
+        "token_id": "2000",
+        "uri": "ipfs://Qmd8YGp9yUKtXas1cT3UsYFpWwfWHvV4Bssj8Pbvrq6BZ5/4/2000.json",
+        "ipfs_hash": "Qmd8YGp9yUKtXas1cT3UsYFpWwfWHvV4Bssj8Pbvrq6BZ5"
+      },
+      {
+        "contract": "0x2d0d57d004f82e9f4471caa8b9f8b1965a814154",
+        "token_id": "4803",
+        "uri": "ipfs://QmSGxiMfp6ByDRcCs8vf1NCxSPXU5XaGhYbtuj7ni13wDn/4803.json",
+        "ipfs_hash": "QmSGxiMfp6ByDRcCs8vf1NCxSPXU5XaGhYbtuj7ni13wDn"
+      },
+      {
+        "contract": "0x306b1ea3ecdf94ab739f1910bbda052ed4a9f949",
+        "token_id": "9215",
+        "uri": "ipfs://QmdYeDpkVZedk1mkGodjNmF35UNxwafhFLVvsHrWgJoz6A/beanz_metadata/9215",
+        "ipfs_hash": "QmdYeDpkVZedk1mkGodjNmF35UNxwafhFLVvsHrWgJoz6A"
+      }
+    ],
+    "metadata_analyzed": [
+      {
+        "contract": "0x49a0661c3243627af3fc308de3b6a01f98bf944c",
+        "token_id": "0",
+        "analysis": {
+          "name": "NexusCard.org",
+          "description": "Get your no-KYC debit card to spend your cryptocurrencies wherever you want. Visit us at www.nexuscard.org",
+          "image": "ipfs://bafkreicyjpgrg3ayyiutuneag4ly6wtb6wiyaydyv7ku2lwahtstr2wxju",
+          "external_url": "https://www.nexuscard.org",
+          "attributes": [
+            {
+              "trait_type": "Website",
+              "value": "www.nexuscard.org"
+            }
+          ],
+          "properties": {},
+          "creator": {},
+          "artist": "",
+          "collection": {},
+          "ipfs_hashes": [
+            "bafkreicyjpgrg3ayyiutuneag4ly6wtb6wiyaydyv7ku2lwahtstr2wxju"
+          ],
+          "linked_urls": [
+            "https://www.nexuscard.org"
+          ],
+          "timestamps": [],
+          "usernames": [],
+          "emails": [],
+          "social_links": []
+        }
+      },
+      {
+        "contract": "0x49a0661c3243627af3fc308de3b6a01f98bf944c",
+        "token_id": "1068",
+        "analysis": {
+          "name": "NexusCard.org",
+          "description": "Get your no-KYC debit card to spend your cryptocurrencies wherever you want. Visit us at www.nexuscard.org",
+          "image": "ipfs://bafkreicyjpgrg3ayyiutuneag4ly6wtb6wiyaydyv7ku2lwahtstr2wxju",
+          "external_url": "https://www.nexuscard.org",
+          "attributes": [
+            {
+              "trait_type": "Website",
+              "value": "www.nexuscard.org"
+            }
+          ],
+          "properties": {},
+          "creator": {},
+          "artist": "",
+          "collection": {},
+          "ipfs_hashes": [
+            "bafkreicyjpgrg3ayyiutuneag4ly6wtb6wiyaydyv7ku2lwahtstr2wxju"
+          ],
+          "linked_urls": [
+            "https://www.nexuscard.org"
+          ],
+          "timestamps": [],
+          "usernames": [],
+          "emails": [],
+          "social_links": []
+        }
+      },
+      {
+        "contract": "0x39d3230c84efcb5559d22f499151934476b5c16d",
+        "token_id": "1272",
+        "analysis": {
+          "name": "Kitaro #1272",
+          "description": "Welcome to Kitaro World.  You have found yourself in a familiar multiverse.  Your adventure starts now!",
+          "image": "https://nftstorage.link/ipfs/bafybeiaozj7uvq565g44t4o2em47z2bijo3obrusjjlt5qzryuca5lffym",
+          "external_url": "",
+          "attributes": [
+            {
+              "trait_type": "Background",
+              "value": "Purple"
+            },
+            {
+              "trait_type": "Fur",
+              "value": "Cloud"
+            },
+            {
+              "trait_type": "Outfit",
+              "value": "Black Tour Tee"
+            },
+            {
+              "trait_type": "Mouth",
+              "value": "Golden Sword"
+            },
+            {
+              "trait_type": "Nose",
+              "value": "Red"
+            },
+            {
+              "trait_type": "Head",
+              "value": "Headband"
+            },
+            {
+              "trait_type": "Eyes",
+              "value": "Black Stunner"
+            },
+            {
+              "trait_type": "Companion",
+              "value": "None"
+            }
+          ],
+          "properties": {},
+          "creator": {},
+          "artist": "",
+          "collection": {},
+          "ipfs_hashes": [
+            "bafybeiaozj7uvq565g44t4o2em47z2bijo3obrusjjlt5qzryuca5lffym"
+          ],
+          "linked_urls": [
+            "https://nftstorage.link/ipfs/bafybeiaozj7uvq565g44t4o2em47z2bijo3obrusjjlt5qzryuca5lffym"
+          ],
+          "timestamps": [],
+          "usernames": [],
+          "emails": [],
+          "social_links": []
+        },
+        "source": "https",
+        "domain": "cdn-api.niftykit.com"
+      },
+      {
+        "contract": "0x790b2cf29ed4f310bf7641f013c65d4560d28371",
+        "token_id": "92127",
+        "analysis": {
+          "name": "",
+          "description": "",
+          "image": "https://assets.otherside.xyz/otherdeeds/9c7bcd6f80f3e47f21a276c1267f769de83347ee049b0cfd8be29c40f78a5017.jpg",
+          "external_url": "",
+          "attributes": [
+            {
+              "value": "Decay",
+              "trait_type": "Category"
+            },
+            {
+              "value": "Cosmic Dream",
+              "trait_type": "Sediment"
+            },
+            {
+              "display_type": "number",
+              "value": 1,
+              "trait_type": "Sediment Tier"
+            },
+            {
+              "value": "Ruins",
+              "trait_type": "Environment"
+            },
+            {
+              "display_type": "number",
+              "value": 1,
+              "trait_type": "Environment Tier"
+            },
+            {
+              "value": "Petrified",
+              "trait_type": "Western Resource"
+            },
+            {
+              "display_type": "number",
+              "value": 1,
+              "trait_type": "Western Resource Tier"
+            },
+            {
+              "display_type": "number",
+              "value": 92127,
+              "trait_type": "Plot"
+            },
+            {
+              "value": "Koda Origins",
+              "trait_type": "Obelisk Piece"
+            },
+            {
+              "value": 0,
+              "trait_type": "Goliath Kills"
+            },
+            {
+              "value": 0,
+              "trait_type": "Goliath Kills"
+            }
+          ],
+          "properties": {},
+          "creator": {},
+          "artist": "",
+          "collection": {},
+          "ipfs_hashes": [],
+          "linked_urls": [
+            "https://otherside.xyz/license/otherdeed-expanded",
+            "https://assets.otherside.xyz/otherdeeds/9c7bcd6f80f3e47f21a276c1267f769de83347ee049b0cfd8be29c40f78a5017.jpg"
+          ],
+          "timestamps": [],
+          "usernames": [],
+          "emails": [],
+          "social_links": []
+        },
+        "source": "https",
+        "domain": "api.otherside.xyz"
+      }
+    ],
+    "debug_info": {
+      "nft_transfers_count": 500,
+      "contracts_found": 17,
+      "tokens_checked": 11,
+      "uris_found": 10,
+      "ipfs_hashes_extracted": 6,
+      "metadata_fetched": 4
+    },
+    "findings": {
+      "total_hashes": 5,
+      "unique_hashes": [
+        "Qmd8YGp9yUKtXas1cT3UsYFpWwfWHvV4Bssj8Pbvrq6BZ5",
+        "bafybeiei73lco4ow546bkdqqph6ykcw4legv3s6ga7ec7grfszt5lk5cti",
+        "QmdYeDpkVZedk1mkGodjNmF35UNxwafhFLVvsHrWgJoz6A",
+        "QmSGxiMfp6ByDRcCs8vf1NCxSPXU5XaGhYbtuj7ni13wDn",
+        "bafkreigv27yhw6bcyxm4dkbzalxxj3tcogd46zkjhuopzor4tghh4qcujm"
+      ],
+      "linked_urls": [
+        "https://otherside.xyz/license/otherdeed-expanded",
+        "https://nftstorage.link/ipfs/bafybeiaozj7uvq565g44t4o2em47z2bijo3obrusjjlt5qzryuca5lffym",
+        "https://www.nexuscard.org",
+        "https://assets.otherside.xyz/otherdeeds/9c7bcd6f80f3e47f21a276c1267f769de83347ee049b0cfd8be29c40f78a5017.jpg"
+      ],
+      "usernames": [],
+      "emails": [],
+      "social_links": [],
+      "timestamps": [],
+      "creators": [],
+      "collections": [],
+      "domains": [
+        "api.otherside.xyz",
+        "cdn-api.niftykit.com",
+        "luckyusdc.xyz"
+      ],
+      "domain_analysis": {
+        "luckyusdc.xyz": {
+          "domain": "luckyusdc.xyz",
+          "is_ipfs": false,
+          "is_centralized": true,
+          "scam_indicators": [
+            "Contains suspicious keyword: 'lucky'",
+            "Suspicious TLD: .xyz"
+          ],
+          "reputation": "suspicious",
+          "whois_info": null
+        },
+        "cdn-api.niftykit.com": {
+          "domain": "cdn-api.niftykit.com",
+          "is_ipfs": false,
+          "is_centralized": true,
+          "scam_indicators": [],
+          "reputation": "unknown",
+          "whois_info": null
+        },
+        "api.otherside.xyz": {
+          "domain": "api.otherside.xyz",
+          "is_ipfs": false,
+          "is_centralized": true,
+          "scam_indicators": [
+            "Suspicious TLD: .xyz"
+          ],
+          "reputation": "suspicious",
+          "whois_info": null
+        }
+      },
+      "metadata_urls": [
+        {
+          "contract": "0x49a0661c3243627af3fc308de3b6a01f98bf944c",
+          "token_id": "0",
+          "uri": "ipfs://bafkreigv27yhw6bcyxm4dkbzalxxj3tcogd46zkjhuopzor4tghh4qcujm"
+        },
+        {
+          "contract": "0x49a0661c3243627af3fc308de3b6a01f98bf944c",
+          "token_id": "1068",
+          "uri": "ipfs://bafkreigv27yhw6bcyxm4dkbzalxxj3tcogd46zkjhuopzor4tghh4qcujm"
+        },
+        {
+          "contract": "0xc73ac79cb2dfeefb21d6df7479c9f2e778cde4c8",
+          "token_id": "9",
+          "uri": "ipfs://bafybeiei73lco4ow546bkdqqph6ykcw4legv3s6ga7ec7grfszt5lk5cti/9.json"
+        },
+        {
+          "contract": "0x24f1c5cd52c9c10f6437d483c680c521926fd347",
+          "token_id": "7",
+          "uri": "data:application/json;base64,eyJuYW1lIjoiRmFsY29uIExpZmV0aW1lIEFjY2VzcyAjNyIsImFuaW1hdGlvbl91cmwiOiJpcGZzOi8vYmFmeWJlaWJkamRrZWp3dDZqbnM1YnF3eGd6bXl1cmxvdmlhaWRqZDNudXd6M2s0NGNvN3h4cTdhcGkvP24ybT1uZnQud2VibSIsImltYWdlIjoiaXBmczovL2JhZnliZWlmMmNjZDd1YzV6azIzcndzNHR0YnpmbTZ5cjVoYTZmendrY29lcjUzbmo1eDZ4a293cWR5In0="
+        },
+        {
+          "contract": "0x732bc69d3ed34a18058dee2a9ef046d440a357e5",
+          "token_id": "3004",
+          "uri": "https://luckyusdc.xyz/metadata/3004.json"
+        },
+        {
+          "contract": "0x39d3230c84efcb5559d22f499151934476b5c16d",
+          "token_id": "1272",
+          "uri": "https://cdn-api.niftykit.com/reveal/cljtk1amr0001md0fcwan6u50/1272"
+        },
+        {
+          "contract": "0x42069abfe407c60cf4ae4112bedead391dba1cdb",
+          "token_id": "2000",
+          "uri": "ipfs://Qmd8YGp9yUKtXas1cT3UsYFpWwfWHvV4Bssj8Pbvrq6BZ5/4/2000.json"
+        },
+        {
+          "contract": "0x790b2cf29ed4f310bf7641f013c65d4560d28371",
+          "token_id": "92127",
+          "uri": "https://api.otherside.xyz/expanded/92127"
+        },
+        {
+          "contract": "0x2d0d57d004f82e9f4471caa8b9f8b1965a814154",
+          "token_id": "4803",
+          "uri": "ipfs://QmSGxiMfp6ByDRcCs8vf1NCxSPXU5XaGhYbtuj7ni13wDn/4803.json"
+        },
+        {
+          "contract": "0x306b1ea3ecdf94ab739f1910bbda052ed4a9f949",
+          "token_id": "9215",
+          "uri": "ipfs://QmdYeDpkVZedk1mkGodjNmF35UNxwafhFLVvsHrWgJoz6A/beanz_metadata/9215"
+        }
+      ]
+    }
+  },
+  "ens": {
+    "address": "0xf70da97812cb96acdf810712aa562db8dfa3dbef",
+    "ens_name": null,
+    "text_records": {},
+    "social_links": {},
+    "has_ens": false,
+    "has_social_links": false
+  },
+  "approval_risk": {
+    "scan_timestamp": "2026-01-26T14:59:06.407990+00:00",
+    "total_approvals": 0,
+    "unlimited_approvals": 0,
+    "high_risk_approvals": 0,
+    "total_exposure_usd": 0,
+    "verdicts": [],
+    "has_dangerous_approvals": false
+  },
+  "funding_trace": {
+    "target": "0xf70da97812cb96acdf810712aa562db8dfa3dbef",
+    "trace_timestamp": "2026-01-26T14:59:01.078358+00:00",
+    "total_hops": 0,
+    "origin_found": false,
+    "origin_type": null,
+    "origin_label": null,
+    "trace_complete": false,
+    "trace_stopped_reason": "No funding transaction found",
+    "funding_chain": []
+  },
+  "token_risks": {
+    "scan_timestamp": "2026-01-26T14:59:07.133691+00:00",
+    "tokens_analyzed": 0,
+    "risky_tokens": 0,
+    "total_value_at_risk_usd": 0,
+    "has_risky_tokens": false,
+    "verdicts": [],
+    "honeypots_detected": 0,
+    "impersonators_detected": 0
+  },
+  "verdicts": [
+    {
+      "title": "SCAM NFT AIRDROP DETECTED",
+      "severity": "CRITICAL",
+      "category": "THREAT",
+      "description": "This wallet received an NFT from a scam domain impersonating USDC stablecoin. The domain 'luckyusdc.xyz' is designed to phish users.",
+      "evidence": [
+        "Contains 'lucky' - Lottery/giveaway scam bait",
+        "Impersonating USDC stablecoin",
+        "Suspicious TLD: .xyz"
+      ],
+      "action": "Do not interact with this NFT or visit the domain"
+    },
+    {
+      "title": "SUSPICIOUS NFT AIRDROP",
+      "severity": "HIGH",
+      "category": "THREAT",
+      "description": "This wallet received an NFT from suspicious domain 'api.otherside.xyz'. Likely a phishing or scam attempt.",
+      "evidence": [
+        "Suspicious TLD: .xyz"
+      ],
+      "action": "Investigate domain before any interaction"
+    },
+    {
+      "title": "NFT COLLECTOR PROFILE",
+      "severity": "MEDIUM",
+      "category": "PROFILE",
+      "description": "Wallet shows strong NFT activity with significant holdings. Potential social identity vector through NFT metadata.",
+      "evidence": [
+        "Matched 3/4 signals",
+        "Pattern: nft_collector",
+        "Confidence: 75%",
+        "Signal: balance_usd",
+        "Signal: tx_frequency",
+        "Signal: defi_protocols_count"
+      ],
+      "action": "Investigate NFT metadata for OSINT"
+    },
+    {
+      "title": "NO EXCHANGE TRAIL",
+      "severity": "MEDIUM",
+      "category": "INTEL",
+      "description": "Large holder with no detected CEX interactions. Funds origin harder to trace. May be privacy-conscious or using DEX only.",
+      "evidence": [
+        "Matched 3/3 signals",
+        "Pattern: no_exchange_trail",
+        "Confidence: 100%",
+        "Signal: exchange_interactions",
+        "Signal: balance_usd",
+        "Signal: tx_count"
+      ],
+      "action": "Trace funding source through on-chain analysis"
+    }
+  ]
+}

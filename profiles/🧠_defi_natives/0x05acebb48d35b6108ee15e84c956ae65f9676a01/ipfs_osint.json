@@ -1,0 +1,183 @@
+{
+  "address": "0x05acebb48d35b6108ee15e84c956ae65f9676a01",
+  "ipfs_hashes_found": [
+    {
+      "contract": "0x8d9710f0e193d3f95c0723eaaf1a81030dc9116d",
+      "token_id": "8054",
+      "uri": "ipfs://QmVLmSGW6ZBVfVWTmimgp9gpWvRVJXGFVpRqk4k4e7RmfP/8054",
+      "ipfs_hash": "QmVLmSGW6ZBVfVWTmimgp9gpWvRVJXGFVpRqk4k4e7RmfP"
+    },
+    {
+      "contract": "0x8d9710f0e193d3f95c0723eaaf1a81030dc9116d",
+      "token_id": "9627",
+      "uri": "ipfs://QmVLmSGW6ZBVfVWTmimgp9gpWvRVJXGFVpRqk4k4e7RmfP/9627",
+      "ipfs_hash": "QmVLmSGW6ZBVfVWTmimgp9gpWvRVJXGFVpRqk4k4e7RmfP"
+    },
+    {
+      "contract": "0x8d9710f0e193d3f95c0723eaaf1a81030dc9116d",
+      "token_id": "1386",
+      "uri": "ipfs://QmVLmSGW6ZBVfVWTmimgp9gpWvRVJXGFVpRqk4k4e7RmfP/1386",
+      "ipfs_hash": "QmVLmSGW6ZBVfVWTmimgp9gpWvRVJXGFVpRqk4k4e7RmfP"
+    },
+    {
+      "contract": "0x8d9710f0e193d3f95c0723eaaf1a81030dc9116d",
+      "token_id": "3814",
+      "uri": "ipfs://QmVLmSGW6ZBVfVWTmimgp9gpWvRVJXGFVpRqk4k4e7RmfP/3814",
+      "ipfs_hash": "QmVLmSGW6ZBVfVWTmimgp9gpWvRVJXGFVpRqk4k4e7RmfP"
+    },
+    {
+      "contract": "0x8d9710f0e193d3f95c0723eaaf1a81030dc9116d",
+      "token_id": "692",
+      "uri": "ipfs://QmVLmSGW6ZBVfVWTmimgp9gpWvRVJXGFVpRqk4k4e7RmfP/692",
+      "ipfs_hash": "QmVLmSGW6ZBVfVWTmimgp9gpWvRVJXGFVpRqk4k4e7RmfP"
+    }
+  ],
+  "metadata_analyzed": [
+    {
+      "contract": "0x932261f9fc8da46c4a22e31b45c4de60623848bf",
+      "token_id": "411141",
+      "analysis": {
+        "name": "#411141",
+        "description": "Zerion DNA is a first of a kind Dynamic NFT Avatar \u2013 a generative, living NFT that evolves over time to reflect your digital identity. Every wallet action renders unique attributes so that no two NFTs are alike. Wallet actions that will cause the NFT to evolve include buying and selling tokens, interacting with different networks and exploring the Zerion app.\n\nTo claim your DNA, create a Zerion Wallet via our Zerion iOS and Android apps.",
+        "image": "https://zerion-dna.s3.us-east-1.amazonaws.com/onepointo/3628edbc8b1fd3cdff27014e50d7899bd945f22f.png",
+        "external_url": "https://app.zerion.io/nfts/0x932261f9fc8da46c4a22e31b45c4de60623848bf:411141",
+        "attributes": [
+          {
+            "trait_type": "Age",
+            "value": "2 weeks"
+          },
+          {
+            "trait_type": "Gas Spend",
+            "value": "$0\u2013$50"
+          },
+          {
+            "display_type": "number",
+            "trait_type": "Transactions",
+            "value": 1
+          },
+          {
+            "trait_type": "Balance",
+            "value": "$1,000\u2013$10,000"
+          },
+          {
+            "display_type": "number",
+            "trait_type": "Assets",
+            "value": 10
+          },
+          {
+            "trait_type": "Favorite Network",
+            "value": "Ethereum"
+          },
+          {
+            "trait_type": "Body",
+            "value": "Level 1"
+          },
+          {
+            "trait_type": "Background",
+            "value": "Level 1"
+          }
+        ],
+        "properties": {},
+        "creator": {},
+        "artist": "",
+        "collection": {},
+        "ipfs_hashes": [],
+        "linked_urls": [
+          "https://app.zerion.io/nfts/0x932261f9fc8da46c4a22e31b45c4de60623848bf:411141",
+          "https://zerion-dna-mini.s3.us-east-1.amazonaws.com/onepointo/3fd93a842cd345ad7799642e21fdfbaa97346e42.270x270.png",
+          "https://zerion-dna.s3.us-east-1.amazonaws.com/onepointo/3628edbc8b1fd3cdff27014e50d7899bd945f22f.png"
+        ],
+        "timestamps": [],
+        "usernames": [],
+        "emails": [],
+        "social_links": []
+      },
+      "source": "https",
+      "domain": "dna.zerion.io"
+    }
+  ],
+  "debug_info": {
+    "nft_transfers_count": 32,
+    "contracts_found": 5,
+    "tokens_checked": 13,
+    "uris_found": 7,
+    "ipfs_hashes_extracted": 5,
+    "metadata_fetched": 1
+  },
+  "findings": {
+    "total_hashes": 1,
+    "unique_hashes": [
+      "QmVLmSGW6ZBVfVWTmimgp9gpWvRVJXGFVpRqk4k4e7RmfP"
+    ],
+    "linked_urls": [
+      "https://app.zerion.io/nfts/0x932261f9fc8da46c4a22e31b45c4de60623848bf:411141",
+      "https://zerion-dna-mini.s3.us-east-1.amazonaws.com/onepointo/3fd93a842cd345ad7799642e21fdfbaa97346e42.270x270.png",
+      "https://zerion-dna.s3.us-east-1.amazonaws.com/onepointo/3628edbc8b1fd3cdff27014e50d7899bd945f22f.png"
+    ],
+    "usernames": [],
+    "emails": [],
+    "social_links": [],
+    "timestamps": [],
+    "creators": [],
+    "collections": [],
+    "domains": [
+      "alpha.centaurify.io",
+      "dna.zerion.io"
+    ],
+    "domain_analysis": {
+      "dna.zerion.io": {
+        "domain": "dna.zerion.io",
+        "is_ipfs": false,
+        "is_centralized": true,
+        "scam_indicators": [],
+        "reputation": "unknown",
+        "whois_info": null
+      },
+      "alpha.centaurify.io": {
+        "domain": "alpha.centaurify.io",
+        "is_ipfs": false,
+        "is_centralized": true,
+        "scam_indicators": [],
+        "reputation": "unknown",
+        "whois_info": null
+      }
+    },
+    "metadata_urls": [
+      {
+        "contract": "0x932261f9fc8da46c4a22e31b45c4de60623848bf",
+        "token_id": "411141",
+        "uri": "https://dna.zerion.io/api/v1/avatars/onepointo/411141"
+      },
+      {
+        "contract": "0x8d9710f0e193d3f95c0723eaaf1a81030dc9116d",
+        "token_id": "8054",
+        "uri": "ipfs://QmVLmSGW6ZBVfVWTmimgp9gpWvRVJXGFVpRqk4k4e7RmfP/8054"
+      },
+      {
+        "contract": "0x8d9710f0e193d3f95c0723eaaf1a81030dc9116d",
+        "token_id": "9627",
+        "uri": "ipfs://QmVLmSGW6ZBVfVWTmimgp9gpWvRVJXGFVpRqk4k4e7RmfP/9627"
+      },
+      {
+        "contract": "0x8d9710f0e193d3f95c0723eaaf1a81030dc9116d",
+        "token_id": "1386",
+        "uri": "ipfs://QmVLmSGW6ZBVfVWTmimgp9gpWvRVJXGFVpRqk4k4e7RmfP/1386"
+      },
+      {
+        "contract": "0x8d9710f0e193d3f95c0723eaaf1a81030dc9116d",
+        "token_id": "3814",
+        "uri": "ipfs://QmVLmSGW6ZBVfVWTmimgp9gpWvRVJXGFVpRqk4k4e7RmfP/3814"
+      },
+      {
+        "contract": "0x8d9710f0e193d3f95c0723eaaf1a81030dc9116d",
+        "token_id": "692",
+        "uri": "ipfs://QmVLmSGW6ZBVfVWTmimgp9gpWvRVJXGFVpRqk4k4e7RmfP/692"
+      },
+      {
+        "contract": "0xeadff826d532db453b74af636b04232388e7bf0e",
+        "token_id": "1974",
+        "uri": "https://alpha.centaurify.io/artists/umg/collections/the-universal-collection/nfts/1974"
+      }
+    ]
+  }
+}

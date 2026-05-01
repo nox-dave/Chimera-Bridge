@@ -1,0 +1,226 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                         🐋 WHALE INTELLIGENCE REPORT                          ║
+║                           Gargophias OSINT Module                            ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+Target:     0x05acebb48d35b6108ee15e84c956ae65f9676a01
+Generated:  2026-01-26 15:59:26 UTC
+
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                               QUICK ASSESSMENT                               │
+├──────────────────────────────────────────────────────────────────────────────┤
+│  ✅ LIKELY REAL PERSON                                                       │
+│  Confidence: 80%                                                               │
+│  Profile: Fish | NFT Collector | Cross-chain User                           │
+└──────────────────────────────────────────────────────────────────────────────┘
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+💰 FINANCIAL SUMMARY
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Total Portfolio Value:  $               79.01
+  ETH Balance:                          0.0270 ETH
+  ETH Value:              $               79.01
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📊 ACTIVITY METRICS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Transaction Count:                        66
+  Total ETH Moved:                       67.54 ETH
+  Avg Transaction:                      2.5976 ETH
+  Wallet Age:                            1,109 days
+  First Transaction:                2023-01-12
+  Last Transaction:                 2026-01-26
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🧠 BEHAVIORAL PROFILE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Sophistication Level:   Advanced            
+  Risk Tolerance:         Moderate-Aggressive 
+  Trading Style:          NFT Collector       
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+⏰ ACTIVITY PATTERNS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Peak Activity Hours:    16:00, 2:00, 15:00, 22:00 UTC
+  Most Active Days:       Tuesday, Sunday, Thursday
+  Likely Timezone:        Europe/Africa (UTC+0 to +3)
+  Probable Region:        Europe
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🔧 PROTOCOL & PLATFORM USAGE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  DeFi Protocols:
+    ✓ Uniswap Universal Router
+    ✓ Uniswap Universal Router 2
+
+  NFT Platforms:
+    ✓ OpenSea Seaport 1.6
+
+  Cross-Chain Bridges:
+    ✓ Optimism Bridge
+    ✓ Arbitrum Inbox
+    ✓ Polygon Bridge
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🪙 TOKEN INTERESTS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Active Tokens: topia, xaut, blur pool, eth, snx, xsgd, usdc, cat, xai, eꓔh
+  Categories: 🏦 DeFi Tokens
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🏦 FUNDING & EXCHANGE RELATIONSHIPS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Original Funding:       Unknown
+                          0x46340b20830761efd32832a74d7169b29feb9758...
+
+  Exchange Interactions:
+    • Binance 15
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🎯 SIGNAL ANALYSIS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  ✅ BULLISH SIGNALS (Real Person Indicators):
+     • Targeted by dust attacks
+     • Exchange interactions
+     • NFT activity
+     • Being targeted by address poisoning (scammers target real whales)
+     • NFT activity - potential social identity vector
+
+  ⚠️  RED FLAGS (Caution Indicators):
+     • No significant red flags detected
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📋 OSINT ASSESSMENT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  HIGH CONFIDENCE (80%): This wallet likely belongs to a real individual.
+  GEOGRAPHIC: Activity patterns suggest Europe timezone (Europe/Africa (UTC+0 to +3)).
+  SOPHISTICATION: Advanced-level user. Experienced with DeFi, understands gas optimization.
+  RISK PROFILE: Moderate-Aggressive. NFT Collector.
+  NOTABLE: Active target of address poisoning attacks - confirms wallet is monitored by scammers.
+  NOTABLE: Uses multiple bridges - may have significant holdings on other chains.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🎭 PROFILE HYPOTHESIS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Archetype: Multi-Chain Power User
+  
+  Narrative:
+    Originally funded through Unknown, suggesting traditional onboarding.
+    Demonstrates advanced knowledge of DeFi protocols and on-chain mechanics.
+    Activity patterns suggest European timezone.
+    NFT activity provides potential vector for social identity discovery.
+    Being targeted by scammers confirms this is an active, monitored wallet.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🔗 INVESTIGATION LINKS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Etherscan:      https://etherscan.io/address/0x05acebb48d35b6108ee15e84c956ae65f9676a01
+  Debank:         https://debank.com/profile/0x05acebb48d35b6108ee15e84c956ae65f9676a01
+  Arkham Intel:   https://platform.arkhamintelligence.com/explorer/address/0x05acebb48d35b6108ee15e84c956ae65f9676a01
+  Nansen:         https://pro.nansen.ai/wallet/0x05acebb48d35b6108ee15e84c956ae65f9676a01
+  Zerion:         https://app.zerion.io/0x05acebb48d35b6108ee15e84c956ae65f9676a01/overview
+  Zapper:         https://zapper.xyz/account/0x05acebb48d35b6108ee15e84c956ae65f9676a01
+
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                      PRIORITY: MEDIUM | CONFIDENCE: 80%                      ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+
+🔍 FUNDING SOURCE TRACE
+━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Hops Traced: 0
+
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🌐 IPFS & DOMAIN OSINT ANALYSIS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+NFT Transfers Analyzed: 32
+Contracts Checked: 5
+Tokens Scanned: 13
+Metadata Files Fetched: 1
+
+IPFS Hashes Found: 1
+
+Unique IPFS Hashes:
+  • QmVLmSGW6ZBVfVWTmimgp9gpWvRVJXGFVpRqk4k4e7RmfP
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🌍 DOMAIN INTELLIGENCE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Domain: alpha.centaurify.io
+  Reputation: UNKNOWN
+  Metadata URLs: 1
+
+Domain: dna.zerion.io
+  Reputation: UNKNOWN
+  Metadata URLs: 1
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📋 METADATA SOURCES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Contract: 0x932261f9... | Token: 411141
+    URI: https://dna.zerion.io/api/v1/avatars/onepointo/411141...
+  Contract: 0x8d9710f0... | Token: 8054
+    URI: ipfs://QmVLmSGW6ZBVfVWTmimgp9gpWvRVJXGFVpRqk4k4e7RmfP/8054...
+  Contract: 0x8d9710f0... | Token: 9627
+    URI: ipfs://QmVLmSGW6ZBVfVWTmimgp9gpWvRVJXGFVpRqk4k4e7RmfP/9627...
+  Contract: 0x8d9710f0... | Token: 1386
+    URI: ipfs://QmVLmSGW6ZBVfVWTmimgp9gpWvRVJXGFVpRqk4k4e7RmfP/1386...
+  Contract: 0x8d9710f0... | Token: 3814
+    URI: ipfs://QmVLmSGW6ZBVfVWTmimgp9gpWvRVJXGFVpRqk4k4e7RmfP/3814...
+  Contract: 0x8d9710f0... | Token: 692
+    URI: ipfs://QmVLmSGW6ZBVfVWTmimgp9gpWvRVJXGFVpRqk4k4e7RmfP/692...
+  Contract: 0xeadff826... | Token: 1974
+    URI: https://alpha.centaurify.io/artists/umg/collections/the-universal-coll...
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🔗 LINKED URLs
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  • https://app.zerion.io/nfts/0x932261f9fc8da46c4a22e31b45c4de60623848bf:411141
+  • https://zerion-dna-mini.s3.us-east-1.amazonaws.com/onepointo/3fd93a842cd345ad7799642e21fdfbaa97346e42.270x270.png
+  • https://zerion-dna.s3.us-east-1.amazonaws.com/onepointo/3628edbc8b1fd3cdff27014e50d7899bd945f22f.png
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🔗 ENS & SOCIAL IDENTITY
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+ENS Name: 05ace.eth
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📊 METADATA ANALYSIS SUMMARY
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Total metadata files analyzed: 1
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🎯 OSINT VERDICTS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📌 [LOW] DORMANT WHALE
+   Old wallet with large balance but minimal recent activity. May be cold storage or abandoned.
+   Evidence:
+     • Matched 3/4 signals
+     • Pattern: dormant_whale
+     • Confidence: 75%
+     • Signal: wallet_age_days
+   → Action: Low priority - minimal activity
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🎯 OSINT VERDICTS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📌 [LOW] DORMANT WHALE
+   Old wallet with large balance but minimal recent activity. May be cold storage or abandoned.
+     • Matched 3/4 signals
+     • Pattern: dormant_whale
+     • Confidence: 75%
+   → Action: Low priority - minimal activity
+

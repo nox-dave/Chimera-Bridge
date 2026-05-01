@@ -1,0 +1,990 @@
+{
+  "address": "0x1aafacc008099845d6c35df8c5925c8e659c4400",
+  "discovered_at": "2026-01-26T14:52:59.398649+00:00",
+  "total_value_usd": 12.264715959621846,
+  "eth_balance": 0.004210179078086724,
+  "eth_value_usd": 12.264715959621846,
+  "token_holdings": {},
+  "risk_score": 60,
+  "tx_count": 1000,
+  "defi_activity": true,
+  "nft_activity": {
+    "unique_collections": 8,
+    "top_collections": [
+      [
+        "Ten Years Of Ethereum",
+        1
+      ],
+      [
+        "ROBOVERSE",
+        1
+      ],
+      [
+        "The Korbs",
+        1
+      ],
+      [
+        "Eth Parachute Plunge",
+        1
+      ],
+      [
+        "CryptoPunks (Apes)",
+        1
+      ],
+      [
+        "F**K by Blockchain Villains",
+        1
+      ],
+      [
+        "Beetle",
+        1
+      ],
+      [
+        "Aliens",
+        1
+      ]
+    ],
+    "collection_addresses": {
+      "0x26d85a13212433fe6a8381969c2b0db390a0b0ae": 1,
+      "0x5782bfff4a063db1e1fbb15941cbcb0bae6301a6": 1,
+      "0x925bb247497b32b66e8779be0b352258da478af1": 1,
+      "0x57c0fef5c08ad16424adba205d1b61869adeb519": 1,
+      "0xbd3e697058ee61edb4f0682c2609607b0f5d8b5d": 1,
+      "0xf2c1fbe56c6399a9eee374161d830cccddf5788d": 1,
+      "0x1dac0d4e3d7a35b9fbc6e88cb1134511143ec6f3": 1,
+      "0x85c11103e866672031ee84c472a4211818a1cd22": 1
+    }
+  },
+  "bridge_activity": true,
+  "age_days": 30,
+  "osint_categories": [
+    "\ud83c\udfb0_gamblers",
+    "\ud83c\udfc6_status_seekers",
+    "\ud83c\udf09_cross_chain_users",
+    "\ud83e\udde0_defi_natives"
+  ],
+  "primary_osint_category": "\ud83c\udfb0_gamblers",
+  "behavior": {
+    "confidence_score": 60,
+    "sophistication": "Advanced",
+    "risk_tolerance": "Moderate",
+    "trading_style": "Active Trader",
+    "likely_region": "Americas",
+    "likely_timezone": "Americas (UTC-5 to -8)",
+    "meme_exposure": false,
+    "defi_protocols": [
+      "Liquity LUSD"
+    ],
+    "nft_platforms": [],
+    "bridges_used": [
+      "Optimism Bridge",
+      "Polygon Bridge",
+      "Wormhole"
+    ],
+    "exchange_interactions": [],
+    "frequent_counterparties": []
+  },
+  "transaction_analysis": {
+    "total_transactions": 1000,
+    "total_value_eth": 0.22043696811825805,
+    "most_active_hour": 10,
+    "most_active_day": "Saturday",
+    "top_recipients": [
+      [
+        "0x1aafacc008099845d6c35df8c5925c8e659c4400",
+        394
+      ],
+      [
+        "0x6131b5fae19ea4f9d964eac0408e4408b66337b5",
+        275
+      ],
+      [
+        "0x49048044d57e1c92a77f79988d21fa8faf74e97e",
+        40
+      ],
+      [
+        "0x0b9857ae2d4a3dbe74ffe1d7df045bb7f96e4840",
+        32
+      ],
+      [
+        "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+        17
+      ],
+      [
+        "0x24e85c241766e1e009388cdce3b70096d2fd6892",
+        17
+      ],
+      [
+        "0xa0c68c638235ee32657e8f720a23cec1bfc77c77",
+        12
+      ],
+      [
+        "0xd7f9f54194c633f36ccd5f3da84ad4a1c38cb2cb",
+        11
+      ],
+      [
+        "0x3154cf16ccdb4c6d922629664174b904d80f2c35",
+        10
+      ],
+      [
+        "0xbeb5fc579115071764c7423a4f12edde41f106ed",
+        9
+      ]
+    ],
+    "top_senders": [
+      [
+        "0x1aafacc008099845d6c35df8c5925c8e659c4400",
+        1000
+      ]
+    ],
+    "first_transaction": "2025-12-20T10:19:11",
+    "last_transaction": "2026-01-26T15:47:35",
+    "avg_gas_used": 180468.235,
+    "avg_gas_price": 126887555.01122992
+  },
+  "token_activity": {
+    "unique_tokens": 131,
+    "top_tokens": [
+      [
+        "USDC",
+        208
+      ],
+      [
+        "USDT",
+        119
+      ],
+      [
+        "GROW",
+        52
+      ],
+      [
+        "MANTA",
+        37
+      ],
+      [
+        "GOG",
+        37
+      ],
+      [
+        "LCX",
+        20
+      ],
+      [
+        "COMP",
+        19
+      ],
+      [
+        "PENDLE",
+        18
+      ],
+      [
+        "XI",
+        12
+      ],
+      [
+        "DEXTF",
+        12
+      ],
+      [
+        "RIO",
+        12
+      ],
+      [
+        "NEAR",
+        12
+      ],
+      [
+        "NFTL",
+        12
+      ],
+      [
+        "BOBO",
+        11
+      ],
+      [
+        "ASTR",
+        11
+      ],
+      [
+        "eBTC",
+        10
+      ],
+      [
+        "USDz",
+        10
+      ],
+      [
+        "PAL",
+        10
+      ],
+      [
+        "savUSD",
+        10
+      ],
+      [
+        "ZCX",
+        10
+      ]
+    ],
+    "token_values": {
+      "KNC": 2481.119146820873,
+      "MANTA": 248501.89307315374,
+      "USDC": 192642.651595,
+      "DYP": 153963.72801148018,
+      "BOBO": 9191586155.473715,
+      "GROW": 223133.17099540515,
+      "ASTR": 210034.65205727113,
+      "USDT": 70630.445273,
+      "XI": 718276.6326098652,
+      "eBTC": 0.10492136,
+      "BTC.\u210f[eth]": 2610.59471028,
+      "EUL": 26.679216,
+      "LUSD": 2627.4104258284733,
+      "TUSD": 75.21575525510953,
+      "T": 11185.880512698148,
+      "LCX": 189612.96836898234,
+      "QBIO": 854003.8866864705,
+      "DEXTF": 36404.04635956179,
+      "Elon Air": 2.0,
+      "fBOMB": 14582.41432259207,
+      "USDz": 852.8493425639639,
+      "NEURON": 38381226.60862154,
+      "HyPC": 5858.0,
+      "RIO": 9327.687719864882,
+      "PAL": 27547.207081179626,
+      "PENDLE": 17288.15909932916,
+      "ACU": 10.0,
+      "RESOLV": 59971.89000000001,
+      "ARPA": 55388.48747266015,
+      "IQ": 1875481.1499877735,
+      "SNT": 340192.75244087586,
+      "NEAR": 14608.595022919379,
+      "SUPER": 91071.882,
+      "WOLF": 174421241.98237222,
+      "MATIC": 379.1987816003693,
+      "COMP": 350.9667420282385,
+      "DCK": 206455.6264233893,
+      "LMR": 367596.2046574,
+      "IOI": 226157.437012,
+      "FUELX": 5688840.728478093,
+      "savUSD": 59152.30399491082,
+      "WETH": 0.4920604017277687,
+      "MUTE": 1537048.7076512377,
+      "DEC": 768.165,
+      "MDEX": 73936.73980373584,
+      "SOL": 2.169196838,
+      "GOG": 3012142.9235083982,
+      "BiFi": 2561635.3406221573,
+      "SILO": 293704.3526821854,
+      "Silo": 353804.0577913,
+      "HELLO": 237738.7962616986,
+      "NFTL": 13645684.330663566,
+      "KING": 2.565898,
+      "ZCX": 425503.85173862346,
+      "PEPE": 143638132.5523217,
+      "UniLife": 5.0,
+      "DOMI": 360179.5606330621,
+      "ETHFI": 513.2088818688719,
+      "GRIX": 138504.48198315155,
+      "PSP": 148152.67302129668,
+      "AMKT": 5.300673375558224,
+      "SUPERDOG": 5.0,
+      "DERI": 112901.02194502427,
+      "HLS": 121391.23945275522,
+      "DMTR": 73092.97165580442,
+      "RAIN": 33.4166179193593,
+      "CAI": 4940.953004122232,
+      "AKT": 39.353588,
+      "cbBTC": 0.04299184,
+      "BITCOIN": 230146.97863099998,
+      "0xBTC": 3442.6279775800003,
+      "Neiro": 3066082.968674468,
+      "ZZ": 367396.00236043666,
+      "GAME": 1004082.42046,
+      "BEPE": 5.0,
+      "LSK": 3050.7267588289114,
+      "GRAI": 1117.093111253779,
+      "PORT": 1.0,
+      "SHIB": 6246440.222012891,
+      "STORJ": 6033.83028762,
+      "RIVER": 13.232881728650952,
+      "EURC": 4127.580686000001,
+      "frxETH": 3.182604,
+      "ERC20": 104565.90268137399,
+      "SKYA": 72696.99750274797,
+      "ESE": 656451.2900352086,
+      "IMT": 721693.8424827285,
+      "ABOND": 129422.6988612813,
+      "BND": 202.82458897262111,
+      "TRVL": 50885.32657974745,
+      "BREV": 10.0,
+      "gOHM": 2.3997232299485893,
+      "REZ": 73153.92342980001,
+      "WLD": 5004.5066,
+      "ANKR": 58101.923597386376,
+      "KIB": 1.0,
+      "POOL": 16754.47419988389,
+      "PLUME": 94693.10200000001,
+      "MAX": 230918.1201380829,
+      "PICKLE": 1.0,
+      "GLCH": 30614.379161669032,
+      "DOVU[eth]": 182711.0133073,
+      "YES": 3.0,
+      "PERL": 943973.2437275964,
+      "GORA": 71206.49223342174,
+      "VEE": 23978428.02947701,
+      "DOGEGF": 61973859466019.18,
+      "wHYPE": 43.16,
+      "FOLO": 212769.05741717407,
+      "POLK": 16128.715777221418,
+      "GENE": 9400904.583677428,
+      "MYST": 52290.01102327117,
+      "KEKIUS": 1.0,
+      "POKT": 43968.10842,
+      "wPOKT": 43968.108426,
+      "ETHIX": 3840.192891665403,
+      "QWLA": 598.0,
+      "DAI": 9045.988895362649,
+      "ALT": 11043.72282607992,
+      "GIV": 501160.62735948805,
+      "FIRE": 1.0,
+      "WBTC": 0.04672258,
+      "\u206cU\ufeffS\u2064D\u200c\u03a4\u200d\u206f": 3000.0,
+      "OLAS": 10048.323501963187,
+      "SLR": 5036.44602100325,
+      "ATH": 888056.5395412,
+      "PLR": 264760.09852170857,
+      "FP": 3910971.9081899906,
+      "AUDIO": 226232.6474934,
+      "SDEX": 638567.91288,
+      "NYM": 17018.966755
+    },
+    "token_details": {
+      "KNC": [
+        "Kyber Network Crystal v2"
+      ],
+      "MANTA": [
+        "Manta"
+      ],
+      "USDC": [
+        "USDC"
+      ],
+      "DYP": [
+        "Dypius"
+      ],
+      "BOBO": [
+        "BOBO"
+      ],
+      "GROW": [
+        "ValleyDAO Token"
+      ],
+      "ASTR": [
+        "Astar Token"
+      ],
+      "USDT": [
+        "Tether USD"
+      ],
+      "XI": [
+        "Xi Token"
+      ],
+      "eBTC": [
+        "ether.fi BTC"
+      ],
+      "BTC.\u210f[eth]": [
+        "Bitcoin.\u210f"
+      ],
+      "EUL": [
+        "Euler"
+      ],
+      "LUSD": [
+        "LUSD Stablecoin"
+      ],
+      "TUSD": [
+        "TrueUSD"
+      ],
+      "T": [
+        "Threshold Network Token"
+      ],
+      "LCX": [
+        "LCX"
+      ],
+      "QBIO": [
+        "Quantum Biology DAO Token"
+      ],
+      "DEXTF": [
+        "DEXTF Token"
+      ],
+      "Elon Air": [
+        "Elon Air"
+      ],
+      "fBOMB": [
+        "Fantom Bomb"
+      ],
+      "USDz": [
+        "USDz"
+      ],
+      "NEURON": [
+        "Cerebrum DAO Token"
+      ],
+      "HyPC": [
+        "HyperCycle Token"
+      ],
+      "RIO": [
+        "Realio Network"
+      ],
+      "PAL": [
+        "Paladin Token"
+      ],
+      "PENDLE": [
+        "Pendle"
+      ],
+      "ACU": [
+        "Acurast"
+      ],
+      "RESOLV": [
+        "Resolv"
+      ],
+      "ARPA": [
+        "ARPA Token"
+      ],
+      "IQ": [
+        "Everipedia IQ"
+      ],
+      "SNT": [
+        "StatusNetwork"
+      ],
+      "NEAR": [
+        "NEAR"
+      ],
+      "SUPER": [
+        "SuperVerse"
+      ],
+      "WOLF": [
+        "Landwolf"
+      ],
+      "MATIC": [
+        "Matic Token"
+      ],
+      "COMP": [
+        "Compound"
+      ],
+      "DCK": [
+        "DexCheck"
+      ],
+      "LMR": [
+        "Lumerin"
+      ],
+      "IOI": [
+        "IOI Token"
+      ],
+      "FUELX": [
+        "Fuel"
+      ],
+      "savUSD": [
+        "Staked avUSD"
+      ],
+      "WETH": [
+        "Wrapped Ether"
+      ],
+      "MUTE": [
+        "Mute.io"
+      ],
+      "DEC": [
+        "DarkEnergyCrystals"
+      ],
+      "MDEX": [
+        "MasterDEX Token"
+      ],
+      "SOL": [
+        "Wrapped SOL (Wormhole)"
+      ],
+      "GOG": [
+        "Guild of Guardians"
+      ],
+      "BiFi": [
+        "BiFi"
+      ],
+      "SILO": [
+        "Silo Token"
+      ],
+      "Silo": [
+        "Silo Governance Token"
+      ],
+      "HELLO": [
+        "Hello"
+      ],
+      "NFTL": [
+        "Nifty League"
+      ],
+      "KING": [
+        "King Protocol"
+      ],
+      "ZCX": [
+        "ZEN Exchange Token"
+      ],
+      "PEPE": [
+        "Pepe"
+      ],
+      "UniLife": [
+        "UniLife"
+      ],
+      "DOMI": [
+        "Domi"
+      ],
+      "ETHFI": [
+        "ether.fi governance token"
+      ],
+      "GRIX": [
+        "Grix"
+      ],
+      "PSP": [
+        "ParaSwap"
+      ],
+      "AMKT": [
+        "Alongside Crypto Market Index"
+      ],
+      "SUPERDOG": [
+        "SUPERDOG"
+      ],
+      "DERI": [
+        "Deri"
+      ],
+      "HLS": [
+        "Helios"
+      ],
+      "DMTR": [
+        "Dimitra Token"
+      ],
+      "RAIN": [
+        "Rain Coin"
+      ],
+      "CAI": [
+        "ChasmAI"
+      ],
+      "AKT": [
+        "Akash Network"
+      ],
+      "cbBTC": [
+        "Coinbase Wrapped BTC"
+      ],
+      "BITCOIN": [
+        "HarryPotterObamaSonic10Inu"
+      ],
+      "0xBTC": [
+        "0xBitcoin Token"
+      ],
+      "Neiro": [
+        "Neiro"
+      ],
+      "ZZ": [
+        "ZigZag"
+      ],
+      "GAME": [
+        "Game Coin"
+      ],
+      "BEPE": [
+        "Baby Pepe"
+      ],
+      "LSK": [
+        "Lisk"
+      ],
+      "GRAI": [
+        "Gravita Debt Token"
+      ],
+      "PORT": [
+        "DePORT"
+      ],
+      "SHIB": [
+        "SHIBA INU"
+      ],
+      "STORJ": [
+        "Storj"
+      ],
+      "RIVER": [
+        "River"
+      ],
+      "EURC": [
+        "EURC"
+      ],
+      "frxETH": [
+        "Frax Ether"
+      ],
+      "ERC20": [
+        "Token"
+      ],
+      "SKYA": [
+        "Sekuya"
+      ],
+      "ESE": [
+        "eesee"
+      ],
+      "IMT": [
+        "Immortal Token"
+      ],
+      "ABOND": [
+        "ApeBond"
+      ],
+      "BND": [
+        "DokiDoki.Chainbinders"
+      ],
+      "TRVL": [
+        "TRVL"
+      ],
+      "BREV": [
+        "Brevis"
+      ],
+      "gOHM": [
+        "Governance OHM"
+      ],
+      "REZ": [
+        "Renzo"
+      ],
+      "WLD": [
+        "Worldcoin"
+      ],
+      "ANKR": [
+        "Ankr Network"
+      ],
+      "KIB": [
+        "Kibo Shib"
+      ],
+      "POOL": [
+        "PoolTogether"
+      ],
+      "PLUME": [
+        "Plume"
+      ],
+      "MAX": [
+        "Matr1x"
+      ],
+      "PICKLE": [
+        "Pickle"
+      ],
+      "GLCH": [
+        "Glitch"
+      ],
+      "DOVU[eth]": [
+        "Dovu"
+      ],
+      "YES": [
+        "YES"
+      ],
+      "PERL": [
+        "Perlin"
+      ],
+      "GORA": [
+        "GoraToken"
+      ],
+      "VEE": [
+        "Vee Token"
+      ],
+      "DOGEGF": [
+        "DogeGF"
+      ],
+      "wHYPE": [
+        "Wrapped HYPE"
+      ],
+      "FOLO": [
+        "Follow"
+      ],
+      "POLK": [
+        "Polkamarkets"
+      ],
+      "GENE": [
+        "GenomesDAO"
+      ],
+      "MYST": [
+        "MyStandard"
+      ],
+      "KEKIUS": [
+        "Volt Kekius"
+      ],
+      "POKT": [
+        "Pocket Network"
+      ],
+      "wPOKT": [
+        "Wrapped Pocket"
+      ],
+      "ETHIX": [
+        "Ethix"
+      ],
+      "QWLA": [
+        "Qawalla Token"
+      ],
+      "DAI": [
+        "Dai Stablecoin"
+      ],
+      "ALT": [
+        "AltLayer Token"
+      ],
+      "GIV": [
+        "Giveth"
+      ],
+      "FIRE": [
+        "Trump Fire"
+      ],
+      "WBTC": [
+        "Wrapped BTC"
+      ],
+      "\u206cU\ufeffS\u2064D\u200c\u03a4\u200d\u206f": [
+        "\u200d\u03a4\u206d\u0435\u2063t\u200ch\u2063\u0435\u2061r\u2060 \u206dU\u200eS\u206aD\u206c\u2063"
+      ],
+      "OLAS": [
+        "Autonolas"
+      ],
+      "SLR": [
+        "SolarCoin on Mainnet"
+      ],
+      "ATH": [
+        "Aethir Token"
+      ],
+      "PLR": [
+        "PILLAR"
+      ],
+      "FP": [
+        "Forgotten Playland"
+      ],
+      "AUDIO": [
+        "Audius"
+      ],
+      "SDEX": [
+        "SmarDex Token"
+      ],
+      "NYM": [
+        "NYM"
+      ]
+    }
+  },
+  "ipfs_osint": {
+    "address": "0x1aafacc008099845d6c35df8c5925c8e659c4400",
+    "ipfs_hashes_found": [
+      {
+        "contract": "0x26d85a13212433fe6a8381969c2b0db390a0b0ae",
+        "token_id": "65661",
+        "uri": "ipfs://bafybeifsexiiy4rkwr62m3ha4zcrxfo3dnjlhqqxwezxhemz3os5vbww7m/metadata.json",
+        "ipfs_hash": "bafybeifsexiiy4rkwr62m3ha4zcrxfo3dnjlhqqxwezxhemz3os5vbww7m"
+      },
+      {
+        "contract": "0x5782bfff4a063db1e1fbb15941cbcb0bae6301a6",
+        "token_id": "140",
+        "uri": "ipfs://bafkreicyaol4miindelz5o5n4edy2gunbarxjnj3ceqau4ifa6hc6ugzlu",
+        "ipfs_hash": "bafkreicyaol4miindelz5o5n4edy2gunbarxjnj3ceqau4ifa6hc6ugzlu"
+      },
+      {
+        "contract": "0x925bb247497b32b66e8779be0b352258da478af1",
+        "token_id": "62",
+        "uri": "ipfs://QmZ9FcpfXuD99gTbbdbTgzCGUz7YJfR1dwNksxHaNET7an/62.json",
+        "ipfs_hash": "QmZ9FcpfXuD99gTbbdbTgzCGUz7YJfR1dwNksxHaNET7an"
+      },
+      {
+        "contract": "0x57c0fef5c08ad16424adba205d1b61869adeb519",
+        "token_id": "380",
+        "uri": "ipfs://QmdXUVdS1CtmfSmZ6FnsZgg3QTav4ucHpCedK61LkWqsMV/380.json",
+        "ipfs_hash": "QmdXUVdS1CtmfSmZ6FnsZgg3QTav4ucHpCedK61LkWqsMV"
+      },
+      {
+        "contract": "0xbd3e697058ee61edb4f0682c2609607b0f5d8b5d",
+        "token_id": "989",
+        "uri": "ipfs://bafybeib4d66fqc22rp56etvriicj4efppzften7ysgx7w3rtbj5figfnpe/989",
+        "ipfs_hash": "bafybeib4d66fqc22rp56etvriicj4efppzften7ysgx7w3rtbj5figfnpe"
+      },
+      {
+        "contract": "0xf2c1fbe56c6399a9eee374161d830cccddf5788d",
+        "token_id": "1187",
+        "uri": "ipfs://QmfJgfuwqrbcQmtUa5xi7sFhSj8LF7vshKHv3NHiMzYbaE/1187",
+        "ipfs_hash": "QmfJgfuwqrbcQmtUa5xi7sFhSj8LF7vshKHv3NHiMzYbaE"
+      },
+      {
+        "contract": "0x1dac0d4e3d7a35b9fbc6e88cb1134511143ec6f3",
+        "token_id": "661",
+        "uri": "ipfs://bafkreig3gzk3s3tzv54jcmdvyhtzyznkbbp6w42ky2i74jmp7y2sujq2wa",
+        "ipfs_hash": "bafkreig3gzk3s3tzv54jcmdvyhtzyznkbbp6w42ky2i74jmp7y2sujq2wa"
+      },
+      {
+        "contract": "0x85c11103e866672031ee84c472a4211818a1cd22",
+        "token_id": "4102",
+        "uri": "ipfs://QmXj1PrcsDx3tURgNLeFY1DL1vWC62G9CraAUuGRRDpnHX/4102.json",
+        "ipfs_hash": "QmXj1PrcsDx3tURgNLeFY1DL1vWC62G9CraAUuGRRDpnHX"
+      }
+    ],
+    "metadata_analyzed": [
+      {
+        "contract": "0x5782bfff4a063db1e1fbb15941cbcb0bae6301a6",
+        "token_id": "140",
+        "analysis": {
+          "name": "ROBOVERSE",
+          "description": "Revealing after Mint out!",
+          "image": "ipfs://bafybeihk6zo7ukk4p6sxyocufyx5az64px2wpbhqrbegwux7bxv5u4roaa",
+          "external_url": "",
+          "attributes": [],
+          "properties": {},
+          "creator": {},
+          "artist": "",
+          "collection": {},
+          "ipfs_hashes": [
+            "bafybeihk6zo7ukk4p6sxyocufyx5az64px2wpbhqrbegwux7bxv5u4roaa"
+          ],
+          "linked_urls": [],
+          "timestamps": [],
+          "usernames": [],
+          "emails": [],
+          "social_links": []
+        }
+      },
+      {
+        "contract": "0x1dac0d4e3d7a35b9fbc6e88cb1134511143ec6f3",
+        "token_id": "661",
+        "analysis": {
+          "name": "Beetle",
+          "description": "Get guaranteed rewards upto 1 ETH with airdrop. Visit our website [here](https://crazynftstudio.odoo.com/ethereum) for details. Step into the world of Beetle, a unique NFT collection inspired by the resilience, diversity, and beauty of one of nature\u2019s most fascinating creatures\u2014the beetle",
+          "image": "ipfs://bafybeibz3cxjpnkuz4fvun7o5yw552vx3bjy2zo72pyyr5flmpv5owvqfq",
+          "external_url": "",
+          "attributes": [],
+          "properties": {},
+          "creator": {},
+          "artist": "",
+          "collection": {},
+          "ipfs_hashes": [
+            "bafybeibz3cxjpnkuz4fvun7o5yw552vx3bjy2zo72pyyr5flmpv5owvqfq"
+          ],
+          "linked_urls": [
+            "https://crazynftstudio.odoo.com/ethereum)"
+          ],
+          "timestamps": [],
+          "usernames": [],
+          "emails": [],
+          "social_links": []
+        }
+      }
+    ],
+    "debug_info": {
+      "nft_transfers_count": 8,
+      "contracts_found": 8,
+      "tokens_checked": 8,
+      "uris_found": 8,
+      "ipfs_hashes_extracted": 8,
+      "metadata_fetched": 2
+    },
+    "findings": {
+      "total_hashes": 8,
+      "unique_hashes": [
+        "bafkreicyaol4miindelz5o5n4edy2gunbarxjnj3ceqau4ifa6hc6ugzlu",
+        "bafybeifsexiiy4rkwr62m3ha4zcrxfo3dnjlhqqxwezxhemz3os5vbww7m",
+        "QmdXUVdS1CtmfSmZ6FnsZgg3QTav4ucHpCedK61LkWqsMV",
+        "bafkreig3gzk3s3tzv54jcmdvyhtzyznkbbp6w42ky2i74jmp7y2sujq2wa",
+        "QmXj1PrcsDx3tURgNLeFY1DL1vWC62G9CraAUuGRRDpnHX",
+        "QmfJgfuwqrbcQmtUa5xi7sFhSj8LF7vshKHv3NHiMzYbaE",
+        "bafybeib4d66fqc22rp56etvriicj4efppzften7ysgx7w3rtbj5figfnpe",
+        "QmZ9FcpfXuD99gTbbdbTgzCGUz7YJfR1dwNksxHaNET7an"
+      ],
+      "linked_urls": [
+        "https://crazynftstudio.odoo.com/ethereum)"
+      ],
+      "usernames": [],
+      "emails": [],
+      "social_links": [],
+      "timestamps": [],
+      "creators": [],
+      "collections": [],
+      "domains": [],
+      "domain_analysis": {},
+      "metadata_urls": [
+        {
+          "contract": "0x26d85a13212433fe6a8381969c2b0db390a0b0ae",
+          "token_id": "65661",
+          "uri": "ipfs://bafybeifsexiiy4rkwr62m3ha4zcrxfo3dnjlhqqxwezxhemz3os5vbww7m/metadata.json"
+        },
+        {
+          "contract": "0x5782bfff4a063db1e1fbb15941cbcb0bae6301a6",
+          "token_id": "140",
+          "uri": "ipfs://bafkreicyaol4miindelz5o5n4edy2gunbarxjnj3ceqau4ifa6hc6ugzlu"
+        },
+        {
+          "contract": "0x925bb247497b32b66e8779be0b352258da478af1",
+          "token_id": "62",
+          "uri": "ipfs://QmZ9FcpfXuD99gTbbdbTgzCGUz7YJfR1dwNksxHaNET7an/62.json"
+        },
+        {
+          "contract": "0x57c0fef5c08ad16424adba205d1b61869adeb519",
+          "token_id": "380",
+          "uri": "ipfs://QmdXUVdS1CtmfSmZ6FnsZgg3QTav4ucHpCedK61LkWqsMV/380.json"
+        },
+        {
+          "contract": "0xbd3e697058ee61edb4f0682c2609607b0f5d8b5d",
+          "token_id": "989",
+          "uri": "ipfs://bafybeib4d66fqc22rp56etvriicj4efppzften7ysgx7w3rtbj5figfnpe/989"
+        },
+        {
+          "contract": "0xf2c1fbe56c6399a9eee374161d830cccddf5788d",
+          "token_id": "1187",
+          "uri": "ipfs://QmfJgfuwqrbcQmtUa5xi7sFhSj8LF7vshKHv3NHiMzYbaE/1187"
+        },
+        {
+          "contract": "0x1dac0d4e3d7a35b9fbc6e88cb1134511143ec6f3",
+          "token_id": "661",
+          "uri": "ipfs://bafkreig3gzk3s3tzv54jcmdvyhtzyznkbbp6w42ky2i74jmp7y2sujq2wa"
+        },
+        {
+          "contract": "0x85c11103e866672031ee84c472a4211818a1cd22",
+          "token_id": "4102",
+          "uri": "ipfs://QmXj1PrcsDx3tURgNLeFY1DL1vWC62G9CraAUuGRRDpnHX/4102.json"
+        }
+      ]
+    }
+  },
+  "ens": {
+    "address": "0x1aafacc008099845d6c35df8c5925c8e659c4400",
+    "ens_name": null,
+    "text_records": {},
+    "social_links": {},
+    "has_ens": false,
+    "has_social_links": false
+  },
+  "approval_risk": {
+    "scan_timestamp": "2026-01-26T15:00:47.681843+00:00",
+    "total_approvals": 0,
+    "unlimited_approvals": 0,
+    "high_risk_approvals": 0,
+    "total_exposure_usd": 0,
+    "verdicts": [],
+    "has_dangerous_approvals": false
+  },
+  "funding_trace": {
+    "target": "0x1aafacc008099845d6c35df8c5925c8e659c4400",
+    "trace_timestamp": "2026-01-26T14:53:10.983350+00:00",
+    "total_hops": 0,
+    "origin_found": false,
+    "origin_type": null,
+    "origin_label": null,
+    "trace_complete": false,
+    "trace_stopped_reason": "No funding transaction found",
+    "funding_chain": []
+  },
+  "token_risks": {
+    "scan_timestamp": "2026-01-26T15:00:48.400114+00:00",
+    "tokens_analyzed": 0,
+    "risky_tokens": 0,
+    "total_value_at_risk_usd": 0,
+    "has_risky_tokens": false,
+    "verdicts": [],
+    "honeypots_detected": 0,
+    "impersonators_detected": 0
+  },
+  "verdicts": [
+    {
+      "title": "DEFI POWER USER",
+      "severity": "MEDIUM",
+      "category": "PROFILE",
+      "description": "Advanced DeFi user with multi-protocol exposure and cross-chain activity. High sophistication level.",
+      "evidence": [
+        "Matched 3/4 signals",
+        "Pattern: defi_power_user",
+        "Confidence: 75%",
+        "Signal: bridges_count",
+        "Signal: sophistication",
+        "Signal: tx_count"
+      ],
+      "action": "Target with advanced DeFi scams, fake protocol exploits"
+    }
+  ]
+}

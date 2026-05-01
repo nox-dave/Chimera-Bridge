@@ -1,16 +1,16 @@
 {
   "address": "0xf8fc9a91349ebd2033d53f2b97245102f00aba96",
-  "discovered_at": "2026-01-20T16:14:52.692899+00:00",
-  "total_value_usd": 18.273355243353034,
-  "eth_balance": 0.006030421469753125,
-  "eth_value_usd": 18.273355243353034,
+  "discovered_at": "2026-01-26T14:57:09.424027+00:00",
+  "total_value_usd": 25.24372978708091,
+  "eth_balance": 0.008675002997966126,
+  "eth_value_usd": 25.24372978708091,
   "token_holdings": {},
   "risk_score": 65,
   "tx_count": 1000,
   "defi_activity": true,
   "nft_activity": {},
   "bridge_activity": false,
-  "age_days": 41,
+  "age_days": 46,
   "osint_categories": [
     "\ud83c\udfb0_gamblers"
   ],
@@ -29,16 +29,16 @@
     "nft_platforms": [],
     "bridges_used": [],
     "exchange_interactions": [
-      "Binance 7",
-      "Binance 8"
+      "Binance 8",
+      "Binance 7"
     ],
     "frequent_counterparties": []
   },
   "transaction_analysis": {
     "total_transactions": 1000,
-    "total_value_eth": 0.04523023581659954,
+    "total_value_eth": 0.06330992881659954,
     "most_active_hour": 15,
-    "most_active_day": "Saturday",
+    "most_active_day": "Thursday",
     "top_recipients": [
       [
         "0xd8da6bf26964af9d7eed9e03e53415d37aa96045",
@@ -84,21 +84,21 @@
     "top_senders": [
       [
         "0xf8fc9a91349ebd2033d53f2b97245102f00aba96",
-        996
+        995
       ],
       [
         "0xacb31853dd2e89609f4aee741f51952e5eda680d",
-        3
+        4
       ],
       [
         "0xcc93d88a65cf75bc3ac83af50468223209539ee6",
         1
       ]
     ],
-    "first_transaction": "2025-10-04T22:05:47",
-    "last_transaction": "2026-01-09T15:04:11",
+    "first_transaction": "2025-10-04T22:06:47",
+    "last_transaction": "2026-01-21T17:21:47",
     "avg_gas_used": 22014.792,
-    "avg_gas_price": 1106868007.7383442
+    "avg_gas_price": 1111751913.813508
   },
   "token_activity": {
     "unique_tokens": 37,
@@ -350,7 +350,7 @@
     "has_social_links": false
   },
   "approval_risk": {
-    "scan_timestamp": "2026-01-20T16:15:00.416873+00:00",
+    "scan_timestamp": "2026-01-26T14:57:20.454761+00:00",
     "total_approvals": 0,
     "unlimited_approvals": 0,
     "high_risk_approvals": 0,
@@ -360,7 +360,7 @@
   },
   "funding_trace": {
     "target": "0xf8fc9a91349ebd2033d53f2b97245102f00aba96",
-    "trace_timestamp": "2026-01-20T16:14:59.532897+00:00",
+    "trace_timestamp": "2026-01-26T14:57:19.583240+00:00",
     "total_hops": 0,
     "origin_found": false,
     "origin_type": null,
@@ -370,7 +370,7 @@
     "funding_chain": []
   },
   "token_risks": {
-    "scan_timestamp": "2026-01-20T16:15:01.131437+00:00",
+    "scan_timestamp": "2026-01-26T14:57:21.180513+00:00",
     "tokens_analyzed": 0,
     "risky_tokens": 0,
     "total_value_at_risk_usd": 0,

@@ -1,16 +1,16 @@
 {
   "address": "0x4b2dbd6fb5ed95c1f2a833dfcb26435d9ad27c93",
-  "discovered_at": "2026-01-20T16:15:09.073483+00:00",
-  "total_value_usd": 3.3321575742094365,
+  "discovered_at": "2026-01-26T14:57:29.581213+00:00",
+  "total_value_usd": 3.2025356578162625,
   "eth_balance": 0.001100144796043181,
-  "eth_value_usd": 3.3321575742094365,
+  "eth_value_usd": 3.2025356578162625,
   "token_holdings": {},
   "risk_score": 50,
   "tx_count": 46,
   "defi_activity": true,
   "nft_activity": {},
   "bridge_activity": true,
-  "age_days": 187,
+  "age_days": 193,
   "osint_categories": [
     "\ud83e\udde0_defi_natives"
   ],
@@ -24,10 +24,10 @@
     "likely_timezone": "Europe/Africa (UTC+0 to +3)",
     "meme_exposure": false,
     "defi_protocols": [
-      "1inch V5",
       "Metamask Swap Router",
+      "Uniswap V2",
       "WETH Contract",
-      "Uniswap V2"
+      "1inch V5"
     ],
     "nft_platforms": [],
     "bridges_used": [
@@ -180,7 +180,7 @@
     "has_social_links": false
   },
   "approval_risk": {
-    "scan_timestamp": "2026-01-20T16:15:15.969981+00:00",
+    "scan_timestamp": "2026-01-26T14:57:36.860674+00:00",
     "total_approvals": 0,
     "unlimited_approvals": 0,
     "high_risk_approvals": 0,
@@ -190,7 +190,7 @@
   },
   "funding_trace": {
     "target": "0x4b2dbd6fb5ed95c1f2a833dfcb26435d9ad27c93",
-    "trace_timestamp": "2026-01-20T16:15:15.067186+00:00",
+    "trace_timestamp": "2026-01-26T14:57:35.983498+00:00",
     "total_hops": 0,
     "origin_found": false,
     "origin_type": null,
@@ -200,7 +200,7 @@
     "funding_chain": []
   },
   "token_risks": {
-    "scan_timestamp": "2026-01-20T16:15:16.768271+00:00",
+    "scan_timestamp": "2026-01-26T14:57:37.649662+00:00",
     "tokens_analyzed": 0,
     "risky_tokens": 0,
     "total_value_at_risk_usd": 0,

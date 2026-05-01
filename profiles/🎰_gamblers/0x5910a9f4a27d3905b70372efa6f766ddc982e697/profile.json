@@ -1,0 +1,937 @@
+{
+  "address": "0x5910a9f4a27d3905b70372efa6f766ddc982e697",
+  "discovered_at": "2026-01-26T15:00:01.569979+00:00",
+  "total_value_usd": 2.6337780672188327,
+  "eth_balance": 0.000901331476554974,
+  "eth_value_usd": 2.6337780672188327,
+  "token_holdings": {},
+  "risk_score": 70,
+  "tx_count": 1000,
+  "defi_activity": false,
+  "nft_activity": {
+    "unique_collections": 76,
+    "top_collections": [
+      [
+        "Pandora",
+        52
+      ],
+      [
+        "Louis Vuitton",
+        51
+      ],
+      [
+        "Gucci",
+        47
+      ],
+      [
+        "Phantom Network",
+        11
+      ],
+      [
+        "Dolce Gabbana",
+        10
+      ],
+      [
+        "PATEK PHILIPPE",
+        9
+      ],
+      [
+        "APPLE",
+        9
+      ],
+      [
+        "BAYC Otherside Land",
+        8
+      ],
+      [
+        "Garbage Friends",
+        7
+      ],
+      [
+        "Nintendo",
+        7
+      ]
+    ],
+    "collection_addresses": {
+      "0x9e9fbde7c7a83c43913bddc8779158f1368f0413": 52,
+      "0xb9689c58fa153be5378a42c0dba9c50910bcb0c1": 1,
+      "0x70d43932df9a29eda20730dcc6d4024a9ca15fc4": 1,
+      "0x9b9daf4213a172c67b468afe7809b271118c4a1c": 1,
+      "0x5edb863c1b9898eed89c91683893773c61c82369": 1,
+      "0xc33689b4b983875619b3ace02d7222a2703f020f": 1,
+      "0xbda0234b97e9dabbf101acf162555e6223f87c82": 1,
+      "0x459bf9f3773ee93095139833ca2fc8847ae3ef35": 1,
+      "0x6228ec08daa5519d8c26058404c3f82f8ec5f806": 1,
+      "0x3887236e4c82b458bac382234c2646c03037bb24": 1,
+      "0xc5e39ca13e22debc2f86762f01e9106645ece068": 1,
+      "0x4a968c0668cb27537483e156b08d57731a38372c": 1,
+      "0x54060a734cc7944e5928aa7829c804c018907726": 1,
+      "0x68af6191ea33b280752393cbbf00f6f51031549d": 1,
+      "0xc91fd02f600539e80812771eef7b3d6f1d8bdbd3": 1,
+      "0x7ebb8a5282e4d174b27dcd95c51c6c25bcc6d9f6": 1,
+      "0x9c7b630b183566a7af2d89ff522cad82ff9668ec": 1,
+      "0xedb00fa42aab9f3375cd2b221eeb856fe066a2a1": 1,
+      "0xb0fd91b1b31a674e5fd09c7a73ca08ec2c63a3ae": 1,
+      "0x9cdb22529956d15a41d99312825723034096ac0c": 2,
+      "0x856eeb57101bd6aa76c6d97b74c399997ca07aaa": 2,
+      "0x3bbe1ffd386cd4128e04e10c342d5e89c310c2ab": 1,
+      "0x86f6b5b50e980222d04a644fac4f72db99c25ca7": 1,
+      "0xab37b4b462ab4e86f641aa2df2f2375ec0fbf7ac": 2,
+      "0x88704b0be40bd500596adc842ae3c87b56cd87b3": 1,
+      "0xfe131caaa9eb3fa774220ee34f617642313847bd": 1,
+      "0xfff54e6fe44fd47c8814c4b1d62c924c54364ad3": 1,
+      "0xf9e458f01daf255e4279eae3ae527529130f0c85": 2,
+      "0x5932a16c53890e47425b2c676f36724aab72a7f2": 3,
+      "0xf1495cd87d927988ff25629d92565f874d2d686d": 1,
+      "0x5d76397c691feaad749316ae3c183f51f23fe6bc": 2,
+      "0x034a0e87ccb2943e60ddc1fd6a3ab3aaa442e554": 2,
+      "0xf276ed0f992956379cf2f0e20d537150f3074490": 1,
+      "0xeefb574fefcaa64c7cb036404c1a30f35dcb69c4": 1,
+      "0x6931cdd97ced52534c6011ffac95a83a1e1851a7": 2,
+      "0x0d5e50c1e7cfde5219c21e0e103fe4b916805652": 1,
+      "0x45dcf807722e43ba152d8033252398001f438817": 1,
+      "0x3477811908f961e6bd767e917c37a2d41cd33420": 1,
+      "0x0700381065195737e8c0da6d6bb637da55066993": 1,
+      "0x2f4716cb40601d858e43420356de0f13e892fdf5": 1,
+      "0xe157cc9801db6979a1c7f0b17712b85ed7c32bdf": 1,
+      "0x176ff191b9d4de11c9d5f979ea5a56f2ac027aaf": 1,
+      "0x57cf387209c4c7b61f73c962e8251e5bcdd64448": 1,
+      "0xb69d62b86e8dd318d7a9bad8950ff7fb2e60eda9": 2,
+      "0xb1de8f3dc9121453be28f8ffaff09cc0ae4c476b": 2,
+      "0x95a5170f1aeb36fd1e0947dbf9b4d55627b4d763": 1,
+      "0xcd9b915ae6e1f281919e1c3cc480f5fdae037842": 1,
+      "0xea600fd3276affa20da9d18d0175e7d239eb89ae": 1,
+      "0xea5e4eb7c4c66aff42a5eaeefa878306e7949d50": 1,
+      "0xbf5dc024ef424192d20d2a88bcb1a01b14b6f7b1": 1,
+      "0xa37d53966166ae40d6e45a3e686a2925738c8f9a": 1,
+      "0x1f5f70ffbfd81d05857ae5de351ec61a9d90c5d2": 1,
+      "0x5ad06285676539066a0ccb7844db910ecb0ce6ab": 1,
+      "0xb7c9c3aba316fd99e2c5fadec54bb8a425246e90": 1,
+      "0x18ddd8934459d532fe16895588ccc26337d73985": 1,
+      "0x82412625e1ae4789c2c002cea80a3c6da2c83a2e": 1,
+      "0x6c2b0a6269d09d0d22999e68c7be174e5a026c7e": 2,
+      "0x1ee7a2fcca305221b06e5fd587b939ff4f9d8db5": 1,
+      "0x96d621ec28a065bacdd1a1948c8bdca215e069b8": 1,
+      "0xd282c425b8b56a7fe9a3dc69ea7c6f136a651821": 1,
+      "0xeea778477067400c5e94cec722fe95d362be28d5": 2,
+      "0x752570a92509c0d047d944f8496d7e5edd2e35ea": 1,
+      "0xc9c93e2faee728c95bd63d4715f9797762f79457": 1,
+      "0xac8ee2c4eda98baf5335efb69108cd5a667a21bb": 1,
+      "0xa9295ad63ed907b29d70874f41b8dd3b5abc98fe": 1,
+      "0x71f6aa96bd3ea7b88334494f28b42da57fb1b926": 1,
+      "0x55439930fad2e3b949829e2dc60715c11c357590": 1,
+      "0x05c8ae6765f170b7114f6e00ac2275b2b80ff789": 1,
+      "0x64178d771271a3165948721fe0e1959c423e20ad": 1,
+      "0x1e894ef6274ce7139c0a18dceed0876408cb2de9": 1,
+      "0xcaf3f30587104b034b8eb6a2617424e8f566b20e": 1,
+      "0x9e35577836b8ac2e075a8d30e150bb9aafcbb64e": 1,
+      "0x20bab2589745c4dfd1e3b99640f1533b72df0684": 1,
+      "0x9c2d09169060cf448ad368f663b1620242557b1e": 1,
+      "0x6475d9f16505f9be6637aac07479be310e486c7f": 1,
+      "0xe4a1ffb12dd5504d38c4ae2beb48e829dcf12c2a": 1,
+      "0xe9fe16041099b4aa44502047ad570f243e8b7a86": 1,
+      "0xa88b2d3f3c38df762868c4b7751ed24e5e944a34": 1,
+      "0x389cc513f299f283639b00380138e373499688b6": 1,
+      "0xe341e95e4cdf7ea0aca531ff1f36bec98229d021": 1,
+      "0x512e0e3e31c2c175445dd6847a9dc8e76011a3e3": 1,
+      "0x2dd6e1134c781511b2b2767e1bf03bd6687c348d": 1,
+      "0x14b08d6d5326db13a547c3e707f4e8ab3a05e2a8": 1,
+      "0x71fec3f8a5398ece6ebd387de02f22a73c962c79": 1,
+      "0x3334d12171d75d54d2325cfac924e011e25d12e0": 1,
+      "0xbd0c027ac804e36edf5cc481b2283c15a1e48318": 1,
+      "0x0e69b357cbc2814791e66fb9ac3f047777f0c721": 1,
+      "0x669de9215edc24763f1b083fe216f9dfeaab824d": 1,
+      "0xc55b61b5a082f215ad3dc7388b89e390d601bf47": 1,
+      "0xaeb114d96c54a0f7ff57ef6320431ca8305f48e4": 1,
+      "0xfb7a00b67f91741512f3c514072a4698ac996cda": 1,
+      "0xc42a1341c25cec43f0a79de8b9d783ff9980e5ef": 1,
+      "0x8eca37aece07acb930e211e152ef355814d7d2a6": 1,
+      "0x4d2167923f119566a5d8e36cd216b0d11deebf47": 1,
+      "0x96a0253db6b0a04c8639408baf25b7f497339be9": 1,
+      "0xccb3984229af23a91fce57767ae2d086957808c1": 1,
+      "0xb795cc2d42c7921e8d6c38b4a4c05d401ad4900d": 1,
+      "0x8643c0c6205ae25539cc16bf324cf50898136fea": 1,
+      "0x0bffc67227c0a3432a906a1c59c83459e5bfbdc4": 1,
+      "0x7b9aa3a8a4661f126b61a632a25e352bdbd19cdd": 2,
+      "0x22c915866bad87615fef6953838149f6f90f450a": 1,
+      "0x68f13d09ddf2a2c2bd403a1edecd5e8ae52d1712": 2,
+      "0x35c5a191593271333147ed238894f6dc88d97da5": 1,
+      "0xe1e20c0b87b008374826f99e165d4fb6f925290e": 2,
+      "0xfdcd7f876d43c1bb9376d577b354f16dc92675c8": 1,
+      "0x84e64ce037a3e9010d337532f9e3f8342776a2f0": 2,
+      "0xc22d370eec3ca4fa7ab90bd29c111e7391926238": 1,
+      "0xf57358559e3f76424a199301de8f6441caea3675": 1,
+      "0xfdfb369d9910d16f7357bb6b18a6fc4cba6dc871": 2,
+      "0x1e83329ed0c56970a8554a796b44ddf766f60e66": 1,
+      "0x04a4825a6dc9c4283b289ef40ae215436989deea": 1,
+      "0xc73304a5d3c9539dd5e36cf4150e08949edac667": 1,
+      "0xeb40f456f35e869d3db85af7d804acd5909b5dad": 1,
+      "0x4c3334e831fb348dff73919338066eb82614ced8": 1,
+      "0xb4e7ef7a99a056ea37f770a18bfd3f1cc859fb30": 1,
+      "0x4ef1166bf801c61439953a22b0aaf8fd2de48b7d": 1,
+      "0xca8098ab4503aee15b3291d22c0852518d04da63": 5,
+      "0x1509bbe6281278052b437aa4df40396805f8052a": 1,
+      "0x8cdd2f148d854e62fb3a28d7a7b648e221c9a6ca": 1,
+      "0x000386e3f7559d9b6a2f5c46b4ad1a9587d59dc3": 1,
+      "0x4ebc94fd959d2c4b33ca75963c6b5e95b7bf4a21": 4,
+      "0x2cd4be8d4cde4d3ed5d53607991fd82770968024": 1,
+      "0xceacb5cc03591b7cd522b3b40d26ef3a21c282f9": 2,
+      "0x9f9400cbd0975204b7610015fac4e10de473fc4d": 3,
+      "0x367aa3704cb821e9ee639e9c38dc9986931ead59": 3,
+      "0x38797ea75becceb8381201525cf29c7d651f3cf5": 4,
+      "0x84ba0901e1c83da26c0c81fb7cc124827cbfe3bf": 3,
+      "0x3d479b939e2dd99832f616db6594d723c7f0752f": 7,
+      "0xcdd02e7849cbbfeaf6401cfdc434999ff5fc0f04": 3,
+      "0x0e7dfcc6c9dcb9ea928b4328cd6ff16f8bcab1c4": 5,
+      "0x2d677dbe16752a066ef83e382dcc04d7003a61ed": 4,
+      "0x3af3b6f9e6aedd8b9fa327d3df908743cfed49b4": 4,
+      "0xf4b8a456ca94205bec3e7119649d680c10f55a67": 1,
+      "0x6a1fbd083380d585df1bb3337a7d087be9d72b73": 5,
+      "0x090c26dd4275f6c2c4007ed84cbc2000f0edecf1": 1,
+      "0x9a024fff9988d31e69936a42e6ff1c3bb62fff73": 2,
+      "0xf812ea26dbf535b21036e69a9700a3424907b92a": 1,
+      "0x0270d6ba8497af8116ea1af1f4697ac9dcdbf116": 1,
+      "0x92886a9473e2a18c4ab0919781d6a355f96561a2": 3,
+      "0x52376b7ae2feb62c0c0593aa9b9172a0271e0620": 1,
+      "0x0dd08a67d494d79b556712fb2a6e8b48467a64c2": 2,
+      "0x44c1c5e815084cfd76930a4beada63e5c0d67562": 2,
+      "0x7f4d09419d231eda3a2ebe36fa84a2cf44ad5afb": 6,
+      "0x22f709f3851c9adabe6c600cae8abee5f1f1918a": 6,
+      "0x032d96756697af7ec02ce03d39001b39f7a5d849": 1,
+      "0x00703f9b11f2ac02d391a11e7b97c6ee80cd8563": 2,
+      "0x095c1e0a6fe0075d78ad275c657df5b07630c021": 2,
+      "0x07e3f9478b18061b30d3fc1d0c18fc5c36b0be40": 2,
+      "0x71d8aea2ee932a8de445f087edca039a32e361e6": 1,
+      "0xbcdedd6a26ec0bf627eb64eb1d1f7927e7159cd6": 1,
+      "0x09a0bf75dc381c41e6d4db74f30e82c9b0db81f5": 1,
+      "0xff8852a5f77c20094f0fabc7b225b417e0797907": 1,
+      "0x71864a02c35f860979790f50767a7169ca39d8af": 1,
+      "0xebc782039c8661250b6554e22925e0f24ae5003c": 2,
+      "0xb1530d137d908c6bf8d3ab936b7412602d6f8d01": 1,
+      "0x601222160798ecdf3fc98b7a15d2b047400f0ec0": 2,
+      "0x9b893bafd81ccc6f68544efe85a9ecc2bb6be64f": 6,
+      "0xc14a8b1396ba89dc14c2ac01fb9ef51389ca2dcf": 1,
+      "0x1a4a94011794a48a9327f99e240361a7c582324f": 1,
+      "0x6dbc1f3961fd606feaf5fb73245aa4b2674d1e66": 1,
+      "0xec9b9d220651e7bcf9c812ccc966d12d922f237b": 1,
+      "0x3bfcdb0261e7f71bd81896816d8515c7352099f0": 3,
+      "0xc8583adb18a4033dab2846685f535af0bfb3bd87": 2,
+      "0xc4b87b74dd61edd9fc00fc31db251324ff13dce9": 8,
+      "0x77b25667e5258305dcaab7e0a21d068c5a3c7eb1": 1,
+      "0x0c5932213a9b70b91625caeea7d22b5a16b108ae": 2,
+      "0xa114e99111cd67eeb65c2994090b0843ccd4a612": 1,
+      "0x20189f380660d6e7023936ff88ba33164dbffef4": 1,
+      "0xf0ebd6cca49718563d9fdaa2b4690fec9fc9361c": 2,
+      "0x1192ea1c8831acb03fb8fc804be8020a2c694aae": 1,
+      "0xabe7b97730887de0aa949a6751fa411f103e9977": 1,
+      "0x638c33bd4835afa220e109bc5551038aa99929e1": 1,
+      "0xbfc1fbfdb3c440459d0ece2de312086ffbba1bea": 3,
+      "0x309157a8fc78cf52a591661db04162bdafec33db": 1,
+      "0x70a5283ef534c82314e05a28aed8563f9cf41258": 1,
+      "0x8e7d9f344c525a4b161bc1959fd217eb34ecd010": 7,
+      "0x85265fb0b93e664f50854783da5f0326b677ed05": 1,
+      "0xc1080b3bffc7262f4cf729f5ee64d2d8a7f376c7": 4,
+      "0x1909f16783dcf477651d0c10d210441d26aa16ed": 6,
+      "0x81aa0bd4bd29795a7d339417e350e47a209507de": 2,
+      "0x7d24bb9bb72a14aee2d22092240182bdbbd0c5d6": 9,
+      "0x4ecfab6981b662f668f2323a4eb7a8887f49353d": 1,
+      "0xfb6ab41e3d96e39827bb98330e4bcebfea188658": 1,
+      "0xb66d6b3021da366acdb73e23f3f0121753b25de3": 5,
+      "0xea290752e458ddd8562d4aeea0f098e38e6a3591": 14,
+      "0xbc35155fea4465852ce74049adc67673a6b2bf99": 1,
+      "0x15f58fd40a01dae0fdff6fd0cef35cd3e49d647e": 1,
+      "0x677eace0a21f14449b8f048a4b66a9c0be692aa7": 1
+    }
+  },
+  "bridge_activity": false,
+  "age_days": 7,
+  "osint_categories": [
+    "\ud83c\udfb0_gamblers",
+    "\ud83c\udfc6_status_seekers"
+  ],
+  "primary_osint_category": "\ud83c\udfb0_gamblers",
+  "behavior": {
+    "confidence_score": 70,
+    "sophistication": "Intermediate",
+    "risk_tolerance": "Aggressive",
+    "trading_style": "Active Trader",
+    "likely_region": "Europe",
+    "likely_timezone": "Europe/Africa (UTC+0 to +3)",
+    "meme_exposure": true,
+    "defi_protocols": [],
+    "nft_platforms": [],
+    "bridges_used": [],
+    "exchange_interactions": [],
+    "frequent_counterparties": []
+  },
+  "transaction_analysis": {
+    "total_transactions": 1000,
+    "total_value_eth": 0.06301813050259056,
+    "most_active_hour": 16,
+    "most_active_day": "Tuesday",
+    "top_recipients": [
+      [
+        "0x5910a9f4a27d3905b70372efa6f766ddc982e697",
+        187
+      ],
+      [
+        "0x68749665ff8d2d112fa859aa293f07a622782f38",
+        86
+      ],
+      [
+        "0x6b175474e89094c44da98b954eedeac495271d0f",
+        73
+      ],
+      [
+        "0xbb0e17ef65f82ab018d8edd776e8dd940327b28b",
+        66
+      ],
+      [
+        "0x58b6a8a3302369daec383334672404ee733ab239",
+        28
+      ],
+      [
+        "0x50d1c9771902476076ecfc8b2a83ad6b9355a4c9",
+        27
+      ],
+      [
+        "0xe1be424f442d0687129128c6c38aace44f8c8dbc",
+        22
+      ],
+      [
+        "0x62d0a8458ed7719fdaf978fe5929c6d342b0bfce",
+        22
+      ],
+      [
+        "0x32353a6c91143bfd6c7d363b546e62a9a2489a20",
+        22
+      ],
+      [
+        "0xa2cd3d43c775978a96bdbf12d733d5a1ed94fb18",
+        21
+      ]
+    ],
+    "top_senders": [
+      [
+        "0x5910a9f4a27d3905b70372efa6f766ddc982e697",
+        813
+      ],
+      [
+        "0x598273ea2cabd9f798564877851788c5e0d5b7b9",
+        186
+      ],
+      [
+        "0x5982e97d61e124bc71e411887983cb351cc7b7b9",
+        1
+      ]
+    ],
+    "first_transaction": "2026-01-12T07:09:11",
+    "last_transaction": "2026-01-26T15:57:11",
+    "avg_gas_used": 33263.885,
+    "avg_gas_price": 2032342142.0437717
+  },
+  "token_activity": {
+    "unique_tokens": 106,
+    "top_tokens": [
+      [
+        "XAUt",
+        137
+      ],
+      [
+        "AXS",
+        114
+      ],
+      [
+        "LPT",
+        47
+      ],
+      [
+        "FTX Token",
+        46
+      ],
+      [
+        "ZKP",
+        34
+      ],
+      [
+        "XCN",
+        28
+      ],
+      [
+        "DAI",
+        26
+      ],
+      [
+        "$PAAL",
+        24
+      ],
+      [
+        "HSK",
+        24
+      ],
+      [
+        "PEPE",
+        18
+      ],
+      [
+        "LIT",
+        18
+      ],
+      [
+        "TURBO",
+        17
+      ],
+      [
+        "WLD",
+        16
+      ],
+      [
+        "EIGEN",
+        14
+      ],
+      [
+        "DAO",
+        14
+      ],
+      [
+        "CVX",
+        14
+      ],
+      [
+        "AAVE",
+        13
+      ],
+      [
+        "SKY",
+        12
+      ],
+      [
+        "Mog",
+        12
+      ],
+      [
+        "XYO",
+        12
+      ]
+    ],
+    "token_values": {
+      "XAUt": 648.8920340000001,
+      "WLFI": 133903.80171958002,
+      "AXS": 116953.64918407999,
+      "BREV": 68840.0,
+      "ZKP": 1144788.0493991687,
+      "XCN": 17382195.61247012,
+      "LPT": 46951.87837440001,
+      "$PAAL": 1605203.5,
+      "T": 247070.0,
+      "NOM": 2748758.1017556004,
+      "HSK": 853743.0400000002,
+      "STARLINK": 5.0,
+      "SKY": 404620.22683210013,
+      "UNI": 11295.101999999999,
+      "BIO": 61549.08,
+      "PYR": 5651.42821608,
+      "Auction": 601.95800518,
+      "EIGEN": 90418.82,
+      "MX": 3120.0,
+      "PRO": 9231.73421628,
+      "BEAM": 4441707.76,
+      "ES": 200077.96,
+      "SUPER": 102400.69779554,
+      "TRB": 2659.6904000000004,
+      "DAI": 128784.69799559994,
+      "DAO": 1374725.9799999997,
+      "FTX Token": 213733.82709752006,
+      "AMP": 5455423.77681018,
+      "PHA": 269158.07999999996,
+      "Mog": 79710650681.72,
+      "SYRUP": 76570.92732538,
+      "LDO": 81332.7,
+      "TRU": 622793.8200000001,
+      "RAD": 29265.32,
+      "PERP": 264711.83999999997,
+      "AAVE": 325.85796418000007,
+      "SWELL": 2890430.46309732,
+      "PENDLE": 4964.6301,
+      "LADYS": 586975668633.66,
+      "GWEI": 183821.12364074,
+      "CVX": 19581.55816128,
+      "SNX": 10914.18,
+      "L3": 541843.98745638,
+      "YFI": 2.19978,
+      "ANKR": 313970.0,
+      "JASMY": 515678.17627094,
+      "PENGUIN": 5.0,
+      "AURORA": 296946.67057156,
+      "ELA": 26122.090433899997,
+      "ONDO": 235036.02,
+      "FXS": 4954.15412,
+      "ZRX": 16181.84,
+      "STG": 59622.208,
+      "INJ": 3611.4897232399994,
+      "TURBO": 49227924.92630816,
+      "ATH": 502578.23140000005,
+      "XYO": 8756600.38123256,
+      "ALLO": 78787.44,
+      "SENT": 220714.0,
+      "LRC": 231825.70738532,
+      "SAND": 167014.25561642004,
+      "MEMES": 5.0,
+      "MASK": 2360.76,
+      "MANYU": 1.0,
+      "AERGO": 109258.0,
+      "RPL": 1632.24080026079,
+      "MEME": 3315858.0,
+      "CRV": 22370.08902036,
+      "SKL": 1540314.0,
+      "MOCA": 149535.30000000002,
+      "PEPE": 16933875850.956219,
+      "PEOPLE": 300498.58,
+      "RED": 100241.09999999999,
+      "LIT": 47182.57292450001,
+      "UMA": 54469.0,
+      "NKN": 582908.89957056,
+      "AIOZ": 134140.80311206,
+      "ENS": 516.92664443,
+      "Metis": 3007.47371198,
+      "ZRO": 2492.6212,
+      "ARPA": 1655858.3066865401,
+      "TANSSI": 2908512.62,
+      "ACH": 496072.0,
+      "TLM": 9157476.0,
+      "TORN": 511.6778,
+      "USD1": 19999.59383542,
+      "MNT": 19681.54567124,
+      "WLD": 67336.73605559999,
+      "DUSK": 23864.000000000004,
+      "BOBA": 121671.78199999999,
+      "ENA": 154872.90460412,
+      "STORJ": 57106.02746,
+      "HOT": 7081834.0,
+      "LINK": 455.8,
+      "FLUX": 236498.94,
+      "FET": 54273.64387972657,
+      "SPELL": 8486315.06,
+      "CHR": 208099.58,
+      "STAR": 1.0,
+      "GLM": 57256.543824199995,
+      "PORTAL": 1704962.0,
+      "LMWR": 78777.218,
+      "OXT": 109237.2841567,
+      "A8": 160953.92207738,
+      "TRAC": 29538.4735668,
+      "AGLD": 6199.0
+    },
+    "token_details": {
+      "XAUt": [
+        "Tether Gold"
+      ],
+      "WLFI": [
+        "World Liberty Financial"
+      ],
+      "AXS": [
+        "Axie Infinity Shard"
+      ],
+      "BREV": [
+        "Brevis Token"
+      ],
+      "ZKP": [
+        "zkPass"
+      ],
+      "XCN": [
+        "Onyxcoin"
+      ],
+      "LPT": [
+        "Livepeer Token"
+      ],
+      "$PAAL": [
+        "PAAL AI"
+      ],
+      "T": [
+        "Threshold Network Token"
+      ],
+      "NOM": [
+        "Nomina"
+      ],
+      "HSK": [
+        "HashKey Platform Token"
+      ],
+      "STARLINK": [
+        "Starlink Airdrop"
+      ],
+      "SKY": [
+        "SKY Governance Token"
+      ],
+      "UNI": [
+        "Uniswap"
+      ],
+      "BIO": [
+        "BIO"
+      ],
+      "PYR": [
+        "PYR Token"
+      ],
+      "Auction": [
+        "Bounce Token"
+      ],
+      "EIGEN": [
+        "Eigen"
+      ],
+      "MX": [
+        "MX Token"
+      ],
+      "PRO": [
+        "Propy"
+      ],
+      "BEAM": [
+        "Beam"
+      ],
+      "ES": [
+        "Eclipse"
+      ],
+      "SUPER": [
+        "SuperVerse"
+      ],
+      "TRB": [
+        "Tellor Tributes"
+      ],
+      "DAI": [
+        "Dai Stablecoin"
+      ],
+      "DAO": [
+        "DAO Maker"
+      ],
+      "FTX Token": [
+        "FTT"
+      ],
+      "AMP": [
+        "Amp"
+      ],
+      "PHA": [
+        "Phala"
+      ],
+      "Mog": [
+        "Mog Coin"
+      ],
+      "SYRUP": [
+        "Syrup Token"
+      ],
+      "LDO": [
+        "Lido DAO Token"
+      ],
+      "TRU": [
+        "TrueFi"
+      ],
+      "RAD": [
+        "Radicle"
+      ],
+      "PERP": [
+        "Perpetual"
+      ],
+      "AAVE": [
+        "Aave Token"
+      ],
+      "SWELL": [
+        "Swell Governance Token"
+      ],
+      "PENDLE": [
+        "Pendle"
+      ],
+      "LADYS": [
+        "Milady"
+      ],
+      "GWEI": [
+        "ETHGas"
+      ],
+      "CVX": [
+        "Convex Token"
+      ],
+      "SNX": [
+        "Synthetix Network Token"
+      ],
+      "L3": [
+        "Layer3"
+      ],
+      "YFI": [
+        "yearn.finance"
+      ],
+      "ANKR": [
+        "Ankr Network"
+      ],
+      "JASMY": [
+        "JasmyCoin"
+      ],
+      "PENGUIN": [
+        "Nietzschean Penguin"
+      ],
+      "AURORA": [
+        "Aurora"
+      ],
+      "ELA": [
+        "ELA on Ethereum"
+      ],
+      "ONDO": [
+        "Ondo"
+      ],
+      "FXS": [
+        "Frax Share"
+      ],
+      "ZRX": [
+        "ZRX"
+      ],
+      "STG": [
+        "StargateToken"
+      ],
+      "INJ": [
+        "Injective Token"
+      ],
+      "TURBO": [
+        "Turbo"
+      ],
+      "ATH": [
+        "Aethir Token"
+      ],
+      "XYO": [
+        "XY Oracle"
+      ],
+      "ALLO": [
+        "Allora"
+      ],
+      "SENT": [
+        "Sentient"
+      ],
+      "LRC": [
+        "LoopringCoin V2"
+      ],
+      "SAND": [
+        "SAND"
+      ],
+      "MEMES": [
+        "MEMES will continue on Ethereum"
+      ],
+      "MASK": [
+        "Mask Network"
+      ],
+      "MANYU": [
+        "Lil Manyu"
+      ],
+      "AERGO": [
+        "Aergo"
+      ],
+      "RPL": [
+        "Rocket Pool"
+      ],
+      "MEME": [
+        "Memecoin"
+      ],
+      "CRV": [
+        "Curve DAO Token"
+      ],
+      "SKL": [
+        "SKALE"
+      ],
+      "MOCA": [
+        "Moca"
+      ],
+      "PEPE": [
+        "Pepe"
+      ],
+      "PEOPLE": [
+        "ConstitutionDAO"
+      ],
+      "RED": [
+        "Redstone"
+      ],
+      "LIT": [
+        "Lighter"
+      ],
+      "UMA": [
+        "UMA Voting Token v1"
+      ],
+      "NKN": [
+        "NKN"
+      ],
+      "AIOZ": [
+        "AIOZ Network"
+      ],
+      "ENS": [
+        "Ethereum Name Service"
+      ],
+      "Metis": [
+        "Metis Token"
+      ],
+      "ZRO": [
+        "LayerZero"
+      ],
+      "ARPA": [
+        "ARPA Token"
+      ],
+      "TANSSI": [
+        "TANSSI"
+      ],
+      "ACH": [
+        "Alchemy"
+      ],
+      "TLM": [
+        "Alien Worlds Trilium"
+      ],
+      "TORN": [
+        "TORN Token"
+      ],
+      "USD1": [
+        "World Liberty Financial USD"
+      ],
+      "MNT": [
+        "Mantle"
+      ],
+      "WLD": [
+        "Worldcoin"
+      ],
+      "DUSK": [
+        "Dusk Network"
+      ],
+      "BOBA": [
+        "Boba Token"
+      ],
+      "ENA": [
+        "Ethena"
+      ],
+      "STORJ": [
+        "Storj"
+      ],
+      "HOT": [
+        "HoloToken"
+      ],
+      "LINK": [
+        "ChainLink Token"
+      ],
+      "FLUX": [
+        "Flux"
+      ],
+      "FET": [
+        "Fetch"
+      ],
+      "SPELL": [
+        "Spell Token"
+      ],
+      "CHR": [
+        "Chroma"
+      ],
+      "STAR": [
+        "Trump Star"
+      ],
+      "GLM": [
+        "Golem Network Token"
+      ],
+      "PORTAL": [
+        "PORTAL"
+      ],
+      "LMWR": [
+        "LimeWire Token"
+      ],
+      "OXT": [
+        "Orchid"
+      ],
+      "A8": [
+        "Ancient8"
+      ],
+      "TRAC": [
+        "Trace"
+      ],
+      "AGLD": [
+        "Adventure Gold"
+      ]
+    }
+  },
+  "ipfs_osint": {
+    "address": "0x5910a9f4a27d3905b70372efa6f766ddc982e697",
+    "ipfs_hashes_found": [],
+    "metadata_analyzed": [],
+    "debug_info": {
+      "nft_transfers_count": 375,
+      "contracts_found": 1,
+      "tokens_checked": 5,
+      "uris_found": 5,
+      "ipfs_hashes_extracted": 0,
+      "metadata_fetched": 0
+    },
+    "findings": {
+      "total_hashes": 0,
+      "unique_hashes": [],
+      "linked_urls": [],
+      "usernames": [],
+      "emails": [],
+      "social_links": [],
+      "timestamps": [],
+      "creators": [],
+      "collections": [],
+      "domains": [],
+      "domain_analysis": {},
+      "metadata_urls": [
+        {
+          "contract": "0x9e9fbde7c7a83c43913bddc8779158f1368f0413",
+          "token_id": "81043",
+          "uri": "data:application/json;utf8,{\"name\": \"Pandora #81043\",\"description\":\"A collection of 10,000 Replicants enabled by ERC404, an experimental token standard.\",\"external_url\":\"https://pandora.build\",\"image\":\"https://raw.githubusercontent.com/0xacme/pandora/main/1.gif\",\"attributes\":[{\"trait_type\":\"Color\",\"value\":\"Green\"}]}"
+        },
+        {
+          "contract": "0x9e9fbde7c7a83c43913bddc8779158f1368f0413",
+          "token_id": "83836",
+          "uri": "data:application/json;utf8,{\"name\": \"Pandora #83836\",\"description\":\"A collection of 10,000 Replicants enabled by ERC404, an experimental token standard.\",\"external_url\":\"https://pandora.build\",\"image\":\"https://raw.githubusercontent.com/0xacme/pandora/main/3.gif\",\"attributes\":[{\"trait_type\":\"Color\",\"value\":\"Purple\"}]}"
+        },
+        {
+          "contract": "0x9e9fbde7c7a83c43913bddc8779158f1368f0413",
+          "token_id": "90476",
+          "uri": "data:application/json;utf8,{\"name\": \"Pandora #90476\",\"description\":\"A collection of 10,000 Replicants enabled by ERC404, an experimental token standard.\",\"external_url\":\"https://pandora.build\",\"image\":\"https://raw.githubusercontent.com/0xacme/pandora/main/2.gif\",\"attributes\":[{\"trait_type\":\"Color\",\"value\":\"Blue\"}]}"
+        },
+        {
+          "contract": "0x9e9fbde7c7a83c43913bddc8779158f1368f0413",
+          "token_id": "86111",
+          "uri": "data:application/json;utf8,{\"name\": \"Pandora #86111\",\"description\":\"A collection of 10,000 Replicants enabled by ERC404, an experimental token standard.\",\"external_url\":\"https://pandora.build\",\"image\":\"https://raw.githubusercontent.com/0xacme/pandora/main/3.gif\",\"attributes\":[{\"trait_type\":\"Color\",\"value\":\"Purple\"}]}"
+        },
+        {
+          "contract": "0x9e9fbde7c7a83c43913bddc8779158f1368f0413",
+          "token_id": "91215",
+          "uri": "data:application/json;utf8,{\"name\": \"Pandora #91215\",\"description\":\"A collection of 10,000 Replicants enabled by ERC404, an experimental token standard.\",\"external_url\":\"https://pandora.build\",\"image\":\"https://raw.githubusercontent.com/0xacme/pandora/main/2.gif\",\"attributes\":[{\"trait_type\":\"Color\",\"value\":\"Blue\"}]}"
+        }
+      ]
+    }
+  },
+  "ens": {
+    "address": "0x5910a9f4a27d3905b70372efa6f766ddc982e697",
+    "ens_name": null,
+    "text_records": {},
+    "social_links": {},
+    "has_ens": false,
+    "has_social_links": false
+  },
+  "approval_risk": {
+    "scan_timestamp": "2026-01-26T15:00:11.952585+00:00",
+    "total_approvals": 0,
+    "unlimited_approvals": 0,
+    "high_risk_approvals": 0,
+    "total_exposure_usd": 0,
+    "verdicts": [],
+    "has_dangerous_approvals": false
+  },
+  "funding_trace": {
+    "target": "0x5910a9f4a27d3905b70372efa6f766ddc982e697",
+    "trace_timestamp": "2026-01-26T15:00:10.354886+00:00",
+    "total_hops": 0,
+    "origin_found": false,
+    "origin_type": null,
+    "origin_label": null,
+    "trace_complete": false,
+    "trace_stopped_reason": "No funding transaction found",
+    "funding_chain": []
+  },
+  "token_risks": {
+    "scan_timestamp": "2026-01-26T15:00:12.676599+00:00",
+    "tokens_analyzed": 0,
+    "risky_tokens": 0,
+    "total_value_at_risk_usd": 0,
+    "has_risky_tokens": false,
+    "verdicts": [],
+    "honeypots_detected": 0,
+    "impersonators_detected": 0
+  }
+}

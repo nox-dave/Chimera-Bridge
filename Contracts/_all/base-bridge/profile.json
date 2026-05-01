@@ -4,20 +4,20 @@
   "address": "0x49048044D57e1C92A77f79988d21Fa8fAF74E97e",
   "chain": "Ethereum",
   "category": "Canonical Bridge",
-  "tvl": 3316413393.7009034,
-  "tvl_formatted": "$3,316,413,394",
+  "tvl": 3270459813.215236,
+  "tvl_formatted": "$3,270,459,813",
   "is_audited": false,
   "priority_score": 80,
-  "scanned_at": "2026-01-22T19:32:58.617562",
+  "scanned_at": "2026-01-26T15:49:04.202890",
   "verdicts": [
     {
       "title": "UNAUDITED HIGH-TVL PROTOCOL",
       "severity": "CRITICAL",
       "category": "TRUST",
-      "description": "Protocol has $3,316,413,394 TVL without documented audit",
+      "description": "Protocol has $3,270,459,813 TVL without documented audit",
       "evidence": [
         "No audit links found",
-        "TVL: $3,316,413,394"
+        "TVL: $3,270,459,813"
       ],
       "action": "Priority target for vulnerability analysis"
     },
@@ -27,7 +27,7 @@
       "category": "INTEL",
       "description": "Protocol holds over $10M in TVL",
       "evidence": [
-        "TVL: $3,316,413,394"
+        "TVL: $3,270,459,813"
       ],
       "action": "High-value target if vulnerable"
     }

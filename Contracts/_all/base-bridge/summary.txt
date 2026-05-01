@@ -8,15 +8,15 @@ Name:           Base Bridge
 Address:        0x49048044D57e1C92A77f79988d21Fa8fAF74E97e
 Chain:          Ethereum
 Category:       Canonical Bridge
-TVL:            $3,316,413,394
+TVL:            $3,270,459,813
 Audit Status:   ❌ Unaudited
 Priority Score:  80/100
-Scanned At:     2026-01-22T19:32:58.617562
+Scanned At:     2026-01-26T15:49:04.202890
 
 VERDICTS
 ----------------------------------------------------------------------
 🚨 [CRITICAL] UNAUDITED HIGH-TVL PROTOCOL
-   Protocol has $3,316,413,394 TVL without documented audit
+   Protocol has $3,270,459,813 TVL without documented audit
 ℹ️ [INFO] VERY HIGH TVL TARGET
    Protocol holds over $10M in TVL
 

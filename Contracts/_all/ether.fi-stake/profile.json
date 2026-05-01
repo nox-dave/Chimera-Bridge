@@ -4,20 +4,20 @@
   "address": "0x35fA164735182de50811E8e2E824cFb9B6118ac2",
   "chain": "Ethereum",
   "category": "Liquid Restaking",
-  "tvl": 8523445558.942568,
-  "tvl_formatted": "$8,523,445,559",
+  "tvl": 8499387364.316608,
+  "tvl_formatted": "$8,499,387,364",
   "is_audited": false,
   "priority_score": 80,
-  "scanned_at": "2026-01-22T19:32:58.610421",
+  "scanned_at": "2026-01-26T15:49:04.192870",
   "verdicts": [
     {
       "title": "UNAUDITED HIGH-TVL PROTOCOL",
       "severity": "CRITICAL",
       "category": "TRUST",
-      "description": "Protocol has $8,523,445,559 TVL without documented audit",
+      "description": "Protocol has $8,499,387,364 TVL without documented audit",
       "evidence": [
         "No audit links found",
-        "TVL: $8,523,445,559"
+        "TVL: $8,499,387,364"
       ],
       "action": "Priority target for vulnerability analysis"
     },
@@ -27,7 +27,7 @@
       "category": "INTEL",
       "description": "Protocol holds over $10M in TVL",
       "evidence": [
-        "TVL: $8,523,445,559"
+        "TVL: $8,499,387,364"
       ],
       "action": "High-value target if vulnerable"
     }

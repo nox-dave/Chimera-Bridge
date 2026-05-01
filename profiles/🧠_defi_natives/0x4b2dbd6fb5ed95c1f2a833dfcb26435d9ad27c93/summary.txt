@@ -4,7 +4,7 @@
 ╚══════════════════════════════════════════════════════════════════════════════╝
 
 Target:     0x4b2dbd6fb5ed95c1f2a833dfcb26435d9ad27c93
-Generated:  2026-01-20 17:15:16 UTC
+Generated:  2026-01-26 15:57:37 UTC
 
 ┌──────────────────────────────────────────────────────────────────────────────┐
 │                               QUICK ASSESSMENT                               │
@@ -17,9 +17,9 @@ Generated:  2026-01-20 17:15:16 UTC
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 💰 FINANCIAL SUMMARY
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  Total Portfolio Value:  $                3.33
+  Total Portfolio Value:  $                3.20
   ETH Balance:                          0.0011 ETH
-  ETH Value:              $                3.33
+  ETH Value:              $                3.20
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 📊 ACTIVITY METRICS
@@ -27,7 +27,7 @@ Generated:  2026-01-20 17:15:16 UTC
   Transaction Count:                        46
   Total ETH Moved:                        0.03 ETH
   Avg Transaction:                      0.0017 ETH
-  Wallet Age:                              187 days
+  Wallet Age:                              193 days
   First Transaction:                2025-07-17
   Last Transaction:                 2025-08-05
 
@@ -50,10 +50,10 @@ Generated:  2026-01-20 17:15:16 UTC
 🔧 PROTOCOL & PLATFORM USAGE
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
   DeFi Protocols:
-    ✓ 1inch V5
     ✓ Metamask Swap Router
-    ✓ WETH Contract
     ✓ Uniswap V2
+    ✓ WETH Contract
+    ✓ 1inch V5
 
   NFT Platforms:          None detected
 

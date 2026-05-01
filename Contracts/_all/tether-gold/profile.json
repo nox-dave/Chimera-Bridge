@@ -4,20 +4,20 @@
   "address": "0x68749665FF8D2d112Fa859AA293F07A622782F38",
   "chain": "Ethereum",
   "category": "RWA",
-  "tvl": 2566326514.2141857,
-  "tvl_formatted": "$2,566,326,514",
+  "tvl": 2672534385.724876,
+  "tvl_formatted": "$2,672,534,386",
   "is_audited": false,
   "priority_score": 80,
-  "scanned_at": "2026-01-22T19:32:58.619034",
+  "scanned_at": "2026-01-26T15:49:04.204505",
   "verdicts": [
     {
       "title": "UNAUDITED HIGH-TVL PROTOCOL",
       "severity": "CRITICAL",
       "category": "TRUST",
-      "description": "Protocol has $2,566,326,514 TVL without documented audit",
+      "description": "Protocol has $2,672,534,386 TVL without documented audit",
       "evidence": [
         "No audit links found",
-        "TVL: $2,566,326,514"
+        "TVL: $2,672,534,386"
       ],
       "action": "Priority target for vulnerability analysis"
     },
@@ -27,7 +27,7 @@
       "category": "INTEL",
       "description": "Protocol holds over $10M in TVL",
       "evidence": [
-        "TVL: $2,566,326,514"
+        "TVL: $2,672,534,386"
       ],
       "action": "High-value target if vulnerable"
     }

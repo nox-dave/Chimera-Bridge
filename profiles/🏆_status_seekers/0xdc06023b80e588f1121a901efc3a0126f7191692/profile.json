@@ -1,9 +1,9 @@
 {
   "address": "0xdc06023b80e588f1121a901efc3a0126f7191692",
-  "discovered_at": "2026-01-20T16:16:20.749716+00:00",
-  "total_value_usd": 255.77146044967918,
-  "eth_balance": 0.0843799720405767,
-  "eth_value_usd": 255.77146044967918,
+  "discovered_at": "2026-01-26T14:59:32.149258+00:00",
+  "total_value_usd": 222.19808590791166,
+  "eth_balance": 0.07604062443672359,
+  "eth_value_usd": 222.19808590791166,
   "token_holdings": {},
   "risk_score": 60,
   "tx_count": 1000,
@@ -21,7 +21,7 @@
     }
   },
   "bridge_activity": false,
-  "age_days": 28,
+  "age_days": 19,
   "osint_categories": [
     "\ud83c\udfb0_gamblers",
     "\ud83c\udfc6_status_seekers"
@@ -43,48 +43,48 @@
   },
   "transaction_analysis": {
     "total_transactions": 1000,
-    "total_value_eth": 0.05260810131559933,
+    "total_value_eth": 0.038062625872998,
     "most_active_hour": 7,
-    "most_active_day": "Tuesday",
+    "most_active_day": "Thursday",
     "top_recipients": [
       [
         "0x6774bcbd5cecef1336b5300fb5186a12ddd8b367",
-        760
+        661
       ],
       [
         "0x49048044d57e1c92a77f79988d21fa8faf74e97e",
-        206
+        318
       ],
       [
         "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
-        6
-      ],
-      [
-        "0xba3cb449bd2b4adddbc894d8697f5170800eadec",
-        5
-      ],
-      [
-        "0xd19d4b5d358258f05d7b411e21a1460d11b0876f",
         4
       ],
       [
-        "0x657e8c867d8b37dcc18fa4caead9c45eb088c642",
+        "0xba3cb449bd2b4adddbc894d8697f5170800eadec",
+        4
+      ],
+      [
+        "0xd19d4b5d358258f05d7b411e21a1460d11b0876f",
         3
       ],
       [
-        "0x663dc15d3c1ac63ff12e45ab68fea3f0a883c251",
-        2
-      ],
-      [
-        "0xcd2eb13d6831d4602d80e5db9230a57596cdca63",
-        2
-      ],
-      [
-        "0xcd5fe23c85820f7b72d0926fc9b05b43e359b7ee",
-        2
-      ],
-      [
         "0x963f15f97db125fdbaa36aee1a34a6cbe24e0768",
+        1
+      ],
+      [
+        "0xd2ee2776f34ef4e7325745b06e6d464b08d4be0e",
+        1
+      ],
+      [
+        "0x66a1e37c9b0eaddca17d3662d6c05f4decf3e110",
+        1
+      ],
+      [
+        "0x52010c5a35a6cf8c78ebe7b4b2951ad0c4f133a8",
+        1
+      ],
+      [
+        "0x0e556b9aff11195d8bf35f98134bc76b9b6b14c3",
         1
       ]
     ],
@@ -94,13 +94,13 @@
         1000
       ]
     ],
-    "first_transaction": "2025-11-21T16:00:59",
-    "last_transaction": "2026-01-20T14:21:23",
-    "avg_gas_used": 194869.125,
-    "avg_gas_price": 3540720434.299887
+    "first_transaction": "2025-12-07T22:04:35",
+    "last_transaction": "2026-01-26T15:09:35",
+    "avg_gas_used": 216554.599,
+    "avg_gas_price": 776970822.1610001
   },
   "token_activity": {
-    "unique_tokens": 70,
+    "unique_tokens": 73,
     "top_tokens": [
       [
         "weETH",
@@ -171,19 +171,22 @@
         4
       ],
       [
+        "ZAMA",
+        3
+      ],
+      [
         "LBTC",
         3
       ],
       [
         "gtLRTcore",
         3
-      ],
-      [
-        "USR",
-        2
       ]
     ],
     "token_values": {
+      "ZAMA": 15.0,
+      "MEMES": 5.0,
+      "Elon Air": 2.0,
       "GWEI": 5.0,
       "ACU": 5.0,
       "UniLife": 5.0,
@@ -256,6 +259,15 @@
       "USD0 [www.usual.finance]": 1668.0
     },
     "token_details": {
+      "ZAMA": [
+        "Zama"
+      ],
+      "MEMES": [
+        "MEMES will continue on Ethereum"
+      ],
+      "Elon Air": [
+        "Elon Air"
+      ],
       "GWEI": [
         "ETHGas"
       ],
@@ -504,7 +516,7 @@
     "has_social_links": false
   },
   "approval_risk": {
-    "scan_timestamp": "2026-01-20T16:16:32.444717+00:00",
+    "scan_timestamp": "2026-01-26T14:59:43.251542+00:00",
     "total_approvals": 0,
     "unlimited_approvals": 0,
     "high_risk_approvals": 0,
@@ -514,7 +526,7 @@
   },
   "funding_trace": {
     "target": "0xdc06023b80e588f1121a901efc3a0126f7191692",
-    "trace_timestamp": "2026-01-20T16:16:30.022071+00:00",
+    "trace_timestamp": "2026-01-26T14:59:41.068884+00:00",
     "total_hops": 0,
     "origin_found": false,
     "origin_type": null,
@@ -524,7 +536,7 @@
     "funding_chain": []
   },
   "token_risks": {
-    "scan_timestamp": "2026-01-20T16:16:33.171117+00:00",
+    "scan_timestamp": "2026-01-26T14:59:43.978478+00:00",
     "tokens_analyzed": 0,
     "risky_tokens": 0,
     "total_value_at_risk_usd": 0,
