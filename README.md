@@ -1,4 +1,4 @@
-# 🔥 CHIMERA
+# CHIMERA
 
 **Security Analysis Pipeline for Smart Contract Risk Discovery**
 
