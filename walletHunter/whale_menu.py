@@ -195,7 +195,7 @@ def display_profile_list(profiles: List[str], folder: str, page: int = 0, per_pa
 def menu_hunt_whales():
     while True:
         clear_screen()
-        print_header("🔍 Hunt Whales")
+        print_header("🔍 Bulk address discovery")
         print("  [1] Complete Profile (Unified)")
         print("  [2] Basic Profile (Legacy)")
         print("  [b] Back")
@@ -207,7 +207,7 @@ def menu_hunt_whales():
             return
         elif choice == '1':
             clear_screen()
-            print_header("🔍 Hunt Whales → COMPLETE Profile")
+            print_header("🔍 Bulk discovery → Complete profile")
             print("This will generate complete intelligence profiles:")
             print()
             print_tree([
@@ -230,9 +230,9 @@ def menu_hunt_whales():
             include_ipfs = include_ipfs != 'n'
             
             print(f"\n{'='*70}")
-            print(f"Starting unified whale hunt...")
+            print(f"Starting unified batch profiling...")
             print(f"  Min Balance: ${min_balance:,.0f}")
-            print(f"  Limit: {limit} wallets")
+            print(f"  Limit: {limit} addresses")
             print(f"  IPFS OSINT: {'Enabled' if include_ipfs else 'Disabled'}")
             print(f"{'='*70}\n")
             
@@ -251,7 +251,7 @@ def menu_hunt_whales():
             input("\nPress Enter to continue...")
         elif choice == '2':
             clear_screen()
-            print_header("🔍 Hunt Whales → BASIC Profile (Legacy)")
+            print_header("🔍 Bulk discovery → Basic profile (legacy)")
             print("This will generate basic profiles (no IPFS/ENS/verdicts):")
             print()
             print_tree([
@@ -267,9 +267,9 @@ def menu_hunt_whales():
             limit = get_input("Limit (default 10): ")
             limit = int(limit) if limit else 10
             
-            print(f"\nStarting basic whale hunt...")
+            print(f"\nStarting basic batch discovery...")
             print(f"  Min Balance: ${min_balance:,.0f}")
-            print(f"  Limit: {limit} wallets\n")
+            print(f"  Limit: {limit} addresses\n")
             
             run_command(["python3", SCRIPTS["main"], "--find-whale", "--min-balance", str(min_balance), "--limit", str(limit)])
             input("\nPress Enter to continue...")
@@ -731,16 +731,16 @@ def menu_view_reports():
 def menu_target_search():
     while True:
         clear_screen()
-        print_header("🎯 Target Search")
+        print_header("🎯 Investigative filters")
         print("  [1] Interactive Search")
-        print("  [2] Rich & Dumb (Prime Targets)")
-        print("  [3] Rich (>$1M)")
-        print("  [4] Newcomers")
-        print("  [5] Gamblers")
-        print("  [6] Easy Targets")
-        print("  [7] European Whales")
-        print("  [8] Asia-Pacific Whales")
-        print("  [9] Scam Victims")
+        print("  [2] High balance + low sophistication (priority triage)")
+        print("  [3] Significant holdings (>$1M)")
+        print("  [4] Emerging or recent accounts")
+        print("  [5] High-velocity speculative activity")
+        print("  [6] Simplified triage queue")
+        print("  [7] Europe-region activity pattern")
+        print("  [8] Asia-Pacific activity pattern")
+        print("  [9] Likely scam-airdrop recipients")
         print("  [0] Custom Search")
         print("  [b] Back")
         print()
@@ -751,7 +751,7 @@ def menu_target_search():
             return
         elif choice == '1':
             clear_screen()
-            print_header("🎯 Target Search → Interactive")
+            print_header("🎯 Investigative filters → Interactive")
             print("Query-based search with filters:")
             print()
             print_tree([
@@ -766,23 +766,23 @@ def menu_target_search():
             input("\nPress Enter to continue...")
         elif choice == '2':
             clear_screen()
-            print_header("🎯 Target Search → Rich & Dumb")
-            print("High value + Low sophistication:")
+            print_header("🎯 Investigative filters → Priority triage")
+            print("High balance with low sophistication indicators:")
             print()
             print_tree([
                 "Balance > $100k",
                 "Sophistication: Novice",
                 "High confidence real person",
-                "Prime targets for OSINT"
+                "Flag for structured review"
             ])
             print()
-            print("🎯 Searching for Rich & Dumb targets...\n")
+            print("🎯 Running priority triage preset...\n")
             run_command(["python3", "target_search.py", "--rich-dumb", "-v"])
             input("\nPress Enter to continue...")
         elif choice == '3':
             clear_screen()
-            print_header("🎯 Target Search → Rich (>$1M)")
-            print("High-value wallets:")
+            print_header("🎯 Investigative filters → Significant holdings")
+            print("Addresses over $1M notional:")
             print()
             print_tree([
                 "Balance > $1,000,000",
@@ -790,28 +790,28 @@ def menu_target_search():
                 "Sorted by value"
             ])
             print()
-            print("💰 Searching for Rich targets (>$1M)...\n")
+            print("💰 Searching profiles over $1M notional...\n")
             run_command(["python3", "target_search.py", "--rich", "-v"])
             input("\nPress Enter to continue...")
         elif choice == '4':
             clear_screen()
-            print_header("🎯 Target Search → Newcomers")
-            print("Fresh wallets with funds:")
+            print_header("🎯 Investigative filters → Emerging accounts")
+            print("Recently active or funded addresses:")
             print()
             print_tree([
                 "Wallet age < 60 days",
                 "Balance > $100k",
                 "Low DeFi experience",
-                "High vulnerability"
+                "Elevated technical exposure indicators"
             ])
             print()
-            print("🆕 Searching for Newcomers...\n")
+            print("🆕 Searching emerging-account preset...\n")
             run_command(["python3", "target_search.py", "--newcomer", "-v"])
             input("\nPress Enter to continue...")
         elif choice == '5':
             clear_screen()
-            print_header("🎯 Target Search → Gamblers")
-            print("High-risk meme coin traders:")
+            print_header("🎯 Investigative filters → Speculative activity")
+            print("High-velocity meme or speculative token exposure:")
             print()
             print_tree([
                 "Meme coin exposure",
@@ -820,13 +820,13 @@ def menu_target_search():
                 "FOMO-driven behavior"
             ])
             print()
-            print("🎰 Searching for Gamblers...\n")
+            print("🎰 Searching speculative-activity preset...\n")
             run_command(["python3", "target_search.py", "--gambler", "-v"])
             input("\nPress Enter to continue...")
         elif choice == '6':
             clear_screen()
-            print_header("🎯 Target Search → Easy Targets")
-            print("Novice users:")
+            print_header("🎯 Investigative filters → Triage queue")
+            print("Novice-style activity indicators:")
             print()
             print_tree([
                 "Low sophistication",
@@ -835,13 +835,13 @@ def menu_target_search():
                 "High trust level"
             ])
             print()
-            print("🐟 Searching for Easy Targets...\n")
+            print("🐟 Searching triage-queue preset...\n")
             run_command(["python3", "target_search.py", "--easy", "-v"])
             input("\nPress Enter to continue...")
         elif choice == '7':
             clear_screen()
-            print_header("🎯 Target Search → European Whales")
-            print("High-value European timezone:")
+            print_header("🎯 Investigative filters → Europe region")
+            print("High balance with Europe-weighted activity windows:")
             print()
             print_tree([
                 "Balance > $500k",
@@ -849,13 +849,13 @@ def menu_target_search():
                 "Active during EU hours"
             ])
             print()
-            print("🇪🇺 Searching for European Whales...\n")
+            print("🇪🇺 Searching Europe-region preset...\n")
             run_command(["python3", "target_search.py", "--europe", "--balance", ">500k", "-v"])
             input("\nPress Enter to continue...")
         elif choice == '8':
             clear_screen()
-            print_header("🎯 Target Search → Asia-Pacific Whales")
-            print("High-value Asia-Pacific timezone:")
+            print_header("🎯 Investigative filters → Asia-Pacific region")
+            print("High balance with Asia-Pacific-weighted activity windows:")
             print()
             print_tree([
                 "Balance > $500k",
@@ -863,27 +863,27 @@ def menu_target_search():
                 "Active during APAC hours"
             ])
             print()
-            print("🌏 Searching for Asia-Pacific Whales...\n")
+            print("🌏 Searching Asia-Pacific preset...\n")
             run_command(["python3", "target_search.py", "--asia", "--balance", ">500k", "-v"])
             input("\nPress Enter to continue...")
         elif choice == '9':
             clear_screen()
-            print_header("🎯 Target Search → Scam Victims")
-            print("Wallets with scam NFT airdrops:")
+            print_header("🎯 Investigative filters → Scam-airdrop pattern")
+            print("Addresses showing scam NFT airdrop indicators:")
             print()
             print_tree([
                 "Scam NFT domains detected",
                 "Suspicious airdrops received",
-                "Under active attack",
-                "High priority targets"
+                "Possible ongoing targeting",
+                "Priority victim-side review"
             ])
             print()
-            print("🎣 Searching for Scam Victims...\n")
+            print("🎣 Searching scam-airdrop victim pattern...\n")
             run_command(["python3", "target_search.py", "--scam-victim", "-v"])
             input("\nPress Enter to continue...")
         elif choice == '0':
             clear_screen()
-            print_header("🎯 Target Search → Custom")
+            print_header("🎯 Investigative filters → Custom")
             print("Enter custom filter combination:")
             print()
             print_tree([
@@ -956,7 +956,7 @@ def get_total_profiles():
 def main_menu():
     while True:
         clear_screen()
-        print_header("🐋 WHALE PROFILER - MAIN MENU")
+        print_header("🐋 WALLET INTELLIGENCE — MAIN MENU")
         total_profiles = get_total_profiles()
         print(f"{Colors.YELLOW}{Colors.BOLD}  Total Profiles: {total_profiles}{Colors.RESET}\n")
         
@@ -964,9 +964,9 @@ def main_menu():
             {
                 'num': '1',
                 'icon': '🔍',
-                'title': 'Hunt Whales',
+                'title': 'Bulk address discovery',
                 'color': Colors.GREEN,
-                'desc': 'Discover & profile multiple whales',
+                'desc': 'Discover and profile multiple addresses',
                 'features': ['Batch discovery', 'Full profiles', 'Auto-categorization', 'Batch intelligence']
             },
             {
@@ -988,9 +988,9 @@ def main_menu():
             {
                 'num': '4',
                 'icon': '🎯',
-                'title': 'Target Search',
+                'title': 'Investigative filters',
                 'color': Colors.YELLOW,
-                'desc': 'Filter & find profiles',
+                'desc': 'Filter saved profiles',
                 'features': ['Interactive search', 'Preset filters', 'Custom combinations']
             },
             {
@@ -1020,7 +1020,7 @@ def main_menu():
         ]
         
         print(f"{Colors.BOLD}{'─' * 70}{Colors.RESET}")
-        print(f"{Colors.GREEN}{Colors.BOLD}  DISCOVERY & PROFILING{Colors.RESET}")
+        print(f"{Colors.GREEN}{Colors.BOLD}  DISCOVERY & PROFILING (CASE SUPPORT){Colors.RESET}")
         print(f"{Colors.BOLD}{'─' * 70}{Colors.RESET}\n")
         
         item1 = menu_items[0]
@@ -1036,7 +1036,7 @@ def main_menu():
         print(f"{features1:<42}│  {features2}")
         
         print(f"\n{Colors.BOLD}{'─' * 70}{Colors.RESET}")
-        print(f"{Colors.CYAN}{Colors.BOLD}  ORGANIZATION & SEARCH{Colors.RESET}")
+        print(f"{Colors.CYAN}{Colors.BOLD}  ORGANIZATION & FILTERING{Colors.RESET}")
         print(f"{Colors.BOLD}{'─' * 70}{Colors.RESET}\n")
         
         item3 = menu_items[2]
@@ -1080,12 +1080,12 @@ def main_menu():
         print(features7)
         
         print(f"\n{Colors.BOLD}{'─' * 70}{Colors.RESET}")
-        print(f"  {Colors.RED}{Colors.BOLD}[q]{Colors.RESET} {Colors.RED}Quit{Colors.RESET}\n")
+        print(f"  {Colors.RED}{Colors.BOLD}[q]{Colors.RESET} {Colors.RED}Exit{Colors.RESET}\n")
         
         choice = get_input()
         
         if choice == 'q':
-            print("\nGoodbye!")
+            print("\nExiting.")
             sys.exit(0)
         elif choice == '1':
             menu_hunt_whales()

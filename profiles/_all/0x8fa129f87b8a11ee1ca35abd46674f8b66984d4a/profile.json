@@ -1,16 +1,16 @@
 {
   "address": "0x8fa129f87b8a11ee1ca35abd46674f8b66984d4a",
-  "discovered_at": "2026-01-20T10:14:12.697476+00:00",
-  "total_value_usd": 141986.69275335004,
-  "eth_balance": 45.83667247088107,
-  "eth_value_usd": 141986.69275335004,
+  "discovered_at": "2026-05-02T11:28:53.015111+00:00",
+  "total_value_usd": 102201.7034242963,
+  "eth_balance": 44.351641920669344,
+  "eth_value_usd": 102201.7034242963,
   "token_holdings": {},
   "risk_score": 60,
   "tx_count": 1000,
   "defi_activity": false,
   "nft_activity": {},
   "bridge_activity": false,
-  "age_days": 4,
+  "age_days": 10,
   "osint_categories": [
     "\ud83c\udfb0_gamblers",
     "\ud83c\udd95_newcomers"
@@ -33,31 +33,23 @@
   "transaction_analysis": {
     "total_transactions": 1000,
     "total_value_eth": 0.0,
-    "most_active_hour": 15,
-    "most_active_day": "Monday",
+    "most_active_hour": 21,
+    "most_active_day": "Thursday",
     "top_recipients": [
       [
-        "0x1f9840a85d5af5bf1d1762f925bdaddc4201f984",
-        485
+        "0x5a98fcbea516cf06857215779fd812ca3bef1b32",
+        507
       ],
       [
-        "0x5a98fcbea516cf06857215779fd812ca3bef1b32",
-        250
+        "0x1f9840a85d5af5bf1d1762f925bdaddc4201f984",
+        298
       ],
       [
         "0xd533a949740bb3306d119cc777fa900ba034cd52",
-        203
+        194
       ],
       [
-        "0x086f405146ce90135750bbec9a063a8b20a8bffb",
-        59
-      ],
-      [
-        "0xe1be424f442d0687129128c6c38aace44f8c8dbc",
-        2
-      ],
-      [
-        "0xe6829d9a7ee3040e1276fa75293bde931859e8fa",
+        "0xd0ec028a3d21533fdd200838f39c85b03679285d",
         1
       ]
     ],
@@ -67,12 +59,68 @@
         1000
       ]
     ],
-    "first_transaction": "2026-01-08T18:44:47",
-    "last_transaction": "2026-01-20T11:02:35",
-    "avg_gas_used": 70324.865,
-    "avg_gas_price": 2126454608.6536674
+    "first_transaction": "2026-04-14T14:13:11",
+    "last_transaction": "2026-05-02T12:53:47",
+    "avg_gas_used": 92000.618,
+    "avg_gas_price": 2154283256.2284017
   },
-  "token_activity": {},
+  "token_activity": {
+    "unique_tokens": 6,
+    "top_tokens": [
+      [
+        "LDO",
+        475
+      ],
+      [
+        "CRV",
+        277
+      ],
+      [
+        "UNI",
+        239
+      ],
+      [
+        "cmETH",
+        7
+      ],
+      [
+        "GASLORDS",
+        1
+      ],
+      [
+        "NEWT",
+        1
+      ]
+    ],
+    "token_values": {
+      "UNI": 834085.763949311,
+      "CRV": 14039080.04495237,
+      "LDO": 10987262.108208885,
+      "cmETH": 66.13739205899574,
+      "GASLORDS": 166666.66,
+      "NEWT": 24299.739999999998
+    },
+    "token_details": {
+      "UNI": [
+        "Uniswap"
+      ],
+      "CRV": [
+        "Curve DAO Token"
+      ],
+      "LDO": [
+        "Lido DAO Token"
+      ],
+      "cmETH": [
+        "cmETH"
+      ],
+      "GASLORDS": [
+        "GasLords"
+      ],
+      "NEWT": [
+        "Newton"
+      ]
+    }
+  },
   "ipfs_osint": {
     "skipped": true,
     "reason": "no_nft_activity"
@@ -86,7 +134,7 @@
     "has_social_links": false
   },
   "approval_risk": {
-    "scan_timestamp": "2026-01-20T10:14:56.175942+00:00",
+    "scan_timestamp": "2026-05-02T11:29:02.873075+00:00",
     "total_approvals": 0,
     "unlimited_approvals": 0,
     "high_risk_approvals": 0,
@@ -96,7 +144,7 @@
   },
   "funding_trace": {
     "target": "0x8fa129f87b8a11ee1ca35abd46674f8b66984d4a",
-    "trace_timestamp": "2026-01-20T10:14:55.320326+00:00",
+    "trace_timestamp": "2026-05-02T11:29:01.880037+00:00",
     "total_hops": 0,
     "origin_found": false,
     "origin_type": null,
@@ -106,7 +154,7 @@
     "funding_chain": []
   },
   "token_risks": {
-    "scan_timestamp": "2026-01-20T10:14:56.892133+00:00",
+    "scan_timestamp": "2026-05-02T11:29:03.671031+00:00",
     "tokens_analyzed": 0,
     "risky_tokens": 0,
     "total_value_at_risk_usd": 0,

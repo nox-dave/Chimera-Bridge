@@ -1,11 +1,10 @@
 #!/usr/bin/env python3
 """
-CHIMERA - Unified Security Intelligence Platform
+CHIMERA - On-chain fraud analysis toolkit.
 
-Combines:
-- contractHunter (Basilisk) - Discover vulnerable smart contracts
-- walletHunter (Gargophias) - Profile and hunt whale wallets
-- Bridge - Connect vulnerable contracts to exposed wallets
+Traces cryptocurrency fund flows, identifies addresses linked to vulnerable
+contracts, and generates intelligence profiles to support financial crime
+investigations. Integrates contractHunter, walletHunter, and contract–wallet correlation.
 """
 
 import os
@@ -135,20 +134,20 @@ def get_vulnerable_contracts_count() -> int:
 def menu_contract_hunter():
     while True:
         clear_screen()
-        print_header("🔱 CONTRACT HUNTER")
-        print("Discover and scan vulnerable smart contracts\n")
+        print_header("🔱 CONTRACT ANALYSIS")
+        print("Discover protocols and assess smart-contract risk for casework\n")
         
-        print(f"  {Colors.GREEN}[1]{Colors.RESET} 🎯 Hunt Contracts (Full Scan)")
+        print(f"  {Colors.GREEN}[1]{Colors.RESET} 🎯 Full discovery scan")
         print(f"      → DeFiLlama discovery + Slither scanning")
         print()
-        print(f"  {Colors.CYAN}[2]{Colors.RESET} 🔍 Custom Hunt")
-        print(f"      → Configure filters manually")
+        print(f"  {Colors.CYAN}[2]{Colors.RESET} 🔍 Filtered discovery run")
+        print(f"      → Configure TVL, category, and chain filters")
         print()
-        print(f"  {Colors.YELLOW}[3]{Colors.RESET} 📊 View Hunt Results")
-        print(f"      → Browse previous scans")
+        print(f"  {Colors.YELLOW}[3]{Colors.RESET} 📊 View scan results")
+        print(f"      → Browse saved assessment runs")
         print()
-        print(f"  {Colors.MAGENTA}[4]{Colors.RESET} 📁 Browse Contract Reports")
-        print(f"      → View detailed vulnerability reports")
+        print(f"  {Colors.MAGENTA}[4]{Colors.RESET} 📁 Browse contract reports")
+        print(f"      → Read detailed technical findings")
         print()
         print(f"  {Colors.RED}[b]{Colors.RESET} Back")
         print()
@@ -169,7 +168,7 @@ def menu_contract_hunter():
 
 def menu_contract_full_scan():
     clear_screen()
-    print_header("🎯 Contract Hunter → Full Scan")
+    print_header("🎯 Contract Analysis → Full scan")
     print("This will:")
     print_tree([
         "Discover protocols from DeFiLlama",
@@ -204,7 +203,7 @@ def menu_contract_full_scan():
 
 def menu_contract_custom_hunt():
     clear_screen()
-    print_header("🔍 Contract Hunter → Custom Hunt")
+    print_header("🔍 Contract Analysis → Filtered run")
     
     min_tvl = get_input("Min TVL (USD, default: 100000): ")
     min_tvl = min_tvl if min_tvl else "100000"
@@ -225,7 +224,7 @@ def menu_contract_custom_hunt():
     scan_flag = "--scan" if scan_choice != 'n' else ""
     
     print(f"\n{Colors.CYAN}{'=' * 70}")
-    print("Running custom hunt...")
+    print("Running filtered discovery...")
     print(f"{'=' * 70}{Colors.RESET}\n")
     
     cmd = ["python3", "scripts/hunt.py", "--min-tvl", min_tvl, "--limit", limit, "--save"]
@@ -248,16 +247,16 @@ def menu_contract_custom_hunt():
 
 def menu_view_hunt_results():
     clear_screen()
-    print_header("📊 Contract Hunter → Hunt Results")
+    print_header("📊 Contract Analysis → Scan results")
     
     results = get_contract_hunt_results()
     
     if not results:
-        print("No hunt results found.")
+        print("No saved scan results found.")
         input(f"\n{Colors.GREEN}Press Enter to continue...{Colors.RESET}")
         return
     
-    print("Recent hunts:\n")
+    print("Recent assessment runs:\n")
     for i, result_path in enumerate(results[:10], 1):
         try:
             with open(result_path, 'r') as f:
@@ -268,7 +267,7 @@ def menu_view_hunt_results():
             
             timestamp = result_path.stem.replace('hunt_', '')
             print(f"  [{i}] {timestamp}")
-            print(f"      Protocols: {len(data.get('targets', []))} | Vulnerable: {vuln_count} | TVL: ${total_tvl:,.0f}")
+            print(f"      Protocols: {len(data.get('targets', []))} | With findings: {vuln_count} | TVL: ${total_tvl:,.0f}")
             print()
         except:
             print(f"  [{i}] {result_path.name} (error reading)")
@@ -287,7 +286,7 @@ def menu_view_hunt_results():
 
 def _view_hunt_result_detail(result_path: Path):
     clear_screen()
-    print_header(f"Hunt Result: {result_path.name}")
+    print_header(f"Scan result: {result_path.name}")
     
     try:
         with open(result_path, 'r') as f:
@@ -296,12 +295,12 @@ def _view_hunt_result_detail(result_path: Path):
         targets = data.get('targets', [])
         vulnerable = [t for t in targets if t.get('vulnerabilities')]
         
-        print(f"Total Protocols: {len(targets)}")
-        print(f"With Vulnerabilities: {len(vulnerable)}")
+        print(f"Total protocols: {len(targets)}")
+        print(f"With technical findings: {len(vulnerable)}")
         print()
         
         if vulnerable:
-            print(f"{Colors.RED}Vulnerable Contracts:{Colors.RESET}\n")
+            print(f"{Colors.RED}Contracts with findings:{Colors.RESET}\n")
             for t in vulnerable[:10]:
                 vulns = t.get('vulnerabilities', [])
                 crit = sum(1 for v in vulns if v.get('severity') == 'Critical')
@@ -321,7 +320,7 @@ def _view_hunt_result_detail(result_path: Path):
 
 def menu_browse_contract_reports():
     clear_screen()
-    print_header("📁 Contract Hunter → Reports")
+    print_header("📁 Contract Analysis → Reports")
     
     reports_dir = CHIMERA_CONTRACTS / "_all"
     
@@ -363,20 +362,20 @@ def menu_browse_contract_reports():
 def menu_wallet_hunter():
     while True:
         clear_screen()
-        print_header("🐋 WALLET HUNTER")
-        print("Profile and hunt whale wallets\n")
+        print_header("🐋 WALLET INTELLIGENCE")
+        print("Build address profiles and screen accounts for casework\n")
         
-        print(f"  {Colors.GREEN}[1]{Colors.RESET} 🔍 Hunt Whales")
-        print(f"      → Discover high-value wallets")
+        print(f"  {Colors.GREEN}[1]{Colors.RESET} 🔍 Discover high-balance addresses")
+        print(f"      → Bulk query and profile significant holdings")
         print()
-        print(f"  {Colors.CYAN}[2]{Colors.RESET} 🔎 Analyze Address")
-        print(f"      → Profile single wallet")
+        print(f"  {Colors.CYAN}[2]{Colors.RESET} 🔎 Analyze address")
+        print(f"      → Full intelligence profile for one address")
         print()
-        print(f"  {Colors.YELLOW}[3]{Colors.RESET} 🎯 Target Search")
-        print(f"      → Filter profiles by criteria")
+        print(f"  {Colors.YELLOW}[3]{Colors.RESET} 🎯 Investigative filters")
+        print(f"      → Search saved profiles by risk indicators")
         print()
-        print(f"  {Colors.MAGENTA}[4]{Colors.RESET} 📊 View Profiles")
-        print(f"      → Browse wallet profiles")
+        print(f"  {Colors.MAGENTA}[4]{Colors.RESET} 📊 View profiles")
+        print(f"      → Browse stored address profiles")
         print()
         print(f"  {Colors.WHITE}[5]{Colors.RESET} 🌐 IPFS OSINT Scan")
         print(f"      → NFT metadata analysis")
@@ -402,14 +401,14 @@ def menu_wallet_hunter():
 
 def menu_hunt_whales():
     clear_screen()
-    print_header("🔍 Wallet Hunter → Hunt Whales")
-    print("This will discover and profile high-value wallets:\n")
+    print_header("🔍 Wallet Intelligence → Bulk discovery")
+    print("Query the chain and build intelligence packages for addresses above a balance threshold:\n")
     print_tree([
-        "Query blockchain for whale wallets",
-        "Generate full profiles",
-        "IPFS OSINT (optional)",
-        "Auto-categorization",
-        "Save to profiles/"
+        "Query blockchain for addresses meeting balance criteria",
+        "Generate structured intelligence profiles",
+        "Optional IPFS-linked artifact review",
+        "Automated categorization for triage",
+        "Save outputs under profiles/"
     ])
     print()
     
@@ -423,9 +422,9 @@ def menu_hunt_whales():
     ipfs_flag = include_ipfs != 'n'
     
     print(f"\n{Colors.CYAN}{'=' * 70}")
-    print(f"Starting whale hunt...")
-    print(f"  Min Balance: ${int(min_balance):,}")
-    print(f"  Limit: {limit} wallets")
+    print(f"Starting bulk address discovery...")
+    print(f"  Minimum notional balance: ${int(min_balance):,}")
+    print(f"  Limit: {limit} addresses")
     print(f"  IPFS OSINT: {'Enabled' if ipfs_flag else 'Disabled'}")
     print(f"{'=' * 70}{Colors.RESET}\n")
     
@@ -440,7 +439,7 @@ def menu_hunt_whales():
             api_key=os.getenv('ETHERSCAN_API_KEY')
         )
     except ImportError as e:
-        print(f"{Colors.RED}Error importing walletHunter: {e}{Colors.RESET}")
+        print(f"{Colors.RED}Error importing wallet intelligence module: {e}{Colors.RESET}")
         print("Falling back to CLI...")
         cmd = ["python3", "whale_menu.py"]
         run_command(cmd, cwd=WALLET_HUNTER_DIR)
@@ -452,7 +451,7 @@ def menu_hunt_whales():
 
 def menu_analyze_wallet():
     clear_screen()
-    print_header("🔎 Wallet Hunter → Analyze Address")
+    print_header("🔎 Wallet Intelligence → Single address")
     
     address = get_input("Enter Ethereum address: ")
     
@@ -493,15 +492,15 @@ def menu_analyze_wallet():
 
 def menu_target_search():
     clear_screen()
-    print_header("🎯 Wallet Hunter → Target Search")
+    print_header("🎯 Wallet Intelligence → Investigative filters")
     
-    print("Search presets:\n")
-    print(f"  {Colors.GREEN}[1]{Colors.RESET} Rich & Dumb (Prime Targets)")
-    print(f"  {Colors.CYAN}[2]{Colors.RESET} Rich (>$1M)")
-    print(f"  {Colors.YELLOW}[3]{Colors.RESET} Newcomers")
-    print(f"  {Colors.MAGENTA}[4]{Colors.RESET} Gamblers")
-    print(f"  {Colors.WHITE}[5]{Colors.RESET} Easy Targets")
-    print(f"  {Colors.BLUE}[6]{Colors.RESET} Custom Search")
+    print("Saved-profile search presets:\n")
+    print(f"  {Colors.GREEN}[1]{Colors.RESET} High balance, elevated review priority")
+    print(f"  {Colors.CYAN}[2]{Colors.RESET} Significant holdings (over $1M notional)")
+    print(f"  {Colors.YELLOW}[3]{Colors.RESET} Recently active or emerging accounts")
+    print(f"  {Colors.MAGENTA}[4]{Colors.RESET} High-velocity speculative activity")
+    print(f"  {Colors.WHITE}[5]{Colors.RESET} Simplified triage queue")
+    print(f"  {Colors.BLUE}[6]{Colors.RESET} Custom filter expression")
     print(f"\n  [b] Back\n")
     
     choice = get_input().lower()
@@ -530,7 +529,7 @@ def menu_target_search():
 
 def menu_view_profiles():
     clear_screen()
-    print_header("📊 Wallet Hunter → Profiles")
+    print_header("📊 Wallet Intelligence → Profiles")
     
     profiles_dir = WALLET_HUNTER_DIR / "profiles"
     
@@ -565,16 +564,16 @@ def menu_view_profiles():
 
 def menu_ipfs_scan():
     clear_screen()
-    print_header("🌐 Wallet Hunter → IPFS OSINT")
+    print_header("🌐 Wallet Intelligence → IPFS review")
     
     address = get_input("Enter Ethereum address: ")
     
     if not address or not address.startswith('0x'):
         return
     
-    print(f"\n{Colors.CYAN}Scanning IPFS for {address}...{Colors.RESET}\n")
+    print(f"\n{Colors.CYAN}Reviewing IPFS-linked metadata for {address}...{Colors.RESET}\n")
     
-    print("Use the walletHunter menu for full IPFS scanning.")
+    print("For a full IPFS workflow, use the standalone wallet module menu.")
     print(f"Run: cd {WALLET_HUNTER_DIR} && python3 whale_menu.py")
     
     input(f"\n{Colors.GREEN}Press Enter to continue...{Colors.RESET}")
@@ -583,25 +582,25 @@ def menu_ipfs_scan():
 def menu_bridge():
     while True:
         clear_screen()
-        print_header("🔗 CHIMERA BRIDGE")
-        print("Connect vulnerable contracts to exposed wallets\n")
+        print_header("🔗 CONTRACT–WALLET CORRELATION")
+        print("Map on-chain interactions between assessed contracts and victim or counterpart addresses\n")
         
         print_tree([
-            "Takes vulnerable contracts from contractHunter",
-            "Queries on-chain for wallet interactions",
-            "Profiles exposed wallets with walletHunter",
-            "Generates exposure reports"
+            "Ingest contract assessment outputs from contract analysis",
+            "Query on-chain interaction history with each contract",
+            "Enrich interacting addresses via wallet intelligence",
+            "Produce correlation and exposure summaries for case files"
         ])
         print()
         
-        print(f"  {Colors.GREEN}[1]{Colors.RESET} 🔗 Bridge Hunt Results")
-        print(f"      → Process latest contract hunt → find exposed wallets")
+        print(f"  {Colors.GREEN}[1]{Colors.RESET} 🔗 Correlate latest scan batch")
+        print(f"      → Use the most recent contract scan → linked addresses")
         print()
-        print(f"  {Colors.CYAN}[2]{Colors.RESET} 🎯 Bridge Single Contract")
-        print(f"      → Enter contract address → find exposed wallets")
+        print(f"  {Colors.CYAN}[2]{Colors.RESET} 🎯 Correlate single contract")
+        print(f"      → Enter one contract address → linked addresses")
         print()
-        print(f"  {Colors.YELLOW}[3]{Colors.RESET} 📊 View Exposure Reports")
-        print(f"      → Browse bridge results")
+        print(f"  {Colors.YELLOW}[3]{Colors.RESET} 📊 View correlation reports")
+        print(f"      → Open saved linkage outputs")
         print()
         print(f"  {Colors.RED}[b]{Colors.RESET} Back")
         print()
@@ -620,16 +619,16 @@ def menu_bridge():
 
 def menu_bridge_hunt_results():
     clear_screen()
-    print_header("🔗 Bridge → Hunt Results")
+    print_header("🔗 Correlation → From scan batch")
     
     results = get_contract_hunt_results()
     
     if not results:
-        print("No hunt results found. Run a contract hunt first.")
+        print("No contract scan results found. Run contract analysis first.")
         input(f"\n{Colors.GREEN}Press Enter to continue...{Colors.RESET}")
         return
     
-    print("Select hunt result to bridge:\n")
+    print("Select an assessment run to correlate:\n")
     for i, result_path in enumerate(results[:5], 1):
         timestamp = result_path.stem.replace('hunt_', '')
         print(f"  [{i}] {timestamp}")
@@ -649,7 +648,7 @@ def menu_bridge_hunt_results():
             max_contracts = int(max_contracts) if max_contracts else 5
             
             print(f"\n{Colors.CYAN}{'=' * 70}")
-            print(f"Bridging {result_path.name}...")
+            print(f"Correlating addresses for {result_path.name}...")
             print(f"{'=' * 70}{Colors.RESET}\n")
             
             try:
@@ -689,7 +688,7 @@ async def _run_bridge(bridge, result_path: str, max_contracts: int):
 
 def menu_bridge_single_contract():
     clear_screen()
-    print_header("🔗 Bridge → Single Contract")
+    print_header("🔗 Correlation → Single contract")
     
     address = get_input("Enter contract address: ")
     
@@ -702,7 +701,7 @@ def menu_bridge_single_contract():
     name = get_input("Protocol name (optional): ")
     
     print(f"\n{Colors.CYAN}{'=' * 70}")
-    print(f"Finding exposed wallets for {address[:20]}...")
+    print(f"Resolving linked addresses for {address[:20]}...")
     print(f"{'=' * 70}{Colors.RESET}\n")
     
     try:
@@ -719,7 +718,7 @@ def menu_bridge_single_contract():
                 verbose=True
             )
             
-            print(f"\n{Colors.GREEN}Top Exposed Wallets:{Colors.RESET}")
+            print(f"\n{Colors.GREEN}Highest-value linked addresses:{Colors.RESET}")
             for w in report.exposed_wallets[:10]:
                 print(f"  {w.address[:15]}... - ${w.exposure_amount:,.0f}")
         
@@ -733,13 +732,19 @@ def menu_bridge_single_contract():
 
 def menu_view_exposure_reports():
     clear_screen()
-    print_header("📊 Bridge → Exposure Reports")
+    print_header("📊 Correlation → Reports")
     
-    reports = list(CHIMERA_REPORTS.glob("exposure_*.json"))
-    summaries = list(CHIMERA_REPORTS.glob("exposure_summary_*.md"))
+    reports = sorted(
+        list(CHIMERA_REPORTS.glob("exposure_*.json")) + list(CHIMERA_REPORTS.glob("bridge_*.json")),
+        key=lambda p: p.stat().st_mtime if p.exists() else 0,
+        reverse=True,
+    )
+    summaries = list(CHIMERA_REPORTS.glob("exposure_summary_*.md")) + list(
+        CHIMERA_REPORTS.glob("bridge_*.md")
+    )
     
     if not reports and not summaries:
-        print("No exposure reports found. Run the bridge first.")
+        print("No correlation reports found. Run contract–wallet correlation first.")
         input(f"\n{Colors.GREEN}Press Enter to continue...{Colors.RESET}")
         return
     
@@ -796,8 +801,8 @@ def menu_settings():
             input(f"\n{Colors.GREEN}Press Enter to continue...{Colors.RESET}")
         elif choice == '3':
             print(f"\nProject Root: {PROJECT_ROOT}")
-            print(f"Contract Hunter: {CONTRACT_HUNTER_DIR}")
-            print(f"Wallet Hunter: {WALLET_HUNTER_DIR}")
+            print(f"Contract analysis (contractHunter): {CONTRACT_HUNTER_DIR}")
+            print(f"Wallet intelligence (walletHunter): {WALLET_HUNTER_DIR}")
             print(f"Chimera: {CHIMERA_ROOT}")
             print(f"Reports: {CHIMERA_REPORTS}")
             input(f"\n{Colors.GREEN}Press Enter to continue...{Colors.RESET}")
@@ -843,35 +848,35 @@ def main_menu():
                                                                                              
                                                                                              
 {Colors.RESET}
-{Colors.RED}    ═══════════════════════════════════════════════════════════════{Colors.RESET}
-{Colors.YELLOW}{Colors.BOLD}    [ OFFENSIVE SECURITY INTELLIGENCE ]{Colors.RESET}
-{Colors.RED}    ═══════════════════════════════════════════════════════════════{Colors.RESET}
 """)
+        
+        print(f"{Colors.CYAN}  On-chain fraud analysis toolkit — traces fund flows, links addresses to{Colors.RESET}")
+        print(f"{Colors.CYAN}  contracts under review, and builds intelligence profiles for investigations.{Colors.RESET}\n")
         
         vuln_count = get_vulnerable_contracts_count()
         profile_count = get_wallet_profiles_count()
         
-        print(f"{Colors.YELLOW}  📊 Vulnerable Contracts: {vuln_count} | Wallet Profiles: {profile_count}{Colors.RESET}\n")
+        print(f"{Colors.YELLOW}  📊 Contracts with findings (latest scan): {vuln_count} | Stored address profiles: {profile_count}{Colors.RESET}\n")
         
         print(f"{Colors.BOLD}{'─' * 60}{Colors.RESET}")
         
         print(f"""
-  {Colors.GREEN}{Colors.BOLD}[1]{Colors.RESET} {Colors.GREEN}🔱 Contract Hunter{Colors.RESET}
-      Discover & scan vulnerable smart contracts
+  {Colors.GREEN}{Colors.BOLD}[1]{Colors.RESET} {Colors.GREEN}🔱 Contract analysis{Colors.RESET}
+      Protocol discovery and technical risk assessment
       {Colors.WHITE}DeFiLlama → Etherscan → Slither{Colors.RESET}
 
-  {Colors.CYAN}{Colors.BOLD}[2]{Colors.RESET} {Colors.CYAN}🐋 Wallet Hunter{Colors.RESET}
-      Profile & hunt high-value wallets
-      {Colors.WHITE}OSINT → Profiling → Categorization{Colors.RESET}
+  {Colors.CYAN}{Colors.BOLD}[2]{Colors.RESET} {Colors.CYAN}🐋 Wallet intelligence{Colors.RESET}
+      Address profiling and bulk screening for casework
+      {Colors.WHITE}Open sources → structured profiles → triage categories{Colors.RESET}
 
-  {Colors.ORANGE}{Colors.BOLD}[3]{Colors.RESET} {Colors.ORANGE}🔗 Chimera Bridge{Colors.RESET}
-      Connect contracts → exposed wallets
-      {Colors.WHITE}Vulnerable Contract → At-Risk Wallets{Colors.RESET}
+  {Colors.ORANGE}{Colors.BOLD}[3]{Colors.RESET} {Colors.ORANGE}🔗 Contract–wallet correlation{Colors.RESET}
+      Link assessed contracts to interacting addresses
+      {Colors.WHITE}On-chain interaction graph → victim or counterpart leads{Colors.RESET}
 
   {Colors.WHITE}{Colors.BOLD}[4]{Colors.RESET} {Colors.WHITE}⚙️  Settings{Colors.RESET}
-      API keys & configuration
+      API credentials and local paths
 
-  {Colors.RED}{Colors.BOLD}[q]{Colors.RESET} {Colors.RED}Quit{Colors.RESET}
+  {Colors.RED}{Colors.BOLD}[q]{Colors.RESET} {Colors.RED}Exit{Colors.RESET}
 """)
         
         print(f"{Colors.BOLD}{'─' * 60}{Colors.RESET}\n")
@@ -879,7 +884,7 @@ def main_menu():
         choice = get_input().lower()
         
         if choice == 'q':
-            print(f"\n{Colors.ORANGE}Goodbye!{Colors.RESET}\n")
+            print(f"\n{Colors.ORANGE}Exiting.{Colors.RESET}\n")
             sys.exit(0)
         elif choice == '1':
             menu_contract_hunter()
@@ -895,5 +900,5 @@ if __name__ == "__main__":
     try:
         main_menu()
     except KeyboardInterrupt:
-        print(f"\n\n{Colors.ORANGE}Goodbye!{Colors.RESET}\n")
+        print(f"\n\n{Colors.ORANGE}Exiting.{Colors.RESET}\n")
         sys.exit(0)

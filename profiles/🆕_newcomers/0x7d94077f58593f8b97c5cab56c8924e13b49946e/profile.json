@@ -1,0 +1,174 @@
+{
+  "address": "0x7d94077f58593f8b97c5cab56c8924e13b49946e",
+  "discovered_at": "2026-05-02T11:28:30.311973+00:00",
+  "total_value_usd": 117285.85580972515,
+  "eth_balance": 50.89597332068553,
+  "eth_value_usd": 117285.85580972515,
+  "token_holdings": {},
+  "risk_score": 60,
+  "tx_count": 1000,
+  "defi_activity": false,
+  "nft_activity": {},
+  "bridge_activity": false,
+  "age_days": 9,
+  "osint_categories": [
+    "\ud83c\udfb0_gamblers",
+    "\ud83c\udd95_newcomers"
+  ],
+  "primary_osint_category": "\ud83c\udfb0_gamblers",
+  "behavior": {
+    "confidence_score": 60,
+    "sophistication": "Intermediate",
+    "risk_tolerance": "Conservative",
+    "trading_style": "Active Trader",
+    "likely_region": "Europe",
+    "likely_timezone": "Europe/Africa (UTC+0 to +3)",
+    "meme_exposure": false,
+    "defi_protocols": [],
+    "nft_platforms": [],
+    "bridges_used": [],
+    "exchange_interactions": [],
+    "frequent_counterparties": []
+  },
+  "transaction_analysis": {
+    "total_transactions": 1000,
+    "total_value_eth": 0.01838413341961216,
+    "most_active_hour": 14,
+    "most_active_day": "Monday",
+    "top_recipients": [
+      [
+        "0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9",
+        917
+      ],
+      [
+        "0x0264cf46295a415463c4a250581bccbf3e659b0f",
+        1
+      ],
+      [
+        "0xcbfe24d8f37ba7a804787c41c369a1d27106abe8",
+        1
+      ],
+      [
+        "0x1687ca2257e4431190fbe440f2f7023286c10d19",
+        1
+      ],
+      [
+        "0xa7db1d10b3685449baa7b6522a2e513aea267cf4",
+        1
+      ],
+      [
+        "0x30195ce9bbf7cd903e149feffda7ed40c7c62d96",
+        1
+      ],
+      [
+        "0x36371eaeeb9d9ae5d864e06022219a98cea7199f",
+        1
+      ],
+      [
+        "0x6ccc6e7f754fbc0ae6d448385c2b99f866f3ba5c",
+        1
+      ],
+      [
+        "0x848649b9656b2aac4f22d8ab4974d1080fd89d9c",
+        1
+      ],
+      [
+        "0x83171874cb8de9a37bbb00d36b08640b9d953bd5",
+        1
+      ]
+    ],
+    "top_senders": [
+      [
+        "0x7d94077f58593f8b97c5cab56c8924e13b49946e",
+        1000
+      ]
+    ],
+    "first_transaction": "2026-04-19T03:08:35",
+    "last_transaction": "2026-05-02T13:28:23",
+    "avg_gas_used": 47526.523,
+    "avg_gas_price": 3101418388.507546
+  },
+  "token_activity": {
+    "unique_tokens": 4,
+    "top_tokens": [
+      [
+        "AAVE",
+        995
+      ],
+      [
+        "\u0190\u0422\u041d",
+        3
+      ],
+      [
+        "\u2130\u0422\u041d",
+        1
+      ],
+      [
+        "GASLORDS",
+        1
+      ]
+    ],
+    "token_values": {
+      "AAVE": 183416.40900548565,
+      "\u2130\u0422\u041d": 0.00014987373088279,
+      "GASLORDS": 166666.66,
+      "\u0190\u0422\u041d": 0.00042808757569654996
+    },
+    "token_details": {
+      "AAVE": [
+        "Aave Token"
+      ],
+      "\u2130\u0422\u041d": [
+        "\u0190\ua4d4\ua4e7"
+      ],
+      "GASLORDS": [
+        "GasLords"
+      ],
+      "\u0190\u0422\u041d": [
+        "\ua4f0\u03a4\u210b"
+      ]
+    }
+  },
+  "ipfs_osint": {
+    "skipped": true,
+    "reason": "no_nft_activity"
+  },
+  "ens": {
+    "address": "0x7d94077f58593f8b97c5cab56c8924e13b49946e",
+    "ens_name": null,
+    "text_records": {},
+    "social_links": {},
+    "has_ens": false,
+    "has_social_links": false
+  },
+  "approval_risk": {
+    "scan_timestamp": "2026-05-02T11:28:40.064414+00:00",
+    "total_approvals": 0,
+    "unlimited_approvals": 0,
+    "high_risk_approvals": 0,
+    "total_exposure_usd": 0,
+    "verdicts": [],
+    "has_dangerous_approvals": false
+  },
+  "funding_trace": {
+    "target": "0x7d94077f58593f8b97c5cab56c8924e13b49946e",
+    "trace_timestamp": "2026-05-02T11:28:39.100304+00:00",
+    "total_hops": 0,
+    "origin_found": false,
+    "origin_type": null,
+    "origin_label": null,
+    "trace_complete": false,
+    "trace_stopped_reason": "No funding transaction found",
+    "funding_chain": []
+  },
+  "token_risks": {
+    "scan_timestamp": "2026-05-02T11:28:41.016149+00:00",
+    "tokens_analyzed": 0,
+    "risky_tokens": 0,
+    "total_value_at_risk_usd": 0,
+    "has_risky_tokens": false,
+    "verdicts": [],
+    "honeypots_detected": 0,
+    "impersonators_detected": 0
+  }
+}

@@ -1,22 +1,35 @@
 {
   "address": "0xe629e3e57ba679bfb78e089ba0236f3d2d20d274",
-  "discovered_at": "2026-01-20T10:13:25.375456+00:00",
-  "total_value_usd": 35616.47579818302,
-  "eth_balance": 11.501930736345688,
-  "eth_value_usd": 35616.47579818302,
+  "discovered_at": "2026-05-02T11:25:00.683010+00:00",
+  "total_value_usd": 115126.52042520852,
+  "eth_balance": 49.9525669979597,
+  "eth_value_usd": 115126.52042520852,
   "token_holdings": {},
-  "risk_score": 95,
+  "risk_score": 70,
   "tx_count": 1000,
   "defi_activity": false,
-  "nft_activity": {},
+  "nft_activity": {
+    "unique_collections": 1,
+    "top_collections": [
+      [
+        "NFT #SRYCG8",
+        1
+      ]
+    ],
+    "collection_addresses": {
+      "0x81ab4951ffc8af4a194a61ec9f7198a33342487b": 1
+    }
+  },
   "bridge_activity": false,
   "age_days": 2,
   "osint_categories": [
-    "\ud83c\udfb0_gamblers"
+    "\ud83c\udfb0_gamblers",
+    "\ud83c\udd95_newcomers",
+    "\ud83c\udfc6_status_seekers"
   ],
   "primary_osint_category": "\ud83c\udfb0_gamblers",
   "behavior": {
-    "confidence_score": 95,
+    "confidence_score": 70,
     "sophistication": "Intermediate",
     "risk_tolerance": "Aggressive",
     "trading_style": "Active Trader",
@@ -31,539 +44,416 @@
   },
   "transaction_analysis": {
     "total_transactions": 1000,
-    "total_value_eth": 225.2888049702248,
-    "most_active_hour": 16,
-    "most_active_day": "Thursday",
+    "total_value_eth": 86.30128473038842,
+    "most_active_hour": 14,
+    "most_active_day": "Friday",
     "top_recipients": [
       [
         "0xdac17f958d2ee523a2206206994597c13d831ec7",
-        153
-      ],
-      [
-        "0xe629e3e57ba679bfb78e089ba0236f3d2d20d274",
-        46
+        216
       ],
       [
         "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
-        31
+        41
       ],
       [
-        "0x95ad61b0a150d79219dcf64e1e6cc01f0b64c4ce",
-        28
+        "0x408e41876cccdc0f92210600ef50372656052a38",
+        38
       ],
       [
         "0x6982508145454ce325ddbe47a25d4ec3d2311933",
-        23
-      ],
-      [
-        "0xe7cd65ebaae64337f15b728befd7ef826c1b5d22",
         19
       ],
       [
-        "0x6a630081279556bba200414323e75ead6c6aebf4",
-        11
+        "0xd795eb12034c2b77d787a22292c26fab5f5c70aa",
+        15
       ],
       [
-        "0x45804880de22913dafe09f4980848ece6ecbaf78",
-        10
+        "0x95ad61b0a150d79219dcf64e1e6cc01f0b64c4ce",
+        12
       ],
       [
-        "0x4507cef57c46789ef8d1a19ea45f4216bae2b528",
+        "0x0575e580a1bdf76ac47384f54173a0f8a375d957",
+        12
+      ],
+      [
+        "0xfb9b7e9e1f6f0a62bc135369976b94d0c79b152d",
         9
       ],
       [
-        "0x7305805b75ce8d08a471caadef173646f98e77c4",
-        9
+        "0xa0130f88252686f9269a3f61acb9482ccc9870e2",
+        8
+      ],
+      [
+        "0xc28c4120b034dc7861bd8a15f0767eea25725b1a",
+        8
       ]
     ],
     "top_senders": [
       [
         "0xe629e3e57ba679bfb78e089ba0236f3d2d20d274",
-        954
+        997
       ],
       [
         "0x3563015e9f5694afe5d8cd86233f77557da704cc",
-        16
-      ],
-      [
-        "0x93d83a81fd794ada2c6e9d73ec61181b45486855",
-        2
-      ],
-      [
-        "0x2fd5c11cd33a7c4f16f84be4c4a9777077e92118",
-        2
-      ],
-      [
-        "0x76baa3f37370cccee54d730717fcc7552acb5bb9",
-        1
-      ],
-      [
-        "0x8b93069084667c5c388b7efe09aa0f82b7f5d46c",
-        1
-      ],
-      [
-        "0xf589f3a8d82892fb185f9f382a30c3bdd4017874",
-        1
-      ],
-      [
-        "0x3541cd59a9a018f96e69ca29ad06d0b1a5ea9273",
-        1
-      ],
-      [
-        "0xe3da788a35722d95f65a6d5259aa6ead2c4829e2",
-        1
-      ],
-      [
-        "0xae2bce72eede9062e09d2646ba448c78d38f4646",
-        1
+        3
       ]
     ],
-    "first_transaction": "2026-01-14T17:02:23",
-    "last_transaction": "2026-01-20T11:04:23",
-    "avg_gas_used": 32158.091,
-    "avg_gas_price": 360147130.65383136
+    "first_transaction": "2026-04-28T05:09:59",
+    "last_transaction": "2026-05-02T13:18:35",
+    "avg_gas_used": 34261.854,
+    "avg_gas_price": 635821887.8195643
   },
   "token_activity": {
-    "unique_tokens": 87,
+    "unique_tokens": 55,
     "top_tokens": [
       [
         "USDT",
-        418
+        497
       ],
       [
         "USDC",
-        97
-      ],
-      [
-        "PEPE",
-        86
-      ],
-      [
-        "PAXG",
-        62
-      ],
-      [
-        "SHIB",
-        55
-      ],
-      [
-        "UNI",
-        24
-      ],
-      [
-        "TOKEN",
-        20
+        104
       ],
       [
         "REN",
-        14
+        93
       ],
       [
-        "ENA",
-        14
+        "PEPE",
+        52
       ],
       [
-        "PIXFI",
-        13
+        "SHIB",
+        35
       ],
       [
-        "IDRT",
-        11
-      ],
-      [
-        "POL",
-        10
-      ],
-      [
-        "LINK",
-        9
-      ],
-      [
-        "ONDO",
-        8
-      ],
-      [
-        "DEFI",
-        8
-      ],
-      [
-        "MEME",
-        7
-      ],
-      [
-        "MYRIA",
-        6
+        "PAXG",
+        31
       ],
       [
         "Mog",
+        21
+      ],
+      [
+        "PIXFI",
+        16
+      ],
+      [
+        "TOKEN",
+        14
+      ],
+      [
+        "IDRT",
+        10
+      ],
+      [
+        "STRK",
+        10
+      ],
+      [
+        "POL",
+        9
+      ],
+      [
+        "INSP",
+        9
+      ],
+      [
+        "ENA",
+        8
+      ],
+      [
+        "LDO",
+        7
+      ],
+      [
+        "WLD",
         6
       ],
       [
-        "TURBO",
+        "XAUt",
         5
       ],
       [
-        "ARKM",
+        "AAVE",
         5
+      ],
+      [
+        "AUDIO",
+        4
+      ],
+      [
+        "SKY",
+        4
       ]
     ],
     "token_values": {
-      "USDT": 1136828.6838389996,
-      "ZENT": 37670.70275320678,
-      "UMA": 400.94235237863836,
-      "TRU": 12988.0643407,
-      "REZ": 237085.94715315365,
-      "PRIME": 86.08183467156005,
-      "STRK": 45625.43486464505,
-      "MNT": 11.213481422291668,
-      "USDC": 1409039.2393470004,
-      "SHIB": 2772729484.031254,
-      "REN": 1522304.4135832698,
-      "FLIP": 2545.9981257073136,
-      "ID": 1179.145532996703,
-      "TAIKO": 377.9390020940354,
-      "LIT": 1086.4167098295495,
-      "ARPA": 120526.758753017,
-      "XAUt": 2.120413,
-      "SPELL": 310117.32338828297,
-      "TOKEN": 3635963.440793128,
-      "PYR": 1254.706314164,
-      "PAXG": 1.76867962,
-      "OMG": 132.3411098,
-      "PEPE": 6385562393.105296,
-      "GWEI": 5.0,
-      "ACU": 10.0,
-      "IDRT": 22910634.0,
-      "WLFIV COM": 16800.168,
-      "LINK": 2157.6690553010044,
-      "\u200bW\u2061L\u206cD\u2064\u200b": 3650.7000000000003,
-      "ENA": 42508.521549876226,
-      "GRT": 1371.8805103,
-      "TURBO": 2825299.19,
-      "WLD": 3650.7000000000003,
-      "UNI": 3235.8000070282474,
-      "DODO": 26641.894508252,
-      "LRC": 1.54700696,
-      "AXS": 9122.430665390777,
-      "ONDO": 1178.4474166710306,
-      "SAND": 493.45319507,
-      "WLFI": 27.155174249999998,
-      "ATH": 45220.5111498,
-      "CHR": 5672.518723,
-      "MEME": 4121304.0904734503,
-      "G": 1774.11510048,
-      "ARKM": 5320.199470125812,
-      "PIXFI": 41726764.42314646,
-      "ETHFI": 5421.887186242,
-      "POL": 21969.533611450002,
-      "MYRIA": 1102977.49333502,
-      "APRS": 7583.951373729999,
-      "DEFI": 1104761.67828466,
-      "ACH": 4250.0415017899995,
-      "PERP": 97.07021707999999,
-      "NTGL": 3762938.845338543,
-      "LAI": 757.73783611,
-      "NEIRO": 215.13821491,
-      "PORTAL": 140.64010989,
-      "Neiro": 912661.7252426,
-      "RSS3": 113512.47020386218,
-      "COTI": 2.59740259,
-      "ALT": 469.82325581000003,
-      "HANDY": 1.93482,
-      "RSR": 1245403.068314361,
-      "LQTY": 2472.2087303999997,
-      "Mog": 7215345993.966598,
-      "SPEC": 5.73575109,
-      "AEVO": 72734.76748099449,
-      "GALA": 882.85710738,
-      "1INCH": 4.33468379,
-      "HIFI": 320.79260386,
-      "UniLife": 5.0,
-      "kitties": 27311094.483057164,
-      "SQT": 11811.790961499999,
-      "FXS": 5420.161760905001,
-      "LDO": 3187.84,
-      "AXL": 3692.436997,
-      "SUSHI": 13.68776441,
-      "ALPHA": 4819.07289357,
-      "TRAC": 42.84676033,
-      "SNX": 49.24,
-      "Auction": 34.86867802,
-      "INSP": 313.58,
-      "TREE": 5.39754322,
-      "SYRUP": 6934.334779160001,
-      "FET": 30703.30586459144,
-      "ZRO": 453.481796,
-      "ROOT": 858.468522
+      "USDT": 4178648.632133,
+      "AUDIO": 57732.09906545294,
+      "USDC": 1637416.0620550003,
+      "SHIB": 4303555434.938731,
+      "ENA": 39219.0511,
+      "PIXFI": 26997826.064999998,
+      "PEPE": 31474584940.52674,
+      "CRV": 18298.856132058114,
+      "HIFI": 49.29874181,
+      "REN": 8941002.960031066,
+      "PIXEL": 721.42857143,
+      "WLD": 7474.644803259999,
+      "POL": 14426.632372839998,
+      "WLFI": 5000.0,
+      "IDRT": 18967120.0,
+      "PAXG": 9.287141652335022,
+      "PTU": 113.40098266000001,
+      "LDO": 44771.9417,
+      "PORTAL": 3632.54499475,
+      "PERP": 5002.92543225,
+      "STRK": 1860.7456474099995,
+      "SAND": 154.50683196,
+      "SNX": 20.08606667,
+      "LENDS": 72293.47112218,
+      "BREV": 109.60675832000001,
+      "SKY": 144742.28655156,
+      "NFLXon": 0.35933903874418716,
+      "CRO": 41763.52272954,
+      "DEFI": 7173.09945107,
+      "MON": 107.98611455,
+      "NEIRO": 2828.34168092,
+      "GRT": 103.72146461,
+      "Neiro": 3569443.1269958,
+      "ONDO": 386.25629412999996,
+      "MNT": 168.64462699,
+      "ZKJ": 1899.15456809,
+      "UNI": 3.26068611,
+      "AEVO": 45574.45619089,
+      "XAUt": 1.599133,
+      "RSR": 295666.29000000004,
+      "Mog": 141039293881.87332,
+      "LINK": 1.97,
+      "JASMY": 2732.76013196,
+      "ALPHA": 768.4550909100001,
+      "SQT": 2962.87252455,
+      "GASLORDS": 166666.66,
+      "TOKEN": 851495.6943618909,
+      "ETHFI": 2780.7520125190003,
+      "MYRIA": 34204.766426869995,
+      "DeepSeek V4": 5.0,
+      "BLEND": 10.0,
+      "USD\u0323T": 1.49212,
+      "INSP": 4547260.8765172,
+      "G-CRE": 21.978825529999998,
+      "AAVE": 92.28521719729665
     },
     "token_details": {
       "USDT": [
         "Tether USD"
       ],
-      "ZENT": [
-        "Zentry"
-      ],
-      "UMA": [
-        "UMA Voting Token v1"
-      ],
-      "TRU": [
-        "TrueFi"
-      ],
-      "REZ": [
-        "Renzo"
-      ],
-      "PRIME": [
-        "Prime"
-      ],
-      "STRK": [
-        "Starknet Token"
-      ],
-      "MNT": [
-        "Mantle"
+      "AUDIO": [
+        "Audius"
       ],
       "USDC": [
-        "USD Coin",
         "USDC"
       ],
       "SHIB": [
         "SHIBA INU"
       ],
-      "REN": [
-        "Republic"
-      ],
-      "FLIP": [
-        "Chainflip"
-      ],
-      "ID": [
-        "SPACE ID"
-      ],
-      "TAIKO": [
-        "Taiko Token"
-      ],
-      "LIT": [
-        "Lighter"
-      ],
-      "ARPA": [
-        "ARPA Token"
-      ],
-      "XAUt": [
-        "Tether Gold"
-      ],
-      "SPELL": [
-        "Spell Token"
-      ],
-      "TOKEN": [
-        "TokenFi"
-      ],
-      "PYR": [
-        "PYR Token"
-      ],
-      "PAXG": [
-        "Paxos Gold"
-      ],
-      "OMG": [
-        "OMG Network"
-      ],
-      "PEPE": [
-        "Pepe"
-      ],
-      "GWEI": [
-        "ETHGas"
-      ],
-      "ACU": [
-        "Acurast"
-      ],
-      "IDRT": [
-        "Rupiah Token"
-      ],
-      "WLFIV COM": [
-        "WLFIV COM"
-      ],
-      "LINK": [
-        "ChainLink Token"
-      ],
-      "\u200bW\u2061L\u206cD\u2064\u200b": [
-        "\ufeffW\u2061\u043e\u200er\u2063l\u2063d\u200c\u0441\u200d\u043e\u206bi\u206dn\u200d\u200c"
-      ],
       "ENA": [
         "Ethena"
-      ],
-      "GRT": [
-        "Graph Token"
-      ],
-      "TURBO": [
-        "Turbo"
-      ],
-      "WLD": [
-        "Worldcoin"
-      ],
-      "UNI": [
-        "Uniswap"
-      ],
-      "DODO": [
-        "DODO bird"
-      ],
-      "LRC": [
-        "LoopringCoin V2"
-      ],
-      "AXS": [
-        "Axie Infinity Shard"
-      ],
-      "ONDO": [
-        "Ondo"
-      ],
-      "SAND": [
-        "SAND"
-      ],
-      "WLFI": [
-        "World Liberty Financial"
-      ],
-      "ATH": [
-        "Aethir Token"
-      ],
-      "CHR": [
-        "Chroma"
-      ],
-      "MEME": [
-        "Memecoin"
-      ],
-      "G": [
-        "Gravity"
-      ],
-      "ARKM": [
-        "Arkham"
       ],
       "PIXFI": [
         "Pixelverse"
       ],
-      "ETHFI": [
-        "ether.fi governance token"
+      "PEPE": [
+        "Pepe"
       ],
-      "POL": [
-        "Polygon Ecosystem Token"
-      ],
-      "MYRIA": [
-        "Myria"
-      ],
-      "APRS": [
-        "Aperios"
-      ],
-      "DEFI": [
-        "DeFi"
-      ],
-      "ACH": [
-        "Alchemy"
-      ],
-      "PERP": [
-        "Perpetual"
-      ],
-      "NTGL": [
-        "Entangle"
-      ],
-      "LAI": [
-        "LayerAI Token"
-      ],
-      "NEIRO": [
-        "Neiro"
-      ],
-      "PORTAL": [
-        "PORTAL"
-      ],
-      "Neiro": [
-        "Neiro"
-      ],
-      "RSS3": [
-        "RSS3"
-      ],
-      "COTI": [
-        "COTI Token"
-      ],
-      "ALT": [
-        "AltLayer Token"
-      ],
-      "HANDY": [
-        "Handy Token"
-      ],
-      "RSR": [
-        "Reserve Rights"
-      ],
-      "LQTY": [
-        "LQTY"
-      ],
-      "Mog": [
-        "Mog Coin"
-      ],
-      "SPEC": [
-        "Spectral Token"
-      ],
-      "AEVO": [
-        "Aevo"
-      ],
-      "GALA": [
-        "Gala"
-      ],
-      "1INCH": [
-        "1INCH Token"
+      "CRV": [
+        "Curve DAO Token"
       ],
       "HIFI": [
         "Hifi Finance"
       ],
-      "UniLife": [
-        "UniLife"
+      "REN": [
+        "Republic"
       ],
-      "kitties": [
-        "I love kitties"
+      "PIXEL": [
+        "PIXEL"
       ],
-      "SQT": [
-        "SubQueryToken"
+      "WLD": [
+        "Worldcoin"
       ],
-      "FXS": [
-        "Frax Share"
+      "POL": [
+        "Polygon Ecosystem Token"
+      ],
+      "WLFI": [
+        "World Liberty Financial"
+      ],
+      "IDRT": [
+        "Rupiah Token"
+      ],
+      "PAXG": [
+        "Paxos Gold"
+      ],
+      "PTU": [
+        "Pintu Token"
       ],
       "LDO": [
         "Lido DAO Token"
       ],
-      "AXL": [
-        "Axelar"
+      "PORTAL": [
+        "PORTAL"
       ],
-      "SUSHI": [
-        "SushiToken"
+      "PERP": [
+        "Perpetual"
       ],
-      "ALPHA": [
-        "AlphaToken"
+      "STRK": [
+        "Starknet Token"
       ],
-      "TRAC": [
-        "Trace"
+      "SAND": [
+        "SAND"
       ],
       "SNX": [
         "Synthetix Network Token"
       ],
-      "Auction": [
-        "Bounce Token"
+      "LENDS": [
+        "Lends"
+      ],
+      "BREV": [
+        "Brevis Token"
+      ],
+      "SKY": [
+        "SKY Governance Token"
+      ],
+      "NFLXon": [
+        "Netflix (Ondo Tokenized)"
+      ],
+      "CRO": [
+        "Cronos Coin"
+      ],
+      "DEFI": [
+        "DeFi"
+      ],
+      "MON": [
+        "MON"
+      ],
+      "NEIRO": [
+        "Neiro"
+      ],
+      "GRT": [
+        "Graph Token"
+      ],
+      "Neiro": [
+        "Neiro"
+      ],
+      "ONDO": [
+        "Ondo"
+      ],
+      "MNT": [
+        "Mantle"
+      ],
+      "ZKJ": [
+        "Polyhedra Network"
+      ],
+      "UNI": [
+        "Uniswap"
+      ],
+      "AEVO": [
+        "Aevo"
+      ],
+      "XAUt": [
+        "Tether Gold"
+      ],
+      "RSR": [
+        "Reserve Rights"
+      ],
+      "Mog": [
+        "Mog Coin"
+      ],
+      "LINK": [
+        "ChainLink Token"
+      ],
+      "JASMY": [
+        "JasmyCoin"
+      ],
+      "ALPHA": [
+        "AlphaToken"
+      ],
+      "SQT": [
+        "SubQueryToken"
+      ],
+      "GASLORDS": [
+        "GasLords"
+      ],
+      "TOKEN": [
+        "TokenFi"
+      ],
+      "ETHFI": [
+        "ether.fi governance token"
+      ],
+      "MYRIA": [
+        "Myria"
+      ],
+      "DeepSeek V4": [
+        "DeepSeek"
+      ],
+      "BLEND": [
+        "Fluent"
+      ],
+      "USD\u0323T": [
+        "USD\u0323T"
       ],
       "INSP": [
         "Inspect"
       ],
-      "TREE": [
-        "Treehouse"
+      "G-CRE": [
+        "Gluwa Creditcoin Vesting Token"
       ],
-      "SYRUP": [
-        "Syrup Token"
-      ],
-      "FET": [
-        "Fetch"
-      ],
-      "ZRO": [
-        "LayerZero"
-      ],
-      "ROOT": [
-        "The Root Network"
+      "AAVE": [
+        "Aave Token"
       ]
     }
   },
   "ipfs_osint": {
-    "skipped": true,
-    "reason": "no_nft_activity"
+    "address": "0xe629e3e57ba679bfb78e089ba0236f3d2d20d274",
+    "ipfs_hashes_found": [
+      {
+        "contract": "0x81ab4951ffc8af4a194a61ec9f7198a33342487b",
+        "token_id": "29",
+        "uri": "ipfs://QmWUJNiSdHKWLBy76WaoBGq8dYMFdk4MP4a3h1LFLW9NA2",
+        "ipfs_hash": "QmWUJNiSdHKWLBy76WaoBGq8dYMFdk4MP4a3h1LFLW9NA2"
+      }
+    ],
+    "metadata_analyzed": [],
+    "debug_info": {
+      "nft_transfers_count": 1,
+      "contracts_found": 1,
+      "tokens_checked": 1,
+      "uris_found": 1,
+      "ipfs_hashes_extracted": 1,
+      "metadata_fetched": 0
+    },
+    "findings": {
+      "total_hashes": 1,
+      "unique_hashes": [
+        "QmWUJNiSdHKWLBy76WaoBGq8dYMFdk4MP4a3h1LFLW9NA2"
+      ],
+      "linked_urls": [],
+      "usernames": [],
+      "emails": [],
+      "social_links": [],
+      "timestamps": [],
+      "creators": [],
+      "collections": [],
+      "domains": [],
+      "domain_analysis": {},
+      "metadata_urls": [
+        {
+          "contract": "0x81ab4951ffc8af4a194a61ec9f7198a33342487b",
+          "token_id": "29",
+          "uri": "ipfs://QmWUJNiSdHKWLBy76WaoBGq8dYMFdk4MP4a3h1LFLW9NA2"
+        }
+      ]
+    }
   },
   "ens": {
     "address": "0xe629e3e57ba679bfb78e089ba0236f3d2d20d274",
@@ -574,7 +464,7 @@
     "has_social_links": false
   },
   "approval_risk": {
-    "scan_timestamp": "2026-01-20T10:13:36.683923+00:00",
+    "scan_timestamp": "2026-05-02T11:27:38.569441+00:00",
     "total_approvals": 0,
     "unlimited_approvals": 0,
     "high_risk_approvals": 0,
@@ -584,7 +474,7 @@
   },
   "funding_trace": {
     "target": "0xe629e3e57ba679bfb78e089ba0236f3d2d20d274",
-    "trace_timestamp": "2026-01-20T10:13:35.792071+00:00",
+    "trace_timestamp": "2026-05-02T11:25:10.583799+00:00",
     "total_hops": 0,
     "origin_found": false,
     "origin_type": null,
@@ -594,7 +484,7 @@
     "funding_chain": []
   },
   "token_risks": {
-    "scan_timestamp": "2026-01-20T10:13:37.400839+00:00",
+    "scan_timestamp": "2026-05-02T11:27:39.367184+00:00",
     "tokens_analyzed": 0,
     "risky_tokens": 0,
     "total_value_at_risk_usd": 0,
@@ -605,19 +495,19 @@
   },
   "verdicts": [
     {
-      "title": "CONFIRMED INDIVIDUAL",
-      "severity": "INFO",
+      "title": "HIGH-RISK TRADER PROFILE",
+      "severity": "MEDIUM",
       "category": "PROFILE",
-      "description": "High confidence this is a real individual, not a bot or institution. Human transaction patterns detected.",
+      "description": "Wallet shows impulsive trading behavior with meme coin exposure. Likely susceptible to FOMO-based attacks.",
       "evidence": [
-        "Matched 3/4 signals",
-        "Pattern: confirmed_individual",
-        "Confidence: 75%",
-        "Signal: confidence_score",
+        "Matched 3/3 signals",
+        "Pattern: high_risk_trader",
+        "Confidence: 100%",
+        "Signal: meme_exposure",
         "Signal: tx_count",
-        "Signal: tx_count"
+        "Signal: balance_usd"
       ],
-      "action": "Suitable for targeted social engineering"
+      "action": "Target with urgency-based scams, fake alpha"
     }
   ]
 }

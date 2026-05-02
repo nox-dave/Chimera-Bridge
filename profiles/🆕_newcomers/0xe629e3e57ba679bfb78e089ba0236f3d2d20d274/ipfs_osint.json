@@ -1,0 +1,42 @@
+{
+  "address": "0xe629e3e57ba679bfb78e089ba0236f3d2d20d274",
+  "ipfs_hashes_found": [
+    {
+      "contract": "0x81ab4951ffc8af4a194a61ec9f7198a33342487b",
+      "token_id": "29",
+      "uri": "ipfs://QmWUJNiSdHKWLBy76WaoBGq8dYMFdk4MP4a3h1LFLW9NA2",
+      "ipfs_hash": "QmWUJNiSdHKWLBy76WaoBGq8dYMFdk4MP4a3h1LFLW9NA2"
+    }
+  ],
+  "metadata_analyzed": [],
+  "debug_info": {
+    "nft_transfers_count": 1,
+    "contracts_found": 1,
+    "tokens_checked": 1,
+    "uris_found": 1,
+    "ipfs_hashes_extracted": 1,
+    "metadata_fetched": 0
+  },
+  "findings": {
+    "total_hashes": 1,
+    "unique_hashes": [
+      "QmWUJNiSdHKWLBy76WaoBGq8dYMFdk4MP4a3h1LFLW9NA2"
+    ],
+    "linked_urls": [],
+    "usernames": [],
+    "emails": [],
+    "social_links": [],
+    "timestamps": [],
+    "creators": [],
+    "collections": [],
+    "domains": [],
+    "domain_analysis": {},
+    "metadata_urls": [
+      {
+        "contract": "0x81ab4951ffc8af4a194a61ec9f7198a33342487b",
+        "token_id": "29",
+        "uri": "ipfs://QmWUJNiSdHKWLBy76WaoBGq8dYMFdk4MP4a3h1LFLW9NA2"
+      }
+    ]
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "generated_at": "2026-05-02T11:29:15.460790+00:00",
+  "batch_size": 7,
+  "parameters": {
+    "min_balance": 100000,
+    "limit": 10,
+    "include_ipfs": true
+  },
+  "total_value_usd": 21061827.559979077,
+  "profiles": [
+    {
+      "address": "0xe629e3e57ba679bfb78e089ba0236f3d2d20d274",
+      "balance_usd": 115126.52042520852,
+      "confidence": 70,
+      "sophistication": "Intermediate",
+      "categories": [
+        "\ud83c\udfb0_gamblers",
+        "\ud83c\udd95_newcomers",
+        "\ud83c\udfc6_status_seekers"
+      ]
+    },
+    {
+      "address": "0x974caa59e49682cda0ad2bbe82983419a2ecc400",
+      "balance_usd": 18127167.03832659,
+      "confidence": 60,
+      "sophistication": "Intermediate",
+      "categories": [
+        "\ud83c\udfb0_gamblers",
+        "\ud83c\udd95_newcomers",
+        "\ud83c\udfc6_status_seekers",
+        "\ud83d\udc8e_high_value",
+        "\ud83c\udfaf_prime_targets"
+      ]
+    },
+    {
+      "address": "0x38f6d5fb32f970fe60924b282704899411126336",
+      "balance_usd": 2392986.984484397,
+      "confidence": 70,
+      "sophistication": "Intermediate",
+      "categories": [
+        "\ud83c\udfb0_gamblers",
+        "\ud83c\udd95_newcomers",
+        "\ud83d\udc8e_high_value",
+        "\ud83c\udfaf_prime_targets"
+      ]
+    },
+    {
+      "address": "0x7d94077f58593f8b97c5cab56c8924e13b49946e",
+      "balance_usd": 117285.85580972515,
+      "confidence": 60,
+      "sophistication": "Intermediate",
+      "categories": [
+        "\ud83c\udfb0_gamblers",
+        "\ud83c\udd95_newcomers"
+      ]
+    },
+    {
+      "address": "0xad85405cbb1476825b78a021fa9e543bf7937549",
+      "balance_usd": 111320.46220285248,
+      "confidence": 60,
+      "sophistication": "Intermediate",
+      "categories": [
+        "\ud83c\udfb0_gamblers",
+        "\ud83c\udd95_newcomers"
+      ]
+    },
+    {
+      "address": "0x8fa129f87b8a11ee1ca35abd46674f8b66984d4a",
+      "balance_usd": 102201.7034242963,
+      "confidence": 60,
+      "sophistication": "Intermediate",
+      "categories": [
+        "\ud83c\udfb0_gamblers",
+        "\ud83c\udd95_newcomers"
+      ]
+    },
+    {
+      "address": "0xca4bc2199418b379400b3820ceb3c825b5552c6e",
+      "balance_usd": 95738.99530600857,
+      "confidence": 60,
+      "sophistication": "Intermediate",
+      "categories": [
+        "\ud83c\udfb0_gamblers",
+        "\ud83c\udd95_newcomers"
+      ]
+    }
+  ]
+}

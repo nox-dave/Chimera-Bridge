@@ -121,7 +121,7 @@ CATEGORIES = {
         priority=60
     ),
     "prime_targets": ContractCategory(
-        name="Prime Targets",
+        name="Priority review cohort",
         emoji="🎯",
         description="High TVL + Vulnerabilities + Unaudited",
         folder_name="🎯_prime_targets",

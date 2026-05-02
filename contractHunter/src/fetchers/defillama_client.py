@@ -416,7 +416,7 @@ async def main():
     
     client = DeFiLlamaClient()
     
-    print("🔱 Basilisk Contract Hunter - DeFiLlama Discovery")
+    print("🔱 Chimera contract analysis — DeFiLlama discovery")
     print("=" * 50)
     
     if args.growing:

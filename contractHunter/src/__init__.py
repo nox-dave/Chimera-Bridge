@@ -1,3 +1,3 @@
 """
-Basilisk Offensive Agent
-""" 
+Chimera contract analysis module (contractHunter).
+"""

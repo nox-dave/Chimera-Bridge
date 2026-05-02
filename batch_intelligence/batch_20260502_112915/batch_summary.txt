@@ -1,0 +1,102 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                         📊 BATCH INTELLIGENCE SUMMARY                        ║
+║                           Gargophias OSINT Module                            ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+  Generated:    2026-05-02 11:29:15 UTC
+  Batch Size:   7 profiles
+  Parameters:   min_balance=$100,000, limit=10
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📋 EXECUTIVE SUMMARY
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  🚨 1 of 7 wallets are under active attack by scammers
+
+  ┌─────────────────────────────────────────────────────────────────────────┐
+  │  Total Value Tracked:     $          21,061,828                        │
+  │  Average Wallet Value:    $           3,008,833                        │
+  │  Real Person Confidence:               63% avg                      │
+  │  Wallets Under Attack:                  1                        │
+  │  Scam Domains Detected:                 4                        │
+  └─────────────────────────────────────────────────────────────────────────┘
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🎯 KEY FINDINGS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  🚨 [THREAT] Active Fresh Whale Lists Detected
+     1 wallets are being carpet-bombed by multiple scam campaigns
+     → These addresses are on lists being sold to scammer groups
+
+  🔍 [ANOMALY] Large Holders Without Exchange Trail
+     6 wallets with >$100k but no CEX interactions
+     → May be privacy-conscious, OTC buyers, or suspicious origin
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🏆 TOP TARGETS (Ranked by Actionability)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  #   Address                                           Balance   Conf Flags
+  --- -------------------------------------------- ------------ ------ --------------------
+  1   0x38f6d5fb32f970fe60924b282704899411126336 $   2,392,987    70% 💎WHALE
+  2   0xe629e3e57ba679bfb78e089ba0236f3d2d20d274 $     115,127    70% 
+  3   0x974caa59e49682cda0ad2bbe82983419a2ecc400 $  18,127,167    60% 🚨ATTACKED 💎WHALE
+  4   0x7d94077f58593f8b97c5cab56c8924e13b49946e $     117,286    60% 
+  5   0xad85405cbb1476825b78a021fa9e543bf7937549 $     111,320    60% 
+  6   0x8fa129f87b8a11ee1ca35abd46674f8b66984d4a $     102,202    60% 
+  7   0xca4bc2199418b379400b3820ceb3c825b5552c6e $      95,739    60% 
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+⚠️  ACTIVE THREAT LANDSCAPE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Wallets Under Active Attack: 1
+    • 0x974caa59e49682cda0... ($18,127,167) - 3 scam NFTs received
+
+  Scam Domains Detected: 4
+    • .xyz
+    • api.jsonserve.com
+    • luckyusdc.xyz
+    • uglyunicorns.xyz
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📊 DISTRIBUTION BREAKDOWN
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  By Confidence:                    By Sophistication:
+    High (70%+):      2              Intermediate:   7  
+    Medium (40-69%):  5              Novice      :   0  
+    Low (<40%):       0              Unknown     :   0  
+
+  By Region:
+    Europe          █████████████████░░░   6 (86%)
+    Asia-Pacific    ██░░░░░░░░░░░░░░░░░░   1 (14%)
+
+  By Category:
+    gamblers               7 (100%)
+    newcomers              7 (100%)
+    status                 2 (29%)
+    high                   2 (29%)
+    prime                  2 (29%)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+💡 RECOMMENDATIONS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  • 🚨 URGENT: 1 wallets are under active attack. Consider alerting these users about ongoing scam campaigns targeting their addresses.
+
+  • 🛡️ THREAT INTEL: 4 scam domains detected. Consider reporting to domain registrars or adding to blocklists.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Next Steps:
+    1. Run 'target_search.py --scam-victim' to focus on threatened wallets
+    2. Run 'priority_triage.py' to score and organize all profiles
+    3. Review top targets in 'profiles/🎯_actionable/'
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                            END OF BATCH SUMMARY                              ║
+╚══════════════════════════════════════════════════════════════════════════════╝

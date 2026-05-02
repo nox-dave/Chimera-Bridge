@@ -239,7 +239,7 @@ PATTERN_TEMPLATES = {
             "severity": "HIGH",
             "category": "VULNERABILITY",
             "description": "Fresh wallet with large balance and human-like transaction patterns. High-value target for scams.",
-            "action": "Prime target - likely inexperienced with large funds"
+            "action": "Priority review — elevated balance with limited operational sophistication"
         },
         "overrides": []
     },
@@ -252,11 +252,11 @@ PATTERN_TEMPLATES = {
         ],
         "confidence_threshold": 3,
         "verdict": {
-            "title": "ACTIVE PHISHING TARGET",
+            "title": "ACTIVE PHISHING / ADDRESS-POISONING EXPOSURE",
             "severity": "HIGH",
             "category": "THREAT",
-            "description": "Wallet is being actively targeted by scammers via address poisoning attacks. Attackers are monitoring this wallet.",
-            "action": "High-value target for social engineering"
+            "description": "Address shows indicators of ongoing address-poisoning or similar noise campaigns consistent with victim-side targeting.",
+            "action": "Document artifacts; coordinate victim notification under lawful authority"
         },
         "overrides": []
     },
@@ -292,7 +292,7 @@ PATTERN_TEMPLATES = {
             "severity": "MEDIUM",
             "category": "PROFILE",
             "description": "Advanced DeFi user with multi-protocol exposure and cross-chain activity. High sophistication level.",
-            "action": "Target with advanced DeFi scams, fake protocol exploits"
+            "action": "Assess for sophisticated fraud typologies (fake interfaces, malicious approvals)"
         },
         "overrides": []
     },
@@ -306,11 +306,11 @@ PATTERN_TEMPLATES = {
         ],
         "confidence_threshold": 3,
         "verdict": {
-            "title": "DORMANT WHALE",
+            "title": "DORMANT LARGE HOLDER",
             "severity": "LOW",
             "category": "PROFILE",
-            "description": "Old wallet with large balance but minimal recent activity. May be cold storage or abandoned.",
-            "action": "Low priority - minimal activity"
+            "description": "Older address with large balance but minimal recent activity. May be cold storage or low-touch custody.",
+            "action": "Lower operational priority unless tied to an active lead"
         },
         "overrides": []
     },
@@ -343,11 +343,11 @@ PATTERN_TEMPLATES = {
         ],
         "confidence_threshold": 3,
         "verdict": {
-            "title": "LOW SOPHISTICATION TARGET",
+            "title": "LOW SOPHISTICATION — ELEVATED FRAUD RISK",
             "severity": "MEDIUM",
             "category": "VULNERABILITY",
-            "description": "Wallet shows limited DeFi knowledge but holds significant value. Basic phishing likely to succeed.",
-            "action": "Standard phishing attacks likely effective"
+            "description": "Address shows limited DeFi sophistication indicators while holding significant notional value.",
+            "action": "Prioritize consumer-style fraud awareness in authorized outreach"
         },
         "overrides": []
     },

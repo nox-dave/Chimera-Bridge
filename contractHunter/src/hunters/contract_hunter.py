@@ -1,15 +1,13 @@
 """
-Contract Hunter - Basilisk's Discovery Engine
-
-Mirrors Gargophias's whale hunting flow but for vulnerable contracts.
+Contract analysis engine — protocol discovery and technical risk assessment.
 
 Flow:
 1. Discover protocols via DeFiLlama (by TVL, category, audit status)
 2. Fetch contract addresses
 3. Analyze each contract for vulnerabilities
-4. VALIDATE findings to filter false positives  ← NEW
+4. Validate findings to filter false positives
 5. Generate verdicts and prioritize
-6. Bridge to Gargophias for victim identification
+6. Export batches for Chimera contract–wallet correlation when needed
 
 Usage:
     hunter = ContractHunter()
@@ -368,7 +366,7 @@ class ContractHunter:
         }
         
         if verbose:
-            print("\n🔱 Basilisk Contract Hunter")
+            print("\n🔱 Chimera contract analysis")
             print("=" * 50)
             print(f"\n[1/5] Discovering protocols...")
         
@@ -1110,7 +1108,7 @@ class ContractHunter:
             HuntResult with vulnerability findings
         """
         if verbose:
-            print("\n🔱 Basilisk Contract Hunter + Scanner")
+            print("\n🔱 Chimera contract analysis + scanner")
             print("=" * 50)
         
         result = await self.hunt(
@@ -1262,7 +1260,7 @@ async def main():
     """CLI interface"""
     import argparse
     
-    parser = argparse.ArgumentParser(description="Basilisk Contract Hunter")
+    parser = argparse.ArgumentParser(description="Chimera contract analysis")
     parser.add_argument("--preset", type=str, help="Run a preset hunt")
     parser.add_argument("--list-presets", action="store_true", help="List available presets")
     parser.add_argument("--min-tvl", type=float, default=100_000)

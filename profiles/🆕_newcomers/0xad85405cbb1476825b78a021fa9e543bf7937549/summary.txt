@@ -4,7 +4,7 @@
 ╚══════════════════════════════════════════════════════════════════════════════╝
 
 Target:     0xad85405cbb1476825b78a021fa9e543bf7937549
-Generated:  2026-01-20 11:14:11 UTC
+Generated:  2026-05-02 13:28:52 UTC
 
 ┌──────────────────────────────────────────────────────────────────────────────┐
 │                               QUICK ASSESSMENT                               │
@@ -17,9 +17,9 @@ Generated:  2026-01-20 11:14:11 UTC
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 💰 FINANCIAL SUMMARY
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  Total Portfolio Value:  $          153,023.54
-  ETH Balance:                         49.3996 ETH
-  ETH Value:              $          153,023.54
+  Total Portfolio Value:  $          111,320.46
+  ETH Balance:                         48.3073 ETH
+  ETH Value:              $          111,320.46
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 📊 ACTIVITY METRICS
@@ -27,9 +27,9 @@ Generated:  2026-01-20 11:14:11 UTC
   Transaction Count:                       500
   Total ETH Moved:                        0.00 ETH
   Avg Transaction:                      0.0000 ETH
-  Wallet Age:                                7 days
-  First Transaction:                2026-01-13
-  Last Transaction:                 2026-01-20
+  Wallet Age:                                2 days
+  First Transaction:                2026-04-30
+  Last Transaction:                 2026-05-02
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 🧠 BEHAVIORAL PROFILE
@@ -41,10 +41,10 @@ Generated:  2026-01-20 11:14:11 UTC
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ⏰ ACTIVITY PATTERNS
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  Peak Activity Hours:    10:00, 0:00, 11:00, 13:00 UTC
-  Most Active Days:       Thursday, Monday, Tuesday
-  Likely Timezone:        Europe/Africa (UTC+0 to +3)
-  Probable Region:        Europe
+  Peak Activity Hours:    6:00, 5:00, 7:00, 8:00 UTC
+  Most Active Days:       Friday, Thursday, Saturday
+  Likely Timezone:        Asia-Pacific (UTC+8 to +12)
+  Probable Region:        Asia-Pacific
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 🔧 PROTOCOL & PLATFORM USAGE
@@ -58,7 +58,7 @@ Generated:  2026-01-20 11:14:11 UTC
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 🪙 TOKEN INTERESTS
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  Active Tokens: aave, wld, ​w⁡l⁬d⁤​, acu, plume
+  Active Tokens: wld, aave, plume
   Categories: 🏦 DeFi Tokens
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -82,7 +82,7 @@ Generated:  2026-01-20 11:14:11 UTC
 📋 OSINT ASSESSMENT
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
   MODERATE CONFIDENCE (60%): Likely a real person, but some uncertainty.
-  GEOGRAPHIC: Activity patterns suggest Europe timezone (Europe/Africa (UTC+0 to +3)).
+  GEOGRAPHIC: Activity patterns suggest Asia-Pacific timezone (Asia-Pacific (UTC+8 to +12)).
   SOPHISTICATION: Intermediate user. Familiar with DeFi basics, uses DEXs.
   RISK PROFILE: Conservative. Active Trader.
 
@@ -94,7 +94,7 @@ Generated:  2026-01-20 11:14:11 UTC
   Narrative:
     A mid-tier holder with meaningful skin in the game.
     Shows familiarity with DEXs and basic DeFi concepts.
-    Activity patterns suggest European timezone.
+    Activity patterns suggest Asia-Pacific timezone.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 🔗 INVESTIGATION LINKS

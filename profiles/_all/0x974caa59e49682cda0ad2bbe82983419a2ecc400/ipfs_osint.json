@@ -1,0 +1,145 @@
+{
+  "address": "0x974caa59e49682cda0ad2bbe82983419a2ecc400",
+  "ipfs_hashes_found": [
+    {
+      "contract": "0x62006871c1ac4368146bc90ea89cbce8a5c38e3c",
+      "token_id": "207",
+      "uri": "ipfs://QmVLZoFp6MFQMah8AhV4qZU4wSWFdYCjy6hBwfmtfHHCPW/207.json",
+      "ipfs_hash": "QmVLZoFp6MFQMah8AhV4qZU4wSWFdYCjy6hBwfmtfHHCPW"
+    },
+    {
+      "contract": "0xa53d381e979064e10f22a37d0d162fdd3a846cd8",
+      "token_id": "122",
+      "uri": "ipfs://QmNNRhri6ZqCTASX5aCtPtZJ6pmrVBf9WjM69Seps4xCPA/metadata.json",
+      "ipfs_hash": "QmNNRhri6ZqCTASX5aCtPtZJ6pmrVBf9WjM69Seps4xCPA"
+    },
+    {
+      "contract": "0x50adf569684d1a760068884fff2e5d9aa026e3e6",
+      "token_id": "617",
+      "uri": "ipfs://Qmb5ym7AKJyGnATyad8sx7Zg5nXLxceuHqZobagaGQ3KbF/617",
+      "ipfs_hash": "Qmb5ym7AKJyGnATyad8sx7Zg5nXLxceuHqZobagaGQ3KbF"
+    }
+  ],
+  "metadata_analyzed": [],
+  "debug_info": {
+    "nft_transfers_count": 17,
+    "contracts_found": 8,
+    "tokens_checked": 12,
+    "uris_found": 12,
+    "ipfs_hashes_extracted": 3,
+    "metadata_fetched": 0
+  },
+  "findings": {
+    "total_hashes": 3,
+    "unique_hashes": [
+      "QmNNRhri6ZqCTASX5aCtPtZJ6pmrVBf9WjM69Seps4xCPA",
+      "Qmb5ym7AKJyGnATyad8sx7Zg5nXLxceuHqZobagaGQ3KbF",
+      "QmVLZoFp6MFQMah8AhV4qZU4wSWFdYCjy6hBwfmtfHHCPW"
+    ],
+    "linked_urls": [],
+    "usernames": [],
+    "emails": [],
+    "social_links": [],
+    "timestamps": [],
+    "creators": [],
+    "collections": [],
+    "domains": [
+      "luckyusdc.xyz",
+      "uglyunicorns.xyz",
+      "api.jsonserve.com"
+    ],
+    "domain_analysis": {
+      "luckyusdc.xyz": {
+        "domain": "luckyusdc.xyz",
+        "is_ipfs": false,
+        "is_centralized": true,
+        "scam_indicators": [
+          "Contains suspicious keyword: 'lucky'",
+          "Suspicious TLD: .xyz"
+        ],
+        "reputation": "suspicious",
+        "whois_info": null
+      },
+      "api.jsonserve.com": {
+        "domain": "api.jsonserve.com",
+        "is_ipfs": false,
+        "is_centralized": true,
+        "scam_indicators": [],
+        "reputation": "unknown",
+        "whois_info": null
+      },
+      "uglyunicorns.xyz": {
+        "domain": "uglyunicorns.xyz",
+        "is_ipfs": false,
+        "is_centralized": true,
+        "scam_indicators": [
+          "Suspicious TLD: .xyz"
+        ],
+        "reputation": "suspicious",
+        "whois_info": null
+      }
+    },
+    "metadata_urls": [
+      {
+        "contract": "0x62006871c1ac4368146bc90ea89cbce8a5c38e3c",
+        "token_id": "207",
+        "uri": "ipfs://QmVLZoFp6MFQMah8AhV4qZU4wSWFdYCjy6hBwfmtfHHCPW/207.json"
+      },
+      {
+        "contract": "0x732bc69d3ed34a18058dee2a9ef046d440a357e5",
+        "token_id": "3010",
+        "uri": "https://luckyusdc.xyz/metadata/3010.json"
+      },
+      {
+        "contract": "0xa53d381e979064e10f22a37d0d162fdd3a846cd8",
+        "token_id": "122",
+        "uri": "ipfs://QmNNRhri6ZqCTASX5aCtPtZJ6pmrVBf9WjM69Seps4xCPA/metadata.json"
+      },
+      {
+        "contract": "0x30f986940ba213eeef708ef28576273fbe4a6557",
+        "token_id": "84",
+        "uri": "https://api.jsonserve.com/-9SKoN"
+      },
+      {
+        "contract": "0xc0462967a6856c2f5fed9f7e1752d05918bcef5e",
+        "token_id": "107",
+        "uri": "https://api.jsonserve.com/yPBtIp"
+      },
+      {
+        "contract": "0x807942af5dc294336670377ff85a21ef9b5427cf",
+        "token_id": "12",
+        "uri": "https://api.jsonserve.com/U6zfM3"
+      },
+      {
+        "contract": "0x50adf569684d1a760068884fff2e5d9aa026e3e6",
+        "token_id": "617",
+        "uri": "ipfs://Qmb5ym7AKJyGnATyad8sx7Zg5nXLxceuHqZobagaGQ3KbF/617"
+      },
+      {
+        "contract": "0xa548fa1d539cab8d78163cb064f7b22e6ef34b2f",
+        "token_id": "991",
+        "uri": "http://uglyunicorns.xyz/static/metadata/json/991.json"
+      },
+      {
+        "contract": "0xa548fa1d539cab8d78163cb064f7b22e6ef34b2f",
+        "token_id": "987",
+        "uri": "http://uglyunicorns.xyz/static/metadata/json/987.json"
+      },
+      {
+        "contract": "0xa548fa1d539cab8d78163cb064f7b22e6ef34b2f",
+        "token_id": "989",
+        "uri": "http://uglyunicorns.xyz/static/metadata/json/989.json"
+      },
+      {
+        "contract": "0xa548fa1d539cab8d78163cb064f7b22e6ef34b2f",
+        "token_id": "986",
+        "uri": "http://uglyunicorns.xyz/static/metadata/json/986.json"
+      },
+      {
+        "contract": "0xa548fa1d539cab8d78163cb064f7b22e6ef34b2f",
+        "token_id": "990",
+        "uri": "http://uglyunicorns.xyz/static/metadata/json/990.json"
+      }
+    ]
+  }
+}

@@ -352,26 +352,26 @@ def export_addresses(profiles: List[dict]) -> str:
 def interactive_search(profiles_dir: str = PROFILES_DIR):
     print("""
 ╔══════════════════════════════════════════════════════════════════════════════╗
-║                         🔍 GARGOPHIAS TARGET SEARCH                          ║
+║                      🔍 WALLET INTELLIGENCE — PROFILE SEARCH                  ║
 ╚══════════════════════════════════════════════════════════════════════════════╝
 
 QUICK FILTERS (type and press Enter):
 
   rich            Balance > $1M
   dumb            Low sophistication (Novice/Unknown)
-  rich+dumb       High balance + Low sophistication (PRIME TARGETS)
+  rich+dumb       High balance + low sophistication (priority triage)
   
-  newcomer        Fresh wallets with funds
-  gambler         Meme coin players, high frequency traders
-  easy            Easy targets (low sophistication)
-  whale           High value holders (>$1M)
+  newcomer        Recently funded or emerging accounts
+  gambler         High-velocity speculative activity
+  easy            Simplified triage indicators
+  whale           Significant holdings (>$1M notional)
   
   europe          European timezone
   asia            Asia-Pacific timezone
   us              US/Americas timezone
   
-  scam            Received scam NFT airdrops (being targeted)
-  dust            Targeted by dust attacks
+  scam            Received scam NFT airdrops (possible victim pattern)
+  dust            Dusting or spam-token noise on address
   meme            Has meme coin exposure
   
 ADVANCED FILTERS:
@@ -530,7 +530,7 @@ Examples:
                        help="Has ENS name")
     
     parser.add_argument("--prime", action="store_true",
-                       help="Shortcut: Prime targets (high value + exploitable)")
+                       help="Shortcut: High balance + elevated triage priority")
     parser.add_argument("--rich-dumb", action="store_true",
                        help="Shortcut: Rich + Low sophistication")
     

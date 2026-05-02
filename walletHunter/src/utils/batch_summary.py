@@ -122,7 +122,7 @@ def generate_batch_summary(profiles: List[Dict], batch_params: Dict) -> str:
     summary = []
     summary.append("╔══════════════════════════════════════════════════════════════════════════════╗")
     summary.append("║                         📊 BATCH INTELLIGENCE SUMMARY                        ║")
-    summary.append("║                           Gargophias OSINT Module                            ║")
+    summary.append("║                        Wallet intelligence — batch review                    ║")
     summary.append("╚══════════════════════════════════════════════════════════════════════════════╝")
     summary.append("")
     summary.append(f"  Generated:    {timestamp} UTC")
@@ -156,15 +156,15 @@ def generate_batch_summary(profiles: List[Dict], batch_params: Dict) -> str:
     summary.append("")
     
     if wallets_under_attack:
-        summary.append(f"  🚨 [THREAT] Active Fresh Whale Lists Detected")
-        summary.append(f"     {len(wallets_under_attack)} wallets are being carpet-bombed by multiple scam campaigns")
-        summary.append("     → These addresses are on lists being sold to scammer groups")
+        summary.append(f"  🚨 [THREAT] Concentrated scam-airdrop activity detected")
+        summary.append(f"     {len(wallets_under_attack)} addresses show repeated scam-token or airdrop noise")
+        summary.append("     → Prioritize victim-side documentation and authorized notification")
         summary.append("")
     
     if high_value_low_soph:
-        summary.append(f"  💎 [OPPORTUNITY] High-Value Low-Sophistication Targets")
-        summary.append(f"     {len(high_value_low_soph)} wallets with >$500k and low sophistication")
-        summary.append("     → Prime candidates for security awareness outreach")
+        summary.append(f"  💎 [TRIAGE] High balance with low sophistication indicators")
+        summary.append(f"     {len(high_value_low_soph)} addresses over $500k notional with novice-style patterns")
+        summary.append("     → Suitable for priority technical review and victim-protection outreach where authorized")
         summary.append("")
     
     if no_exchange_trail:
@@ -180,7 +180,7 @@ def generate_batch_summary(profiles: List[Dict], batch_params: Dict) -> str:
         summary.append("")
     
     summary.append("━" * 80)
-    summary.append("🏆 TOP TARGETS (Ranked by Actionability)")
+    summary.append("🏆 TOP ADDRESSES (Ranked for triage)")
     summary.append("━" * 80)
     summary.append("")
     summary.append("  #   Address                                           Balance   Conf Flags")
@@ -195,7 +195,7 @@ def generate_batch_summary(profiles: List[Dict], batch_params: Dict) -> str:
         if addr in wallets_under_attack:
             flags.append("🚨ATTACKED")
         if balance > 500000:
-            flags.append("💎WHALE")
+            flags.append("💎HIGH+")
         sophistication = profile.get('behavior', {}).get('sophistication', 'Unknown')
         if sophistication in ['Novice', 'Unknown']:
             flags.append("🐟NOVICE")
@@ -274,11 +274,11 @@ def generate_batch_summary(profiles: List[Dict], batch_params: Dict) -> str:
     summary.append("")
     
     if wallets_under_attack:
-        summary.append(f"  • 🚨 URGENT: {len(wallets_under_attack)} wallets are under active attack. Consider alerting these users about ongoing scam campaigns targeting their addresses.")
+        summary.append(f"  • 🚨 URGENT: {len(wallets_under_attack)} addresses show heavy scam-airdrop load. Document for case files; coordinate victim notification only under lawful authority.")
         summary.append("")
     
     if high_value_low_soph:
-        summary.append(f"  • 💎 HIGH-VALUE: {len(high_value_low_soph)} wealthy but inexperienced users identified. These are prime candidates for security education or premium protection services.")
+        summary.append(f"  • 💎 HIGH-VALUE: {len(high_value_low_soph)} addresses combine large notionals with low sophistication indicators — prioritize for supervised review and optional outreach where policy allows.")
         summary.append("")
     
     if scam_domains:
@@ -288,9 +288,9 @@ def generate_batch_summary(profiles: List[Dict], batch_params: Dict) -> str:
     summary.append("━" * 80)
     summary.append("")
     summary.append("  Next Steps:")
-    summary.append("    1. Run 'target_search.py --scam-victim' to focus on threatened wallets")
-    summary.append("    2. Run 'priority_triage.py' to score and organize all profiles")
-    summary.append("    3. Review top targets in 'profiles/🎯_actionable/'")
+    summary.append("    1. Run 'target_search.py --scam-victim' to list likely scam-airdrop recipients")
+    summary.append("    2. Run 'priority_triage.py' to score and organize profiles")
+    summary.append("    3. Review priority queue in 'profiles/🎯_actionable/'")
     summary.append("")
     summary.append("━" * 80)
     summary.append("")

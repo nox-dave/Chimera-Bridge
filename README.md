@@ -1,27 +1,27 @@
 # CHIMERA
 
-**Security Analysis Pipeline for Smart Contract Risk Discovery**
+**On-chain fraud analysis toolkit**
 
-> Discover vulnerable contracts → Analyze related wallet activity → Produce clear risk reports
+> Traces cryptocurrency fund flows, maps victim or counterpart addresses linked to vulnerable contracts, and builds intelligence profiles to support financial crime investigations.
 
 ---
 
 ## What Is This?
 
-Chimera is a three-stage security research toolkit that:
+Chimera is a three-stage pipeline for lawful on-chain investigations:
 
-1. **Finds** vulnerable smart contracts across DeFi protocols
-2. **Maps** related wallet activity connected to those vulnerabilities
-3. **Builds** wallet risk profiles for defensive analysis
+1. **Assesses** smart-contract risk across DeFi protocols (technical findings)
+2. **Correlates** on-chain interaction data between those contracts and addresses
+3. **Profiles** addresses to support triage and case documentation
 
 ```
 ┌──────────────────┐     ┌──────────────────┐     ┌──────────────────┐
-│ CONTRACT ANALYSIS│────►│  CHIMERA BRIDGE  │────►│ WALLET ANALYSIS  │
+│ CONTRACT ANALYSIS│────►│   CORRELATION    │────►│ WALLET INTEL.    │
 │                  │     │                  │     │                  │
 ├──────────────────┤     ├──────────────────┤     ├──────────────────┤
 │ • DeFiLlama API  │     │ • Transaction    │     │ • Balance check  │
 │ • Etherscan      │     │   history query  │     │ • Behavior       │
-│ • Pattern scan   │     │ • Wallet extract │     │   analysis       │
+│ • Pattern scan   │     │ • Address extract│     │   analysis       │
 │ • Slither        │     │ • Exchange       │     │ • Funding trace  │
 │ • Auto-validate  │     │   filtering      │     │ • OSINT modules  │
 └──────────────────┘     └──────────────────┘     └──────────────────┘
@@ -38,14 +38,14 @@ Chimera is a three-stage security research toolkit that:
 - **Auto-validates findings to filter false positives**
 - Categorizes by risk archetype
 
-### 🌉 Chimera Bridge
-- Connects vulnerable contracts to relevant wallets
-- Queries on-chain transaction history
-- Filters out exchanges, bots, and contracts
-- Estimates USD exposure per wallet
-- Ranks wallets by value at risk
+### 🌉 Contract–wallet correlation
+- Links assessed contracts to addresses with on-chain interaction history
+- Queries transaction history via block explorers
+- Filters exchanges, bots, and contract-only traffic where possible
+- Estimates notional exposure per address for prioritization
+- Ranks addresses for investigative follow-up
 
-### 👁️ Wallet Analysis
+### 👁️ Wallet intelligence
 - Full 9-stage wallet profiling pipeline
 - Behavioral analysis (trading style, sophistication)
 - Timezone activity pattern inference
@@ -72,9 +72,9 @@ python chimera/menu.py
 
 ## Example Workflow
 
-### Step 1: Scan Vulnerable Contracts
+### Step 1: Contract risk assessment
 ```
-Menu → [1] `Contract Hunter` module → [1] Full Scan
+Menu → [1] Contract analysis → [1] Full discovery scan
 
 Output:
   ✅ 30 protocols discovered
@@ -83,20 +83,20 @@ Output:
   ✅ Filtered 6.2% false positives
 ```
 
-### Step 2: Map Related Wallets
+### Step 2: Map addresses to contracts
 ```
-Menu → [3] Chimera Bridge → [1] Bridge Hunt Results
+Menu → [3] Contract–wallet correlation → [1] Correlate latest scan batch
 
 Output:
   ✅ 5 contracts analyzed
-  ✅ 1,295 wallets found
-  ✅ $646,659 total exposure
-  ✅ 3 high-value wallets (>$100k)
+  ✅ 1,295 addresses with interaction history
+  ✅ $646,659 total notional exposure estimated
+  ✅ 3 addresses above $100k notional (priority review)
 ```
 
-### Step 3: Profile High-Risk Wallets
+### Step 3: Address intelligence profiles
 ```
-Menu → [2] `Wallet Hunter` module → [2] Analyze Address
+Menu → [2] Wallet intelligence → [2] Analyze address
 
 Output:
   ✅ Portfolio: $125,632
@@ -136,18 +136,18 @@ Output:
     • [High] Selfdestruct Present ✅
 ```
 
-### Bridge Results
+### Correlation report (sample)
 ```
-🌉 CHIMERA BRIDGE REPORT
+🌉 CONTRACT–WALLET CORRELATION REPORT
 ══════════════════════════════════════════════════
 
-| Contract    | Wallets | Exposure   | High-Value |
-|-------------|---------|------------|------------|
-| Base Bridge | 321     | $129,679   | 1          |
-| Tether Gold | 232     | $508,451   | 2          |
-| ether.fi    | 444     | $7,571     | 0          |
+| Contract    | Addresses | Exposure   | High-value |
+|-------------|-----------|------------|------------|
+| Base Bridge | 321       | $129,679   | 1          |
+| Tether Gold | 232       | $508,451   | 2          |
+| ether.fi    | 444       | $7,571     | 0          |
 
-Top Wallet by Exposure:
+Top address by estimated exposure:
   Address: 0x1f876d92...
   Exposure: $128,030
   Interaction: proveWithdrawalTransaction
@@ -185,7 +185,7 @@ OSINT Verdicts:
 Chimera/
 ├── chimera/
 │   ├── menu.py              # Unified menu system
-│   ├── bridge.py            # Contract → Wallet bridge
+│   ├── bridge.py            # Contract–wallet correlation
 │   └── reports/             # Bridge output
 │
 ├── contractHunter/
@@ -202,7 +202,7 @@ Chimera/
 │           └── etherscan_fetcher.py
 │
 ├── walletHunter/
-│   ├── whale_menu.py        # Wallet analysis menu
+│   ├── whale_menu.py        # Wallet intelligence menu (CLI)
 │   └── src/
 │       ├── unified_profiler.py
 │       ├── intel_profiler.py
@@ -236,17 +236,17 @@ Zero LLM required - pure regex/string matching
 | unchecked call | Check if `require(success)` follows `.call()` |
 | access control | Check if function has modifier |
 
-### Bridge Risk Mapping
+### Correlation mapping
 ```python
-# Input: Vulnerable contract
-# Output: Ranked list of related wallets by estimated exposure
+# Input: Contract under assessment
+# Output: Ranked list of interacting addresses by estimated notional exposure
 
 Process:
-1. Query Etherscan for all transactions
-2. Extract unique wallet addresses
-3. Filter known exchanges (Binance, Coinbase, etc.)
-4. Query balances for each wallet
-5. Rank by USD exposure
+1. Query Etherscan (or compatible API) for transactions involving the contract
+2. Extract unique externally owned addresses
+3. Filter known exchanges (Binance, Coinbase, etc.) where configured
+4. Query balances for prioritization
+5. Rank by estimated USD exposure for case triage
 ```
 
 ---
@@ -255,10 +255,10 @@ Process:
 
 | Scenario | Flow |
 |----------|------|
-| Bug bounty research | Contract analysis module → Manual review |
-| Exposure assessment | Full pipeline → Bridge report |
-| Wallet investigation | Wallet Analysis → OSINT profile |
-| Protocol security audit | Contract analysis + validation |
+| Financial crime case support | Contract analysis → correlation → wallet intelligence |
+| Victim or counterpart tracing | Full pipeline → correlation report and profiles |
+| Single-address intelligence | Wallet intelligence → analyze address |
+| Protocol technical review | Contract analysis + validation |
 
 ---
 
@@ -267,7 +267,7 @@ Process:
 - Python 3.9+
 - Etherscan API key (free tier works)
 - Optional: Slither (`pip install slither-analyzer`)
-- Optional: Moralis API key (for whale discovery)
+- Optional: Moralis API key (for high-balance address discovery)
 
 ---
 
@@ -283,7 +283,7 @@ ETHERSCAN_API_KEY=your_etherscan_api_key_here
 
 # Optional (for enhanced features)
 OPENAI_KEY=your_openai_key_here              # For LLM analyzers
-MORALIS_API_KEY=your_moralis_key_here        # For whale discovery
+MORALIS_API_KEY=your_moralis_key_here        # For holder / balance-assisted discovery
 ALCHEMY_API_KEY=your_alchemy_key_here         # For RPC
 RPC_URL=https://eth.llamarpc.com             # Fallback RPC endpoint
 ```
@@ -316,7 +316,7 @@ python3 unified_profiler.py
 python3 main.py 0x742d35Cc6634C0532925a3b844Bc9e7595f0bEb
 ```
 
-**Bridge**
+**Correlation (programmatic)**
 ```bash
 cd chimera
 python3 -c "
@@ -327,18 +327,18 @@ asyncio.run(bridge.bridge_from_hunt_results('contractHunter/contracts/hunt_YYYYM
 "
 ```
 
-### Custom Hunt Presets
+### Additional contract scan presets (CLI)
 
 ```bash
 cd contractHunter
 
-# Emerging high-value protocols (unaudited, $500k-$50M TVL)
+# Emerging high-value protocols (unaudited, $500k-$50M TVL); preset name: fresh_whales
 python3 scripts/hunt.py --preset fresh_whales --scan
 
-# Bridge-focused protocols
+# Bridge and cross-chain style protocols; preset name: bridge_targets
 python3 scripts/hunt.py --preset bridge_targets --scan
 
-# Lending risks
+# Lending protocols; preset name: lending_risks
 python3 scripts/hunt.py --preset lending_risks --scan
 ```
 
@@ -348,7 +348,7 @@ python3 scripts/hunt.py --preset lending_risks --scan
 
 **Contract Analysis Outputs**
 - `contracts/_all/{protocol}/` – Complete protocol analysis
-- `contracts/hunt_*.json` – Scan results with vulnerabilities
+- `contracts/hunt_*.json` – Saved assessment batches (filename prefix is historical)
 - `contracts/priority_review_cases/` – Prioritized high-value vulnerable contracts
 
 **Wallet Analysis Outputs**
@@ -356,9 +356,10 @@ python3 scripts/hunt.py --preset lending_risks --scan
 - `profiles/🎯_actionable/` – Top 50 prioritized review cases
 - `profiles/{category}/` – OSINT behavioral categories
 
-**Bridge Outputs**
-- `chimera/reports/bridge_*.json` – Per-contract exposure reports
-- `chimera/reports/bridge_*.md` – Human-readable summaries
+**Correlation outputs**
+- `chimera/reports/bridge_*.json` – Per-batch linkage data (programmatic bridge)
+- `chimera/reports/bridge_*.md` – Markdown summaries from the same run
+- `chimera/reports/exposure_summary_*.md` – Summaries written from the unified menu when used
 
 ---
 
@@ -383,7 +384,7 @@ python3 scripts/hunt.py --preset lending_risks --scan
 
 ## Disclaimer
 
-This tool is for **authorized security research only**. Use responsibly and ethically within the bounds of applicable laws and authorized bug bounty programs.
+Use only under **lawful authority** and applicable policy (e.g. agency investigations, authorized private-sector financial crime units, or contracted security work with clear scope). Do not use this software to access systems or data without authorization.
 
 ---
 

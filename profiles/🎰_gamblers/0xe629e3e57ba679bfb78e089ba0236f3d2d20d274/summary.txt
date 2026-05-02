@@ -4,32 +4,32 @@
 ╚══════════════════════════════════════════════════════════════════════════════╝
 
 Target:     0xe629e3e57ba679bfb78e089ba0236f3d2d20d274
-Generated:  2026-01-20 11:13:37 UTC
+Generated:  2026-05-02 13:27:39 UTC
 
 ┌──────────────────────────────────────────────────────────────────────────────┐
 │                               QUICK ASSESSMENT                               │
 ├──────────────────────────────────────────────────────────────────────────────┤
 │  ✅ LIKELY REAL PERSON                                                       │
-│  Confidence: 95%                                                               │
-│  Profile: Fish | Active Trader | Meme Coin Player                           │
+│  Confidence: 70%                                                               │
+│  Profile: Dolphin | Active Trader | Political Token Holder                  │
 └──────────────────────────────────────────────────────────────────────────────┘
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 💰 FINANCIAL SUMMARY
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  Total Portfolio Value:  $           35,616.48
-  ETH Balance:                         11.5019 ETH
-  ETH Value:              $           35,616.48
+  Total Portfolio Value:  $          115,126.52
+  ETH Balance:                         49.9526 ETH
+  ETH Value:              $          115,126.52
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 📊 ACTIVITY METRICS
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
   Transaction Count:                       500
-  Total ETH Moved:                       96.63 ETH
-  Avg Transaction:                      0.2876 ETH
+  Total ETH Moved:                       49.11 ETH
+  Avg Transaction:                      0.1693 ETH
   Wallet Age:                                2 days
-  First Transaction:                2026-01-17
-  Last Transaction:                 2026-01-20
+  First Transaction:                2026-04-30
+  Last Transaction:                 2026-05-02
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 🧠 BEHAVIORAL PROFILE
@@ -41,8 +41,8 @@ Generated:  2026-01-20 11:13:37 UTC
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ⏰ ACTIVITY PATTERNS
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  Peak Activity Hours:    15:00, 6:00, 16:00, 8:00 UTC
-  Most Active Days:       Monday, Sunday, Tuesday
+  Peak Activity Hours:    9:00, 10:00, 8:00, 7:00 UTC
+  Most Active Days:       Friday, Saturday, Thursday
   Likely Timezone:        Europe/Africa (UTC+0 to +3)
   Probable Region:        Europe
 
@@ -58,14 +58,14 @@ Generated:  2026-01-20 11:13:37 UTC
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 🪙 TOKEN INTERESTS
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  Active Tokens: usdt, usdc, paxg, shib, token, pepe, ena, zent, uma, tru
-  Categories: 🐸 Meme Coins | 💵 Stablecoin Heavy
+  Active Tokens: usdt, usdc, ren, pixfi, shib, pepe, wld, idrt, audio, crv
+  Categories: 🐸 Meme Coins | 🏛️ Political Tokens | 🏦 DeFi Tokens | 🎮 Gaming Tokens | 💵 Stablecoin Heavy
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 🏦 FUNDING & EXCHANGE RELATIONSHIPS
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
   Original Funding:       Unknown
-                          0xe9f4f6dc94cd45b2cf3aa9200390fa8834ba7822...
+                          0x3563015e9f5694afe5d8cd86233f77557da704cc...
 
   Exchange Interactions:  None detected (DEX-only or self-custody)
 
@@ -74,12 +74,9 @@ Generated:  2026-01-20 11:13:37 UTC
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
   ✅ BULLISH SIGNALS (Real Person Indicators):
-     • Targeted by dust attacks
-     • Uses round number transfers
      • Reasonable tx count
      • Retail token activity
-     • Being targeted by address poisoning (scammers target real whales)
-     • Uses round number transfers (3x) - human behavior
+     • Holds political tokens - retail investor behavior
      • Meme coin exposure - retail speculation behavior
 
   ⚠️  RED FLAGS (Caution Indicators):
@@ -88,22 +85,23 @@ Generated:  2026-01-20 11:13:37 UTC
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 📋 OSINT ASSESSMENT
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  HIGH CONFIDENCE (95%): This wallet likely belongs to a real individual.
+  HIGH CONFIDENCE (70%): This wallet likely belongs to a real individual.
   GEOGRAPHIC: Activity patterns suggest Europe timezone (Europe/Africa (UTC+0 to +3)).
   SOPHISTICATION: Intermediate user. Familiar with DeFi basics, uses DEXs.
   RISK PROFILE: Aggressive. Active Trader.
-  NOTABLE: Active target of address poisoning attacks - confirms wallet is monitored by scammers.
+  NOTABLE: Holds political tokens (e.g., WLFI) - likely follows US crypto politics.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 🎭 PROFILE HYPOTHESIS
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  Archetype: General Crypto Holder
+  Archetype: Retail Speculator / Political Crypto Enthusiast
   
   Narrative:
+    A mid-tier holder with meaningful skin in the game.
     Originally funded through Unknown, suggesting traditional onboarding.
     Shows familiarity with DEXs and basic DeFi concepts.
     Activity patterns suggest European timezone.
-    Being targeted by scammers confirms this is an active, monitored wallet.
+    Interest in political tokens suggests engagement with US crypto politics.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 🔗 INVESTIGATION LINKS
@@ -116,7 +114,7 @@ Generated:  2026-01-20 11:13:37 UTC
   Zapper:         https://zapper.xyz/account/0xe629e3e57ba679bfb78e089ba0236f3d2d20d274
 
 ╔══════════════════════════════════════════════════════════════════════════════╗
-║                      PRIORITY: MEDIUM | CONFIDENCE: 95%                      ║
+║                      PRIORITY: MEDIUM | CONFIDENCE: 70%                      ║
 ╚══════════════════════════════════════════════════════════════════════════════╝
 
 
@@ -127,13 +125,55 @@ Generated:  2026-01-20 11:13:37 UTC
 
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🌐 IPFS & DOMAIN OSINT ANALYSIS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+NFT Transfers Analyzed: 1
+Contracts Checked: 1
+Tokens Scanned: 1
+Metadata Files Fetched: 0
+
+IPFS Hashes Found: 1
+
+Unique IPFS Hashes:
+  • QmWUJNiSdHKWLBy76WaoBGq8dYMFdk4MP4a3h1LFLW9NA2
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📋 METADATA SOURCES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Contract: 0x81ab4951... | Token: 29
+    URI: ipfs://QmWUJNiSdHKWLBy76WaoBGq8dYMFdk4MP4a3h1LFLW9NA2...
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🔗 ENS & SOCIAL IDENTITY
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+ENS Name: None (wallet does not have an ENS name)
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 🎯 OSINT VERDICTS
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-ℹ️ [INFO] CONFIRMED INDIVIDUAL
-   High confidence this is a real individual, not a bot or institution. Human transaction patterns detected.
-     • Matched 3/4 signals
-     • Pattern: confirmed_individual
-     • Confidence: 75%
-   → Action: Suitable for targeted social engineering
+⚡ [MEDIUM] HIGH-RISK TRADER PROFILE
+   Wallet shows impulsive trading behavior with meme coin exposure. Likely susceptible to FOMO-based attacks.
+   Evidence:
+     • Matched 3/3 signals
+     • Pattern: high_risk_trader
+     • Confidence: 100%
+     • Signal: meme_exposure
+   → Action: Target with urgency-based scams, fake alpha
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🎯 OSINT VERDICTS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+⚡ [MEDIUM] HIGH-RISK TRADER PROFILE
+   Wallet shows impulsive trading behavior with meme coin exposure. Likely susceptible to FOMO-based attacks.
+     • Matched 3/3 signals
+     • Pattern: high_risk_trader
+     • Confidence: 100%
+   → Action: Target with urgency-based scams, fake alpha
 

@@ -178,20 +178,9 @@ Track your progress in `LEARNING_LOG.md`:
 - **Learned**: ...
 ```
 
-## The Bridge to Gargophias
-```
-BASILISK                            GARGOPHIAS
-════════                            ══════════
+## Working with Chimera wallet intelligence
 
-"I understand reentrancy"     →     "I detect who's exposed"
-
-exploits/reentrancy/          →     scanners/protocol_risk.py
-
-You PROVE the exploit         →     You FIND the victims
-```
-
-**Basilisk = The Weapon**  
-**Gargophias = The Targeting System**
+Contract assessments produced here can be passed to the Chimera menu (`python chimera/menu.py`) for **contract–wallet correlation** and **address intelligence** in walletHunter, so investigators can relate technical findings to on-chain counterparties in a controlled workflow.
 
 ## Requirements
 

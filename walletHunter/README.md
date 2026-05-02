@@ -1,8 +1,8 @@
-# Wallet Owner Profiler
+# Wallet intelligence (walletHunter)
 
 ![Logo](docs/screenshots/image.png)
 
-OSINT tool for analyzing Ethereum wallet addresses and generating behavioral profiles. Automatically discovers high-value wallets, categorizes them by psychological and behavioral patterns, and organizes everything for analysis.
+Ethereum address intelligence for **financial crime and security casework**: traces public on-chain activity, enriches addresses with OSINT where appropriate, and organizes outputs for **investigative triage** (not for unauthorized surveillance).
 
 ## Features
 
@@ -15,22 +15,22 @@ OSINT tool for analyzing Ethereum wallet addresses and generating behavioral pro
 - Contract interaction mapping
 - Address relationship analysis (top senders/recipients)
 
-**Whale Discovery**
-- Automatic high-value wallet discovery from top token holders
-- RPC-based balance scanning (no API limits)
-- Exchange and bot filtering
-- Portfolio value calculation
+**High-balance discovery**
+- Batch discovery from token holder lists (Moralis) or RPC-assisted scans
+- RPC-based balance checks (no API limits on RPC path)
+- Exchange and bot filtering where configured
+- Portfolio notional estimation for triage
 
-**OSINT Categorization**
-Profiles are automatically categorized into behavioral/psychological categories:
-- 🎯 Prime Targets (high value + low sophistication)
-- 🎰 Gamblers (meme coin traders, high risk)
-- 🆕 Newcomers (fresh wallets with money)
-- 🏆 Status Seekers (NFT collectors)
-- 💤 Dormant Whales (inactive large holders)
-- 🐟 Easy Targets (novice users)
-- 🦊 Cautious Holders (security-conscious)
-- 🧠 DeFi Natives (advanced users)
+**OSINT categorization**
+Profiles can be grouped into behavioral categories (folder names on disk are historical):
+- 🎯 Priority review (high balance + low sophistication indicators)
+- 🎰 High-velocity speculative activity
+- 🆕 Emerging or recently funded accounts
+- 🏆 NFT-heavy profiles
+- 💤 Inactive large holders
+- 🐟 Simplified triage queue indicators
+- 🦊 Security-conscious patterns
+- 🧠 Advanced DeFi usage patterns
 - And more...
 
 **Profile Management**
@@ -67,7 +67,7 @@ RPC_URL=https://eth.llamarpc.com
 **Required:**
 - **Etherscan API Key**: Get free key from [Etherscan](https://etherscan.io/apis) - used for transaction history
 
-**Optional (recommended for whale finder):**
+**Optional (recommended for holder-assisted discovery):**
 - **Moralis API Key**: Get free key from [Moralis](https://moralis.io) - 25k requests/day, enables top token holder queries
 - **RPC_URL**: Public RPC endpoint (default: llamarpc.com) - used for balance checks
 
@@ -85,11 +85,11 @@ python3 whale_menu.py
 ```
 
 The menu provides access to:
-- Hunt Whales (discover high-value wallets)
-- Profile Management (triage, organize, cleanup)
-- Analyze Address (single wallet profiling)
-- IPFS OSINT Scan (extract IPFS data from NFT metadata)
-- View Reports (browse categorized profiles)
+- Bulk address discovery (high-balance screening)
+- Profile management (triage, organize, cleanup)
+- Analyze address (single-address intelligence)
+- IPFS-linked artifact review (NFT metadata, where applicable)
+- View reports (browse categorized profiles)
 - Settings (API key management)
 
 ### Command Line
@@ -116,7 +116,7 @@ python main.py WALLET_ADDRESS --output profile.txt
 
 ## How It Works
 
-### Whale Hunting
+### Bulk discovery workflow
 
 1. Queries top token holders via Moralis API (or scans recent large transactions via RPC)
 2. Checks balances via direct RPC calls (no API limits)
@@ -131,7 +131,7 @@ python main.py WALLET_ADDRESS --output profile.txt
 ### Profile Organization
 
 All discovered profiles are automatically:
-- Categorized by behavioral patterns (gamblers, newcomers, etc.)
+- Categorized by behavioral patterns (speculative activity, newcomers, etc.)
 - Saved to OSINT category folders
 - Tagged with vulnerability assessments
 - Organized for easy browsing
@@ -168,7 +168,7 @@ Three triage modes available:
 **Priority Triage** (`priority_triage/triage.py`) - NEW
 - Priority scoring system with automatic triage
 - Single source of truth in `_all/` directory
-- Actionable targets in `🎯_actionable/` (symlinks)
+- Actionable profiles in `🎯_actionable/` (symlinks)
 - Automatic archival and trash cleanup
 
 **Standard Triage** (`priority_triage/legacy_triage.py`)
@@ -181,7 +181,7 @@ Three triage modes available:
 - Categorizes by behavioral patterns only
 - Saves directly to OSINT categories
 - No priority folders
-- Focused on attack vector classification
+- Focused on behavioral classification for triage
 
 Run triage from the menu or directly:
 ```bash
@@ -207,7 +207,7 @@ Each profile contains:
 - Behavioral profile
 - Activity patterns
 - Likely region/timezone
-- Attack vector suggestions
+- Risk and follow-up suggestions
 - Confidence assessment
 - IPFS OSINT findings (if NFT activity detected)
 

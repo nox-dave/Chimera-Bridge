@@ -1,0 +1,295 @@
+{
+  "address": "0xca4bc2199418b379400b3820ceb3c825b5552c6e",
+  "discovered_at": "2026-05-02T11:29:04.675945+00:00",
+  "total_value_usd": 95738.99530600857,
+  "eth_balance": 41.54575432138178,
+  "eth_value_usd": 95738.99530600857,
+  "token_holdings": {},
+  "risk_score": 60,
+  "tx_count": 1000,
+  "defi_activity": false,
+  "nft_activity": {},
+  "bridge_activity": false,
+  "age_days": 17,
+  "osint_categories": [
+    "\ud83c\udfb0_gamblers",
+    "\ud83c\udd95_newcomers"
+  ],
+  "primary_osint_category": "\ud83c\udfb0_gamblers",
+  "behavior": {
+    "confidence_score": 60,
+    "sophistication": "Intermediate",
+    "risk_tolerance": "Conservative",
+    "trading_style": "Active Trader",
+    "likely_region": "Europe",
+    "likely_timezone": "Europe/Africa (UTC+0 to +3)",
+    "meme_exposure": false,
+    "defi_protocols": [],
+    "nft_platforms": [],
+    "bridges_used": [],
+    "exchange_interactions": [],
+    "frequent_counterparties": []
+  },
+  "transaction_analysis": {
+    "total_transactions": 1000,
+    "total_value_eth": 0.014709528649329695,
+    "most_active_hour": 21,
+    "most_active_day": "Friday",
+    "top_recipients": [
+      [
+        "0x1f9840a85d5af5bf1d1762f925bdaddc4201f984",
+        895
+      ],
+      [
+        "0xca4bc2199418b379400b3820ceb3c825b5552c6e",
+        2
+      ],
+      [
+        "0x9890cdf116528f4d18f244c5bb5404c6ace60fdf",
+        1
+      ],
+      [
+        "0xcbfe24d8f37ba7a804787c41c369a1d27106abe8",
+        1
+      ],
+      [
+        "0x84b72cd4ba08a259efd8ed6df8433b85d5086c43",
+        1
+      ],
+      [
+        "0x525b2bf8e3bbfc87374163a20228bc5a99f88206",
+        1
+      ],
+      [
+        "0xe7cd6fa3f1876fd1558cdbd0da5973a67d1b2a96",
+        1
+      ],
+      [
+        "0xbf37931886d4d0944637fb235d1d83fad74fba86",
+        1
+      ],
+      [
+        "0xae9fdf41de0be7f93eefd0f213d03e07a34df888",
+        1
+      ],
+      [
+        "0xc3e32d91946066360c46cf4424d6ed7a05866377",
+        1
+      ]
+    ],
+    "top_senders": [
+      [
+        "0xca4bc2199418b379400b3820ceb3c825b5552c6e",
+        998
+      ],
+      [
+        "0x059c3a9c478eb4a0a862d62318e5aa1d2a190ee1",
+        1
+      ],
+      [
+        "0xe129500e76f11d975ec035651d841155de2e1612",
+        1
+      ]
+    ],
+    "first_transaction": "2026-04-02T21:23:23",
+    "last_transaction": "2026-05-02T12:44:59",
+    "avg_gas_used": 42265.676,
+    "avg_gas_price": 2147273966.3485355
+  },
+  "token_activity": {
+    "unique_tokens": 18,
+    "top_tokens": [
+      [
+        "UNI",
+        953
+      ],
+      [
+        "\u2130\u22a4\u0397",
+        8
+      ],
+      [
+        "\u2130\u22a4\u210b",
+        7
+      ],
+      [
+        "\u0395\u0422\u210b",
+        6
+      ],
+      [
+        "\u2130\ua4d4\u0397",
+        6
+      ],
+      [
+        "\ua4f0\u03a4\ua4e7",
+        5
+      ],
+      [
+        "\u0190\u0422\u041d",
+        2
+      ],
+      [
+        "XChat",
+        2
+      ],
+      [
+        "MotoGP",
+        2
+      ],
+      [
+        "\u0395\u22a4\u0397",
+        1
+      ],
+      [
+        "\u2130\u0422\u041d",
+        1
+      ],
+      [
+        "ALIGN",
+        1
+      ],
+      [
+        "SPK",
+        1
+      ],
+      [
+        "USDT",
+        1
+      ],
+      [
+        "HappyHorse",
+        1
+      ],
+      [
+        "Fluent",
+        1
+      ],
+      [
+        "\u0422oken",
+        1
+      ],
+      [
+        "CirBTC",
+        1
+      ]
+    ],
+    "token_values": {
+      "UNI": 2433957.8996362546,
+      "\u0395\u22a4\u0397": 0.000130705292763697,
+      "\u2130\u0422\u041d": 0.000128798372817548,
+      "\u0190\u0422\u041d": 0.000259269534402358,
+      "XChat": 10.0,
+      "ALIGN": 5.0,
+      "\u0395\u0422\u210b": 0.000742014800878424,
+      "\u2130\u22a4\u210b": 0.0008504784848365881,
+      "SPK": 5.0,
+      "USDT": 0.01,
+      "HappyHorse": 5.0,
+      "Fluent": 5.0,
+      "\u2130\u22a4\u0397": 0.0009711567938316529,
+      "\u2130\ua4d4\u0397": 0.000739771162249023,
+      "\ua4f0\u03a4\ua4e7": 0.0006085100954527031,
+      "\u0422oken": 108.80206,
+      "MotoGP": 10.0,
+      "CirBTC": 5.0
+    },
+    "token_details": {
+      "UNI": [
+        "Uniswap"
+      ],
+      "\u0395\u22a4\u0397": [
+        "\u0190\u03a4\ua4e7"
+      ],
+      "\u2130\u0422\u041d": [
+        "\u0190\ua4d4\ua4e7"
+      ],
+      "\u0190\u0422\u041d": [
+        "\ua4f0\u03a4\u210b"
+      ],
+      "XChat": [
+        "Elon Musk XChat",
+        "XChat App"
+      ],
+      "ALIGN": [
+        "Aligned Layer"
+      ],
+      "\u0395\u0422\u210b": [
+        "\u0395\u03a4\u210b"
+      ],
+      "\u2130\u22a4\u210b": [
+        "\u0395\u22a4\u0397"
+      ],
+      "SPK": [
+        "SPK"
+      ],
+      "USDT": [
+        "Tether USD"
+      ],
+      "HappyHorse": [
+        "Happy Horse"
+      ],
+      "Fluent": [
+        "Fluent"
+      ],
+      "\u2130\u22a4\u0397": [
+        "\u0415\u22a4\u0397"
+      ],
+      "\u2130\ua4d4\u0397": [
+        "\ua4f0\ua4d4\ua4e7"
+      ],
+      "\ua4f0\u03a4\ua4e7": [
+        "\ua4f0\u22a4\u0397"
+      ],
+      "\u0422oken": [
+        "\u0422oken"
+      ],
+      "MotoGP": [
+        "MotoGP"
+      ],
+      "CirBTC": [
+        "Circle Wrapped Bitcoin"
+      ]
+    }
+  },
+  "ipfs_osint": {
+    "skipped": true,
+    "reason": "no_nft_activity"
+  },
+  "ens": {
+    "address": "0xca4bc2199418b379400b3820ceb3c825b5552c6e",
+    "ens_name": null,
+    "text_records": {},
+    "social_links": {},
+    "has_ens": false,
+    "has_social_links": false
+  },
+  "approval_risk": {
+    "scan_timestamp": "2026-05-02T11:29:14.659758+00:00",
+    "total_approvals": 0,
+    "unlimited_approvals": 0,
+    "high_risk_approvals": 0,
+    "total_exposure_usd": 0,
+    "verdicts": [],
+    "has_dangerous_approvals": false
+  },
+  "funding_trace": {
+    "target": "0xca4bc2199418b379400b3820ceb3c825b5552c6e",
+    "trace_timestamp": "2026-05-02T11:29:13.696799+00:00",
+    "total_hops": 0,
+    "origin_found": false,
+    "origin_type": null,
+    "origin_label": null,
+    "trace_complete": false,
+    "trace_stopped_reason": "No funding transaction found",
+    "funding_chain": []
+  },
+  "token_risks": {
+    "scan_timestamp": "2026-05-02T11:29:15.455715+00:00",
+    "tokens_analyzed": 0,
+    "risky_tokens": 0,
+    "total_value_at_risk_usd": 0,
+    "has_risky_tokens": false,
+    "verdicts": [],
+    "honeypots_detected": 0,
+    "impersonators_detected": 0
+  }
+}

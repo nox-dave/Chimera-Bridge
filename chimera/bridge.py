@@ -1,15 +1,10 @@
 #!/usr/bin/env python3
 """
-Chimera Bridge - Connect vulnerable contracts to exposed wallets
+Contract–wallet correlation for financial crime and security casework.
 
-Flow:
-1. Load hunt results from contractHunter
-2. For each vulnerable contract:
-   - Query Etherscan for wallet interactions
-   - Filter out exchanges/contracts
-   - Estimate exposure amounts
-3. Feed wallets to walletHunter for profiling
-4. Generate exposure report
+Loads contract assessment batches from contractHunter, resolves on-chain
+interactions with each assessed contract, optionally enriches addresses through
+walletHunter, and writes correlation outputs for investigators.
 """
 
 import os
@@ -25,7 +20,7 @@ from dataclasses import dataclass, field, asdict
 
 @dataclass
 class ExposedWallet:
-    """Wallet with exposure to vulnerable contract"""
+    """Address with estimated notional exposure linked to a contract under assessment."""
     address: str
     interaction_count: int = 0
     last_interaction: str = ""
@@ -36,7 +31,7 @@ class ExposedWallet:
 
 @dataclass
 class ContractExposure:
-    """Exposure report for a single vulnerable contract"""
+    """Correlation summary for one assessed contract and its interacting addresses."""
     contract_address: str
     contract_name: str
     chain: str
@@ -53,7 +48,7 @@ class ContractExposure:
 
 @dataclass 
 class BridgeResult:
-    """Complete bridge analysis result"""
+    """Full correlation run across one or more contracts."""
     contracts_analyzed: int = 0
     total_wallets_found: int = 0
     total_exposure_usd: float = 0.0
@@ -80,7 +75,7 @@ CONTRACT_PATTERNS = [
 
 
 class ChimeraBridge:
-    """Bridge between contractHunter and walletHunter"""
+    """Correlates contractHunter assessments with on-chain address activity."""
     
     def __init__(
         self,
@@ -161,9 +156,7 @@ class ChimeraBridge:
         max_transactions: int = 1000,
     ) -> List[Dict]:
         """
-        Get wallets that interacted with a contract.
-        
-        Returns list of unique wallet addresses with interaction info.
+        Return externally owned addresses that sent or received transactions involving the contract.
         """
         if not contract_address or contract_address.strip() == "":
             return []
@@ -215,7 +208,7 @@ class ChimeraBridge:
             except Exception as e:
                 print(f"[!] Error fetching transactions: {e}")
         
-        print(f"    Found {len(interactions)} unique wallet interactions")
+        print(f"    Found {len(interactions)} unique address interactions")
         return interactions
     
     def _is_excluded_address(self, address: str) -> bool:
@@ -238,12 +231,7 @@ class ChimeraBridge:
         chain: str = "ethereum",
     ) -> float:
         """
-        Estimate wallet's exposure to a contract.
-        
-        This is a simplified estimation - real exposure would require:
-        - Querying token balances
-        - Checking LP positions
-        - Reading contract state
+        Estimate notional exposure of an address relative to a contract (simplified heuristic).
         """
         return 0.0
     
@@ -259,9 +247,9 @@ class ChimeraBridge:
         profile_wallets: bool = False,
     ) -> ContractExposure:
         """
-        Analyze a single vulnerable contract for exposed wallets.
+        Resolve interacting addresses for one assessed contract and optional profiling.
         """
-        print(f"\n🔗 Bridging: {contract_name}")
+        print(f"\n🔗 Correlating: {contract_name}")
         print(f"   Contract: {contract_address[:20] if contract_address else 'N/A'}...")
         print(f"   Chain: {chain}")
         
@@ -332,7 +320,7 @@ class ChimeraBridge:
             scan_timestamp=datetime.now().isoformat(),
         )
         
-        print(f"   ✅ Found {len(interactions)} wallets ({high_value} high-value)")
+        print(f"   ✅ Resolved {len(interactions)} interacting addresses ({high_value} above $100k notional)")
         
         return exposure
     
@@ -346,19 +334,19 @@ class ChimeraBridge:
         verbose: bool = True,
     ) -> BridgeResult:
         """
-        Bridge hunt results to wallet exposure analysis.
+        Correlate a contractHunter assessment batch with on-chain address activity.
         
         Args:
             hunt_results_path: Path to hunt_*.json from contractHunter
             max_contracts: Maximum contracts to analyze
-            max_wallets_per_contract: Max wallets to fetch per contract
+            max_wallets_per_contract: Max interacting addresses to fetch per contract
             profile_wallets: Whether to run full walletHunter profiling
             min_severity: Minimum vulnerability severity to include
             verbose: Print progress output
         """
         if verbose:
             print("\n" + "=" * 60)
-            print("🔗 CHIMERA BRIDGE - Contract → Wallet Analysis")
+            print("🔗 CONTRACT–WALLET CORRELATION")
             print("=" * 60)
         
         with open(hunt_results_path, 'r') as f:
@@ -366,7 +354,7 @@ class ChimeraBridge:
         
         targets = hunt_data.get("targets", [])
         if verbose:
-            print(f"\n📂 Loaded {len(targets)} targets from hunt results")
+            print(f"\n📂 Loaded {len(targets)} protocol entries from assessment batch")
         
         severity_order = ["CRITICAL", "HIGH", "MEDIUM", "LOW", "INFO"]
         min_sev_idx = severity_order.index(min_severity.upper()) if min_severity.upper() in severity_order else 1
@@ -461,26 +449,25 @@ class ChimeraBridge:
         return result
     
     def _print_summary(self, result: BridgeResult):
-        """Print bridge analysis summary"""
         print("\n" + "=" * 60)
-        print("📊 BRIDGE ANALYSIS COMPLETE")
+        print("📊 CORRELATION RUN COMPLETE")
         print("=" * 60)
         
-        print(f"\n{'Contracts Analyzed:':<25} {result.contracts_analyzed}")
-        print(f"{'Total Wallets Found:':<25} {result.total_wallets_found}")
-        print(f"{'Total Exposure (USD):':<25} ${result.total_exposure_usd:,.0f}")
+        print(f"\n{'Contracts analyzed:':<25} {result.contracts_analyzed}")
+        print(f"{'Interacting addresses:':<25} {result.total_wallets_found}")
+        print(f"{'Total notional (USD):':<25} ${result.total_exposure_usd:,.0f}")
         
         if result.exposures:
-            print("\n🎯 Exposure by Contract:")
+            print("\n🎯 By contract:")
             print("-" * 60)
             
             for exp in sorted(result.exposures, key=lambda x: x.total_wallets, reverse=True):
                 sev_emoji = {"CRITICAL": "🚨", "HIGH": "⚠️", "MEDIUM": "⚡", "LOW": "📌"}.get(exp.highest_severity, "ℹ️")
                 print(f"\n   {exp.contract_name}")
-                print(f"   {sev_emoji} {exp.vulnerability_count} vulns ({exp.highest_severity})")
-                print(f"   👥 {exp.total_wallets} wallets interacted")
+                print(f"   {sev_emoji} {exp.vulnerability_count} findings ({exp.highest_severity})")
+                print(f"   👥 {exp.total_wallets} addresses with interaction history")
                 if exp.high_value_wallets > 0:
-                    print(f"   💰 {exp.high_value_wallets} high-value wallets (>$100k)")
+                    print(f"   💰 {exp.high_value_wallets} addresses above $100k notional")
     
     def _save_results(self, result: BridgeResult, source_path: str):
         """Save bridge results to JSON"""
@@ -534,7 +521,7 @@ class ChimeraBridge:
         """Generate markdown exposure report"""
         lines = []
         
-        lines.append("# 🔗 Chimera Bridge - Exposure Report")
+        lines.append("# 🔗 Contract–wallet correlation report")
         lines.append("")
         lines.append(f"> Generated: {result.timestamp}")
         lines.append("")
@@ -544,14 +531,14 @@ class ChimeraBridge:
         lines.append("| Metric | Value |")
         lines.append("|--------|-------|")
         lines.append(f"| Contracts Analyzed | {result.contracts_analyzed} |")
-        lines.append(f"| Total Wallets Found | {result.total_wallets_found} |")
+        lines.append(f"| Interacting addresses | {result.total_wallets_found} |")
         lines.append(f"| Total Exposure | ${result.total_exposure_usd:,.0f} |")
         lines.append("")
         
-        lines.append("## Exposure by Contract")
+        lines.append("## Correlation by contract")
         lines.append("")
-        lines.append("| Contract | Category | Severity | Wallets | High-Value |")
-        lines.append("|----------|----------|----------|---------|------------|")
+        lines.append("| Contract | Category | Severity | Addresses | High notional |")
+        lines.append("|----------|----------|----------|-----------|---------------|")
         
         for exp in sorted(result.exposures, key=lambda x: x.total_wallets, reverse=True):
             sev_emoji = {"CRITICAL": "🚨", "HIGH": "⚠️", "MEDIUM": "⚡"}.get(exp.highest_severity, "📌")
@@ -559,7 +546,7 @@ class ChimeraBridge:
         
         lines.append("")
         
-        lines.append("## Contract Details")
+        lines.append("## Contract details")
         lines.append("")
         
         for exp in result.exposures:
@@ -569,11 +556,11 @@ class ChimeraBridge:
             lines.append(f"- **Chain**: {exp.chain}")
             lines.append(f"- **TVL**: ${exp.tvl:,.0f}")
             lines.append(f"- **Vulnerabilities**: {exp.vulnerability_count} ({exp.highest_severity})")
-            lines.append(f"- **Wallets Exposed**: {exp.total_wallets}")
+            lines.append(f"- **Interacting addresses**: {exp.total_wallets}")
             lines.append("")
             
             if exp.exposed_wallets:
-                lines.append("**Top Exposed Wallets:**")
+                lines.append("**Highest notional exposure (sample):**")
                 lines.append("")
                 lines.append("| Address | Interaction Type | Exposure |")
                 lines.append("|---------|-----------------|----------|")
@@ -586,7 +573,7 @@ class ChimeraBridge:
                 lines.append("")
         
         lines.append("---")
-        lines.append("*Generated by Chimera Bridge*")
+        lines.append("*Generated by Chimera contract–wallet correlation*")
         
         with open(output_path, 'w') as f:
             f.write("\n".join(lines))
@@ -604,7 +591,7 @@ class ChimeraBridge:
         lines = []
         
         lines.append("=" * 60)
-        lines.append("🔗 CHIMERA BRIDGE - EXPOSURE SUMMARY")
+        lines.append("🔗 CONTRACT–WALLET CORRELATION — SUMMARY")
         lines.append("=" * 60)
         lines.append("")
         
@@ -613,12 +600,12 @@ class ChimeraBridge:
         high_value = sum(e.high_value_wallets for e in exposures)
         
         lines.append(f"{'Contracts Analyzed:':<25} {len(exposures)}")
-        lines.append(f"{'Total Wallets Found:':<25} {total_wallets}")
-        lines.append(f"{'High-Value Wallets:':<25} {high_value}")
-        lines.append(f"{'Total Exposure (USD):':<25} ${total_exposure:,.0f}")
+        lines.append(f"{'Interacting addresses:':<25} {total_wallets}")
+        lines.append(f"{'Above $100k notional:':<25} {high_value}")
+        lines.append(f"{'Total notional (USD):':<25} ${total_exposure:,.0f}")
         lines.append("")
         
-        lines.append("EXPOSURE BY CONTRACT:")
+        lines.append("BY CONTRACT:")
         lines.append("-" * 60)
         
         for exp in sorted(exposures, key=lambda x: x.total_wallets, reverse=True):
@@ -632,13 +619,13 @@ class ChimeraBridge:
             lines.append(f"\n{exp.contract_name}")
             lines.append(f"   Address: {exp.contract_address[:20]}...")
             lines.append(f"   {sev_emoji} {exp.vulnerability_count} vulnerabilities ({exp.highest_severity})")
-            lines.append(f"   👥 {exp.total_wallets} wallets interacted")
+            lines.append(f"   👥 {exp.total_wallets} addresses with interactions")
             
             if exp.high_value_wallets > 0:
-                lines.append(f"   💰 {exp.high_value_wallets} high-value wallets (>$100k)")
+                lines.append(f"   💰 {exp.high_value_wallets} addresses above $100k notional")
             
             if exp.exposed_wallets:
-                lines.append(f"   Top wallets:")
+                lines.append(f"   Sample addresses:")
                 for wallet in exp.exposed_wallets[:5]:
                     addr_short = f"{wallet.address[:10]}...{wallet.address[-6:]}"
                     lines.append(f"      • {addr_short} ({wallet.interaction_type})")
@@ -653,8 +640,8 @@ async def main():
     """CLI entry point"""
     import argparse
     
-    parser = argparse.ArgumentParser(description="Chimera Bridge - Contract to Wallet Analysis")
-    parser.add_argument("--hunt-results", "-r", required=True, help="Path to hunt_*.json")
+    parser = argparse.ArgumentParser(description="Chimera contract–wallet correlation (CLI)")
+    parser.add_argument("--hunt-results", "-r", required=True, help="Path to contractHunter hunt_*.json batch")
     parser.add_argument("--max-contracts", "-c", type=int, default=10, help="Max contracts to analyze")
     parser.add_argument("--max-wallets", "-w", type=int, default=50, help="Max wallets per contract")
     parser.add_argument("--profile", "-p", action="store_true", help="Run full walletHunter profiling")

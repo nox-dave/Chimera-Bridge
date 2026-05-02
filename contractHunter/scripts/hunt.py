@@ -1,19 +1,19 @@
 #!/usr/bin/env python3
 """
-🔱 Basilisk Contract Hunter - CLI Entry Point
+Chimera contract analysis — CLI entry (scripts/hunt.py).
 
-Hunt for vulnerable smart contracts using DeFiLlama data.
+Discover and assess DeFi protocols using DeFiLlama and local scanners.
 
 Usage:
-    # Run preset hunts
+    # Preset assessment runs
     python scripts/hunt.py --preset fresh_whales
     python scripts/hunt.py --preset lending_risks
     python scripts/hunt.py --preset bridge_targets
     
-    # Custom hunt
+    # Filtered run
     python scripts/hunt.py --min-tvl 500000 --unaudited --category Lending
     
-    # Find fast-growing protocols
+    # Fast-growing protocols
     python scripts/hunt.py --growing --min-tvl 100000
     
     # List available presets
@@ -44,9 +44,9 @@ def print_banner():
     banner = """
     ╔══════════════════════════════════════════════════════════╗
     ║                                                          ║
-    ║   🔱 BASILISK CONTRACT HUNTER                            ║
+    ║   🔱 CHIMERA CONTRACT ANALYSIS                           ║
     ║                                                          ║
-    ║   Discovery Engine for Vulnerable Smart Contracts        ║
+    ║   Protocol discovery and technical risk assessment       ║
     ║                                                          ║
     ╚══════════════════════════════════════════════════════════╝
     """
@@ -55,13 +55,13 @@ def print_banner():
 
 async def main():
     parser = argparse.ArgumentParser(
-        description="Basilisk Contract Hunter - Find vulnerable protocols",
+        description="Chimera contract analysis — discover and assess protocols",
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 Examples:
-  %(prog)s --preset fresh_whales          # Hunt unaudited high-TVL protocols
-  %(prog)s --preset lending_risks           # Hunt lending protocols
-  %(prog)s --min-tvl 1000000 --unaudited    # Custom hunt
+  %(prog)s --preset fresh_whales          # Scan unaudited high-TVL protocols
+  %(prog)s --preset lending_risks           # Scan lending protocols
+  %(prog)s --min-tvl 1000000 --unaudited    # Custom filtered run
   %(prog)s --growing                       # Find fast-growing protocols
   %(prog)s --list-presets                  # Show all presets
         """

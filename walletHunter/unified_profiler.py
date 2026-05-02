@@ -472,7 +472,7 @@ def hunt_whales_unified(
     api_key: Optional[str] = None
 ) -> List[Dict]:
     print("╔══════════════════════════════════════════════════════════════════════════════╗")
-    print("║                         🐋 UNIFIED WHALE HUNTER                              ║")
+    print("║                    🐋 UNIFIED ADDRESS INTELLIGENCE BATCH                      ║")
     print("╚══════════════════════════════════════════════════════════════════════════════╝")
     print()
     print(f"  Min Balance: ${min_balance:,}")
@@ -480,16 +480,16 @@ def hunt_whales_unified(
     print(f"  IPFS OSINT: {'Enabled' if include_ipfs else 'Disabled'}")
     print()
     
-    print("🔍 Phase 1: Discovering whales...")
+    print("🔍 Phase 1: Discovering high-balance addresses...")
     wallet_profiler = WalletProfiler(api_key=api_key)
     discovered_wallets = wallet_profiler.find_high_value_wallets(min_balance_usd=min_balance, limit=limit)
     
     if not discovered_wallets:
-        print("   No whales found matching criteria.")
+        print("   No addresses matched the balance criteria.")
         return []
     
     discovered_addresses = [w.get('address', '').lower() for w in discovered_wallets if w.get('address')]
-    print(f"   Found {len(discovered_addresses)} potential targets")
+    print(f"   Found {len(discovered_addresses)} candidate addresses")
     
     print(f"\n🐋 Phase 2: Generating full profiles...")
     
@@ -521,7 +521,7 @@ def hunt_whales_unified(
             time.sleep(1)
     
     print("\n" + "="*70)
-    print("✅ HUNT COMPLETE")
+    print("✅ BATCH PROFILING COMPLETE")
     print("="*70)
     print(f"  Profiles generated: {len(profiles)}")
     
@@ -559,11 +559,11 @@ def hunt_whales_unified(
 def main():
     import argparse
     
-    parser = argparse.ArgumentParser(description="Unified Whale Profiler")
-    parser.add_argument("--hunt", action="store_true", help="Hunt for whales")
+    parser = argparse.ArgumentParser(description="Unified address intelligence profiler")
+    parser.add_argument("--hunt", action="store_true", help="Bulk-discover and profile high-balance addresses")
     parser.add_argument("--address", type=str, help="Profile single address")
     parser.add_argument("--min-balance", type=int, default=100000, help="Minimum balance (USD)")
-    parser.add_argument("--limit", type=int, default=10, help="Max whales to discover")
+    parser.add_argument("--limit", type=int, default=10, help="Max addresses to process in batch mode")
     parser.add_argument("--no-ipfs", action="store_true", help="Skip IPFS scanning")
     parser.add_argument("--fast", action="store_true", help="Fast mode (skip IPFS + ENS)")
     parser.add_argument("--api-key", type=str, help="Etherscan API key")
